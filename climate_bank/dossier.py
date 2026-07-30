@@ -113,6 +113,17 @@ def _evidence_table_line(record: dict[str, Any]) -> str:
     )
 
 
+def _bibliography_date(source: dict[str, Any]) -> str:
+    """Render stored date precision and provenance with one fixed null label."""
+    publication_date = source["publication_date"]
+    display_date = (
+        publication_date
+        if publication_date is not None
+        else "publication date not stated"
+    )
+    return f"{display_date} (date basis: {source['publication_date_basis']})"
+
+
 def build_dossier(country_dir: Path) -> str:
     """Build a dossier using only validated ledger values and fixed labels."""
     country_dir = Path(country_dir)
@@ -238,7 +249,7 @@ def build_dossier(country_dir: Path) -> str:
     for source in referenced_sources:
         lines.append(
             f"- {source['organization']}. {source['title']}. "
-            f"{source['publication_date']}. {source['url']} "
+            f"{_bibliography_date(source)}. {source['url']} "
             f"[{source['source_id']}]"
         )
 

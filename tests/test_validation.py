@@ -612,3 +612,82 @@ def test_malformed_runtime_source_reference_returns_errors_without_raising():
     errors = validation.validate_runtime_release(release)
     assert errors
     assert errors == sorted(set(errors))
+
+@pytest.mark.parametrize(
+    ("publication_date", "basis"),
+    [
+        ("2025-04-30", "publication"),
+        ("2025-04", "publication"),
+        ("2025", "version"),
+        (None, "not-stated"),
+        ("2021-09-21", "submission"),
+        ("2022-06-27", "portal-publication"),
+        ("2021-12-24", "document-version"),
+    ],
+)
+def test_source_publication_date_precision_and_basis_are_accepted(
+    publication_date, basis
+):
+    sources = read(FIXTURE_DIR / "sources.json")
+    for source in sources:
+        source["publication_date_basis"] = "publication"
+    sources[0]["publication_date"] = publication_date
+    sources[0]["publication_date_basis"] = basis
+
+    assert validation._schema_errors(
+        sources, "source.schema.json", "sources.json"
+    ) == []
+
+
+@pytest.mark.parametrize(
+    "publication_date",
+    ["2025-1", "2025-00", "2025-13", "2025-04-1", "2025-02-29", "2025/04/01", ""],
+)
+def test_malformed_source_publication_date_precision_is_rejected(publication_date):
+    sources = read(FIXTURE_DIR / "sources.json")
+    for source in sources:
+        source["publication_date_basis"] = "publication"
+    sources[0]["publication_date"] = publication_date
+
+    assert validation._schema_errors(
+        sources, "source.schema.json", "sources.json"
+    )
+
+
+def test_source_publication_date_basis_is_required_and_enumerated():
+    sources = read(FIXTURE_DIR / "sources.json")
+    for source in sources:
+        source["publication_date_basis"] = "publication"
+    del sources[0]["publication_date_basis"]
+    missing_errors = validation._schema_errors(
+        sources, "source.schema.json", "sources.json"
+    )
+    sources[0]["publication_date_basis"] = "invented-date"
+    invalid_errors = validation._schema_errors(
+        sources, "source.schema.json", "sources.json"
+    )
+
+    assert missing_errors
+    assert invalid_errors
+
+
+@pytest.mark.parametrize(
+    ("publication_date", "basis", "is_valid"),
+    [
+        (None, "not-stated", True),
+        ("2025", "publication", True),
+        (None, "publication", False),
+        ("2025", "not-stated", False),
+    ],
+)
+def test_source_publication_date_and_basis_are_cross_field_consistent(
+    publication_date, basis, is_valid
+):
+    sources = read(FIXTURE_DIR / "sources.json")
+    sources[0]["publication_date"] = publication_date
+    sources[0]["publication_date_basis"] = basis
+
+    errors = validation._schema_errors(
+        sources, "source.schema.json", "sources.json"
+    )
+    assert (errors == []) is is_valid

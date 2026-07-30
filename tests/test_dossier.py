@@ -247,3 +247,19 @@ def test_dossier_cli_invalid_country_returns_nonzero(
 
     assert result != 0
     assert "missing file" in capsys.readouterr().err
+
+
+def test_bibliography_preserves_date_precision_and_shows_basis(tmp_path: Path) -> None:
+    country_dir = copied_country(tmp_path)
+    sources = _read(country_dir / "sources.json")
+    sources[0]["publication_date"] = "2025-01"
+    sources[0]["publication_date_basis"] = "publication"
+    sources[1]["publication_date"] = None
+    sources[1]["publication_date_basis"] = "not-stated"
+    _write(country_dir / "sources.json", sources)
+
+    bibliography = build_dossier(country_dir).split(HEADINGS[10], 1)[1]
+
+    assert "2025-01 (date basis: publication)" in bibliography
+    assert "publication date not stated (date basis: not-stated)" in bibliography
+    assert ". None." not in bibliography
