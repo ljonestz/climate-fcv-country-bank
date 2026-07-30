@@ -1,6 +1,58 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/pathway.schema.json",
   "title": "Climate-FCV pathway records",
   "type": "array",
-  "items": {"type": "object"}
+  "items": {"$ref": "#/$defs/pathway"},
+  "$defs": {
+    "nonEmptyString": {"type": "string", "pattern": "\\S"},
+    "stringArray": {"type": "array", "items": {"$ref": "#/$defs/nonEmptyString"}, "uniqueItems": true},
+    "evidenceIds": {"type": "array", "items": {"type": "string", "pattern": "^[A-Z]{3}-E-[0-9]{3}$"}, "minItems": 1, "uniqueItems": true},
+    "linkEvidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["pressure", "impact", "mediator", "consequence"],
+      "properties": {
+        "pressure": {"$ref": "#/$defs/evidenceIds"},
+        "impact": {"$ref": "#/$defs/evidenceIds"},
+        "mediator": {"$ref": "#/$defs/evidenceIds"},
+        "consequence": {"$ref": "#/$defs/evidenceIds"}
+      }
+    },
+    "pathway": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pathway_id", "iso3", "climate_pressure", "documented_impact",
+        "fcv_mediator", "possible_consequence", "geographies", "affected_groups",
+        "sectors", "systems_assets_resources", "institutions",
+        "supporting_evidence_ids", "link_evidence", "evidence_strength",
+        "alternative_explanations", "uncertainty", "resilience_factors",
+        "compact_statement", "interaction_direction", "review_status", "review_date"
+      ],
+      "properties": {
+        "pathway_id": {"type": "string", "pattern": "^[A-Z]{3}-P-[0-9]{3}$"},
+        "iso3": {"type": "string", "pattern": "^[A-Z]{3}$"},
+        "climate_pressure": {"$ref": "#/$defs/nonEmptyString"},
+        "documented_impact": {"$ref": "#/$defs/nonEmptyString"},
+        "fcv_mediator": {"$ref": "#/$defs/nonEmptyString"},
+        "possible_consequence": {"$ref": "#/$defs/nonEmptyString"},
+        "geographies": {"$ref": "#/$defs/stringArray"},
+        "affected_groups": {"$ref": "#/$defs/stringArray"},
+        "sectors": {"$ref": "#/$defs/stringArray"},
+        "systems_assets_resources": {"$ref": "#/$defs/stringArray"},
+        "institutions": {"$ref": "#/$defs/stringArray"},
+        "supporting_evidence_ids": {"$ref": "#/$defs/evidenceIds"},
+        "link_evidence": {"$ref": "#/$defs/linkEvidence"},
+        "evidence_strength": {"enum": ["direct", "triangulated", "analytical-inference"]},
+        "alternative_explanations": {"type": "array", "items": {"$ref": "#/$defs/nonEmptyString"}, "minItems": 1, "uniqueItems": true},
+        "uncertainty": {"$ref": "#/$defs/nonEmptyString"},
+        "resilience_factors": {"$ref": "#/$defs/stringArray"},
+        "compact_statement": {"$ref": "#/$defs/nonEmptyString"},
+        "interaction_direction": {"enum": ["climate-to-fcv", "fcv-to-climate", "bidirectional"]},
+        "review_status": {"enum": ["draft", "reviewed", "approved", "stale", "rejected"]},
+        "review_date": {"oneOf": [{"type": "null"}, {"type": "string", "format": "date"}]}
+      }
+    }
+  }
 }

@@ -1,6 +1,74 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Approved runtime release records",
-  "type": "array",
-  "items": {"type": "object"}
+  "$id": "https://example.org/schemas/runtime-release.schema.json",
+  "title": "Approved runtime release",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "content_version", "generated_at", "countries", "sources",
+    "evidence_records", "pathways", "source_manifest_checksum"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "content_version": {"type": "string", "pattern": "\\S"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "countries": {
+      "type": "object",
+      "patternProperties": {"^[A-Z]{3}$": {"$ref": "#/$defs/countrySummary"}},
+      "additionalProperties": false,
+      "minProperties": 1
+    },
+    "sources": {
+      "type": "array",
+      "items": {"$ref": "source.schema.json#/$defs/source"}
+    },
+    "evidence_records": {
+      "type": "array",
+      "items": {
+        "allOf": [
+          {"$ref": "evidence.schema.json#/$defs/evidence"},
+          {"properties": {
+            "review_status": {"const": "approved"},
+            "review_date": {"type": "string", "format": "date"}
+          }}
+        ]
+      }
+    },
+    "pathways": {
+      "type": "array",
+      "items": {
+        "allOf": [
+          {"$ref": "pathway.schema.json#/$defs/pathway"},
+          {"properties": {
+            "review_status": {"const": "approved"},
+            "review_date": {"type": "string", "format": "date"}
+          }}
+        ]
+      }
+    },
+    "source_manifest_checksum": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  },
+  "$defs": {
+    "countrySummary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "iso3", "name", "aliases", "status", "reviewer", "reviewed_on",
+        "review_due", "dossier_path", "evidence_ids", "pathway_ids", "decision_notes"
+      ],
+      "properties": {
+        "iso3": {"type": "string", "pattern": "^[A-Z]{3}$"},
+        "name": {"type": "string", "pattern": "\\S"},
+        "aliases": {"type": "array", "items": {"type": "string", "pattern": "\\S"}, "uniqueItems": true},
+        "status": {"const": "approved"},
+        "reviewer": {"type": "string", "pattern": "\\S"},
+        "reviewed_on": {"type": "string", "format": "date"},
+        "review_due": {"type": "string", "format": "date"},
+        "dossier_path": {"type": "string", "pattern": "^(?![A-Za-z]:)(?![\\\\/])(?!.*(?:^|[\\\\/])\\.\\.(?:[\\\\/]|$))(?!.*(?:^|[\\\\/])source_documents(?:[\\\\/]|$))\\S+$"},
+        "evidence_ids": {"type": "array", "items": {"type": "string", "pattern": "^[A-Z]{3}-E-[0-9]{3}$"}, "uniqueItems": true},
+        "pathway_ids": {"type": "array", "items": {"type": "string", "pattern": "^[A-Z]{3}-P-[0-9]{3}$"}, "uniqueItems": true},
+        "decision_notes": {"type": "string", "pattern": "\\S"}
+      }
+    }
+  }
 }

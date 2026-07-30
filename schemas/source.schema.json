@@ -1,6 +1,50 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/source.schema.json",
   "title": "Source records",
   "type": "array",
-  "items": {"type": "object"}
+  "items": {"$ref": "#/$defs/source"},
+  "$defs": {
+    "nonEmptyString": {"type": "string", "pattern": "\\S"},
+    "nonEmptyStringArray": {"type": "array", "items": {"$ref": "#/$defs/nonEmptyString"}, "minItems": 1, "uniqueItems": true},
+    "repoPath": {"type": "string", "pattern": "^(?![A-Za-z]:)(?![\\\\/])(?!.*(?:^|[\\\\/])\\.\\.(?:[\\\\/]|$))(?!.*(?:^|[\\\\/])source_documents(?:[\\\\/]|$))\\S+$"},
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id", "title", "organization", "publication_date", "url",
+        "repository_file", "source_type", "analytical_roles", "country_codes",
+        "geographic_coverage", "temporal_coverage", "accessed_on", "methodology",
+        "limitations", "license_status", "checksum"
+      ],
+      "properties": {
+        "source_id": {"type": "string", "pattern": "^[A-Z]{3}-SRC-[0-9]{3}$", "not": {"const": "general-knowledge"}},
+        "title": {"$ref": "#/$defs/nonEmptyString"},
+        "organization": {"$ref": "#/$defs/nonEmptyString"},
+        "publication_date": {"type": "string", "format": "date"},
+        "url": {"type": "string", "format": "uri", "pattern": "^https://"},
+        "repository_file": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/repoPath"}]},
+        "source_type": {"enum": [
+          "government-report", "un-report", "mdb-report", "ngo-report",
+          "think-tank-report", "academic-publication", "dataset", "web-page",
+          "pdf-report", "other-report"
+        ]},
+        "analytical_roles": {"type": "array", "items": {"enum": [
+          "direct-climate-fcv", "vulnerability-capacity", "physical-baseline"
+        ]}, "minItems": 1, "uniqueItems": true},
+        "country_codes": {"type": "array", "items": {"type": "string", "pattern": "^[A-Z]{3}$"}, "minItems": 1, "uniqueItems": true},
+        "geographic_coverage": {"$ref": "#/$defs/nonEmptyStringArray"},
+        "temporal_coverage": {"$ref": "#/$defs/nonEmptyString"},
+        "accessed_on": {"type": "string", "format": "date"},
+        "methodology": {"$ref": "#/$defs/nonEmptyString"},
+        "limitations": {"$ref": "#/$defs/nonEmptyString"},
+        "license_status": {"enum": ["open", "restricted", "permission-required", "unknown"]},
+        "checksum": {"oneOf": [{"type": "null"}, {"type": "string", "pattern": "^[a-f0-9]{64}$"}]}
+      },
+      "allOf": [
+        {"if": {"properties": {"repository_file": {"type": "string"}}}, "then": {"properties": {"checksum": {"type": "string", "pattern": "^[a-f0-9]{64}$"}}}},
+        {"if": {"properties": {"repository_file": {"type": "null"}}}, "then": {"properties": {"checksum": {"type": "null"}}}}
+      ]
+    }
+  }
 }

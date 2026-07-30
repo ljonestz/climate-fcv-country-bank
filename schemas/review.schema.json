@@ -1,6 +1,25 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Review decision records",
-  "type": "array",
-  "items": {"type": "object"}
+  "$id": "https://example.org/schemas/review.schema.json",
+  "title": "Country review decision",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "iso3", "country_name", "country_aliases", "status", "reviewer",
+    "reviewed_on", "review_due", "dossier_path", "evidence_ids",
+    "pathway_ids", "decision_notes"
+  ],
+  "properties": {
+    "iso3": {"type": "string", "pattern": "^[A-Z]{3}$"},
+    "country_name": {"type": "string", "pattern": "\\S"},
+    "country_aliases": {"type": "array", "items": {"type": "string", "pattern": "\\S"}, "uniqueItems": true},
+    "status": {"enum": ["draft", "reviewed", "approved", "stale", "rejected"]},
+    "reviewer": {"oneOf": [{"type": "null"}, {"type": "string", "pattern": "\\S"}]},
+    "reviewed_on": {"oneOf": [{"type": "null"}, {"type": "string", "format": "date"}]},
+    "review_due": {"oneOf": [{"type": "null"}, {"type": "string", "format": "date"}]},
+    "dossier_path": {"type": "string", "pattern": "^(?![A-Za-z]:)(?![\\\\/])(?!.*(?:^|[\\\\/])\\.\\.(?:[\\\\/]|$))(?!.*(?:^|[\\\\/])source_documents(?:[\\\\/]|$))\\S+$"},
+    "evidence_ids": {"type": "array", "items": {"type": "string", "pattern": "^[A-Z]{3}-E-[0-9]{3}$"}, "uniqueItems": true},
+    "pathway_ids": {"type": "array", "items": {"type": "string", "pattern": "^[A-Z]{3}-P-[0-9]{3}$"}, "uniqueItems": true},
+    "decision_notes": {"type": "string", "pattern": "\\S"}
+  }
 }
