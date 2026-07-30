@@ -43,6 +43,8 @@ def test_required_scaffold_paths_exist() -> None:
         "climate_bank/release.py",
         "climate_bank/dossier.py",
         "scripts/__init__.py",
+        "scripts/build_release.py",
+        "scripts/build_dossier.py",
     )
 
     missing_paths = [
