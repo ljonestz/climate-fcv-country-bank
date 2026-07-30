@@ -95,7 +95,7 @@ EXPECTED_SOURCES = {
     "SSD-SRC-012": {
         "url": (
             "https://climateknowledgeportal.worldbank.org/"
-            "country/south-sudan/resources"
+            "country/south-sudan/era5-historical"
         ),
         "roles": {"physical-baseline"},
         "source_type": "web-page",
@@ -108,7 +108,7 @@ EXPECTED_LIMITATION_MARKERS = {
     "SSD-SRC-007": ("publication year 2021", "year precision"),
     "SSD-SRC-008": ("portal publication date", "2022-06-27", "2021-12-24"),
     "SSD-SRC-009": ("version 2021", "stated version year"),
-    "SSD-SRC-012": ("no fixed publication date", "basis not-stated"),
+    "SSD-SRC-012": ("living page", "era5", "national"),
 }
 
 
@@ -189,28 +189,32 @@ def test_south_sudan_sources_have_specific_and_transparent_notes() -> None:
     assert "government submission" in by_id["SSD-SRC-006"]["methodology"].lower()
     assert "two quantitative tools" in by_id["SSD-SRC-007"]["methodology"].lower()
     assert "composite country risk index" in by_id["SSD-SRC-009"]["methodology"].lower()
-    assert "curates public national climate documents" in by_id["SSD-SRC-012"]["methodology"].lower()
+    era5 = by_id["SSD-SRC-012"]
+    assert era5["title"] == "South Sudan Climatology (ERA5)"
+    assert era5["geographic_coverage"] == ["South Sudan (national)"]
+    assert era5["temporal_coverage"] == (
+        "ERA5 climatology for 1991-2020 and historical daily data for 1950-2023."
+    )
+    assert "era5 reanalysis-derived" in era5["methodology"].lower()
+    assert "0.25-degree resolution" in era5["methodology"].lower()
     for source_id, markers in EXPECTED_LIMITATION_MARKERS.items():
         limitation = by_id[source_id]["limitations"].lower()
         assert all(marker in limitation for marker in markers)
 
 
-def test_south_sudan_draft_ledgers_are_empty() -> None:
-    """The pilot registers metadata without pre-empting evidence review."""
-    assert _load_country_file("evidence.json") == []
-    assert _load_country_file("pathways.json") == []
-
+def test_south_sudan_review_ledger_keeps_human_release_gate() -> None:
+    """The drafted package is reviewed but still awaits Lindsey's release decision."""
     review = _load_country_file("review.json")
     assert review["iso3"] == "SSD"
     assert review["country_name"] == "South Sudan"
     assert review["country_aliases"] == ["Republic of South Sudan"]
-    assert review["status"] == "draft"
-    assert review["reviewer"] is None
-    assert review["reviewed_on"] is None
+    assert review["status"] == "reviewed"
+    assert review["reviewer"] == "Codex-assisted draft for Lindsey review"
+    assert review["reviewed_on"] == "2026-07-30"
     assert review["review_due"] is None
     assert review["dossier_path"] == "countries/SSD/dossier.md"
-    assert review["evidence_ids"] == []
-    assert review["pathway_ids"] == []
+    assert review["evidence_ids"]
+    assert review["pathway_ids"]
 
 
 def test_south_sudan_country_directory_passes_repository_validation() -> None:

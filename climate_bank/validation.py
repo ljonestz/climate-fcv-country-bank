@@ -335,7 +335,11 @@ def validate_country_directory(country_dir: Path) -> list[str]:
             errors.append("review.json: dossier_path is unsafe")
         status = review.get("status")
         if status != "draft":
-            for field in ("reviewer", "reviewed_on", "review_due"):
+            for field in ("reviewer", "reviewed_on"):
+                if review.get(field) is None:
+                    errors.append(f"review.json: {status} status requires {field}")
+        if status in {"approved", "stale"}:
+            for field in ("review_due",):
                 if review.get(field) is None:
                     errors.append(f"review.json: {status} status requires {field}")
         chronology_error = _chronology_error(

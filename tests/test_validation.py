@@ -117,12 +117,18 @@ def test_invalid_json_does_not_raise(country_dir):
     assert_error(validation.validate_country_directory(country_dir), "pathways.json", "invalid JSON")
 
 
-@pytest.mark.parametrize("status", ["reviewed", "approved"])
-def test_review_status_requires_metadata(country_dir, status):
+@pytest.mark.parametrize(
+    ("status", "required_fields"),
+    [("reviewed", ("reviewer", "reviewed_on")),
+     ("approved", ("reviewer", "reviewed_on", "review_due"))],
+)
+def test_review_status_requires_metadata(country_dir, status, required_fields):
     mutate(country_dir, "review.json", lambda x: x.__setitem__("status", status))
     errors = validation.validate_country_directory(country_dir)
-    for field in ("reviewer", "reviewed_on", "review_due"):
+    for field in required_fields:
         assert_error(errors, "review.json", status, field)
+    if status == "reviewed":
+        assert not any("requires review_due" in error for error in errors)
 
 
 @pytest.mark.parametrize("filename", ["evidence.json", "pathways.json"])

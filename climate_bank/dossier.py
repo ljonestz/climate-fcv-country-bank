@@ -78,9 +78,6 @@ def _pathway_line(prefix: str, pathway: dict[str, Any]) -> str:
         f"Evidence strength: {_stored_value(pathway['evidence_strength'])} | "
         f"Alternative explanations: "
         f"{_stored_value(pathway['alternative_explanations'])} | "
-        f"Uncertainty: {_stored_value(pathway['uncertainty'])} | "
-        f"Resilience factors: {_stored_value(pathway['resilience_factors'])} | "
-        f"Compact statement: {_stored_value(pathway['compact_statement'])} | "
         f"Interaction direction: "
         f"{_stored_value(pathway['interaction_direction'])} | "
         f"Review status: {_stored_value(pathway['review_status'])} | "
@@ -91,10 +88,8 @@ def _pathway_line(prefix: str, pathway: dict[str, Any]) -> str:
 
 def _source_scope_line(source: dict[str, Any]) -> str:
     return (
-        f"- {source['title']} | Organization: {source['organization']} | "
-        f"Methodology: {source['methodology']} | "
-        f"Limitations: {source['limitations']} | URL: {source['url']} | "
-        f"Source ID: {source['source_id']}"
+        f"- {source['source_id']} | Methodology: {source['methodology']} | "
+        f"Limitations: {source['limitations']}"
     )
 
 
@@ -109,7 +104,7 @@ def _evidence_table_line(record: dict[str, Any]) -> str:
     return (
         f"| {record['evidence_id']} | {record['evidence_status']} / "
         f"{record['review_status']} | {record['analytical_role']} | "
-        f"{record['confidence']} | {record['compact_statement']} | {references} |"
+        f"{record['confidence']} | {references} |"
     )
 
 
@@ -201,17 +196,16 @@ def build_dossier(country_dir: Path) -> str:
     reverse = [
         pathway
         for pathway in pathways
-        if pathway["interaction_direction"] in {"fcv-to-climate", "bidirectional"}
+        if pathway["interaction_direction"] == "fcv-to-climate"
     ]
     lines.extend(_pathway_line("Reverse pathway", pathway) for pathway in reverse)
 
     lines.extend(["", SECTION_HEADINGS[6], ""])
     for pathway in pathways:
-        for factor in pathway["resilience_factors"]:
-            lines.append(
-                f"Resilience factor: {factor} [{pathway['pathway_id']}; "
-                f"{', '.join(sorted(pathway['supporting_evidence_ids']))}]"
-            )
+        lines.append(
+            f"Resilience factors: {_stored_value(pathway['resilience_factors'])} "
+            f"{_pathway_citation(pathway)}"
+        )
 
     lines.extend(["", SECTION_HEADINGS[7], ""])
     for record in evidence:
@@ -238,9 +232,8 @@ def build_dossier(country_dir: Path) -> str:
             "",
             SECTION_HEADINGS[9],
             "",
-            "| Evidence ID | Status | Role | Confidence | Compact statement | "
-            "Source references and locators |",
-            "|---|---|---|---|---|---|",
+            "| Evidence ID | Status | Role | Confidence | Source references and locators |",
+            "|---|---|---|---|---|",
         ]
     )
     lines.extend(_evidence_table_line(record) for record in evidence)

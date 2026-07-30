@@ -102,7 +102,7 @@ def test_direct_evidence_without_section_metadata_renders_full_statement(
     assert expected in section_four
     assert dossier.count(expected) == 1
 
-def test_pathway_paragraph_renders_every_stored_field() -> None:
+def test_pathway_fields_render_once_across_pathway_and_dedicated_sections() -> None:
     dossier = build_dossier(FIXTURE_DIR)
     pathway_line = next(
         line for line in dossier.splitlines() if line.startswith("Pathway:")
@@ -123,9 +123,6 @@ def test_pathway_paragraph_renders_every_stored_field() -> None:
         "Link evidence:",
         "Evidence strength:",
         "Alternative explanations:",
-        "Uncertainty:",
-        "Resilience factors:",
-        "Compact statement:",
         "Interaction direction:",
         "Review status:",
         "Review date:",
@@ -134,6 +131,11 @@ def test_pathway_paragraph_renders_every_stored_field() -> None:
         assert label in pathway_line
 
     pathway = _read(FIXTURE_DIR / "pathways.json")[0]
+    dedicated_fields = {
+        "resilience_factors": HEADINGS[6],
+        "uncertainty": HEADINGS[7],
+        "compact_statement": HEADINGS[8],
+    }
     for field, value in pathway.items():
         if value is None:
             expected = "null"
@@ -146,7 +148,20 @@ def test_pathway_paragraph_renders_every_stored_field() -> None:
             )
         else:
             expected = str(value)
-        assert expected in pathway_line, field
+        if field in dedicated_fields:
+            section_index = HEADINGS.index(dedicated_fields[field])
+            section_end = (
+                HEADINGS[section_index + 1]
+                if section_index + 1 < len(HEADINGS)
+                else None
+            )
+            section = dossier.split(dedicated_fields[field], 1)[1]
+            if section_end:
+                section = section.split(section_end, 1)[0]
+            assert expected in section, field
+            assert expected not in pathway_line, field
+        else:
+            assert expected in pathway_line, field
 
 
 def test_screening_implications_use_only_compact_statements_and_ids() -> None:
