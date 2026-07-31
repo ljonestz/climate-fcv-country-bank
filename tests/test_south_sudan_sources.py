@@ -202,16 +202,17 @@ def test_south_sudan_sources_have_specific_and_transparent_notes() -> None:
         assert all(marker in limitation for marker in markers)
 
 
-def test_south_sudan_review_ledger_keeps_human_release_gate() -> None:
-    """The drafted package is reviewed but still awaits Lindsey's release decision."""
+def test_south_sudan_review_ledger_records_human_release_approval() -> None:
+    """The production package records Lindsey's explicit release decision."""
     review = _load_country_file("review.json")
     assert review["iso3"] == "SSD"
     assert review["country_name"] == "South Sudan"
     assert review["country_aliases"] == ["Republic of South Sudan"]
-    assert review["status"] == "reviewed"
-    assert review["reviewer"] == "Codex-assisted draft for Lindsey review"
-    assert review["reviewed_on"] == "2026-07-30"
-    assert review["review_due"] is None
+    assert review["status"] == "approved"
+    assert review["reviewer"] == "Lindsey Jones"
+    assert review["reviewed_on"] == "2026-07-31"
+    assert review["review_due"] == "2027-07-31"
+    assert "approved the South Sudan pilot" in review["decision_notes"]
     assert review["dossier_path"] == "countries/SSD/dossier.md"
     assert review["evidence_ids"]
     assert review["pathway_ids"]

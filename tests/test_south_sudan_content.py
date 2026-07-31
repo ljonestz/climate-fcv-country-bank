@@ -5,21 +5,27 @@ import json
 from pathlib import Path
 
 from climate_bank.dossier import SECTION_HEADINGS
-from climate_bank.validation import validate_country_directory
+from climate_bank.release import build_release
+from climate_bank.validation import (
+    validate_country_directory,
+    validate_runtime_release,
+)
 
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
 COUNTRY_DIR = REPOSITORY_ROOT / "countries" / "SSD"
 SOURCE_IDS = {f"SSD-SRC-{number:03d}" for number in range(1, 13)}
-REVIEWER = "Codex-assisted draft for Lindsey review"
-REVIEW_DATE = "2026-07-30"
+REVIEWER = "Lindsey Jones"
+REVIEW_DATE = "2026-07-31"
+REVIEW_DUE = "2027-07-31"
+RUNTIME_PATH = REPOSITORY_ROOT / "releases" / "current" / "runtime.json"
 
 
 def _load(filename: str):
     return json.loads((COUNTRY_DIR / filename).read_text(encoding="utf-8"))
 
 
-def test_reviewed_ledgers_have_required_balance_and_provenance() -> None:
+def test_approved_ledgers_have_required_balance_and_provenance() -> None:
     evidence = _load("evidence.json")
     pathways = _load("pathways.json")
     review = _load("review.json")
@@ -60,26 +66,22 @@ def test_reviewed_ledgers_have_required_balance_and_provenance() -> None:
         "projected",
         "inferred",
     }
-    assert all(record["review_status"] == "reviewed" for record in evidence)
+    assert all(record["review_status"] == "approved" for record in evidence)
     assert all(record["review_date"] == REVIEW_DATE for record in evidence)
-    assert all(record["review_status"] == "reviewed" for record in pathways)
+    assert all(record["review_status"] == "approved" for record in pathways)
     assert all(record["review_date"] == REVIEW_DATE for record in pathways)
 
-    assert review["status"] == "reviewed"
+    assert review["status"] == "approved"
     assert review["reviewer"] == REVIEWER
     assert review["reviewed_on"] == REVIEW_DATE
-    assert review["review_due"] is None
+    assert review["review_due"] == REVIEW_DUE
     assert review["evidence_ids"] == [
         record["evidence_id"] for record in evidence
     ]
     assert review["pathway_ids"] == [
         record["pathway_id"] for record in pathways
     ]
-    assert "approved" not in {
-        review["status"],
-        *(record["review_status"] for record in evidence),
-        *(record["review_status"] for record in pathways),
-    }
+    assert "Lindsey Jones approved the South Sudan pilot" in review["decision_notes"]
 
 
 def test_pathways_are_traceable_bidirectional_and_cautiously_rated() -> None:
@@ -179,8 +181,23 @@ def test_reviewed_statuses_and_pathway_strength_match_source_basis() -> None:
     assert any(record["evidence_status"] == "inferred" for record in supporting)
 
 
-def test_south_sudan_reviewed_package_passes_repository_validation() -> None:
+def test_south_sudan_approved_package_passes_repository_validation() -> None:
     assert validate_country_directory(COUNTRY_DIR) == []
+
+
+def test_current_runtime_release_matches_the_approved_south_sudan_ledgers() -> None:
+    assert RUNTIME_PATH.is_file()
+    release = json.loads(RUNTIME_PATH.read_text(encoding="utf-8"))
+
+    assert validate_runtime_release(release) == []
+    assert release == build_release(
+        [COUNTRY_DIR], generated_at=release["generated_at"]
+    )
+    assert release["countries"]["SSD"]["status"] == "approved"
+    assert release["countries"]["SSD"]["reviewer"] == REVIEWER
+    assert len(release["sources"]) == 12
+    assert len(release["evidence_records"]) == 19
+    assert len(release["pathways"]) == 7
 
 def test_quality_review_removes_duplicate_syntheses_and_preserves_traceability() -> None:
     evidence = _load("evidence.json")
