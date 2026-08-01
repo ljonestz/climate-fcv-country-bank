@@ -278,3 +278,66 @@ def test_bibliography_preserves_date_precision_and_shows_basis(tmp_path: Path) -
     assert "2025-01 (date basis: publication)" in bibliography
     assert "publication date not stated (date basis: not-stated)" in bibliography
     assert ". None." not in bibliography
+
+CANDIDATE_DIR = Path(__file__).parents[1] / "countries" / "SSD" / "candidates" / "2026.08"
+CANDIDATE_HEADINGS = [
+    "## Executive assessment",
+    "## Evidence coverage and critical gaps",
+    "## Climate pressures and exposure",
+    "## Differentiated vulnerability",
+    "## Coping and adaptive capacity",
+    "## Institutions and delivery systems",
+    "## Climate-FCV pathways",
+    "## Resilience and peace-supporting capacities",
+    "## Geographic and livelihood-system differentiation",
+    "## Implications by project type",
+    "## Technical evidence register",
+    "## Bibliography and review decision",
+]
+
+
+def test_candidate_dossier_uses_profile_synthesis_and_complete_evidence_trail() -> None:
+    dossier = build_dossier(CANDIDATE_DIR)
+    profile = _read(CANDIDATE_DIR / "profile.json")
+    evidence = _read(CANDIDATE_DIR / "evidence.json")
+
+    positions = [dossier.index(heading) for heading in CANDIDATE_HEADINGS]
+    assert positions == sorted(positions)
+    for section in (
+        "executive_assessment",
+        "geographic_notes",
+        "sector_notes",
+        "known_gaps",
+    ):
+        for item in profile[section]:
+            assert item["text"] in dossier
+            for record_id in item["evidence_ids"] + item["pathway_ids"]:
+                assert record_id in dossier
+    for record in evidence:
+        assert dossier.count(record["statement"]) == 1
+        for source_ref in record["source_refs"]:
+            assert source_ref["locator"] in dossier
+    assert "partial" in dossier
+    assert "gap" in dossier
+    assert "comprehensive national coverage" not in dossier.casefold()
+
+
+def test_candidate_dossier_cli_writes_explicit_output_and_check_detects_drift(
+    tmp_path: Path, capsys: pytest.CaptureFixture[str]
+) -> None:
+    output_path = tmp_path / "south-sudan-candidate-dossier.md"
+    args = [
+        "--country-dir",
+        str(CANDIDATE_DIR),
+        "--output",
+        str(output_path),
+    ]
+
+    assert dossier_cli.main(args) == 0
+    generated = output_path.read_text(encoding="utf-8")
+    assert generated == build_dossier(CANDIDATE_DIR)
+    assert dossier_cli.main([*args, "--check"]) == 0
+
+    output_path.write_text(generated + "drift\n", encoding="utf-8")
+    assert dossier_cli.main([*args, "--check"]) == 1
+    assert "differs" in capsys.readouterr().err

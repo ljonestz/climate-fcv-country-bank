@@ -119,9 +119,209 @@ def _bibliography_date(source: dict[str, Any]) -> str:
     return f"{display_date} (date basis: {source['publication_date_basis']})"
 
 
+
+CANDIDATE_SECTION_HEADINGS = (
+    "## Executive assessment",
+    "## Evidence coverage and critical gaps",
+    "## Climate pressures and exposure",
+    "## Differentiated vulnerability",
+    "## Coping and adaptive capacity",
+    "## Institutions and delivery systems",
+    "## Climate-FCV pathways",
+    "## Resilience and peace-supporting capacities",
+    "## Geographic and livelihood-system differentiation",
+    "## Implications by project type",
+    "## Technical evidence register",
+    "## Bibliography and review decision",
+)
+
+
+def _markdown_cell(value: Any) -> str:
+    return str(value).replace("|", "\\|").replace("\n", " ")
+
+
+def _linked_line(item: dict[str, Any]) -> str:
+    ids = sorted(item.get("evidence_ids", []) + item.get("pathway_ids", []))
+    return f"- {item['text']} [{' ,'.join(ids).replace(' ,', ', ')}]"
+
+
+def _compact_evidence_line(record: dict[str, Any]) -> str:
+    return f"- {record['compact_statement']} [{record['evidence_id']}]"
+
+
+def _candidate_reference_text(record: dict[str, Any]) -> str:
+    return "; ".join(
+        f"{ref['source_id']} ({ref['locator']})"
+        for ref in sorted(
+            record["source_refs"],
+            key=lambda ref: (ref["source_id"], ref["locator"]),
+        )
+    )
+
+
+def _candidate_register_line(record: dict[str, Any]) -> str:
+    status = f"{record['evidence_status']} / {record['review_status']}"
+    return (
+        f"| {_markdown_cell(record['evidence_id'])} | "
+        f"{_markdown_cell(record['evidence_class'])} | "
+        f"{_markdown_cell(status)} | "
+        f"{_markdown_cell(record['administrative_level'])} | "
+        f"{_markdown_cell(record['statement'])} | "
+        f"{_markdown_cell(record['uncertainty'])} | "
+        f"{_markdown_cell(_candidate_reference_text(record))} |"
+    )
+
+
+def _records_for_classes(
+    evidence: list[dict[str, Any]], classes: set[str]
+) -> list[dict[str, Any]]:
+    return [record for record in evidence if record["evidence_class"] in classes]
+
+
+def _candidate_pathway_lines(pathway: dict[str, Any]) -> list[str]:
+    citation = _pathway_citation(pathway)
+    return [
+        f"- {pathway['compact_statement']} {citation}",
+        f"  - Documented impact: {pathway['documented_impact']}",
+        f"  - FCV mediator: {pathway['fcv_mediator']}",
+        f"  - Possible consequence: {pathway['possible_consequence']}",
+        f"  - Link evidence: {pathway['link_evidence']}",
+        f"  - Alternative explanations: {pathway['alternative_explanations']}",
+        f"  - Uncertainty: {pathway['uncertainty']}",
+    ]
+
+
+def _project_type_lines(evidence: list[dict[str, Any]]) -> list[str]:
+    groups = (
+        (
+            "Hazard, infrastructure, and basic-service projects",
+            {"transport", "infrastructure", "water", "health", "education", "disaster-risk-management"},
+        ),
+        (
+            "Livelihood and natural-resource projects",
+            {"agriculture", "livestock", "fisheries", "forestry", "livelihoods"},
+        ),
+        (
+            "Social-protection, governance, and institution-building projects",
+            {"social-protection", "local-governance", "public-administration"},
+        ),
+        (
+            "Humanitarian, displacement, and peace-supporting projects",
+            {"humanitarian-response", "peacebuilding"},
+        ),
+    )
+    lines: list[str] = []
+    for label, sectors in groups:
+        ids = sorted(
+            record["evidence_id"]
+            for record in evidence
+            if sectors.intersection(record["sectors"])
+        )
+        lines.append(f"- {label}: {', '.join(ids) if ids else 'no dedicated records'}")
+    return lines
+
+
+def _build_candidate_dossier(country_dir: Path) -> str:
+    errors = validate_country_directory(
+        country_dir,
+        require_profile=True,
+        schema_version="1.1.0",
+    )
+    if errors:
+        raise ValueError(f"{country_dir}: {'; '.join(sorted(set(errors)))}")
+
+    sources = sorted(_read_json(country_dir / "sources.json"), key=lambda x: x["source_id"])
+    evidence = sorted(_read_json(country_dir / "evidence.json"), key=lambda x: x["evidence_id"])
+    pathways = sorted(_read_json(country_dir / "pathways.json"), key=lambda x: x["pathway_id"])
+    profile = _read_json(country_dir / "profile.json")
+    review = _read_json(country_dir / "review.json")
+    referenced_source_ids = {
+        ref["source_id"] for record in evidence for ref in record["source_refs"]
+    }
+
+    lines = [
+        f"# {_display_name(review['country_name'])} Climate-FCV Evidence Dossier",
+        "",
+        CANDIDATE_SECTION_HEADINGS[0],
+        "",
+        *(_linked_line(item) for item in profile["executive_assessment"]),
+        "",
+        CANDIDATE_SECTION_HEADINGS[1],
+        "",
+        "| Dimension | Value | Status | Supporting record IDs | Gap note |",
+        "|---|---|---|---|---|",
+    ]
+    for item in profile["coverage"]:
+        lines.append(
+            f"| {_markdown_cell(item['dimension'])} | {_markdown_cell(item['value'])} | "
+            f"{_markdown_cell(item['status'])} | {_markdown_cell(', '.join(item['record_ids']))} | "
+            f"{_markdown_cell(item['gap_note'] or '')} |"
+        )
+    lines.extend(["", "Critical remaining gaps:"])
+    lines.extend(_linked_line(item) for item in profile["known_gaps"])
+
+    class_sections = (
+        (2, {"climate-pressure", "exposure"}),
+        (3, {"sensitivity"}),
+        (4, {"coping-capacity", "adaptive-capacity"}),
+        (5, {"institutional-capacity", "response-performance"}),
+    )
+    for heading_index, classes in class_sections:
+        lines.extend(["", CANDIDATE_SECTION_HEADINGS[heading_index], ""])
+        lines.extend(
+            _compact_evidence_line(record)
+            for record in _records_for_classes(evidence, classes)
+        )
+
+    lines.extend(["", CANDIDATE_SECTION_HEADINGS[6], ""])
+    for pathway in pathways:
+        lines.extend(_candidate_pathway_lines(pathway))
+
+    lines.extend(["", CANDIDATE_SECTION_HEADINGS[7], ""])
+    lines.extend(
+        _compact_evidence_line(record)
+        for record in _records_for_classes(
+            evidence, {"direct-climate-fcv", "resilience-peace-capacity"}
+        )
+    )
+
+    lines.extend(["", CANDIDATE_SECTION_HEADINGS[8], ""])
+    lines.extend(_linked_line(item) for item in profile["geographic_notes"])
+    lines.extend(_linked_line(item) for item in profile["sector_notes"])
+
+    lines.extend(["", CANDIDATE_SECTION_HEADINGS[9], ""])
+    lines.extend(_project_type_lines(evidence))
+
+    lines.extend([
+        "", CANDIDATE_SECTION_HEADINGS[10], "",
+        "| Evidence ID | Class | Status | Level | Raw statement | Uncertainty | Source and exact locator |",
+        "|---|---|---|---|---|---|---|",
+    ])
+    lines.extend(_candidate_register_line(record) for record in evidence)
+
+    lines.extend(["", CANDIDATE_SECTION_HEADINGS[11], ""])
+    for source in sources:
+        if source["source_id"] not in referenced_source_ids:
+            continue
+        lines.append(
+            f"- {source['organization']}. {source['title']}. {_bibliography_date(source)}. "
+            f"{source['url']} [{source['source_id']}] Methodology: {source['methodology']} "
+            f"Limitations: {source['limitations']}"
+        )
+    lines.extend([
+        "",
+        f"Review status: {review['status']}",
+        f"Reviewer: {review['reviewer']}",
+        f"Reviewed on: {review['reviewed_on']}",
+        f"Decision notes: {review['decision_notes']}",
+    ])
+    return "\n".join(lines).rstrip() + "\n"
+
 def build_dossier(country_dir: Path) -> str:
     """Build a dossier using only validated ledger values and fixed labels."""
     country_dir = Path(country_dir)
+    if (country_dir / "profile.json").is_file():
+        return _build_candidate_dossier(country_dir)
     errors = validate_country_directory(country_dir)
     if errors:
         raise ValueError(f"{country_dir}: {'; '.join(sorted(set(errors)))}")

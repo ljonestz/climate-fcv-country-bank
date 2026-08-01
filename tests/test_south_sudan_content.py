@@ -315,42 +315,47 @@ def test_candidate_coverage_is_honest_and_resolves_records() -> None:
     assert "comprehensive national coverage" not in rendered
 
 
-def test_candidate_preserves_canonical_ledgers_and_record_approval_provenance() -> None:
+def test_candidate_preserves_canonical_records_and_marks_additions_reviewed() -> None:
     canonical_sources = _load("sources.json")
     canonical_evidence = _load("evidence.json")
     canonical_pathways = _load("pathways.json")
-    canonical_review = _load("review.json")
     candidate_sources = _load_candidate("sources.json")
     candidate_evidence = _load_candidate("evidence.json")
     candidate_pathways = _load_candidate("pathways.json")
     candidate_review = _load_candidate("review.json")
 
-    assert candidate_sources == canonical_sources
-    assert candidate_pathways == canonical_pathways
-    assert [row["evidence_id"] for row in candidate_evidence] == [
-        row["evidence_id"] for row in canonical_evidence
-    ]
-    candidate_legacy_shape = [
-        {key: value for key, value in row.items() if key not in MIGRATION_FIELDS}
-        for row in candidate_evidence
-    ]
-    assert candidate_legacy_shape == canonical_evidence
-    assert all(row["review_status"] == "approved" for row in candidate_evidence)
-    assert all(row["review_status"] == "approved" for row in candidate_pathways)
-
-    assert candidate_review == {
-        **canonical_review,
-        "status": "reviewed",
-        "review_due": None,
-        "dossier_path": "countries/SSD/candidates/2026.08/dossier.md",
-        "decision_notes": (
-            "Candidate migration retains the approved provenance and review status "
-            "of unchanged evidence and pathway records. The schema 1.1 metadata, "
-            "coverage profile, and future dossier remain subject to human review; "
-            "this reviewed candidate is not approved for production promotion."
-        ),
+    candidate_sources_by_id = {
+        row["source_id"]: row for row in candidate_sources
     }
+    for record in canonical_sources:
+        assert candidate_sources_by_id[record["source_id"]] == record
 
+    candidate_evidence_by_id = {
+        row["evidence_id"]: row for row in candidate_evidence
+    }
+    for record in canonical_evidence:
+        migrated = candidate_evidence_by_id[record["evidence_id"]]
+        legacy_shape = {
+            key: value for key, value in migrated.items()
+            if key not in MIGRATION_FIELDS
+        }
+        assert legacy_shape == record
+        assert migrated["review_status"] == "approved"
+
+    new_source_ids = {"SSD-SRC-013", "SSD-SRC-014", "SSD-SRC-015", "SSD-SRC-016"}
+    new_evidence_ids = {f"SSD-E-{number:03d}" for number in range(20, 28)}
+    assert new_source_ids <= set(candidate_sources_by_id)
+    assert new_evidence_ids <= set(candidate_evidence_by_id)
+    assert all(
+        candidate_evidence_by_id[evidence_id]["review_status"] == "reviewed"
+        for evidence_id in new_evidence_ids
+    )
+    assert candidate_pathways == canonical_pathways
+    assert all(row["review_status"] == "approved" for row in candidate_pathways)
+    assert set(candidate_review["evidence_ids"]) == set(candidate_evidence_by_id)
+    assert candidate_review["status"] == "reviewed"
+    assert "approval pending" in candidate_review["reviewer"].casefold()
+    assert "not approved for production" in candidate_review["decision_notes"].casefold()
 
 def test_candidate_evidence_metadata_is_specific_and_schema_1_1_valid() -> None:
     evidence = _load_candidate("evidence.json")
@@ -361,9 +366,7 @@ def test_candidate_evidence_metadata_is_specific_and_schema_1_1_valid() -> None:
         require_profile=True,
         schema_version="1.1.0",
     ) == []
-    assert {record["evidence_class"] for record in evidence} == (
-        EVIDENCE_CLASSES - {"adaptive-capacity"}
-    )
+    assert {record["evidence_class"] for record in evidence} == EVIDENCE_CLASSES
     assert evidence_by_id["SSD-E-012"]["evidence_class"] == (
         "institutional-capacity"
     )
@@ -385,6 +388,12 @@ def test_candidate_evidence_metadata_is_specific_and_schema_1_1_valid() -> None:
     assert evidence_by_id["SSD-E-019"]["evidence_class"] == (
         "resilience-peace-capacity"
     )
+    assert evidence_by_id["SSD-E-020"]["evidence_status"] == "projected"
+    assert evidence_by_id["SSD-E-020"]["scenario"].startswith("CMIP6")
+    assert evidence_by_id["SSD-E-021"]["evidence_status"] == "projected"
+    assert evidence_by_id["SSD-E-022"]["evidence_class"] == "adaptive-capacity"
+    assert evidence_by_id["SSD-E-024"]["evidence_class"] == "adaptive-capacity"
+    assert evidence_by_id["SSD-E-025"]["evidence_class"] == "response-performance"
 
 
 def test_candidate_profile_links_and_aliases_are_internally_consistent() -> None:
@@ -427,6 +436,7 @@ def test_candidate_review_state_is_reviewed_not_approved() -> None:
     assert profile["review_date"] == "2026-08-01"
     assert review["status"] == "reviewed"
     assert review["status"] != "approved"
+    assert review["review_due"] == "2026-09-01"
 
 
 def test_canonical_country_and_current_runtime_remain_byte_locked() -> None:
@@ -439,17 +449,20 @@ def test_canonical_country_and_current_runtime_remain_byte_locked() -> None:
         assert actual_hash == expected_hash, relative_path
 
 
-def test_candidate_keeps_adaptive_capacity_and_cmip6_projection_gaps_explicit() -> None:
+def test_candidate_marks_new_capacity_and_cmip6_evidence_partial_with_limits() -> None:
     profile = _load_candidate("profile.json")
     coverage = {
         (row["dimension"], row["value"]): row for row in profile["coverage"]
     }
 
     adaptive = coverage[("evidence_class", "adaptive-capacity")]
-    assert adaptive["status"] == "gap"
-    assert adaptive["record_ids"] == []
-    assert "planned priorities" in adaptive["gap_note"].casefold()
-    assert "adaptive capacity" in adaptive["gap_note"].casefold()
+    assert adaptive == {
+        "dimension": "evidence_class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": ["SSD-E-022", "SSD-E-024"],
+        "gap_note": None,
+    }
 
     cmip6 = coverage[
         (
@@ -457,9 +470,25 @@ def test_candidate_keeps_adaptive_capacity_and_cmip6_projection_gaps_explicit() 
             "CMIP6 temperature, precipitation, variability, and extreme-event projections",
         )
     ]
-    assert cmip6["status"] == "gap"
-    assert cmip6["record_ids"] == []
-    assert "cmip6" in cmip6["gap_note"].casefold()
-    assert {"SSD-E-001", "SSD-E-002", "SSD-E-003"}.isdisjoint(
-        cmip6["record_ids"]
-    )
+    assert cmip6 == {
+        "dimension": "priority_domain",
+        "value": "CMIP6 temperature, precipitation, variability, and extreme-event projections",
+        "status": "partial",
+        "record_ids": ["SSD-E-020", "SSD-E-021"],
+        "gap_note": None,
+    }
+
+    evaluated = coverage[
+        (
+            "priority_domain",
+            "Evaluated response effectiveness, delivery failure, and unintended effects",
+        )
+    ]
+    assert evaluated["status"] == "gap"
+    assert evaluated["record_ids"] == []
+    assert "independent evaluation" in evaluated["gap_note"].casefold()
+
+    known_gaps = " ".join(row["text"] for row in profile["known_gaps"]).casefold()
+    assert "p10, p50, and p90" in known_gaps
+    assert "selected social-protection beneficiaries" in known_gaps
+    assert "no independent evaluation" in known_gaps

@@ -3,13 +3,12 @@
   "profile_version": "2026.08",
   "executive_assessment": [
     {
-      "text": "The existing evidence is strongest on observed flood exposure, livelihood and service disruption, displacement, and mediated Climate-FCV pathways; it is thinner on quantified future physical impacts beyond one 2050 sorghum-yield projection.",
+      "text": "The bank now establishes a robust direction of future warming and explicit precipitation uncertainty from South Sudan CMIP6 views, alongside observed severe-year flood exposure; it still lacks a complete extracted set of numeric hazard magnitudes across scenarios, horizons, extremes, and subnational areas.",
       "evidence_ids": [
-        "SSD-E-002",
         "SSD-E-003",
-        "SSD-E-005",
-        "SSD-E-006",
-        "SSD-E-010"
+        "SSD-E-020",
+        "SSD-E-021",
+        "SSD-E-027"
       ],
       "pathway_ids": [
         "SSD-P-001",
@@ -29,13 +28,13 @@
       ]
     },
     {
-      "text": "Institutional and response evidence documents policy priorities, implementation constraints, and reported activities; it does not demonstrate enabling adaptive capacity or evaluated effectiveness.",
+      "text": "Selected safety-net and community-governance programs demonstrate household, digital-delivery, local-planning, and infrastructure capacities, while third-party dependence, limited geographic reach, and the lack of independent evaluation prevent national generalization.",
       "evidence_ids": [
-        "SSD-E-011",
-        "SSD-E-012",
-        "SSD-E-016",
-        "SSD-E-018",
-        "SSD-E-019"
+        "SSD-E-022",
+        "SSD-E-023",
+        "SSD-E-024",
+        "SSD-E-025",
+        "SSD-E-026"
       ],
       "pathway_ids": [
         "SSD-P-006"
@@ -50,7 +49,9 @@
       "record_ids": [
         "SSD-E-001",
         "SSD-E-002",
-        "SSD-E-003"
+        "SSD-E-003",
+        "SSD-E-020",
+        "SSD-E-021"
       ],
       "gap_note": null
     },
@@ -61,7 +62,8 @@
       "record_ids": [
         "SSD-E-005",
         "SSD-E-007",
-        "SSD-E-010"
+        "SSD-E-010",
+        "SSD-E-027"
       ],
       "gap_note": null
     },
@@ -88,9 +90,12 @@
     {
       "dimension": "evidence_class",
       "value": "adaptive-capacity",
-      "status": "gap",
-      "record_ids": [],
-      "gap_note": "Planned priorities exist in the NDC, but the bank lacks evidence of the enabling resources, capabilities, or demonstrated adjustments needed to establish adaptive capacity."
+      "status": "partial",
+      "record_ids": [
+        "SSD-E-022",
+        "SSD-E-024"
+      ],
+      "gap_note": null
     },
     {
       "dimension": "evidence_class",
@@ -99,7 +104,9 @@
       "record_ids": [
         "SSD-E-011",
         "SSD-E-012",
-        "SSD-E-016"
+        "SSD-E-016",
+        "SSD-E-023",
+        "SSD-E-026"
       ],
       "gap_note": null
     },
@@ -108,7 +115,8 @@
       "value": "response-performance",
       "status": "partial",
       "record_ids": [
-        "SSD-E-018"
+        "SSD-E-018",
+        "SSD-E-025"
       ],
       "gap_note": null
     },
@@ -138,9 +146,12 @@
     {
       "dimension": "priority_domain",
       "value": "CMIP6 temperature, precipitation, variability, and extreme-event projections",
-      "status": "gap",
-      "record_ids": [],
-      "gap_note": "The current records do not provide scenario-based CMIP6 physical projections for South Sudan; this requires dedicated source extraction in the next evidence-acquisition task."
+      "status": "partial",
+      "record_ids": [
+        "SSD-E-020",
+        "SSD-E-021"
+      ],
+      "gap_note": null
     },
     {
       "dimension": "priority_domain",
@@ -151,7 +162,8 @@
         "SSD-E-005",
         "SSD-E-006",
         "SSD-E-010",
-        "SSD-E-013"
+        "SSD-E-013",
+        "SSD-E-027"
       ],
       "gap_note": null
     },
@@ -185,7 +197,9 @@
       "record_ids": [
         "SSD-E-005",
         "SSD-E-007",
-        "SSD-E-009"
+        "SSD-E-009",
+        "SSD-E-025",
+        "SSD-E-027"
       ],
       "gap_note": null
     },
@@ -209,7 +223,8 @@
       "record_ids": [
         "SSD-E-004",
         "SSD-E-006",
-        "SSD-E-009"
+        "SSD-E-009",
+        "SSD-E-022"
       ],
       "gap_note": null
     },
@@ -220,7 +235,9 @@
       "record_ids": [
         "SSD-E-004",
         "SSD-E-008",
-        "SSD-E-019"
+        "SSD-E-019",
+        "SSD-E-022",
+        "SSD-E-024"
       ],
       "gap_note": null
     },
@@ -233,7 +250,10 @@
         "SSD-E-012",
         "SSD-E-016",
         "SSD-E-018",
-        "SSD-E-019"
+        "SSD-E-019",
+        "SSD-E-023",
+        "SSD-E-024",
+        "SSD-E-026"
       ],
       "gap_note": null
     },
@@ -295,6 +315,17 @@
       "pathway_ids": [
         "SSD-P-001"
       ]
+    },
+    {
+      "text": "New program-result evidence covers ten safety-net counties and twenty community-resilience counties; it improves subnational capacity evidence but must not be generalized to the remaining counties or routine national systems.",
+      "evidence_ids": [
+        "SSD-E-022",
+        "SSD-E-023",
+        "SSD-E-024",
+        "SSD-E-025",
+        "SSD-E-026"
+      ],
+      "pathway_ids": []
     }
   ],
   "sector_notes": [
@@ -314,10 +345,15 @@
       ]
     },
     {
-      "text": "Reported early-warning, high-ground planning, dialogue, and localized forecasting show activities or possible capacities, not independently evaluated outcomes.",
+      "text": "Official monitoring now documents selected safety-net, local-governance, infrastructure, and flood-protection results, including delivery-system and third-party implementation lessons; no independent evaluation establishes causal effectiveness, durability, or unintended effects.",
       "evidence_ids": [
         "SSD-E-018",
-        "SSD-E-019"
+        "SSD-E-019",
+        "SSD-E-022",
+        "SSD-E-023",
+        "SSD-E-024",
+        "SSD-E-025",
+        "SSD-E-026"
       ],
       "pathway_ids": [
         "SSD-P-006"
@@ -326,25 +362,29 @@
   ],
   "known_gaps": [
     {
-      "text": "The bank lacks a full country-level set of CMIP6 temperature, precipitation, variability, and extreme-event projections with scenarios and quantified horizons.",
+      "text": "CCKP establishes future warming direction and precipitation uncertainty, but the bank still lacks a complete extraction of numeric p10, p50, and p90 temperature, precipitation, variability, and extreme-event projections across scenarios, horizons, seasons, and subnational areas.",
       "evidence_ids": [
-        "SSD-E-001",
-        "SSD-E-002",
-        "SSD-E-003"
+        "SSD-E-020",
+        "SSD-E-021"
       ],
       "pathway_ids": []
     },
     {
-      "text": "The NDC records planned adaptation priorities, but the bank lacks evidence that institutions, communities, or households possess enabling or demonstrated adaptive capacity.",
+      "text": "Adaptive capacity is demonstrated only for selected social-protection beneficiaries and community institutions; evidence remains insufficient for national systems, climate-specific capabilities, durability, and excluded locations or groups.",
       "evidence_ids": [
-        "SSD-E-012"
+        "SSD-E-022",
+        "SSD-E-023",
+        "SSD-E-024",
+        "SSD-E-026"
       ],
       "pathway_ids": []
     },
     {
-      "text": "No independent evaluation establishes response effectiveness, delivery failure, or unintended effects; reported activity counts must not be treated as outcome evidence.",
+      "text": "Official project monitoring reports reach, functionality, and beneficiary outcomes, but no independent evaluation establishes causal effectiveness, delivery failure across the portfolio, durability, or unintended effects.",
       "evidence_ids": [
-        "SSD-E-018"
+        "SSD-E-018",
+        "SSD-E-025",
+        "SSD-E-026"
       ],
       "pathway_ids": []
     },
