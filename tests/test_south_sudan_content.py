@@ -230,3 +230,205 @@ def test_quality_review_removes_duplicate_syntheses_and_preserves_traceability()
             for source_ref in evidence_by_id[evidence_id]["source_refs"]
         }
         assert len(unique_source_ids) >= 2, pathway["pathway_id"]
+
+CANDIDATE_DIR = COUNTRY_DIR / "candidates" / "2026.08"
+EVIDENCE_CLASSES = {
+    "climate-pressure",
+    "exposure",
+    "sensitivity",
+    "coping-capacity",
+    "adaptive-capacity",
+    "institutional-capacity",
+    "response-performance",
+    "direct-climate-fcv",
+    "resilience-peace-capacity",
+}
+PRIORITY_DOMAINS = (
+    "CMIP6 temperature, precipitation, variability, and extreme-event projections",
+    "Flood persistence, hydrology, and geographic exposure",
+    "Drought, dry spells, rainfall variability, and dry-season water stress",
+    "Agriculture, livestock, fisheries, forests, and the Sudd wetland system",
+    "Roads, markets, water systems, health, education, and humanitarian access",
+    "Displacement, return, land access, high-ground use, and host-community pressure",
+    "Differentiated gender, age, disability, displacement, and livelihood vulnerability",
+    "Household, community, and customary coping systems",
+    "Formal and informal institutional mandates, delivery capacity, and coordination",
+    "Early warning, climate services, disaster response, and anticipatory action",
+    "Evaluated response effectiveness, delivery failure, and unintended effects",
+    "Climate-to-FCV, bidirectional, and FCV-to-climate pathways",
+)
+PROTECTED_HASHES = {
+    "countries/SSD/sources.json": "1ada9604c1eb68eefd77a22707592906cf605ab7bb21b4498c7484e4273b5f57",
+    "countries/SSD/evidence.json": "953ab85a365881a3dc896d54a8243b6a5329c123a3a37f90bc4ff22f8f44b191",
+    "countries/SSD/pathways.json": "31d46515ce2e1486335106cdd3c716586497b2137ae32f2be67a17f67d974ad0",
+    "countries/SSD/review.json": "00c4e6efdfb4f5d8723f31548c3adc1013afc1717a8657bc0e0456d0935e8d0b",
+    "releases/current/runtime.json": "59cf3dfa3450b1727c6b1897b2a77841adc2cb522816e2abe696ae3ed2fb252e",
+}
+MIGRATION_FIELDS = {
+    "evidence_class",
+    "administrative_level",
+    "ecological_level",
+    "refresh_tier",
+    "review_due",
+}
+
+
+def _load_candidate(filename: str):
+    return json.loads((CANDIDATE_DIR / filename).read_text(encoding="utf-8"))
+
+
+def test_candidate_declares_every_evidence_class_and_priority_domain() -> None:
+    profile = _load_candidate("profile.json")
+    rows = {(row["dimension"], row["value"]): row for row in profile["coverage"]}
+
+    assert len(rows) == len(profile["coverage"])
+    assert {
+        value for dimension, value in rows if dimension == "evidence_class"
+    } == EVIDENCE_CLASSES
+    assert tuple(
+        row["value"]
+        for row in profile["coverage"]
+        if row["dimension"] == "priority_domain"
+    ) == PRIORITY_DOMAINS
+
+
+def test_candidate_coverage_is_honest_and_resolves_records() -> None:
+    profile = _load_candidate("profile.json")
+    evidence_ids = {
+        record["evidence_id"] for record in _load_candidate("evidence.json")
+    }
+    pathway_ids = {
+        record["pathway_id"] for record in _load_candidate("pathways.json")
+    }
+    known_ids = evidence_ids | pathway_ids
+
+    for row in profile["coverage"]:
+        if row["status"] in {"covered", "partial"}:
+            assert row["record_ids"], row
+            assert set(row["record_ids"]) <= known_ids, row
+        else:
+            assert row["status"] == "gap", row
+            assert not row["record_ids"], row
+            assert row["gap_note"] and row["gap_note"].strip(), row
+
+    rendered = json.dumps(profile, ensure_ascii=False).casefold()
+    assert "comprehensive national coverage" not in rendered
+
+
+def test_candidate_preserves_canonical_ledgers_and_record_approval_provenance() -> None:
+    canonical_sources = _load("sources.json")
+    canonical_evidence = _load("evidence.json")
+    canonical_pathways = _load("pathways.json")
+    canonical_review = _load("review.json")
+    candidate_sources = _load_candidate("sources.json")
+    candidate_evidence = _load_candidate("evidence.json")
+    candidate_pathways = _load_candidate("pathways.json")
+    candidate_review = _load_candidate("review.json")
+
+    assert candidate_sources == canonical_sources
+    assert candidate_pathways == canonical_pathways
+    assert [row["evidence_id"] for row in candidate_evidence] == [
+        row["evidence_id"] for row in canonical_evidence
+    ]
+    candidate_legacy_shape = [
+        {key: value for key, value in row.items() if key not in MIGRATION_FIELDS}
+        for row in candidate_evidence
+    ]
+    assert candidate_legacy_shape == canonical_evidence
+    assert all(row["review_status"] == "approved" for row in candidate_evidence)
+    assert all(row["review_status"] == "approved" for row in candidate_pathways)
+
+    assert candidate_review == {
+        **canonical_review,
+        "status": "reviewed",
+        "review_due": None,
+        "dossier_path": "countries/SSD/candidates/2026.08/dossier.md",
+        "decision_notes": (
+            "Candidate migration retains the approved provenance and review status "
+            "of unchanged evidence and pathway records. The schema 1.1 metadata, "
+            "coverage profile, and future dossier remain subject to human review; "
+            "this reviewed candidate is not approved for production promotion."
+        ),
+    }
+
+
+def test_candidate_evidence_metadata_is_specific_and_schema_1_1_valid() -> None:
+    evidence = _load_candidate("evidence.json")
+    evidence_by_id = {record["evidence_id"]: record for record in evidence}
+
+    assert validate_country_directory(
+        CANDIDATE_DIR,
+        require_profile=True,
+        schema_version="1.1.0",
+    ) == []
+    assert {record["evidence_class"] for record in evidence} == EVIDENCE_CLASSES
+    assert all(record["review_due"] >= record["review_date"] for record in evidence)
+    assert evidence_by_id["SSD-E-003"]["scenario"] == (
+        "CCDR hotter-climate projection through 2050"
+    )
+    assert evidence_by_id["SSD-E-003"]["time_horizons"] == [
+        "medium-term",
+        "long-term",
+    ]
+    assert evidence_by_id["SSD-E-002"]["ecological_level"] == (
+        "White Nile tributary floodplains"
+    )
+    assert evidence_by_id["SSD-E-005"]["administrative_level"] == "payam"
+    assert evidence_by_id["SSD-E-006"]["administrative_level"] == "boma"
+    assert evidence_by_id["SSD-E-010"]["administrative_level"] == "county"
+    assert evidence_by_id["SSD-E-018"]["evidence_class"] == "response-performance"
+    assert evidence_by_id["SSD-E-019"]["evidence_class"] == (
+        "resilience-peace-capacity"
+    )
+
+
+def test_candidate_profile_links_and_aliases_are_internally_consistent() -> None:
+    profile = _load_candidate("profile.json")
+    evidence_ids = {
+        record["evidence_id"] for record in _load_candidate("evidence.json")
+    }
+    pathway_ids = {
+        record["pathway_id"] for record in _load_candidate("pathways.json")
+    }
+
+    for section in (
+        "executive_assessment",
+        "geographic_notes",
+        "sector_notes",
+        "known_gaps",
+    ):
+        for row in profile[section]:
+            assert row["evidence_ids"] or row["pathway_ids"], (section, row)
+            assert set(row["evidence_ids"]) <= evidence_ids
+            assert set(row["pathway_ids"]) <= pathway_ids
+
+    for category, alias_map in profile["selection_aliases"].items():
+        normalized_keys = {key.casefold() for key in alias_map}
+        assert len(normalized_keys) == len(alias_map), category
+        normalized_aliases = [
+            alias.casefold()
+            for aliases in alias_map.values()
+            for alias in aliases
+        ]
+        assert len(normalized_aliases) == len(set(normalized_aliases)), category
+        assert normalized_keys.isdisjoint(normalized_aliases), category
+
+
+def test_candidate_review_state_is_reviewed_not_approved() -> None:
+    profile = _load_candidate("profile.json")
+    review = _load_candidate("review.json")
+
+    assert profile["review_status"] == "reviewed"
+    assert profile["review_date"] == "2026-08-01"
+    assert review["status"] == "reviewed"
+    assert review["status"] != "approved"
+
+
+def test_canonical_country_and_current_runtime_remain_byte_locked() -> None:
+    import hashlib
+
+    for relative_path, expected_hash in PROTECTED_HASHES.items():
+        actual_hash = hashlib.sha256(
+            (REPOSITORY_ROOT / relative_path).read_bytes()
+        ).hexdigest()
+        assert actual_hash == expected_hash, relative_path
