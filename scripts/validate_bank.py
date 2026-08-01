@@ -25,6 +25,12 @@ def _parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Require each validated country directory to contain profile.json.",
     )
+    parser.add_argument(
+        "--schema-version",
+        choices=("1.0.0", "1.1.0"),
+        default="1.0.0",
+        help="Evidence schema version to validate (default: 1.0.0).",
+    )
     return parser
 
 
@@ -44,7 +50,9 @@ def main(argv: list[str] | None = None, root: Path | None = None) -> int:
         f"{country_dir.name}: {error}"
         for country_dir in country_dirs
         for error in validate_country_directory(
-            country_dir, require_profile=args.require_profile
+            country_dir,
+            require_profile=args.require_profile,
+            schema_version=args.schema_version,
         )
     )
     if errors:

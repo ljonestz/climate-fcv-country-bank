@@ -1,5 +1,6 @@
 """Tests for deterministic country-bank validation."""
 import copy
+from datetime import date
 import json
 import shutil
 import subprocess
@@ -848,3 +849,251 @@ def test_source_publication_date_and_basis_are_cross_field_consistent(
         sources, "source.schema.json", "sources.json"
     )
     assert (errors == []) is is_valid
+EVIDENCE_CLASSES_1_1 = [
+    "climate-pressure",
+    "exposure",
+    "sensitivity",
+    "coping-capacity",
+    "adaptive-capacity",
+    "institutional-capacity",
+    "response-performance",
+    "direct-climate-fcv",
+    "resilience-peace-capacity",
+]
+
+
+def add_evidence_1_1_fields(country_dir):
+    def add_fields(records):
+        for record in records:
+            record.update(
+                evidence_class="direct-climate-fcv",
+                administrative_level="national",
+                ecological_level=None,
+                refresh_tier="structural",
+                review_due="2027-07-30",
+            )
+
+    mutate(country_dir, "evidence.json", add_fields)
+
+
+@pytest.mark.parametrize("evidence_class", EVIDENCE_CLASSES_1_1)
+def test_evidence_schema_1_1_accepts_all_evidence_classes(
+    country_dir, evidence_class
+):
+    add_evidence_1_1_fields(country_dir)
+    mutate(
+        country_dir,
+        "evidence.json",
+        lambda records: records[0].__setitem__("evidence_class", evidence_class),
+    )
+
+    assert validation.validate_country_directory(
+        country_dir, schema_version="1.1.0"
+    ) == []
+
+
+@pytest.mark.parametrize(
+    "field",
+    [
+        "evidence_class",
+        "administrative_level",
+        "ecological_level",
+        "refresh_tier",
+        "review_due",
+    ],
+)
+def test_evidence_schema_1_1_requires_new_fields(country_dir, field):
+    add_evidence_1_1_fields(country_dir)
+    mutate(
+        country_dir,
+        "evidence.json",
+        lambda records: records[0].pop(field),
+    )
+
+    assert_error(
+        validation.validate_country_directory(
+            country_dir, schema_version="1.1.0"
+        ),
+        "evidence.json",
+        field,
+        "required",
+    )
+
+
+@pytest.mark.parametrize(
+    ("field", "value"),
+    [
+        ("evidence_class", "invented-class"),
+        ("administrative_level", "province"),
+        ("refresh_tier", "weekly"),
+        ("ecological_level", " "),
+        ("review_due", "2026-13-40"),
+    ],
+)
+def test_evidence_schema_1_1_rejects_invalid_new_fields(
+    country_dir, field, value
+):
+    add_evidence_1_1_fields(country_dir)
+    mutate(
+        country_dir,
+        "evidence.json",
+        lambda records: records[0].__setitem__(field, value),
+    )
+
+    assert_error(
+        validation.validate_country_directory(
+            country_dir, schema_version="1.1.0"
+        ),
+        "evidence.json",
+        field,
+    )
+
+
+@pytest.mark.parametrize(
+    ("field", "value"),
+    [
+        ("scenario", None),
+        ("time_horizons", ["historical", "current"]),
+    ],
+)
+def test_projected_evidence_1_1_requires_scenario_and_future_horizon(
+    country_dir, field, value
+):
+    add_evidence_1_1_fields(country_dir)
+    mutate(
+        country_dir,
+        "evidence.json",
+        lambda records: records[1].__setitem__(field, value),
+    )
+
+    assert_error(
+        validation.validate_country_directory(
+            country_dir, schema_version="1.1.0"
+        ),
+        "evidence.json",
+        "SSD-E-002",
+        field,
+    )
+
+
+def test_current_reviewed_evidence_1_1_review_due_cannot_precede_review_date(
+    country_dir,
+):
+    add_evidence_1_1_fields(country_dir)
+
+    def set_review_dates(records):
+        records[0].update(
+            refresh_tier="current",
+            review_status="reviewed",
+            review_date="2026-07-30",
+            review_due="2026-07-29",
+        )
+
+    mutate(country_dir, "evidence.json", set_review_dates)
+
+    assert_error(
+        validation.validate_country_directory(
+            country_dir, schema_version="1.1.0"
+        ),
+        "evidence.json",
+        "SSD-E-001",
+        "review_due 2026-07-29",
+        "before review_date 2026-07-30",
+    )
+
+
+def test_review_state_marks_only_overdue_current_evidence_stale():
+    current = {
+        "refresh_tier": "current",
+        "review_due": "2026-07-31",
+        "review_status": "approved",
+    }
+    structural = {
+        "refresh_tier": "structural",
+        "review_due": "2026-07-31",
+        "review_status": "reviewed",
+    }
+
+    assert validation.review_state(current, as_of=date(2026, 8, 1)) == "stale"
+    assert validation.review_state(structural, as_of=date(2026, 8, 1)) == "reviewed"
+    assert validation.review_state(current, as_of=date(2026, 7, 31)) == "approved"
+
+
+def test_evidence_schema_1_1_blocks_overdue_current_reviewed_record(
+    country_dir,
+):
+    add_evidence_1_1_fields(country_dir)
+    mutate(
+        country_dir,
+        "evidence.json",
+        lambda records: records[0].update(
+            refresh_tier="current",
+            review_status="reviewed",
+            review_date="2026-07-01",
+            review_due="2026-07-31",
+        ),
+    )
+
+    assert_error(
+        validation.validate_country_directory(
+            country_dir,
+            schema_version="1.1.0",
+            as_of=date(2026, 8, 1),
+        ),
+        "evidence.json",
+        "SSD-E-001",
+        "stale",
+    )
+
+
+def test_canonical_evidence_remains_valid_under_explicit_schema_1_0(country_dir):
+    assert validation.validate_country_directory(
+        country_dir, schema_version="1.0.0"
+    ) == []
+
+
+def test_canonical_evidence_fails_schema_1_1_until_fields_are_added(country_dir):
+    errors = validation.validate_country_directory(
+        country_dir, schema_version="1.1.0"
+    )
+    assert_error(errors, "evidence.json", "evidence_class", "required")
+
+    add_evidence_1_1_fields(country_dir)
+    assert validation.validate_country_directory(
+        country_dir, schema_version="1.1.0"
+    ) == []
+
+
+def test_country_validation_rejects_unsupported_schema_version(country_dir):
+    with pytest.raises(ValueError, match="unsupported schema_version 2.0.0"):
+        validation.validate_country_directory(
+            country_dir, schema_version="2.0.0"
+        )
+
+
+def test_validate_bank_cli_selects_schema_version_1_1_and_defaults_to_1_0(
+    country_dir, tmp_path
+):
+    assert validate_bank.main(
+        ["--country-dir", str(country_dir)], root=tmp_path
+    ) == 0
+    assert validate_bank.main(
+        [
+            "--country-dir",
+            str(country_dir),
+            "--schema-version",
+            "1.1.0",
+        ],
+        root=tmp_path,
+    ) == 1
+
+    add_evidence_1_1_fields(country_dir)
+    assert validate_bank.main(
+        [
+            "--country-dir",
+            str(country_dir),
+            "--schema-version",
+            "1.1.0",
+        ],
+        root=tmp_path,
+    ) == 0

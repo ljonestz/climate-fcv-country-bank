@@ -15,6 +15,7 @@ from referencing import Registry, Resource
 
 
 SCHEMA_DIR = Path(__file__).resolve().parents[1] / "schemas"
+SUPPORTED_SCHEMA_VERSIONS = {"1.0.0", "1.1.0"}
 COUNTRY_FILES = {
     "sources.json": "source.schema.json",
     "evidence.json": "evidence.schema.json",
@@ -259,6 +260,74 @@ def _chronology_error(
     return None
 
 
+def review_state(record: dict, *, as_of: date) -> str:
+    """Return the effective review state for validated schema 1.1 evidence."""
+    due = date.fromisoformat(record["review_due"])
+    if record["refresh_tier"] == "current" and due < as_of:
+        return "stale"
+    return record["review_status"]
+
+
+def _evidence_1_1_errors(records: Any, *, as_of: date | None) -> list[str]:
+    """Return schema 1.1 requirements that depend on record semantics."""
+    if not isinstance(records, list):
+        return []
+    required_fields = (
+        "evidence_class",
+        "administrative_level",
+        "ecological_level",
+        "refresh_tier",
+        "review_due",
+    )
+    future_horizons = {"near-term", "medium-term", "long-term"}
+    errors: list[str] = []
+    for index, record in enumerate(records):
+        if not isinstance(record, dict):
+            continue
+        evidence_id = record.get("evidence_id", f"index {index}")
+        label = f"evidence.json: {evidence_id}"
+        for field in required_fields:
+            if field not in record or (
+                field == "review_due" and record.get(field) is None
+            ):
+                errors.append(f"{label}: {field} is required for schema 1.1.0")
+
+        if record.get("evidence_status") == "projected":
+            scenario = record.get("scenario")
+            if not isinstance(scenario, str) or not scenario.strip():
+                errors.append(
+                    f"{label}: projected evidence requires non-null scenario"
+                )
+            horizons = record.get("time_horizons")
+            if not isinstance(horizons, list) or not future_horizons.intersection(
+                item for item in horizons if isinstance(item, str)
+            ):
+                errors.append(
+                    f"{label}: projected evidence time_horizons requires a "
+                    "future horizon"
+                )
+
+        if (
+            record.get("refresh_tier") == "current"
+            and record.get("review_status") in {"reviewed", "approved"}
+        ):
+            review_date = record.get("review_date")
+            review_due = record.get("review_due")
+            try:
+                reviewed = date.fromisoformat(review_date)
+                due = date.fromisoformat(review_due)
+            except (TypeError, ValueError):
+                continue
+            if due < reviewed:
+                errors.append(
+                    f"{label}: review_due {review_due} is before "
+                    f"review_date {review_date}"
+                )
+            if as_of is not None and review_state(record, as_of=as_of) == "stale":
+                errors.append(f"{label}: current evidence is stale as of {as_of}")
+    return errors
+
+
 def _exact_ids_error(label: str, review_ids: Any, ledger_ids: set[str]) -> str | None:
     if not isinstance(review_ids, list):
         return None
@@ -271,9 +340,15 @@ def _exact_ids_error(label: str, review_ids: Any, ledger_ids: set[str]) -> str |
 
 
 def validate_country_directory(
-    country_dir: Path, *, require_profile: bool = False
+    country_dir: Path,
+    *,
+    require_profile: bool = False,
+    schema_version: str = "1.0.0",
+    as_of: date | None = None,
 ) -> list[str]:
     """Validate one country's ledgers without raising for content defects."""
+    if schema_version not in SUPPORTED_SCHEMA_VERSIONS:
+        raise ValueError(f"unsupported schema_version {schema_version}")
     country_dir = Path(country_dir)
     try:
         loaded, errors = _load_country_files(country_dir)
@@ -284,6 +359,8 @@ def validate_country_directory(
 
     sources = loaded.get("sources.json")
     evidence = loaded.get("evidence.json")
+    if schema_version == "1.1.0":
+        errors += _evidence_1_1_errors(evidence, as_of=as_of)
     pathways = loaded.get("pathways.json")
     review = loaded.get("review.json")
     errors += _duplicate_errors(sources, "source_id", "sources.json")
