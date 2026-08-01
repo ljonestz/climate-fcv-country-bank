@@ -24,6 +24,13 @@ _DATE_TIME_PATTERN = re.compile(
 )
 _CANDIDATE_STATUSES = frozenset({"reviewed", "approved"})
 _APPROVED_STATUSES = frozenset({"approved"})
+_RELEASE_INPUT_FILENAMES = (
+    "sources.json",
+    "evidence.json",
+    "pathways.json",
+    "review.json",
+    "profile.json",
+)
 
 
 def _parse_generated_at(value: str) -> datetime:
@@ -91,10 +98,28 @@ def _canonical_pathway(record: dict[str, Any]) -> dict[str, Any]:
     return result
 
 
+def _resolved_path(path: Path) -> Path:
+    return Path(path).resolve(strict=False)
+
+
 def _is_current_runtime_path(path: Path) -> bool:
-    normalized = Path(path).resolve(strict=False)
+    normalized = _resolved_path(path)
     tail = tuple(part.casefold() for part in normalized.parts[-3:])
     return tail == ("releases", "current", "runtime.json")
+
+
+def _reject_candidate_input_collision(
+    output_path: Path, country_dirs: Iterable[Path]
+) -> None:
+    resolved_output = _resolved_path(output_path)
+    for country_dir in country_dirs:
+        for filename in _RELEASE_INPUT_FILENAMES:
+            input_path = Path(country_dir) / filename
+            if resolved_output == _resolved_path(input_path):
+                raise ValueError(
+                    f"candidate output {output_path} collides with release "
+                    f"input {input_path}"
+                )
 
 
 def _validate_review_due(
@@ -356,12 +381,16 @@ def build_release(
                 "schema 1.1 candidate build requires an explicit output_path"
             )
         output_path = Path(output_path)
+        candidate_country_dirs = tuple(Path(path) for path in country_dirs)
         if _is_current_runtime_path(output_path):
             raise ValueError(
                 "candidate output may not target releases/current/runtime.json"
             )
+        _reject_candidate_input_collision(
+            output_path, candidate_country_dirs
+        )
         release = _construct_release(
-            country_dirs,
+            candidate_country_dirs,
             generated_at=generated_at,
             schema_version=schema_version,
             content_version=content_version,

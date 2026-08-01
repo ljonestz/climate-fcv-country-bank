@@ -456,6 +456,44 @@ def test_candidate_build_refuses_normalized_current_runtime_tail(
     assert not (current_dir / "runtime.json").exists()
 
 
+@pytest.mark.parametrize(
+    "filename",
+    [
+        "sources.json",
+        "evidence.json",
+        "pathways.json",
+        "review.json",
+        "profile.json",
+    ],
+)
+def test_candidate_build_refuses_output_colliding_with_release_input(
+    tmp_path: Path, filename: str
+) -> None:
+    country_dir = candidate_country(tmp_path / "countries")
+    input_paths = [
+        country_dir / input_name
+        for input_name in (
+            "sources.json",
+            "evidence.json",
+            "pathways.json",
+            "review.json",
+            "profile.json",
+        )
+    ]
+    before_bytes = {path: path.read_bytes() for path in input_paths}
+    before_names = sorted(path.name for path in country_dir.iterdir())
+    aliased_output = country_dir / "normalized-alias" / ".." / filename
+
+    with pytest.raises(
+        ValueError,
+        match=rf"candidate output.*release input.*{filename}",
+    ):
+        _candidate_build(country_dir, aliased_output)
+
+    assert {path: path.read_bytes() for path in input_paths} == before_bytes
+    assert sorted(path.name for path in country_dir.iterdir()) == before_names
+
+
 def test_candidate_release_is_deterministic_canonical_and_does_not_mutate_inputs(
     tmp_path: Path,
 ) -> None:
