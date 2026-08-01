@@ -135,13 +135,14 @@ def _resolved_path(path: Path) -> Path:
 
 
 def _is_current_release_directory(path: Path) -> bool:
-    normalized = _resolved_path(path)
-    current_tail = ("releases", "current")
-    path_tail = tuple(part.casefold() for part in normalized.parts[-2:])
-    parent_tail = tuple(
-        part.casefold() for part in normalized.parent.parts[-2:]
+    components = tuple(
+        part.casefold() for part in _resolved_path(path).parts
     )
-    return path_tail == current_tail or parent_tail == current_tail
+    current_components = ("releases", "current")
+    return any(
+        components[index : index + 2] == current_components
+        for index in range(len(components) - 1)
+    )
 
 
 def _reject_release_input_collision(

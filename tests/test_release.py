@@ -1089,3 +1089,67 @@ def test_cli_rejects_mode_inapplicable_flags_with_parser_error(
 
     assert exc_info.value.code == 2
     assert message in capsys.readouterr().err
+
+
+@pytest.mark.parametrize(
+    "relative_output",
+    [
+        Path("releases") / "current" / "previews" / "runtime.json",
+        (
+            Path("ReLeAsEs")
+            / "CuRrEnT"
+            / "normalized-away"
+            / ".."
+            / "previews"
+            / "runtime.json"
+        ),
+    ],
+)
+def test_candidate_rejects_nested_current_release_descendants(
+    tmp_path: Path, relative_output: Path
+) -> None:
+    country_dir = candidate_country(tmp_path / "countries")
+    current_dir = (
+        tmp_path / relative_output.parts[0] / relative_output.parts[1]
+    )
+    current_dir.mkdir(parents=True)
+    runtime_path = current_dir / "runtime.json"
+    runtime_path.write_bytes(b"protected runtime\n")
+
+    def snapshot_tree() -> dict[str, bytes | None]:
+        return {
+            path.relative_to(current_dir).as_posix(): (
+                path.read_bytes() if path.is_file() else None
+            )
+            for path in current_dir.rglob("*")
+        }
+
+    before_tree = snapshot_tree()
+    repository_runtime = (
+        Path(__file__).resolve().parents[1]
+        / "releases"
+        / "current"
+        / "runtime.json"
+    )
+    repository_before = repository_runtime.read_bytes()
+
+    with pytest.raises(ValueError, match=r"candidate.*releases/current"):
+        _candidate_build(country_dir, tmp_path / relative_output)
+
+    assert snapshot_tree() == before_tree
+    assert runtime_path.read_bytes() == b"protected runtime\n"
+    assert repository_runtime.read_bytes() == repository_before
+
+
+def test_candidate_current_guard_does_not_overmatch_unrelated_components(
+    tmp_path: Path,
+) -> None:
+    country_dir = candidate_country(tmp_path / "countries")
+    output_path = (
+        tmp_path / "my-releases" / "currently" / "preview.json"
+    )
+
+    release = _candidate_build(country_dir, output_path)
+
+    assert output_path.is_file()
+    assert release["candidate"] is True
