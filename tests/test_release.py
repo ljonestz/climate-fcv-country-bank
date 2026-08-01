@@ -736,3 +736,356 @@ def test_promotion_cli_direct_script_supports_explicit_current_dir(
     release = _read(current_dir / "runtime.json")
     assert release["candidate"] is False
     assert release["content_version"] == "2026.08.cli-promoted"
+
+
+@pytest.mark.parametrize("suffix", [".", " "])
+def test_candidate_rejects_win32_ambiguous_current_runtime_alias(
+    tmp_path: Path, suffix: str
+) -> None:
+    country_dir = candidate_country(tmp_path / "countries")
+    current_dir = tmp_path / "releases" / "current"
+    current_dir.mkdir(parents=True)
+    runtime_path = current_dir / "runtime.json"
+    runtime_path.write_bytes(b"protected runtime\n")
+    before_names = sorted(path.name for path in current_dir.iterdir())
+    repository_runtime = (
+        Path(__file__).resolve().parents[1]
+        / "releases"
+        / "current"
+        / "runtime.json"
+    )
+    repository_before = repository_runtime.read_bytes()
+
+    with pytest.raises(ValueError, match=r"unsafe output path.*trailing"):
+        _candidate_build(country_dir, current_dir / f"runtime.json{suffix}")
+
+    assert runtime_path.read_bytes() == b"protected runtime\n"
+    assert sorted(path.name for path in current_dir.iterdir()) == before_names
+    assert repository_runtime.read_bytes() == repository_before
+
+
+@pytest.mark.parametrize("suffix", [".", " "])
+@pytest.mark.parametrize(
+    "filename",
+    [
+        "sources.json",
+        "evidence.json",
+        "pathways.json",
+        "review.json",
+        "profile.json",
+    ],
+)
+def test_candidate_rejects_win32_ambiguous_input_alias(
+    tmp_path: Path, filename: str, suffix: str
+) -> None:
+    country_dir = candidate_country(tmp_path / "countries")
+    input_paths = [
+        country_dir / input_name
+        for input_name in (
+            "sources.json",
+            "evidence.json",
+            "pathways.json",
+            "review.json",
+            "profile.json",
+        )
+    ]
+    before_bytes = {path: path.read_bytes() for path in input_paths}
+    before_names = sorted(path.name for path in country_dir.iterdir())
+
+    with pytest.raises(ValueError, match=r"unsafe output path.*trailing"):
+        _candidate_build(country_dir, country_dir / f"{filename}{suffix}")
+
+    assert {path: path.read_bytes() for path in input_paths} == before_bytes
+    assert sorted(path.name for path in country_dir.iterdir()) == before_names
+
+
+def test_candidate_rejects_any_output_in_resolved_current_directory(
+    tmp_path: Path,
+) -> None:
+    country_dir = candidate_country(tmp_path / "countries")
+    current_dir = tmp_path / "releases" / "current"
+    current_dir.mkdir(parents=True)
+    runtime_path = current_dir / "runtime.json"
+    runtime_path.write_bytes(b"protected runtime\n")
+    before_names = sorted(path.name for path in current_dir.iterdir())
+
+    with pytest.raises(ValueError, match=r"candidate output.*releases/current"):
+        _candidate_build(country_dir, current_dir / "preview.json")
+
+    assert runtime_path.read_bytes() == b"protected runtime\n"
+    assert sorted(path.name for path in current_dir.iterdir()) == before_names
+
+
+@pytest.mark.parametrize(
+    ("relative_output", "reason"),
+    [
+        ("preview.json:stream", "alternate data stream"),
+        ("NUL.json", "reserved DOS device"),
+        ("unsafe./preview.json", "trailing dot or space"),
+    ],
+)
+def test_candidate_rejects_additional_unsafe_win32_components(
+    tmp_path: Path, relative_output: str, reason: str
+) -> None:
+    country_dir = candidate_country(tmp_path / "countries")
+    output_root = tmp_path / "outputs"
+    output_root.mkdir()
+    before_names = sorted(path.name for path in output_root.iterdir())
+
+    with pytest.raises(ValueError, match=reason):
+        _candidate_build(country_dir, output_root / relative_output)
+
+    assert sorted(path.name for path in output_root.iterdir()) == before_names
+
+
+def test_legacy_api_output_cannot_overwrite_release_input(
+    tmp_path: Path,
+) -> None:
+    country_dir = approved_country(tmp_path / "countries")
+    input_paths = [
+        country_dir / input_name
+        for input_name in (
+            "sources.json",
+            "evidence.json",
+            "pathways.json",
+            "review.json",
+        )
+    ]
+    before_bytes = {path: path.read_bytes() for path in input_paths}
+    before_names = sorted(path.name for path in country_dir.iterdir())
+
+    with pytest.raises(
+        ValueError,
+        match=r"release output.*release input.*evidence.json",
+    ):
+        build_release(
+            [country_dir],
+            generated_at=GENERATED_AT,
+            output_path=country_dir / "evidence.json",
+        )
+
+    assert {path: path.read_bytes() for path in input_paths} == before_bytes
+    assert sorted(path.name for path in country_dir.iterdir()) == before_names
+
+
+def test_legacy_direct_cli_output_cannot_overwrite_release_input(
+    tmp_path: Path,
+) -> None:
+    country_dir = approved_country(tmp_path / "countries")
+    input_paths = [
+        country_dir / input_name
+        for input_name in (
+            "sources.json",
+            "evidence.json",
+            "pathways.json",
+            "review.json",
+        )
+    ]
+    before_bytes = {path: path.read_bytes() for path in input_paths}
+    before_names = sorted(path.name for path in country_dir.iterdir())
+    script = Path(__file__).resolve().parents[1] / "scripts" / "build_release.py"
+
+    result = subprocess.run(
+        [
+            sys.executable,
+            str(script),
+            "--country-dir",
+            str(country_dir),
+            "--generated-at",
+            GENERATED_AT,
+            "--schema-version",
+            "1.0.0",
+            "--output",
+            str(country_dir / "review.json"),
+        ],
+        cwd=tmp_path,
+        check=False,
+        capture_output=True,
+        text=True,
+    )
+
+    assert result.returncode != 0
+    assert "collides with release input" in result.stderr
+    assert {path: path.read_bytes() for path in input_paths} == before_bytes
+    assert sorted(path.name for path in country_dir.iterdir()) == before_names
+
+
+def _set_review_date(
+    country_dir: Path, kind: str, value: str
+) -> tuple[str, str]:
+    if kind == "country":
+        path = country_dir / "review.json"
+        record = _read(path)
+        record["reviewed_on"] = value
+        if (
+            record["review_due"] is not None
+            and record["review_due"] < value
+        ):
+            record["review_due"] = value
+        _write(path, record)
+        return "country", record["iso3"]
+    if kind == "profile":
+        path = country_dir / "profile.json"
+        record = _read(path)
+        record["review_date"] = value
+        _write(path, record)
+        return "profile", record["iso3"]
+    if kind == "evidence":
+        path = country_dir / "evidence.json"
+        records = _read(path)
+        records[0]["review_date"] = value
+        _write(path, records)
+        return "evidence", records[0]["evidence_id"]
+    path = country_dir / "pathways.json"
+    records = _read(path)
+    records[0]["review_date"] = value
+    _write(path, records)
+    return "pathway", records[0]["pathway_id"]
+
+
+@pytest.mark.parametrize(
+    ("mode", "kind"),
+    [
+        ("candidate", "country"),
+        ("candidate", "profile"),
+        ("candidate", "evidence"),
+        ("candidate", "pathway"),
+        ("promotion", "country"),
+        ("promotion", "profile"),
+        ("promotion", "evidence"),
+        ("promotion", "pathway"),
+        ("legacy", "country"),
+        ("legacy", "evidence"),
+        ("legacy", "pathway"),
+    ],
+)
+def test_release_rejects_future_review_dates_without_changing_output(
+    tmp_path: Path, mode: str, kind: str
+) -> None:
+    if mode == "legacy":
+        country_dir = approved_country(tmp_path / "countries")
+        generated_at = GENERATED_AT
+        future_date = "2026-07-31"
+    else:
+        country_dir = candidate_country(
+            tmp_path / "countries",
+            status="approved" if mode == "promotion" else "reviewed",
+        )
+        generated_at = "2026-08-01T00:00:00Z"
+        future_date = "2026-08-02"
+    error_kind, record_id = _set_review_date(
+        country_dir, kind, future_date
+    )
+    output_dir = tmp_path / "outputs"
+    output_dir.mkdir()
+    output_path = output_dir / "runtime.json"
+    output_path.write_bytes(b"existing output\n")
+    before_names = sorted(path.name for path in output_dir.iterdir())
+
+    with pytest.raises(
+        ValueError,
+        match=rf"{error_kind} {record_id}.*{future_date}.*generated_at",
+    ):
+        if mode == "candidate":
+            build_release(
+                [country_dir],
+                generated_at=generated_at,
+                schema_version="1.1.0",
+                content_version="2026.08.future-test",
+                output_path=output_path,
+            )
+        elif mode == "promotion":
+            promote_release(
+                [country_dir],
+                generated_at=generated_at,
+                content_version="2026.08.future-test",
+                current_dir=output_dir,
+            )
+        else:
+            build_release(
+                [country_dir],
+                generated_at=generated_at,
+                output_path=output_path,
+            )
+
+    assert output_path.read_bytes() == b"existing output\n"
+    assert sorted(path.name for path in output_dir.iterdir()) == before_names
+
+
+@pytest.mark.parametrize("mode", ["candidate", "promotion", "legacy"])
+def test_release_accepts_review_dates_equal_to_generation_date(
+    tmp_path: Path, mode: str
+) -> None:
+    if mode == "legacy":
+        country_dir = approved_country(tmp_path / "countries")
+        generated_at = GENERATED_AT
+        equal_date = "2026-07-30"
+        review = _read(country_dir / "review.json")
+        review["reviewed_on"] = equal_date
+        _write(country_dir / "review.json", review)
+        for filename in ("evidence.json", "pathways.json"):
+            records = _read(country_dir / filename)
+            for record in records:
+                record["review_date"] = equal_date
+            _write(country_dir / filename, records)
+        release = build_release(
+            [country_dir],
+            generated_at=generated_at,
+            output_path=tmp_path / "legacy.json",
+        )
+    else:
+        country_dir = candidate_country(
+            tmp_path / "countries",
+            status="approved" if mode == "promotion" else "reviewed",
+        )
+        generated_at = "2026-08-01T00:00:00Z"
+        if mode == "candidate":
+            release = build_release(
+                [country_dir],
+                generated_at=generated_at,
+                schema_version="1.1.0",
+                content_version="2026.08.equal-test",
+                output_path=tmp_path / "candidate.json",
+            )
+        else:
+            release = promote_release(
+                [country_dir],
+                generated_at=generated_at,
+                content_version="2026.08.equal-test",
+                current_dir=tmp_path / "current",
+            )
+
+    assert release["generated_at"] == generated_at
+
+
+@pytest.mark.parametrize(
+    ("arguments", "message"),
+    [
+        (
+            ["--promote", "--output", "preview.json"],
+            "--output cannot be used with --promote",
+        ),
+        (
+            ["--schema-version", "1.1.0", "--current-dir", "current"],
+            "--current-dir requires --promote",
+        ),
+        (
+            ["--schema-version", "1.0.0", "--current-dir", "current"],
+            "--current-dir requires --promote",
+        ),
+    ],
+)
+def test_cli_rejects_mode_inapplicable_flags_with_parser_error(
+    tmp_path: Path,
+    capsys: pytest.CaptureFixture[str],
+    arguments: list[str],
+    message: str,
+) -> None:
+    with pytest.raises(SystemExit) as exc_info:
+        release_cli.main(
+            ["--generated-at", GENERATED_AT, *arguments],
+            root=tmp_path,
+        )
+
+    assert exc_info.value.code == 2
+    assert message in capsys.readouterr().err

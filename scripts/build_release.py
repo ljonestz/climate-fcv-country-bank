@@ -15,7 +15,6 @@ from climate_bank.release import (  # noqa: E402
     SCHEMA_VERSION,
     build_release,
     promote_release,
-    write_canonical_json,
 )
 
 
@@ -39,6 +38,42 @@ def _parser() -> argparse.ArgumentParser:
     return parser
 
 
+def _validate_mode_args(
+    parser: argparse.ArgumentParser, args: argparse.Namespace
+) -> None:
+    if args.promote:
+        if args.output is not None:
+            parser.error("--output cannot be used with --promote")
+        if (
+            args.schema_version is not None
+            and args.schema_version != CANDIDATE_SCHEMA_VERSION
+        ):
+            parser.error("--promote requires schema version 1.1.0")
+        if not args.country_dir:
+            parser.error("--promote requires explicit --country-dir input")
+        if args.current_dir is None:
+            parser.error("--promote requires explicit --current-dir")
+        if args.content_version is None:
+            parser.error("--promote requires explicit --content-version")
+        return
+
+    if args.current_dir is not None:
+        parser.error("--current-dir requires --promote")
+
+    schema_version = args.schema_version or SCHEMA_VERSION
+    if schema_version == CANDIDATE_SCHEMA_VERSION:
+        if not args.country_dir:
+            parser.error(
+                "candidate build requires explicit --country-dir input"
+            )
+        if args.output is None:
+            parser.error("candidate build requires explicit --output")
+        if args.content_version is None:
+            parser.error(
+                "candidate build requires explicit --content-version"
+            )
+
+
 def _country_dirs(args: argparse.Namespace, repository_root: Path) -> list[Path]:
     if args.country_dir:
         return sorted(args.country_dir, key=lambda path: str(path))
@@ -51,24 +86,15 @@ def _country_dirs(args: argparse.Namespace, repository_root: Path) -> list[Path]
 
 
 def main(argv: list[str] | None = None, root: Path | None = None) -> int:
-    args = _parser().parse_args(argv)
+    parser = _parser()
+    args = parser.parse_args(argv)
+    _validate_mode_args(parser, args)
     repository_root = (
         Path(root) if root is not None else Path(__file__).resolve().parents[1]
     )
 
     try:
         if args.promote:
-            if not args.country_dir:
-                raise ValueError("promotion requires explicit --country-dir input")
-            if args.current_dir is None:
-                raise ValueError("promotion requires explicit --current-dir")
-            if args.content_version is None:
-                raise ValueError("promotion requires explicit --content-version")
-            if (
-                args.schema_version is not None
-                and args.schema_version != CANDIDATE_SCHEMA_VERSION
-            ):
-                raise ValueError("promotion schema_version must be 1.1.0")
             release = promote_release(
                 _country_dirs(args, repository_root),
                 generated_at=args.generated_at,
@@ -80,16 +106,6 @@ def main(argv: list[str] | None = None, root: Path | None = None) -> int:
             schema_version = args.schema_version or SCHEMA_VERSION
             content_version = args.content_version or CONTENT_VERSION
             if schema_version == CANDIDATE_SCHEMA_VERSION:
-                if not args.country_dir:
-                    raise ValueError(
-                        "candidate build requires explicit --country-dir input"
-                    )
-                if args.output is None:
-                    raise ValueError("candidate build requires explicit --output")
-                if args.content_version is None:
-                    raise ValueError(
-                        "candidate build requires explicit --content-version"
-                    )
                 output_path = args.output
                 release = build_release(
                     _country_dirs(args, repository_root),
@@ -112,8 +128,8 @@ def main(argv: list[str] | None = None, root: Path | None = None) -> int:
                     generated_at=args.generated_at,
                     schema_version=schema_version,
                     content_version=content_version,
+                    output_path=output_path,
                 )
-                write_canonical_json(output_path, release)
     except (OSError, ValueError) as exc:
         print(f"release build failed: {exc}", file=sys.stderr)
         return 1

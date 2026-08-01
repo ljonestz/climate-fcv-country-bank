@@ -22,6 +22,10 @@ _DATE_TIME_PATTERN = re.compile(
     r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}"
     r"(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$"
 )
+_WIN32_RESERVED_DEVICE_PATTERN = re.compile(
+    r"^(?:CON|PRN|AUX|NUL|COM[1-9]|LPT[1-9])$",
+    re.IGNORECASE,
+)
 _CANDIDATE_STATUSES = frozenset({"reviewed", "approved"})
 _APPROVED_STATUSES = frozenset({"approved"})
 _RELEASE_INPUT_FILENAMES = (
@@ -98,28 +102,83 @@ def _canonical_pathway(record: dict[str, Any]) -> dict[str, Any]:
     return result
 
 
+def _validate_win32_output_path(path: Path) -> None:
+    output_path = Path(path)
+    anchor_parts = {
+        part
+        for part in (output_path.anchor, output_path.drive, output_path.root)
+        if part
+    }
+    for component in output_path.parts:
+        if component in anchor_parts or component in {".", ".."}:
+            continue
+        if component.endswith((".", " ")):
+            raise ValueError(
+                f"unsafe output path component {component!r}: "
+                "trailing dot or space"
+            )
+        if ":" in component:
+            raise ValueError(
+                f"unsafe output path component {component!r}: "
+                "alternate data stream separator"
+            )
+        device_name = component.split(".", 1)[0]
+        if _WIN32_RESERVED_DEVICE_PATTERN.fullmatch(device_name):
+            raise ValueError(
+                f"unsafe output path component {component!r}: "
+                "reserved DOS device name"
+            )
+
+
 def _resolved_path(path: Path) -> Path:
     return Path(path).resolve(strict=False)
 
 
-def _is_current_runtime_path(path: Path) -> bool:
+def _is_current_release_directory(path: Path) -> bool:
     normalized = _resolved_path(path)
-    tail = tuple(part.casefold() for part in normalized.parts[-3:])
-    return tail == ("releases", "current", "runtime.json")
+    current_tail = ("releases", "current")
+    path_tail = tuple(part.casefold() for part in normalized.parts[-2:])
+    parent_tail = tuple(
+        part.casefold() for part in normalized.parent.parts[-2:]
+    )
+    return path_tail == current_tail or parent_tail == current_tail
 
 
-def _reject_candidate_input_collision(
-    output_path: Path, country_dirs: Iterable[Path]
+def _reject_release_input_collision(
+    output_path: Path,
+    country_dirs: Iterable[Path],
+    *,
+    candidate: bool,
 ) -> None:
     resolved_output = _resolved_path(output_path)
+    output_label = "candidate output" if candidate else "release output"
     for country_dir in country_dirs:
         for filename in _RELEASE_INPUT_FILENAMES:
             input_path = Path(country_dir) / filename
             if resolved_output == _resolved_path(input_path):
                 raise ValueError(
-                    f"candidate output {output_path} collides with release "
+                    f"{output_label} {output_path} collides with release "
                     f"input {input_path}"
                 )
+
+
+def _validate_release_output_path(
+    output_path: Path,
+    country_dirs: Iterable[Path],
+    *,
+    candidate: bool,
+) -> None:
+    _validate_win32_output_path(output_path)
+    if candidate and _is_current_release_directory(output_path):
+        raise ValueError(
+            "candidate output may not target the releases/current directory "
+            "(including releases/current/runtime.json)"
+        )
+    _reject_release_input_collision(
+        output_path,
+        country_dirs,
+        candidate=candidate,
+    )
 
 
 def _validate_review_due(
@@ -142,6 +201,31 @@ def _validate_review_due(
         raise ValueError(
             f"{country_dir}: review_due {review_due} is earlier "
             f"than generated_at calendar date {generated_at[:10]}"
+        )
+
+
+def _validate_approval_date(
+    country_dir: Path,
+    kind: str,
+    record_id: str,
+    field_name: str,
+    value: Any,
+    generated: datetime,
+    generated_at: str,
+) -> None:
+    if not isinstance(value, str):
+        return
+    try:
+        approval_date = datetime.fromisoformat(value).date()
+    except ValueError:
+        return
+    if approval_date > generated.date():
+        raise _record_error(
+            country_dir,
+            kind,
+            record_id,
+            f"{field_name} {value} is later than generated_at calendar "
+            f"date {generated_at[:10]}",
         )
 
 
@@ -199,6 +283,15 @@ def _collect_inputs(
                 review["status"],
                 allowed_statuses,
             )
+        _validate_approval_date(
+            country_dir,
+            "country",
+            iso3,
+            "reviewed_on",
+            review["reviewed_on"],
+            generated,
+            generated_at,
+        )
         _validate_review_due(country_dir, review, generated, generated_at)
 
         if profile is not None and profile["review_status"] not in allowed_statuses:
@@ -208,6 +301,16 @@ def _collect_inputs(
                 iso3,
                 profile["review_status"],
                 allowed_statuses,
+            )
+        if profile is not None:
+            _validate_approval_date(
+                country_dir,
+                "profile",
+                iso3,
+                "review_date",
+                profile["review_date"],
+                generated,
+                generated_at,
             )
 
         for record in evidence:
@@ -227,6 +330,15 @@ def _collect_inputs(
                     record_id,
                     "must have a non-null review_date",
                 )
+            _validate_approval_date(
+                country_dir,
+                "evidence",
+                record_id,
+                "review_date",
+                record["review_date"],
+                generated,
+                generated_at,
+            )
         for record in pathways:
             record_id = record["pathway_id"]
             if record["review_status"] not in allowed_statuses:
@@ -244,6 +356,15 @@ def _collect_inputs(
                     record_id,
                     "must have a non-null review_date",
                 )
+            _validate_approval_date(
+                country_dir,
+                "pathway",
+                record_id,
+                "review_date",
+                record["review_date"],
+                generated,
+                generated_at,
+            )
 
         inputs.append(
             (country_dir, review, sources, evidence, pathways, profile)
@@ -375,41 +496,47 @@ def build_release(
     output_path: Path | None = None,
 ) -> dict[str, Any]:
     """Build a legacy 1.0 release or an explicit schema 1.1 candidate."""
+    materialized_country_dirs = tuple(Path(path) for path in country_dirs)
+    if schema_version not in {SCHEMA_VERSION, CANDIDATE_SCHEMA_VERSION}:
+        raise ValueError(f"unsupported schema_version {schema_version}")
+
     if schema_version == CANDIDATE_SCHEMA_VERSION:
         if output_path is None:
             raise ValueError(
                 "schema 1.1 candidate build requires an explicit output_path"
             )
-        output_path = Path(output_path)
-        candidate_country_dirs = tuple(Path(path) for path in country_dirs)
-        if _is_current_runtime_path(output_path):
-            raise ValueError(
-                "candidate output may not target releases/current/runtime.json"
-            )
-        _reject_candidate_input_collision(
-            output_path, candidate_country_dirs
+        candidate_output = Path(output_path)
+        _validate_release_output_path(
+            candidate_output,
+            materialized_country_dirs,
+            candidate=True,
         )
         release = _construct_release(
-            candidate_country_dirs,
+            materialized_country_dirs,
             generated_at=generated_at,
             schema_version=schema_version,
             content_version=content_version,
             candidate=True,
         )
-        write_canonical_json(output_path, release)
+        write_canonical_json(candidate_output, release)
         return release
 
-    if schema_version != SCHEMA_VERSION:
-        raise ValueError(f"unsupported schema_version {schema_version}")
+    legacy_output = Path(output_path) if output_path is not None else None
+    if legacy_output is not None:
+        _validate_release_output_path(
+            legacy_output,
+            materialized_country_dirs,
+            candidate=False,
+        )
     release = _construct_release(
-        country_dirs,
+        materialized_country_dirs,
         generated_at=generated_at,
         schema_version=schema_version,
         content_version=content_version,
         candidate=None,
     )
-    if output_path is not None:
-        write_canonical_json(Path(output_path), release)
+    if legacy_output is not None:
+        write_canonical_json(legacy_output, release)
     return release
 
 
@@ -421,14 +548,21 @@ def promote_release(
     current_dir: Path,
 ) -> dict[str, Any]:
     """Promote only fully approved schema 1.1 inputs without changing statuses."""
+    materialized_country_dirs = tuple(Path(path) for path in country_dirs)
+    output_path = Path(current_dir) / "runtime.json"
+    _validate_release_output_path(
+        output_path,
+        materialized_country_dirs,
+        candidate=False,
+    )
     release = _construct_release(
-        country_dirs,
+        materialized_country_dirs,
         generated_at=generated_at,
         schema_version=CANDIDATE_SCHEMA_VERSION,
         content_version=content_version,
         candidate=False,
     )
-    write_canonical_json(Path(current_dir) / "runtime.json", release)
+    write_canonical_json(output_path, release)
     return release
 
 
