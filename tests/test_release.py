@@ -7,10 +7,12 @@ import hashlib
 import json
 from pathlib import Path
 import shutil
+import subprocess
+import sys
 
 import pytest
 
-from climate_bank.release import build_release
+from climate_bank.release import build_release, promote_release
 from climate_bank.validation import validate_runtime_release
 from scripts import build_release as release_cli
 
@@ -70,6 +72,8 @@ def test_approved_release_is_deterministic_valid_and_canonical(tmp_path: Path) -
     assert first["schema_version"] == "1.0.0"
     assert first["content_version"] == "2026.07.south-sudan-pilot"
     assert first["generated_at"] == GENERATED_AT
+    assert "candidate" not in first
+    assert "selection_aliases" not in first["countries"]["SSD"]
     assert first["countries"] == {
         "SSD": {
             "iso3": "SSD",
@@ -311,3 +315,386 @@ def test_release_cli_failure_does_not_leave_invalid_output(
     assert result != 0
     assert not (tmp_path / "releases" / "current" / "runtime.json").exists()
     assert "no approved country content" in capsys.readouterr().err
+
+
+def candidate_country(
+    tmp_path: Path, name: str = "SSD", status: str = "reviewed"
+) -> Path:
+    country_dir = tmp_path / name
+    shutil.copytree(FIXTURE_DIR, country_dir)
+    shutil.copyfile(
+        country_dir / "profile.valid.json",
+        country_dir / "profile.json",
+    )
+
+    review = _read(country_dir / "review.json")
+    review.update(
+        {
+            "status": status,
+            "reviewer": "Pilot reviewer",
+            "reviewed_on": "2026-08-01",
+            "review_due": "2026-08-31",
+        }
+    )
+    _write(country_dir / "review.json", review)
+
+    evidence = _read(country_dir / "evidence.json")
+    for record in evidence:
+        record.update(
+            {
+                "evidence_class": (
+                    "direct-climate-fcv"
+                    if record["analytical_role"] == "direct-climate-fcv"
+                    else "climate-pressure"
+                ),
+                "administrative_level": "county",
+                "ecological_level": None,
+                "refresh_tier": "current",
+                "review_due": "2026-08-31",
+                "review_status": status,
+                "review_date": "2026-08-01",
+            }
+        )
+    _write(country_dir / "evidence.json", evidence)
+
+    pathways = _read(country_dir / "pathways.json")
+    for record in pathways:
+        record["review_status"] = status
+        record["review_date"] = "2026-08-01"
+    _write(country_dir / "pathways.json", pathways)
+
+    profile = _read(country_dir / "profile.json")
+    profile["review_status"] = status
+    profile["review_date"] = "2026-08-01"
+    _write(country_dir / "profile.json", profile)
+    return country_dir
+
+
+def _candidate_build(country_dir: Path, output_path: Path):
+    return build_release(
+        [country_dir],
+        generated_at="2026-08-01T00:00:00Z",
+        schema_version="1.1.0",
+        content_version="2026.08.candidate-test",
+        output_path=output_path,
+    )
+
+
+@pytest.mark.parametrize("status", ["reviewed", "approved"])
+def test_candidate_build_writes_explicit_schema_1_1_preview(
+    tmp_path: Path, status: str
+) -> None:
+    country_dir = candidate_country(tmp_path / "countries", status=status)
+    output_path = tmp_path / "previews" / f"{status}.json"
+
+    release = _candidate_build(country_dir, output_path)
+
+    assert output_path.is_file()
+    assert _read(output_path) == release
+    assert release["schema_version"] == "1.1.0"
+    assert release["content_version"] == "2026.08.candidate-test"
+    assert release["candidate"] is True
+    assert release["countries"]["SSD"]["status"] == status
+    assert release["countries"]["SSD"]["selection_aliases"] == _read(
+        country_dir / "profile.json"
+    )["selection_aliases"]
+    assert validate_runtime_release(release) == []
+
+
+@pytest.mark.parametrize(
+    ("kind", "status"),
+    [
+        ("country", "draft"), ("country", "stale"), ("country", "rejected"),
+        ("profile", "draft"), ("profile", "stale"), ("profile", "rejected"),
+        ("evidence", "draft"), ("evidence", "stale"), ("evidence", "rejected"),
+        ("pathway", "draft"), ("pathway", "stale"), ("pathway", "rejected"),
+    ],
+)
+def test_candidate_rejects_unreviewed_input_statuses(
+    tmp_path: Path, kind: str, status: str
+) -> None:
+    country_dir = candidate_country(tmp_path / "countries")
+    if kind == "country":
+        filename, id_field = "review.json", None
+    elif kind == "profile":
+        filename, id_field = "profile.json", None
+    elif kind == "evidence":
+        filename, id_field = "evidence.json", "evidence_id"
+    else:
+        filename, id_field = "pathways.json", "pathway_id"
+    value = _read(country_dir / filename)
+    if id_field is None:
+        value["status" if kind == "country" else "review_status"] = status
+    else:
+        value[0]["review_status"] = status
+    _write(country_dir / filename, value)
+    output_path = tmp_path / "preview.json"
+
+    with pytest.raises(ValueError, match=rf"{kind}.*{status}"):
+        _candidate_build(country_dir, output_path)
+
+    assert not output_path.exists()
+
+
+def test_candidate_build_refuses_normalized_current_runtime_tail(
+    tmp_path: Path,
+) -> None:
+    country_dir = candidate_country(tmp_path / "countries")
+    repository_runtime = (
+        Path(__file__).resolve().parents[1]
+        / "releases" / "current" / "runtime.json"
+    )
+    before = repository_runtime.read_bytes()
+    current_dir = tmp_path / "releases" / "current"
+    current_dir.mkdir(parents=True)
+    unsafe_path = current_dir / "nested" / ".." / "runtime.json"
+
+    with pytest.raises(ValueError, match=r"candidate.*releases/current/runtime\.json"):
+        _candidate_build(country_dir, unsafe_path)
+
+    assert repository_runtime.read_bytes() == before
+    assert not (current_dir / "runtime.json").exists()
+
+
+def test_candidate_release_is_deterministic_canonical_and_does_not_mutate_inputs(
+    tmp_path: Path,
+) -> None:
+    country_dir = candidate_country(tmp_path / "countries")
+    sources = _read(country_dir / "sources.json")
+    extra = copy.deepcopy(sources[0])
+    extra.update(
+        {
+            "source_id": "SSD-SRC-003",
+            "title": "Unreferenced source",
+            "url": "https://example.org/unreferenced",
+        }
+    )
+    sources.append(extra)
+    _write(country_dir / "sources.json", sources)
+    before = {
+        path.name: path.read_bytes()
+        for path in country_dir.iterdir()
+        if path.is_file()
+    }
+
+    first_path = tmp_path / "previews" / "first.json"
+    second_path = tmp_path / "previews" / "second.json"
+    first = _candidate_build(country_dir, first_path)
+    second = _candidate_build(country_dir, second_path)
+
+    assert first == second
+    assert first_path.read_bytes() == second_path.read_bytes()
+    assert first_path.read_bytes().endswith(b"\n")
+    assert first_path.read_text(encoding="utf-8") == (
+        json.dumps(first, ensure_ascii=False, indent=2) + "\n"
+    )
+    assert validate_runtime_release(first) == []
+    assert [source["source_id"] for source in first["sources"]] == [
+        "SSD-SRC-001",
+        "SSD-SRC-002",
+    ]
+    assert {
+        path.name: path.read_bytes()
+        for path in country_dir.iterdir()
+        if path.is_file()
+    } == before
+
+
+@pytest.mark.parametrize(
+    ("kind", "record_id"),
+    [
+        ("country", "SSD"),
+        ("profile", "SSD"),
+        ("evidence", "SSD-E-001"),
+        ("pathway", "SSD-P-001"),
+    ],
+)
+def test_promotion_refuses_each_nonapproved_gate_without_writing(
+    tmp_path: Path, kind: str, record_id: str
+) -> None:
+    country_dir = candidate_country(tmp_path / "countries", status="approved")
+    if kind == "country":
+        filename, value = "review.json", _read(country_dir / "review.json")
+        value["status"] = "reviewed"
+    elif kind == "profile":
+        filename, value = "profile.json", _read(country_dir / "profile.json")
+        value["review_status"] = "reviewed"
+    elif kind == "evidence":
+        filename, value = "evidence.json", _read(country_dir / "evidence.json")
+        value[0]["review_status"] = "reviewed"
+    else:
+        filename, value = "pathways.json", _read(country_dir / "pathways.json")
+        value[0]["review_status"] = "reviewed"
+    _write(country_dir / filename, value)
+    current_dir = tmp_path / "current"
+
+    with pytest.raises(
+        ValueError,
+        match=rf"{kind} {record_id} status reviewed.*approved",
+    ):
+        promote_release(
+            [country_dir],
+            generated_at="2026-08-01T00:00:00Z",
+            content_version="2026.08.promoted-test",
+            current_dir=current_dir,
+        )
+
+    assert not current_dir.exists()
+
+
+def test_successful_promotion_writes_approved_schema_1_1_runtime(
+    tmp_path: Path,
+) -> None:
+    country_dir = candidate_country(tmp_path / "countries", status="approved")
+    current_dir = tmp_path / "explicit-current"
+
+    first = promote_release(
+        [country_dir],
+        generated_at="2026-08-01T00:00:00Z",
+        content_version="2026.08.promoted-test",
+        current_dir=current_dir,
+    )
+    first_bytes = (current_dir / "runtime.json").read_bytes()
+    second = promote_release(
+        [country_dir],
+        generated_at="2026-08-01T00:00:00Z",
+        content_version="2026.08.promoted-test",
+        current_dir=current_dir,
+    )
+
+    assert first == second
+    assert (current_dir / "runtime.json").read_bytes() == first_bytes
+    assert first["schema_version"] == "1.1.0"
+    assert first["candidate"] is False
+    assert first["countries"]["SSD"]["status"] == "approved"
+    assert {
+        record["review_status"] for record in first["evidence_records"]
+    } == {"approved"}
+    assert {record["review_status"] for record in first["pathways"]} == {"approved"}
+    assert first["countries"]["SSD"]["selection_aliases"] == _read(
+        country_dir / "profile.json"
+    )["selection_aliases"]
+    assert validate_runtime_release(first) == []
+
+
+@pytest.mark.parametrize("operation", ["candidate", "promotion"])
+def test_failed_release_operation_preserves_existing_output(
+    tmp_path: Path, operation: str
+) -> None:
+    country_dir = candidate_country(tmp_path / "countries", status="approved")
+    evidence = _read(country_dir / "evidence.json")
+    evidence[0]["review_status"] = "rejected"
+    _write(country_dir / "evidence.json", evidence)
+    output_dir = tmp_path / operation
+    output_dir.mkdir()
+    output_path = output_dir / "runtime.json"
+    output_path.write_bytes(b"existing output\n")
+    before_files = sorted(path.name for path in output_dir.iterdir())
+
+    with pytest.raises(ValueError):
+        if operation == "candidate":
+            _candidate_build(country_dir, output_path)
+        else:
+            promote_release(
+                [country_dir],
+                generated_at="2026-08-01T00:00:00Z",
+                content_version="2026.08.promoted-test",
+                current_dir=output_dir,
+            )
+
+    assert output_path.read_bytes() == b"existing output\n"
+    assert sorted(path.name for path in output_dir.iterdir()) == before_files
+
+
+@pytest.mark.parametrize(
+    "mutation",
+    [
+        lambda release: release.pop("candidate"),
+        lambda release: release["countries"]["SSD"].pop("selection_aliases"),
+        lambda release: release["evidence_records"][0].pop("evidence_class"),
+        lambda release: release["evidence_records"][0].pop("administrative_level"),
+        lambda release: release["evidence_records"][0].pop("ecological_level"),
+        lambda release: release["evidence_records"][0].pop("refresh_tier"),
+        lambda release: release["evidence_records"][0].pop("review_due"),
+    ],
+)
+def test_runtime_schema_rejects_missing_schema_1_1_fields(
+    tmp_path: Path, mutation
+) -> None:
+    country_dir = candidate_country(tmp_path / "countries")
+    release = _candidate_build(country_dir, tmp_path / "preview.json")
+    mutation(release)
+    assert validate_runtime_release(release)
+
+
+@pytest.mark.parametrize(
+    ("candidate", "status"),
+    [(True, "draft"), (True, "rejected"), (False, "reviewed")],
+)
+def test_runtime_schema_rejects_invalid_candidate_status_combinations(
+    tmp_path: Path, candidate: bool, status: str
+) -> None:
+    country_dir = candidate_country(
+        tmp_path / "countries", status="approved" if not candidate else "reviewed"
+    )
+    if candidate:
+        release = _candidate_build(country_dir, tmp_path / "preview.json")
+    else:
+        release = promote_release(
+            [country_dir],
+            generated_at="2026-08-01T00:00:00Z",
+            content_version="2026.08.promoted-test",
+            current_dir=tmp_path / "current",
+        )
+    release["countries"]["SSD"]["status"] = status
+    release["evidence_records"][0]["review_status"] = status
+    release["pathways"][0]["review_status"] = status
+    assert validate_runtime_release(release)
+
+
+def test_candidate_cli_direct_script_supports_explicit_inputs(
+    tmp_path: Path,
+) -> None:
+    country_dir = candidate_country(tmp_path / "countries")
+    output_path = tmp_path / "previews" / "runtime.json"
+    script = Path(__file__).resolve().parents[1] / "scripts" / "build_release.py"
+
+    result = subprocess.run(
+        [
+            sys.executable, str(script), "--country-dir", str(country_dir),
+            "--generated-at", "2026-08-01T00:00:00Z",
+            "--schema-version", "1.1.0",
+            "--content-version", "2026.08.cli-candidate",
+            "--output", str(output_path),
+        ],
+        cwd=tmp_path, check=False, capture_output=True, text=True,
+    )
+
+    assert result.returncode == 0, result.stderr
+    release = _read(output_path)
+    assert release["candidate"] is True
+    assert release["content_version"] == "2026.08.cli-candidate"
+
+
+def test_promotion_cli_direct_script_supports_explicit_current_dir(
+    tmp_path: Path,
+) -> None:
+    country_dir = candidate_country(tmp_path / "countries", status="approved")
+    current_dir = tmp_path / "current"
+    script = Path(__file__).resolve().parents[1] / "scripts" / "build_release.py"
+
+    result = subprocess.run(
+        [
+            sys.executable, str(script), "--promote",
+            "--country-dir", str(country_dir),
+            "--generated-at", "2026-08-01T00:00:00Z",
+            "--content-version", "2026.08.cli-promoted",
+            "--current-dir", str(current_dir),
+        ],
+        cwd=tmp_path, check=False, capture_output=True, text=True,
+    )
+
+    assert result.returncode == 0, result.stderr
+    release = _read(current_dir / "runtime.json")
+    assert release["candidate"] is False
+    assert release["content_version"] == "2026.08.cli-promoted"

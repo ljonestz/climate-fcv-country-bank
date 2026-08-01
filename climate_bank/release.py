@@ -1,4 +1,4 @@
-"""Build deterministic runtime releases from human-approved country ledgers."""
+"""Build deterministic runtime releases with explicit human approval gates."""
 
 from __future__ import annotations
 
@@ -6,19 +6,24 @@ from copy import deepcopy
 from datetime import datetime
 import hashlib
 import json
+import os
 from pathlib import Path
 import re
+import tempfile
 from typing import Any, Iterable
 
 from .validation import validate_country_directory, validate_runtime_release
 
 
 SCHEMA_VERSION = "1.0.0"
+CANDIDATE_SCHEMA_VERSION = "1.1.0"
 CONTENT_VERSION = "2026.07.south-sudan-pilot"
 _DATE_TIME_PATTERN = re.compile(
     r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}"
     r"(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$"
 )
+_CANDIDATE_STATUSES = frozenset({"reviewed", "approved"})
+_APPROVED_STATUSES = frozenset({"approved"})
 
 
 def _parse_generated_at(value: str) -> datetime:
@@ -45,10 +50,26 @@ def _country_validation_error(country_dir: Path, errors: list[str]) -> ValueErro
     return ValueError(f"{country_dir}: {joined}")
 
 
-def _approved_record_error(
+def _record_error(
     country_dir: Path, kind: str, record_id: str, detail: str
 ) -> ValueError:
     return ValueError(f"{country_dir}: {kind} {record_id} {detail}")
+
+
+def _status_error(
+    country_dir: Path,
+    kind: str,
+    record_id: str,
+    status: Any,
+    allowed_statuses: frozenset[str],
+) -> ValueError:
+    allowed = " or ".join(sorted(allowed_statuses))
+    return _record_error(
+        country_dir,
+        kind,
+        record_id,
+        f"status {status} must be {allowed}",
+    )
 
 
 def _canonical_evidence(record: dict[str, Any]) -> dict[str, Any]:
@@ -70,53 +91,112 @@ def _canonical_pathway(record: dict[str, Any]) -> dict[str, Any]:
     return result
 
 
-def build_release(
-    country_dirs: Iterable[Path], *, generated_at: str
-) -> dict[str, Any]:
-    """Build a schema-valid release containing only fully approved countries."""
-    generated = _parse_generated_at(generated_at)
-    approved_inputs: list[
-        tuple[
-            Path,
-            dict[str, Any],
-            list[dict[str, Any]],
-            list[dict[str, Any]],
-            list[dict[str, Any]],
-        ]
-    ] = []
+def _is_current_runtime_path(path: Path) -> bool:
+    normalized = Path(path).resolve(strict=False)
+    tail = tuple(part.casefold() for part in normalized.parts[-3:])
+    return tail == ("releases", "current", "runtime.json")
+
+
+def _validate_review_due(
+    country_dir: Path,
+    review: dict[str, Any],
+    generated: datetime,
+    generated_at: str,
+) -> None:
+    review_due = review.get("review_due")
+    try:
+        due = datetime.fromisoformat(review_due).date()
+    except (TypeError, ValueError) as exc:
+        raise _record_error(
+            country_dir,
+            "country",
+            review.get("iso3", "<unknown>"),
+            "requires a valid review_due for release construction",
+        ) from exc
+    if due < generated.date():
+        raise ValueError(
+            f"{country_dir}: review_due {review_due} is earlier "
+            f"than generated_at calendar date {generated_at[:10]}"
+        )
+
+
+def _collect_inputs(
+    country_dirs: Iterable[Path],
+    *,
+    generated: datetime,
+    generated_at: str,
+    schema_version: str,
+    candidate: bool | None,
+) -> list[
+    tuple[
+        Path,
+        dict[str, Any],
+        list[dict[str, Any]],
+        list[dict[str, Any]],
+        list[dict[str, Any]],
+        dict[str, Any] | None,
+    ]
+]:
+    inputs = []
+    is_v1_1 = schema_version == CANDIDATE_SCHEMA_VERSION
+    allowed_statuses = (
+        _CANDIDATE_STATUSES if candidate is True else _APPROVED_STATUSES
+    )
 
     for country_dir in sorted(
         (Path(path) for path in country_dirs),
         key=lambda path: str(path),
     ):
-        errors = validate_country_directory(country_dir)
+        errors = validate_country_directory(
+            country_dir,
+            require_profile=is_v1_1,
+            schema_version=schema_version,
+            as_of=generated.date() if is_v1_1 else None,
+        )
         if errors:
             raise _country_validation_error(country_dir, errors)
 
         review = _read_json(country_dir / "review.json")
-        if review["status"] != "approved":
+        if not is_v1_1 and review["status"] != "approved":
             continue
+
         sources = _read_json(country_dir / "sources.json")
         evidence = _read_json(country_dir / "evidence.json")
         pathways = _read_json(country_dir / "pathways.json")
+        profile = _read_json(country_dir / "profile.json") if is_v1_1 else None
 
-        if datetime.fromisoformat(review["review_due"]).date() < generated.date():
-            raise ValueError(
-                f"{country_dir}: review_due {review['review_due']} is earlier "
-                f"than generated_at calendar date {generated_at[:10]}"
+        iso3 = review["iso3"]
+        if review["status"] not in allowed_statuses:
+            raise _status_error(
+                country_dir,
+                "country",
+                iso3,
+                review["status"],
+                allowed_statuses,
+            )
+        _validate_review_due(country_dir, review, generated, generated_at)
+
+        if profile is not None and profile["review_status"] not in allowed_statuses:
+            raise _status_error(
+                country_dir,
+                "profile",
+                iso3,
+                profile["review_status"],
+                allowed_statuses,
             )
 
         for record in evidence:
             record_id = record["evidence_id"]
-            if record["review_status"] != "approved":
-                raise _approved_record_error(
+            if record["review_status"] not in allowed_statuses:
+                raise _status_error(
                     country_dir,
                     "evidence",
                     record_id,
-                    "must be approved for an approved country",
+                    record["review_status"],
+                    allowed_statuses,
                 )
             if record["review_date"] is None:
-                raise _approved_record_error(
+                raise _record_error(
                     country_dir,
                     "evidence",
                     record_id,
@@ -124,33 +204,62 @@ def build_release(
                 )
         for record in pathways:
             record_id = record["pathway_id"]
-            if record["review_status"] != "approved":
-                raise _approved_record_error(
+            if record["review_status"] not in allowed_statuses:
+                raise _status_error(
                     country_dir,
                     "pathway",
                     record_id,
-                    "must be approved for an approved country",
+                    record["review_status"],
+                    allowed_statuses,
                 )
             if record["review_date"] is None:
-                raise _approved_record_error(
+                raise _record_error(
                     country_dir,
                     "pathway",
                     record_id,
                     "must have a non-null review_date",
                 )
 
-        approved_inputs.append((country_dir, review, sources, evidence, pathways))
+        inputs.append(
+            (country_dir, review, sources, evidence, pathways, profile)
+        )
 
-    if not approved_inputs:
+    if not inputs:
+        if is_v1_1 and candidate is True:
+            raise ValueError("no reviewed or approved candidate country content")
         raise ValueError("no approved country content")
+    return inputs
+
+
+def _construct_release(
+    country_dirs: Iterable[Path],
+    *,
+    generated_at: str,
+    schema_version: str,
+    content_version: str,
+    candidate: bool | None,
+) -> dict[str, Any]:
+    generated = _parse_generated_at(generated_at)
+    if schema_version not in {SCHEMA_VERSION, CANDIDATE_SCHEMA_VERSION}:
+        raise ValueError(f"unsupported schema_version {schema_version}")
+    if not isinstance(content_version, str) or not content_version.strip():
+        raise ValueError("content_version must be a non-empty string")
+
+    inputs = _collect_inputs(
+        country_dirs,
+        generated=generated,
+        generated_at=generated_at,
+        schema_version=schema_version,
+        candidate=candidate,
+    )
 
     countries: dict[str, dict[str, Any]] = {}
     sources_by_id: dict[str, dict[str, Any]] = {}
     evidence_records: list[dict[str, Any]] = []
     pathway_records: list[dict[str, Any]] = []
 
-    for country_dir, review, sources, evidence, pathways in sorted(
-        approved_inputs, key=lambda item: item[1]["iso3"]
+    for country_dir, review, sources, evidence, pathways, profile in sorted(
+        inputs, key=lambda item: item[1]["iso3"]
     ):
         iso3 = review["iso3"]
         if iso3 in countries:
@@ -158,11 +267,11 @@ def build_release(
                 f"{country_dir}: duplicate country ISO3 {iso3} in release inputs"
             )
 
-        countries[iso3] = {
+        summary = {
             "iso3": iso3,
             "name": review["country_name"],
             "aliases": sorted(review["country_aliases"]),
-            "status": "approved",
+            "status": review["status"],
             "reviewer": review["reviewer"],
             "reviewed_on": review["reviewed_on"],
             "review_due": review["review_due"],
@@ -171,20 +280,26 @@ def build_release(
             "pathway_ids": sorted(review["pathway_ids"]),
             "decision_notes": review["decision_notes"],
         }
+        if schema_version == CANDIDATE_SCHEMA_VERSION:
+            assert profile is not None
+            summary["selection_aliases"] = deepcopy(
+                profile["selection_aliases"]
+            )
+        countries[iso3] = summary
 
         referenced_source_ids = {
             ref["source_id"] for record in evidence for ref in record["source_refs"]
         }
         source_index = {source["source_id"]: source for source in sources}
         for source_id in sorted(referenced_source_ids):
-            candidate = deepcopy(source_index[source_id])
+            source = deepcopy(source_index[source_id])
             existing = sources_by_id.get(source_id)
-            if existing is not None and existing != candidate:
+            if existing is not None and existing != source:
                 raise ValueError(
                     f"{country_dir}: conflicting duplicate source definition "
                     f"for {source_id}"
                 )
-            sources_by_id[source_id] = candidate
+            sources_by_id[source_id] = source
 
         evidence_records.extend(_canonical_evidence(record) for record in evidence)
         pathway_records.extend(_canonical_pathway(record) for record in pathways)
@@ -206,8 +321,8 @@ def build_release(
     ).encode("utf-8")
 
     release = {
-        "schema_version": SCHEMA_VERSION,
-        "content_version": CONTENT_VERSION,
+        "schema_version": schema_version,
+        "content_version": content_version,
         "generated_at": generated_at,
         "countries": countries,
         "sources": canonical_sources,
@@ -215,6 +330,9 @@ def build_release(
         "pathways": pathway_records,
         "source_manifest_checksum": hashlib.sha256(manifest_payload).hexdigest(),
     }
+    if schema_version == CANDIDATE_SCHEMA_VERSION:
+        release["candidate"] = bool(candidate)
+
     errors = validate_runtime_release(release)
     if errors:
         raise ValueError(
@@ -223,10 +341,85 @@ def build_release(
     return release
 
 
-def write_canonical_json(path: Path, value: Any) -> None:
-    """Write deterministic pretty JSON terminated by one newline."""
-    path = Path(path)
-    path.write_text(
-        json.dumps(value, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
+def build_release(
+    country_dirs: Iterable[Path],
+    *,
+    generated_at: str,
+    schema_version: str = SCHEMA_VERSION,
+    content_version: str = CONTENT_VERSION,
+    output_path: Path | None = None,
+) -> dict[str, Any]:
+    """Build a legacy 1.0 release or an explicit schema 1.1 candidate."""
+    if schema_version == CANDIDATE_SCHEMA_VERSION:
+        if output_path is None:
+            raise ValueError(
+                "schema 1.1 candidate build requires an explicit output_path"
+            )
+        output_path = Path(output_path)
+        if _is_current_runtime_path(output_path):
+            raise ValueError(
+                "candidate output may not target releases/current/runtime.json"
+            )
+        release = _construct_release(
+            country_dirs,
+            generated_at=generated_at,
+            schema_version=schema_version,
+            content_version=content_version,
+            candidate=True,
+        )
+        write_canonical_json(output_path, release)
+        return release
+
+    if schema_version != SCHEMA_VERSION:
+        raise ValueError(f"unsupported schema_version {schema_version}")
+    release = _construct_release(
+        country_dirs,
+        generated_at=generated_at,
+        schema_version=schema_version,
+        content_version=content_version,
+        candidate=None,
     )
+    if output_path is not None:
+        write_canonical_json(Path(output_path), release)
+    return release
+
+
+def promote_release(
+    country_dirs: Iterable[Path],
+    *,
+    generated_at: str,
+    content_version: str,
+    current_dir: Path,
+) -> dict[str, Any]:
+    """Promote only fully approved schema 1.1 inputs without changing statuses."""
+    release = _construct_release(
+        country_dirs,
+        generated_at=generated_at,
+        schema_version=CANDIDATE_SCHEMA_VERSION,
+        content_version=content_version,
+        candidate=False,
+    )
+    write_canonical_json(Path(current_dir) / "runtime.json", release)
+    return release
+
+
+def write_canonical_json(path: Path, value: Any) -> None:
+    """Atomically write deterministic pretty JSON terminated by one newline."""
+    path = Path(path)
+    payload = json.dumps(value, ensure_ascii=False, indent=2) + "\n"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    file_descriptor, temporary_name = tempfile.mkstemp(
+        dir=path.parent,
+        prefix=f".{path.name}.",
+        suffix=".tmp",
+    )
+    temporary_path = Path(temporary_name)
+    try:
+        with os.fdopen(file_descriptor, "w", encoding="utf-8", newline="\n") as handle:
+            handle.write(payload)
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(temporary_path, path)
+    except BaseException:
+        temporary_path.unlink(missing_ok=True)
+        raise
