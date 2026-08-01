@@ -2,11 +2,14 @@
 import copy
 import json
 import shutil
+import subprocess
+import sys
 from pathlib import Path
 
 import pytest
 
 from climate_bank import validation
+from scripts import validate_bank
 
 FIXTURE_DIR = Path(__file__).parent / "fixtures" / "valid_country"
 
@@ -36,6 +39,154 @@ def assert_error(errors, *parts):
 def test_valid_fixture(country_dir):
     assert validation.validate_country_directory(country_dir) == []
 
+
+def add_valid_profile(country_dir):
+    shutil.copyfile(FIXTURE_DIR / "profile.valid.json", country_dir / "profile.json")
+
+
+def test_valid_reviewed_profile_is_accepted(country_dir):
+    add_valid_profile(country_dir)
+    assert validation.validate_country_directory(country_dir) == []
+
+
+def test_profile_rejects_unknown_executive_assessment_id(country_dir):
+    add_valid_profile(country_dir)
+    mutate(
+        country_dir,
+        "profile.json",
+        lambda value: value["executive_assessment"][0]["evidence_ids"].append(
+            "SSD-E-999"
+        ),
+    )
+    assert_error(
+        validation.validate_country_directory(country_dir),
+        "profile.json",
+        "SSD-E-999",
+    )
+
+
+def test_require_profile_rejects_missing_profile(country_dir):
+    errors = validation.validate_country_directory(country_dir, require_profile=True)
+    assert_error(errors, "profile.json", "missing")
+
+
+def test_validate_bank_direct_script_invocation_from_repository_root(country_dir):
+    add_valid_profile(country_dir)
+    repository_root = Path(__file__).parents[1]
+    result = subprocess.run(
+        [
+            sys.executable,
+            "scripts/validate_bank.py",
+            "--country-dir",
+            str(country_dir),
+            "--require-profile",
+        ],
+        cwd=repository_root,
+        check=False,
+        capture_output=True,
+        text=True,
+    )
+    assert result.returncode == 0, result.stdout + result.stderr
+
+def test_validate_bank_cli_uses_explicit_country_directory_and_require_profile(
+    country_dir, tmp_path
+):
+    add_valid_profile(country_dir)
+    assert (
+        validate_bank.main(
+            ["--country-dir", str(country_dir), "--require-profile"],
+            root=tmp_path,
+        )
+        == 0
+    )
+
+    repository = tmp_path / "repository"
+    countries_root = repository / "countries"
+    countries_root.mkdir(parents=True)
+    shutil.copytree(FIXTURE_DIR, countries_root / "SSD")
+    assert validate_bank.main([], root=repository) == 0
+
+
+@pytest.mark.parametrize(
+    ("change", "parts"),
+    [
+        (
+            lambda profile: profile.pop("known_gaps"),
+            ("profile.json", "known_gaps", "required"),
+        ),
+        (
+            lambda profile: profile.__setitem__("unexpected", True),
+            ("profile.json", "unexpected"),
+        ),
+        (
+            lambda profile: profile["executive_assessment"][0].update(
+                evidence_ids=[], pathway_ids=[]
+            ),
+            ("profile.json", "executive_assessment"),
+        ),
+        (
+            lambda profile: profile["coverage"][0].__setitem__("record_ids", []),
+            ("profile.json", "coverage", "record_ids"),
+        ),
+        (
+            lambda profile: profile["coverage"][0].update(
+                status="gap", record_ids=[], gap_note=None
+            ),
+            ("profile.json", "coverage", "gap_note"),
+        ),
+        (
+            lambda profile: profile["selection_aliases"].pop("hazards"),
+            ("profile.json", "selection_aliases", "hazards"),
+        ),
+        (
+            lambda profile: profile["selection_aliases"]["sectors"].__setitem__(
+                "water", [" "]
+            ),
+            ("profile.json", "selection_aliases", "sectors", "water"),
+        ),
+        (
+            lambda profile: profile.__setitem__("review_date", None),
+            ("profile.json", "review_date"),
+        ),
+    ],
+)
+def test_profile_schema_contract_is_strict(country_dir, change, parts):
+    add_valid_profile(country_dir)
+    mutate(country_dir, "profile.json", change)
+    assert_error(validation.validate_country_directory(country_dir), *parts)
+
+
+def test_profile_rejects_unknown_pathway_id(country_dir):
+    add_valid_profile(country_dir)
+    mutate(
+        country_dir,
+        "profile.json",
+        lambda profile: profile["geographic_notes"][0]["pathway_ids"].append(
+            "SSD-P-999"
+        ),
+    )
+    assert_error(
+        validation.validate_country_directory(country_dir),
+        "profile.json",
+        "SSD-P-999",
+    )
+
+
+def test_profile_coverage_rejects_unknown_record_id(country_dir):
+    add_valid_profile(country_dir)
+    mutate(
+        country_dir,
+        "profile.json",
+        lambda profile: profile["coverage"][0]["record_ids"].append(
+            "SSD-E-999"
+        ),
+    )
+    assert_error(
+        validation.validate_country_directory(country_dir),
+        "profile.json",
+        "coverage",
+        "SSD-E-999",
+    )
 
 def test_general_knowledge_rejected(country_dir):
     mutate(country_dir, "sources.json", lambda x: x[0].__setitem__("source_id", "general-knowledge"))

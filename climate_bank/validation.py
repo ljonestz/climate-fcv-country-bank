@@ -146,6 +146,82 @@ def _load_country_files(country_dir: Path) -> tuple[dict[str, Any], list[str]]:
     return loaded, errors
 
 
+def _load_profile(
+    country_dir: Path, require_profile: bool
+) -> tuple[Any | None, list[str]]:
+    """Load and schema-check an optional reviewed country profile."""
+    path = country_dir / "profile.json"
+    try:
+        profile = _read_json(path)
+    except FileNotFoundError:
+        errors = ["profile.json: missing file"] if require_profile else []
+        return None, errors
+    except json.JSONDecodeError as exc:
+        return None, [
+            "profile.json: invalid JSON at line "
+            f"{exc.lineno} column {exc.colno}: {exc.msg}"
+        ]
+    except (OSError, UnicodeError) as exc:
+        return None, [
+            f"profile.json: unreadable ({type(exc).__name__}): {exc}"
+        ]
+    return profile, _schema_errors(profile, "profile.schema.json", "profile.json")
+
+
+def _profile_reference_errors(
+    profile: Any, evidence_ids: set[str], pathway_ids: set[str]
+) -> list[str]:
+    """Resolve every profile record reference against its country ledgers."""
+    if not isinstance(profile, dict):
+        return []
+    errors: list[str] = []
+    section_names = (
+        "executive_assessment",
+        "geographic_notes",
+        "sector_notes",
+        "known_gaps",
+    )
+    for section_name in section_names:
+        rows = profile.get(section_name)
+        if not isinstance(rows, list):
+            continue
+        for index, row in enumerate(rows):
+            if not isinstance(row, dict):
+                continue
+            for field, known_ids in (
+                ("evidence_ids", evidence_ids),
+                ("pathway_ids", pathway_ids),
+            ):
+                values = row.get(field)
+                if not isinstance(values, list):
+                    continue
+                for record_id in sorted(
+                    {value for value in values if isinstance(value, str)} - known_ids
+                ):
+                    errors.append(
+                        f"profile.json: {section_name}[{index}].{field} "
+                        f"contains unknown {record_id}"
+                    )
+    coverage = profile.get("coverage")
+    known_record_ids = evidence_ids | pathway_ids
+    if isinstance(coverage, list):
+        for index, row in enumerate(coverage):
+            if not isinstance(row, dict):
+                continue
+            values = row.get("record_ids")
+            if not isinstance(values, list):
+                continue
+            for record_id in sorted(
+                {value for value in values if isinstance(value, str)}
+                - known_record_ids
+            ):
+                errors.append(
+                    f"profile.json: coverage[{index}].record_ids contains unknown "
+                    f"{record_id}"
+                )
+    return errors
+
+
 def _id_set(records: Any, field: str) -> set[str]:
     if not isinstance(records, list):
         return set()
@@ -194,11 +270,15 @@ def _exact_ids_error(label: str, review_ids: Any, ledger_ids: set[str]) -> str |
     return f"review.json: {label} do not exactly match ledger IDs (missing={missing}, extra={extra})"
 
 
-def validate_country_directory(country_dir: Path) -> list[str]:
+def validate_country_directory(
+    country_dir: Path, *, require_profile: bool = False
+) -> list[str]:
     """Validate one country's ledgers without raising for content defects."""
     country_dir = Path(country_dir)
     try:
         loaded, errors = _load_country_files(country_dir)
+        profile, profile_errors = _load_profile(country_dir, require_profile)
+        errors.extend(profile_errors)
     except Exception as exc:  # schema infrastructure failure remains a readable result
         return [f"validation infrastructure error: {type(exc).__name__}: {exc}"]
 
@@ -213,6 +293,7 @@ def validate_country_directory(country_dir: Path) -> list[str]:
     source_ids = _id_set(sources, "source_id")
     evidence_ids = _id_set(evidence, "evidence_id")
     pathway_ids = _id_set(pathways, "pathway_id")
+    errors += _profile_reference_errors(profile, evidence_ids, pathway_ids)
     source_index = _record_index(sources, "source_id")
     evidence_index = _record_index(evidence, "evidence_id")
     evidence_iso3 = {
@@ -220,6 +301,15 @@ def validate_country_directory(country_dir: Path) -> list[str]:
         for evidence_id, record in evidence_index.items()
     }
     review_iso3 = review.get("iso3") if isinstance(review, dict) else None
+    if (
+        isinstance(profile, dict)
+        and isinstance(review_iso3, str)
+        and profile.get("iso3") != review_iso3
+    ):
+        errors.append(
+            f"profile.json: iso3 {profile.get('iso3')} must equal review ISO3 "
+            f"{review_iso3}"
+        )
     if isinstance(sources, list):
         for source in sources:
             if not isinstance(source, dict):

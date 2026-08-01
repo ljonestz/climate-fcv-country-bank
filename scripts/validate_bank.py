@@ -1,6 +1,11 @@
-"""Validate every country directory in the repository evidence bank."""
+"""Validate country directories in the repository evidence bank."""
 
+import argparse
 from pathlib import Path
+import sys
+
+if __name__ == "__main__":
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from climate_bank.validation import validate_country_directory
 
@@ -8,17 +13,39 @@ from climate_bank.validation import validate_country_directory
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
 
 
-def main() -> int:
-    countries_root = REPOSITORY_ROOT / "countries"
-    country_dirs = (
-        sorted(path for path in countries_root.iterdir() if path.is_dir())
-        if countries_root.is_dir()
-        else []
+def _parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--country-dir",
+        type=Path,
+        help="Validate one explicit country directory instead of the repository bank.",
     )
+    parser.add_argument(
+        "--require-profile",
+        action="store_true",
+        help="Require each validated country directory to contain profile.json.",
+    )
+    return parser
+
+
+def main(argv: list[str] | None = None, root: Path | None = None) -> int:
+    args = _parser().parse_args(argv)
+    repository_root = Path(root) if root is not None else REPOSITORY_ROOT
+    if args.country_dir is not None:
+        country_dirs = [args.country_dir]
+    else:
+        countries_root = repository_root / "countries"
+        country_dirs = (
+            sorted(path for path in countries_root.iterdir() if path.is_dir())
+            if countries_root.is_dir()
+            else []
+        )
     errors = sorted(
         f"{country_dir.name}: {error}"
         for country_dir in country_dirs
-        for error in validate_country_directory(country_dir)
+        for error in validate_country_directory(
+            country_dir, require_profile=args.require_profile
+        )
     )
     if errors:
         for error in errors:
