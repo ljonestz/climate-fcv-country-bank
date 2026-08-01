@@ -361,7 +361,12 @@ def test_candidate_evidence_metadata_is_specific_and_schema_1_1_valid() -> None:
         require_profile=True,
         schema_version="1.1.0",
     ) == []
-    assert {record["evidence_class"] for record in evidence} == EVIDENCE_CLASSES
+    assert {record["evidence_class"] for record in evidence} == (
+        EVIDENCE_CLASSES - {"adaptive-capacity"}
+    )
+    assert evidence_by_id["SSD-E-012"]["evidence_class"] == (
+        "institutional-capacity"
+    )
     assert all(record["review_due"] >= record["review_date"] for record in evidence)
     assert evidence_by_id["SSD-E-003"]["scenario"] == (
         "CCDR hotter-climate projection through 2050"
@@ -432,3 +437,29 @@ def test_canonical_country_and_current_runtime_remain_byte_locked() -> None:
             (REPOSITORY_ROOT / relative_path).read_bytes()
         ).hexdigest()
         assert actual_hash == expected_hash, relative_path
+
+
+def test_candidate_keeps_adaptive_capacity_and_cmip6_projection_gaps_explicit() -> None:
+    profile = _load_candidate("profile.json")
+    coverage = {
+        (row["dimension"], row["value"]): row for row in profile["coverage"]
+    }
+
+    adaptive = coverage[("evidence_class", "adaptive-capacity")]
+    assert adaptive["status"] == "gap"
+    assert adaptive["record_ids"] == []
+    assert "planned priorities" in adaptive["gap_note"].casefold()
+    assert "adaptive capacity" in adaptive["gap_note"].casefold()
+
+    cmip6 = coverage[
+        (
+            "priority_domain",
+            "CMIP6 temperature, precipitation, variability, and extreme-event projections",
+        )
+    ]
+    assert cmip6["status"] == "gap"
+    assert cmip6["record_ids"] == []
+    assert "cmip6" in cmip6["gap_note"].casefold()
+    assert {"SSD-E-001", "SSD-E-002", "SSD-E-003"}.isdisjoint(
+        cmip6["record_ids"]
+    )
