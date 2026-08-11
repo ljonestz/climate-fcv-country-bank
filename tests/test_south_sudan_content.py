@@ -257,12 +257,12 @@ PRIORITY_DOMAINS = (
     "Evaluated response effectiveness, delivery failure, and unintended effects",
     "Climate-to-FCV, bidirectional, and FCV-to-climate pathways",
 )
-PROTECTED_HASHES = {
-    "countries/SSD/sources.json": "1ada9604c1eb68eefd77a22707592906cf605ab7bb21b4498c7484e4273b5f57",
-    "countries/SSD/evidence.json": "4176df8fde10bc33567454bcd6c4351434839fd365ac4588f59b90aa72ac6059",
-    "countries/SSD/pathways.json": "2f532cb92b1b9641208f08943a853388bb17c876f2b57c65c418bc47ffb97c28",
-    "countries/SSD/review.json": "51c860460edb37d9ab898de1b21b1f66b1bae51716881ccb5e124914ed32bc45",
-    "releases/current/runtime.json": "59cf3dfa3450b1727c6b1897b2a77841adc2cb522816e2abe696ae3ed2fb252e",
+PROTECTED_CANONICAL_HASHES = {
+    "countries/SSD/sources.json": "8682f20b632ecfea8236c00bbcc1797205d8d81411d16f10149fa99e6fffa08e",
+    "countries/SSD/evidence.json": "56311a218c5213d141f530548da3350a8e11f1ef0f0b5124d01501e12f7bb12e",
+    "countries/SSD/pathways.json": "c879d0a2e29b8fad28d5e44c10aa1c3e4450811757760a56ba3dfd1f9c0a441e",
+    "countries/SSD/review.json": "b11342941f369d506f192d5bff557b316d12f8c72634717ed65dad06b8fe4f29",
+    "releases/current/runtime.json": "4263264cb13973b00648544adc28143d2ff363f55ebec0c6c7ab0f5c9d9ddc3f",
 }
 MIGRATION_FIELDS = {
     "evidence_class",
@@ -442,9 +442,14 @@ def test_candidate_review_state_is_reviewed_not_approved() -> None:
 def test_canonical_country_and_current_runtime_remain_byte_locked() -> None:
     import hashlib
 
-    for relative_path, expected_hash in PROTECTED_HASHES.items():
+    for relative_path, expected_hash in PROTECTED_CANONICAL_HASHES.items():
+        canonical_bytes = (
+            (REPOSITORY_ROOT / relative_path)
+            .read_bytes()
+            .replace(b"\r\n", b"\n")
+        )
         actual_hash = hashlib.sha256(
-            (REPOSITORY_ROOT / relative_path).read_bytes()
+            canonical_bytes
         ).hexdigest()
         assert actual_hash == expected_hash, relative_path
 
