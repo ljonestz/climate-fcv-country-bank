@@ -30,6 +30,10 @@ COUNTRIES = {
         "name": "Burkina Faso",
         "aliases": [],
     },
+    "HTI": {
+        "name": "Haiti",
+        "aliases": ["Republic of Haiti"],
+    },
 }
 
 
