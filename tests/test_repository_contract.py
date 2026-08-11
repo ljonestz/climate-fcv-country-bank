@@ -43,6 +43,8 @@ def test_required_scaffold_paths_exist() -> None:
         "climate_bank/release.py",
         "climate_bank/dossier.py",
         "scripts/__init__.py",
+        "scripts/build_release.py",
+        "scripts/build_dossier.py",
     )
 
     missing_paths = [
@@ -54,13 +56,22 @@ def test_required_scaffold_paths_exist() -> None:
     assert not missing_paths, f"Missing required scaffold paths: {missing_paths}"
 
 
-@pytest.mark.parametrize("relative_path", SCHEMA_PATHS)
-def test_schema_is_a_valid_draft_2020_12_array_contract(relative_path: str) -> None:
-    """Each initial schema is a valid Draft 2020-12 array schema."""
+@pytest.mark.parametrize(
+    ("relative_path", "expected_type"),
+    [
+        ("schemas/source.schema.json", "array"),
+        ("schemas/evidence.schema.json", "array"),
+        ("schemas/pathway.schema.json", "array"),
+        ("schemas/review.schema.json", "object"),
+        ("schemas/runtime-release.schema.json", "object"),
+    ],
+)
+def test_schema_is_a_valid_draft_2020_12_contract(relative_path: str, expected_type: str) -> None:
+    """Each schema is a valid Draft 2020-12 contract of its governed shape."""
     schema = json.loads((REPOSITORY_ROOT / relative_path).read_text(encoding="utf-8"))
 
     assert schema["$schema"] == "https://json-schema.org/draft/2020-12/schema"
-    assert schema["type"] == "array"
+    assert schema["type"] == expected_type
     jsonschema.Draft202012Validator.check_schema(schema)
 
 
