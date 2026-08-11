@@ -38,6 +38,10 @@ COUNTRIES = {
         "name": "Papua New Guinea",
         "aliases": [],
     },
+    "UKR": {
+        "name": "Ukraine",
+        "aliases": [],
+    },
 }
 
 
