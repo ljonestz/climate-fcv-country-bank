@@ -34,6 +34,10 @@ COUNTRIES = {
         "name": "Haiti",
         "aliases": ["Republic of Haiti"],
     },
+    "PNG": {
+        "name": "Papua New Guinea",
+        "aliases": [],
+    },
 }
 
 
