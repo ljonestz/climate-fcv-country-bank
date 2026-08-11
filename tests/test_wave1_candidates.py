@@ -42,6 +42,10 @@ COUNTRIES = {
         "name": "Ukraine",
         "aliases": [],
     },
+    "YEM": {
+        "name": "Yemen, Rep.",
+        "aliases": ["Yemen", "Republic of Yemen"],
+    },
 }
 
 
