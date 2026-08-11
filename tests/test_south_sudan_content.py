@@ -259,9 +259,9 @@ PRIORITY_DOMAINS = (
 )
 PROTECTED_HASHES = {
     "countries/SSD/sources.json": "1ada9604c1eb68eefd77a22707592906cf605ab7bb21b4498c7484e4273b5f57",
-    "countries/SSD/evidence.json": "953ab85a365881a3dc896d54a8243b6a5329c123a3a37f90bc4ff22f8f44b191",
-    "countries/SSD/pathways.json": "31d46515ce2e1486335106cdd3c716586497b2137ae32f2be67a17f67d974ad0",
-    "countries/SSD/review.json": "00c4e6efdfb4f5d8723f31548c3adc1013afc1717a8657bc0e0456d0935e8d0b",
+    "countries/SSD/evidence.json": "4176df8fde10bc33567454bcd6c4351434839fd365ac4588f59b90aa72ac6059",
+    "countries/SSD/pathways.json": "2f532cb92b1b9641208f08943a853388bb17c876f2b57c65c418bc47ffb97c28",
+    "countries/SSD/review.json": "51c860460edb37d9ab898de1b21b1f66b1bae51716881ccb5e124914ed32bc45",
     "releases/current/runtime.json": "59cf3dfa3450b1727c6b1897b2a77841adc2cb522816e2abe696ae3ed2fb252e",
 }
 MIGRATION_FIELDS = {
