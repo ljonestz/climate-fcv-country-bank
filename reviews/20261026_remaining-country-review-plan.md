@@ -33,6 +33,6 @@ Tools: public primary sources, the bank's JSON contracts, Python and existing Gi
 - [x] Validate every new candidate against schema 1.1, check references and deterministic dossiers, and run the full bank test suite once after focused checks pass. Report Windows setup failures separately from assertions.
 - [x] Prepare the consolidated approval table, with country-level counts, exclusions, access limitations and exact candidate hashes. Keep human approval separate from automated review.
 - [x] Package the seed ledgers, contracts and review instructions for use in a browser research session. The handoff must preserve uncertainty and produce draft files that can pass the existing local bank validation; it must not assign approval or update runtime content.
-- [ ] Review staged changes, commit at logical checkpoints, push the feature branch and update the draft PR and app handoff. No merge or deployment.
+- [x] Review staged changes, commit at logical checkpoints, push the feature branch and update the draft PR and app handoff. No merge or deployment.
 
 The user has already authorized this work. Execute the plan in the existing isolated worktrees; no additional execution-choice prompt is needed.
