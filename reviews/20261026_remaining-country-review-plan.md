@@ -12,10 +12,10 @@ Tools: public primary sources, the bank's JSON contracts, Python and existing Gi
 
 | Assignment | Countries | Exclusive new files |
 |---|---|---|
-| MENA / Afghanistan | AFG, IRN, IRQ, LBN, LBY, PSE | Six candidate files per country under `countries/ISO/candidates/2026.10.26/`; `reviews/20261026_source-review-ISO.md` |
+| MENA / Afghanistan | AFG, IRN, IRQ, LBN, LBY | Six candidate files per country under `countries/ISO/candidates/2026.10.26/`; `reviews/20261026_source-review-ISO.md` |
 | Africa | CAF, CMR, COD, ETH, MOZ, NGA | Same paths for the assigned countries only |
 | Sahel / other contexts | MLI, MMR, NER, SDN, SOM, SYR | Same paths for the assigned countries only |
-| Coordinator | All 18, read-only acceptance | Consolidated approval table, manifest, verification test, browser review instructions and app handoff |
+| Coordinator | PSE preparation; all 18 acceptance | PSE candidate/review; consolidated approval table, manifest, verification test, browser review instructions and app handoff |
 
 ## Review and candidate preparation
 
