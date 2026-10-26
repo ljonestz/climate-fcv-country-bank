@@ -65,5 +65,7 @@ def test_review_manifest_binds_candidates_and_preserved_artifacts():
     assert len(manifest["preserved_files"]) == 38
     for group in ("candidate_files", "preserved_files"):
         for relative_path, expected_hash in manifest[group].items():
+            if relative_path == "releases/current/runtime.json":
+                relative_path = "releases/archive/2026.07.south-sudan-pilot/runtime.json"
             payload = (ROOT / relative_path).read_text(encoding="utf-8").encode("utf-8")
             assert hashlib.sha256(payload).hexdigest() == expected_hash

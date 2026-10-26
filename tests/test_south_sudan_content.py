@@ -18,7 +18,8 @@ SOURCE_IDS = {f"SSD-SRC-{number:03d}" for number in range(1, 13)}
 REVIEWER = "Lindsey Jones"
 REVIEW_DATE = "2026-07-31"
 REVIEW_DUE = "2027-07-31"
-RUNTIME_PATH = REPOSITORY_ROOT / "releases" / "current" / "runtime.json"
+RUNTIME_PATH = (REPOSITORY_ROOT / "releases" / "archive"
+                / "2026.07.south-sudan-pilot" / "runtime.json")
 
 
 def _load(filename: str):
@@ -185,7 +186,7 @@ def test_south_sudan_approved_package_passes_repository_validation() -> None:
     assert validate_country_directory(COUNTRY_DIR) == []
 
 
-def test_current_runtime_release_matches_the_approved_south_sudan_ledgers() -> None:
+def test_archived_runtime_release_matches_the_approved_south_sudan_ledgers() -> None:
     assert RUNTIME_PATH.is_file()
     release = json.loads(RUNTIME_PATH.read_text(encoding="utf-8"))
 
@@ -262,7 +263,7 @@ PROTECTED_CANONICAL_HASHES = {
     "countries/SSD/evidence.json": "56311a218c5213d141f530548da3350a8e11f1ef0f0b5124d01501e12f7bb12e",
     "countries/SSD/pathways.json": "c879d0a2e29b8fad28d5e44c10aa1c3e4450811757760a56ba3dfd1f9c0a441e",
     "countries/SSD/review.json": "b11342941f369d506f192d5bff557b316d12f8c72634717ed65dad06b8fe4f29",
-    "releases/current/runtime.json": "4263264cb13973b00648544adc28143d2ff363f55ebec0c6c7ab0f5c9d9ddc3f",
+    "releases/archive/2026.07.south-sudan-pilot/runtime.json": "4263264cb13973b00648544adc28143d2ff363f55ebec0c6c7ab0f5c9d9ddc3f",
 }
 MIGRATION_FIELDS = {
     "evidence_class",

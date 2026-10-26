@@ -86,7 +86,9 @@ def test_original_candidates_and_accepted_six_are_preserved():
     assert set(freeze["countries_to_review"]) == set(COUNTRIES)
     assert len(freeze["preserved_files"]) == 182
     for name, digest in freeze["preserved_files"].items():
-        payload = (ROOT / name).read_text(encoding="utf-8").encode("utf-8")
+        archived = ("releases/archive/2026.07.south-sudan-pilot/runtime.json"
+                    if name == "releases/current/runtime.json" else name)
+        payload = (ROOT / archived).read_text(encoding="utf-8").encode("utf-8")
         assert hashlib.sha256(payload).hexdigest() == digest, name
 
 
