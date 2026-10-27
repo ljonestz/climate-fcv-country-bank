@@ -16,6 +16,22 @@ RESEARCH = ROOT / 'research/20261026_global_depth'
 VERSION = '2026.10.26.deep'
 
 
+def test_final_scope_has_all_146_countries_and_no_unreviewed_scaffolds():
+    roster = read(RESEARCH / 'TARGET_COUNTRIES.json')
+    existing = {r['iso3'] for r in roster['existing_countries']}
+    added = {r['iso3'] for r in roster['additional_ibrd']}
+    assert len(existing) == 84 and len(added) == 62
+    assert not existing & added
+    expected = existing | added
+    completed = {p.parents[1].name for p in
+                 (ROOT / 'countries').glob(f'*/candidates/{VERSION}')}
+    assert completed == expected, f'missing: {sorted(expected - completed)}'
+    assert {p.stem for p in (RESEARCH / 'phase1').glob('*.json')} == existing
+    assert {p.stem for p in (RESEARCH / 'phase2').glob('*.json')} == added
+    for layer in ('decisions', 'assembly'):
+        assert {p.stem for p in (RESEARCH / layer).glob('*.json')} == expected
+
+
 def read(path):
     def unique(pairs):
         result = {}
