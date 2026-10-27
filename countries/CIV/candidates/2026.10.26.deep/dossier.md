@@ -3,7 +3,7 @@
 ## Executive assessment
 
 - Bafing evidence adds named departments, resource competition and gendered land/water-access constraints, with a source-stated seasonal mechanism rather than isolated climate causality. [CIV-E-103, CIV-E-104, CIV-P-101]
-- Bouaké's2018water outage is a distinct historical vulnerability case. Pastoral infrastructure, local mediation and northern adaptation support are proposed capacities, not verified peace outcomes. [CIV-E-102, CIV-E-105, CIV-E-107]
+- Bouaké's 2018 water outage is a distinct historical vulnerability case. Pastoral infrastructure, local mediation and northern adaptation support are proposed capacities, not verified peace outcomes. [CIV-E-102, CIV-E-105, CIV-E-107]
 
 ## Evidence coverage and critical gaps
 
@@ -31,7 +31,7 @@ Critical remaining gaps:
 - The national communication's Bouaké water/migration example cites WFP 2019 and Sanogo and Esnault 2018; household counts are not given. []
 - IOM documents border insecurity and weakened exchange spaces but does not measure effects on climate-adaptation delivery. []
 - Bafing and IOM PDFs were inspected from public attachments downloaded to temporary storage after browser-preview failures; no PDF or raw extracted text is included in the public repository. []
-- Bouaké's2018water episode is historical secondary reporting, not present-day migration prevalence or anthropogenic event attribution. []
+- Bouaké's 2018 water episode is historical secondary reporting, not present-day migration prevalence or anthropogenic event attribution. []
 - Draft extension: human source review and approval remain pending. Lending eligibility is not an FCV classification. []
 
 ## Climate pressures and exposure
@@ -111,7 +111,7 @@ Critical remaining gaps:
 | CIV-E-104 | sensitivity | observed / draft | administrative-area | Bafing proposal consultations describe women accessing land mainly through husbands and dry-season distance barriers to water, with herders dependent on surface sources. | Site-consultation account, not a claim about every household or a current legal assessment of women's rights. | CIV-SRC-102 (PDF p. 9, community gender analysis and resource access) |
 | CIV-E-105 | resilience-peace-capacity | observed / draft | administrative-area | Source dated 2025 reports: Approved proposal plans water/fodder pastoral areas and community parks to reduce herd wandering and crop damage; it also supports local conflict-management mechanisms, climate-data use, and women/youth livelihood diversification. | Proposed water/fodder infrastructure and peace mechanisms are design intentions, not delivery or evaluated coexistence effects. | CIV-SRC-102 (PDF pp. 15-18, proposed pastoral adaptation and project activities) |
 | CIV-E-106 | direct-climate-fcv | observed / draft | administrative-area | Source dated 2024 reports: IOM describes northern farmer-herder competition over pasture and water; it says climate effects on agriculture push rural mobility and aggravate existing tensions and social-cohesion risks. | Context analysis cites perception surveys and prior studies; it does not estimate climate attribution. | CIV-SRC-103 (PDF p. 4, context analysis; p. 13, adaptation and disaster risk reduction) |
-| CIV-E-107 | institutional-capacity | observed / draft | cross-border | Source dated 2024 reports: Insecurity raises concerns about remote and cross-border travel; livestock-border restrictions made transhumant movements harder and weakened exchanges among herders, hosts and authorities. IOM proposes local adaptation capacity, community risk assessments, resilient infrastructure and flood early warning. | Separate2024insecurity constraints and planned adaptation measures; no measured interruption of a named adaptation operation. | CIV-SRC-103 (PDF pp. 4-6 and 13, insecurity context and planned adaptation response) |
+| CIV-E-107 | institutional-capacity | observed / draft | cross-border | Source dated 2024 reports: Insecurity raises concerns about remote and cross-border travel; livestock-border restrictions made transhumant movements harder and weakened exchanges among herders, hosts and authorities. IOM proposes local adaptation capacity, community risk assessments, resilient infrastructure and flood early warning. | Separate 2024 insecurity constraints and planned adaptation measures; no measured interruption of a named adaptation operation. | CIV-SRC-103 (PDF pp. 4-6 and 13, insecurity context and planned adaptation response) |
 
 ## Bibliography and review decision
 

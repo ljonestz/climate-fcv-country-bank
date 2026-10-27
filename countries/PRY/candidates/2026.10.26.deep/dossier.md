@@ -31,7 +31,7 @@ Critical remaining gaps:
 
 ## Climate pressures and exposure
 
-- Source dated not stated reports: FAO says severe droughts have occurred about each decade since the 1960s; 2020–22 affected western Central Chaco, the Pilcomayo area, Irala Fernández and Mariscal Estigarribia, especially December–February. [PRY-E-101]
+- Source dated not stated reports: FAO says severe droughts have occurred about each decade since the 1960 s; 2020–22 affected western Central Chaco, the Pilcomayo area, Irala Fernández and Mariscal Estigarribia, especially December–February. [PRY-E-101]
 - Source dated not stated reports: FAO contrasts Central Chaco’s scarce, temporary, salty surface water and non-recharging salty groundwater with generally higher rainfall and more usable, recharging water resources in the east. [PRY-E-103]
 - Source dated 2024-11 reports: Report projects +2°C mean monthly temperature by 2050 and uncertain rainfall. [PRY-E-109]
 - Source dated 2020-11 reports: FAPI says drought and heat raise fire threat; fires from adjacent lands/ranches damaged forests, crops and homes in Indigenous territories, including Itapúa and Caazapá. [PRY-E-116]
@@ -66,7 +66,7 @@ Critical remaining gaps:
 
 ## Geographic and livelihood-system differentiation
 
-- Source dated not stated reports: FAO says severe droughts have occurred about each decade since the 1960s; 2020–22 affected western Central Chaco, the Pilcomayo area, Irala Fernández and Mariscal Estigarribia, especially December–February. [PRY-E-101]
+- Source dated not stated reports: FAO says severe droughts have occurred about each decade since the 1960 s; 2020–22 affected western Central Chaco, the Pilcomayo area, Irala Fernández and Mariscal Estigarribia, especially December–February. [PRY-E-101]
 - Source dated not stated reports: FAO contrasts Central Chaco’s scarce, temporary, salty surface water and non-recharging salty groundwater with generally higher rainfall and more usable, recharging water resources in the east. [PRY-E-103]
 - Source dated 2024 reports: In the Western Region (Chaco, Alto Paraguay, Boquerón, Presidente Hayes), the CCDR identifies high Indigenous concentrations and drought-related land degradation/water-access problems; riverbank bursts are associated with illness. [PRY-E-104]
 - Source dated 2024 reports: A 2019–23 drought set the Paraguay River’s record-low at Asunción; in records since 1904, about 18% of observations would impede normal navigation near the city. [PRY-E-105]
@@ -88,7 +88,7 @@ Critical remaining gaps:
 
 | Evidence ID | Class | Status | Level | Raw statement | Uncertainty | Source and exact locator |
 |---|---|---|---|---|---|---|
-| PRY-E-101 | climate-pressure | observed / draft | administrative-area | Source dated not stated reports: FAO says severe droughts have occurred about each decade since the 1960s; 2020–22 affected western Central Chaco, the Pilcomayo area, Irala Fernández and Mariscal Estigarribia, especially December–February. | The page does not give locality-specific severity measures or the methods behind its recurrence summary. | PRY-SRC-101 (‘HISTORICAL DROUGHT’ paragraph.) |
+| PRY-E-101 | climate-pressure | observed / draft | administrative-area | Source dated not stated reports: FAO says severe droughts have occurred about each decade since the 1960 s; 2020–22 affected western Central Chaco, the Pilcomayo area, Irala Fernández and Mariscal Estigarribia, especially December–February. | The page does not give locality-specific severity measures or the methods behind its recurrence summary. | PRY-SRC-101 (‘HISTORICAL DROUGHT’ paragraph.) |
 | PRY-E-102 | sensitivity | observed / draft | national | Source dated not stated reports: FAO links drought to lower subsistence production for small farmers and Indigenous communities, hydropower generation, waterway transport and drinking-water availability; it identifies Indigenous, rural and agricultural communities as most affected. | The page summarizes cross-sector impacts without estimating group-specific losses. | PRY-SRC-101 (‘DROUGHT IMPACT PATHWAY’ paragraph.) |
 | PRY-E-103 | exposure | observed / draft | administrative-area | Source dated not stated reports: FAO contrasts Central Chaco’s scarce, temporary, salty surface water and non-recharging salty groundwater with generally higher rainfall and more usable, recharging water resources in the east. | Regional description; not a site-level water-quality survey. | PRY-SRC-101 (‘ENVIRONMENTAL’ indicators, bullets on regional precipitation and surface and groundwater.) |
 | PRY-E-104 | sensitivity | observed / draft | administrative-area | Source dated 2024 reports: In the Western Region (Chaco, Alto Paraguay, Boquerón, Presidente Hayes), the CCDR identifies high Indigenous concentrations and drought-related land degradation/water-access problems; riverbank bursts are associated with illness. | No local incidence estimates; cited passage does not isolate contamination sources. | PRY-SRC-102 (Printed p. 64, footnote 107.) |

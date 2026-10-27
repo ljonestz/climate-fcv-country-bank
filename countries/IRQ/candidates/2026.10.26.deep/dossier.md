@@ -2,8 +2,8 @@
 
 ## Executive assessment
 
-- New February2026fieldwork adds a local mechanism in Nimrud and Hatra: water stress and farming losses interact with irrigation/land competition and exclusion. These are participants' reported dynamics, not a representative causal estimate. [IRQ-E-110, IRQ-E-111, IRQ-P-101]
-- Evidence on return agriculture and displacement-site water access is dated2022and2024. It documents economic and conflict-recovery barriers alongside climate stress, with local mediation capacities that can exclude less-connected groups. [IRQ-E-102, IRQ-E-105, IRQ-E-106, IRQ-E-112]
+- New February 2026 fieldwork adds a local mechanism in Nimrud and Hatra: water stress and farming losses interact with irrigation/land competition and exclusion. These are participants' reported dynamics, not a representative causal estimate. [IRQ-E-110, IRQ-E-111, IRQ-P-101]
+- Evidence on return agriculture and displacement-site water access is dated 2022 and 2024. It documents economic and conflict-recovery barriers alongside climate stress, with local mediation capacities that can exclude less-connected groups. [IRQ-E-102, IRQ-E-105, IRQ-E-106, IRQ-E-112]
 
 ## Evidence coverage and critical gaps
 
@@ -35,10 +35,10 @@ Critical remaining gaps:
 - Recent local conflict-climate evidence is concentrated in Ninewa, selected return districts and displacement sites; findings are not nationally representative. []
 - NRC detailed report methods were unavailable in the inspected excerpt, and the UNDP climate-vulnerability PDF could not be opened. []
 - Evidence on tested climate-adaptation outcomes that reduce FCV risk remains limited in the inspected materials. []
-- Historical IOM2022and NRC2024findings are explicitly dated; do not read them as current2026conditions. []
+- Historical IOM 2022 and NRC 2024 findings are explicitly dated; do not read them as current 2026 conditions. []
 - Observational subdistrict models are not named-site predictions or proof of a robust causal mechanism; no national climate-conflict forecast is inferred. []
 - The collector's IOM audit URL had an extra'the'; coordinator opened the correct official landing page and its linked10-pagePDF. []
-- World Vision's portal publication date is2September2026; the filename date was not treated as publication. []
+- World Vision's portal publication date is2September 2026; the filename date was not treated as publication. []
 - Draft extension: human source review and approval remain pending. Lending eligibility is not an FCV classification. []
 
 ## Climate pressures and exposure
@@ -46,14 +46,14 @@ Critical remaining gaps:
 - Demand growth, upstream withdrawals, domestic management, pollution and climate pressures jointly drive Iraq’s water deficit; the projected 2035 gap is 10.9 billion m3. [IRQ-E-006]
 - As of September 2025, 186,006 people were reported displaced by climatic factors in central and southern Iraq; 63% had moved from rural to urban areas. [IRQ-E-007]
 - Water-service weakness compounds climate exposure. [IRQ-E-008]
-- The2022 returnee survey describes stronger weather sensitivity in Sinjar, Shirqat, Hamdaniya and Telafar. Across the sample, about a quarter of farming abandonments cited water scarcity and about a tenth unpredictable weather; costs and conflict losses also mattered. [IRQ-E-103]
+- The 2022 returnee survey describes stronger weather sensitivity in Sinjar, Shirqat, Hamdaniya and Telafar. Across the sample, about a quarter of farming abandonments cited water scarcity and about a tenth unpredictable weather; costs and conflict losses also mattered. [IRQ-E-103]
 
 ## Differentiated vulnerability
 
 - Outdoor and manual workers face substantial heat exposure. [IRQ-E-009]
 - Climate-water-agriculture shocks can transmit through prices and poverty. [IRQ-E-010]
 - National policy recognizes differentiated vulnerability. [IRQ-E-011]
-- In the March–April2022 returnee survey, nearly 75% of surveyed farming households reported lower harvests than in 2014; over 80% of livestock owners reported smaller herds. [IRQ-E-101]
+- In the March–April 2022 returnee survey, nearly 75% of surveyed farming households reported lower harvests than in 2014; over 80% of livestock owners reported smaller herds. [IRQ-E-101]
 - Participants reported that women, youth, people with disabilities, low-income households and displaced or returnee groups face unequal access to land, capital, irrigation and employment in parts of Ninewa. [IRQ-E-111]
 
 ## Coping and adaptive capacity
@@ -61,8 +61,8 @@ Critical remaining gaps:
 - Water efficiency has modeled adaptation benefits. [IRQ-E-014]
 - A major targeted adaptation investment is planned in three governorates. [IRQ-E-015]
 - Local institutions can contain water-related disputes. [IRQ-E-023]
-- In the March–April2022 returnee survey, iSIL-era conflict destroyed farm assets and infrastructure; limited replacement capacity and incentives hindered agricultural recovery. [IRQ-E-102]
-- NRC's2024 publisher summary reports: The report says four in five displaced respondents linked return decisions to the ability to farm, and 93% based stay, move or return decisions on information about local resources. [IRQ-E-107]
+- In the March–April 2022 returnee survey, ISIL-era conflict destroyed farm assets and infrastructure; limited replacement capacity and incentives hindered agricultural recovery. [IRQ-E-102]
+- NRC's 2024 publisher summary reports: The report says four in five displaced respondents linked return decisions to the ability to farm, and 93% based stay, move or return decisions on information about local resources. [IRQ-E-107]
 
 ## Institutions and delivery systems
 
@@ -135,7 +135,7 @@ Critical remaining gaps:
   - Possible consequence: Participants describe farmer-herder tensions in Nimrud and resource/service pressures in Hatra; further stress could intensify existing grievances, not necessarily produce violence.
   - Link evidence: {'pressure': ['IRQ-E-110'], 'impact': ['IRQ-E-110'], 'mediator': ['IRQ-E-110', 'IRQ-E-111'], 'consequence': ['IRQ-E-110']}
   - Alternative explanations: ['Post-conflict recovery, unemployment, patronage, service inequality and political influence also shape grievances independently of climate.']
-  - Uncertainty: Source-stated qualitative mechanism from purposive February2026fieldwork; no causal estimate, representative prevalence or attribution to anthropogenic climate change.
+  - Uncertainty: Source-stated qualitative mechanism from purposive February 2026 fieldwork; no causal estimate, representative prevalence or attribution to anthropogenic climate change.
 
 ## Resilience and peace-supporting capacities
 
@@ -145,9 +145,9 @@ Critical remaining gaps:
 - Armed-actor political economy can obstruct adaptation. [IRQ-E-021]
 - Assistance gaps can turn displacement into a governance/social-cohesion risk. [IRQ-E-022]
 - Inclusive climate governance can create peace-supporting dialogue opportunities. [IRQ-E-024]
-- The2024 portal-published IOM brief recommends early warning, technology and broader agricultural investment to support durable returns; these are proposals, not evaluated adaptation results. [IRQ-E-104]
-- NRC's2024 publisher summary reports: In the 2024 farming season, 57% of surveyed returnee households used less land or water; 5% reported being forced to move because of drought conditions. [IRQ-E-105]
-- NRC's2024 publisher summary reports: Among displaced households in informal sites, one in five lacked clean water, three quarters reported water-sharing tensions, and 44% said authorities barred some groups from water. [IRQ-E-106]
+- The 2024 portal-published IOM brief recommends early warning, technology and broader agricultural investment to support durable returns; these are proposals, not evaluated adaptation results. [IRQ-E-104]
+- NRC's 2024 publisher summary reports: In the 2024 farming season, 57% of surveyed returnee households used less land or water; 5% reported being forced to move because of drought conditions. [IRQ-E-105]
+- NRC's 2024 publisher summary reports: Among displaced households in informal sites, one in five lacked clean water, three quarters reported water-sharing tensions, and 44% said authorities barred some groups from water. [IRQ-E-106]
 - Across 294 subdistricts from 2020-2022, the study reports a direct association between skin temperature and battle events, with soil moisture and energy operating indirectly. [IRQ-E-108]
 - Population density positively mediated modeled conflict activity, while wheat production did not reduce conflict as hypothesized. [IRQ-E-109]
 - Participants described drought, reduced rainfall and water scarcity as undermining farming and increasing irrigation and land competition, including farmer-herder tension in rural Nimrud and Hatra. [IRQ-E-110]
@@ -155,11 +155,11 @@ Critical remaining gaps:
 
 ## Geographic and livelihood-system differentiation
 
-- In the March–April2022 returnee survey, nearly 75% of surveyed farming households reported lower harvests than in 2014; over 80% of livestock owners reported smaller herds. [IRQ-E-101]
-- In the March–April2022 returnee survey, iSIL-era conflict destroyed farm assets and infrastructure; limited replacement capacity and incentives hindered agricultural recovery. [IRQ-E-102]
-- The2022 returnee survey describes stronger weather sensitivity in Sinjar, Shirqat, Hamdaniya and Telafar. Across the sample, about a quarter of farming abandonments cited water scarcity and about a tenth unpredictable weather; costs and conflict losses also mattered. [IRQ-E-103]
-- NRC's2024 publisher summary reports: In the 2024 farming season, 57% of surveyed returnee households used less land or water; 5% reported being forced to move because of drought conditions. [IRQ-E-105]
-- NRC's2024 publisher summary reports: Among displaced households in informal sites, one in five lacked clean water, three quarters reported water-sharing tensions, and 44% said authorities barred some groups from water. [IRQ-E-106]
+- In the March–April 2022 returnee survey, nearly 75% of surveyed farming households reported lower harvests than in 2014; over 80% of livestock owners reported smaller herds. [IRQ-E-101]
+- In the March–April 2022 returnee survey, ISIL-era conflict destroyed farm assets and infrastructure; limited replacement capacity and incentives hindered agricultural recovery. [IRQ-E-102]
+- The 2022 returnee survey describes stronger weather sensitivity in Sinjar, Shirqat, Hamdaniya and Telafar. Across the sample, about a quarter of farming abandonments cited water scarcity and about a tenth unpredictable weather; costs and conflict losses also mattered. [IRQ-E-103]
+- NRC's 2024 publisher summary reports: In the 2024 farming season, 57% of surveyed returnee households used less land or water; 5% reported being forced to move because of drought conditions. [IRQ-E-105]
+- NRC's 2024 publisher summary reports: Among displaced households in informal sites, one in five lacked clean water, three quarters reported water-sharing tensions, and 44% said authorities barred some groups from water. [IRQ-E-106]
 - Participants described drought, reduced rainfall and water scarcity as undermining farming and increasing irrigation and land competition, including farmer-herder tension in rural Nimrud and Hatra. [IRQ-E-110]
 - Participants reported that women, youth, people with disabilities, low-income households and displaced or returnee groups face unequal access to land, capital, irrigation and employment in parts of Ninewa. [IRQ-E-111]
 - The assessment identifies tribal mediation, kinship networks, shared economic activity and community initiatives as local peace capacities, while noting exclusion of less-connected groups. [IRQ-E-112]
@@ -194,13 +194,13 @@ Critical remaining gaps:
 | IRQ-E-022 | direct-climate-fcv | observed / draft | not-applicable | UNAMI finds that inconsistent assistance and unclear registration/responsibility for climate-displaced people can generate perceived neglect and distrust, with politically contingent assistance leaving people vulnerable to manipulation. | Qualitative and partly case-specific; “climate displaced” classification can include environmental factors beyond attribution to climate change. | IRQ-SRC-009 (§Limited and politically-motivated assistance for climate displacement, PDF pp.12-14.) |
 | IRQ-E-023 | coping-capacity | observed / draft | administrative-area | In Al-Rifai, Berghof respondents reported that water-access conflicts had subsided in a wetter year and that, when disputes occurred, tribal, security and administrative authorities generally resolved them quickly. | Self-reported local perceptions; cannot establish a general national coping capacity. | IRQ-SRC-011 (Al-Rifai district findings, PDF pp.21-22.) |
 | IRQ-E-024 | resilience-peace-capacity | observed / draft | national | UNAMI identifies participatory climate and natural-resource governance as a potential peace-supporting capacity and cites the May 2024 Kirkuk Climate Forum as an example of climate issues creating space for dialogue and collective action. | Evidence supports an entry point/opportunity, not a quantified reduction in violence. | IRQ-SRC-009 (recommendations/conclusion, PDF pp.16-18.) |
-| IRQ-E-101 | sensitivity | observed / draft | administrative-area | In the March–April2022 returnee survey, nearly 75% of surveyed farming households reported lower harvests than in 2014; over 80% of livestock owners reported smaller herds. | Self-reported; multiple drivers discussed. Historical2022responses, not a2026assessment. | IRQ-SRC-101 (PDF p. 3, farming and livestock production findings) |
-| IRQ-E-102 | adaptive-capacity | observed / draft | administrative-area | In the March–April2022 returnee survey, iSIL-era conflict destroyed farm assets and infrastructure; limited replacement capacity and incentives hindered agricultural recovery. | Multiple barriers; relative effects not isolated. Historical2022responses, not a2026assessment. | IRQ-SRC-101 (PDF pp. 2 and 4, conflict and agricultural recovery) |
-| IRQ-E-103 | climate-pressure | observed / draft | administrative-area | The2022 returnee survey describes stronger weather sensitivity in Sinjar, Shirqat, Hamdaniya and Telafar. Across the sample, about a quarter of farming abandonments cited water scarcity and about a tenth unpredictable weather; costs and conflict losses also mattered. | Respondent attributions; economic and conflict factors also mattered. Historical2022responses, not a2026assessment. | IRQ-SRC-101 (One-based PDF p.7, district variation and agricultural-abandonment discussion.) |
-| IRQ-E-104 | resilience-peace-capacity | observed / draft | administrative-area | The2024 portal-published IOM brief recommends early warning, technology and broader agricultural investment to support durable returns; these are proposals, not evaluated adaptation results. | Proposal, not evaluated. Historical2022responses, not a2026assessment. | IRQ-SRC-101 (One-based PDF p.9, Implications for sustainable reintegration.) |
-| IRQ-E-105 | direct-climate-fcv | observed / draft | state | NRC's2024 publisher summary reports: In the 2024 farming season, 57% of surveyed returnee households used less land or water; 5% reported being forced to move because of drought conditions. | Publisher summary only; questionnaire, denominator and detailed methods were not available in the inspected page. These are2024survey findings, not current2026prevalence. | IRQ-SRC-102 (Publisher summary, returnee households) |
-| IRQ-E-106 | direct-climate-fcv | observed / draft | site | NRC's2024 publisher summary reports: Among displaced households in informal sites, one in five lacked clean water, three quarters reported water-sharing tensions, and 44% said authorities barred some groups from water. | Publisher summary only; results are not disaggregated further in the accessible excerpt. These are2024survey findings, not current2026prevalence. | IRQ-SRC-102 (Publisher summary, displaced households in informal sites) |
-| IRQ-E-107 | coping-capacity | observed / draft | site | NRC's2024 publisher summary reports: The report says four in five displaced respondents linked return decisions to the ability to farm, and 93% based stay, move or return decisions on information about local resources. | Publisher summary only; do not interpret stated decision factors as observed return outcomes. These are2024survey findings, not current2026prevalence. | IRQ-SRC-102 (Publisher summary, return decisions) |
+| IRQ-E-101 | sensitivity | observed / draft | administrative-area | In the March–April 2022 returnee survey, nearly 75% of surveyed farming households reported lower harvests than in 2014; over 80% of livestock owners reported smaller herds. | Self-reported; multiple drivers discussed. Historical 2022 responses, not a 2026 assessment. | IRQ-SRC-101 (PDF p. 3, farming and livestock production findings) |
+| IRQ-E-102 | adaptive-capacity | observed / draft | administrative-area | In the March–April 2022 returnee survey, ISIL-era conflict destroyed farm assets and infrastructure; limited replacement capacity and incentives hindered agricultural recovery. | Multiple barriers; relative effects not isolated. Historical 2022 responses, not a 2026 assessment. | IRQ-SRC-101 (PDF pp. 2 and 4, conflict and agricultural recovery) |
+| IRQ-E-103 | climate-pressure | observed / draft | administrative-area | The 2022 returnee survey describes stronger weather sensitivity in Sinjar, Shirqat, Hamdaniya and Telafar. Across the sample, about a quarter of farming abandonments cited water scarcity and about a tenth unpredictable weather; costs and conflict losses also mattered. | Respondent attributions; economic and conflict factors also mattered. Historical 2022 responses, not a 2026 assessment. | IRQ-SRC-101 (One-based PDF p.7, district variation and agricultural-abandonment discussion.) |
+| IRQ-E-104 | resilience-peace-capacity | observed / draft | administrative-area | The 2024 portal-published IOM brief recommends early warning, technology and broader agricultural investment to support durable returns; these are proposals, not evaluated adaptation results. | Proposal, not evaluated. Historical 2022 responses, not a 2026 assessment. | IRQ-SRC-101 (One-based PDF p.9, Implications for sustainable reintegration.) |
+| IRQ-E-105 | direct-climate-fcv | observed / draft | state | NRC's 2024 publisher summary reports: In the 2024 farming season, 57% of surveyed returnee households used less land or water; 5% reported being forced to move because of drought conditions. | Publisher summary only; questionnaire, denominator and detailed methods were not available in the inspected page. These are 2024 survey findings, not current 2026 prevalence. | IRQ-SRC-102 (Publisher summary, returnee households) |
+| IRQ-E-106 | direct-climate-fcv | observed / draft | site | NRC's 2024 publisher summary reports: Among displaced households in informal sites, one in five lacked clean water, three quarters reported water-sharing tensions, and 44% said authorities barred some groups from water. | Publisher summary only; results are not disaggregated further in the accessible excerpt. These are 2024 survey findings, not current 2026 prevalence. | IRQ-SRC-102 (Publisher summary, displaced households in informal sites) |
+| IRQ-E-107 | coping-capacity | observed / draft | site | NRC's 2024 publisher summary reports: The report says four in five displaced respondents linked return decisions to the ability to farm, and 93% based stay, move or return decisions on information about local resources. | Publisher summary only; do not interpret stated decision factors as observed return outcomes. These are 2024 survey findings, not current 2026 prevalence. | IRQ-SRC-102 (Publisher summary, return decisions) |
 | IRQ-E-108 | direct-climate-fcv | observed / draft | administrative-area | Across 294 subdistricts from 2020-2022, the study reports a direct association between skin temperature and battle events, with soil moisture and energy operating indirectly. | Observational model; authors note omitted social and political variables and limited temporal specificity. | IRQ-SRC-103 (Abstract and results, environmental variables and battle events) |
 | IRQ-E-109 | direct-climate-fcv | observed / draft | administrative-area | Population density positively mediated modeled conflict activity, while wheat production did not reduce conflict as hypothesized. | Model result is limited by omitted social-political variables and the 2020-2022 period. | IRQ-SRC-103 (Results and limitations) |
 | IRQ-E-110 | direct-climate-fcv | observed / draft | administrative-area | Participants described drought, reduced rainfall and water scarcity as undermining farming and increasing irrigation and land competition, including farmer-herder tension in rural Nimrud and Hatra. | Qualitative perceptions from purposive February 2026 fieldwork; not a representative estimate. | IRQ-SRC-104 (One-based PDF p.11, section3.4 Climate Stress and Resource Tension.) |

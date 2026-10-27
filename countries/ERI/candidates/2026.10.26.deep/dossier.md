@@ -72,7 +72,7 @@ Critical remaining gaps:
   - Possible consequence: Narrower seasonal coping options and localized livestock–farmer tensions were reported.
   - Link evidence: {'pressure': ['ERI-E-105', 'ERI-E-106'], 'impact': ['ERI-E-105'], 'mediator': ['ERI-E-105'], 'consequence': ['ERI-E-105', 'ERI-E-106']}
   - Alternative explanations: ['Borehole siting, herd numbers, settlement patterns and crop-residue management also shaped pressure.']
-  - Uncertainty: Historical dryland coping mechanism from1999–2001 research, not measured climate-change impact, current violence or an evaluated adaptation project.
+  - Uncertainty: Historical dryland coping mechanism from 1999–2001 research, not measured climate-change impact, current violence or an evaluated adaptation project.
 
 ## Resilience and peace-supporting capacities
 

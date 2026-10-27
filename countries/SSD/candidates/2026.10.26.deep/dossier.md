@@ -2,7 +2,7 @@
 
 ## Executive assessment
 
-- Jonglei, Lakes, Unity and contrasting western flood patterns add differentiated2025exposure; high-ground planting is described alongside flood timing, not as an isolated impact estimate. [SSD-E-101, SSD-E-104, SSD-E-105]
+- Jonglei, Lakes, Unity and contrasting western flood patterns add differentiated 2025 exposure; high-ground planting is described alongside flood timing, not as an isolated impact estimate. [SSD-E-101, SSD-E-104, SSD-E-105]
 - Source-stated displacement/resource competition is broad and historical. Humanitarian routes, crop-assessment access and agricultural activity face distinct insecurity constraints and should not be conflated. [SSD-E-102, SSD-E-103, SSD-E-107, SSD-E-110]
 
 ## Evidence coverage and critical gaps
@@ -32,7 +32,7 @@ Critical remaining gaps:
 - The 2026 FAO GIEWS brief is a 7 September snapshot; seasonal forecasts and security/market conditions may have changed by later 2026. []
 - Climate-FCV material is strongest for flood-related displacement and resource competition in the HNRP's broad affected-area framing; it does not quantify local causal effects or establish uniform conflict outcomes. []
 - The DTM August 2025 flood-displacement report was inaccessible; current subnational displacement detail beyond the accessible HNRP and CFSAM remains incomplete. []
-- HNRP findings refer to2025conditions and were read from an identified OCHA-report mirror because the official landing page returned403. []
+- HNRP findings refer to 2025 conditions and were read from an identified OCHA-report mirror because the official landing page returned 403. []
 - The crop-mission access constraint concerns evidence collection, not proven interruption of climate-adaptation operations. []
 - Draft extension: human source review and approval remain pending. Lending eligibility is not an FCV classification. []
 
@@ -48,7 +48,7 @@ Critical remaining gaps:
 - Do not treat future rainfall direction or magnitude as settled without scenario- and location-specific extraction. [SSD-E-021]
 - Screen access, services, and livelihoods for severe-year flood exposure that can affect a large share of national territory. [SSD-E-027]
 - Source dated 2025-12 reports: By November 2025, floods in Greater Upper Nile, Unity and Jonglei had affected over 1.3 million people and displaced over 375,000, while northern and south-eastern regions faced prolonged dry spells; women and girls faced increased workloads and GBV exposure. [SSD-E-101]
-- The2025 CFSAM reports Jonglei, Lakes and Unity accounted for88%of flood-affected people, while western Sudd, Tonj and Greater Bahr el Ghazal experienced less extensive flooding than prior years. [SSD-E-104]
+- The 2025 CFSAM reports Jonglei, Lakes and Unity accounted for88%of flood-affected people, while western Sudd, Tonj and Greater Bahr el Ghazal experienced less extensive flooding than prior years. [SSD-E-104]
 - Source dated 2026-09-07 reports: The 7 September brief forecast that rainfall deficits could constrain central and northern yields, while above-average October-December rains could support southern second-season crops. [SSD-E-109]
 
 ## Differentiated vulnerability
@@ -56,7 +56,7 @@ Critical remaining gaps:
 - Screen livelihood recovery and host-community capacity together because flood displacement can reverse hosting roles. [SSD-E-006]
 - Integrate GBV, child-marriage, reproductive-health, and girls' education safeguards into climate response. [SSD-E-009]
 - Source dated 2026-03-19 reports: Food insecurity reflected conflict, low production, economic shocks and depleted coping; 2025 floods added multi-sector needs amid reduced funding and insecurity-related access constraints. [SSD-E-106]
-- FAO's7September2026brief estimates below-average southern first-season cereal output following prolonged dry spells; it does not provide local yield estimates. [SSD-E-108]
+- FAO's7September 2026 brief estimates below-average southern first-season cereal output following prolonged dry spells; it does not provide local yield estimates. [SSD-E-108]
 
 ## Coping and adaptive capacity
 
@@ -64,8 +64,8 @@ Critical remaining gaps:
 - Use INFORM to flag compound vulnerability and coping constraints, not to rank individual project sites. [SSD-E-008]
 - Selected beneficiaries demonstrated asset and savings gains, but these cannot be generalized nationally or attributed specifically to climate adaptation. [SSD-E-022]
 - Selected counties demonstrated functioning community institutions for planning and maintaining local resilience investments. [SSD-E-024]
-- The2025 CFSAM describes farmers in flood-prone areas shifting plantings from low areas to high ground; mature crops and late flooding also limited losses. [SSD-E-105]
-- FAO's7September2026brief describes insecurity since late2025disrupting agriculture in unspecified areas and likely contributing to localized shortfalls. [SSD-E-110]
+- The 2025 CFSAM describes farmers in flood-prone areas shifting plantings from low areas to high ground; mature crops and late flooding also limited losses. [SSD-E-105]
+- FAO's7September 2026 brief describes insecurity since late 2025 disrupting agriculture in unspecified areas and likely contributing to localized shortfalls. [SSD-E-110]
 
 ## Institutions and delivery systems
 
@@ -76,7 +76,7 @@ Critical remaining gaps:
 - Selected infrastructure and flood defenses show reported functionality and reach, pending independent outcome verification. [SSD-E-025]
 - Treat third-party delivery dependence and weak government maintenance capacity as material implementation constraints. [SSD-E-026]
 - Source dated 2025-12 reports: Erratic rainfall and flooding damaged humanitarian supply routes and prevented pre-positioning; violence and insecurity also disrupted commercial movements and aid access. [SSD-E-103]
-- For the2025 crop mission, insecurity prevented some field visits, requiring phone and crop-monitoring committee reports instead of direct observation. [SSD-E-107]
+- For the 2025 crop mission, insecurity prevented some field visits, requiring phone and crop-monitoring committee reports instead of direct observation. [SSD-E-107]
 
 ## Climate-FCV pathways
 
@@ -138,12 +138,12 @@ Critical remaining gaps:
 - Screen whether conflict and institutional weakness are constraining climate adaptation capacity. [SSD-E-016]
 - Climate-security pathways can pass through livelihoods, mobility, recruitment, and elite exploitation [SSD-E-017]
 - Localized forecasting and dialogue face language, finance, supply, and trust constraints [SSD-E-019]
-- The December2025 HNRP describes flood-displaced pastoralists moving into farming zones and renewed farmer-herder clashes, with drought increasing water/grazing competition. [SSD-E-102]
+- The December 2025 HNRP describes flood-displaced pastoralists moving into farming zones and renewed farmer-herder clashes, with drought increasing water/grazing competition. [SSD-E-102]
 
 ## Geographic and livelihood-system differentiation
 
 - Source dated 2025-12 reports: By November 2025, floods in Greater Upper Nile, Unity and Jonglei had affected over 1.3 million people and displaced over 375,000, while northern and south-eastern regions faced prolonged dry spells; women and girls faced increased workloads and GBV exposure. [SSD-E-101]
-- The2025 CFSAM reports Jonglei, Lakes and Unity accounted for88%of flood-affected people, while western Sudd, Tonj and Greater Bahr el Ghazal experienced less extensive flooding than prior years. [SSD-E-104]
+- The 2025 CFSAM reports Jonglei, Lakes and Unity accounted for88%of flood-affected people, while western Sudd, Tonj and Greater Bahr el Ghazal experienced less extensive flooding than prior years. [SSD-E-104]
 
 ## Implications by project type
 
@@ -184,15 +184,15 @@ Critical remaining gaps:
 | SSD-E-026 | institutional-capacity | observed / draft | national | The ECRP results feature states that implementation exposed limitations of third-party delivery and the need to strengthen government institutions for providing, delivering, and maintaining public infrastructure and services. | The feature identifies a program lesson but does not measure the severity or geographic distribution of government capacity constraints. | SSD-SRC-015 (section 'Tangible Results, Real Impact', paragraph on third-party implementation limitations and the need to strengthen government delivery and maintenance) |
 | SSD-E-027 | exposure | observed / draft | national | The 2026 World Bank CCDR press release states that extreme flooding covers up to one-quarter of South Sudan in severe years, cutting communities off from essential services, damaging livelihoods, and contributing to food insecurity. | The press release does not provide the underlying flood threshold, map, frequency distribution, or subnational breakdown. | SSD-SRC-016 (press-release paragraph summarizing the CCDR finding that severe-year flooding covers up to one-quarter of the country and disrupts services, livelihoods, and food security) |
 | SSD-E-101 | exposure | observed / draft | state | Source dated 2025-12 reports: By November 2025, floods in Greater Upper Nile, Unity and Jonglei had affected over 1.3 million people and displaced over 375,000, while northern and south-eastern regions faced prolonged dry spells; women and girls faced increased workloads and GBV exposure. | HNRP operational figures; no local climate attribution is estimated. | SSD-SRC-101 (PDF p. 6, Part 1, section 1.1, Climate Variability.) |
-| SSD-E-102 | direct-climate-fcv | observed / draft | national | The December2025 HNRP describes flood-displaced pastoralists moving into farming zones and renewed farmer-herder clashes, with drought increasing water/grazing competition. | Broad source-stated humanitarian narrative, not a localized causal estimate or present conflict-incidence measure. | SSD-SRC-101 (PDF p. 7, Part 1, section 1.1, Conflict and Climate stress further acts as a conflict multiplier.) |
+| SSD-E-102 | direct-climate-fcv | observed / draft | national | The December 2025 HNRP describes flood-displaced pastoralists moving into farming zones and renewed farmer-herder clashes, with drought increasing water/grazing competition. | Broad source-stated humanitarian narrative, not a localized causal estimate or present conflict-incidence measure. | SSD-SRC-101 (PDF p. 7, Part 1, section 1.1, Conflict and Climate stress further acts as a conflict multiplier.) |
 | SSD-E-103 | response-performance | observed / draft | national | Source dated 2025-12 reports: Erratic rainfall and flooding damaged humanitarian supply routes and prevented pre-positioning; violence and insecurity also disrupted commercial movements and aid access. | Operational account of humanitarian access, not a measure of adaptation-project reach. | SSD-SRC-101 (PDF p. 29, Part 3, section 3.6, Logistics, Summary of needs.) |
-| SSD-E-104 | exposure | observed / draft | state | The2025 CFSAM reports Jonglei, Lakes and Unity accounted for88%of flood-affected people, while western Sudd, Tonj and Greater Bahr el Ghazal experienced less extensive flooding than prior years. | Flooding varied regionally, not uniformly by state. | SSD-SRC-102 (PDF p. 53, section Climate-related shocks.) |
-| SSD-E-105 | adaptive-capacity | observed / draft | national | The2025 CFSAM describes farmers in flood-prone areas shifting plantings from low areas to high ground; mature crops and late flooding also limited losses. | Planting shifts, flood timing and crop maturity effects are not separated. | SSD-SRC-102 (One-based PDF p.28 (printed p.18), flooding and crop performance.) |
-| SSD-E-106 | sensitivity | observed / draft | national | Source dated 2026-03-19 reports: Food insecurity reflected conflict, low production, economic shocks and depleted coping; 2025 floods added multi-sector needs amid reduced funding and insecurity-related access constraints. | Historical2025multi-driver needs/access context; no causal shares or quantified climate-adaptation delivery effects. | SSD-SRC-102 (PDF p. 53, section Drivers of household food insecurity.) |
-| SSD-E-107 | institutional-capacity | observed / draft | national | For the2025 crop mission, insecurity prevented some field visits, requiring phone and crop-monitoring committee reports instead of direct observation. | An assessment-access and data-quality constraint, not proof a named adaptation intervention stopped. | SSD-SRC-102 (PDF p. 13, section Crop and food security assessment mission methodology.) |
-| SSD-E-108 | sensitivity | observed / draft | not-applicable | FAO's7September2026brief estimates below-average southern first-season cereal output following prolonged dry spells; it does not provide local yield estimates. | Country-brief synthesis; it gives no subregional yield estimates. | SSD-SRC-103 (GIEWS section Concerns for 2026 cereal production due to dry weather conditions, first paragraph.) |
-| SSD-E-109 | climate-pressure | projected / draft | not-applicable | Source dated 2026-09-07 reports: The 7 September brief forecast that rainfall deficits could constrain central and northern yields, while above-average October-December rains could support southern second-season crops. | Forecast dated7September2026, not verified harvest outcomes or a climate-model scenario. Some central/northern harvest windows were already underway. | SSD-SRC-103 (GIEWS section Concerns for 2026 cereal production due to dry weather conditions, forecast paragraphs.) |
-| SSD-E-110 | coping-capacity | projected / draft | national | FAO's7September2026brief describes insecurity since late2025disrupting agriculture in unspecified areas and likely contributing to localized shortfalls. | Projected contribution in unspecified areas; not an estimate of climate-caused violence or quantified adaptation disruption. | SSD-SRC-103 (GIEWS section Concerns for 2026 cereal production due to dry weather conditions, closing paragraph.) |
+| SSD-E-104 | exposure | observed / draft | state | The 2025 CFSAM reports Jonglei, Lakes and Unity accounted for88%of flood-affected people, while western Sudd, Tonj and Greater Bahr el Ghazal experienced less extensive flooding than prior years. | Flooding varied regionally, not uniformly by state. | SSD-SRC-102 (PDF p. 53, section Climate-related shocks.) |
+| SSD-E-105 | adaptive-capacity | observed / draft | national | The 2025 CFSAM describes farmers in flood-prone areas shifting plantings from low areas to high ground; mature crops and late flooding also limited losses. | Planting shifts, flood timing and crop maturity effects are not separated. | SSD-SRC-102 (One-based PDF p.28 (printed p.18), flooding and crop performance.) |
+| SSD-E-106 | sensitivity | observed / draft | national | Source dated 2026-03-19 reports: Food insecurity reflected conflict, low production, economic shocks and depleted coping; 2025 floods added multi-sector needs amid reduced funding and insecurity-related access constraints. | Historical 2025 multi-driver needs/access context; no causal shares or quantified climate-adaptation delivery effects. | SSD-SRC-102 (PDF p. 53, section Drivers of household food insecurity.) |
+| SSD-E-107 | institutional-capacity | observed / draft | national | For the 2025 crop mission, insecurity prevented some field visits, requiring phone and crop-monitoring committee reports instead of direct observation. | An assessment-access and data-quality constraint, not proof a named adaptation intervention stopped. | SSD-SRC-102 (PDF p. 13, section Crop and food security assessment mission methodology.) |
+| SSD-E-108 | sensitivity | observed / draft | not-applicable | FAO's7September 2026 brief estimates below-average southern first-season cereal output following prolonged dry spells; it does not provide local yield estimates. | Country-brief synthesis; it gives no subregional yield estimates. | SSD-SRC-103 (GIEWS section Concerns for 2026 cereal production due to dry weather conditions, first paragraph.) |
+| SSD-E-109 | climate-pressure | projected / draft | not-applicable | Source dated 2026-09-07 reports: The 7 September brief forecast that rainfall deficits could constrain central and northern yields, while above-average October-December rains could support southern second-season crops. | Forecast dated7September 2026, not verified harvest outcomes or a climate-model scenario. Some central/northern harvest windows were already underway. | SSD-SRC-103 (GIEWS section Concerns for 2026 cereal production due to dry weather conditions, forecast paragraphs.) |
+| SSD-E-110 | coping-capacity | projected / draft | national | FAO's7September 2026 brief describes insecurity since late 2025 disrupting agriculture in unspecified areas and likely contributing to localized shortfalls. | Projected contribution in unspecified areas; not an estimate of climate-caused violence or quantified adaptation disruption. | SSD-SRC-103 (GIEWS section Concerns for 2026 cereal production due to dry weather conditions, closing paragraph.) |
 
 ## Bibliography and review decision
 

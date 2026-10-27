@@ -65,7 +65,7 @@ Critical remaining gaps:
   - Possible consequence: NAP reports water theft/disputes and community stress, without incidence or causal estimates.
   - Link evidence: {'pressure': ['TUV-E-102'], 'impact': ['TUV-E-102'], 'mediator': ['TUV-E-102'], 'consequence': ['TUV-E-102']}
   - Alternative explanations: ['Storage investment, power reliability, distribution rules and household resources also shape shortages and grievances.']
-  - Uncertainty: Government NAP synthesis citing CIVRA2024, not a new event inventory or proof of climate-caused armed violence. No island-specific dispute claim.
+  - Uncertainty: Government NAP synthesis citing CIVRA 2024, not a new event inventory or proof of climate-caused armed violence. No island-specific dispute claim.
 
 ## Resilience and peace-supporting capacities
 

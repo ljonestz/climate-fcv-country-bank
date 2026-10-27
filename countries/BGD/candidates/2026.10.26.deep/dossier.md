@@ -2,7 +2,7 @@
 
 ## Executive assessment
 
-- Cox's Bazar evidence links settlement, shelter and mobility constraints with landslide/flood exposure; the July2026 alert is a dated emergency snapshot. [BGD-E-101, BGD-E-102, BGD-E-108, BGD-P-101]
+- Cox's Bazar evidence links settlement, shelter and mobility constraints with landslide/flood exposure; the July 2026 alert is a dated emergency snapshot. [BGD-E-101, BGD-E-102, BGD-E-108, BGD-P-101]
 - Warnings, LPG, restoration and livelihood support add reported capacity/output detail, with explicit limits on targets, unique beneficiaries and causal protection or resilience effects. [BGD-E-103, BGD-E-105, BGD-E-106, BGD-E-107, BGD-E-113]
 
 ## Evidence coverage and critical gaps
@@ -32,7 +32,7 @@ Critical remaining gaps:
 - The 2026 Gender Alert is a dated emergency snapshot and not a long-term hazard model; the UNDP project page does not clearly distinguish all targets from completed results. []
 - SAFE+2 reports programme outcomes but provides no counterfactual evaluation; the reported resilience-index increase lacks scale and comparison-group detail. []
 - The new claims strengthen Cox's Bazar and selected 2026 flood-affected regions, not a district-wide vulnerability ranking for Bangladesh. []
-- The Gender Alert cover date is12July2026; portal/file timing was not substituted for the document version. []
+- The Gender Alert cover date is12July 2026; portal/file timing was not substituted for the document version. []
 - Human-elephant conflict is not human FCV. SAFE+2's reported forest/protection benefits and resilience metric are retained as programme-reported, not independently proven effects. []
 - Draft extension: human source review and approval remain pending. Lending eligibility is not an FCV classification. []
 
@@ -76,7 +76,7 @@ Critical remaining gaps:
   - Possible consequence: These conditions narrow safe evacuation and coping options and magnify weather-related losses; they do not establish climate-caused refugee-host violence.
   - Link evidence: {'pressure': ['BGD-E-101', 'BGD-E-108'], 'impact': ['BGD-E-108'], 'mediator': ['BGD-E-102', 'BGD-E-109'], 'consequence': ['BGD-E-102', 'BGD-E-108']}
   - Alternative explanations: ['Site design, poverty, infrastructure and service gaps shape losses independently of the displacement history; individual contributions are not measured.']
-  - Uncertainty: Conditional reverse interaction grounded in camp context and dated July2026 impacts, not a causal estimate or attribution of a weather event to climate change.
+  - Uncertainty: Conditional reverse interaction grounded in camp context and dated July 2026 impacts, not a causal estimate or attribution of a weather event to climate change.
 
 ## Resilience and peace-supporting capacities
 
@@ -125,8 +125,8 @@ Critical remaining gaps:
 | BGD-E-106 | response-performance | observed / draft | administrative-area | SAFE+2 reports restoring 578 hectares in 2024 and describes landslide and human-elephant-conflict benefits; neither avoided losses nor human social-conflict effects are established. | The report does not provide a controlled estimate of landslide or conflict reduction. | BGD-SRC-102 (PDF pp. 8-9, Strategic Priority 2) |
 | BGD-E-107 | response-performance | observed / draft | administrative-area | SAFE+2 reports support to 5,000 host farmers and 600 Rohingya and a resilience-index increase from 31 to 42; the inspected summary does not establish scale, comparison or attribution. | The report does not describe the resilience-index scale, comparison group or attribution method. | BGD-SRC-102 (PDF p. 5, Strategic Priority 3) |
 | BGD-E-108 | exposure | observed / draft | site | The 12 July 2026 Gender Alert reports 286 weather incidents in Cox's Bazar camps on 4-9 July, affecting 26,119 refugees, damaging 2,809 shelters and displacing 4,307 people. | Alert-period totals, not a long-term risk estimate. | BGD-SRC-103 (PDF p. 2, Cox's Bazar situation update) |
-| BGD-E-109 | sensitivity | projected / draft | administrative-area | Gender inequality shapes warning access and evacuation; women and girls face delayed movement, livelihood disruption and greater protection and GBV risks. | Dated July2026 emergency risk assessment, not current October incidence; anticipated protection risks are not measured hazard-attributable GBV. | BGD-SRC-103 (PDF pp. 2-4, Gendered Impact Analysis and Priority Gender Concerns) |
-| BGD-E-110 | sensitivity | projected / draft | administrative-area | In the Chattogram Hill Tracts, road disruption constrains obstetric care; floods and landslides may delay referrals and raise maternal/newborn risks. | Dated July2026 risk assessment; no clinical effects estimate or present October referral assessment. | BGD-SRC-103 (PDF p. 2, Gendered Impact Analysis) |
+| BGD-E-109 | sensitivity | projected / draft | administrative-area | Gender inequality shapes warning access and evacuation; women and girls face delayed movement, livelihood disruption and greater protection and GBV risks. | Dated July 2026 emergency risk assessment, not current October incidence; anticipated protection risks are not measured hazard-attributable GBV. | BGD-SRC-103 (PDF pp. 2-4, Gendered Impact Analysis and Priority Gender Concerns) |
+| BGD-E-110 | sensitivity | projected / draft | administrative-area | In the Chattogram Hill Tracts, road disruption constrains obstetric care; floods and landslides may delay referrals and raise maternal/newborn risks. | Dated July 2026 risk assessment; no clinical effects estimate or present October referral assessment. | BGD-SRC-103 (PDF p. 2, Gendered Impact Analysis) |
 | BGD-E-111 | direct-climate-fcv | observed / draft | site | The JRP reports 1,500+ rain-triggered camp landslides in Cox's Bazar in 2024, killing 12 refugees and damaging hundreds of shelters. | The JRP does not disaggregate these totals by camp. | BGD-SRC-104 (One-based PDF p.16 (printed p.15), Overview of the Crisis.) |
 | BGD-E-112 | sensitivity | observed / draft | administrative-area | The 2025-2026 JRP describes infrastructure, service and livelihood pressure in Cox's Bazar and links labor competition, environmental degradation and prices with tension risks; climate is not identified as the cause. | Tensions are attributed to hosting pressures, not climate or a specific hazard. | BGD-SRC-104 (PDF p. 31, Mitigating Potential Tensions Between Communities) |
 | BGD-E-113 | institutional-capacity | observed / draft | administrative-area | The 2025-2026 JRP plans restoration, cleaner energy, inclusive warnings and climate/disaster training for refugees and hosts; these remain planned measures, not verified results. | Planned measures, not evidence of delivery or outcomes. | BGD-SRC-104 (PDF pp. 28-29, Strategic Objective Five) |

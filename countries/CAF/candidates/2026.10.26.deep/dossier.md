@@ -3,7 +3,7 @@
 ## Executive assessment
 
 - Equateur/Yade/Oubangui drought exposure and Bangui informal housing provide differentiated vulnerability, with four-city flood modeling rather than observed future outcomes. [CAF-E-101, CAF-E-102]
-- National resource-competition risk and proposed pastoral dispute mechanisms remain analytical/design evidence;2025humanitarian constraints and WASH outputs do not quantify adaptation delivery or impact. [CAF-E-103, CAF-E-104, CAF-E-106, CAF-E-107]
+- National resource-competition risk and proposed pastoral dispute mechanisms remain analytical/design evidence;2025 humanitarian constraints and WASH outputs do not quantify adaptation delivery or impact. [CAF-E-103, CAF-E-104, CAF-E-106, CAF-E-107]
 
 ## Evidence coverage and critical gaps
 
@@ -46,14 +46,14 @@ Critical remaining gaps:
 - Substantial further warming by ~2050. [CAF-E-002]
 - Heavier rainfall likely raises flood risk. [CAF-E-003]
 - Current drought hazard; future trend uncertain. [CAF-E-004]
-- The2024 CCDR estimates above-national-average drought exposure in Equateur, Yade and Oubangui and flood exposure for about one-third of Bangui residents; these are exposure estimates, not realized losses. [CAF-E-101]
+- The 2024 CCDR estimates above-national-average drought exposure in Equateur, Yade and Oubangui and flood exposure for about one-third of Bangui residents; these are exposure estimates, not realized losses. [CAF-E-101]
 
 ## Differentiated vulnerability
 
 - National policy recognizes differentiated vulnerability. [CAF-E-009]
 - More than 2 million people were projected in IPC Phase 3+ during April-August 2026. [CAF-E-010]
 - The April-August 2026 IPC analysis identified conflict, displacement, prices, purchasing power and roads as food-access constraints. [CAF-E-012]
-- The2024 CCDR analyzes flood exposure in Bangui, Bambari, Birao and Berberati across2020/2050/2100scenarios;60%of flood-exposed Bangui buildings are described as informal housing. [CAF-E-102]
+- The 2024 CCDR analyzes flood exposure in Bangui, Bambari, Birao and Berberati across 2020/2050/2100scenarios;60%of flood-exposed Bangui buildings are described as informal housing. [CAF-E-102]
 
 ## Coping and adaptive capacity
 
@@ -68,8 +68,8 @@ Critical remaining gaps:
 - Water planning/monitoring starts from major gaps. [CAF-E-008]
 - Large programme reach was reported. [CAF-E-019]
 - Some output targets remained incomplete. [CAF-E-020]
-- UNICEF's2025report describes attacks in broad south-eastern/north-eastern areas, continued north-western violence and61humanitarian base closures; access was further limited by insecurity. [CAF-E-106]
-- UNICEF reports2025water access for23,539people,95water-point committees and So Fini responses to six shocks; these are operational outputs, not measured durable resilience. [CAF-E-107]
+- UNICEF's 2025 report describes attacks in broad south-eastern/north-eastern areas, continued north-western violence and61humanitarian base closures; access was further limited by insecurity. [CAF-E-106]
+- UNICEF reports 2025 water access for23,539people,95water-point committees and So Fini responses to six shocks; these are operational outputs, not measured durable resilience. [CAF-E-107]
 
 ## Climate-FCV pathways
 
@@ -122,13 +122,13 @@ Critical remaining gaps:
 - Climate and insecurity can reshape pastoral mobility. [CAF-E-016]
 - Armed control can turn mobility into a conflict risk. [CAF-E-017]
 - Governance institutions can reduce or amplify farmer-herder risk. [CAF-E-018]
-- The2024 CCDR describes a conditional national chain from climate extremes and lower yields to land/water competition and higher conflict/displacement risk. [CAF-E-103]
+- The 2024 CCDR describes a conditional national chain from climate extremes and lower yields to land/water competition and higher conflict/displacement risk. [CAF-E-103]
 - Source dated 2026-03-04 reports: June-November 2025 flooding damaged homes, schools, health facilities and livelihoods and drove displacement in flood-prone areas; the report does not name affected flood locations. [CAF-E-105]
 
 ## Geographic and livelihood-system differentiation
 
-- The2024 CCDR estimates above-national-average drought exposure in Equateur, Yade and Oubangui and flood exposure for about one-third of Bangui residents; these are exposure estimates, not realized losses. [CAF-E-101]
-- The2024 CCDR analyzes flood exposure in Bangui, Bambari, Birao and Berberati across2020/2050/2100scenarios;60%of flood-exposed Bangui buildings are described as informal housing. [CAF-E-102]
+- The 2024 CCDR estimates above-national-average drought exposure in Equateur, Yade and Oubangui and flood exposure for about one-third of Bangui residents; these are exposure estimates, not realized losses. [CAF-E-101]
+- The 2024 CCDR analyzes flood exposure in Bangui, Bambari, Birao and Berberati across 2020/2050/2100scenarios;60%of flood-exposed Bangui buildings are described as informal housing. [CAF-E-102]
 
 ## Implications by project type
 
@@ -159,13 +159,13 @@ Critical remaining gaps:
 | CAF-E-018 | resilience-peace-capacity | observed / draft | national | ICRC practitioner evidence describes pre-crisis livestock-route regulation and negotiated compensation as mechanisms that reduced disputes, while violence and state withdrawal after 2013 disrupted these arrangements. | Qualitative practitioner source; locations and effect sizes are not systematically sampled. | CAF-SRC-007 (paragraphs on transhumance before/after 2013 (ICRC)) |
 | CAF-E-019 | response-performance | observed / draft | not-applicable | The May 2025 World Bank ISR reported 583,389 farmers reached by the emergency food project, including 168,336 women, against a 700,000 target. | Self-reported/project-supervision indicator; reach is not evidence of resilience outcome. | CAF-SRC-011 (pp.1-2, results indicators (World Bank)) |
 | CAF-E-020 | response-performance | observed / draft | not-applicable | At the same reporting point, recorded food-crop production was 112,912 tonnes against a 200,000-tonne intermediate target, while hydrometeorological equipment procurement was still under way. | Project monitoring, not independent evaluation; future completion possible. | CAF-SRC-011 (PDF p.3 (printed p.3), results/activity status and hydrometeorological procurement) |
-| CAF-E-101 | exposure | observed / draft | administrative-area | The2024 CCDR estimates above-national-average drought exposure in Equateur, Yade and Oubangui and flood exposure for about one-third of Bangui residents; these are exposure estimates, not realized losses. | Exposure estimates, not realized losses. | CAF-SRC-101 (One-based PDF p.77, Figure4.2d discussion.) |
-| CAF-E-102 | sensitivity | projected / draft | administrative-area | The2024 CCDR analyzes flood exposure in Bangui, Bambari, Birao and Berberati across2020/2050/2100scenarios;60%of flood-exposed Bangui buildings are described as informal housing. | The60%denominator is flood-exposed buildings, not all buildings. Exposure and scenario analysis, not observed future damages. | CAF-SRC-101 (One-based PDF pp.58-59, urban flood exposure and footnote61.) |
-| CAF-E-103 | direct-climate-fcv | observed / draft | national | The2024 CCDR describes a conditional national chain from climate extremes and lower yields to land/water competition and higher conflict/displacement risk. | Analytical national risk framing, not measured climate-caused violence or local effect size. | CAF-SRC-101 (One-based PDF p.46, climate-fragility feedback discussion.) |
+| CAF-E-101 | exposure | observed / draft | administrative-area | The 2024 CCDR estimates above-national-average drought exposure in Equateur, Yade and Oubangui and flood exposure for about one-third of Bangui residents; these are exposure estimates, not realized losses. | Exposure estimates, not realized losses. | CAF-SRC-101 (One-based PDF p.77, Figure4.2d discussion.) |
+| CAF-E-102 | sensitivity | projected / draft | administrative-area | The 2024 CCDR analyzes flood exposure in Bangui, Bambari, Birao and Berberati across 2020/2050/2100scenarios;60%of flood-exposed Bangui buildings are described as informal housing. | The60%denominator is flood-exposed buildings, not all buildings. Exposure and scenario analysis, not observed future damages. | CAF-SRC-101 (One-based PDF pp.58-59, urban flood exposure and footnote61.) |
+| CAF-E-103 | direct-climate-fcv | observed / draft | national | The 2024 CCDR describes a conditional national chain from climate extremes and lower yields to land/water competition and higher conflict/displacement risk. | Analytical national risk framing, not measured climate-caused violence or local effect size. | CAF-SRC-101 (One-based PDF p.46, climate-fragility feedback discussion.) |
 | CAF-E-104 | adaptive-capacity | observed / draft | national | Source dated 2024-10-24 reports: CCDR options include climate-resilient pastoral systems, corridor oversight, water points and local committees able to arbitrate farmer-herder disputes. | Recommended pastoral adaptation and dispute-management capacities, not evaluated delivery or reduced violence. | CAF-SRC-101 (Printed p. 66, pastoral-system adaptation options) |
 | CAF-E-105 | direct-climate-fcv | observed / draft | national | Source dated 2026-03-04 reports: June-November 2025 flooding damaged homes, schools, health facilities and livelihoods and drove displacement in flood-prone areas; the report does not name affected flood locations. | Annual situation report does not provide flood counts or distinguish climate change from seasonal flood hazard. | CAF-SRC-102 (PDF p. 2, situation overview and humanitarian needs) |
-| CAF-E-106 | institutional-capacity | observed / draft | administrative-area | UNICEF's2025report describes attacks in broad south-eastern/north-eastern areas, continued north-western violence and61humanitarian base closures; access was further limited by insecurity. | Broad geographic directions are not named administrative hotspots; closures also reflect funding/context and are not all attributed to insecurity or climate-response operations. | CAF-SRC-102 (PDF p. 2, security and humanitarian access update) |
-| CAF-E-107 | response-performance | observed / draft | national | UNICEF reports2025water access for23,539people,95water-point committees and So Fini responses to six shocks; these are operational outputs, not measured durable resilience. | Reported operational outputs are not an evaluation of durable resilience or equitable coverage. | CAF-SRC-102 (PDF pp. 1 and 3, results highlights and WASH response) |
+| CAF-E-106 | institutional-capacity | observed / draft | administrative-area | UNICEF's 2025 report describes attacks in broad south-eastern/north-eastern areas, continued north-western violence and61humanitarian base closures; access was further limited by insecurity. | Broad geographic directions are not named administrative hotspots; closures also reflect funding/context and are not all attributed to insecurity or climate-response operations. | CAF-SRC-102 (PDF p. 2, security and humanitarian access update) |
+| CAF-E-107 | response-performance | observed / draft | national | UNICEF reports 2025 water access for23,539people,95water-point committees and So Fini responses to six shocks; these are operational outputs, not measured durable resilience. | Reported operational outputs are not an evaluation of durable resilience or equitable coverage. | CAF-SRC-102 (PDF pp. 1 and 3, results highlights and WASH response) |
 
 ## Bibliography and review decision
 

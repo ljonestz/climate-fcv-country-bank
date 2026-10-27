@@ -2,7 +2,7 @@
 
 ## Executive assessment
 
-- Named Wielkopolska water-retention projects and Bydgoszcz/Gdańsk/Katowice cases give local adaptation detail; the national2025 climate summary and preliminary2024 flood counts retain their distinct scopes and vintages. [POL-E-101, POL-E-102, POL-E-103, POL-E-105, POL-E-106, POL-E-107, POL-E-108, POL-E-109, POL-E-110, POL-E-111, POL-E-112, POL-E-113]
+- Named Wielkopolska water-retention projects and Bydgoszcz/Gdańsk/Katowice cases give local adaptation detail; the national 2025 climate summary and preliminary 2024 flood counts retain their distinct scopes and vintages. [POL-E-101, POL-E-102, POL-E-103, POL-E-105, POL-E-106, POL-E-107, POL-E-108, POL-E-109, POL-E-110, POL-E-111, POL-E-112, POL-E-113]
 - Eastern Poland project targeting and staffing constraints add institutional depth. Funding, legal deadlines and policy judgments are not verified uptake, completion or climate-conflict evidence. [POL-E-104, POL-E-114, POL-E-115, POL-E-116, POL-E-117, POL-E-118]
 
 ## Evidence coverage and critical gaps
@@ -41,7 +41,7 @@ Critical remaining gaps:
 ## Differentiated vulnerability
 
 - Source dated not stated reports: The Ministry reports annual water availability of 1,600 m³ per person in Poland, versus 4,500 m³ for Europe. [POL-E-104]
-- Source dated not stated reports: The Ministry identifies Wielkopolska among Poland's most drought-affected regions, citing low rainfall, hydrology, intensive farming, low forest cover and a water balance worsening since the early 2000s. [POL-E-105]
+- Source dated not stated reports: The Ministry identifies Wielkopolska among Poland's most drought-affected regions, citing low rainfall, hydrology, intensive farming, low forest cover and a water balance worsening since the early 2000 s. [POL-E-105]
 - Source dated 2024-09-21 reports: At the 21 September briefing, the government reported 749 settlements under disaster state, 2.39 million residents in affected areas, 57,000 directly flood-affected residents and more than 6,544 evacuees. [POL-E-112]
 - Source dated 2024-09-21 reports: Preliminary reports counted 11,502 damaged residential buildings, 6,033 farm buildings and 724 public buildings; Lower Silesia alone reported damage to 54 schools. [POL-E-113]
 
@@ -69,7 +69,7 @@ Critical remaining gaps:
 
 ## Geographic and livelihood-system differentiation
 
-- Source dated not stated reports: The Ministry identifies Wielkopolska among Poland's most drought-affected regions, citing low rainfall, hydrology, intensive farming, low forest cover and a water balance worsening since the early 2000s. [POL-E-105]
+- Source dated not stated reports: The Ministry identifies Wielkopolska among Poland's most drought-affected regions, citing low rainfall, hydrology, intensive farming, low forest cover and a water balance worsening since the early 2000 s. [POL-E-105]
 - Source dated not stated reports: The Ministry says rising temperatures, long dry spells and snowless winters worsen Wielkopolska's water balance; open-pit mining and intensive farming further deepen drought problems. [POL-E-106]
 - Source dated not stated reports: On 2 April 2026, the Ministry and regional partners signed a water-retention and water-security letter, joining administration, science and public bodies around catchment-scale planning. [POL-E-107]
 - Source dated not stated reports: The Ministry lists lake protection in Powidz Landscape Park, Ślesiński Canal modernization, Gniezno Lakeland water-resource restoration and hydrological restoration in the Warcica basin as in implementation. [POL-E-108]
@@ -94,7 +94,7 @@ Critical remaining gaps:
 | POL-E-102 | climate-pressure | observed / draft | national | Source dated not stated reports: The Ministry states that Poland's mean annual temperature rose about 2°C since 1951, at roughly twice the global-average rate. | The page gives no regional breakdown or temperature-trend calculation details. | POL-SRC-102 (Section Polska. Kraj ocieplający się szybciej niż globalna średnia) |
 | POL-E-103 | climate-pressure | observed / draft | national | Source dated not stated reports: The Ministry identifies March 2026 as Poland's third-warmest and third-driest March since 1951: 6.4°C mean temperature, 3.3°C above normal, and 29% of normal precipitation. | This is a single monthly episode; the page does not attribute it to climate change. | POL-SRC-102 (Section Polska. Kraj ocieplający się szybciej niż globalna średnia) |
 | POL-E-104 | sensitivity | observed / draft | national | Source dated not stated reports: The Ministry reports annual water availability of 1,600 m³ per person in Poland, versus 4,500 m³ for Europe. | Undated ministry national per-capita water-resource comparison, not household access, a local exposure ranking or a current shortage count. | POL-SRC-102 (Section Susza staje się problemem strukturalnym) |
-| POL-E-105 | sensitivity | observed / draft | administrative-area | Source dated not stated reports: The Ministry identifies Wielkopolska among Poland's most drought-affected regions, citing low rainfall, hydrology, intensive farming, low forest cover and a water balance worsening since the early 2000s. | The page gives no quantified regional comparison or underlying hydrological series. | POL-SRC-103 (Section Sytuacja regionu) |
+| POL-E-105 | sensitivity | observed / draft | administrative-area | Source dated not stated reports: The Ministry identifies Wielkopolska among Poland's most drought-affected regions, citing low rainfall, hydrology, intensive farming, low forest cover and a water balance worsening since the early 2000 s. | The page gives no quantified regional comparison or underlying hydrological series. | POL-SRC-103 (Section Sytuacja regionu) |
 | POL-E-106 | climate-pressure | observed / draft | administrative-area | Source dated not stated reports: The Ministry says rising temperatures, long dry spells and snowless winters worsen Wielkopolska's water balance; open-pit mining and intensive farming further deepen drought problems. | This is a Ministry characterization, not a quantified causal analysis. | POL-SRC-103 (Section Sytuacja regionu) |
 | POL-E-107 | institutional-capacity | observed / draft | administrative-area | Source dated not stated reports: On 2 April 2026, the Ministry and regional partners signed a water-retention and water-security letter, joining administration, science and public bodies around catchment-scale planning. | The letter and coordination model do not establish implementation or resilience outcomes. | POL-SRC-103 (Sections Partnerstwo regionalne and Co zakłada porozumienie) |
 | POL-E-108 | adaptive-capacity | observed / draft | administrative-area | Source dated not stated reports: The Ministry lists lake protection in Powidz Landscape Park, Ślesiński Canal modernization, Gniezno Lakeland water-resource restoration and hydrological restoration in the Warcica basin as in implementation. | The page gives no completion dates, costs or measured water outcomes. | POL-SRC-103 (Section Konkretne projekty w realizacji) |

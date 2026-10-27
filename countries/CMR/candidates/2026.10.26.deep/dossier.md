@@ -3,7 +3,7 @@
 ## Executive assessment
 
 - Far North flood damage and North-West/South-West access constraints add differentiated humanitarian vulnerability, not a current district ranking or quantified adaptation-program disruption. [CMR-E-101, CMR-E-102]
-- Logone-et-Chari's January2026clash is linked to livestock crop damage in the source, not climate. Reported feedback/cash outputs do not establish durable resilience or equitable coverage. [CMR-E-103, CMR-E-105]
+- Logone-et-Chari's January 2026 clash is linked to livestock crop damage in the source, not climate. Reported feedback/cash outputs do not establish durable resilience or equitable coverage. [CMR-E-103, CMR-E-105]
 
 ## Evidence coverage and critical gaps
 
@@ -58,8 +58,8 @@ Critical remaining gaps:
 - FCV and displacement strain service systems. [CMR-E-011]
 - Rainfall variability pressures pastoral mobility locally. [CMR-E-017]
 - Herd pressure is an independent co-driver. [CMR-E-018]
-- UNICEF's2025report describes Far North rainy-season flooding damaging services and isolating displaced/host communities, alongside conflict and displacement pressures. [CMR-E-101]
-- The Secretary-General's29May2026report describes January2026Logone-et-Chari violence following livestock crop damage, with nine deaths; no climatic cause is stated. [CMR-E-105]
+- UNICEF's 2025 report describes Far North rainy-season flooding damaging services and isolating displaced/host communities, alongside conflict and displacement pressures. [CMR-E-101]
+- The Secretary-General's 29 May 2026 report describes January 2026 Logone-et-Chari violence following livestock crop damage, with nine deaths; no climatic cause is stated. [CMR-E-105]
 
 ## Coping and adaptive capacity
 
@@ -78,7 +78,7 @@ Critical remaining gaps:
 - Conflict directly constrained resilience investment delivery. [CMR-E-024]
 - Important outcome/evaluation components remained incomplete. [CMR-E-026]
 - Source dated 2026-02-05 reports: In North-West and South-West, UNICEF records 269 access constraints in 2025; insecurity, lockdowns and administrative impediments restricted humanitarian operations, while a five-week lockdown disrupted livelihoods and market access. [CMR-E-102]
-- UNICEF's2025report records community/youth delivery, about80,000feedback records and anticipatory cash transfers reaching2,800households; feedback records are not unique beneficiaries. [CMR-E-103]
+- UNICEF's 2025 report records community/youth delivery, about80,000feedback records and anticipatory cash transfers reaching2,800households; feedback records are not unique beneficiaries. [CMR-E-103]
 
 ## Climate-FCV pathways
 
@@ -149,9 +149,9 @@ Critical remaining gaps:
 
 ## Geographic and livelihood-system differentiation
 
-- UNICEF's2025report describes Far North rainy-season flooding damaging services and isolating displaced/host communities, alongside conflict and displacement pressures. [CMR-E-101]
+- UNICEF's 2025 report describes Far North rainy-season flooding damaging services and isolating displaced/host communities, alongside conflict and displacement pressures. [CMR-E-101]
 - Source dated 2026-02-05 reports: In North-West and South-West, UNICEF records 269 access constraints in 2025; insecurity, lockdowns and administrative impediments restricted humanitarian operations, while a five-week lockdown disrupted livelihoods and market access. [CMR-E-102]
-- The Secretary-General's29May2026report describes January2026Logone-et-Chari violence following livestock crop damage, with nine deaths; no climatic cause is stated. [CMR-E-105]
+- The Secretary-General's 29 May 2026 report describes January 2026 Logone-et-Chari violence following livestock crop damage, with nine deaths; no climatic cause is stated. [CMR-E-105]
 
 ## Implications by project type
 
@@ -190,10 +190,10 @@ Critical remaining gaps:
 | CMR-E-024 | institutional-capacity | observed / draft | national | World Bank reports security problems in NW/SW and Far North impeded implementation and led to reduced scope in conflict-affected cities. | Clear project-level evidence; cannot infer all national adaptation delivery is similarly constrained. | CMR-SRC-012 (PDF p.12, para.16. (World Bank)) |
 | CMR-E-025 | adaptive-capacity | observed / draft | site | The urban project reported 364.12 ha protected from a 1-in-10-year flood, versus a 280-ha target. | Output/modelled protection, not observed avoided losses across future floods. | CMR-SRC-012 (PDF pp.14-16, Table 2 and paras.28-31. (World Bank)) |
 | CMR-E-026 | response-performance | observed / draft | not-applicable | The same ICR records that planned nature-based drainage restoration was not completed and a formal beneficiary satisfaction survey was not conducted. | Directly documented programme limitation. | CMR-SRC-012 (PDF pp.15-17, lines 558-563 and 590-605. (World Bank)) |
-| CMR-E-101 | sensitivity | observed / draft | administrative-area | UNICEF's2025report describes Far North rainy-season flooding damaging services and isolating displaced/host communities, alongside conflict and displacement pressures. | Converging humanitarian pressures, not proof of climate-caused conflict or flood-attributable national displacement. | CMR-SRC-101 (PDF p. 2, humanitarian situation overview) |
+| CMR-E-101 | sensitivity | observed / draft | administrative-area | UNICEF's 2025 report describes Far North rainy-season flooding damaging services and isolating displaced/host communities, alongside conflict and displacement pressures. | Converging humanitarian pressures, not proof of climate-caused conflict or flood-attributable national displacement. | CMR-SRC-101 (PDF p. 2, humanitarian situation overview) |
 | CMR-E-102 | institutional-capacity | observed / draft | administrative-area | Source dated 2026-02-05 reports: In North-West and South-West, UNICEF records 269 access constraints in 2025; insecurity, lockdowns and administrative impediments restricted humanitarian operations, while a five-week lockdown disrupted livelihoods and market access. | The report does not quantify effects on climate-adaptation delivery. | CMR-SRC-101 (PDF p. 2, security and access update) |
-| CMR-E-103 | response-performance | observed / draft | national | UNICEF's2025report records community/youth delivery, about80,000feedback records and anticipatory cash transfers reaching2,800households; feedback records are not unique beneficiaries. | Reported outputs do not establish durable resilience, equitable coverage or impact. | CMR-SRC-101 (PDF pp. 1-2, response highlights and funding overview) |
-| CMR-E-105 | sensitivity | observed / draft | administrative-area | The Secretary-General's29May2026report describes January2026Logone-et-Chari violence following livestock crop damage, with nine deaths; no climatic cause is stated. | Local resource-related violence is contextual FCV evidence, not a climate-attributed incident. | CMR-SRC-102 (PDF p. 7, para. 31) |
+| CMR-E-103 | response-performance | observed / draft | national | UNICEF's 2025 report records community/youth delivery, about80,000feedback records and anticipatory cash transfers reaching2,800households; feedback records are not unique beneficiaries. | Reported outputs do not establish durable resilience, equitable coverage or impact. | CMR-SRC-101 (PDF pp. 1-2, response highlights and funding overview) |
+| CMR-E-105 | sensitivity | observed / draft | administrative-area | The Secretary-General's 29 May 2026 report describes January 2026 Logone-et-Chari violence following livestock crop damage, with nine deaths; no climatic cause is stated. | Local resource-related violence is contextual FCV evidence, not a climate-attributed incident. | CMR-SRC-102 (PDF p. 7, para. 31) |
 
 ## Bibliography and review decision
 

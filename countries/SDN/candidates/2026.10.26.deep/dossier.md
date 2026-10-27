@@ -37,8 +37,8 @@ Critical remaining gaps:
 - NUPI's 2022 climate-security pathway is a secondary synthesis with explicit multi-driver caveats and predates the 2023 war; it is not an explanation of current conflict. []
 - FAO's latest state-level rainfall/drought evidence does not provide district or household disaggregation, and it notes data gaps for the national lean-season projection. []
 - SAMRA's access in conflict-affected states relied on remote consultations; its consultation percentages are not representative household estimates. []
-- The May2022 synthesis predates the current war and is not used to explain its onset. []
-- The expired June-September2026 worst-case famine-risk scenario was excluded from operational evidence. []
+- The May 2022 synthesis predates the current war and is not used to explain its onset. []
+- The expired June-September 2026 worst-case famine-risk scenario was excluded from operational evidence. []
 - The livestock-route passage is printed p.71/one-basedPDFp.90, not the intake's printed p.72. []
 - Draft extension: human source review and approval remain pending. Lending eligibility is not an FCV classification. []
 
@@ -53,7 +53,7 @@ Critical remaining gaps:
 - By April 2026, UNHCR reported about 9 million people displaced within Sudan and 4.4 million across borders. [SDN-E-019]
 - FAO/WFP projected 14 areas at risk of Famine through September 2026 and reported about 19.5 million people in IPC Phase 3+ through May 2026. [SDN-E-021]
 - The fact sheet reports that 2020 floods and landslides affected about 830,000 people and destroyed homes and crops; farmland was inundated in North Darfur, Khartoum, Blue Nile, West Darfur, and Sennar. [SDN-E-101]
-- FAO's24September2026 brief reports seasonal rainfall roughly20%below average in Sennar and30%in Gedaref, with agricultural-stress monitoring indicating severe drought on up to55%and70%of cropland, respectively. [SDN-E-104]
+- FAO's 24 September 2026 brief reports seasonal rainfall roughly 20% below average in Sennar and 30% in Gedaref, with agricultural-stress monitoring indicating severe drought on up to 55% and 70% of cropland, respectively. [SDN-E-104]
 
 ## Differentiated vulnerability
 
@@ -61,7 +61,7 @@ Critical remaining gaps:
 - In North Darfur, conflict effects on crop yield exceeded rainfall effects in study results. [SDN-E-017]
 - War-era service collapse raises climate sensitivity. [SDN-E-020]
 - El Fasher famine pathway was conflict/access-driven. [SDN-E-022]
-- The2026 UNDP-ITC report describes conflict and displacement restricting pastoral routes and water points, pushing livestock onto cropland and aggravating farmer-pastoralist tensions in Darfur/Kordofan. [SDN-E-108]
+- The 2026 UNDP-ITC report describes conflict and displacement restricting pastoral routes and water points, pushing livestock onto cropland and aggravating farmer-pastoralist tensions in Darfur/Kordofan. [SDN-E-108]
 
 ## Coping and adaptive capacity
 
@@ -70,9 +70,9 @@ Critical remaining gaps:
 - Households combine erosive coping and agronomic adaptation. [SDN-E-018]
 - Adaptation delivery had institutional and inclusion weaknesses. [SDN-E-027]
 - Conflict can erode ecological/resource-management resilience. [SDN-E-030]
-- UNDP's2020-2027 project page proposes water yards, sand dams and hafirs and describes reduced resource competition as an intended benefit, not an independently evaluated peace effect. [SDN-E-103]
+- UNDP's 2020-2027 project page proposes water yards, sand dams and hafirs and describes reduced resource competition as an intended benefit, not an independently evaluated peace effect. [SDN-E-103]
 - Conflict restricted field access especially in Greater Darfur, Greater Kordofan, and Blue Nile; input shortages, high prices, and reduced credit also hindered farming. [SDN-E-105]
-- The2026 UNDP-ITC consultation report describes large productivity losses and unsafe harvesting in conflict-affected Darfur/Kordofan, with climate variability adding yield pressure. [SDN-E-107]
+- The 2026 UNDP-ITC consultation report describes large productivity losses and unsafe harvesting in conflict-affected Darfur/Kordofan, with climate variability adding yield pressure. [SDN-E-107]
 
 ## Institutions and delivery systems
 
@@ -145,7 +145,7 @@ Critical remaining gaps:
   - Possible consequence: These constraints can reduce the ability of farmers and pastoralists to absorb weather-related livelihood shocks and can aggravate existing resource tensions.
   - Link evidence: {'pressure': ['SDN-E-107'], 'impact': ['SDN-E-107'], 'mediator': ['SDN-E-107', 'SDN-E-108'], 'consequence': ['SDN-E-107', 'SDN-E-108']}
   - Alternative explanations: ['Input prices, finance, markets, land governance and conflict itself can reduce production and intensify tensions independently of weather.']
-  - Uncertainty: Conditional reverse interaction from a consultation-based2026report; separate effects and named climate-adaptation delivery impacts are not measured.
+  - Uncertainty: Conditional reverse interaction from a consultation-based 2026 report; separate effects and named climate-adaptation delivery impacts are not measured.
 
 ## Resilience and peace-supporting capacities
 
@@ -157,17 +157,17 @@ Critical remaining gaps:
 - In Kadugli during 2025, conflict disrupted planting and supply access despite generally adequate but delayed rainfall. [SDN-E-023]
 - Cooperative water governance is a potential peace-supporting capacity. [SDN-E-028]
 - Local ownership and inclusive governance are identified peace-support capacities. [SDN-E-029]
-- NUPI's May2022 synthesis describes resource competition and intercommunal tensions in West Darfur, mediated by political interests, exclusion, land use and regional conflict; it does not offer a direct climate-conflict causal estimate. [SDN-E-102]
+- NUPI's May 2022 synthesis describes resource competition and intercommunal tensions in West Darfur, mediated by political interests, exclusion, land use and regional conflict; it does not offer a direct climate-conflict causal estimate. [SDN-E-102]
 
 ## Geographic and livelihood-system differentiation
 
 - The fact sheet reports that 2020 floods and landslides affected about 830,000 people and destroyed homes and crops; farmland was inundated in North Darfur, Khartoum, Blue Nile, West Darfur, and Sennar. [SDN-E-101]
-- NUPI's May2022 synthesis describes resource competition and intercommunal tensions in West Darfur, mediated by political interests, exclusion, land use and regional conflict; it does not offer a direct climate-conflict causal estimate. [SDN-E-102]
-- UNDP's2020-2027 project page proposes water yards, sand dams and hafirs and describes reduced resource competition as an intended benefit, not an independently evaluated peace effect. [SDN-E-103]
-- FAO's24September2026 brief reports seasonal rainfall roughly20%below average in Sennar and30%in Gedaref, with agricultural-stress monitoring indicating severe drought on up to55%and70%of cropland, respectively. [SDN-E-104]
+- NUPI's May 2022 synthesis describes resource competition and intercommunal tensions in West Darfur, mediated by political interests, exclusion, land use and regional conflict; it does not offer a direct climate-conflict causal estimate. [SDN-E-102]
+- UNDP's 2020-2027 project page proposes water yards, sand dams and hafirs and describes reduced resource competition as an intended benefit, not an independently evaluated peace effect. [SDN-E-103]
+- FAO's 24 September 2026 brief reports seasonal rainfall roughly 20% below average in Sennar and 30% in Gedaref, with agricultural-stress monitoring indicating severe drought on up to 55% and 70% of cropland, respectively. [SDN-E-104]
 - Conflict restricted field access especially in Greater Darfur, Greater Kordofan, and Blue Nile; input shortages, high prices, and reduced credit also hindered farming. [SDN-E-105]
-- The2026 UNDP-ITC consultation report describes large productivity losses and unsafe harvesting in conflict-affected Darfur/Kordofan, with climate variability adding yield pressure. [SDN-E-107]
-- The2026 UNDP-ITC report describes conflict and displacement restricting pastoral routes and water points, pushing livestock onto cropland and aggravating farmer-pastoralist tensions in Darfur/Kordofan. [SDN-E-108]
+- The 2026 UNDP-ITC consultation report describes large productivity losses and unsafe harvesting in conflict-affected Darfur/Kordofan, with climate variability adding yield pressure. [SDN-E-107]
+- The 2026 UNDP-ITC report describes conflict and displacement restricting pastoral routes and water points, pushing livestock onto cropland and aggravating farmer-pastoralist tensions in Darfur/Kordofan. [SDN-E-108]
 
 ## Implications by project type
 
@@ -210,12 +210,12 @@ Critical remaining gaps:
 | SDN-E-029 | resilience-peace-capacity | inferred / draft | state | NUPI/SIPRI recommends locally owned adaptation, natural-resource conflict management, gender-differentiated responses and participation of women/youth in environmental peacebuilding and early warning. | Recommendations, not demonstrated outcomes; some institutional context is outdated. | SDN-SRC-005 (PDF p.1, “Recommended Actions”. (NUPI8)) |
 | SDN-E-030 | adaptive-capacity | inferred / draft | not-applicable | Earlier Darfur analysis found that armed conflict itself accelerated environmental degradation and weakened traditional environmental management while political/economic marginalization remained an independent conflict driver. | Old and Darfur-specific; environmental degradation must not itself be assumed to be climate-caused. | SDN-SRC-011 (article paragraphs beginning “The conflict in Darfur…” and “The debate…”. (Humanitarian Practice Network12)) |
 | SDN-E-101 | exposure | observed / draft | state | The fact sheet reports that 2020 floods and landslides affected about 830,000 people and destroyed homes and crops; farmland was inundated in North Darfur, Khartoum, Blue Nile, West Darfur, and Sennar. | The affected-person total is national; state information identifies inundated farmland, not state-level impact counts. | SDN-SRC-101 (Heading 'Climate-related Peace and Security Risks', subsection 'Livelihood Deterioration', flood-impact paragraph.) |
-| SDN-E-102 | direct-climate-fcv | observed / draft | state | NUPI's May2022 synthesis describes resource competition and intercommunal tensions in West Darfur, mediated by political interests, exclusion, land use and regional conflict; it does not offer a direct climate-conflict causal estimate. | This is a secondary synthesis, not an incident-level causal estimate; NUPI explicitly says climate change has no direct causal relationship with conflict. | SDN-SRC-101 (Subsection 'Livelihood Deterioration', farmer-herder competition paragraph, and opening caveat under 'Climate-related Peace and Security Risks'.) |
-| SDN-E-103 | adaptive-capacity | observed / draft | state | UNDP's2020-2027 project page proposes water yards, sand dams and hafirs and describes reduced resource competition as an intended benefit, not an independently evaluated peace effect. | The page describes intended mechanisms, not evaluated effects; its project-details state coverage differs from the nine-state expected-results section. | SDN-SRC-102 (Project page, 'What we do', paragraphs on water infrastructure and community/institutional support; project details and expected results.) |
-| SDN-E-104 | exposure | observed / draft | state | FAO's24September2026 brief reports seasonal rainfall roughly20%below average in Sennar and30%in Gedaref, with agricultural-stress monitoring indicating severe drought on up to55%and70%of cropland, respectively. | State-level estimates, not household impacts. | SDN-SRC-103 (Reference date 24 September 2026, section 'Concerns for 2026 cereal production', state rainfall and Agricultural Stress Index paragraph.) |
+| SDN-E-102 | direct-climate-fcv | observed / draft | state | NUPI's May 2022 synthesis describes resource competition and intercommunal tensions in West Darfur, mediated by political interests, exclusion, land use and regional conflict; it does not offer a direct climate-conflict causal estimate. | This is a secondary synthesis, not an incident-level causal estimate; NUPI explicitly says climate change has no direct causal relationship with conflict. | SDN-SRC-101 (Subsection 'Livelihood Deterioration', farmer-herder competition paragraph, and opening caveat under 'Climate-related Peace and Security Risks'.) |
+| SDN-E-103 | adaptive-capacity | observed / draft | state | UNDP's 2020-2027 project page proposes water yards, sand dams and hafirs and describes reduced resource competition as an intended benefit, not an independently evaluated peace effect. | The page describes intended mechanisms, not evaluated effects; its project-details state coverage differs from the nine-state expected-results section. | SDN-SRC-102 (Project page, 'What we do', paragraphs on water infrastructure and community/institutional support; project details and expected results.) |
+| SDN-E-104 | exposure | observed / draft | state | FAO's 24 September 2026 brief reports seasonal rainfall roughly 20% below average in Sennar and 30% in Gedaref, with agricultural-stress monitoring indicating severe drought on up to 55% and 70% of cropland, respectively. | State-level estimates, not household impacts. | SDN-SRC-103 (Reference date 24 September 2026, section 'Concerns for 2026 cereal production', state rainfall and Agricultural Stress Index paragraph.) |
 | SDN-E-105 | adaptive-capacity | observed / draft | state | Conflict restricted field access especially in Greater Darfur, Greater Kordofan, and Blue Nile; input shortages, high prices, and reduced credit also hindered farming. | Separate contributions were not quantified. | SDN-SRC-103 (Reference date 24 September 2026, section 'Concerns for 2026 cereal production', paragraph on insecurity and field access.) |
-| SDN-E-107 | coping-capacity | observed / draft | state | The2026 UNDP-ITC consultation report describes large productivity losses and unsafe harvesting in conflict-affected Darfur/Kordofan, with climate variability adding yield pressure. | Nonrepresentative stakeholder consultations, some remote; neither percentages nor separate climate/conflict contributions are representative causal estimates. | SDN-SRC-104 (Printed p.xiv (one-based PDF p.16), Analysis Highlights.) |
-| SDN-E-108 | sensitivity | observed / draft | state | The2026 UNDP-ITC report describes conflict and displacement restricting pastoral routes and water points, pushing livestock onto cropland and aggravating farmer-pastoralist tensions in Darfur/Kordofan. | Source synthesis/consultations, not quantified incident rates or proof climate caused initial violence. | SDN-SRC-104 (Printed p.71 (one-based PDF p.90), livestock constraints.) |
+| SDN-E-107 | coping-capacity | observed / draft | state | The 2026 UNDP-ITC consultation report describes large productivity losses and unsafe harvesting in conflict-affected Darfur/Kordofan, with climate variability adding yield pressure. | Nonrepresentative stakeholder consultations, some remote; neither percentages nor separate climate/conflict contributions are representative causal estimates. | SDN-SRC-104 (Printed p.xiv (one-based PDF p.16), Analysis Highlights.) |
+| SDN-E-108 | sensitivity | observed / draft | state | The 2026 UNDP-ITC report describes conflict and displacement restricting pastoral routes and water points, pushing livestock onto cropland and aggravating farmer-pastoralist tensions in Darfur/Kordofan. | Source synthesis/consultations, not quantified incident rates or proof climate caused initial violence. | SDN-SRC-104 (Printed p.71 (one-based PDF p.90), livestock constraints.) |
 
 ## Bibliography and review decision
 

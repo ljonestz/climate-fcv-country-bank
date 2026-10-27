@@ -36,7 +36,7 @@ Critical remaining gaps:
 - Conflict-related threats to essential infrastructure and planned UXO clearance were documented, but no inspected source evaluates violence preventing a named climate-adaptation project from being delivered. []
 - FAO's West Maskanah page reports rehabilitation and intended coverage but no follow-up data on water delivered, beneficiary uptake, crop yields or household resilience; the national FAO ERPA is an announced plan rather than an evaluated outcome. []
 - FEWS NET's December 2025 report is a multi-source context synthesis with heterogeneous input data; dated 2025/26 forecasts were excluded rather than treated as current outcomes. []
-- Coordinator original-PDF requests did not expose the UNICEF end-2025 body and normal TLS returned403; both indexed-only findings were excluded. []
+- Coordinator original-PDF requests did not expose the UNICEF end-2025 body and normal TLS returned 403; both indexed-only findings were excluded. []
 - Named governorates in the appeal and West Maskanah irrigation outputs add local detail but do not establish that drought caused violence or that a named adaptation project failed because of conflict. []
 - Draft extension: human source review and approval remain pending. Lending eligibility is not an FCV classification. []
 

@@ -42,8 +42,8 @@ Critical remaining gaps:
 - No evidence in these new sources estimates nationally the amount of climate adaptation or resilience programming prevented by insecurity; the HNRP documents humanitarian access restrictions and BRCiS documents specific activity/market participation barriers. []
 - Subnational evidence is concentrated in south-central programme areas and 2025 drought-affected regions; current climate-security outcomes for coastal communities, fisheries, minority groups and people in inaccessible territories remain thin. []
 - The local Afgoye case is not assigned the report's broader30%market-access statistic. []
-- Cooperative meeting barriers apply to526members, not all3,889surveyed households. []
-- The expired2025year-end displacement projection was excluded from operational evidence. []
+- Cooperative meeting barriers apply to 526 members, not all 3,889 surveyed households. []
+- The expired 2025 year-end displacement projection was excluded from operational evidence. []
 - Draft extension: human source review and approval remain pending. Lending eligibility is not an FCV classification. []
 
 ## Climate pressures and exposure
@@ -55,7 +55,7 @@ Critical remaining gaps:
 - In Q1 2026, low river flows and groundwater dependence raised drought-related water and irrigation concerns while mapped river breakages showed concurrent flood exposure. [SOM-E-005]
 - IPC's April-June 2026 Burhakaba famine-risk scenario was conditional, not an observed Famine classification. [SOM-E-011]
 - In Q2 2026, UNHCR monitoring attributed nearly 90% of recorded displacement to conflict and drought together. [SOM-E-012]
-- The January2026 HNRP describes2025northern drought, depleted Puntland berkads and Hirshabelle borehole-repair needs; these are historical operational figures, not uniform or current state conditions. [SOM-E-101]
+- The January 2026 HNRP describes 2025 northern drought, depleted Puntland berkads and Hirshabelle borehole-repair needs; these are historical operational figures, not uniform or current state conditions. [SOM-E-101]
 
 ## Differentiated vulnerability
 
@@ -64,7 +64,7 @@ Critical remaining gaps:
 - Between September 2025 and January 2026, selected cereal markets recorded sharp price rises alongside drought-linked production losses. [SOM-E-008]
 - For April-June 2026, IPC estimated 6.0 million people in Phase 3+ and attributed deterioration to interacting climatic, economic, conflict and assistance factors. [SOM-E-009]
 - Child malnutrition reflects multiple interacting pressures. [SOM-E-010]
-- In BRCiS programme households, reported drought exposure rose from15%at2024baseline to67%at2026endline; this is not national prevalence. [SOM-E-105]
+- In BRCiS programme households, reported drought exposure rose from 15% at 2024 baseline to 67% at 2026 endline; this is not national prevalence. [SOM-E-105]
 
 ## Coping and adaptive capacity
 
@@ -72,9 +72,9 @@ Critical remaining gaps:
 - National policy explicitly frames adaptation as conflict-sensitive. [SOM-E-017]
 - Early-warning infrastructure supports anticipatory coping. [SOM-E-021]
 - A national crisis-governance mechanism was activated in 2026. [SOM-E-022]
-- The January2026 HNRP describes2025checkpoints, hostilities, IEDs and damaged roads restricting humanitarian routes in Shabelle, Hiraan, Bay, Bakool and Lower Juba. [SOM-E-103]
-- At BRCiS2026endline,52.1%of526surveyed cooperative members reported conflict/insecurity preventing meeting attendance; this is not a share of all households. [SOM-E-107]
-- The June2026 BRCiS evaluation contrasts water-supported gardens in El Barde Town/Emilow with low adoption in water-scarce Higlowayn, Lawareeg and Ayeeyo. [SOM-E-108]
+- The January 2026 HNRP describes 2025 checkpoints, hostilities, IEDs and damaged roads restricting humanitarian routes in Shabelle, Hiraan, Bay, Bakool and Lower Juba. [SOM-E-103]
+- At BRCiS 2026 endline,52.1%of526surveyed cooperative members reported conflict/insecurity preventing meeting attendance; this is not a share of all households. [SOM-E-107]
+- The June 2026 BRCiS evaluation contrasts water-supported gardens in El Barde Town/Emilow with low adoption in water-scarce Higlowayn, Lawareeg and Ayeeyo. [SOM-E-108]
 
 ## Institutions and delivery systems
 
@@ -82,7 +82,7 @@ Critical remaining gaps:
 - Rural resilience projects produced substantial outputs but missed some targets. [SOM-E-018]
 - Fragility and fiscal limits threaten service sustainability. [SOM-E-019]
 - Emergency response performed strongly in some areas but resilience work faced constraints. [SOM-E-020]
-- BRCiS's programme-panel resilience index rose from3.24to3.71between2024and2026, with larger market/ecosystem than leadership gains; no counterfactual impact is estimated. [SOM-E-109]
+- BRCiS's programme-panel resilience index rose from 3.24 to 3.71 between 2024 and 2026, with larger market/ecosystem than leadership gains; no counterfactual impact is estimated. [SOM-E-109]
 
 ## Climate-FCV pathways
 
@@ -141,18 +141,18 @@ Critical remaining gaps:
 - Climate stress can amplify local conflict drivers rather than directly cause conflict. [SOM-E-013]
 - Climate-security effects are mediated and embedded in pre-existing fragility. [SOM-E-014]
 - Climate resilience and peace-supporting capacity exist, but evidence is mainly output-level. [SOM-E-023]
-- The June2026 BRCiS evaluation reports Jambaluul and Buula Madino residents in Afgoye describing conflict blocking farms and market roads, compounding drought losses. [SOM-E-106]
-- SIPRI's2024report relays IOM's unpublished Galmudug evaluation claim that resource committees reduced conflicts through faster dispute response and broader participation. [SOM-E-110]
+- The June 2026 BRCiS evaluation reports Jambaluul and Buula Madino residents in Afgoye describing conflict blocking farms and market roads, compounding drought losses. [SOM-E-106]
+- SIPRI's 2024 report relays IOM's unpublished Galmudug evaluation claim that resource committees reduced conflicts through faster dispute response and broader participation. [SOM-E-110]
 - Source dated 2024-05 reports: In Duqaqo, women trained in environmental peacebuilding proposed a drip-irrigated communal farm; after leaders resisted, a peaceful demonstration led to land being designated. [SOM-E-111]
 - Source dated 2024-05 reports: SIPRI warns that water projects could overuse groundwater or trigger competition over borehole and reservoir control, especially during drought or dry seasons. [SOM-E-112]
 
 ## Geographic and livelihood-system differentiation
 
-- The January2026 HNRP describes2025northern drought, depleted Puntland berkads and Hirshabelle borehole-repair needs; these are historical operational figures, not uniform or current state conditions. [SOM-E-101]
-- The January2026 HNRP describes2025checkpoints, hostilities, IEDs and damaged roads restricting humanitarian routes in Shabelle, Hiraan, Bay, Bakool and Lower Juba. [SOM-E-103]
-- The June2026 BRCiS evaluation reports Jambaluul and Buula Madino residents in Afgoye describing conflict blocking farms and market roads, compounding drought losses. [SOM-E-106]
-- The June2026 BRCiS evaluation contrasts water-supported gardens in El Barde Town/Emilow with low adoption in water-scarce Higlowayn, Lawareeg and Ayeeyo. [SOM-E-108]
-- SIPRI's2024report relays IOM's unpublished Galmudug evaluation claim that resource committees reduced conflicts through faster dispute response and broader participation. [SOM-E-110]
+- The January 2026 HNRP describes 2025 northern drought, depleted Puntland berkads and Hirshabelle borehole-repair needs; these are historical operational figures, not uniform or current state conditions. [SOM-E-101]
+- The January 2026 HNRP describes 2025 checkpoints, hostilities, IEDs and damaged roads restricting humanitarian routes in Shabelle, Hiraan, Bay, Bakool and Lower Juba. [SOM-E-103]
+- The June 2026 BRCiS evaluation reports Jambaluul and Buula Madino residents in Afgoye describing conflict blocking farms and market roads, compounding drought losses. [SOM-E-106]
+- The June 2026 BRCiS evaluation contrasts water-supported gardens in El Barde Town/Emilow with low adoption in water-scarce Higlowayn, Lawareeg and Ayeeyo. [SOM-E-108]
+- SIPRI's 2024 report relays IOM's unpublished Galmudug evaluation claim that resource committees reduced conflicts through faster dispute response and broader participation. [SOM-E-110]
 - Source dated 2024-05 reports: In Duqaqo, women trained in environmental peacebuilding proposed a drip-irrigated communal farm; after leaders resisted, a peaceful demonstration led to land being designated. [SOM-E-111]
 - Source dated 2024-05 reports: SIPRI warns that water projects could overuse groundwater or trigger competition over borehole and reservoir control, especially during drought or dry seasons. [SOM-E-112]
 
@@ -190,14 +190,14 @@ Critical remaining gaps:
 | SOM-E-021 | coping-capacity | observed / draft | national | SWALIM’s Q1 2026 drought indices, climate updates and river monitoring were disseminated to SoDMA and humanitarian coordination bodies and used for response prioritisation; earlier drought forecasts had triggered anticipatory-action initiatives. | Source documents use of information and prior triggers, not counterfactual losses avoided. | SOM-SRC-006 (PDF file p.1/8, monitoring/dissemination and anticipatory-action paragraphs.) |
 | SOM-E-022 | coping-capacity | observed / draft | national | The Federal Government activated the National Preparedness Plan for Food and Nutrition Security Crises on 5 Feb 2026 for the first time, following risk monitoring, technical consultations and prime-ministerial approval. | Activation and intended response are verified; effectiveness after activation is not. | SOM-SRC-013 (webpage opening paragraphs and paras. 101-105. (World Bank)) |
 | SOM-E-023 | resilience-peace-capacity | observed / draft | not-applicable | UNDP reports that its 2025 programmes provided clean water to 23,000 people and reports peacebuilding/service outputs, including community dispute mechanisms; these are programme-reported rather than independently evaluated outcomes. | Self-reported annual results; causal effect and durability not established. | SOM-SRC-014 (publication-page summary paras. 1-5. (UNDP)) |
-| SOM-E-101 | climate-pressure | observed / draft | state | The January2026 HNRP describes2025northern drought, depleted Puntland berkads and Hirshabelle borehole-repair needs; these are historical operational figures, not uniform or current state conditions. | Operational figures do not establish climate attribution or uniform state conditions. | SOM-SRC-101 (PDF p. 8, section 1.1, crisis overview.) |
-| SOM-E-103 | coping-capacity | observed / draft | administrative-area | The January2026 HNRP describes2025checkpoints, hostilities, IEDs and damaged roads restricting humanitarian routes in Shabelle, Hiraan, Bay, Bakool and Lower Juba. | Humanitarian access constraints, not quantified climate-adaptation coverage or a current2026route assessment. | SOM-SRC-101 (PDF p. 43, section 4.4.2, access.) |
-| SOM-E-105 | sensitivity | observed / draft | administrative-area | In BRCiS programme households, reported drought exposure rose from15%at2024baseline to67%at2026endline; this is not national prevalence. | Programme sample, not national prevalence. | SOM-SRC-102 (PDF p. 7, executive summary, context and shocks.) |
-| SOM-E-106 | direct-climate-fcv | observed / draft | site | The June2026 BRCiS evaluation reports Jambaluul and Buula Madino residents in Afgoye describing conflict blocking farms and market roads, compounding drought losses. | Qualitative named-community findings. The adjacent30%market-travel statistic is programme-subgroup-wide, not assigned to these two communities. | SOM-SRC-102 (PDF p. 82, section 3.6, conflict's toll on markets and wellbeing.) |
-| SOM-E-107 | coping-capacity | observed / draft | administrative-area | At BRCiS2026endline,52.1%of526surveyed cooperative members reported conflict/insecurity preventing meeting attendance; this is not a share of all households. | Survey-weighted member subgroup;95%confidence interval39.0-65.1%. No independent causal estimate or national prevalence. | SOM-SRC-102 (PDF p. 89, section 3.7.4, Table 38.) |
-| SOM-E-108 | adaptive-capacity | observed / draft | site | The June2026 BRCiS evaluation contrasts water-supported gardens in El Barde Town/Emilow with low adoption in water-scarce Higlowayn, Lawareeg and Ayeeyo. | Qualitative local contrast, not a randomized water or training effect. | SOM-SRC-102 (PDF p. 79, section 3.7.3, agroecological training and water access.) |
-| SOM-E-109 | response-performance | observed / draft | administrative-area | BRCiS's programme-panel resilience index rose from3.24to3.71between2024and2026, with larger market/ecosystem than leadership gains; no counterfactual impact is estimated. | Not an impact estimate. | SOM-SRC-102 (PDF pp. 43-44, section 3.5.1, Table 16.) |
-| SOM-E-110 | resilience-peace-capacity | observed / draft | state | SIPRI's2024report relays IOM's unpublished Galmudug evaluation claim that resource committees reduced conflicts through faster dispute response and broader participation. | Secondary reporting of unpublished partner evaluation; underlying document and causal methods were not independently inspected. | SOM-SRC-103 (PDF p. 22, section 4, locally legitimate natural resource management.) |
+| SOM-E-101 | climate-pressure | observed / draft | state | The January 2026 HNRP describes 2025 northern drought, depleted Puntland berkads and Hirshabelle borehole-repair needs; these are historical operational figures, not uniform or current state conditions. | Operational figures do not establish climate attribution or uniform state conditions. | SOM-SRC-101 (PDF p. 8, section 1.1, crisis overview.) |
+| SOM-E-103 | coping-capacity | observed / draft | administrative-area | The January 2026 HNRP describes 2025 checkpoints, hostilities, IEDs and damaged roads restricting humanitarian routes in Shabelle, Hiraan, Bay, Bakool and Lower Juba. | Humanitarian access constraints, not quantified climate-adaptation coverage or a current 2026 route assessment. | SOM-SRC-101 (PDF p. 43, section 4.4.2, access.) |
+| SOM-E-105 | sensitivity | observed / draft | administrative-area | In BRCiS programme households, reported drought exposure rose from 15% at 2024 baseline to 67% at 2026 endline; this is not national prevalence. | Programme sample, not national prevalence. | SOM-SRC-102 (PDF p. 7, executive summary, context and shocks.) |
+| SOM-E-106 | direct-climate-fcv | observed / draft | site | The June 2026 BRCiS evaluation reports Jambaluul and Buula Madino residents in Afgoye describing conflict blocking farms and market roads, compounding drought losses. | Qualitative named-community findings. The adjacent30%market-travel statistic is programme-subgroup-wide, not assigned to these two communities. | SOM-SRC-102 (PDF p. 82, section 3.6, conflict's toll on markets and wellbeing.) |
+| SOM-E-107 | coping-capacity | observed / draft | administrative-area | At BRCiS 2026 endline,52.1%of526surveyed cooperative members reported conflict/insecurity preventing meeting attendance; this is not a share of all households. | Survey-weighted member subgroup;95%confidence interval39.0-65.1%. No independent causal estimate or national prevalence. | SOM-SRC-102 (PDF p. 89, section 3.7.4, Table 38.) |
+| SOM-E-108 | adaptive-capacity | observed / draft | site | The June 2026 BRCiS evaluation contrasts water-supported gardens in El Barde Town/Emilow with low adoption in water-scarce Higlowayn, Lawareeg and Ayeeyo. | Qualitative local contrast, not a randomized water or training effect. | SOM-SRC-102 (PDF p. 79, section 3.7.3, agroecological training and water access.) |
+| SOM-E-109 | response-performance | observed / draft | administrative-area | BRCiS's programme-panel resilience index rose from 3.24 to 3.71 between 2024 and 2026, with larger market/ecosystem than leadership gains; no counterfactual impact is estimated. | Not an impact estimate. | SOM-SRC-102 (PDF pp. 43-44, section 3.5.1, Table 16.) |
+| SOM-E-110 | resilience-peace-capacity | observed / draft | state | SIPRI's 2024 report relays IOM's unpublished Galmudug evaluation claim that resource committees reduced conflicts through faster dispute response and broader participation. | Secondary reporting of unpublished partner evaluation; underlying document and causal methods were not independently inspected. | SOM-SRC-103 (PDF p. 22, section 4, locally legitimate natural resource management.) |
 | SOM-E-111 | resilience-peace-capacity | observed / draft | site | Source dated 2024-05 reports: In Duqaqo, women trained in environmental peacebuilding proposed a drip-irrigated communal farm; after leaders resisted, a peaceful demonstration led to land being designated. | Single qualitative case; long-term effects unmeasured. | SOM-SRC-103 (One-based PDF p.23 (printed p.14), Duqaqo participation case.) |
 | SOM-E-112 | direct-climate-fcv | projected / draft | state | Source dated 2024-05 reports: SIPRI warns that water projects could overuse groundwater or trigger competition over borehole and reservoir control, especially during drought or dry seasons. | Conditional risk warning, not observed conflict incidence. | SOM-SRC-103 (One-based PDF p.32 (printed p.23), maladaptation and water-source control risks.) |
 

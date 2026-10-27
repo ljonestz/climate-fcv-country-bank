@@ -3,7 +3,7 @@
 ## Executive assessment
 
 - New evidence differentiates donor-basin water injustice and supply stress in Khuzestan and Chaharmahal and Bakhtiari from drought-related political responses in Isfahan and Hamedan. Water policy and climate effects are not disentangled. [IRN-E-105, IRN-E-106, IRN-E-108]
-- Khuzestan aquifer observations add named local water-system vulnerabilities around Dezful and Andimeshk, but the measurements end in2018. They must not be presented as a current household-access assessment. [IRN-E-110, IRN-E-111]
+- Khuzestan aquifer observations add named local water-system vulnerabilities around Dezful and Andimeshk, but the measurements end in 2018. They must not be presented as a current household-access assessment. [IRN-E-110, IRN-E-111]
 
 ## Evidence coverage and critical gaps
 
@@ -38,7 +38,7 @@ Critical remaining gaps:
 - Conflict-related restrictions on climate adaptation were not substantiated by an additional accessible primary source in this search batch. []
 - The GCF adaptation document and a Lake Urmia article search were blocked, so no claims from them are included. []
 - Two Crisis Group claims were withheld because no primary publisher passage could be opened; the search/staging access history remains in the intake audit. []
-- New hydrogeological observations cover2008–2018 and policy studies2024–2025; they do not establish2026conditions. []
+- New hydrogeological observations cover 2008–2018 and policy studies 2024–2025; they do not establish 2026 conditions. []
 - No additional complete climate-attributed pathway was inferred from water-allocation disputes: abstraction, governance and climate pressures are not interchangeable. []
 - Draft extension: human source review and approval remain pending. Lending eligibility is not an FCV classification. []
 
@@ -55,8 +55,8 @@ Critical remaining gaps:
 
 - Human withdrawal dominated Iran's 2002-2015 groundwater depletion. [IRN-E-006]
 - Current FCV/economic shocks heighten household sensitivity. [IRN-E-022]
-- The2024 article reports tanker dependence in over200villages of Chaharmahal and Bakhtiari and salinity-related water and date-palm losses in Khuzestan, drawing on cited historical sources. [IRN-E-106]
-- For2008–2018, the Khuzestan study identifies groundwater decline in eastern/northeastern aquifers and drawdown up to33metres around Dezful and Andimeshk. [IRN-E-110]
+- The 2024 article reports tanker dependence in over200villages of Chaharmahal and Bakhtiari and salinity-related water and date-palm losses in Khuzestan, drawing on cited historical sources. [IRN-E-106]
+- For 2008–2018, the Khuzestan study identifies groundwater decline in eastern/northeastern aquifers and drawdown up to 33 metres around Dezful and Andimeshk. [IRN-E-110]
 - The study finds groundwater quality generally declines southward; 27% of sampled groundwater was unsuitable for agriculture, with better-quality aquifers concentrated north and east. [IRN-E-111]
 
 ## Coping and adaptive capacity
@@ -146,11 +146,11 @@ Critical remaining gaps:
 ## Geographic and livelihood-system differentiation
 
 - The author argues that transfers from western and southern donor basins toward central Iran have damaged donor-area water systems and heightened center-periphery tensions. [IRN-E-105]
-- The2024 article reports tanker dependence in over200villages of Chaharmahal and Bakhtiari and salinity-related water and date-palm losses in Khuzestan, drawing on cited historical sources. [IRN-E-106]
+- The 2024 article reports tanker dependence in over200villages of Chaharmahal and Bakhtiari and salinity-related water and date-palm losses in Khuzestan, drawing on cited historical sources. [IRN-E-106]
 - The author reports that disagreements over inter-basin transfers and their perceived inequities have accompanied local protest and sociopolitical tension. [IRN-E-107]
 - The study contrasts farmer mobilization around drought and water allocation in Isfahan with an absence of comparable protest in Hamedan. [IRN-E-108]
 - The author argues that drought-related water problems can reduce political trust and that weak water-governance responses shape local contention. [IRN-E-109]
-- For2008–2018, the Khuzestan study identifies groundwater decline in eastern/northeastern aquifers and drawdown up to33metres around Dezful and Andimeshk. [IRN-E-110]
+- For 2008–2018, the Khuzestan study identifies groundwater decline in eastern/northeastern aquifers and drawdown up to 33 metres around Dezful and Andimeshk. [IRN-E-110]
 
 ## Implications by project type
 
@@ -183,12 +183,12 @@ Critical remaining gaps:
 | IRN-E-020 | response-performance | observed / draft | not-applicable | A UNDP terminal evaluation consultancy for the 2021-2024 Lake Urmia and other wetlands component was publicly procured in 2023. | The final report and findings were not located/verified; procurement is not evidence of effectiveness. | IRN-SRC-011 (“Description of the Assignment” (UNGM)) |
 | IRN-E-021 | institutional-capacity | observed / draft | national | The World Bank reports that conflict, sanctions and social unrest have disrupted Iranian economic activity and that damaged infrastructure and water/energy shortages constrain non-oil growth. | Does not decompose how much disruption is attributable to each factor. | IRN-SRC-005 (“Economy” (World Bank)) |
 | IRN-E-022 | sensitivity | projected / draft | national | The World Bank expects high food inflation, import shortages and conflict-related shocks to increase poverty. | Forward-looking World Bank assessment, not observed poverty outcome. | IRN-SRC-005 (“Economy,” poverty paragraph (World Bank)) |
-| IRN-E-105 | direct-climate-fcv | observed / draft | state | The author argues that transfers from western and southern donor basins toward central Iran have damaged donor-area water systems and heightened center-periphery tensions. | Author-attributed qualitative policy interpretation, not an isolated climate effect. Allocation, abstraction and governance can cause water stress independently of climate; conditions are dated to the2024article. | IRN-SRC-102 (Abstract; sections on inter-basin transfers and peripheral regions) |
-| IRN-E-106 | sensitivity | observed / draft | state | The2024 article reports tanker dependence in over200villages of Chaharmahal and Bakhtiari and salinity-related water and date-palm losses in Khuzestan, drawing on cited historical sources. | Figures and examples are reported through the article's document review and cited sources. | IRN-SRC-102 (Article subsection 'The dams of Chahar Mahal and Bakhtiari and Khuzestan', paragraphs on tanker supply and Gotvand/Karun salinity.) |
-| IRN-E-107 | direct-climate-fcv | observed / draft | state | The author reports that disagreements over inter-basin transfers and their perceived inequities have accompanied local protest and sociopolitical tension. | Author-attributed qualitative policy interpretation, not an isolated climate effect. Allocation, abstraction and governance can cause water stress independently of climate; conditions are dated to the2024article. | IRN-SRC-102 (Discussion of water transfers and protest) |
+| IRN-E-105 | direct-climate-fcv | observed / draft | state | The author argues that transfers from western and southern donor basins toward central Iran have damaged donor-area water systems and heightened center-periphery tensions. | Author-attributed qualitative policy interpretation, not an isolated climate effect. Allocation, abstraction and governance can cause water stress independently of climate; conditions are dated to the 2024 article. | IRN-SRC-102 (Abstract; sections on inter-basin transfers and peripheral regions) |
+| IRN-E-106 | sensitivity | observed / draft | state | The 2024 article reports tanker dependence in over200villages of Chaharmahal and Bakhtiari and salinity-related water and date-palm losses in Khuzestan, drawing on cited historical sources. | Figures and examples are reported through the article's document review and cited sources. | IRN-SRC-102 (Article subsection 'The dams of Chahar Mahal and Bakhtiari and Khuzestan', paragraphs on tanker supply and Gotvand/Karun salinity.) |
+| IRN-E-107 | direct-climate-fcv | observed / draft | state | The author reports that disagreements over inter-basin transfers and their perceived inequities have accompanied local protest and sociopolitical tension. | Author-attributed qualitative policy interpretation, not an isolated climate effect. Allocation, abstraction and governance can cause water stress independently of climate; conditions are dated to the 2024 article. | IRN-SRC-102 (Discussion of water transfers and protest) |
 | IRN-E-108 | direct-climate-fcv | observed / draft | state | The study contrasts farmer mobilization around drought and water allocation in Isfahan with an absence of comparable protest in Hamedan. | Comparative qualitative case analysis; does not show that drought alone explains the differing protest patterns. | IRN-SRC-103 (Section3.3 Comparative overview: drought impacts & political responses in Isfahan and Hamadan; preceding comparison paragraph.) |
 | IRN-E-109 | institutional-capacity | observed / draft | state | The author argues that drought-related water problems can reduce political trust and that weak water-governance responses shape local contention. | The paper identifies a qualitative relationship and notes the need for further regional evidence. | IRN-SRC-103 (Discussion and conclusion) |
-| IRN-E-110 | sensitivity | observed / draft | state | For2008–2018, the Khuzestan study identifies groundwater decline in eastern/northeastern aquifers and drawdown up to33metres around Dezful and Andimeshk. | Measurements are historical and do not establish current aquifer conditions. | IRN-SRC-104 (Abstract; results, groundwater-level changes) |
+| IRN-E-110 | sensitivity | observed / draft | state | For 2008–2018, the Khuzestan study identifies groundwater decline in eastern/northeastern aquifers and drawdown up to 33 metres around Dezful and Andimeshk. | Measurements are historical and do not establish current aquifer conditions. | IRN-SRC-104 (Abstract; results, groundwater-level changes) |
 | IRN-E-111 | sensitivity | observed / draft | state | The study finds groundwater quality generally declines southward; 27% of sampled groundwater was unsuitable for agriculture, with better-quality aquifers concentrated north and east. | Study sample and data cover 2008-2018; percentages refer to sampled groundwater, not residents. | IRN-SRC-104 (Abstract; results, groundwater quality and regional distribution) |
 
 ## Bibliography and review decision
@@ -206,7 +206,7 @@ Critical remaining gaps:
 - FAO. Projects - FAO in Iran. 2026 (date basis: publication). https://www.fao.org/iran/projects/en [IRN-SRC-013] Methodology: Administrative portfolio records Limitations: Budgets and timeframes demonstrate committed/programmed capacity, not effectiveness. (FAOHome)
 - Progress in Physical Geography / SAGE. Iran's water policy: Environmental injustice and peripheral marginalisation. 2024-04-26 (date basis: publication). https://journals.sagepub.com/doi/full/10.1177/03091333241252523 [IRN-SRC-102] Methodology: Qualitative content analysis of policy and government documents, campaigns and Persian-, Kurdish- and English-language secondary material. Limitations: Interpretive analysis; documents and reported examples do not quantify causal effects of individual transfers.
 - Discover Environment / Springer Nature. The politics of drought in the Middle East, case study from Iran. 2025-08-29 (date basis: publication). https://link.springer.com/article/10.1007/s44274-025-00334-3 [IRN-SRC-103] Methodology: Comparative qualitative case analysis of drought politics in Isfahan and Hamedan. Limitations: The author notes limited prior research and calls for further regional and media-perception analysis.
-- Journal of Groundwater Science and Engineering. Groundwater resources exploitation management in response to water scarcity challenges in Khuzestan Province, Iran. 2025-11-19 (date basis: publication). https://journal.hep.com.cn/jgse/EN/10.26599/JGSE.2025.9280054 [IRN-SRC-104] Methodology: Groundwater-level and hydrochemical analysis of204exploration wells and70piezometric wells across19aquifers; observed data2008–2018. Limitations: Well observations cover 2008-2018; findings do not measure current household access or climate attribution.
+- Journal of Groundwater Science and Engineering. Groundwater resources exploitation management in response to water scarcity challenges in Khuzestan Province, Iran. 2025-11-19 (date basis: publication). https://journal.hep.com.cn/jgse/EN/10.26599/JGSE.2025.9280054 [IRN-SRC-104] Methodology: Groundwater-level and hydrochemical analysis of 204 exploration wells and 70 piezometric wells across 19 aquifers; observed data 2008–2018. Limitations: Well observations cover 2008-2018; findings do not measure current household access or climate attribution.
 
 Review status: draft
 Reviewer: None
