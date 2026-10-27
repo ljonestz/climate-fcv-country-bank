@@ -48,11 +48,15 @@ def test_intake_has_valid_sources_claims_and_audits(file):
         assert claim['access_method'] in {'full-text', 'official-excerpt'}
         assert 'source_stated_fcv_link' in claim
         # Missing scenario can be explicitly resolved by the adjudication layer.
-        if claim['basis'] == 'projected' and not claim['scenario']:
+        missing_scenario = claim['basis'] == 'projected' and not claim['scenario']
+        if missing_scenario or not claim['time_horizons']:
             decision = read(RESEARCH / 'decisions' / f'{iso}.json')
             row = next(d for d in decision['claim_decisions']
                        if d['claim_id'] == claim['claim_id'])
-            assert row['decision'] == 'exclude' or row.get('scenario')
+            if missing_scenario:
+                assert row['decision'] == 'exclude' or row.get('scenario')
+            if not claim['time_horizons']:
+                assert row['decision'] == 'exclude' or row.get('time_horizons')
     assert PURPOSES <= {r['purpose'] for r in raw['search_audit']}
     assert all(r['query'] and r['outcome'] and isinstance(r['urls'], list)
                for r in raw['search_audit'])
