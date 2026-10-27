@@ -1,0 +1,1237 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "SLE",
+  "candidate_path": "countries/SLE/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 7,
+    "evidence_count": 17,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 17
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 6,
+      "access-only": 11
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "SLE-E-001"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "SLE-E-004",
+          "SLE-E-101",
+          "SLE-E-104",
+          "SLE-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "SLE-E-002",
+          "SLE-E-003",
+          "SLE-E-102",
+          "SLE-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SLE-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SLE-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SLE-E-106",
+          "SLE-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "SLE-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "SLE-E-005",
+          "SLE-E-006"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SLE-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "SLE-E-101",
+          "SLE-E-102",
+          "SLE-E-103",
+          "SLE-E-104",
+          "SLE-E-105",
+          "SLE-E-108"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "SLE-P-001"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/SLE/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "SLE-SRC-001",
+      "title": "Sierra Leone Country Climate and Development Report",
+      "organization": "World Bank Group",
+      "publication_date": "2025-06",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099061025134515861/pdf/P180420-3b8a8f03-2cbc-4a24-a58e-700ecde830be.pdf",
+      "geographic_coverage": [
+        "Sierra Leone",
+        "Rural areas",
+        "Urban areas",
+        "Port Loko",
+        "Kambia",
+        "Bonthe",
+        "Western Area"
+      ],
+      "temporal_coverage": "Historical baseline, 1995-2014 climate reference, school flood data through 2022, and climate/poverty projections to 2050",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "restricted",
+      "records_using_source": [
+        "SLE-E-001",
+        "SLE-E-002",
+        "SLE-E-003",
+        "SLE-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SLE-SRC-002",
+      "title": "NDC 3.0 of the Republic of Sierra Leone",
+      "organization": "Republic of Sierra Leone; submitted to the UNFCCC",
+      "publication_date": "2025-10",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/2025-12/Sierra%20Leone%20NDC%203.0.pdf",
+      "geographic_coverage": [
+        "Sierra Leone",
+        "High-risk communities and districts"
+      ],
+      "temporal_coverage": "NDC 3.0 risk analysis and planned climate actions for 2025-2035",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SLE-E-005",
+        "SLE-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "SLE-E-006",
+        "selected_source_id": "SLE-SRC-002",
+        "url": "https://unfccc.int/sites/default/files/2025-12/Sierra%20Leone%20NDC%203.0.pdf",
+        "locator": "Section 3.2.2 and Table 50, printed p. 28 (PDF pp. 136-137), pastoralist-farmer risk pathway and response priorities.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 212,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "SLE-SRC-101",
+      "title": "Climate and Health Vulnerability Assessment: Sierra Leone",
+      "organization": "World Bank Group and Climate Investment Funds, with Sierra Leone Ministry of Health and Sanitation",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.atachcommunity.com/fileadmin/uploads/atach/Documents/Country_documents/Sierra_Leone_VA_Report_2024.pdf",
+      "geographic_coverage": [
+        "Sierra Leone",
+        "Freetown",
+        "Western Area",
+        "Koinadugu",
+        "Kono",
+        "Kailahun",
+        "Bombali"
+      ],
+      "temporal_coverage": "Observed climate data through 2020; hazard and health-system inputs from varying years; CMIP5 projections for the 2030s and 2050s.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SLE-E-101",
+        "SLE-E-102",
+        "SLE-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 94-page assessment; Sections II-IV, especially printed pp. 12-15, 41 and 59.",
+          "notes": "The complete public PDF text was accessible and relevant passages were read. The assessment uses varying vintage inputs, including 2017 facility mapping and 2016 workforce data.",
+          "reuse_terms": "Report rights section encourages noncommercial dissemination with full attribution; no separate open license was verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SLE-SRC-102",
+      "title": "Disaster Risk Financing Strategy and Implementation Plan 2024-2029",
+      "organization": "Government of Sierra Leone, Ministry of Finance",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://mof.gov.sl/wp-content/uploads/2024/03/SL_DRFS-FINAL-_compressed.pdf",
+      "geographic_coverage": [
+        "Sierra Leone",
+        "Western Area",
+        "Leicester",
+        "Regent",
+        "Granville Brook",
+        "Cline Town",
+        "Moa Wharf",
+        "Hill Court Road",
+        "Kissy Brook",
+        "Dwarzark",
+        "Charlotte",
+        "Freetown",
+        "Makeni",
+        "Bo"
+      ],
+      "temporal_coverage": "Historical disaster experience through 2022; strategy and implementation period 2024-2029.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SLE-E-104",
+        "SLE-E-105",
+        "SLE-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 46-page strategy; printed pp. 10-13, 19 and 25.",
+          "notes": "Full public Government of Sierra Leone PDF text was accessible. Claims distinguish historical disaster records and mapped hazard susceptibility from climate attribution.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SLE-SRC-103",
+      "title": "Sierra Leone Common Country Analysis 2023",
+      "organization": "United Nations Country Team in Sierra Leone",
+      "publication_date": "2023",
+      "publication_date_basis": "publication",
+      "url": "https://sierraleone.un.org/sites/default/files/2024-05/UNCT%20CCA%202023.pdf",
+      "geographic_coverage": [
+        "Sierra Leone",
+        "Freetown",
+        "rural areas",
+        "coastal and riverside communities",
+        "Guinea and Liberia transboundary river basins"
+      ],
+      "temporal_coverage": "Country conditions and climate-related sector risks summarized in the 2023 common country analysis; some historical conflict and migration context is included.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SLE-E-107",
+        "SLE-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 64-page Common Country Analysis; printed pp. 117-119, Annex 2.",
+          "notes": "Full public PDF text was accessible. The conflict-migration and climate-water statements are recorded as separate, linked contextual pressures rather than a climate-caused conflict claim.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SLE-SRC-104",
+      "title": "Multilateral peacebuilding in practice: addressing farmer-herder disputes along the border of Sierra Leone and Guinea",
+      "organization": "International Security and Development Center; Thissen et al.",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://isdc.org/publications/multilateral-peacebuilding-in-practice-addressing-farmer-herder-disputes-along-the-border-of-sierra-leone-and-guinea/",
+      "geographic_coverage": [
+        "Sierra Leone-Guinea border communities"
+      ],
+      "temporal_coverage": "2026 research publication summarizing a UN Peacebuilding Fund-supported cross-border project and its evaluation.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SLE-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Accessible article summary, project description, findings and publication details.",
+          "notes": "The official ISDC page was fully read, but it is an article summary rather than the full journal paper. Claims are restricted to the summary text.",
+          "reuse_terms": "No reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        },
+        {
+          "access_method": "blocked",
+          "locator": "Full Journal of Development Effectiveness article.",
+          "notes": "Direct opening returned 403 Forbidden. Search-indexed full-text excerpts were not used for claims.",
+          "reuse_terms": "Full article not accessed; not assessed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SLE-SRC-105",
+      "title": "Sierra Leone, Asset creation and livelihood: evaluation",
+      "organization": "World Food Programme",
+      "publication_date": "2023-08-02",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.wfp.org/publications/sierra-leone-asset-creation-and-livelihood-evaluation",
+      "geographic_coverage": [
+        "Sierra Leone",
+        "vulnerable smallholder farmers",
+        "participating communities"
+      ],
+      "temporal_coverage": "Asset creation and livelihood activities January 2020-December 2023; the page says evaluation fieldwork ran July 2023-July 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SLE-E-110",
+        "SLE-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Public evaluation page, programme description, findings and recommendations.",
+          "notes": "The WFP HTML summary was fully read. It displays a 2 August 2023 page date while stating that evaluation fieldwork ran through July 2024; discrepancy is unresolved.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        },
+        {
+          "access_method": "blocked",
+          "locator": "Underlying evaluation PDF linked from the WFP page.",
+          "notes": "Direct opening returned 403 Forbidden. The report's detailed sample and district-specific evidence were not inspected; no claim relies on them.",
+          "reuse_terms": "Underlying PDF not accessed; not assessed.",
+          "recorded_in_intake": true
+        },
+        {
+          "access_method": "blocked",
+          "locator": "WFP Evaluation Library copy of the evaluation executive summary.",
+          "notes": "Direct opening returned a cache-miss error. Search indexing was not treated as a substitute for reading the underlying PDF.",
+          "reuse_terms": "Document copy not accessed; not assessed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "SLE-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLE-SRC-001",
+          "locator": "Executive Summary, printed p. xii (PDF p. 14), climate-risk projections; chapter 1, printed p. 18 (PDF p. 22), rainfall baseline and uncertainty."
+        }
+      ],
+      "geographies": [
+        "Sierra Leone"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "Multiple climate scenarios; the report describes both hotter/drier and warmer/wetter futures.",
+      "compact_statement": "Prolonged dry spells and intense heavy rainfall are projected, but rainfall direction and magnitude remain uncertain; mean precipitation was 2,653.4 mm in 1991-2020.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SLE-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLE-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLE-SRC-001",
+          "locator": "Section 3.3, printed p. 30 (PDF p. 46), poverty impacts by climate scenario."
+        }
+      ],
+      "geographies": [
+        "Sierra Leone",
+        "Rural areas",
+        "Urban areas"
+      ],
+      "affected_groups": [
+        "Rural households",
+        "Urban households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Baseline-growth, no-adaptation hot/dry and wet/warm climate scenarios.",
+      "compact_statement": "Without adaptation, rural poverty is projected to rise 6.5-6.9 percentage points by 2050 under hot/dry or wet/warm scenarios, versus about 1.5 points in urban areas.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SLE-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLE-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLE-SRC-001",
+          "locator": "Section 3.3, printed p. 31 (PDF p. 47), district poverty results."
+        }
+      ],
+      "geographies": [
+        "Port Loko",
+        "Kambia",
+        "Bonthe"
+      ],
+      "affected_groups": [
+        "Households in affected districts"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Hot/dry and wet/warm; baseline growth, no adaptation.",
+      "compact_statement": "Climate change could erase Port Loko's poverty gains by about 12 points by 2050 under either case; Kambia and Bonthe also face wet/warm impacts.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SLE-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLE-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLE-SRC-001",
+          "locator": "Section 4.2, printed p. 79 (PDF p. 80), flood exposure of schools."
+        }
+      ],
+      "geographies": [
+        "Sierra Leone",
+        "Bonthe",
+        "Kambia",
+        "Western Area Urban",
+        "Western Area Rural",
+        "Moyamba",
+        "Port Loko"
+      ],
+      "affected_groups": [
+        "Schoolchildren",
+        "Rural students"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "372,000 children (11% of students) faced school-flood exposure; 10% of schools flooded repeatedly, and Bonthe had the highest district exposure and vulnerability.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SLE-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLE-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLE-SRC-002",
+          "locator": "Section 3.2.2, printed p. 28 (PDF p. 136), conflict-sensitive climate risks."
+        }
+      ],
+      "geographies": [
+        "Sierra Leone",
+        "Fragile contexts"
+      ],
+      "affected_groups": [
+        "Youth",
+        "Marginalized populations"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "Qualitative NDC risk framing for fragile contexts; no quantified scenario is specified.",
+      "compact_statement": "Sierra Leone’s NDC states that, in its post-conflict context, climate-related livelihood insecurity, resource competition, and migration can act as threat multipliers that heighten social-unrest or renewed-conflict risks, especially for youth and marginalized groups.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SLE-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLE-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "SLE-SRC-002",
+          "locator": "Section 3.2.2 and Table 50, printed p. 28 (PDF pp. 136-137), pastoralist-farmer risk pathway and response priorities."
+        }
+      ],
+      "geographies": [
+        "Sierra Leone"
+      ],
+      "affected_groups": [
+        "Pastoralists",
+        "Farmers",
+        "Traditional leaders",
+        "Youth",
+        "Women"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "Qualitative risk pathway; NDC table gives no quantified likelihood, place-specific forecast, or event date.",
+      "compact_statement": "The NDC describes a risk in which drought and erratic rainfall may push herders beyond traditional grazing areas onto farmland, potentially triggering violent disputes over shrinking resources; its stated priorities include integrated land-use planning, formal land rights, migration corridors, and local mediation involving traditional leaders, youth, and women.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SLE-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET; HTML visible-text extraction",
+      "verification_attempt": {
+        "selected_record_id": "SLE-E-006",
+        "selected_source_id": "SLE-SRC-002",
+        "url": "https://unfccc.int/sites/default/files/2025-12/Sierra%20Leone%20NDC%203.0.pdf",
+        "locator": "Section 3.2.2 and Table 50, printed p. 28 (PDF pp. 136-137), pastoralist-farmer risk pathway and response priorities.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 212,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "SLE-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLE-SRC-101",
+          "locator": "Printed p.12 (one-based PDF p.24), paragraph23 and Figure6 discussion."
+        }
+      ],
+      "geographies": [
+        "Freetown",
+        "Lumley ward",
+        "Juba ward",
+        "Susan's Bay ward",
+        "Regent ward"
+      ],
+      "affected_groups": [
+        "Freetown residents",
+        "residents of high-risk wards"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": "Current risk estimate uses 2018 World Bank and UNDP hazard inputs.",
+      "compact_statement": "The climate-health assessment maps Freetown flood-risk channels and identifies Lumley, Juba, Susan's Bay and Regent as highest flood-fatality-risk wards; estimates use older modeling inputs, not current annual casualties.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLE-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLE-SRC-101",
+          "locator": "Printed p. 15, para. 27 and Figure 8 discussion."
+        }
+      ],
+      "geographies": [
+        "Koinadugu District",
+        "Kono District",
+        "Kailahun District",
+        "Sierra Leone"
+      ],
+      "affected_groups": [
+        "district populations",
+        "rural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "CMIP5 projections for the 2050s under RCP 8.5.",
+      "compact_statement": "Source dated 2024 reports: For the 2050 s, Koinadugu, Kono and Kailahun are projected to be the districts most vulnerable to drought, although the assessment estimates low countrywide likelihood of severe drought.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLE-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLE-SRC-101",
+          "locator": "Printed p. 59, para. 90; printed p. 41, Table 6."
+        }
+      ],
+      "geographies": [
+        "Kailahun District",
+        "Bombali District",
+        "Koinadugu District",
+        "Sierra Leone"
+      ],
+      "affected_groups": [
+        "rural patients",
+        "remote communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: A 2017 hazard system identified 81 of 1,317 health facilities at flood-inundation risk; Kailahun and Bombali had none, while Koinadugu had low reported health-worker density.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLE-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLE-SRC-102",
+          "locator": "PDF pp. 10-11 (one-based), Table 1 and following risk-assessment discussion."
+        }
+      ],
+      "geographies": [
+        "Leicester",
+        "Regent",
+        "Granville Brook",
+        "Cline Town",
+        "Moa Wharf",
+        "Hill Court Road",
+        "Kissy Brook",
+        "Dwarzark",
+        "Charlotte",
+        "Western Area"
+      ],
+      "affected_groups": [
+        "residents of named Western Area locations"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: The government risk profile identifies Leicester, Regent, Granville Brook, Cline Town, Moa Wharf, Hill Court Road, Kissy Brook, Dwarzark and Charlotte in Western Area as landslide-prone under steep slopes and wet-season heavy rain.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLE-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLE-SRC-102",
+          "locator": "Printed p. 13, Section 2.1 and Figure 3 discussion."
+        }
+      ],
+      "geographies": [
+        "Sierra Leone",
+        "Freetown"
+      ],
+      "affected_groups": [
+        "disaster-affected residents",
+        "Freetown communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: The strategy reports that 2015 and 2017 floods and landslides affected nearly 20,000 people and killed 1,141; 2017 Freetown events caused estimated damages of US$16.8 million and losses of US$14.9 million.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLE-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLE-SRC-102",
+          "locator": "Printed p. 19, Operational Framework; printed p. 25, Strategic Priorities."
+        }
+      ],
+      "geographies": [
+        "Sierra Leone",
+        "districts",
+        "chiefdoms"
+      ],
+      "affected_groups": [
+        "poor and vulnerable populations",
+        "disaster-affected households"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": "Government implementation priorities for 2024-2029; commitments are not evidence of completed delivery.",
+      "compact_statement": "Source dated 2024 reports: The strategy assigns disaster management from district and chiefdom committees through NDMA, gives local councils Level One response roles, and sets priorities for shock-responsive social protection and disaster financing.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLE-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLE-SRC-103",
+          "locator": "Printed pp. 117-119, Annex 2, sections 'Disaster Preparedness and Management' and 'Water Resources'."
+        }
+      ],
+      "geographies": [
+        "Sierra Leone",
+        "rural areas",
+        "coastal communities"
+      ],
+      "affected_groups": [
+        "rural poor households",
+        "coastal and riverside populations"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: The CCA describes recurrent seasonal and coastal floods inundating fields, roads and homes and contaminating water; severe drought dries streams and swamps relied on by rural poor households.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLE-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLE-SRC-103",
+          "locator": "Printed pp. 118-119, Annex 2, 'Water Resources'."
+        }
+      ],
+      "geographies": [
+        "Freetown",
+        "Sierra Leone"
+      ],
+      "affected_groups": [
+        "rural-to-urban migrants",
+        "Freetown residents"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2023 CCA describes conflict-era and subsequent migration adding pressure to Freetown water resources, alongside separate rainfall-related flow reductions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLE-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLE-SRC-104",
+          "locator": "Accessible ISDC article summary and publication details."
+        }
+      ],
+      "geographies": [
+        "Sierra Leone-Guinea border communities"
+      ],
+      "affected_groups": [
+        "farmers",
+        "herders",
+        "border communities"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2026 research-institute summary reports agricultural benefits, perceived conflict reduction and only suggestive subgroup conflict evidence for a Sierra Leone-Guinea border peacebuilding project that included climate-adapted livelihoods.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLE-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLE-SRC-105",
+          "locator": "Evaluation page, 'Key evaluation findings'."
+        }
+      ],
+      "geographies": [
+        "Sierra Leone",
+        "participating communities"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "women",
+        "vulnerable communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-08-02 reports: WFP's public summary reports that Food for Assets and Integrated Village Solutions improved participation, financial inclusion and agricultural practices; it also reports improved food security and income generation among programme communities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLE-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLE-SRC-105",
+          "locator": "Evaluation page, 'Key evaluation findings' and 'Key recommendations'."
+        }
+      ],
+      "geographies": [
+        "Sierra Leone",
+        "participating communities"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "women",
+        "youth",
+        "people with disabilities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-08-02 reports: WFP's summary identifies irrigation maintenance, delayed inputs, land tenure and limited savings-group coverage as sustainability constraints and recommends stronger inclusion, local capacity, environmental management and resilience monitoring.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "SLE-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SLE-E-006"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SLE-E-006"
+        ],
+        "impact": [
+          "SLE-E-006"
+        ],
+        "mediator": [
+          "SLE-E-006"
+        ],
+        "consequence": [
+          "SLE-E-006"
+        ]
+      },
+      "geographies": [
+        "Sierra Leone"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Changed pastoral movement may increase farm-resource disputes.",
+      "alternative_explanations": [
+        "Tenure arrangements and pre-existing disputes also shape risk."
+      ],
+      "uncertainty": "NDC prospective risk framing, not observed countrywide attribution.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "SLE-E-006",
+  "source_access_review": {
+    "selected_record_id": "SLE-E-006",
+    "selected_source_id": "SLE-SRC-002",
+    "url": "https://unfccc.int/sites/default/files/2025-12/Sierra%20Leone%20NDC%203.0.pdf",
+    "locator": "Section 3.2.2 and Table 50, printed p. 28 (PDF pp. 136-137), pastoralist-farmer risk pathway and response priorities.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "document-fetched",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 212,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null
+  },
+  "checks": [
+    {
+      "record_id": "SLE-E-006",
+      "source_id": "SLE-SRC-002",
+      "locator": "Section 3.2.2 and Table 50, printed p. 28 (PDF pp. 136-137), pastoralist-farmer risk pathway and response priorities.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET; HTML visible-text extraction",
+      "access_date": "2026-10-27",
+      "source_access_status": "document-fetched",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "SLE-E-006: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "SLE-E-001",
+    "SLE-E-002",
+    "SLE-E-003",
+    "SLE-E-004",
+    "SLE-E-005",
+    "SLE-E-006",
+    "SLE-E-101",
+    "SLE-E-102",
+    "SLE-E-103",
+    "SLE-E-104",
+    "SLE-E-105",
+    "SLE-E-106",
+    "SLE-E-107",
+    "SLE-E-108",
+    "SLE-E-109",
+    "SLE-E-110",
+    "SLE-E-111",
+    "SLE-P-001"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

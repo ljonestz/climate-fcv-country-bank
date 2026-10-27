@@ -1,0 +1,1225 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "MHL",
+  "candidate_path": "countries/MHL/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 7,
+    "evidence_count": 19,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 19
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 7,
+      "access-only": 12
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "At least one known-gap statement appears inconsistent with the current pathway inventory.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "MHL-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "MHL-E-001",
+          "MHL-E-006",
+          "MHL-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "MHL-E-003",
+          "MHL-E-101",
+          "MHL-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MHL-E-002",
+          "MHL-E-005"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MHL-E-004",
+          "MHL-E-103",
+          "MHL-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "MHL-E-110",
+          "MHL-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "MHL-E-102",
+          "MHL-E-107",
+          "MHL-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MHL-E-104",
+          "MHL-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "MHL-E-101",
+          "MHL-E-102",
+          "MHL-E-103",
+          "MHL-E-104",
+          "MHL-E-105",
+          "MHL-E-108",
+          "MHL-E-112",
+          "MHL-E-113"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "MHL-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [
+      {
+        "text": "The bank contains no completed mediated climate-FCV pathway; this is an evidence gap, not evidence of absence.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      }
+    ],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/MHL/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "MHL-SRC-001",
+      "title": "New World Bank support to strengthen disaster resilience and protect jobs in the Marshall Islands",
+      "organization": "World Bank",
+      "publication_date": "2026-04-08",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/04/08/new-world-bank-support-to-strengthen-disaster-resilience-and-protect-jobs-in-the-marshall-islands",
+      "geographic_coverage": [
+        "Marshall Islands"
+      ],
+      "temporal_coverage": "April 2026 financing approval",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MHL-E-001",
+        "MHL-E-002"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MHL-SRC-002",
+      "title": "Marshall Islands secures major UNDP-GEF investment to protect water, land and atoll communities from climate change",
+      "organization": "UNDP",
+      "publication_date": "2025-12-26",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/pacific/press-releases/marshall-islands-secures-major-undp-gef-investment-protect-water-land-and-atoll-communities-climate-change",
+      "geographic_coverage": [
+        "Marshall Islands"
+      ],
+      "temporal_coverage": "December 2025 project preparation approval",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MHL-E-003",
+        "MHL-E-004",
+        "MHL-E-005"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MHL-SRC-003",
+      "title": "Understanding risk is key to growth and jobs in Pacific cities",
+      "organization": "World Bank",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://blogs.worldbank.org/en/sustainablecities/understanding-risk-is-key-to-growth-and-jobs-in-pacific-cities",
+      "geographic_coverage": [
+        "Marshall Islands"
+      ],
+      "temporal_coverage": "Undated city-risk assessment synopsis",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MHL-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MHL-SRC-101",
+      "title": "Republic of Marshall Islands Climate Security Risk Assessment",
+      "organization": "United Nations Development Programme (UNDP), with IOM and Adelphi under the Climate Security in the Pacific project",
+      "publication_date": "2023-12-05",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2023-12/undp-pacific-rmi-climate-risk-profile-2023.pdf",
+      "geographic_coverage": [
+        "Marshall Islands",
+        "Majuro",
+        "Ebeye",
+        "northern atolls",
+        "southern atolls",
+        "Roi-Namur"
+      ],
+      "temporal_coverage": "2023 assessment drawing on earlier historical evidence and climate projections, including scenarios to 2050 and 2080.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MHL-E-106",
+        "MHL-E-107",
+        "MHL-E-108",
+        "MHL-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 68-page PDF inspected; especially PDF pp.12-16, 23-27, 29-36 and 52-58.",
+          "notes": "Assessment combines models, literature and consultations; pathway statements are identified as risks, not country-specific causal estimates.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "MHL-E-107",
+        "selected_source_id": "MHL-SRC-101",
+        "url": "https://www.undp.org/sites/g/files/zskgke326/files/2023-12/undp-pacific-rmi-climate-risk-profile-2023.pdf",
+        "locator": "PDF p.29, land insecurity section on relocation, private land and possible government-landowner friction",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "metadata-only",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": null,
+        "declared_bytes": 8639178,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "source exceeds the in-memory size cap"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "MHL-SRC-102",
+      "title": "National Adaptation Plan Community Engagement Summary Report: Majuro Atoll",
+      "organization": "International Organization for Migration (IOM), engaged by the Government of the Republic of the Marshall Islands",
+      "publication_date": "2023",
+      "publication_date_basis": "document-version",
+      "url": "https://rmi-data.sprep.org/resource/1105/download/file",
+      "geographic_coverage": [
+        "Majuro Atoll",
+        "Ajeltake-Laura",
+        "Laura",
+        "Jenrok",
+        "Jeirok"
+      ],
+      "temporal_coverage": "Majuro NAP consultations conducted October 2022-May 2023; report cover dated 2023.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MHL-E-101",
+        "MHL-E-102",
+        "MHL-E-103",
+        "MHL-E-104",
+        "MHL-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 15-page Majuro community-engagement summary inspected, especially PDF pp.6-8 and 11-12.",
+          "notes": "The document summarizes 2022-23 consultations in Majuro; findings are not national prevalence estimates.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MHL-SRC-103",
+      "title": "Implementation Status & Results Report: Pacific Resilience Project II under the Pacific Resilience Program (P160096)",
+      "organization": "World Bank",
+      "publication_date": "2025-04-15",
+      "publication_date_basis": "document-version",
+      "url": "https://documents1.worldbank.org/curated/en/099041525065083943/pdf/P160096-a0a53856-6b37-4f97-a381-9b2b9fe6bb66.pdf",
+      "geographic_coverage": [
+        "Marshall Islands",
+        "outer islands",
+        "Ebeye",
+        "Majuro"
+      ],
+      "temporal_coverage": "Project implementation status through 28 February 2025, with a World Bank mission update dated 15 April 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MHL-E-110",
+        "MHL-E-111",
+        "MHL-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 11-page implementation-status report inspected, especially PDF pp.2 and 5-8.",
+          "notes": "Performance statements retain the report's February and April 2025 dates; no post-report outcome is inferred.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MHL-SRC-104",
+      "title": "Coastal Risk Assesment for Ebeye",
+      "organization": "Global Facility for Disaster Reduction and Recovery (GFDRR), World Bank",
+      "publication_date": "2018-06-22",
+      "publication_date_basis": "publication",
+      "url": "https://www.gfdrr.org/en/publication/coastal-risk-assesment-ebeye",
+      "geographic_coverage": [
+        "Ebeye",
+        "Majuro"
+      ],
+      "temporal_coverage": "GFDRR technical-report summary published 22 June 2018; assessment tests coastal hazards and climate/sea-level scenarios.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MHL-E-113"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Opened GFDRR landing-page report summary, especially lines 184-194.",
+          "notes": "The summary is direct publisher text; the linked technical report was not accessed and is not paraphrased beyond this summary.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "MHL-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MHL-SRC-001",
+          "locator": "Majuro concentration and exposure"
+        }
+      ],
+      "geographies": [
+        "Majuro"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Majuro's concentration of people, government and economic activity increases exposure to coastal erosion, flooding, rising seas and drought.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MHL-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MHL-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MHL-SRC-001",
+          "locator": "PREPARE investments"
+        }
+      ],
+      "geographies": [
+        "Majuro"
+      ],
+      "affected_groups": [],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Proposed resilient public buildings, emergency facilities and planning reforms aim to protect services and livelihoods in Majuro.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MHL-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MHL-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MHL-SRC-002",
+          "locator": "Atoll water and land stresses"
+        }
+      ],
+      "geographies": [
+        "Marshall Islands"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNDP describes saline groundwater, degraded land and coastal erosion as connected atoll pressures.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MHL-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MHL-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MHL-SRC-002",
+          "locator": "Community participation"
+        }
+      ],
+      "geographies": [
+        "Marshall Islands"
+      ],
+      "affected_groups": [
+        "women"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The preparation framework envisages community committees and women's leadership in water and land stewardship.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MHL-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MHL-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MHL-SRC-002",
+          "locator": "Preparation phase and intended measures"
+        }
+      ],
+      "geographies": [
+        "Marshall Islands"
+      ],
+      "affected_groups": [],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Recharge measures and nature-based coastal buffers are proposed interventions, not verified protection outcomes.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MHL-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MHL-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MHL-SRC-003",
+          "locator": "Majuro city example"
+        }
+      ],
+      "geographies": [
+        "Majuro"
+      ],
+      "affected_groups": [
+        "urban residents",
+        "outer-island migrants"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The city-risk synthesis links narrow-atoll settlement concentration and outer-island migration to the need for risk-informed urban planning in Majuro.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MHL-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MHL-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MHL-SRC-102",
+          "locator": "PDF p.6, lines on inundation, Ajeltake-Laura access and groups lacking support"
+        }
+      ],
+      "geographies": [
+        "Majuro Atoll",
+        "Ajeltake-Laura"
+      ],
+      "affected_groups": [
+        "rural youth",
+        "women",
+        "persons with physical or mental disabilities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: In Majuro, inundation disrupts livelihoods and can block Ajeltake-Laura youth from school or town; women, youth and disabled residents reported inadequate high-tide support.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MHL-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MHL-SRC-102",
+          "locator": "Majuro summary, printed p.6 / physical PDF p.7, women participants' heat and GBV accounts."
+        }
+      ],
+      "geographies": [
+        "Majuro Atoll"
+      ],
+      "affected_groups": [
+        "women"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: Majuro women reported heat-related declines in socializing and increased abuse and gender-based violence.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MHL-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MHL-SRC-102",
+          "locator": "PDF p.8, Chamber of Commerce consultation on land tenure and flood-proofing incentives"
+        }
+      ],
+      "geographies": [
+        "Majuro Atoll"
+      ],
+      "affected_groups": [
+        "local businesses",
+        "leaseholders"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: Majuro business participants said leasehold land weakens incentives to invest in flood-proofing buildings that eventually revert to landlords.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MHL-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MHL-SRC-102",
+          "locator": "PDF p.11, community solidarity and adaptation-asset findings; PDF p.12, proposed actions"
+        }
+      ],
+      "geographies": [
+        "Majuro Atoll"
+      ],
+      "affected_groups": [
+        "community members",
+        "persons with disabilities"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: Participants reported food/water sharing and cleanups; the report identifies solidarity and cooperation as a climate-response asset.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MHL-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MHL-SRC-102",
+          "locator": "PDF p.7, Day-in-Life survey on planned adaptation or migration after an extreme sea-level scenario briefing"
+        }
+      ],
+      "geographies": [
+        "Majuro Atoll"
+      ],
+      "affected_groups": [
+        "consulted Majuro residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": "Extreme sea-level scenario was described in the briefing; no modeled pathway was specified.",
+      "compact_statement": "Source dated 2023 reports: Most consulted Majuro participants favored in-place adaptation; 10% of Day-in-Life respondents considered migration after an extreme sea-level briefing.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MHL-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MHL-SRC-101",
+          "locator": "PDF p.23, drought projections for southern atolls and uncertainty note"
+        }
+      ],
+      "geographies": [
+        "southern atolls"
+      ],
+      "affected_groups": [
+        "southern atoll communities"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "RCP8.5; the report states projection uncertainty is high.",
+      "compact_statement": "Source dated 2023-12-05 reports: The assessment cites a greater likelihood of severe drought in southern atolls by 2050 under RCP8.5, while flagging high uncertainty.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MHL-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "MHL-SRC-101",
+          "locator": "PDF p.29, land insecurity section on relocation, private land and possible government-landowner friction"
+        }
+      ],
+      "geographies": [
+        "Marshall Islands"
+      ],
+      "affected_groups": [
+        "displaced people",
+        "customary landowners"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Conditional risk; no climate scenario or date stated.",
+      "compact_statement": "Source dated 2023-12-05 reports: With no public land, climate relocation may cause friction between landowners and government.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "MHL-E-107",
+        "selected_source_id": "MHL-SRC-101",
+        "url": "https://www.undp.org/sites/g/files/zskgke326/files/2023-12/undp-pacific-rmi-climate-risk-profile-2023.pdf",
+        "locator": "PDF p.29, land insecurity section on relocation, private land and possible government-landowner friction",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "metadata-only",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": null,
+        "declared_bytes": 8639178,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "source exceeds the in-memory size cap"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "MHL-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MHL-SRC-101",
+          "locator": "PDF pp.35-36, internal migration section on environmental stress, crowding, resource competition and discontent"
+        }
+      ],
+      "geographies": [
+        "neighboring outer islands",
+        "Majuro",
+        "Ebeye"
+      ],
+      "affected_groups": [
+        "outer-island communities",
+        "recent migrants",
+        "marginalized urban residents"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Conditional pathway; no emissions scenario or date specified.",
+      "compact_statement": "Source dated 2023-12-05 reports: The report links environmental stress and outer-island food/water insecurity to movement toward crowded Majuro/Ebeye, potentially raising resource competition and discontent.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MHL-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MHL-SRC-101",
+          "locator": "PDF p.55, Entry Point 4 on customary knowledge, resource pressures and conflict resolution"
+        }
+      ],
+      "geographies": [
+        "outer islands",
+        "Marshall Islands"
+      ],
+      "affected_groups": [
+        "outer-island communities",
+        "women",
+        "customary landholders"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-12-05 reports: UNDP recommends outer-island investment, community disaster training, early warning and customary knowledge, including traditional conflict-resolution practices.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MHL-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MHL-SRC-103",
+          "locator": "PDF p.2, implementation status: emergency communication installations and operator training completed January 2025"
+        }
+      ],
+      "geographies": [
+        "Marshall Islands",
+        "outer islands"
+      ],
+      "affected_groups": [
+        "community operators",
+        "women"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The April 2025 World Bank ISR reports completion of 63 emergency communication stations by January and training of 1,369 local operators, including 550 women.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MHL-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MHL-SRC-103",
+          "locator": "PDF p.6, project indicator notes on national and local climate/disaster working groups operationalized"
+        }
+      ],
+      "geographies": [
+        "Marshall Islands",
+        "outer islands"
+      ],
+      "affected_groups": [
+        "island communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-04-15 reports: By February 2025, national and local climate/disaster working groups had been operationalized, and the National Adaptation Plan incorporated coastal vulnerability assessment results.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MHL-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MHL-SRC-103",
+          "locator": "PDF pp.2 and 4, April 2025 mission status on Ebeye seawall mobilization and construction schedule"
+        }
+      ],
+      "geographies": [
+        "Ebeye",
+        "Kwajalein Atoll"
+      ],
+      "affected_groups": [
+        "Ebeye residents"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-04-15 reports: At the April 2025 mission, the Ebeye seawall contractor was mobilized and works were reported on schedule; protection outcomes were not yet reported.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MHL-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MHL-SRC-104",
+          "locator": "GFDRR landing page, technical-report summary on assessed islands, hazards and risk-analysis scope"
+        }
+      ],
+      "geographies": [
+        "Majuro",
+        "Ebeye"
+      ],
+      "affected_groups": [
+        "Majuro residents",
+        "Ebeye residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2018-06-22 reports: GFDRR says the assessment analyzed waves, storm surges, typhoons and tsunamis for Majuro and Ebeye, with detailed inundation and erosion risk analysis for Ebeye.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "MHL-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MHL-E-107",
+        "MHL-E-108"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MHL-E-108"
+        ],
+        "impact": [
+          "MHL-E-108"
+        ],
+        "mediator": [
+          "MHL-E-107",
+          "MHL-E-108"
+        ],
+        "consequence": [
+          "MHL-E-108"
+        ]
+      },
+      "geographies": [
+        "Majuro",
+        "Ebeye"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Outer-island livelihood stress may interact with uneven land access and crowded urban services; mobility can also improve opportunities.",
+      "alternative_explanations": [
+        "Employment, education, services and historical relocation also drive mobility."
+      ],
+      "uncertainty": "Source-stated prospective mechanism in the 2023 assessment, not causal attribution or a forecast of violence.",
+      "potentially_out_of_scope_support_ids": [
+        "MHL-E-107"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "MHL-E-107",
+  "source_access_review": {
+    "selected_record_id": "MHL-E-107",
+    "selected_source_id": "MHL-SRC-101",
+    "url": "https://www.undp.org/sites/g/files/zskgke326/files/2023-12/undp-pacific-rmi-climate-risk-profile-2023.pdf",
+    "locator": "PDF p.29, land insecurity section on relocation, private land and possible government-landowner friction",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "metadata-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": null,
+    "declared_bytes": 8639178,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "source exceeds the in-memory size cap"
+  },
+  "checks": [
+    {
+      "record_id": "MHL-E-107",
+      "source_id": "MHL-SRC-101",
+      "locator": "PDF p.29, land insecurity section on relocation, private land and possible government-landowner friction",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "metadata-only",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "MHL-E-107: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "MHL-E-001",
+    "MHL-E-002",
+    "MHL-E-003",
+    "MHL-E-004",
+    "MHL-E-005",
+    "MHL-E-006",
+    "MHL-E-101",
+    "MHL-E-102",
+    "MHL-E-103",
+    "MHL-E-104",
+    "MHL-E-105",
+    "MHL-E-106",
+    "MHL-E-107",
+    "MHL-E-108",
+    "MHL-E-109",
+    "MHL-E-110",
+    "MHL-E-111",
+    "MHL-E-112",
+    "MHL-E-113",
+    "MHL-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

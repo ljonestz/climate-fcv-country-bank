@@ -1,0 +1,1114 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "ROU",
+  "candidate_path": "countries/ROU/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 5,
+    "evidence_count": 18,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 18
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 17,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "ROU-E-101"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "ROU-E-102"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "ROU-E-103",
+          "ROU-E-104",
+          "ROU-E-106",
+          "ROU-E-114",
+          "ROU-E-115"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "ROU-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "ROU-E-109",
+          "ROU-E-110",
+          "ROU-E-116",
+          "ROU-E-117",
+          "ROU-E-118"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "ROU-E-105",
+          "ROU-E-108",
+          "ROU-E-112",
+          "ROU-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "ROU-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "ROU-E-102",
+          "ROU-E-104",
+          "ROU-E-109",
+          "ROU-E-118"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/ROU/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "ROU-SRC-101",
+      "title": "OECD Economic Surveys: Romania 2026, Enhancing resilience to climate risks",
+      "organization": "Organisation for Economic Co-operation and Development",
+      "publication_date": "2026-03-16",
+      "publication_date_basis": "publication",
+      "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-romania-2026_4844067e-en/full-report/enhancing-resilience-to-climate-risks_ae66c1bc.html",
+      "geographic_coverage": [
+        "Romania",
+        "Danube River Basin",
+        "Siret River",
+        "Constanța County",
+        "coastal towns"
+      ],
+      "temporal_coverage": "National heat-stress data through 2024; disaster records 1980–2023; flood-plan implementation status and adaptation discussion in the 2026 survey.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ROU-E-101",
+        "ROU-E-102",
+        "ROU-E-103",
+        "ROU-E-104",
+        "ROU-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Sections 3.1.1–3.1.2 and 3.2.2",
+          "notes": "OECD publisher webpage body was directly opened; cited national and local passages were read.",
+          "reuse_terms": "No source-specific reuse statement assessed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ROU-SRC-102",
+      "title": "Assessment of progress on climate adaptation in the individual Member States according to the European Climate Law",
+      "organization": "European Commission",
+      "publication_date": "2023-12-18",
+      "publication_date_basis": "publication",
+      "url": "https://climate.ec.europa.eu/system/files/2023-12/SWD_2023_932_1_EN.pdf",
+      "geographic_coverage": [
+        "Romania",
+        "southern Romania",
+        "southeastern Romania",
+        "Alba Iulia",
+        "Danube macro-region"
+      ],
+      "temporal_coverage": "Assessment of Romania's adaptation reports for 2021 and 2023; covers reported projections, institutions and municipal initiatives.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ROU-E-106",
+        "ROU-E-107",
+        "ROU-E-108",
+        "ROU-E-109",
+        "ROU-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Romania country assessment, PDF pp. 252–261",
+          "notes": "European Commission PDF opened and Romania sections read directly; claims distinguish reported findings from modeled projections.",
+          "reuse_terms": "No source-specific reuse statement assessed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ROU-SRC-103",
+      "title": "UCPM Peer Review Report: Romania 2023",
+      "organization": "European Commission, Union Civil Protection Mechanism Peer Review Programme",
+      "publication_date": "2023",
+      "publication_date_basis": "publication",
+      "url": "https://civil-protection-knowledge-network.europa.eu/system/files/2024-07/peer-review-ro_report.pdf",
+      "geographic_coverage": [
+        "Romania",
+        "eastern Romania",
+        "central Romania",
+        "western Romania",
+        "41 counties",
+        "Bucharest"
+      ],
+      "temporal_coverage": "Disaster-risk-management peer review conducted in 2023; country-profile annex includes indicators based on 2015–2022 data and mid-century scenarios.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "ROU-E-111",
+        "ROU-E-112",
+        "ROU-E-113"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Sections 3.5 and Annex 3, Romania Country Profile, PDF pp. 56–59 and 92–96",
+          "notes": "Publisher PDF body was read directly. Disclaimer states views are those of authors and need not represent the European Commission or authors' organisations.",
+          "reuse_terms": "Reproduction is authorised provided the source is acknowledged.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "ROU-E-111",
+        "selected_source_id": "ROU-SRC-103",
+        "url": "https://civil-protection-knowledge-network.europa.eu/system/files/2024-07/peer-review-ro_report.pdf",
+        "locator": "Annex 3, printed p.95 (physical PDF p.94), climate-change analysis paragraph.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "metadata-only",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": null,
+        "declared_bytes": 7788057,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "source exceeds the in-memory size cap"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "ROU-SRC-104",
+      "title": "România și-ar putea îmbunătăți substanțial nivelul de trai concomitent cu decarbonizarea economiei până în 2050: raportul Grupului Banca Mondială",
+      "organization": "World Bank Group",
+      "publication_date": "2023-10-24",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/ro/news/press-release/2023/10/24/romania-could-substantially-improve-living-standards-while-decarbonizing-its-economy-by-2050-world-bank-group-report",
+      "geographic_coverage": [
+        "Romania"
+      ],
+      "temporal_coverage": "World Bank summary of its October 2023 Romania Country Climate and Development Report and selected recommendations.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ROU-E-114",
+        "ROU-E-115",
+        "ROU-E-116"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Paragraphs on climate vulnerability, water-resource optimization, and human capital and skills",
+          "notes": "Full World Bank press-release body was opened and read in Romanian; only its stated CCDR summary findings and recommendations are extracted.",
+          "reuse_terms": "No page-specific reuse statement identified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ROU-SRC-105",
+      "title": "Romania, EU Mission on Adaptation to Climate Change portal",
+      "organization": "European Commission, Directorate-General for Climate Action",
+      "publication_date": "2026-06-26",
+      "publication_date_basis": "publication",
+      "url": "https://mission-adaptation-portal.ec.europa.eu/romania_en",
+      "geographic_coverage": [
+        "Romania",
+        "Râu Sadului",
+        "Cristian"
+      ],
+      "temporal_coverage": "Portal counts and funding displayed in June 2026; localized mountain-meadow adaptation example in Râu Sadului and Cristian.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ROU-E-117",
+        "ROU-E-118"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Romania Mission page, participation/funding paragraph and named mountain-meadow adaptation story",
+          "notes": "European Commission portal body was directly opened; localized story is presented as a short example, not an evaluation.",
+          "reuse_terms": "No source-specific reuse statement assessed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "ROU-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ROU-SRC-101",
+          "locator": "Section 3.1.2, Romania is particularly exposed to droughts, heatwaves and river flooding"
+        }
+      ],
+      "geographies": [
+        "Romania"
+      ],
+      "affected_groups": [
+        "workers",
+        "older people",
+        "young children"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03-16 reports: During 2020–2024 Romania averaged 18 additional heat-stress days versus 1981–2010, reaching 48 annually and about 13 tropical nights.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ROU-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ROU-SRC-101",
+          "locator": "Section 3.1.2, Romania is particularly exposed to droughts, heatwaves and river flooding"
+        }
+      ],
+      "geographies": [
+        "Romanian Danube River Basin",
+        "Danube River",
+        "Siret River"
+      ],
+      "affected_groups": [
+        "residents of flood-exposed areas",
+        "farmers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03-16 reports: In Romania's Danube Basin, about 25% of the population and 8% of territory are flood-exposed; Danube and Siret floods peak in spring and early summer.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ROU-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ROU-SRC-101",
+          "locator": "Section 3.1.2, Romania is particularly exposed to droughts, heatwaves and river flooding"
+        }
+      ],
+      "geographies": [
+        "Romania"
+      ],
+      "affected_groups": [
+        "farmers",
+        "consumers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03-16 reports: OECD reports droughts in 2020, 2022 and 2024 harmed agricultural output, agrifood prices and hydropower generation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ROU-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ROU-SRC-101",
+          "locator": "Section 3.2.2, Better managing land-use planning and urban development in flood-prone areas"
+        }
+      ],
+      "geographies": [
+        "Constanța County",
+        "coastal towns"
+      ],
+      "affected_groups": [
+        "residents of coastal towns"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03-16 reports: OECD describes urban expansion in Constanța County coastal towns without sufficient elevation or drainage upgrades despite known pluvial and coastal flood risks.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ROU-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ROU-SRC-101",
+          "locator": "Section 3.2.2, Speeding up the implementation of flood protection measures"
+        }
+      ],
+      "geographies": [
+        "Romania",
+        "11 River Basin Administrations"
+      ],
+      "affected_groups": [
+        "local authorities",
+        "residents of flood-risk areas"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03-16 reports: Of 2,627 second-cycle flood-plan actions (2016–2021), 67% had not started; local authorities lacked finance and expertise, while Romanian Waters lacked scale-up capacity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ROU-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ROU-SRC-102",
+          "locator": "Romania country assessment, Section 1, changes to reported vulnerabilities and risks since 2021"
+        }
+      ],
+      "geographies": [
+        "southern Romania",
+        "southeastern Romania"
+      ],
+      "affected_groups": [
+        "farmers",
+        "rural communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "PESETA IV estimate for a world 2.0°C warmer than present; projected agricultural losses by value.",
+      "compact_statement": "Source dated 2023-12-18 reports: The Commission says drought is the key agricultural hazard and crop-failure risk is greatest in southern and southeastern Romania; PESETA IV estimates losses 16% higher at +2°C.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ROU-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ROU-SRC-102",
+          "locator": "Romania country assessment, Section 1, climate monitoring and modelling framework"
+        }
+      ],
+      "geographies": [
+        "Romania",
+        "subregional climate-model domains"
+      ],
+      "affected_groups": [
+        "weather-sensitive sectors",
+        "climate information users"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-12-18 reports: Romania reported 166 weather stations, including 68 agrometeorological stations, and seven Doppler radars; 2023 regional modelling aimed at high-resolution subregional projections.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ROU-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ROU-SRC-102",
+          "locator": "Romania country assessment, Sections 2 and 4, institutional coordination and monitoring"
+        }
+      ],
+      "geographies": [
+        "Romania"
+      ],
+      "affected_groups": [
+        "public authorities",
+        "climate-vulnerable groups"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-12-18 reports: The Commission identified weak coordination between climate-adaptation and disaster-risk authorities, limited finance and no demonstrated national monitoring of adaptation goals.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ROU-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ROU-SRC-102",
+          "locator": "Romania country assessment, Section 6, subnational policies and cooperation"
+        }
+      ],
+      "geographies": [
+        "Alba Iulia",
+        "two participating Romanian regions"
+      ],
+      "affected_groups": [
+        "municipal authorities",
+        "local residents"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-12-18 reports: Romania cited Alba Iulia's municipal plan as good practice and reported two regions joining the EU Adaptation Mission.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ROU-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ROU-SRC-102",
+          "locator": "Romania country assessment, Section 5, cooperation and transnational projects"
+        }
+      ],
+      "geographies": [
+        "Danube macro-region",
+        "Romania and eight other participating countries"
+      ],
+      "affected_groups": [
+        "participating authorities",
+        "farmers",
+        "river-basin communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-12-18 reports: A Danube-macroregion project linked shared risk-assessment methods and drought-emergency response among 14 partners from nine countries.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ROU-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "ROU-SRC-103",
+          "locator": "Annex 3, printed p.95 (physical PDF p.94), climate-change analysis paragraph."
+        }
+      ],
+      "geographies": [
+        "Romania"
+      ],
+      "affected_groups": [
+        "additional people exposed under modeled scenarios"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Mid-century humanitarian-risk projections include RCP4.5–SSP1 and RCP8.5–SSP3; the annex says conflict risk may rise in all scenarios except SSP5.",
+      "compact_statement": "Source dated 2023 reports: The profile's climate-change analysis projects by mid-century 3–5.2 million additional people exposed to drought and 2.6–4.4 million to vector-borne epidemics; it says conflict risk may rise except under SSP5.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "ROU-E-111",
+        "selected_source_id": "ROU-SRC-103",
+        "url": "https://civil-protection-knowledge-network.europa.eu/system/files/2024-07/peer-review-ro_report.pdf",
+        "locator": "Annex 3, printed p.95 (physical PDF p.94), climate-change analysis paragraph.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "metadata-only",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": null,
+        "declared_bytes": 7788057,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "source exceeds the in-memory size cap"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "ROU-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ROU-SRC-103",
+          "locator": "Annex 3, printed p.96 (physical PDF p.95), adaptive capacity discussion."
+        }
+      ],
+      "geographies": [
+        "eastern Romania",
+        "central Romania",
+        "western Romania"
+      ],
+      "affected_groups": [
+        "eastern-region communities",
+        "local authorities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: The profile places eastern Romania at lower adaptive capacity than central and western regions, citing weaker institutional capacity and knowledge/technology factors.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ROU-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ROU-SRC-103",
+          "locator": "Section 3.1, National Risk Assessment and the RO-RISK project; Section 3.4, Monitoring, evaluation and reporting"
+        }
+      ],
+      "geographies": [
+        "Romania",
+        "national, county and local levels"
+      ],
+      "affected_groups": [
+        "national and local authorities",
+        "risk-information users"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: Reviewers reported risk assessment was irregular after RO-RISK ended in 2018; risk and disaster-loss data were scattered across national, county and local entities and inconsistent.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ROU-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ROU-SRC-104",
+          "locator": "Paragraph beginning România este deosebit de vulnerabilă la riscurile asociate schimbărilor climatice"
+        }
+      ],
+      "geographies": [
+        "Romania"
+      ],
+      "affected_groups": [
+        "people exposed to climate risks"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-10-24 reports: World Bank describes Romania as particularly vulnerable to climate-related floods and drought; rising temperatures and heatwaves threaten people, the economy and infrastructure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ROU-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ROU-SRC-104",
+          "locator": "Paragraph beginning Optimizarea utilizării resurselor de apă"
+        }
+      ],
+      "geographies": [
+        "Romania"
+      ],
+      "affected_groups": [
+        "consumers",
+        "farmers",
+        "energy users"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-10-24 reports: CCDR calls water deficits a current concern and priority for strategic management, with implications for power generation, agriculture and consumers.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ROU-E-116",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ROU-SRC-104",
+          "locator": "Paragraph beginning Investiția în capitalul uman și competențe"
+        }
+      ],
+      "geographies": [
+        "Romania"
+      ],
+      "affected_groups": [
+        "vulnerable groups",
+        "current and future workers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-10-24 reports: CCDR recommends skills development and active labour-market policies to help vulnerable groups adapt to Romania's green-economy transition.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ROU-E-117",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ROU-SRC-105",
+          "locator": "The Mission in Romania, participation and funding paragraph dated 26 June 2026"
+        }
+      ],
+      "geographies": [
+        "Romania",
+        "participating local and regional authorities"
+      ],
+      "affected_groups": [
+        "local and regional authorities",
+        "residents"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-06-26 reports: As of June 2026, 25 Romanian local/regional authorities participated in Mission projects, with nine Charter signatories and €11.66 million EU funding allocated.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ROU-E-118",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ROU-SRC-105",
+          "locator": "Real-world adaptation example, mountain-meadow story for Râu Sadului and Cristian"
+        }
+      ],
+      "geographies": [
+        "Râu Sadului",
+        "Cristian",
+        "Romanian mountain communities"
+      ],
+      "affected_groups": [
+        "mountain communities",
+        "land managers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The EU Adaptation Mission portal describes meadow-restoration projects covering 40 hectares in Râu Sadului and Cristian, using drones to address drought, biodiversity loss and erosion. The short project account does not establish completed restoration or measured resilience gains.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "ROU-E-111",
+  "source_access_review": {
+    "selected_record_id": "ROU-E-111",
+    "selected_source_id": "ROU-SRC-103",
+    "url": "https://civil-protection-knowledge-network.europa.eu/system/files/2024-07/peer-review-ro_report.pdf",
+    "locator": "Annex 3, printed p.95 (physical PDF p.94), climate-change analysis paragraph.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "metadata-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": null,
+    "declared_bytes": 7788057,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "source exceeds the in-memory size cap"
+  },
+  "checks": [
+    {
+      "record_id": "ROU-E-111",
+      "source_id": "ROU-SRC-103",
+      "locator": "Annex 3, printed p.95 (physical PDF p.94), climate-change analysis paragraph.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "metadata-only",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "ROU-E-111: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "ROU-E-101",
+    "ROU-E-102",
+    "ROU-E-103",
+    "ROU-E-104",
+    "ROU-E-105",
+    "ROU-E-106",
+    "ROU-E-107",
+    "ROU-E-108",
+    "ROU-E-109",
+    "ROU-E-110",
+    "ROU-E-111",
+    "ROU-E-112",
+    "ROU-E-113",
+    "ROU-E-114",
+    "ROU-E-115",
+    "ROU-E-116",
+    "ROU-E-117",
+    "ROU-E-118"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

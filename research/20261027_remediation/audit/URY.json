@@ -1,0 +1,1031 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "URY",
+  "candidate_path": "countries/URY/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 4,
+    "evidence_count": 15,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 15
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 14,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "URY-E-106",
+          "URY-E-111",
+          "URY-E-112",
+          "URY-E-114",
+          "URY-E-115"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "URY-E-102",
+          "URY-E-103",
+          "URY-E-104",
+          "URY-E-107",
+          "URY-E-108",
+          "URY-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "URY-E-101",
+          "URY-E-105",
+          "URY-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "URY-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "URY-E-101",
+          "URY-E-102",
+          "URY-E-103",
+          "URY-E-104",
+          "URY-E-105",
+          "URY-E-106",
+          "URY-E-107",
+          "URY-E-111",
+          "URY-E-112",
+          "URY-E-113",
+          "URY-E-114",
+          "URY-E-115"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/URY/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "URY-SRC-101",
+      "title": "Evaluación multi-amenaza en cuatro zonas del Uruguay, considerando escenarios de cambio climático. Etapa C: Informe preliminar, Producto 3",
+      "organization": "Factor CO2 for Uruguay's NAP Ciudades project, with DINAGUA and DINAMA counterparts",
+      "publication_date": "2020-04-22",
+      "publication_date_basis": "document-version",
+      "url": "https://www.gub.uy/ministerio-ambiente/sites/ministerio-ambiente/files/documentos/publicaciones/Evaluaci%C3%B3n%20multiamenazas_vulnerabilid%20y%20riesgo%20por%20zona.pdf",
+      "geographic_coverage": [
+        "Juan Lacaze",
+        "Rivera",
+        "Canelones",
+        "Arroyo Pantanoso, Montevideo"
+      ],
+      "temporal_coverage": "Report delivered 22 April 2020; local vulnerability indicators use 2011 census data; climate projections cover 2020–2044 and 2045–2099.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "URY-E-101",
+        "URY-E-102",
+        "URY-E-103",
+        "URY-E-104",
+        "URY-E-105",
+        "URY-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 29-page PDF opened; physical pp.7–8, 19–23 and 25–27 reviewed.",
+          "notes": "Cover states delivery date 22 April 2020; report is explicitly preliminary and uses 2011 census data.",
+          "reuse_terms": "No reuse terms identified in inspected PDF.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "URY-SRC-102",
+      "title": "Uruguay: 2024 Article IV Consultation—Staff Report, IMF Country Report No. 24/215",
+      "organization": "International Monetary Fund",
+      "publication_date": "2024-06-14",
+      "publication_date_basis": "document-version",
+      "url": "https://www.imf.org/-/media/files/publications/cr/2024/english/1uryea2024001-print-pdf.pdf",
+      "geographic_coverage": [
+        "Uruguay",
+        "Colonia",
+        "Durazno",
+        "Flores",
+        "Paysandú",
+        "Río Negro",
+        "San José",
+        "Soriano"
+      ],
+      "temporal_coverage": "Article IV report completed 14 June 2024; drought analysis includes 2022Q4–2023Q2 and the SMDI reference series 2000–2023.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "URY-E-107",
+        "URY-E-108",
+        "URY-E-109",
+        "URY-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 81-page IMF report opened; physical pp.41–42 (printed pp.37–38), Annex I reviewed.",
+          "notes": "Cover and report metadata identify IMF Country Report 24/215, completed 14 June 2024 and issued July 2024.",
+          "reuse_terms": "No reuse terms identified in inspected report.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "URY-SRC-103",
+      "title": "Informe de situación por inundaciones - Fin de la emergencia (08/01/24)",
+      "organization": "Sistema Nacional de Emergencias, Uruguay",
+      "publication_date": "2024-01-08",
+      "publication_date_basis": "publication",
+      "url": "https://www.gub.uy/sistema-nacional-emergencias/comunicacion/noticias/informe-situacion-inundaciones-fin-emergencia-080124",
+      "geographic_coverage": [
+        "Artigas",
+        "Bella Unión",
+        "Cerro Largo",
+        "Paysandú",
+        "Salto",
+        "Tacuarembó",
+        "lower Uruguay River basin"
+      ],
+      "temporal_coverage": "Closeout of the 80-day Uruguay River flood emergency of October 2023–January 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "URY-E-111",
+        "URY-E-112",
+        "URY-E-113"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Complete official SINAE page opened; event evolution, local impact and response sections reviewed.",
+          "notes": "Page is dated 8 January 2024 and reports closeout of the 2023 Uruguay River flood emergency.",
+          "reuse_terms": "No reuse terms identified on the opened page.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "URY-SRC-104",
+      "title": "Balance anual de emergencias: los eventos adversos más significativos de 2024",
+      "organization": "Sistema Nacional de Emergencias, Uruguay",
+      "publication_date": "2025-01-10",
+      "publication_date_basis": "publication",
+      "url": "https://www.gub.uy/sistema-nacional-emergencias/comunicacion/noticias/balance-anual-emergencias-eventos-adversos-significativos-2024",
+      "geographic_coverage": [
+        "Uruguay",
+        "Canelones",
+        "Durazno",
+        "Florida",
+        "San José",
+        "Santa Lucía",
+        "25 de Agosto"
+      ],
+      "temporal_coverage": "Annual emergency balance for 2024, published 10 January 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "URY-E-114",
+        "URY-E-115"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Complete official SINAE page opened; hydrometeorological event table, department ranking and March–April flood details reviewed.",
+          "notes": "Page dated 10 January 2025; narrative total conflicts with table total, so only flood-row values and event-specific counts are used.",
+          "reuse_terms": "No reuse terms identified on the opened page.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "URY-E-114",
+        "selected_source_id": "URY-SRC-104",
+        "url": "https://www.gub.uy/sistema-nacional-emergencias/comunicacion/noticias/balance-anual-emergencias-eventos-adversos-significativos-2024",
+        "locator": "Official page, Eventos hidrometeorológicos table, flood row and department summaries.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 48371,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "URY-E-114"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "URY-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "URY-SRC-101",
+          "locator": "PDF physical pp.7–8 (printed pp.5–6), objectives and study coverage."
+        }
+      ],
+      "geographies": [
+        "Juan Lacaze",
+        "Rivera",
+        "Canelones",
+        "Arroyo Pantanoso, Montevideo"
+      ],
+      "affected_groups": [
+        "urban residents",
+        "peri-urban producers",
+        "tourism-dependent residents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-04-22 reports: Study covers Juan Lacaze, Rivera, Canelones and Arroyo Pantanoso in Montevideo to identify urban risk and priority zones.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "URY-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "URY-SRC-101",
+          "locator": "PDF physical pp.19–20 (printed pp.17–18), vulnerability index inputs."
+        }
+      ],
+      "geographies": [
+        "Juan Lacaze",
+        "Rivera",
+        "Canelones",
+        "Arroyo Pantanoso, Montevideo"
+      ],
+      "affected_groups": [
+        "children",
+        "older people",
+        "people with severe disabilities",
+        "households with insecure tenure",
+        "informal-settlement residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-04-22 reports: 2011 census-block indicators include age under 15 or over 65, severe disability, crowding, insecure tenure, substandard housing, lack of piped water or sanitation, and informal settlements.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "URY-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "URY-SRC-101",
+          "locator": "PDF physical pp.22–23 (printed pp.20–21), hazard-specific vulnerability criteria."
+        }
+      ],
+      "geographies": [
+        "Juan Lacaze",
+        "Rivera",
+        "Canelones",
+        "Arroyo Pantanoso, Montevideo"
+      ],
+      "affected_groups": [
+        "older people",
+        "people with disabilities",
+        "water-insecure households",
+        "crowded households",
+        "informal-settlement residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-04-22 reports: Heat vulnerability combines hazard with age, disability, water access and crowding; flood with crowding, sanitation, insecure tenure and informal settlements.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "URY-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "URY-SRC-101",
+          "locator": "PDF physical p.19 (printed p.16), sewer-network exposure indicator."
+        }
+      ],
+      "geographies": [
+        "Juan Lacaze"
+      ],
+      "affected_groups": [
+        "Juan Lacaze residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-04-22 reports: Juan Lacaze had no sewer network in study data; lower coverage counted as higher hydrometeorological exposure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "URY-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "URY-SRC-101",
+          "locator": "PDF physical p.27 (printed p.24), adaptation-capacity section."
+        }
+      ],
+      "geographies": [
+        "Juan Lacaze",
+        "Rivera",
+        "Canelones",
+        "Arroyo Pantanoso, Montevideo"
+      ],
+      "affected_groups": [
+        "urban residents",
+        "local communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-04-22 reports: Local capacity review considers risk maps, risk-informed plans, early warning and government/community coordination.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "URY-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "URY-SRC-101",
+          "locator": "PDF physical pp.11 and 25–27 (printed pp.8 and 22–24), projection periods and risk-map caveat."
+        }
+      ],
+      "geographies": [
+        "Juan Lacaze",
+        "Rivera",
+        "Canelones",
+        "Arroyo Pantanoso, Montevideo"
+      ],
+      "affected_groups": [
+        "urban residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "SSP/CMIP6; flood/drainage projections not hydrologically recalculated.",
+      "compact_statement": "Source dated 2020-04-22 reports: Maps project hazards to 2044 and 2099; flood and drainage areas remain unchanged without hydrological modeling.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "URY-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "URY-SRC-102",
+          "locator": "PDF physical p.42 (printed p.37), Annex I paragraph 1 and soil-moisture data footnote."
+        }
+      ],
+      "geographies": [
+        "Colonia",
+        "Durazno",
+        "Flores",
+        "Paysandú",
+        "Río Negro",
+        "San José",
+        "Soriano"
+      ],
+      "affected_groups": [
+        "farmers",
+        "rural households",
+        "agricultural workers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The IMF reports a national agricultural-output decline of 25% year-on-year between late 2022 and mid-2023 during severe drought. Its soil-moisture modeling particularly covers Colonia, Durazno, Flores, Paysandú, Río Negro, San José and Soriano; the national loss is not assigned equally to those departments.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "URY-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "URY-SRC-102",
+          "locator": "PDF physical p.42 (printed p.37), Annex I paragraph 1."
+        }
+      ],
+      "geographies": [
+        "Uruguay"
+      ],
+      "affected_groups": [
+        "vulnerable groups",
+        "people forced to relocate"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The IMF's 2024 report describes rainfall/flood-related relocation and livelihood impacts for vulnerable groups during 2015–2019. The passage gives no locality, displacement duration or unique-person reconciliation; it does not establish violence or permanent migration.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "URY-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "URY-SRC-102",
+          "locator": "PDF physical p.43 (printed p.38), Annex I paragraph 4."
+        }
+      ],
+      "geographies": [
+        "Uruguay"
+      ],
+      "affected_groups": [
+        "agricultural workers",
+        "households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": "One-SD soil-moisture deficit in SVAR/DSGE; not an emissions scenario.",
+      "compact_statement": "The IMF's modeled one-standard-deviation soil-moisture deficit shock produces a peak GDP contraction around 0.3% after three quarters, with primary-sector effects persisting for two years in SVAR and up to five in DSGE. This is a model experiment, not an observed or calendar-year forecast.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "URY-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "URY-SRC-102",
+          "locator": "PDF physical p.42 (printed p.37), Annex I paragraph 2."
+        }
+      ],
+      "geographies": [
+        "Uruguay"
+      ],
+      "affected_groups": [
+        "national and local service users"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-06-14 reports: Authorities modeled drought, excess-rainfall and coastal-flood fiscal impacts for budget integration after recurring responses pressured fiscal space.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "URY-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "URY-SRC-103",
+          "locator": "Official page, event summary and evolution, paragraphs on the 80-day emergency and peak displacement."
+        }
+      ],
+      "geographies": [
+        "Artigas",
+        "Cerro Largo",
+        "Paysandú",
+        "Salto",
+        "Tacuarembó",
+        "Bella Unión"
+      ],
+      "affected_groups": [
+        "displaced households",
+        "self-evacuated households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-01-08 reports: The October 2023–January 2024 Uruguay River flood affected Artigas, Cerro Largo, Paysandú, Salto and Tacuarembó; peak displacement was 3,511 people, over 90% self-evacuated, with the largest counts in Paysandú, Salto and Artigas.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "URY-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "URY-SRC-103",
+          "locator": "Official page, local impact sections for Paysandú and Salto, paragraphs naming most affected zones."
+        }
+      ],
+      "geographies": [
+        "Paysandú",
+        "Diagonal San Félix",
+        "Unión Portuaria",
+        "Salto",
+        "Arenitas Blancas",
+        "Parque Harriague"
+      ],
+      "affected_groups": [
+        "residents of flood-affected urban sites"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-01-08 reports: In Paysandú, Diagonal San Félix, the waterfront, Unión Portuaria and the racetrack vicinity were among the hardest-hit areas; in Salto, the waterfront, Arenitas Blancas and Parque Harriague were most affected.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "URY-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "URY-SRC-103",
+          "locator": "Official page, Actions de respuesta section, paragraphs on SATI, protocol and departmental preparation."
+        }
+      ],
+      "geographies": [
+        "Bella Unión",
+        "Paysandú",
+        "Salto",
+        "Artigas"
+      ],
+      "affected_groups": [
+        "at-risk households",
+        "evacuees",
+        "self-evacuees"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-01-08 reports: The lower Uruguay River SATI combines meteorological and hydrological forecasts; early warning enabled evacuation before floodwater reached homes, while departmental committees prepared response resources and evacuation centers.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "URY-E-114",
+      "record_review": "manual-source-access-limited",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "URY-SRC-104",
+          "locator": "Official page, Eventos hidrometeorológicos table, flood row and department summaries."
+        }
+      ],
+      "geographies": [
+        "Durazno",
+        "San José",
+        "Paysandú",
+        "Florida",
+        "Uruguay"
+      ],
+      "affected_groups": [
+        "women",
+        "men",
+        "adults",
+        "minors",
+        "flood-affected households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-01-10 reports: SINAE's 2024 table attributes 13,682 affected people and 5,090 affected homes to 40 floods; flood-row counts include 7,252 women, 6,430 men, 9,065 adults and 4,617 minors. Durazno, San José, Paysandú and Florida had the most people affected overall.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "URY-E-114",
+        "source_id": "URY-SRC-104",
+        "url": "https://www.gub.uy/sistema-nacional-emergencias/comunicacion/noticias/balance-anual-emergencias-eventos-adversos-significativos-2024",
+        "locator": "Official page, Eventos hidrometeorológicos table, flood row and department summaries.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "manual_adjudication_completed": true,
+        "verification_note": "The follow-up HTTPS connection was closed by the remote host, leaving no readable window for checking numeric table rows."
+      },
+      "verification_note": "The follow-up HTTPS connection was closed by the remote host, leaving no readable window for checking numeric table rows.",
+      "manual_adjudication": {
+        "status": "unresolved",
+        "reviewed_on": "2026-10-27",
+        "source_id": "URY-SRC-104",
+        "source_url": "https://www.gub.uy/sistema-nacional-emergencias/comunicacion/noticias/balance-anual-emergencias-eventos-adversos-significativos-2024",
+        "locator": "Official page, Eventos hidrometeorológicos table, flood row and department summaries.",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The follow-up HTTPS connection was closed by the remote host, leaving no readable window for checking numeric table rows.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      }
+    },
+    {
+      "record_id": "URY-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "URY-SRC-104",
+          "locator": "Official page, paragraphs on the 8 March–5 April 2024 flood emergency."
+        }
+      ],
+      "geographies": [
+        "Santa Lucía",
+        "Canelones",
+        "25 de Agosto",
+        "Florida",
+        "13 departments"
+      ],
+      "affected_groups": [
+        "displaced people",
+        "evacuees",
+        "self-evacuees"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-01-10 reports: March rainfall totals doubled usual monthly averages; flooding reached Santa Lucía and 25 de Agosto in Canelones and Florida, places described as historically unaffected, and displaced 8,268 people across 13 departments.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "URY-E-114",
+  "source_access_review": {
+    "selected_record_id": "URY-E-114",
+    "selected_source_id": "URY-SRC-104",
+    "url": "https://www.gub.uy/sistema-nacional-emergencias/comunicacion/noticias/balance-anual-emergencias-eventos-adversos-significativos-2024",
+    "locator": "Official page, Eventos hidrometeorológicos table, flood row and department summaries.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 48371,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The follow-up HTTPS connection was closed by the remote host, leaving no readable window for checking numeric table rows."
+  },
+  "checks": [
+    {
+      "record_id": "URY-E-114",
+      "source_id": "URY-SRC-104",
+      "locator": "Official page, Eventos hidrometeorológicos table, flood row and department summaries.",
+      "verification_status": "unresolved",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "URY-E-114: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "URY-E-101",
+    "URY-E-102",
+    "URY-E-103",
+    "URY-E-104",
+    "URY-E-105",
+    "URY-E-106",
+    "URY-E-107",
+    "URY-E-108",
+    "URY-E-109",
+    "URY-E-110",
+    "URY-E-111",
+    "URY-E-112",
+    "URY-E-113",
+    "URY-E-114",
+    "URY-E-115"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

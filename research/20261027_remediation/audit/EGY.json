@@ -1,0 +1,724 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "EGY",
+  "candidate_path": "countries/EGY/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 4,
+    "evidence_count": 9,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 9
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 1,
+      "access-only": 8
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "EGY-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "EGY-E-103",
+          "EGY-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "EGY-E-101",
+          "EGY-E-105",
+          "EGY-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "EGY-E-102",
+          "EGY-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "EGY-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "EGY-E-101",
+          "EGY-E-102",
+          "EGY-E-108",
+          "EGY-E-109"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/EGY/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "EGY-SRC-101",
+      "title": "Egypt's First Biennial Transparency Report",
+      "organization": "Government of Egypt, Ministry of Environment",
+      "publication_date": "2025-09-17",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/resource/Egypt_BTR1_draft-%20Report_17September2025%20_TC_final.pdf",
+      "geographic_coverage": [
+        "Egypt",
+        "Nile Delta",
+        "Rosetta",
+        "Northern Delta",
+        "Alexandria",
+        "Upper Egypt"
+      ],
+      "temporal_coverage": "Historical hazards and 2024 baseline, with adaptation plans and projections to 2100.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "EGY-E-101",
+        "EGY-E-102",
+        "EGY-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Opened the original 327-page government report; cited sections are PDF pp. 197–200.",
+          "notes": "Cover states 17 September 2025; project/target language is not treated as independently evaluated capacity.",
+          "reuse_terms": "Terms not separately reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "EGY-E-101",
+        "selected_source_id": "EGY-SRC-101",
+        "url": "https://unfccc.int/sites/default/files/resource/Egypt_BTR1_draft-%20Report_17September2025%20_TC_final.pdf",
+        "locator": "PDF p. 200 (printed p. 201), coastal vulnerability section.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 212,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "EGY-SRC-102",
+      "title": "Egypt Country Climate and Development Report: Executive Summary",
+      "organization": "World Bank Group",
+      "publication_date": "2022-11-08",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099510111012223183/pdf/P17729202697b10e00926101dbe509e65cd.pdf",
+      "geographic_coverage": [
+        "Egypt",
+        "Nile Delta",
+        "Egyptian cities"
+      ],
+      "temporal_coverage": "Country climate-development analysis published in 2022; includes scenarios through 2030 and 2037.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "EGY-E-104",
+        "EGY-E-105",
+        "EGY-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Opened the original 15-page executive summary; claims use PDF pp. 2–3.",
+          "notes": "Executive summary inspected directly; projections retain their source-stated assumptions.",
+          "reuse_terms": "World Bank permits attributed noncommercial reproduction; paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "EGY-SRC-103",
+      "title": "Egypt's Updated Nationally Determined Contributions",
+      "organization": "Government of Egypt",
+      "publication_date": "2023-06-26",
+      "publication_date_basis": "submission",
+      "url": "https://unfccc.int/sites/default/files/NDC/2023-06/Egypts%20Updated%20First%20Nationally%20Determined%20Contribution%202030%20%28Second%20Update%29.pdf",
+      "geographic_coverage": [
+        "Egypt",
+        "Nile Valley",
+        "Nile Delta"
+      ],
+      "temporal_coverage": "NDC update covering 2015–2030, with national water context through 2050.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "EGY-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Opened the original 47-page NDC; claim uses PDF p. 3.",
+          "notes": "NDC submitted in June 2023; not treated as the latest 2026 status.",
+          "reuse_terms": "Terms not reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "EGY-SRC-104",
+      "title": "Project to Enhance Climate Change Adaptation in the Nile Delta and North Coast",
+      "organization": "Egyptian Ministry of Water Resources and Irrigation",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.mwri.gov.eg/?lang=en&page_id=33323",
+      "geographic_coverage": [
+        "Kafr El-Sheikh",
+        "Beheira",
+        "Port Said",
+        "Dakahlia",
+        "New Damietta",
+        "Egyptian Mediterranean coast"
+      ],
+      "temporal_coverage": "Project description accessed in 2026; coastal planning scenarios extend to 2100.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "EGY-E-108",
+        "EGY-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly opened the ministry project page; claims use Project Overview and Objectives.",
+          "notes": "The substantive project text appears below a generic site header; the page gives no publication date.",
+          "reuse_terms": "Terms not reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "EGY-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "EGY-SRC-101",
+          "locator": "PDF p. 200 (printed p. 201), coastal vulnerability section."
+        }
+      ],
+      "geographies": [
+        "Rosetta",
+        "Nile Delta"
+      ],
+      "affected_groups": [
+        "farmers",
+        "coastal communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The September 2025 BTR describes historical salinity intrusion and damage to Rosetta's coastal agriculture and freshwater. Its salinity unit and underlying studies need confirmation before the percentage is reused.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET; HTML visible-text extraction",
+      "verification_attempt": {
+        "selected_record_id": "EGY-E-101",
+        "selected_source_id": "EGY-SRC-101",
+        "url": "https://unfccc.int/sites/default/files/resource/Egypt_BTR1_draft-%20Report_17September2025%20_TC_final.pdf",
+        "locator": "PDF p. 200 (printed p. 201), coastal vulnerability section.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 212,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "EGY-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "EGY-SRC-101",
+          "locator": "One-based PDF pp. 198–199 (printed 198–199), section 4.5.3"
+        }
+      ],
+      "geographies": [
+        "Northern Delta",
+        "Egypt"
+      ],
+      "affected_groups": [
+        "farmers",
+        "rural households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2025 BTR reports an irrigation-modernization programme covering a stated four-million-feddan ambition, with an expected 20% water-efficiency gain. These are reported implementation scope and targets, not independently verified achieved savings.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check",
+        "programme_intent_and_outcome_terms_co-occur"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "EGY-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "EGY-SRC-101",
+          "locator": "One-based PDF p. 201, historical natural-hazard account"
+        }
+      ],
+      "geographies": [
+        "Egypt"
+      ],
+      "affected_groups": [
+        "displaced people",
+        "urban households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2025 BTR cites severe 2010 floods as displacing thousands and damaging more than 4,000 houses. This is historical disaster exposure, not a current displacement estimate or attribution to anthropogenic climate change.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "EGY-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "EGY-SRC-102",
+          "locator": "Executive Summary, PDF pp. 2–3."
+        }
+      ],
+      "geographies": [
+        "Nile Delta",
+        "14 major cities in Egypt"
+      ],
+      "affected_groups": [
+        "urban residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-11-08 reports: The World Bank estimates over 80% of residents in Egypt's 14 major cities are exposed to at least one major climate risk; the Nile Delta is about one metre above mean sea level.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "EGY-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "EGY-SRC-102",
+          "locator": "Executive Summary, PDF p. 3."
+        }
+      ],
+      "geographies": [
+        "Egyptian cities"
+      ],
+      "affected_groups": [
+        "poor urban residents",
+        "slum residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-11-08 reports: The report says poor urban residents are more likely to live on hazardous sites or in slums, face higher pollution and congestion, and lack assets or skills to cope with shocks.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "EGY-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "EGY-SRC-102",
+          "locator": "Executive Summary, PDF pp. 2–3."
+        }
+      ],
+      "geographies": [
+        "Egypt",
+        "High Aswan Dam command area"
+      ],
+      "affected_groups": [
+        "irrigated farmers",
+        "agricultural workers"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": "The summary states the water-scarcity assumption but does not identify a climate scenario for these figures.",
+      "compact_statement": "Source dated 2022-11-08 reports: The report projects that lower Nile inflows could reduce irrigated land by 22%, output per irrigated hectare by 11% and agricultural employment by 9%; its extreme-water-scarcity estimate is 2033 if resources and population trends persist.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "EGY-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "EGY-SRC-103",
+          "locator": "PDF p. 3, National Circumstances."
+        }
+      ],
+      "geographies": [
+        "Nile Valley",
+        "Nile Delta",
+        "Egypt"
+      ],
+      "affected_groups": [
+        "residents dependent on Nile water"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-06-26 reports: The 2023 NDC reports that 95% of Egypt's population lives in the Nile Valley and Delta; it records 55.5 BCM annual Nile supply against estimated needs of 114 BCM and a 97% external renewable-water dependency ratio.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "EGY-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "EGY-SRC-104",
+          "locator": "Project Overview and Objectives, lines 120–129."
+        }
+      ],
+      "geographies": [
+        "Kafr El-Sheikh",
+        "Beheira",
+        "Port Said",
+        "Dakahlia",
+        "New Damietta",
+        "Egyptian Mediterranean coast"
+      ],
+      "affected_groups": [
+        "coastal residents",
+        "farmers"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": "The strategic plan assesses sea-level impacts on groundwater and sedimentation under scenarios to 2100.",
+      "compact_statement": "Source dated not stated reports: The ministry describes GCF-backed nature-based protection for 69 km across Kafr El-Sheikh, Beheira, Port Said, Dakahlia and New Damietta, alongside a planned integrated-management strategy for 1,200 km of Mediterranean coast.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "EGY-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "EGY-SRC-104",
+          "locator": "Project Objectives, lines 127–129."
+        }
+      ],
+      "geographies": [
+        "Nile Delta",
+        "New Damietta"
+      ],
+      "affected_groups": [
+        "small farmers",
+        "fishers",
+        "local residents"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The coastal project also proposes small livelihood pilots with civil-society and research partners, including greenhouses and fishing-net support for local residents and small farmers.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "EGY-E-101",
+  "source_access_review": {
+    "selected_record_id": "EGY-E-101",
+    "selected_source_id": "EGY-SRC-101",
+    "url": "https://unfccc.int/sites/default/files/resource/Egypt_BTR1_draft-%20Report_17September2025%20_TC_final.pdf",
+    "locator": "PDF p. 200 (printed p. 201), coastal vulnerability section.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "document-fetched",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 212,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null
+  },
+  "checks": [
+    {
+      "record_id": "EGY-E-101",
+      "source_id": "EGY-SRC-101",
+      "locator": "PDF p. 200 (printed p. 201), coastal vulnerability section.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET; HTML visible-text extraction",
+      "access_date": "2026-10-27",
+      "source_access_status": "document-fetched",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "EGY-E-101: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "EGY-E-101",
+    "EGY-E-102",
+    "EGY-E-103",
+    "EGY-E-104",
+    "EGY-E-105",
+    "EGY-E-106",
+    "EGY-E-107",
+    "EGY-E-108",
+    "EGY-E-109"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

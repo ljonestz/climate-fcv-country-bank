@@ -1,0 +1,2039 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "YEM",
+  "candidate_path": "countries/YEM/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 18,
+    "evidence_count": 24,
+    "pathway_count": 5,
+    "evidence_source_reference_count": 32
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 15,
+      "access-only": 9
+    },
+    "pathway_claims": {
+      "unresolved": 5
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "YEM-E-001",
+          "YEM-E-002"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "YEM-E-003",
+          "YEM-E-016"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "YEM-E-004",
+          "YEM-E-005",
+          "YEM-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "YEM-E-006",
+          "YEM-E-007"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "YEM-E-008",
+          "YEM-E-104",
+          "YEM-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "YEM-E-010",
+          "YEM-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "YEM-E-011",
+          "YEM-E-012",
+          "YEM-E-103",
+          "YEM-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "YEM-E-013",
+          "YEM-E-014",
+          "YEM-E-101",
+          "YEM-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "YEM-E-015",
+          "YEM-E-102"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "YEM-E-101",
+          "YEM-E-102",
+          "YEM-E-103",
+          "YEM-E-104",
+          "YEM-E-105",
+          "YEM-E-106",
+          "YEM-E-108"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "YEM-P-001",
+          "YEM-P-002",
+          "YEM-P-003",
+          "YEM-P-004",
+          "YEM-P-006"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/YEM/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "YEM-SRC-001",
+      "title": "Yemen Country Climate and Development Report: Policy Note",
+      "organization": "World Bank Group",
+      "publication_date": "2024-11-19",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099111824082513798/pdf/P500638-020b843a-ad6e-479e-87c7-8d3ed64b0d9b.pdf",
+      "geographic_coverage": [
+        "Yemen, national with spatial exposure and sector modelling"
+      ],
+      "temporal_coverage": "Recent baseline with projections mainly to 2050 and economic scenarios to 2040.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "open",
+      "records_using_source": [
+        "YEM-E-002",
+        "YEM-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "YEM-SRC-002",
+      "title": "Charting the Course: A Water Security Diagnostic for Yemen",
+      "organization": "World Bank Group",
+      "publication_date": "2024-11-19",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099111924095042411/pdf/P180386-56c03222-e166-42eb-9132-7409bcab5d7a.pdf",
+      "geographic_coverage": [
+        "Yemen, national with basin and city cases including Taiz"
+      ],
+      "temporal_coverage": "Structural history and conflict-era evidence through 2024.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "YEM-E-001",
+        "YEM-E-004",
+        "YEM-E-014"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "YEM-E-014",
+        "selected_source_id": "YEM-SRC-002",
+        "url": "https://documents1.worldbank.org/curated/en/099111924095042411/pdf/P180386-56c03222-e166-42eb-9132-7409bcab5d7a.pdf",
+        "locator": "Foreword and Executive Summary, conflict and water-management crisis",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "YEM-SRC-003",
+      "title": "Yemen's NDC 3.0 Vision",
+      "organization": "Republic of Yemen and United Nations Framework Convention on Climate Change",
+      "publication_date": "2025-11-17",
+      "publication_date_basis": "submission",
+      "url": "https://unfccc.int/sites/default/files/2025-11/Yemens%20NDC3.0%20Vision.pdf",
+      "geographic_coverage": [
+        "Yemen, national and sectoral"
+      ],
+      "temporal_coverage": "Historical climate 1971-2020, mid-century projections, and policy roadmap through 2035.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "YEM-E-002",
+        "YEM-E-008"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "YEM-SRC-004",
+      "title": "Water-related Conflict Assessment Report",
+      "organization": "United Nations Development Programme Yemen",
+      "publication_date": "2023-09",
+      "publication_date_basis": "document-version",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2024-06/Water-related%20Conflict%20Assessment%20Report_2024_1.pdf",
+      "geographic_coverage": [
+        "Selected districts in Abyan, Hadramawt, and Dhamar"
+      ],
+      "temporal_coverage": "Field and project evidence mainly from 2022-2023.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "YEM-E-013",
+        "YEM-E-015"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "YEM-SRC-005",
+      "title": "Climate, Peace and Security Fact Sheet: Yemen 2023",
+      "organization": "Stockholm International Peace Research Institute and Norwegian Institute of International Affairs",
+      "publication_date": "2023-06",
+      "publication_date_basis": "publication",
+      "url": "https://www.sipri.org/sites/default/files/2023-06/2023_sipri-nupi_fact_sheet_yemen_june.pdf",
+      "geographic_coverage": [
+        "Yemen, national with selected local examples"
+      ],
+      "temporal_coverage": "Conflict period through 2023.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "YEM-E-013"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "YEM-SRC-006",
+      "title": "Climate and Health Vulnerability Assessment: Republic of Yemen",
+      "organization": "World Bank Group",
+      "publication_date": "2025-02-04",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099020425113010914/pdf/P501993-2ebe8a64-7a66-426f-a7f3-1721779b8ed3.pdf",
+      "geographic_coverage": [
+        "Yemen, national, district, and health-facility"
+      ],
+      "temporal_coverage": "Recent baseline with CMIP6 projections to mid-century.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "YEM-E-002",
+        "YEM-E-016"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "YEM-SRC-007",
+      "title": "Yemen, Government-Controlled Areas: Acute Food Insecurity Analysis, March-December 2026",
+      "organization": "Integrated Food Security Phase Classification",
+      "publication_date": "2026-06-23",
+      "publication_date_basis": "publication",
+      "url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Yemen_GoY_Acute_Food_Insecurity_Mar_Dec2026_Report.pdf",
+      "geographic_coverage": [
+        "118 districts in 12 Government of Yemen-controlled governorates"
+      ],
+      "temporal_coverage": "March-December 2026 analysis and projection periods.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "YEM-E-005"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "YEM-SRC-008",
+      "title": "Independent Country Programme Evaluation: Yemen",
+      "organization": "United Nations Development Programme Independent Evaluation Office",
+      "publication_date": "2025-04-14",
+      "publication_date_basis": "publication",
+      "url": "https://erc.undp.org/evaluation/documents/download/24377",
+      "geographic_coverage": [
+        "Yemen with fieldwork in seven governorates"
+      ],
+      "temporal_coverage": "UNDP country programme 2022-2025.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "YEM-E-010"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "YEM-SRC-009",
+      "title": "Inter-Agency Humanitarian Evaluation of the Yemen Crisis",
+      "organization": "Inter-Agency Standing Committee",
+      "publication_date": "2022-07-14",
+      "publication_date_basis": "publication",
+      "url": "https://www.unhcr.org/sites/default/files/legacy-pdf/63f894874.pdf",
+      "geographic_coverage": [
+        "Yemen with six-governorate survey and field evidence"
+      ],
+      "temporal_coverage": "Humanitarian response from 2015 through 2021.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "YEM-E-011"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "YEM-SRC-010",
+      "title": "Yemen Emergency Crisis Response Project P159053: Implementation Completion Report Review",
+      "organization": "World Bank Independent Evaluation Group",
+      "publication_date": "2023-08-29",
+      "publication_date_basis": "portal-publication",
+      "url": "https://documents1.worldbank.org/curated/en/099082923164015722/pdf/P159053154192c08f1a9281213e9202e4c1.pdf",
+      "geographic_coverage": [
+        "Yemen, project areas and participating local institutions"
+      ],
+      "temporal_coverage": "Emergency project implementation and completion through 2022.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "YEM-E-012"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "YEM-SRC-011",
+      "title": "Final Evaluation: Strengthening Institutional and Economic Resilience in Yemen",
+      "organization": "United Nations Development Programme and European Union external evaluation team",
+      "publication_date": "2025-08-28",
+      "publication_date_basis": "publication",
+      "url": "https://erc.undp.org/evaluation/documents/download/24918",
+      "geographic_coverage": [
+        "Nine governorates and 47 districts"
+      ],
+      "temporal_coverage": "Programme implementation through 2025.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "YEM-E-010",
+        "YEM-E-012",
+        "YEM-E-015"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "YEM-SRC-012",
+      "title": "Conflict Resilience of Water and Energy Supply Infrastructure: Insights from Yemen",
+      "organization": "Al-Saidi, Roach, and Al-Saeedi, Water",
+      "publication_date": "2020-11-21",
+      "publication_date_basis": "publication",
+      "url": "https://www.mdpi.com/2073-4441/12/11/3269",
+      "geographic_coverage": [
+        "Urban Yemen, including Sana'a and Taiz"
+      ],
+      "temporal_coverage": "Conflict-era evidence primarily from 2014-2019.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "open",
+      "records_using_source": [
+        "YEM-E-006",
+        "YEM-E-014"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "YEM-SRC-013",
+      "title": "Livelihood Resilience and Adaptation Practices Among Agricultural Communities in Yemen",
+      "organization": "Sana'a Center for Strategic Studies",
+      "publication_date": "2026-07-16",
+      "publication_date_basis": "publication",
+      "url": "https://sanaacenter.org/files/Livelihood_Resilience_and_Adaptation_Practices_Among_Agricultural_Communities_in_Yemen_en.pdf",
+      "geographic_coverage": [
+        "Six rural study areas in Abyan, Hadramawt, Marib, and Taiz"
+      ],
+      "temporal_coverage": "Fieldwork July-October 2025; publication 2026.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "YEM-E-005",
+        "YEM-E-007"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "YEM-SRC-101",
+      "title": "Undercurrents: How Conflict, Climate Change and the Environment Intersect in Yemen",
+      "organization": "adelphi research and the European Institute of Peace, under the Weathering Risk Peace Pillar",
+      "publication_date": "2024-12",
+      "publication_date_basis": "publication",
+      "url": "https://weatheringrisk.org/sites/default/files/document/Undercurrents_Yemen.pdf",
+      "geographic_coverage": [
+        "Yemen",
+        "Abyan Governorate",
+        "Khanfar District",
+        "Wadi Bana",
+        "Sana'a",
+        "Al-Malakha",
+        "Taiz",
+        "Aden"
+      ],
+      "temporal_coverage": "Primary fieldwork in 2023–2024 and reported conditions/cases through 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "YEM-E-101",
+        "YEM-E-102"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 40-page PDF, especially methodology and printed pp. 19, 23.",
+          "notes": "Full publisher-hosted report read directly; local cases distinguish source-reported pathways from interview-based fears and study limitations.",
+          "reuse_terms": "CC BY-ND 4.0 as stated in report imprint; claims are original factual paraphrases, with no figures or graphics reproduced.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "YEM-SRC-102",
+      "title": "UNDP Yemen: Building Resilience: Supporting Farmers to Face the Impact of Climate Change in Yemen",
+      "organization": "United Nations Development Programme, published by United Nations in Yemen",
+      "publication_date": "2024-03-01",
+      "publication_date_basis": "publication",
+      "url": "https://yemen.un.org/en/262068-undp-yemen-building-resilience-supporting-farmers-face-impact-climate-change-yemen",
+      "geographic_coverage": [
+        "Hodeidah Governorate",
+        "Al-Sukhnah District",
+        "Al-Mansouriyah District",
+        "Al-Sanif village"
+      ],
+      "temporal_coverage": "FSRRP implementation and farmer accounts reported in March 2024, with project photos dated 2023.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "YEM-E-103",
+        "YEM-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete publisher body, especially ‘Floods and rising temperatures,’ ‘Empowering women farmers’ and ‘Enhancing food security.’",
+          "notes": "Directly read the UN in Yemen publisher page; outputs and farmer statements remain programme-attributed.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "YEM-SRC-103",
+      "title": "From Seasonal to Sustainable: Year-Round Farming",
+      "organization": "Food and Agriculture Organization of the United Nations (FAO)",
+      "publication_date": "2026-02-05",
+      "publication_date_basis": "publication",
+      "url": "https://www.fao.org/yemen/stories/detail/from-seasonal-to-sustainable--year-round-farming/en",
+      "geographic_coverage": [
+        "Shibam District",
+        "Wadi Bin Ali",
+        "Hadramawt Governorate"
+      ],
+      "temporal_coverage": "FAO-supported Shibam interventions and farmer accounts reported in February 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "YEM-E-105",
+        "YEM-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete FAO feature page, especially ‘Seasonal agriculture,’ ‘Response’ and ‘Aspirations and impact.’",
+          "notes": "Publisher body read directly; distinguishes one farmer's experience from programme-level reported outputs.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "YEM-SRC-104",
+      "title": "Addressing Community Needs While Redressing the Impact of Climate Change in Yemen",
+      "organization": "United Nations Development Programme, Regional Bureau for Arab States",
+      "publication_date": "2025-04-24",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/arab-states/stories/addressing-community-needs-while-redressing-impact-climate-change-yemen",
+      "geographic_coverage": [
+        "Yemen",
+        "Mukalla",
+        "Seiyun",
+        "Hadramaut Governorate",
+        "Aden Governorate",
+        "Dar Saad"
+      ],
+      "temporal_coverage": "SIERY project implementation and local authority actions reported in April 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "YEM-E-107",
+        "YEM-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete UNDP feature page, opening, disaster response and water-management sections.",
+          "notes": "Directly read the UNDP publisher page; programme reporting and broad climate-conflict statements are attributed to UNDP.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "YEM-SRC-105",
+      "title": "Cluster Evaluation of FAO Resilience Activities in Yemen 2018–2024",
+      "organization": "Food and Agriculture Organization of the United Nations (FAO), Office of Evaluation",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.fao.org/evaluation/list/evaluation-of-resilience-activities-in-yemen/en",
+      "geographic_coverage": [
+        "Yemen"
+      ],
+      "temporal_coverage": "FAO resilience activity period 2018–2024; date of the evaluation webpage not stated.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "YEM-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Official FAO publisher page, evaluation scope and findings summary paragraphs.",
+          "notes": "Official page was read; linked evaluation report returned HTTP 403, so only explicit publisher summary is used.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "YEM-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-002",
+          "locator": "section 3.1.1, printed p. 61, rainfall distribution and population concentration"
+        }
+      ],
+      "geographies": [
+        "western highlands",
+        "eastern plateau",
+        "interior deserts",
+        "Yemen"
+      ],
+      "affected_groups": [
+        "rural households",
+        "urban water users",
+        "farmers"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Structural aridity and topography create sharply differentiated water baselines.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "YEM-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "YEM-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-003",
+          "locator": "pp. 7-8, Tables 1-2 and vulnerability discussion"
+        },
+        {
+          "source_id": "YEM-SRC-001",
+          "locator": "Policy Note pp. 1-3, climate-risk and scenario summary"
+        },
+        {
+          "source_id": "YEM-SRC-006",
+          "locator": "pp. 19-24, climate projections and health-hazard indicators"
+        }
+      ],
+      "geographies": [
+        "Yemen",
+        "Aden",
+        "northern interior",
+        "highlands"
+      ],
+      "affected_groups": [
+        "outdoor workers",
+        "coastal communities",
+        "farmers"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "historical",
+        "medium-term"
+      ],
+      "scenario": "Historical 1971-2020 and mid-century SSP3-7.0 and CMIP6 projections",
+      "compact_statement": "Heat, rainfall variability, flood, drought, and coastal pressures are expected to intensify unevenly.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "YEM-SRC-001",
+        "YEM-SRC-003",
+        "YEM-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "YEM-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-001",
+          "locator": "Policy Note pp. 2-4, spatial exposure maps and population estimates"
+        }
+      ],
+      "geographies": [
+        "Yemen"
+      ],
+      "affected_groups": [
+        "hazard-exposed households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "current",
+        "medium-term"
+      ],
+      "scenario": "Policy-note spatial exposure modelling",
+      "compact_statement": "Millions face spatially differentiated heat, drought, or flood exposure.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "YEM-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "YEM-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-002",
+          "locator": "Executive Summary, printed pp. xiii-xiv, water deficit, inefficient use and unregulated groundwater abstraction"
+        }
+      ],
+      "geographies": [
+        "Yemen",
+        "major groundwater basins"
+      ],
+      "affected_groups": [
+        "smallholders",
+        "urban water users",
+        "rural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Demand, inefficient use and unregulated abstraction drive structural water scarcity, compounded by climate uncertainty.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "YEM-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "YEM-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-007",
+          "locator": "PDF pp. 1-2 and 19-20, October-December projection, drivers, methods and limitations"
+        },
+        {
+          "source_id": "YEM-SRC-013",
+          "locator": "pp. 31-35, social dynamics and marginalization"
+        }
+      ],
+      "geographies": [
+        "Government-controlled areas",
+        "Abyan",
+        "Hadramawt",
+        "Marib",
+        "Taiz"
+      ],
+      "affected_groups": [
+        "food-insecure households",
+        "women",
+        "displaced women",
+        "smallholders"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "current",
+        "near-term"
+      ],
+      "scenario": "IPC October-December 2026 projection published June 2026",
+      "compact_statement": "Food and livelihood vulnerability is severe, multi-driver, geographically partial, and socially differentiated.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "YEM-SRC-007",
+        "YEM-SRC-013"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "YEM-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-012",
+          "locator": "pp. 12-18, infrastructure adaptation and conclusions"
+        }
+      ],
+      "geographies": [
+        "Sana'a",
+        "Taiz",
+        "urban Yemen"
+      ],
+      "affected_groups": [
+        "urban households",
+        "low-income households",
+        "utility users"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Decentralized coping preserves some services while fragmenting systems and access.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "YEM-SRC-012"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "YEM-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-013",
+          "locator": "printed pp. 22-29, water governance, communal maintenance, crop switching, migration and solar-pumping distributional effects"
+        }
+      ],
+      "geographies": [
+        "six communities in Abyan, Hadramawt, Marib, and Taiz"
+      ],
+      "affected_groups": [
+        "smallholders",
+        "pastoralists",
+        "displaced people",
+        "poorer farmers"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Local adaptations offer continuity but may deepen aquifer and equity risks.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "YEM-SRC-013"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "YEM-E-008",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-003",
+          "locator": "pp. 2, 8, and 11-12, adaptation principles, Table 3, and finalization roadmap"
+        }
+      ],
+      "geographies": [
+        "Yemen"
+      ],
+      "affected_groups": [
+        "women",
+        "youth",
+        "displaced people",
+        "persons with disabilities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": "Roadmap 2026-2035",
+      "compact_statement": "The NDC Vision documents intended adaptive capacity, not delivered capacity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "YEM-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "YEM-E-010",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-008",
+          "locator": "pp. 5-9 and 45-55, evaluation findings, geographic limits, and sustainability"
+        },
+        {
+          "source_id": "YEM-SRC-011",
+          "locator": "pp. 4-10 and 70-83, findings, limitations, sustainability, and recommendations"
+        }
+      ],
+      "geographies": [
+        "seven evaluation governorates",
+        "nine governorates and 47 districts"
+      ],
+      "affected_groups": [
+        "service users",
+        "women",
+        "youth",
+        "displaced people",
+        "remote communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Local delivery capacity persists but is uneven and sustainability-constrained.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "YEM-SRC-008",
+        "YEM-SRC-011"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "YEM-E-011",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-009",
+          "locator": "pp. xii-xviii and 30-120, methods, findings, conclusions, and limitations"
+        }
+      ],
+      "geographies": [
+        "Yemen",
+        "six survey governorates"
+      ],
+      "affected_groups": [
+        "humanitarian recipients",
+        "persons with disabilities",
+        "hard-to-reach communities",
+        "women"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Large humanitarian reach coexists with targeting, accountability, localization, and outcome gaps.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "YEM-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "YEM-E-012",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-010",
+          "locator": "pp. 3-10 and 18-22, objectives, efficacy, monitoring, and lessons"
+        },
+        {
+          "source_id": "YEM-SRC-011",
+          "locator": "pp. 4-10 and 70-83, results, limitations, sustainability, and recommendations"
+        }
+      ],
+      "geographies": [
+        "project areas across Yemen",
+        "nine governorates and 47 districts"
+      ],
+      "affected_groups": [
+        "poor households",
+        "workers",
+        "service users",
+        "women",
+        "youth"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Programme outputs are better evidenced than durable welfare, peace, or resilience effects.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "YEM-SRC-010",
+        "YEM-SRC-011"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "YEM-E-013",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-004",
+          "locator": "PDF pp. 38-43, 60-61, 72-73 and 98-100, Khanfar/Zinjibar and Dhamar district evidence, hydrological-system recommendations and conflict-driver tables"
+        },
+        {
+          "source_id": "YEM-SRC-005",
+          "locator": "pp. 2-3, livelihood, mobility, and water-conflict pathways"
+        }
+      ],
+      "geographies": [
+        "selected districts in Abyan, Hadramawt, and Dhamar",
+        "selected Yemen examples"
+      ],
+      "affected_groups": [
+        "farmers",
+        "upstream users",
+        "downstream users",
+        "women",
+        "pastoralists"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Water-related conflict is conditional on governance, ownership, livelihoods, and authority.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "YEM-SRC-004",
+        "YEM-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "YEM-E-014",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-002",
+          "locator": "Foreword and Executive Summary, conflict and water-management crisis"
+        },
+        {
+          "source_id": "YEM-SRC-012",
+          "locator": "sections 4-6, infrastructure adaptation and conclusions"
+        }
+      ],
+      "geographies": [
+        "Yemen",
+        "Sana'a",
+        "Taiz"
+      ],
+      "affected_groups": [
+        "conflict-affected households",
+        "utility users",
+        "farmers",
+        "patients"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict has weakened and fragmented water and electricity systems needed for climate risk management.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "YEM-SRC-002",
+        "YEM-SRC-012"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "YEM-E-014",
+        "selected_source_id": "YEM-SRC-002",
+        "url": "https://documents1.worldbank.org/curated/en/099111924095042411/pdf/P180386-56c03222-e166-42eb-9132-7409bcab5d7a.pdf",
+        "locator": "Foreword and Executive Summary, conflict and water-management crisis",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "YEM-E-015",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-004",
+          "locator": "pp. 9-10 and 29-30, water-user associations and mediation recommendations"
+        },
+        {
+          "source_id": "YEM-SRC-011",
+          "locator": "pp. 49-58 and 70-83, local institutional results and sustainability"
+        }
+      ],
+      "geographies": [
+        "selected districts and programme areas"
+      ],
+      "affected_groups": [
+        "farmers",
+        "community members",
+        "women",
+        "service users"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Local institutions offer conditional resilience and dispute-management capacity.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "YEM-SRC-004",
+        "YEM-SRC-011"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "YEM-E-016",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-006",
+          "locator": "PDF pp. 37-38 (printed pp. 29-30), Figure 10; Annex C PDF p. 57 (printed p. 49)"
+        }
+      ],
+      "geographies": [
+        "190 districts",
+        "Al-Hodeidah",
+        "Hadramawt",
+        "Shabwah"
+      ],
+      "affected_groups": [
+        "patients",
+        "health workers",
+        "conflict-affected communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "2050 SSP3-7.0, 1 percent annual-probability flood",
+      "compact_statement": "Health-facility flood exposure intersects with fragile lifelines and access.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "YEM-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "YEM-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-101",
+          "locator": "PDF printed p. 19, case study 2, ‘Precipitation Changes and Combat Create Tensions over Water Resources in Khanfar, Abyan.’"
+        }
+      ],
+      "geographies": [
+        "Khanfar District",
+        "Wadi Bana",
+        "Abyan Governorate"
+      ],
+      "affected_groups": [
+        "farmers",
+        "downstream water users"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-12 reports: In Khanfar, climate-change-related rainfall shifts reportedly reduced Wadi Bana flow and irrigation; conflict had damaged or destroyed 85% of irrigation infrastructure by late 2023. Some farmers diverted water from downstream users, who feared violence.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "YEM-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-101",
+          "locator": "PDF printed p. 23, case study 5, ‘Women Lead Conflict Resolution in Al-Malakha, Sana'a.’"
+        }
+      ],
+      "geographies": [
+        "Al-Malakha",
+        "Sana'a"
+      ],
+      "affected_groups": [
+        "farmers",
+        "women"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-12 reports: In Al-Malakha, a dam serving about 350 farmers had been a violent conflict flashpoint. A women’s unit in the local WUA helped negotiate permitted shallow wells and a pipeline; the approach was replicated in 14 other villages with armed conflict.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "YEM-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-102",
+          "locator": "UN in Yemen page, ‘Floods and rising temperatures’ and ‘Enhancing food security’ sections."
+        }
+      ],
+      "geographies": [
+        "Al-Sukhnah District",
+        "Al-Mansouriyah District",
+        "Hodeidah Governorate"
+      ],
+      "affected_groups": [
+        "farmers",
+        "rural households"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-03-01 reports: In Al-Sukhnah and Al-Mansouriyah, Hodeidah, UNDP reports floods and heatwaves damaging farmland and crops; SFD reported 379 spillways across the districts, nearly 100 hectares benefited by reservoirs and 299 hectares protected by spillways.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "YEM-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-102",
+          "locator": "UN in Yemen page, ‘Empowering women farmers’ and ‘Combating drought and climate change’ sections."
+        }
+      ],
+      "geographies": [
+        "Sanif Al-Monasarah",
+        "Al-Mansouriyah District",
+        "Hodeidah Governorate"
+      ],
+      "affected_groups": [
+        "women farmers",
+        "smallholder households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-03-01 reports: A named farmer in Sanif Al-Monasarah, Al-Mansouriyah, said spillways prevented soil erosion and helped restore irrigation; a project account says the work enabled her to return to crop production after land degradation had stopped cultivation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "YEM-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-103",
+          "locator": "FAO feature, ‘Seasonal agriculture’ section."
+        }
+      ],
+      "geographies": [
+        "Wadi Bin Ali",
+        "Shibam District",
+        "Hadramawt Governorate"
+      ],
+      "affected_groups": [
+        "smallholder farmer"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02-05 reports: In Wadi Bin Ali, Shibam, a farmer reported leaving fields uncultivated for months because seasonal spate irrigation, damaged canals and poor floodwater retention constrained production; beekeeping supplemented income.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "YEM-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-103",
+          "locator": "FAO feature, ‘Response’ and ‘Aspirations and impact’ sections."
+        }
+      ],
+      "geographies": [
+        "Shibam District",
+        "Hadramawt Governorate"
+      ],
+      "affected_groups": [
+        "farmers",
+        "cash-for-work participants"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "FAO's February 2026 Shibam feature reports greenhouse distribution and cash-for-work, with 102 facilities targeted for rehabilitation and participant accounts of more regular production.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "YEM-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-104",
+          "locator": "UNDP page, opening paragraphs on resource management, recovery and peacebuilding."
+        }
+      ],
+      "geographies": [
+        "Yemen"
+      ],
+      "affected_groups": [
+        "conflict-affected communities",
+        "water users"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-04-24 reports: UNDP states that Yemen's climate and water pressures, compounded by conflict, have harmed resource management and impeded recovery and peacebuilding.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "YEM-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-104",
+          "locator": "UNDP page, ‘Disaster response and waste management’ and ‘Canal rehabilitation in Hadramaut’ sections."
+        }
+      ],
+      "geographies": [
+        "Mukalla",
+        "Seiyun",
+        "Hadramaut Governorate"
+      ],
+      "affected_groups": [
+        "urban residents",
+        "rural road users",
+        "farmers"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-04-24 reports: For flood-prone Mukalla and Seiyun, SIERY equipped local authorities to manage flood waste, improve drainage and rehabilitate rural roads; in Hadramaut, the project also rehabilitated irrigation canals for local agriculture.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "YEM-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "YEM-SRC-105",
+          "locator": "FAO publisher summary, evaluation findings paragraph."
+        }
+      ],
+      "geographies": [
+        "Yemen"
+      ],
+      "affected_groups": [
+        "rural communities",
+        "farmers",
+        "water users"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: FAO's evaluation summary says water-focused initiatives showed potential for area-based resilience and strengthened water-user associations, but short project periods, weak programme coherence and limited institutional ownership constrained sustainability; evidence of wider system change was limited.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "YEM-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "YEM-E-002",
+        "YEM-E-004",
+        "YEM-E-005",
+        "YEM-E-007"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "YEM-E-002"
+        ],
+        "impact": [
+          "YEM-E-005",
+          "YEM-E-007"
+        ],
+        "mediator": [
+          "YEM-E-004",
+          "YEM-E-005",
+          "YEM-E-007"
+        ],
+        "consequence": [
+          "YEM-E-007"
+        ]
+      },
+      "geographies": [
+        "rural Yemen",
+        "western highlands",
+        "selected farming communities"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Heat and rainfall stress can deepen livelihood insecurity where groundwater mismanagement, conflict-disrupted markets, and unequal assets narrow coping options.",
+      "alternative_explanations": [
+        "Conflict, currency depreciation, import costs, assistance cuts, land inequality, and agricultural policy can drive livelihood loss independently of climate."
+      ],
+      "uncertainty": "Physical and livelihood links are triangulated. Migration evidence is local and self-reported, and neither migration nor tension effects are causally estimated.",
+      "potentially_out_of_scope_support_ids": [
+        "YEM-E-002",
+        "YEM-E-004",
+        "YEM-E-005",
+        "YEM-E-007"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "YEM-P-002",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "YEM-E-002",
+        "YEM-E-003",
+        "YEM-E-014",
+        "YEM-E-016"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "YEM-E-002",
+          "YEM-E-016"
+        ],
+        "impact": [
+          "YEM-E-003",
+          "YEM-E-016"
+        ],
+        "mediator": [
+          "YEM-E-014",
+          "YEM-E-016"
+        ],
+        "consequence": [
+          "YEM-E-014",
+          "YEM-E-016"
+        ]
+      },
+      "geographies": [
+        "flood-prone districts",
+        "Al-Hodeidah",
+        "Hadramawt",
+        "Shabwah",
+        "displacement sites"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Flood impacts can become prolonged displacement and service failure where conflict-damaged lifelines, insecure access, and weak maintenance restrict response.",
+      "alternative_explanations": [
+        "Settlement location, drainage underinvestment, poverty, land degradation, and ordinary service weakness also shape flood loss."
+      ],
+      "uncertainty": "Population and facility exposure are modelled and conflict-related system degradation is documented, but event-specific displacement, service interruption and conflict's additional effect on flood losses are not quantified.",
+      "potentially_out_of_scope_support_ids": [
+        "YEM-E-002",
+        "YEM-E-003",
+        "YEM-E-014"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "YEM-P-003",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "YEM-E-001",
+        "YEM-E-004",
+        "YEM-E-013",
+        "YEM-E-015"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "YEM-E-001",
+          "YEM-E-004"
+        ],
+        "impact": [
+          "YEM-E-004",
+          "YEM-E-013"
+        ],
+        "mediator": [
+          "YEM-E-013"
+        ],
+        "consequence": [
+          "YEM-E-013",
+          "YEM-E-015"
+        ]
+      },
+      "geographies": [
+        "selected districts in Abyan, Hadramawt, and Dhamar",
+        "Taiz",
+        "groundwater basins"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Climate variability can sharpen water disputes only through ownership, demand, governance, representation, and existing conflict dynamics.",
+      "alternative_explanations": [
+        "Unregulated abstraction, agricultural incentives, population growth, ownership structures, and political conflict can produce disputes without climate change."
+      ],
+      "uncertainty": "National hydroclimatic context and local conditional water-allocation mechanisms are supported, but the institutional-governance record was excluded after its cited passage could not be inspected; no national climate-to-violence relationship is established.",
+      "potentially_out_of_scope_support_ids": [
+        "YEM-E-001",
+        "YEM-E-004",
+        "YEM-E-015"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "YEM-P-004",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "YEM-E-006",
+        "YEM-E-010",
+        "YEM-E-011",
+        "YEM-E-014",
+        "YEM-E-016"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "YEM-E-016"
+        ],
+        "impact": [
+          "YEM-E-006",
+          "YEM-E-014",
+          "YEM-E-016"
+        ],
+        "mediator": [
+          "YEM-E-010",
+          "YEM-E-011",
+          "YEM-E-014"
+        ],
+        "consequence": [
+          "YEM-E-006",
+          "YEM-E-014"
+        ]
+      },
+      "geographies": [
+        "Yemen",
+        "conflict-affected cities and rural systems"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Conflict and economic collapse weaken services, markets, monitoring, and access, increasing vulnerability to climate hazards and slowing recovery.",
+      "alternative_explanations": [
+        "Chronic underinvestment, geography, baseline poverty, and governance weaknesses predate conflict and independently reduce adaptive capacity."
+      ],
+      "uncertainty": "Conflict-related water and electricity degradation and delivery constraints are documented for the periods assessed, but no comparable 2026 baseline or national estimate isolates conflict's marginal effect on climate losses or recovery time.",
+      "potentially_out_of_scope_support_ids": [
+        "YEM-E-006",
+        "YEM-E-010",
+        "YEM-E-016"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "YEM-P-006",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "YEM-E-007",
+        "YEM-E-010",
+        "YEM-E-012",
+        "YEM-E-015"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "YEM-E-007"
+        ],
+        "impact": [
+          "YEM-E-007",
+          "YEM-E-010"
+        ],
+        "mediator": [
+          "YEM-E-010",
+          "YEM-E-015"
+        ],
+        "consequence": [
+          "YEM-E-012",
+          "YEM-E-015"
+        ]
+      },
+      "geographies": [
+        "selected rural districts",
+        "community and programme areas"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Legitimate and inclusive local institutions can support recovery and dispute management, but capacity and sustainability vary sharply.",
+      "alternative_explanations": [
+        "Household wealth, remittances, external aid, market access, and security conditions also determine recovery and social outcomes."
+      ],
+      "uncertainty": "Local capacity is heterogeneous and neither climate-resilience nor peace effects are causally measured.",
+      "potentially_out_of_scope_support_ids": [
+        "YEM-E-007",
+        "YEM-E-010",
+        "YEM-E-012",
+        "YEM-E-015"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "YEM-E-014",
+  "source_access_review": {
+    "selected_record_id": "YEM-E-014",
+    "selected_source_id": "YEM-SRC-002",
+    "url": "https://documents1.worldbank.org/curated/en/099111924095042411/pdf/P180386-56c03222-e166-42eb-9132-7409bcab5d7a.pdf",
+    "locator": "Foreword and Executive Summary, conflict and water-management crisis",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": null,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+  },
+  "checks": [
+    {
+      "record_id": "YEM-E-014",
+      "source_id": "YEM-SRC-002",
+      "locator": "Foreword and Executive Summary, conflict and water-management crisis",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "YEM-E-014: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "YEM-E-001",
+    "YEM-E-002",
+    "YEM-E-003",
+    "YEM-E-004",
+    "YEM-E-005",
+    "YEM-E-006",
+    "YEM-E-007",
+    "YEM-E-008",
+    "YEM-E-010",
+    "YEM-E-011",
+    "YEM-E-012",
+    "YEM-E-013",
+    "YEM-E-014",
+    "YEM-E-015",
+    "YEM-E-016",
+    "YEM-E-101",
+    "YEM-E-102",
+    "YEM-E-103",
+    "YEM-E-104",
+    "YEM-E-105",
+    "YEM-E-106",
+    "YEM-E-107",
+    "YEM-E-108",
+    "YEM-E-109",
+    "YEM-P-001",
+    "YEM-P-002",
+    "YEM-P-003",
+    "YEM-P-004",
+    "YEM-P-006"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

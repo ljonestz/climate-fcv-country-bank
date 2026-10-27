@@ -1,0 +1,1112 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "VNM",
+  "candidate_path": "countries/VNM/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 4,
+    "evidence_count": 15,
+    "pathway_count": 2,
+    "evidence_source_reference_count": 15
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 14,
+      "verified": 1
+    },
+    "pathway_claims": {
+      "unresolved": 2
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "At least one known-gap statement appears inconsistent with the current pathway inventory.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "VNM-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "VNM-E-101",
+          "VNM-E-102",
+          "VNM-E-103",
+          "VNM-E-105",
+          "VNM-E-106",
+          "VNM-E-107",
+          "VNM-E-110",
+          "VNM-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "VNM-E-104",
+          "VNM-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "VNM-E-112",
+          "VNM-E-115"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "VNM-E-111",
+          "VNM-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "VNM-E-105",
+          "VNM-E-106",
+          "VNM-E-107",
+          "VNM-E-108",
+          "VNM-E-112",
+          "VNM-E-114"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "VNM-P-101",
+          "VNM-P-102"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [
+      {
+        "text": "No reviewed source established a climate-to-armed-conflict pathway or that armed violence obstructed adaptation; this is a search gap, not evidence of absence.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      },
+      {
+        "text": "Protection pathways identify risk/exposure, not measured GBV or trafficking increases. No armed-conflict or reverse FCV-to-climate pathway was established in the reviewed sources.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      }
+    ],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/VNM/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "VNM-SRC-101",
+      "title": "Living or Leaving: Life in the Mekong Delta Region of Viet Nam",
+      "organization": "World Bank",
+      "publication_date": "2025",
+      "publication_date_basis": "document-version",
+      "url": "https://documents1.worldbank.org/curated/en/099121525051555427/pdf/P181094-5ad557aa-49ed-428d-90df-2eaf603d92ef.pdf",
+      "geographic_coverage": [
+        "Mekong Delta",
+        "Ho Chi Minh City",
+        "Binh Duong",
+        "Soc Trang",
+        "Kien Giang",
+        "Ca Mau",
+        "Bac Lieu"
+      ],
+      "temporal_coverage": "Report published 2025; the Life in the Mekong Survey covered 5,000 households across 13 delta provinces in April–June 2024; poverty simulations extend to 2050.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "VNM-E-101",
+        "VNM-E-102",
+        "VNM-E-103",
+        "VNM-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 96-page PDF opened; printed pp.25, 65–68 reviewed, plus survey methods at pp.19–20.",
+          "notes": "Report cover identifies 2025; survey data are from April–June 2024 and include 5,000 households across 13 provinces.",
+          "reuse_terms": "CC BY 3.0 IGO stated in report.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "VNM-SRC-102",
+      "title": "Report on Children’s Perspectives on Climate Change, Environmental Protection and Socio-Economic Development",
+      "organization": "UNICEF Viet Nam and Viet Nam Ministry of Planning and Investment",
+      "publication_date": "2025-07",
+      "publication_date_basis": "document-version",
+      "url": "https://www.unicef.org/vietnam/media/19451/file/Full%2520report%2520-%2520English.pdf",
+      "geographic_coverage": [
+        "Bac Lieu",
+        "Ca Mau",
+        "Soc Trang",
+        "Mekong Delta"
+      ],
+      "temporal_coverage": "Published July 2025; student survey and consultations concern climate perceptions and policies in three Mekong Delta provinces.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "VNM-E-105",
+        "VNM-E-106",
+        "VNM-E-107",
+        "VNM-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 64-page PDF opened; printed pp.10–11, 25–31 and 49 reviewed.",
+          "notes": "Cover states July 2025; six-school student survey and focus groups cover Bac Lieu, Ca Mau and Soc Trang.",
+          "reuse_terms": "No reuse terms identified in inspected PDF.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "VNM-SRC-103",
+      "title": "Insights from Viet Nam: Delivering child-responsive rapid response and resilience-building interventions informed by the principles of Accountability to Affected Populations",
+      "organization": "UNICEF Innocenti – Global Office of Research and Foresight",
+      "publication_date": "2025-12",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/innocenti/media/12191/file/UNICEF-Innocenti-CS-Viet-Nam-Report-2025.pdf",
+      "geographic_coverage": [
+        "Northern Viet Nam",
+        "Lao Cai",
+        "Yen Bai",
+        "Cao Bang",
+        "Dien Bien",
+        "Bac Kan"
+      ],
+      "temporal_coverage": "Case study covers UNICEF response to Typhoon Yagi from September 2024 through June 2025; published December 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "VNM-E-109",
+        "VNM-E-110",
+        "VNM-E-111",
+        "VNM-E-112"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 11-page PDF opened; printed pp.3–8 reviewed.",
+          "notes": "Suggested citation and copyright identify December 2025; case study covers response from September 2024 to June 2025.",
+          "reuse_terms": "CC BY 4.0 except UNICEF logo and photos.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "VNM-E-111",
+        "selected_source_id": "VNM-SRC-103",
+        "url": "https://www.unicef.org/innocenti/media/12191/file/UNICEF-Innocenti-CS-Viet-Nam-Report-2025.pdf",
+        "locator": "PDF physical p.4 (printed p.4), WASH damage and child-protection risk.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 799145,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          4
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "VNM-E-111"
+      ],
+      "manual_verified_record_ids": [
+        "VNM-E-111"
+      ]
+    },
+    {
+      "source_id": "VNM-SRC-104",
+      "title": "Viet Nam: Typhoon Yagi and Floods Joint Response Plan, September 2024–June 2025",
+      "organization": "United Nations Office for the Coordination of Humanitarian Affairs on behalf of the UN Country Team and partners",
+      "publication_date": "2024-09-27",
+      "publication_date_basis": "publication",
+      "url": "https://vietnam.un.org/sites/default/files/2024-09/VNM_HumanitarianNeedsPriorities_Final_English.pdf",
+      "geographic_coverage": [
+        "Northern Midlands and Mountains",
+        "Cao Bang",
+        "Yen Bai",
+        "Lao Cai",
+        "Bac Giang",
+        "Bac Kan",
+        "Dien Bien",
+        "Ha Giang",
+        "Lai Chau",
+        "Lang Son",
+        "Thai Nguyen",
+        "Tuyen Quang"
+      ],
+      "temporal_coverage": "Joint response plan issued 27 September 2024 for typhoon and flood response and early recovery through June 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "VNM-E-113",
+        "VNM-E-114",
+        "VNM-E-115"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 49-page PDF opened; printed pp.5–9 and 14–15 reviewed.",
+          "notes": "Cover states the plan was issued 27 September 2024; response horizon runs through June 2025.",
+          "reuse_terms": "No reuse terms identified in inspected PDF.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "VNM-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VNM-SRC-101",
+          "locator": "PDF physical p.65 (printed p.65), climate-exposure regression results from the 2024 survey."
+        }
+      ],
+      "geographies": [
+        "Mekong Delta"
+      ],
+      "affected_groups": [
+        "households in exposed areas",
+        "farm households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: Severe salinity exposure was associated with 17% lower per-capita income; flood and heat exposure with 7% and 6% lower income.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VNM-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VNM-SRC-101",
+          "locator": "PDF physical pp.65–66 (printed pp.65–66), simulated drought-poverty risks."
+        }
+      ],
+      "geographies": [
+        "Mekong Delta"
+      ],
+      "affected_groups": [
+        "poor households",
+        "farming households",
+        "agricultural workers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "World Bank household-income simulation through 2050 under strong-growth and alternative shock-exposure assumptions.",
+      "compact_statement": "Source dated 2025 reports: Through 2050, modeled drought could slow poverty reduction, especially for poorer farming households with fewer assets and less coping capacity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VNM-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VNM-SRC-101",
+          "locator": "PDF physical pp.67–68 (printed pp.67–68), migration and coping section."
+        }
+      ],
+      "geographies": [
+        "Mekong Delta",
+        "Ho Chi Minh City",
+        "Binh Duong"
+      ],
+      "affected_groups": [
+        "lower-income households",
+        "agricultural households",
+        "migrants"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: Nearly 1.7 million people left the Delta in a decade; migration partly offsets climate-sensitive farm losses, but benefits are uneven.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VNM-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VNM-SRC-101",
+          "locator": "PDF physical p.25 (printed p.25), Mekong Delta environmental vulnerabilities."
+        }
+      ],
+      "geographies": [
+        "Mekong Delta"
+      ],
+      "affected_groups": [
+        "wealthier farmers",
+        "small-scale farmers"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: High-dyke systems gave wealthier farmers short-term benefits but reduced soil fertility, raised fertilizer dependence and contributed to land consolidation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VNM-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VNM-SRC-102",
+          "locator": "PDF physical pp.25–27 (printed pp.25–27), children’s perceptions of local climate issues."
+        }
+      ],
+      "geographies": [
+        "Bac Lieu",
+        "Ca Mau",
+        "Soc Trang"
+      ],
+      "affected_groups": [
+        "school-age children",
+        "rural children"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-07 reports: Surveyed children identified environmental damage, heat, storms, floods, drought and salt intrusion; 89.9% in Ca Mau cited environmental damage.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VNM-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VNM-SRC-102",
+          "locator": "PDF physical pp.30–31 (printed pp.30–31), student survey on climate effects."
+        }
+      ],
+      "geographies": [
+        "Bac Lieu",
+        "Ca Mau",
+        "Soc Trang"
+      ],
+      "affected_groups": [
+        "school-age children",
+        "farm households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-07 reports: Among surveyed students, 48.2% reported climate-related crop loss, 33.5% poverty risk, and 29.5% interrupted schooling or dropout.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VNM-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VNM-SRC-102",
+          "locator": "PDF physical p.30 (printed p.30), school-board consultation and Soc Trang account."
+        }
+      ],
+      "geographies": [
+        "Soc Trang",
+        "Ho Chi Minh City",
+        "Binh Duong"
+      ],
+      "affected_groups": [
+        "children left behind",
+        "farm families",
+        "migrant workers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-07 reports: Soc Trang consultations linked drought and salinity to crop and income losses, work migration and schooling disruption for children left behind.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VNM-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VNM-SRC-102",
+          "locator": "PDF physical p.49 (printed p.49), conclusions on child-inclusive policy and participation."
+        }
+      ],
+      "geographies": [
+        "Bac Lieu",
+        "Ca Mau",
+        "Soc Trang"
+      ],
+      "affected_groups": [
+        "children",
+        "adolescents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-07 reports: Three-province findings identify missing child-specific indicators and targets in climate frameworks; schools and local authorities use participation mechanisms.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VNM-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VNM-SRC-103",
+          "locator": "PDF physical/printed p.3, housing damage and children living in the 11 most affected provinces."
+        }
+      ],
+      "geographies": [
+        "Northern Viet Nam",
+        "11 most affected provinces"
+      ],
+      "affected_groups": [
+        "children",
+        "displaced families"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12 reports: Typhoon Yagi damaged about 245,000 homes and displaced families into temporary shelters; 2.65 million children lived in the 11 hardest-hit provinces.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VNM-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VNM-SRC-103",
+          "locator": "PDF physical/printed p.3, workday loss and food-insecurity risk."
+        }
+      ],
+      "geographies": [
+        "Northern Viet Nam"
+      ],
+      "affected_groups": [
+        "agriculture-dependent households",
+        "workers",
+        "children"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12 reports: The storm disrupted farm, fishery and forestry livelihoods, costing 2.3 million workdays and placing over 95,000 people at food-insecurity risk.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VNM-E-111",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "VNM-SRC-103",
+          "locator": "PDF physical p.4 (printed p.4), WASH damage and child-protection risk."
+        }
+      ],
+      "geographies": [
+        "Northern mountains and midlands"
+      ],
+      "affected_groups": [
+        "girls",
+        "children",
+        "caregivers"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12 reports: Destroyed WASH facilities increased girls’ exposure to gender-based violence; some walked up to 10 kilometres to collect water.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "Retain as a dated Typhoon Yagi case-study risk report; do not imply measured GBV incidence."
+      ],
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+      "verification_attempt": {
+        "record_id": "VNM-E-111",
+        "source_id": "VNM-SRC-103",
+        "url": "https://www.unicef.org/innocenti/media/12191/file/UNICEF-Innocenti-CS-Viet-Nam-Report-2025.pdf",
+        "locator": "PDF physical p.4 (printed p.4), WASH damage and child-protection risk.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "UNICEF Innocenti's Viet Nam case study reports that Typhoon Yagi destroyed WASH facilities, increasing girls' GBV exposure, with some walking up to 10 km for water. The passage is a source-reported protection risk, not a measured incidence estimate."
+      },
+      "verification_note": "UNICEF Innocenti's Viet Nam case study reports that Typhoon Yagi destroyed WASH facilities, increasing girls' GBV exposure, with some walking up to 10 km for water. The passage is a source-reported protection risk, not a measured incidence estimate.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "VNM-SRC-103",
+        "source_url": "https://www.unicef.org/innocenti/media/12191/file/UNICEF-Innocenti-CS-Viet-Nam-Report-2025.pdf",
+        "locator": "PDF physical p.4 (printed p.4), WASH damage and child-protection risk.",
+        "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+        "reason": "UNICEF Innocenti's Viet Nam case study reports that Typhoon Yagi destroyed WASH facilities, increasing girls' GBV exposure, with some walking up to 10 km for water. The passage is a source-reported protection risk, not a measured incidence estimate.",
+        "recommended_record_patch": "Retain as a dated Typhoon Yagi case-study risk report; do not imply measured GBV incidence.",
+        "coordinator_decision_ref": null
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "VNM-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VNM-SRC-103",
+          "locator": "PDF physical pp.4–8 (printed pp.4–8), response delivery and feedback mechanisms."
+        }
+      ],
+      "geographies": [
+        "Lao Cai",
+        "Yen Bai",
+        "Cao Bang",
+        "Bac Kan",
+        "Dien Bien"
+      ],
+      "affected_groups": [
+        "children",
+        "ethnic minority families",
+        "households with disabilities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12 reports: UNICEF and government partners combined WASH, learning, protection and cash support, using child and family feedback to adjust recovery assistance.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VNM-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VNM-SRC-104",
+          "locator": "PDF physical p.8 (printed p.8), northern provinces and vulnerable populations."
+        }
+      ],
+      "geographies": [
+        "Northern Midlands and Mountains"
+      ],
+      "affected_groups": [
+        "ethnic minorities",
+        "poor households",
+        "children"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-09-27 reports: Northern mountain provinces had nearly 18% average poverty versus 4.2% nationally; ethnic minorities were over 55% of the region’s population.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VNM-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VNM-SRC-104",
+          "locator": "PDF physical p.8 (printed p.8), typhoon impacts and human-trafficking risk."
+        }
+      ],
+      "geographies": [
+        "Cao Bang",
+        "Yen Bai",
+        "Lao Cai",
+        "Northern Viet Nam"
+      ],
+      "affected_groups": [
+        "ethnic minorities",
+        "poor households",
+        "women and children"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-09-27 reports: The plan says Yagi reversed development gains and deepened hardship in poor affected provinces, increasing human-trafficking risk.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VNM-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VNM-SRC-104",
+          "locator": "PDF physical/printed p.5, pre-landfall preparedness and evacuation."
+        }
+      ],
+      "geographies": [
+        "Northern Viet Nam",
+        "coastal areas"
+      ],
+      "affected_groups": [
+        "fishing crews",
+        "floating-fish-farm residents",
+        "people in vulnerable housing"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-09-27 reports: Before landfall, authorities brought over 51,000 fishing boats and 220,000 crew to shore and evacuated nearly 53,000 people from vulnerable housing.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "VNM-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "VNM-E-111"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "VNM-E-111"
+        ],
+        "impact": [
+          "VNM-E-111"
+        ],
+        "mediator": [
+          "VNM-E-111"
+        ],
+        "consequence": [
+          "VNM-E-111"
+        ]
+      },
+      "geographies": [
+        "Northern mountains and midlands"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Yagi damaged WASH; longer water journeys increased girls' reported GBV exposure, not confirmed incidents.",
+      "alternative_explanations": [
+        "Pre-existing water-service gaps and protection inequalities shaped risk."
+      ],
+      "uncertainty": "Agency-reported protection risk; no causal attribution study, incidence estimate or anthropogenic attribution of Yagi.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    },
+    {
+      "record_id": "VNM-P-102",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "VNM-E-114",
+        "VNM-E-113"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "VNM-E-114"
+        ],
+        "impact": [
+          "VNM-E-114"
+        ],
+        "mediator": [
+          "VNM-E-113",
+          "VNM-E-114"
+        ],
+        "consequence": [
+          "VNM-E-114"
+        ]
+      },
+      "geographies": [
+        "Cao Bang",
+        "Yen Bai",
+        "Lao Cai"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Yagi-related livelihood loss compounded northern household hardship and potential trafficking risk; no incidents are attributed.",
+      "alternative_explanations": [
+        "Pre-existing poverty, remoteness and trafficking risks also matter."
+      ],
+      "uncertainty": "Dated interagency planning diagnosis, not measured post-event trafficking or ethnic-group risk propensity.",
+      "potentially_out_of_scope_support_ids": [
+        "VNM-E-113"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "VNM-E-111",
+  "source_access_review": {
+    "selected_record_id": "VNM-E-111",
+    "selected_source_id": "VNM-SRC-103",
+    "url": "https://www.unicef.org/innocenti/media/12191/file/UNICEF-Innocenti-CS-Viet-Nam-Report-2025.pdf",
+    "locator": "PDF physical p.4 (printed p.4), WASH damage and child-protection risk.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 799145,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      4
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+    "verification_note": "UNICEF Innocenti's Viet Nam case study reports that Typhoon Yagi destroyed WASH facilities, increasing girls' GBV exposure, with some walking up to 10 km for water. The passage is a source-reported protection risk, not a measured incidence estimate."
+  },
+  "checks": [
+    {
+      "record_id": "VNM-E-111",
+      "source_id": "VNM-SRC-103",
+      "locator": "PDF physical p.4 (printed p.4), WASH damage and child-protection risk.",
+      "verification_status": "verified",
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Retain as a dated Typhoon Yagi case-study risk report; do not imply measured GBV incidence.",
+      "coordinator_decision_ref": null
+    }
+  ],
+  "limitations": [
+    "VNM-E-111: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "VNM-E-101",
+    "VNM-E-102",
+    "VNM-E-103",
+    "VNM-E-104",
+    "VNM-E-105",
+    "VNM-E-106",
+    "VNM-E-107",
+    "VNM-E-108",
+    "VNM-E-109",
+    "VNM-E-110",
+    "VNM-E-111",
+    "VNM-E-112",
+    "VNM-E-113",
+    "VNM-E-114",
+    "VNM-E-115",
+    "VNM-P-101",
+    "VNM-P-102"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 1,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

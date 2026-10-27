@@ -1,0 +1,1281 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "SWZ",
+  "candidate_path": "countries/SWZ/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 6,
+    "evidence_count": 20,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 20
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 6,
+      "access-only": 13,
+      "verified": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "SWZ-E-001",
+          "SWZ-E-005"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "SWZ-E-002",
+          "SWZ-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "SWZ-E-003",
+          "SWZ-E-101",
+          "SWZ-E-102",
+          "SWZ-E-106",
+          "SWZ-E-107",
+          "SWZ-E-108",
+          "SWZ-E-109",
+          "SWZ-E-110",
+          "SWZ-E-113",
+          "SWZ-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SWZ-E-006",
+          "SWZ-E-103",
+          "SWZ-E-104",
+          "SWZ-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SWZ-E-004",
+          "SWZ-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "SWZ-E-101",
+          "SWZ-E-102",
+          "SWZ-E-103",
+          "SWZ-E-104",
+          "SWZ-E-105",
+          "SWZ-E-108",
+          "SWZ-E-109",
+          "SWZ-E-110",
+          "SWZ-E-111",
+          "SWZ-E-112"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/SWZ/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "SWZ-SRC-001",
+      "title": "Eswatini Nationally Determined Contribution 3.0",
+      "organization": "Government of Eswatini",
+      "publication_date": "2025-09",
+      "publication_date_basis": "submission",
+      "url": "https://unfccc.int/sites/default/files/2025-09/Eswatini%20NDC%203.0%20Report_for%20Submission%20-FINAL%20f.pdf",
+      "geographic_coverage": [
+        "Eswatini",
+        "Highveld",
+        "Lowveld"
+      ],
+      "temporal_coverage": "Observed climate and disaster impacts, climate projections, and planned adaptation targets reported in 2025",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SWZ-E-001",
+        "SWZ-E-005",
+        "SWZ-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SWZ-SRC-002",
+      "title": "Drought Resilience Profiles: Eswatini",
+      "organization": "World Bank, CIWA, SADRI, IWMI and National Drought Mitigation Center",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://documents1.worldbank.org/curated/en/099072723174538073/pdf/P1730770362e53029080710100b0641ace2.pdf",
+      "geographic_coverage": [
+        "Eswatini"
+      ],
+      "temporal_coverage": "Drought impacts and preparedness information summarized in an undated profile",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SWZ-E-002",
+        "SWZ-E-003",
+        "SWZ-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SWZ-SRC-101",
+      "title": "The Kingdom of Eswatini's Initial Adaptation Communication to the UNFCCC",
+      "organization": "Government of Eswatini, Ministry of Tourism and Environmental Affairs",
+      "publication_date": "2021",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/resource/eswatini-climate-change-adaptation-plan-unfccc.pdf",
+      "geographic_coverage": [
+        "Eswatini",
+        "Lubombo Region",
+        "Shiselweni Region",
+        "Hhohho Region",
+        "Manzini Region",
+        "Lower Usuthu",
+        "Mavulandlela",
+        "Intamakuphila",
+        "Mbabane",
+        "Siphofaneni"
+      ],
+      "temporal_coverage": "Government assessment summarizing historic impacts and a 2021 risk profile, with adaptation actions reported through 2021 and some projections to 2050.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SWZ-E-101",
+        "SWZ-E-102",
+        "SWZ-E-103",
+        "SWZ-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 29-page Government of Eswatini communication; vulnerability section, risk assessment, implementation section and adaptation programme boxes.",
+          "notes": "Full PDF read. Government copyright statement appears on the title page; no reuse license was assessed.",
+          "reuse_terms": "Copyright belongs to the Government of Eswatini unless otherwise noted; other reuse terms not assessed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SWZ-SRC-102",
+      "title": "Kingdom of Eswatini: Selected Issues",
+      "organization": "International Monetary Fund",
+      "publication_date": "2024-09-10",
+      "publication_date_basis": "publication",
+      "url": "https://www.imf.org/-/media/files/publications/cr/2024/english/1swzea2024002-print-pdf.pdf",
+      "geographic_coverage": [
+        "Eswatini",
+        "Hhohho Region",
+        "Lubombo Region",
+        "Manzini Region",
+        "Shiselweni Region"
+      ],
+      "temporal_coverage": "Climate-impact chapter reports disaster and agricultural context through 2024 and provincial agricultural stress since 2020.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SWZ-E-105",
+        "SWZ-E-106",
+        "SWZ-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 26-page IMF Country Report No. 24/305; climate chapter, PDF pp. 3-4.",
+          "notes": "Full report was accessible; claims use the climate-impact chapter and its figure notes.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SWZ-SRC-103",
+      "title": "Effectiveness of climate change adaptation strategies in strengthening food and water security resilience in Eswatini",
+      "organization": "Lindiwe Maphalala, Denver Naidoo, Unathi Kolanisi and Lelethu Mdoda; Frontiers in Sustainable Food Systems",
+      "publication_date": "2026-08-18",
+      "publication_date_basis": "publication",
+      "url": "https://doi.org/10.3389/fsufs.2026.1898527",
+      "geographic_coverage": [
+        "Lubombo Region",
+        "Nkilongo",
+        "Lubulini",
+        "Sithobela",
+        "Lunkhuntfu",
+        "Phafeni",
+        "Mabantaneni",
+        "Ntuthwakazi",
+        "Mamisa",
+        "Luhlanyeni"
+      ],
+      "temporal_coverage": "Mixed-methods household survey and open-ended responses collected in 2025 in six communities in Lubombo Region; article published 18 August 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SWZ-E-108",
+        "SWZ-E-109",
+        "SWZ-E-110",
+        "SWZ-E-111",
+        "SWZ-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full article, abstract, study-area/method sections, 2025 survey tables and conclusion.",
+          "notes": "Publisher-hosted article text was read. The abstract gives 859 survey households while the methods/table specify a required/allocated sample of 880; not treated as a national estimate.",
+          "reuse_terms": "No article license terms were verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SWZ-SRC-104",
+      "title": "FAO GIEWS Country Brief on Eswatini",
+      "organization": "Food and Agriculture Organization of the United Nations",
+      "publication_date": "2026-08-25",
+      "publication_date_basis": "document-version",
+      "url": "https://www.fao.org/giews/countrybrief/country.jsp?code=SWZ&lang=en",
+      "geographic_coverage": [
+        "Eswatini"
+      ],
+      "temporal_coverage": "GIEWS reference date 25 August 2026; reports completed 2026 harvest and food-security projections for October 2026 to March 2027.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SWZ-E-113",
+        "SWZ-E-114"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full GIEWS country brief, reference date 25 August 2026; 2026 cereal production and 2026/27 food insecurity sections.",
+          "notes": "Publisher page and cited outlook passages read directly; the brief identifies its FAO/IPC data tools.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "SWZ-E-113",
+        "selected_source_id": "SWZ-SRC-104",
+        "url": "https://www.fao.org/giews/countrybrief/country.jsp?code=SWZ&lang=en",
+        "locator": "Erratic rainfall curbs 2026 cereal production, paragraph 1.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 72605,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "SWZ-E-113"
+      ],
+      "manual_verified_record_ids": [
+        "SWZ-E-113"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "SWZ-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SWZ-SRC-001",
+          "locator": "PDF p. 11, observed temperature and rainfall trends"
+        }
+      ],
+      "geographies": [
+        "Eswatini"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC reports annual surface temperature increased by about 0.14-0.19 degrees C per decade during 1979-2020, alongside fewer rainy days and longer dry spells.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SWZ-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SWZ-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SWZ-SRC-002",
+          "locator": "PDF p. 1, 2015/16 drought impacts"
+        }
+      ],
+      "geographies": [
+        "Eswatini",
+        "Hawane Dam",
+        "rural areas"
+      ],
+      "affected_groups": [
+        "farmers",
+        "rural households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The profile reports that the 2015/16 drought reduced crop production by about 30 percent, lowered Hawane Dam levels, and left some rural boreholes dry.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SWZ-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SWZ-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SWZ-SRC-002",
+          "locator": "PDF p. 1, drought impacts and affected groups"
+        }
+      ],
+      "geographies": [
+        "Eswatini"
+      ],
+      "affected_groups": [
+        "women",
+        "children",
+        "vulnerable groups"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The profile says women, children and other vulnerable groups were disproportionately affected by the 2015/16 drought.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SWZ-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SWZ-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SWZ-SRC-002",
+          "locator": "PDF p. 1, drought risk-management capacity ratings"
+        }
+      ],
+      "geographies": [
+        "Eswatini"
+      ],
+      "affected_groups": [],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The profile rates drought assessment and monitoring capacity as medium, while describing early-warning capacity as medium and noting gaps in comprehensive risk assessment and implementation coordination.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SWZ-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SWZ-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SWZ-SRC-001",
+          "locator": "PDF p. 12, projected temperature and hot-day changes"
+        }
+      ],
+      "geographies": [
+        "Eswatini",
+        "Highveld"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "RCP8.5/SSP8.5, as printed; SSP shorthand is ambiguous",
+      "compact_statement": "The NDC labels its high-emissions pathway RCP8.5/SSP8.5 (SSP shorthand ambiguous); it projects up to 1.9 degrees C warming by the 2050s and 3-4 times more Highveld days above 33 degrees C by 2050.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SWZ-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SWZ-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SWZ-SRC-001",
+          "locator": "PDF pp. 13-14, agriculture adaptation target"
+        }
+      ],
+      "geographies": [
+        "Eswatini"
+      ],
+      "affected_groups": [
+        "farmers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC sets a target to keep annual agricultural yield reductions from climate shocks below 15 percent by 2035.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SWZ-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SWZ-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SWZ-SRC-101",
+          "locator": "Section 2.4, Vulnerabilities, PDF p. 13."
+        }
+      ],
+      "geographies": [
+        "Shiselweni Region",
+        "Lubombo Region",
+        "Hhohho Region",
+        "Manzini Region"
+      ],
+      "affected_groups": [
+        "people experiencing poverty",
+        "rural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2021 reports: The 2021 risk profile classifies 60% of residents as medium/high climate-vulnerability; poverty underlies risk, with hotspots in Shiselweni and Lubombo and moderate vulnerability in Hhohho and Manzini.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SWZ-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SWZ-SRC-101",
+          "locator": "Section 2.2, Present and Future Risks, PDF p. 11."
+        }
+      ],
+      "geographies": [
+        "Lubombo Region",
+        "Hhohho Region",
+        "Manzini Region",
+        "Shiselweni Region"
+      ],
+      "affected_groups": [
+        "residents of low-lying areas"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2021 reports: Citing Chuang et al. (2017), the communication reports increasing malaria attributed to climate-associated flooding, especially in Lubombo and Hhohho and in populated lowlands of Manzini and Shiselweni.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SWZ-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SWZ-SRC-101",
+          "locator": "Section 5, Implementation of Adaptation Actions, Box 3, PDF p. 19."
+        }
+      ],
+      "geographies": [
+        "Mavulandlela",
+        "Ntfonjeni Inkhundla",
+        "Hhohho Region",
+        "Intamakuphila",
+        "Ngwempisi Inkhundla",
+        "Manzini Region"
+      ],
+      "affected_groups": [
+        "farmers",
+        "women",
+        "youth"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2021 reports: In 2021, the Climate-Smart Market-Oriented Agriculture Project supported irrigation at Mavulandlela/Ntfonjeni (Hhohho) and Intamakuphila/Ngwempisi (Manzini), emphasizing jobs for women and youth.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SWZ-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SWZ-SRC-101",
+          "locator": "Section 5, Implementation of Adaptation Actions, Box 2, PDF pp. 19-20."
+        }
+      ],
+      "geographies": [
+        "Lower Usuthu"
+      ],
+      "affected_groups": [
+        "farmers",
+        "host communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2021 communication reports over 10,000 irrigated hectares and a further 5,000-hectare Lower Usuthu phase then under development.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SWZ-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SWZ-SRC-102",
+          "locator": "Climate Change Impacts in Eswatini, paragraph 2 and Figure 3, PDF p. 4."
+        }
+      ],
+      "geographies": [
+        "Hhohho Region",
+        "Lubombo Region",
+        "Manzini Region",
+        "Shiselweni Region"
+      ],
+      "affected_groups": [
+        "farmers",
+        "agricultural households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-09-10 reports: FAO agricultural-stress data plotted by IMF show agricultural land in all four provinces under recurring stress from 2020 onward; the figure shows monthly provincial maxima.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SWZ-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SWZ-SRC-102",
+          "locator": "Climate Change Impacts in Eswatini, paragraph 2, PDF p. 4."
+        }
+      ],
+      "geographies": [
+        "Eswatini"
+      ],
+      "affected_groups": [
+        "farmers",
+        "agricultural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-09-10 reports: The IMF report says adverse weather reduced 2023 sugarcane output by 6%; it also describes 80% of farming as rain-fed and drought-vulnerable.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SWZ-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SWZ-SRC-102",
+          "locator": "Climate Change Impacts in Eswatini, paragraph 1, PDF p. 3."
+        }
+      ],
+      "geographies": [
+        "Eswatini"
+      ],
+      "affected_groups": [
+        "people displaced",
+        "people requiring immediate assistance",
+        "people injured"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-09-10 reports: The IMF notes Eswatini ranks worst among SACU countries on population displaced, needing immediate aid or injured by drought, storms or floods.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SWZ-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SWZ-SRC-103",
+          "locator": "Section 2.1, Description and study area selection; Table 1."
+        }
+      ],
+      "geographies": [
+        "Lubombo Region",
+        "Nkilongo",
+        "Lubulini",
+        "Sithobela",
+        "Lunkhuntfu",
+        "Phafeni",
+        "Mabantaneni",
+        "Ntuthwakazi",
+        "Mamisa",
+        "Luhlanyeni"
+      ],
+      "affected_groups": [
+        "smallholder households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08-18 reports: The 2025 survey covered Lunkhuntfu and Phafeni (Nkilongo), Mabantaneni and Ntuthwakazi (Lubulini), and Mamisa and Luhlanyeni (Sithobela) in semi-arid Lubombo.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SWZ-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SWZ-SRC-103",
+          "locator": "Section 3.2, Climate change impacts as drivers of adaptation."
+        }
+      ],
+      "geographies": [
+        "Lubombo Region",
+        "Nkilongo",
+        "Lubulini",
+        "Sithobela",
+        "Lunkhuntfu",
+        "Phafeni",
+        "Mabantaneni",
+        "Ntuthwakazi",
+        "Mamisa",
+        "Luhlanyeni"
+      ],
+      "affected_groups": [
+        "smallholder households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08-18 reports: Among surveyed Lubombo households, 96.2% said climate change harmed food production and water access, 96.1% reported harder food availability, and 83.8% worsening water scarcity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SWZ-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SWZ-SRC-103",
+          "locator": "Section 3.1, Demographic and socio-economic characteristics of respondents."
+        }
+      ],
+      "geographies": [
+        "Lubombo Region",
+        "Nkilongo",
+        "Lubulini",
+        "Sithobela",
+        "Lunkhuntfu",
+        "Phafeni",
+        "Mabantaneni",
+        "Ntuthwakazi",
+        "Mamisa",
+        "Luhlanyeni"
+      ],
+      "affected_groups": [
+        "women smallholders",
+        "unemployed respondents",
+        "agricultural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08-18 reports: The surveyed Lubombo smallholders were 59.8% women; 62.6% reported unemployment and 66.8% depended primarily on agriculture for livelihoods.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SWZ-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SWZ-SRC-103",
+          "locator": "Abstract and Section 3.3, Adaptation strategies employed by households."
+        }
+      ],
+      "geographies": [
+        "Lubombo Region",
+        "Nkilongo",
+        "Lubulini",
+        "Sithobela",
+        "Lunkhuntfu",
+        "Phafeni",
+        "Mabantaneni",
+        "Ntuthwakazi",
+        "Mamisa",
+        "Luhlanyeni"
+      ],
+      "affected_groups": [
+        "smallholder households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08-18 reports: Households most often reported crop diversification (80.1%), changed planting dates (73.9%) and drought-tolerant crops (68.6%); small-scale irrigation was adopted by 19.5%.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SWZ-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SWZ-SRC-103",
+          "locator": "Section 3.6 and Table 6, Barriers to adaptation strategy implementation."
+        }
+      ],
+      "geographies": [
+        "Lubombo Region",
+        "Nkilongo",
+        "Lubulini",
+        "Sithobela",
+        "Lunkhuntfu",
+        "Phafeni",
+        "Mabantaneni",
+        "Ntuthwakazi",
+        "Mamisa",
+        "Luhlanyeni"
+      ],
+      "affected_groups": [
+        "smallholder households",
+        "smallholder farmers"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08-18 reports: Respondents cited finance (83.0%), credit (73.9%), information (68.4%), extension services (54.4%) and insecure land tenure (44.1%) as adaptation barriers.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SWZ-E-113",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "SWZ-SRC-104",
+          "locator": "Erratic rainfall curbs 2026 cereal production, paragraph 1."
+        }
+      ],
+      "geographies": [
+        "Eswatini"
+      ],
+      "affected_groups": [
+        "maize farmers",
+        "agricultural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08-25 reports: FAO estimated the completed 2026 maize harvest at about 70,000 tonnes, below average and 6% lower year-on-year after heavy rain caused waterlogging and curbed yields.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "SWZ-E-113",
+        "source_id": "SWZ-SRC-104",
+        "url": "https://www.fao.org/giews/countrybrief/country.jsp?code=SWZ&lang=en",
+        "locator": "Erratic rainfall curbs 2026 cereal production, paragraph 1.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+      },
+      "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "SWZ-SRC-104",
+        "source_url": "https://www.fao.org/giews/countrybrief/country.jsp?code=SWZ&lang=en",
+        "locator": "Erratic rainfall curbs 2026 cereal production, paragraph 1.",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "SWZ-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SWZ-SRC-104",
+          "locator": "Acute food insecurity expected to deteriorate in 2026/27, paragraphs 1-3."
+        }
+      ],
+      "geographies": [
+        "Eswatini"
+      ],
+      "affected_groups": [
+        "people facing acute food insecurity",
+        "informal agricultural workers",
+        "agricultural-dependent households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "FAO GIEWS outlook dated 25 August 2026; El Nino-linked below-average rainfall and above-normal temperatures expected in the 2026/27 cropping season.",
+      "compact_statement": "Source dated 2026-08-25 reports: FAO relays an IPC projection that 286,000 people (23%) face IPC 3+ in Oct 2026-Mar 2027; El Nino-linked low rain and high temperatures may reduce farm labour demand and incomes.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "SWZ-E-113",
+  "source_access_review": {
+    "selected_record_id": "SWZ-E-113",
+    "selected_source_id": "SWZ-SRC-104",
+    "url": "https://www.fao.org/giews/countrybrief/country.jsp?code=SWZ&lang=en",
+    "locator": "Erratic rainfall curbs 2026 cereal production, paragraph 1.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 72605,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+  },
+  "checks": [
+    {
+      "record_id": "SWZ-E-113",
+      "source_id": "SWZ-SRC-104",
+      "locator": "Erratic rainfall curbs 2026 cereal production, paragraph 1.",
+      "verification_status": "verified",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "SWZ-E-113: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "SWZ-E-001",
+    "SWZ-E-002",
+    "SWZ-E-003",
+    "SWZ-E-004",
+    "SWZ-E-005",
+    "SWZ-E-006",
+    "SWZ-E-101",
+    "SWZ-E-102",
+    "SWZ-E-103",
+    "SWZ-E-104",
+    "SWZ-E-105",
+    "SWZ-E-106",
+    "SWZ-E-107",
+    "SWZ-E-108",
+    "SWZ-E-109",
+    "SWZ-E-110",
+    "SWZ-E-111",
+    "SWZ-E-112",
+    "SWZ-E-113",
+    "SWZ-E-114"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

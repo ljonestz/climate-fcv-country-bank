@@ -1,0 +1,1114 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "BEN",
+  "candidate_path": "countries/BEN/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 6,
+    "evidence_count": 15,
+    "pathway_count": 2,
+    "evidence_source_reference_count": 15
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 8,
+      "access-only": 7
+    },
+    "pathway_claims": {
+      "unresolved": 2
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "BEN-E-004",
+          "BEN-E-005",
+          "BEN-E-007",
+          "BEN-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "BEN-E-002",
+          "BEN-E-003",
+          "BEN-E-006",
+          "BEN-E-101",
+          "BEN-E-102"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BEN-E-104",
+          "BEN-E-105",
+          "BEN-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BEN-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "BEN-E-001",
+          "BEN-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "BEN-E-103",
+          "BEN-E-104",
+          "BEN-E-107",
+          "BEN-E-108"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "BEN-P-001",
+          "BEN-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/BEN/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "BEN-SRC-001",
+      "title": "Country Climate and Development Report: Benin",
+      "organization": "World Bank Group",
+      "publication_date": "2023",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099120423163539177/pdf/P1797320493b2d066098400da07a04d3f57.pdf",
+      "geographic_coverage": [
+        "Benin",
+        "Northern and southern provinces",
+        "Rural and urban areas"
+      ],
+      "temporal_coverage": "EHCVM household survey 2018/19; climate projections including 2070",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BEN-E-001",
+        "BEN-E-002",
+        "BEN-E-003",
+        "BEN-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BEN-SRC-002",
+      "title": "Benin Economic Update 2024: Adapting to climate change for sustainable, resilient economic growth",
+      "organization": "World Bank",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/country/benin/publication/benin-economic-update-2024-adapting-to-climate-change-for-sustainable-resilient-economic-growth",
+      "geographic_coverage": [
+        "Benin"
+      ],
+      "temporal_coverage": "Economic-loss projection through 2050; adaptation priorities for coming decades",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BEN-E-005"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BEN-SRC-003",
+      "title": "Troisième Contribution Déterminée au niveau National du Bénin (CDN 3.0)",
+      "organization": "Government of Benin",
+      "publication_date": "2026-04",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/2026-06/CDN%203.0_BENIN.pdf",
+      "geographic_coverage": [
+        "Benin",
+        "Coastal zone and five seafront communes",
+        "Agricultural communes"
+      ],
+      "temporal_coverage": "Agricultural statistics through 2025; climate risks and planned adaptation measures in NDC 3.0",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "BEN-E-006",
+        "BEN-E-007"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BEN-SRC-101",
+      "title": "Benin Context Report",
+      "organization": "FEWS NET",
+      "publication_date": "2026-06-11",
+      "publication_date_basis": "publication",
+      "url": "https://fews.net/west-africa/benin/special-report/june-2026",
+      "geographic_coverage": [
+        "Benin",
+        "Alibori",
+        "Atacora",
+        "Ouémé River basin",
+        "northern Benin",
+        "southern Benin",
+        "coastal Benin"
+      ],
+      "temporal_coverage": "Country context and food-security conditions through 2025; report published June 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BEN-E-101",
+        "BEN-E-102",
+        "BEN-E-103",
+        "BEN-E-104",
+        "BEN-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "HTML report, Executive Summary, Natural Geography, Common Hazards and Security Context",
+          "notes": "Opened and read the full report page, including local climate, livelihood and conflict passages.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BEN-SRC-102",
+      "title": "Gulf of Guinea Northern Regions Social Cohesion Project (P175043), Additional Financing Request 2: Project Information Document",
+      "organization": "World Bank",
+      "publication_date": "2025-02-05",
+      "publication_date_basis": "document-version",
+      "url": "https://documents1.worldbank.org/curated/en/099020525102033812/pdf/P175043-6a1ab824-8beb-453b-8dc5-d895574a3a98.pdf",
+      "geographic_coverage": [
+        "Benin",
+        "Alibori",
+        "Atakora",
+        "Borgou",
+        "Donga",
+        "Matéri",
+        "Kérou",
+        "Karimama",
+        "Banikoara"
+      ],
+      "temporal_coverage": "Context data current to December 2024; appraisal-stage project design in February 2025",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BEN-E-106",
+        "BEN-E-107",
+        "BEN-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 1-8",
+          "notes": "Opened and inspected the public project information document, including Benin-specific context and proposed community investments.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "BEN-E-106",
+        "selected_source_id": "BEN-SRC-102",
+        "url": "https://documents1.worldbank.org/curated/en/099020525102033812/pdf/P175043-6a1ab824-8beb-453b-8dc5-d895574a3a98.pdf",
+        "locator": "PDF p. 4, Benin country context",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "BEN-SRC-103",
+      "title": "SHARP+ resilience assessment in Benin",
+      "organization": "Food and Agriculture Organization of the United Nations (FAO)",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://www.fao.org/family-farming/detail/en/c/1742309/",
+      "geographic_coverage": [
+        "Benin",
+        "Ouémé Basin",
+        "Zogbodomey",
+        "Zagnanado",
+        "Glazoué",
+        "Djougou",
+        "Copargo"
+      ],
+      "temporal_coverage": "Household survey fieldwork in December 2024; factsheet year 2025",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "FAO publisher summary, lines 27-31",
+          "notes": "Page verifies assessment method, survey size and commune coverage, but not the substantive findings.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "BEN-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BEN-SRC-001",
+          "locator": "PDF p. 18 (one-based), paragraph beginning ‘Climatic pressures are set to aggravate’."
+        }
+      ],
+      "geographies": [
+        "Northern Benin",
+        "Southern Benin",
+        "Rural and urban areas",
+        "Sahelian countries (source-mentioned origin of in-migration)"
+      ],
+      "affected_groups": [
+        "People exposed to insecurity in northern Benin",
+        "Displaced people"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "No scenario or numeric horizon specified.",
+      "compact_statement": "The CCDR says climatic pressures could widen rural-urban and north-south gaps, compounding northern insecurity and displacement, including Sahelian in-migration.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BEN-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BEN-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BEN-SRC-001",
+          "locator": "Chapter 5, section 5.1.1, printed p. 51 (PDF p. 64), EHCVM 2018/19 household-shock paragraph."
+        }
+      ],
+      "geographies": [
+        "Benin"
+      ],
+      "affected_groups": [
+        "Surveyed households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "In EHCVM 2018/19, 21.4% of households reported a climate-induced shock during the previous three years; 10.5% reported flood impacts and 12% drought impacts.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BEN-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BEN-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BEN-SRC-001",
+          "locator": "Chapter 5, section 5.1.1, printed p. 51 (PDF p. 64), paragraphs on differential household impacts."
+        }
+      ],
+      "geographies": [
+        "Benin",
+        "Rural areas"
+      ],
+      "affected_groups": [
+        "Poor households",
+        "Rural households",
+        "Agriculture-reliant households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Poor, rural and agriculture-reliant households reported greater exposure to climate shocks; over 36% of agriculture-reliant households reported flood and/or drought impacts, versus about 21% overall.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BEN-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BEN-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BEN-SRC-001",
+          "locator": "Chapter 1, section 1.2, printed p. 5 (PDF p. 18), projected extreme-temperature exposure paragraph."
+        }
+      ],
+      "geographies": [
+        "Benin"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "2.7°C global warming under current policies, as stated in the CCDR passage.",
+      "compact_statement": "The CCDR projects that by 2070, 98% of Benin’s territory could face extreme temperatures under a 2.7°C global-warming pathway associated with current policies.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BEN-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BEN-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BEN-SRC-002",
+          "locator": "Publisher summary, bullet on projected climate-related economic losses."
+        }
+      ],
+      "geographies": [
+        "Benin"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Without additional adaptation; the inspected summary does not specify the underlying climate scenario.",
+      "compact_statement": "The World Bank summary says average annual GDP losses from climate change could reach up to 19% by 2050 without additional adaptation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BEN-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BEN-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BEN-SRC-003",
+          "locator": "Section 3, agriculture subsection, printed pp. 14–15 (PDF pp. 14–15), paragraphs on sector profile and CDN 3.0 projects."
+        }
+      ],
+      "geographies": [
+        "Benin",
+        "Agricultural communes"
+      ],
+      "affected_groups": [
+        "Agricultural workers",
+        "Population dependent on agriculture"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC reports that agriculture employs about 70% of the population and accounts for 72.9% of export receipts; it identifies rainfall extremes, floods, dry spells, heat and strong winds as risks and lists 30 sectoral plus 51 commune-led adaptation projects.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BEN-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BEN-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BEN-SRC-003",
+          "locator": "Section 5.1.3, Littoral, printed pp. 51–52 (PDF pp. 49–50), coastal-risk description."
+        }
+      ],
+      "geographies": [
+        "Coastal Benin",
+        "Sèmè-Kpodji",
+        "Cotonou",
+        "Abomey-Calavi",
+        "Ouidah",
+        "Grand-Popo"
+      ],
+      "affected_groups": [
+        "Coastal communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC identifies 30 communes in the coastal zone, five on the seafront, and reports shoreline retreat of 12–30 metres per year at critical points alongside flood, drought, wind and sea-level risks.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BEN-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BEN-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BEN-SRC-101",
+          "locator": "HTML report, Executive Summary"
+        }
+      ],
+      "geographies": [
+        "southern Benin",
+        "central Benin",
+        "northern Benin"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "agropastoral households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Southern Benin has two rainy seasons and diversified livelihoods; central and northern areas have one rainy season and mixed farming or agropastoralism.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BEN-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BEN-SRC-101",
+          "locator": "HTML report, Natural Geography and Common Hazards"
+        }
+      ],
+      "geographies": [
+        "northern Benin"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "pastoralists"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Northern drought and dry spells reduce crop yields; pastoralists face degraded pasture and dry-season water scarcity.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BEN-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BEN-SRC-101",
+          "locator": "HTML report, Common Hazards"
+        }
+      ],
+      "geographies": [
+        "Ouémé River basin",
+        "southern coastal Benin"
+      ],
+      "affected_groups": [
+        "riverine and coastal communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Southern floods along the Ouémé River and low-lying coast damage crops, displace communities and disrupt infrastructure and market access.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BEN-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BEN-SRC-101",
+          "locator": "HTML report, Executive Summary and Security and Conflict Context"
+        }
+      ],
+      "geographies": [
+        "Alibori",
+        "Atacora"
+      ],
+      "affected_groups": [
+        "rural households",
+        "internally displaced people"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Insecurity in Alibori and Atacora restricts mobility, farm access and markets while driving repeated displacement.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BEN-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BEN-SRC-101",
+          "locator": "HTML report, Security and Conflict Context"
+        }
+      ],
+      "geographies": [
+        "northern Benin",
+        "Alibori",
+        "Atacora"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoralists"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "FEWS NET's June 2026 context report describes northern farmer-pastoralist conflicts damaging crops and livestock and restricting farming and pastoral mobility.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BEN-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "BEN-SRC-102",
+          "locator": "PDF p. 4, Benin country context"
+        }
+      ],
+      "geographies": [
+        "northern Benin"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "pastoralists",
+        "refugees"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The February 2025 World Bank project document describes a possible northern mechanism: climate shocks, scarcity and land degradation may alter transhumance and intensify farmer-herder or other tensions.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "BEN-E-106",
+        "selected_source_id": "BEN-SRC-102",
+        "url": "https://documents1.worldbank.org/curated/en/099020525102033812/pdf/P175043-6a1ab824-8beb-453b-8dc5-d895574a3a98.pdf",
+        "locator": "PDF p. 4, Benin country context",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "BEN-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BEN-SRC-102",
+          "locator": "PDF pp. 3-5, country context"
+        }
+      ],
+      "geographies": [
+        "Matéri",
+        "Kérou",
+        "Karimama",
+        "Banikoara",
+        "Atakora",
+        "Alibori"
+      ],
+      "affected_groups": [
+        "refugees",
+        "host communities",
+        "students"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The February 2025 appraisal describes attacks in Matéri and Kérou in Atakora, and Karimama and Banikoara in Alibori, causing school closures and southward movements that pressure host communities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BEN-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BEN-SRC-102",
+          "locator": "PDF pp. 6-8, planned project components"
+        }
+      ],
+      "geographies": [
+        "Alibori",
+        "Atakora",
+        "Matéri",
+        "Banikoara",
+        "Tanguieta",
+        "Natitingou",
+        "Toucountouna"
+      ],
+      "affected_groups": [
+        "refugees",
+        "host communities",
+        "women",
+        "youth"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The February 2025 project document proposes climate-screened water/services infrastructure, livelihood support and participatory planning for refugee and host communities in targeted northern areas.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "BEN-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "BEN-E-001"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "BEN-E-001"
+        ],
+        "impact": [
+          "BEN-E-001"
+        ],
+        "mediator": [
+          "BEN-E-001"
+        ],
+        "consequence": [
+          "BEN-E-001"
+        ]
+      },
+      "geographies": [
+        "Northern Benin",
+        "Southern Benin"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Climate pressures may compound disparities, insecurity and displacement.",
+      "alternative_explanations": [
+        "Insecurity and regional mobility have independent drivers."
+      ],
+      "uncertainty": "Qualitative CCDR warning; Sahelian in-migration is not a Benin-only causal estimate.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    },
+    {
+      "record_id": "BEN-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "BEN-E-102",
+        "BEN-E-105",
+        "BEN-E-106"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "BEN-E-102",
+          "BEN-E-106"
+        ],
+        "impact": [
+          "BEN-E-102"
+        ],
+        "mediator": [
+          "BEN-E-106"
+        ],
+        "consequence": [
+          "BEN-E-106"
+        ]
+      },
+      "geographies": [
+        "northern Benin"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "In northern Benin, climate-related resource stress may alter transhumance and compound farmer-herder tensions, mediated by land and mobility conditions.",
+      "alternative_explanations": [
+        "Land governance, mobility restrictions and insecurity can cause livelihood losses and tensions independently of climate."
+      ],
+      "uncertainty": "Conditional contextual mechanism combining FEWS NET and appraisal narrative; not a localized incident study, causal estimate or prediction. Named attack sites are not treated as climate-conflict cases.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ"
+      ],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "BEN-E-106",
+  "source_access_review": {
+    "selected_record_id": "BEN-E-106",
+    "selected_source_id": "BEN-SRC-102",
+    "url": "https://documents1.worldbank.org/curated/en/099020525102033812/pdf/P175043-6a1ab824-8beb-453b-8dc5-d895574a3a98.pdf",
+    "locator": "PDF p. 4, Benin country context",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": null,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+  },
+  "checks": [
+    {
+      "record_id": "BEN-E-106",
+      "source_id": "BEN-SRC-102",
+      "locator": "PDF p. 4, Benin country context",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "BEN-E-106: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "BEN-E-001",
+    "BEN-E-002",
+    "BEN-E-003",
+    "BEN-E-004",
+    "BEN-E-005",
+    "BEN-E-006",
+    "BEN-E-007",
+    "BEN-E-101",
+    "BEN-E-102",
+    "BEN-E-103",
+    "BEN-E-104",
+    "BEN-E-105",
+    "BEN-E-106",
+    "BEN-E-107",
+    "BEN-E-108",
+    "BEN-P-001",
+    "BEN-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

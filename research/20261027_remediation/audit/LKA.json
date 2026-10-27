@@ -1,0 +1,1245 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "LKA",
+  "candidate_path": "countries/LKA/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 7,
+    "evidence_count": 18,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 18
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 9,
+      "access-only": 9
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "At least one known-gap statement appears inconsistent with the current pathway inventory.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "LKA-E-001",
+          "LKA-E-004",
+          "LKA-E-007"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "LKA-E-002",
+          "LKA-E-003",
+          "LKA-E-005",
+          "LKA-E-101",
+          "LKA-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "LKA-E-006",
+          "LKA-E-008"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "LKA-E-105",
+          "LKA-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "LKA-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "LKA-E-103",
+          "LKA-E-104",
+          "LKA-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "LKA-E-102",
+          "LKA-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "LKA-E-101",
+          "LKA-E-102",
+          "LKA-E-103",
+          "LKA-E-104",
+          "LKA-E-105",
+          "LKA-E-106",
+          "LKA-E-107",
+          "LKA-E-109"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "LKA-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [
+      {
+        "text": "No inspected Sri Lanka source explicitly links climate hazards to conflict or violence; no climate-FCV pathway is asserted.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      },
+      {
+        "text": "The bank contains no completed mediated climate-FCV pathway; this is an evidence gap, not evidence of absence.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      }
+    ],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/LKA/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "LKA-SRC-001",
+      "title": "Sri Lanka: Systematic Country Diagnostic Update",
+      "organization": "World Bank Group",
+      "publication_date": "2022-01",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/720711651501449116/pdf/Sri-Lanka-Systematic-Country-Diagnostic-SCD-Update.pdf",
+      "geographic_coverage": [
+        "Sri Lanka",
+        "Kelani River basin",
+        "Northern Province",
+        "North-Central Province",
+        "Eastern Province"
+      ],
+      "temporal_coverage": "Diagnostic published January 2022; includes reported historical disaster losses and climate risk context.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LKA-E-001",
+        "LKA-E-002",
+        "LKA-E-003",
+        "LKA-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LKA-SRC-002",
+      "title": "Nationally Determined Contributions Implementation Plan (2021-2030)",
+      "organization": "Ministry of Environment, Government of Sri Lanka",
+      "publication_date": "2023-07",
+      "publication_date_basis": "publication",
+      "url": "https://env.gov.lk/web/images/pdf/policies/Final_NDC_IP_-_10072023.pdf",
+      "geographic_coverage": [
+        "Sri Lanka"
+      ],
+      "temporal_coverage": "Published July 2023; operationalizes updated NDC commitments for 2021-2030.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LKA-E-005",
+        "LKA-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LKA-SRC-003",
+      "title": "Sri Lanka, World Bank Sign Agreement to Strengthen Climate Resilience",
+      "organization": "World Bank Group",
+      "publication_date": "2021-09-20",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2021/09/20/sri-lanka-world-bank-sign-agreement-to-strengthen-climate-climate-resilience",
+      "geographic_coverage": [
+        "Sri Lanka",
+        "Kelani River basin",
+        "Colombo",
+        "Ambathale"
+      ],
+      "temporal_coverage": "Press release dated 2021; includes projections through 2050 and a planned climate resilience project.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LKA-E-007",
+        "LKA-E-008"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LKA-SRC-101",
+      "title": "Gender Responsive Climate Security Assessment for Sri Lanka",
+      "organization": "UN Women; United Nations Development Programme (UNDP); UN Department of Political and Peacebuilding Affairs (DPPA); Adelphi Research",
+      "publication_date": "2025-09-30",
+      "publication_date_basis": "portal-publication",
+      "url": "https://srilanka.un.org/en/download/192661/302447",
+      "geographic_coverage": [
+        "Badulla District",
+        "Batticaloa District",
+        "Hambantota District",
+        "Mullaitivu District"
+      ],
+      "temporal_coverage": "Field assessment published 30 September 2025; district-specific recommendations are proposals, not later outcomes.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LKA-E-101",
+        "LKA-E-102"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Official indexed PDF excerpts from printed p.15 (hotspot selection) and p.106 (Mullaitivu recommendations); official publication page inspected.",
+          "notes": "Direct PDF endpoint returned 403. Claims use only the official search-indexed excerpts; the landing page verifies publisher, title, date and four-district scope.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LKA-SRC-102",
+      "title": "Remarks by the UN Resident Coordinator Marc-André Franche at the Launch of the Gender Responsive Climate Security Assessment",
+      "organization": "United Nations Resident Coordinator Office in Sri Lanka",
+      "publication_date": "2025-10-01",
+      "publication_date_basis": "portal-publication",
+      "url": "https://srilanka.un.org/en/302604-remarks-un-resident-coordinator-marc-andr%C3%A9-franche-launch-gender-responsive-climate-security",
+      "geographic_coverage": [
+        "Mullaitivu District",
+        "Batticaloa District",
+        "Eastern Province",
+        "North and East",
+        "Sri Lanka"
+      ],
+      "temporal_coverage": "UN launch remarks delivered 1 October 2025, drawing on the assessment and reported local examples.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LKA-E-103",
+        "LKA-E-104",
+        "LKA-E-105",
+        "LKA-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full official speech inspected, especially paragraphs on Mullaitivu land and climate pressures, Batticaloa education, resource allocation and shared preparedness.",
+          "notes": "Speech reproduces reported examples; its claims are not treated as independent prevalence or impact estimates.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LKA-SRC-103",
+      "title": "Cyclone Ditwah Situation Report: Sri Lanka, 8 December 2025-28 January 2026",
+      "organization": "United Nations Population Fund (UNFPA) Sri Lanka",
+      "publication_date": "2026-01-28",
+      "publication_date_basis": "document-version",
+      "url": "https://www.unfpa.org/sites/default/files/resource-pdf/Sri%20Lanka%20Cyclone%20Ditwah%20SitRep%20-%20Dec%20-%20January%20-%20FA2.pdf",
+      "geographic_coverage": [
+        "Sri Lanka",
+        "Badulla District",
+        "Kandy District",
+        "Kegalle District",
+        "Matale District",
+        "Nuwara Eliya District",
+        "Batticaloa District",
+        "Colombo District"
+      ],
+      "temporal_coverage": "Cyclone Ditwah emergency and early recovery reporting from 8 December 2025 to 28 January 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LKA-E-107",
+        "LKA-E-108",
+        "LKA-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 7-page UNFPA Situation Report, 8 December 2025-28 January 2026; displacement, shelter-protection risks, access, safety audits and response passages inspected.",
+          "notes": "Report incorporates DMC and NBRO information and partner-reported service outputs; cited risk values retain their attribution.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "LKA-E-108",
+        "selected_source_id": "LKA-SRC-103",
+        "url": "https://www.unfpa.org/sites/default/files/resource-pdf/Sri%20Lanka%20Cyclone%20Ditwah%20SitRep%20-%20Dec%20-%20January%20-%20FA2.pdf",
+        "locator": "PDF pp.1-2/7, shelter conditions and gender-based violence risk",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "metadata-only",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": null,
+        "declared_bytes": 6459405,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "source exceeds the in-memory size cap"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "LKA-SRC-104",
+      "title": "Implementation of Strategic Frameworks for Science-Driven Disaster Resilience - Tropical Cyclonic Storm Ditwah",
+      "organization": "Office of the Cabinet of Ministers, Government of Sri Lanka",
+      "publication_date": "2026-03-09",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.cabinetoffice.gov.lk/cab/index.php?Itemid=49&dID=13791&id=16&lang=en&option=com_content&view=article",
+      "geographic_coverage": [
+        "Sri Lanka"
+      ],
+      "temporal_coverage": "Cabinet press briefing dated 9 March 2026 on decisions and recommendations following Cyclone Ditwah in November 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LKA-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete Cabinet press briefing on the science-driven resilience framework and post-Ditwah recommendations.",
+          "notes": "Page labels the briefing subject to confirmation at the next Cabinet meeting; proposals are not treated as implemented results.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "LKA-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LKA-SRC-001",
+          "locator": "Environmental sustainability and climate change, printed p. 36 (PDF p. 36)."
+        }
+      ],
+      "geographies": [
+        "Sri Lanka",
+        "Kelani River basin",
+        "Colombo"
+      ],
+      "affected_groups": [
+        "people living in climate hotspots"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The SCD reports 87 percent of the population lives in climate hotspots; floods and landslides mainly affect the Kelani basin, including Colombo, which accounts for about 40 percent of GDP.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LKA-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LKA-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LKA-SRC-001",
+          "locator": "Environmental sustainability and climate change, printed pp. 36-37 (PDF pp. 36-37)."
+        }
+      ],
+      "geographies": [
+        "Sri Lanka"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Estimated average annual disaster fiscal losses exceed US$380 million, of which floods account for about US$240 million.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LKA-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LKA-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LKA-SRC-001",
+          "locator": "Poor households and climate risks, printed p. 37 (PDF p. 37)."
+        }
+      ],
+      "geographies": [
+        "Sri Lanka",
+        "rural areas",
+        "hazard-prone urban areas"
+      ],
+      "affected_groups": [
+        "poor households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Poor households face disproportionate risks due to low assets, climate-sensitive livelihoods, residence near hazards, and limited safety nets and early warning.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LKA-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LKA-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LKA-SRC-001",
+          "locator": "Water resources and climate risks, printed p. 37 (PDF p. 37)."
+        }
+      ],
+      "geographies": [
+        "Northern Province",
+        "North-Central Province",
+        "Eastern Province"
+      ],
+      "affected_groups": [
+        "farm households",
+        "households using local water supplies"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The SCD reports recent water shortages in Northern, North-Central, and Eastern Provinces; drought also threatens hydropower, which supplies about 30 percent of electricity capacity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LKA-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LKA-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LKA-SRC-002",
+          "locator": "Executive Summary, printed p. 1 (PDF p. 11)."
+        }
+      ],
+      "geographies": [
+        "Sri Lanka"
+      ],
+      "affected_groups": [
+        "women",
+        "girls"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The plan says women and girls are less able to adapt to climate change and more likely to face disaster-related livelihood risks and losses; it also notes gender gaps in access to land, credit, technology, information, energy, water, social protection, and employment.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LKA-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LKA-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LKA-SRC-002",
+          "locator": "Executive Summary, printed pp. 1-2 (PDF pp. 11-12)."
+        }
+      ],
+      "geographies": [
+        "Sri Lanka"
+      ],
+      "affected_groups": [],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "The implementation plan covers nine adaptation sectors and states that finances, technology, and human capital may constrain delivery of its proposed actions.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LKA-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LKA-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LKA-SRC-003",
+          "locator": "Climate-risk estimates, webpage paragraphs dated 2021-09-20 (accessed 2026-10-26)."
+        }
+      ],
+      "geographies": [
+        "Sri Lanka"
+      ],
+      "affected_groups": [
+        "people in projected moderate or severe hotspots"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "The press-release summary does not specify the model scenario underlying these estimates.",
+      "compact_statement": "The World Bank release reports a projected 1.2 percent annual GDP loss by 2050 due to climate change and estimates that nearly 19 million people may live in moderate or severe flood or drought hotspots by then.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LKA-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LKA-E-008",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LKA-SRC-003",
+          "locator": "Project scope and Kelani basin measures, webpage paragraphs 113-124 (accessed 2026-10-26)."
+        }
+      ],
+      "geographies": [
+        "Sri Lanka",
+        "Kelani River basin",
+        "Colombo",
+        "Ambathale"
+      ],
+      "affected_groups": [
+        "people in project coverage areas"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2021 program was expected to benefit about 11.2 million people through upgraded weather, flood, and landslide forecasting and early warnings; planned measures include flood-resilient infrastructure in the Kelani basin and a salinity barrier at Ambathale for Colombo's water supply.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check",
+        "programme_intent_and_outcome_terms_co-occur"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LKA-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LKA-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LKA-SRC-101",
+          "locator": "Original assessment PDF physical/printed p.15; table read directly after download on 27 October 2026."
+        }
+      ],
+      "geographies": [
+        "Mullaitivu District",
+        "Batticaloa District"
+      ],
+      "affected_groups": [
+        "Sri Lankan Tamil communities",
+        "Sri Lankan Muslim communities",
+        "farmers",
+        "fishing households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09-30 reports: The assessment selected Mullaitivu and Batticaloa as post-conflict districts with high displacement and destruction; it describes climate-sensitive agriculture and fishing in Mullaitivu and heat, flood and drought exposure in Batticaloa.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LKA-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LKA-SRC-101",
+          "locator": "Original assessment PDF physical/printed p.106; district-specific recommendations read directly."
+        }
+      ],
+      "geographies": [
+        "Mullaitivu District"
+      ],
+      "affected_groups": [
+        "women-headed households",
+        "Tamil communities",
+        "Muslim communities",
+        "youth"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09-30 reports: For Mullaitivu, the assessment proposes community water storage and climate-resilient farming, targeted support for women-headed households, transparent resource allocation, and participatory planning with marginalized Tamil and Muslim communities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LKA-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LKA-SRC-102",
+          "locator": "Speech, paragraphs on Mullaitivu land pressure and climate change"
+        }
+      ],
+      "geographies": [
+        "Mullaitivu District",
+        "North and East"
+      ],
+      "affected_groups": [
+        "returning Muslim families",
+        "Tamil and Muslim communities",
+        "farmers"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "In October 2025 remarks, the UN Resident Coordinator described Mullaitivu's land pressure amid returns and military land-use disputes, and asserted that climate-related arable-land pressure intensifies competition.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LKA-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LKA-SRC-102",
+          "locator": "Speech, paragraph on education disruption in Batticaloa"
+        }
+      ],
+      "geographies": [
+        "Batticaloa District"
+      ],
+      "affected_groups": [
+        "girls",
+        "poor families"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-10-01 reports: The speech says seasonal floods keep poor girls out of school for weeks in Batticaloa, heightening early-marriage and forced-labour risks.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LKA-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LKA-SRC-102",
+          "locator": "Speech, paragraphs on Eastern Province resource allocation and trust"
+        }
+      ],
+      "geographies": [
+        "Eastern Province",
+        "Southern Province",
+        "Central Province"
+      ],
+      "affected_groups": [
+        "Tamil farmers",
+        "Muslim farmers",
+        "Eastern Province communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-10-01 reports: Eastern Province farmers reportedly perceive water and subsidies as favouring southern and central provinces; the speaker warns ignored grievances can weaken national unity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LKA-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LKA-SRC-102",
+          "locator": "Speech, paragraph on shared preparedness in Mullaitivu"
+        }
+      ],
+      "geographies": [
+        "Mullaitivu District"
+      ],
+      "affected_groups": [
+        "Tamil residents",
+        "Muslim residents",
+        "Sinhala residents"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-10-01 reports: Mullaitivu residents from Tamil, Muslim and Sinhala communities reportedly join community disaster preparedness, which the speaker presents as a path to reconciliation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LKA-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LKA-SRC-103",
+          "locator": "PDF pp.1-2/7, displacement, estate-sector concentration and Badulla landslide risk"
+        }
+      ],
+      "geographies": [
+        "Badulla District",
+        "Kandy District",
+        "Kegalle District",
+        "Matale District",
+        "Nuwara Eliya District"
+      ],
+      "affected_groups": [
+        "estate-sector residents",
+        "displaced people",
+        "women and girls"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNFPA's January 2026 Ditwah report states that 165,884 displaced people were staying with hosts by 25 January, with displacement concentrated in estate-sector districts including Badulla, Kandy, Kegalle, Matale and Nuwara Eliya.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LKA-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "LKA-SRC-103",
+          "locator": "PDF pp.1-2/7, shelter conditions and gender-based violence risk"
+        }
+      ],
+      "geographies": [
+        "Sri Lanka",
+        "cyclone-affected districts"
+      ],
+      "affected_groups": [
+        "adolescent girls",
+        "older women",
+        "people with disabilities",
+        "displaced people"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-01-28 reports: UNFPA says shelter crowding, poor lighting, limited privacy and shared sanitation raised gender-based violence risks for girls, older women and people with disabilities; road damage constrained aid access.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "LKA-E-108",
+        "selected_source_id": "LKA-SRC-103",
+        "url": "https://www.unfpa.org/sites/default/files/resource-pdf/Sri%20Lanka%20Cyclone%20Ditwah%20SitRep%20-%20Dec%20-%20January%20-%20FA2.pdf",
+        "locator": "PDF pp.1-2/7, shelter conditions and gender-based violence risk",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "metadata-only",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": null,
+        "declared_bytes": 6459405,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "source exceeds the in-memory size cap"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "LKA-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LKA-SRC-103",
+          "locator": "PDF pp.2-3/7, safety audits and services"
+        }
+      ],
+      "geographies": [
+        "Badulla District",
+        "Kegalle District",
+        "Kandy District",
+        "Matale District",
+        "Colombo District",
+        "Batticaloa District"
+      ],
+      "affected_groups": [
+        "women",
+        "girls",
+        "pregnant women",
+        "people with disabilities",
+        "marginalized groups"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-01-28 reports: UNFPA and government partners audited shelters in Badulla, Kegalle, Kandy and Matale, finding WASH, privacy, security and access gaps; response included SRH/GBV services, supplies and cash.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LKA-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LKA-SRC-104",
+          "locator": "Cabinet press briefing, Ditwah climate stress test and resilience-framework decision"
+        }
+      ],
+      "geographies": [
+        "Sri Lanka"
+      ],
+      "affected_groups": [
+        "people exposed to disasters",
+        "public agencies"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03-09 reports: The Cabinet briefing calls Cyclone Ditwah a climate stress test exposing systemic infrastructure vulnerabilities and reports approval of a shift from reactive response and recovery toward a science-driven proactive resilience framework, informed by institutional research-needs recommendations.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "LKA-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "LKA-E-108",
+        "LKA-E-109"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "LKA-E-108"
+        ],
+        "impact": [
+          "LKA-E-108"
+        ],
+        "mediator": [
+          "LKA-E-108",
+          "LKA-E-109"
+        ],
+        "consequence": [
+          "LKA-E-108"
+        ]
+      },
+      "geographies": [
+        "Sri Lanka",
+        "cyclone-affected districts"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Post-Ditwah shelter conditions and protection-service gaps heightened GBV risk; incidence changes were not measured.",
+      "alternative_explanations": [
+        "Pre-existing inequalities, household resources and service quality also influence protection risk.",
+        "Agency reporting is not an incident-based causal evaluation."
+      ],
+      "uncertainty": "This is a source-stated post-disaster protection-risk mechanism, not proof of increased violence incidence, anthropogenic attribution of the cyclone, or a national FCV classification.",
+      "potentially_out_of_scope_support_ids": [
+        "LKA-E-109"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "LKA-E-108",
+  "source_access_review": {
+    "selected_record_id": "LKA-E-108",
+    "selected_source_id": "LKA-SRC-103",
+    "url": "https://www.unfpa.org/sites/default/files/resource-pdf/Sri%20Lanka%20Cyclone%20Ditwah%20SitRep%20-%20Dec%20-%20January%20-%20FA2.pdf",
+    "locator": "PDF pp.1-2/7, shelter conditions and gender-based violence risk",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "metadata-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": null,
+    "declared_bytes": 6459405,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "source exceeds the in-memory size cap"
+  },
+  "checks": [
+    {
+      "record_id": "LKA-E-108",
+      "source_id": "LKA-SRC-103",
+      "locator": "PDF pp.1-2/7, shelter conditions and gender-based violence risk",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "metadata-only",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "LKA-E-108: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "LKA-E-001",
+    "LKA-E-002",
+    "LKA-E-003",
+    "LKA-E-004",
+    "LKA-E-005",
+    "LKA-E-006",
+    "LKA-E-007",
+    "LKA-E-008",
+    "LKA-E-101",
+    "LKA-E-102",
+    "LKA-E-103",
+    "LKA-E-104",
+    "LKA-E-105",
+    "LKA-E-106",
+    "LKA-E-107",
+    "LKA-E-108",
+    "LKA-E-109",
+    "LKA-E-110",
+    "LKA-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

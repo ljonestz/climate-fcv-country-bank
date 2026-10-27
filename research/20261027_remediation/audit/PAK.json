@@ -1,0 +1,1044 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "PAK",
+  "candidate_path": "countries/PAK/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 5,
+    "evidence_count": 16,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 16
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 9,
+      "access-only": 7
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "PAK-E-002",
+          "PAK-E-005",
+          "PAK-E-007",
+          "PAK-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "PAK-E-001",
+          "PAK-E-003",
+          "PAK-E-004",
+          "PAK-E-006",
+          "PAK-E-008",
+          "PAK-E-101",
+          "PAK-E-102",
+          "PAK-E-103",
+          "PAK-E-106",
+          "PAK-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "PAK-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "PAK-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "PAK-E-101",
+          "PAK-E-102",
+          "PAK-E-103",
+          "PAK-E-104",
+          "PAK-E-105",
+          "PAK-E-106",
+          "PAK-E-107",
+          "PAK-E-108"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/PAK/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "PAK-SRC-001",
+      "title": "Pakistan: Updated Nationally Determined Contributions 2021",
+      "organization": "Government of Pakistan, Ministry of Climate Change",
+      "publication_date": "2021",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/NDC/2022-06/Pakistan%20Updated%20NDC%202021.pdf",
+      "geographic_coverage": [
+        "Pakistan",
+        "upper Indus Basin",
+        "Punjab",
+        "Sindh",
+        "Balochistan",
+        "Khyber Pakhtunkhwa"
+      ],
+      "temporal_coverage": "National climate vulnerability and adaptation planning in the 2021 NDC, with projections through the 2050s.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PAK-E-001",
+        "PAK-E-002",
+        "PAK-E-003",
+        "PAK-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PAK-SRC-002",
+      "title": "Pakistan Floods 2022: Post-Disaster Needs Assessment Main Report",
+      "organization": "Government of Pakistan, with Asian Development Bank, European Union, United Nations Development Programme, and World Bank support",
+      "publication_date": "2022-10",
+      "publication_date_basis": "document-version",
+      "url": "https://thedocs.worldbank.org/en/doc/4a0114eb7d1cecbbbf2f65c5ce0789db-0310012022/original/Pakistan-Floods-2022-PDNA-Main-Report.pdf",
+      "geographic_coverage": [
+        "Pakistan",
+        "Sindh",
+        "Balochistan",
+        "Khyber Pakhtunkhwa",
+        "Punjab"
+      ],
+      "temporal_coverage": "Assessment of the June–August 2022 floods; data collected September to mid-October 2022.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PAK-E-005",
+        "PAK-E-006",
+        "PAK-E-007",
+        "PAK-E-008"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PAK-SRC-101",
+      "title": "Balochistan Climate Change Policy",
+      "organization": "Government of Balochistan and UNDP Pakistan",
+      "publication_date": "2024-11-19",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2025-07/bccp_04072025-1.pdf",
+      "geographic_coverage": [
+        "Balochistan",
+        "Koh-e-Sulaiman Range"
+      ],
+      "temporal_coverage": "Provincial climate risks and 2022 flood/fire impacts discussed in a 2024 policy.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PAK-E-101",
+        "PAK-E-102",
+        "PAK-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Opened the original 90-page policy PDF; claims use foreword and health-sector analysis, PDF pp. 3–4 and 31.",
+          "notes": "Official UNDP landing page identifies publication date 19 November 2024; publication date was not inferred from the PDF URL.",
+          "reuse_terms": "Terms not reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PAK-SRC-102",
+      "title": "Health Emergency Situation Report: Monsoon Floods, 25 July 2025",
+      "organization": "World Health Organization, Regional Office for the Eastern Mediterranean",
+      "publication_date": "2025-07-25",
+      "publication_date_basis": "publication",
+      "url": "https://www.emro.who.int/images/stories/pakistan/Health-Emergency-Situation-Report-Monsoon-Floods-25-July-2025.pdf",
+      "geographic_coverage": [
+        "Punjab",
+        "Khyber Pakhtunkhwa",
+        "Sindh",
+        "Balochistan",
+        "Pakistan"
+      ],
+      "temporal_coverage": "Monsoon and flash-flood impacts and health response reported as of 25 July 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PAK-E-104",
+        "PAK-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Opened the original four-page situation report; claims use PDF pp. 1–3.",
+          "notes": "Report dated 25 July 2025; as-of status and planned versus completed actions were retained.",
+          "reuse_terms": "Terms not reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PAK-SRC-103",
+      "title": "Pakistan: Acute Food Insecurity Analysis, December 2025–September 2026",
+      "organization": "Integrated Food Security Phase Classification (IPC) Analysis Unit, Pakistan",
+      "publication_date": "2026-02-18",
+      "publication_date_basis": "publication",
+      "url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Pakistan_Acute_Food_Insecurity_Dec2025_Sept2026_Report.pdf",
+      "geographic_coverage": [
+        "45 rural districts in Balochistan",
+        "45 rural districts in Sindh",
+        "45 rural districts in Khyber Pakhtunkhwa",
+        "Musakhel",
+        "Zhob",
+        "Kachi",
+        "Tank",
+        "Torghar"
+      ],
+      "temporal_coverage": "Analysis covers observed acute food insecurity in December 2025–March 2026; its April–September 2026 projection period had elapsed by this extraction.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PAK-E-106",
+        "PAK-E-107",
+        "PAK-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Opened the original 24-page analysis; claims use PDF pp. 1–2, 6–8, and methodology p. 22.",
+          "notes": "The report's April–September 2026 projection period had elapsed at access; claims use only the observed December 2025–March 2026 analysis.",
+          "reuse_terms": "Terms not reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "PAK-E-106",
+        "selected_source_id": "PAK-SRC-103",
+        "url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Pakistan_Acute_Food_Insecurity_Dec2025_Sept2026_Report.pdf",
+        "locator": "Summary and classification, PDF pp. 1–2.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": 403,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "HTTP 403"
+      },
+      "audit_accessed_on": "2026-10-27"
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "PAK-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAK-SRC-001",
+          "locator": "NDC climate vulnerability trends, PDF p. 22; printed p. 22."
+        }
+      ],
+      "geographies": [
+        "Pakistan"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC reports Pakistan contributes about 0.9% of global GHG emissions yet is highly climate-vulnerable, citing floods, rainfall shifts, glacier melt, and vector-borne disease.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PAK-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAK-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAK-SRC-001",
+          "locator": "NDC climate impact drivers, PDF p. 23; printed p. 23."
+        }
+      ],
+      "geographies": [
+        "upper Indus Basin",
+        "Balochistan coast",
+        "Sindh coast",
+        "Punjab",
+        "Sindh",
+        "Balochistan"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC describes GLOF risk in the upper Indus; storms and seawater intrusion on the Balochistan and Sindh coasts; river floods and agricultural heat in Punjab and Sindh; and aridity across parts of Punjab, Sindh, and Balochistan.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "PAK-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAK-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAK-SRC-001",
+          "locator": "NDC climate vulnerability trends, PDF p. 22; printed p. 22."
+        }
+      ],
+      "geographies": [
+        "Pakistan"
+      ],
+      "affected_groups": [
+        "food-insecure households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC cites moderate or severe food insecurity among 40% of households in FY2020 as limiting capacity to absorb further climate shocks.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PAK-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAK-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAK-SRC-001",
+          "locator": "NDC adaptation policy initiatives, PDF pp. 38–39; printed pp. 38–39."
+        }
+      ],
+      "geographies": [
+        "Pakistan"
+      ],
+      "affected_groups": [
+        "farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC identifies agriculture as highly affected by climate variability and reports that it accounts for 95% of national freshwater withdrawals.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PAK-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAK-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAK-SRC-002",
+          "locator": "Executive Summary, PDF p. 13 (printed p. 2), with district count as of October 11, 2022, PDF p. 14 (printed p. 3)."
+        }
+      ],
+      "geographies": [
+        "Pakistan",
+        "94 calamity-hit districts"
+      ],
+      "affected_groups": [
+        "affected households",
+        "displaced people",
+        "children"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The PDNA reports 2022 floods affected 33 million people, displaced nearly 8 million, and killed over 1,700; 94 districts were calamity-hit by October 11.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PAK-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAK-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAK-SRC-002",
+          "locator": "Executive Summary, PDF p. 16 (printed p. 15)."
+        }
+      ],
+      "geographies": [
+        "Pakistan"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The PDNA estimates US$14.9 billion damage, US$15.2 billion losses, and US$16.3 billion recovery needs; housing, agriculture, and transport were hardest hit.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PAK-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAK-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAK-SRC-002",
+          "locator": "Housing sector assessment, PDF p. 53 (printed p. 52)."
+        }
+      ],
+      "geographies": [
+        "Sindh",
+        "94 calamity-hit districts"
+      ],
+      "affected_groups": [
+        "rural households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The PDNA estimates 780,000 houses destroyed and 1.27 million partly damaged; Sindh accounted for 83% of housing damage.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PAK-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAK-E-008",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAK-SRC-002",
+          "locator": "Human Impact Assessment, PDF pp. 47–48 (printed pp. 46–47)."
+        }
+      ],
+      "geographies": [
+        "Pakistan"
+      ],
+      "affected_groups": [
+        "poor households",
+        "flood-affected people"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "Preliminary short-term flood-impact estimate; relief and recovery design may change outcomes.",
+      "compact_statement": "The PDNA estimates flood-related poverty rose 3.7–4.0 percentage points (8.4–9.1 million people) and multidimensional poverty 5.9 points.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PAK-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAK-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAK-SRC-101",
+          "locator": "Foreword, PDF pp. 3–4."
+        }
+      ],
+      "geographies": [
+        "Balochistan"
+      ],
+      "affected_groups": [
+        "vulnerable rural communities",
+        "resource-dependent households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-11-19 reports: The policy says declining groundwater, recurring drought and heatwaves erode agriculture and displace vulnerable, resource-dependent rural communities, increasing poverty in Balochistan.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAK-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAK-SRC-101",
+          "locator": "Foreword, PDF p. 4."
+        }
+      ],
+      "geographies": [
+        "Balochistan"
+      ],
+      "affected_groups": [
+        "women",
+        "youth",
+        "vulnerable communities",
+        "displaced people"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-11-19 reports: The policy reports that rain-induced floods displaced over 1.3 million people in Balochistan in 2022; women, youth and vulnerable communities face disproportionate climate-related food and health risks.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAK-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAK-SRC-101",
+          "locator": "Health-sector analysis, PDF p. 31."
+        }
+      ],
+      "geographies": [
+        "Balochistan"
+      ],
+      "affected_groups": [
+        "women"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-11-19 reports: The policy says climate disasters combined with social norms obstruct women's access to healthcare, including transport, supplies, skilled staff and information.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAK-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAK-SRC-102",
+          "locator": "Situation overview, PDF p. 1."
+        }
+      ],
+      "geographies": [
+        "Punjab",
+        "Khyber Pakhtunkhwa",
+        "Sindh",
+        "Balochistan"
+      ],
+      "affected_groups": [
+        "children",
+        "women",
+        "men",
+        "flood-affected people"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-07-25 reports: As of 25 July 2025, NDMA reported 266 deaths and 628 injuries from heavy rain and flash floods since 26 June; reported deaths included 144 in Punjab, 63 in Khyber Pakhtunkhwa, 25 in Sindh and 16 in Balochistan.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAK-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAK-SRC-102",
+          "locator": "Response overview, PDF pp. 2–3."
+        }
+      ],
+      "geographies": [
+        "Rawalpindi District",
+        "Chakwal District",
+        "Attock District",
+        "Sargodha District",
+        "Sohbatpur",
+        "Usta Muhammad"
+      ],
+      "affected_groups": [
+        "flood-affected people",
+        "women",
+        "children",
+        "older people",
+        "people with disabilities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-07-25 reports: By 25 July 2025, health contingency plans and high-risk district control rooms were activated, medical supplies prepositioned, and partner mobile units had served over 3,000 people in Rawalpindi, Chakwal, Attock, Sargodha, Sohbatpur and Usta Muhammad.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAK-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "PAK-SRC-103",
+          "locator": "Summary and classification, PDF pp. 1–2."
+        }
+      ],
+      "geographies": [
+        "Balochistan",
+        "Sindh",
+        "Khyber Pakhtunkhwa",
+        "Musakhel",
+        "Zhob",
+        "Kachi",
+        "Tank",
+        "Torghar"
+      ],
+      "affected_groups": [
+        "people classified in IPC Phase 3 or worse"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "IPC's February 2026 analysis classified food insecurity for December 2025–March 2026 across 45 rural districts, citing weather shocks and localized insecurity among several drivers.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "PAK-E-106",
+        "selected_source_id": "PAK-SRC-103",
+        "url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Pakistan_Acute_Food_Insecurity_Dec2025_Sept2026_Report.pdf",
+        "locator": "Summary and classification, PDF pp. 1–2.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": 403,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "HTTP 403"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "PAK-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAK-SRC-103",
+          "locator": "Drivers and district findings, PDF pp. 2 and 6."
+        }
+      ],
+      "geographies": [
+        "Kachi District",
+        "Tank District"
+      ],
+      "affected_groups": [
+        "food-insecure households",
+        "agricultural and pastoral livelihood groups"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02-18 reports: IPC identifies localized insecurity as a main food-insecurity driver in Kachi and Tank, disrupting livelihoods, markets, services and income.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAK-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAK-SRC-103",
+          "locator": "Household livelihood findings, PDF pp. 7–8."
+        }
+      ],
+      "geographies": [
+        "Balochistan",
+        "Sindh",
+        "Khyber Pakhtunkhwa"
+      ],
+      "affected_groups": [
+        "surveyed households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02-18 reports: The household assessment associated drought with income declines of 30% in Balochistan, 14% in Sindh and 9% in Khyber Pakhtunkhwa; respondents also reported water scarcity and reduced crop or livestock production.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "PAK-E-106",
+  "source_access_review": {
+    "selected_record_id": "PAK-E-106",
+    "selected_source_id": "PAK-SRC-103",
+    "url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Pakistan_Acute_Food_Insecurity_Dec2025_Sept2026_Report.pdf",
+    "locator": "Summary and classification, PDF pp. 1–2.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": 403,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "HTTP 403"
+  },
+  "checks": [
+    {
+      "record_id": "PAK-E-106",
+      "source_id": "PAK-SRC-103",
+      "locator": "Summary and classification, PDF pp. 1–2.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "PAK-E-106: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "PAK-E-001",
+    "PAK-E-002",
+    "PAK-E-003",
+    "PAK-E-004",
+    "PAK-E-005",
+    "PAK-E-006",
+    "PAK-E-007",
+    "PAK-E-008",
+    "PAK-E-101",
+    "PAK-E-102",
+    "PAK-E-103",
+    "PAK-E-104",
+    "PAK-E-105",
+    "PAK-E-106",
+    "PAK-E-107",
+    "PAK-E-108"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

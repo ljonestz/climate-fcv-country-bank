@@ -1,0 +1,1191 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "ZMB",
+  "candidate_path": "countries/ZMB/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 7,
+    "evidence_count": 18,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 18
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 6,
+      "access-only": 12
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "ZMB-E-006"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "ZMB-E-003",
+          "ZMB-E-101",
+          "ZMB-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "ZMB-E-001",
+          "ZMB-E-005",
+          "ZMB-E-103",
+          "ZMB-E-108",
+          "ZMB-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "ZMB-E-004",
+          "ZMB-E-110",
+          "ZMB-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "ZMB-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "ZMB-E-002",
+          "ZMB-E-104",
+          "ZMB-E-105",
+          "ZMB-E-106",
+          "ZMB-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "ZMB-E-101",
+          "ZMB-E-106",
+          "ZMB-E-107",
+          "ZMB-E-109",
+          "ZMB-E-110",
+          "ZMB-E-111",
+          "ZMB-E-112",
+          "ZMB-E-113"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/ZMB/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "ZMB-SRC-001",
+      "title": "Zambia Country Climate and Development Report: Executive Summary",
+      "organization": "World Bank Group",
+      "publication_date": "2026-04",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099032626112537601/pdf/P506115-9f323e64-c331-4a06-a4f1-15c929eb1907.pdf",
+      "geographic_coverage": [
+        "Zambia"
+      ],
+      "temporal_coverage": "Current impacts and dry-hot scenario projections through 2050, reported in 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "restricted",
+      "records_using_source": [
+        "ZMB-E-001",
+        "ZMB-E-002"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "ZMB-E-001",
+        "selected_source_id": "ZMB-SRC-001",
+        "url": "https://documents1.worldbank.org/curated/en/099032626112537601/pdf/P506115-9f323e64-c331-4a06-a4f1-15c929eb1907.pdf",
+        "locator": "PDF p. 7, Key Report Messages",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "ZMB-SRC-002",
+      "title": "National Adaptation Plan for Zambia",
+      "organization": "Government of Zambia, Ministry of Green Economy and Environment",
+      "publication_date": "2023-10",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/resource/NAP-Zambia-2023.pdf",
+      "geographic_coverage": [
+        "Zambia",
+        "Southern Province",
+        "Western Province",
+        "Eastern Province",
+        "Central Province",
+        "low-rainfall areas"
+      ],
+      "temporal_coverage": "Current vulnerability assessment and medium- to long-term adaptation plan, reported in 2023",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ZMB-E-003",
+        "ZMB-E-004",
+        "ZMB-E-005",
+        "ZMB-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ZMB-SRC-101",
+      "title": "Zambia: Drought Response Appeal May 2024 - December 2024",
+      "organization": "United Nations Resident Coordinator Office in Zambia and OCHA",
+      "publication_date": "2024-05-08",
+      "publication_date_basis": "publication",
+      "url": "https://zambia.un.org/en/268038-zambia-drought-response-appeal-may-2024-december-2024-may-2024",
+      "geographic_coverage": [
+        "Zambia",
+        "Central Province",
+        "Eastern Province",
+        "Southern Province",
+        "Western Province",
+        "Rufunsa District"
+      ],
+      "temporal_coverage": "2023/2024 rainfall-season drought impacts and response outlook, as reported in May 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ZMB-E-101"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete publisher-page body, opening drought-impact and protection-risk paragraphs.",
+          "notes": "Direct UN in Zambia body was read; drought-impact figures and protection assertions are dated to the May 2024 appeal.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ZMB-SRC-102",
+      "title": "Zambia Country Office Humanitarian Situation Report - 2025",
+      "organization": "UNICEF Zambia",
+      "publication_date": "2025-12",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/zambia/media/8501/file/End%20of%20Year%20SitRep-Dec-2025.pdf.pdf",
+      "geographic_coverage": [
+        "Zambia",
+        "117 districts",
+        "all ten provinces",
+        "55 drought-affected districts"
+      ],
+      "temporal_coverage": "UNICEF Zambia humanitarian needs and programme reporting for 2025, including lingering effects of the 2023/2024 drought.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ZMB-E-103",
+        "ZMB-E-104",
+        "ZMB-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete six-page publisher PDF, especially pp. 1–2, Situation Overview, WASH and Social Protection.",
+          "notes": "Directly opened and read cited PDF passages; programme achievements are UNICEF annual-reporting outputs.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ZMB-SRC-103",
+      "title": "Post-Implementation Beneficiary Satisfaction and Protection Monitoring Survey",
+      "organization": "UNICEF Zambia, with the University of Zambia and government partners",
+      "publication_date": "2025-09",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/zambia/media/7376/file/Final%20Post%20Implementation%20Report.pdf.pdf",
+      "geographic_coverage": [
+        "Limulunga District",
+        "Nalolo District",
+        "Sikongo District",
+        "Sioma District",
+        "Gwembe District",
+        "Shang’ombo District",
+        "Sinazongwe District",
+        "Lunga District"
+      ],
+      "temporal_coverage": "Cross-sectional perceptions of assistance delivered during the 2023/2024 drought and floods, collected in 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ZMB-E-106",
+        "ZMB-E-107",
+        "ZMB-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 37-page publisher PDF; executive summary, methods and district comparison, printed pp. iii, 2–4 and 10.",
+          "notes": "Directly read survey passages; the summary/methods conflict on whether seven or eight districts were sampled, retained as a data limitation.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ZMB-SRC-104",
+      "title": "New Beginnings for Farming Families Rebuilding After Drought in Zambia",
+      "organization": "Food and Agriculture Organization of the United Nations",
+      "publication_date": "2026-03-20",
+      "publication_date_basis": "publication",
+      "url": "https://www.fao.org/zambia/stories/detail/new-beginnings-for-farming-families-rebuilding-after-drought-in-zambia/en",
+      "geographic_coverage": [
+        "Gwembe District",
+        "Sinazongwe District",
+        "Luumbo Camp",
+        "Munyumbwe",
+        "Southern Province"
+      ],
+      "temporal_coverage": "FAO and partner drought-recovery activities and participant accounts reported in March 2026; effects of the 2023/2024 drought and 2025/2026 rains.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ZMB-E-109",
+        "ZMB-E-110",
+        "ZMB-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete FAO feature page, opening drought context, intervention, sustainability and named farmer paragraphs.",
+          "notes": "Publisher body read directly; participant account and reported project results are identified as such.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ZMB-SRC-105",
+      "title": "Rebuilding Hope After the Lundazi Floods",
+      "organization": "UNICEF Zambia",
+      "publication_date": "2026-01-30",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/zambia/stories/rebuilding-hope-after-lundazi-floods",
+      "geographic_coverage": [
+        "Lundazi District",
+        "Lumezi District",
+        "Nthitimila community",
+        "Mwase village",
+        "Eastern Province"
+      ],
+      "temporal_coverage": "Accounts of heavy-rainfall floods beginning in late December 2025 and UNICEF response reported in January 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ZMB-E-112",
+        "ZMB-E-113"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete UNICEF publisher story, flood impacts and response paragraphs.",
+          "notes": "Directly read publisher body; individual household account is illustrative, and planned installations remain prospective.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "ZMB-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "ZMB-SRC-001",
+          "locator": "PDF p. 7, Key Report Messages"
+        }
+      ],
+      "geographies": [
+        "Zambia"
+      ],
+      "affected_groups": [
+        "rural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "BAU dry-hot scenario",
+      "compact_statement": "Under the CCDR's BAU dry-hot scenario, drought risk rises fivefold by mid-century and climate change lowers annual GDP about 6 percent by 2050, affecting agriculture, hydropower and labor productivity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "ZMB-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "ZMB-E-001",
+        "selected_source_id": "ZMB-SRC-001",
+        "url": "https://documents1.worldbank.org/curated/en/099032626112537601/pdf/P506115-9f323e64-c331-4a06-a4f1-15c929eb1907.pdf",
+        "locator": "PDF p. 7, Key Report Messages",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "ZMB-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ZMB-SRC-001",
+          "locator": "PDF p. 7, Key Report Messages on social protection and disaster risk financing"
+        }
+      ],
+      "geographies": [
+        "Zambia"
+      ],
+      "affected_groups": [
+        "people affected by drought"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "CCDR says shock-responsive social protection backed by disaster risk financing has cushioned recent drought impacts; it recommends scaling early warning and adaptive social protection.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "ZMB-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ZMB-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ZMB-SRC-002",
+          "locator": "PDF p. 30 (printed p. 23), social vulnerability matrix on drought and water sources"
+        }
+      ],
+      "geographies": [
+        "Zambia",
+        "rural communities",
+        "all provinces"
+      ],
+      "affected_groups": [
+        "rural communities dependent on single water sources"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "NAP says drought can reduce water quantity and quality; many rural communities rely on a single river or stream, and resulting scarcity affects users across provinces.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "ZMB-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ZMB-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ZMB-SRC-002",
+          "locator": "PDF p. 31 (printed p. 24), groundwater and adaptive-capacity matrix"
+        }
+      ],
+      "geographies": [
+        "Southern Province",
+        "Eastern Province",
+        "agro-ecological region I"
+      ],
+      "affected_groups": [
+        "communities in low-rainfall areas"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "NAP rates drought-related groundwater exposure high and says low-rainfall areas have lower adaptive capacity because droughts occur frequently, including Southern and Eastern provinces in agro-ecological region I.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "ZMB-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ZMB-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ZMB-SRC-002",
+          "locator": "PDF p. 34, financial vulnerability matrix for small-scale farmers"
+        }
+      ],
+      "geographies": [
+        "Southern Province",
+        "Western Province",
+        "Eastern Province"
+      ],
+      "affected_groups": [
+        "small-scale farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "NAP links drought yield losses to lower smallholder income from crop, livestock and fish sales, with little adaptation finance in Southern, Western and Eastern provinces.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "ZMB-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ZMB-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ZMB-SRC-002",
+          "locator": "PDF p. 30, forestry vulnerability matrix on drought and fire risk"
+        }
+      ],
+      "geographies": [
+        "Southern Province",
+        "Western Province",
+        "Eastern Province",
+        "Central Province"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "NAP states higher temperatures and drought contribute to more frequent forest-fire risk in Southern, Western, Eastern and Central provinces.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "ZMB-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ZMB-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ZMB-SRC-101",
+          "locator": "UN in Zambia appeal page, opening drought-impact paragraphs, 8 May 2024."
+        }
+      ],
+      "geographies": [
+        "Zambia",
+        "Central Province",
+        "Eastern Province",
+        "Southern Province",
+        "Western Province"
+      ],
+      "affected_groups": [
+        "farmers",
+        "livestock keepers",
+        "drought-affected households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-05-08 reports: The 2023/2024 season’s late onset, dry spells and heat affected crops and livestock; over nine million people in 84 of 117 districts were affected, with Central, Eastern, Southern and Western provinces hardest hit.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ZMB-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ZMB-SRC-102",
+          "locator": "PDF p. 1, ‘Situation Overview & Humanitarian Needs.’"
+        }
+      ],
+      "geographies": [
+        "Zambia",
+        "117 districts"
+      ],
+      "affected_groups": [
+        "children",
+        "children under five",
+        "drought-affected households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12 reports: The 2023/2024 drought affected over nine million people in more than 70% of 117 districts; over three million children were food insecure and more than 51,000 faced severe-wasting risk.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ZMB-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ZMB-SRC-102",
+          "locator": "PDF p. 2, WASH response section."
+        }
+      ],
+      "geographies": [
+        "Zambia drought-affected districts",
+        "cholera-affected districts"
+      ],
+      "affected_groups": [
+        "drought-affected people",
+        "health-facility users"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12 reports: In 2025, UNICEF rehabilitated 86 boreholes (34 at health facilities) in drought-affected districts, benefiting 21,500; a separate cholera response restored water to 4,108 through seven boreholes.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ZMB-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ZMB-SRC-102",
+          "locator": "PDF p. 2, ‘Social Protection’ section."
+        }
+      ],
+      "geographies": [
+        "Zambia drought-affected districts"
+      ],
+      "affected_groups": [
+        "SCT beneficiaries",
+        "non-SCT drought-affected households",
+        "households with members with disabilities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNICEF reports drought cash delivery through the Social Cash Transfer system, with aggregate reach including regular and emergency households; reported avoided asset sales are not an independently evaluated effect.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ZMB-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ZMB-SRC-103",
+          "locator": "PDF printed p. iii, executive-summary key findings; methodology printed pp. 2–4."
+        }
+      ],
+      "geographies": [
+        "Limulunga",
+        "Nalolo",
+        "Sikongo",
+        "Sioma",
+        "Gwembe",
+        "Shang’ombo",
+        "Sinazongwe",
+        "Lunga"
+      ],
+      "affected_groups": [
+        "humanitarian-assistance recipients",
+        "women",
+        "children",
+        "persons with disabilities",
+        "older people"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09 reports: Among 950 surveyed assistance recipients, 66.7% said aid met household priorities; 27.3% disagreed, citing unmet needs, exclusion or access barriers.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ZMB-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ZMB-SRC-103",
+          "locator": "PDF printed p. 10, ‘Perceptions of Humanitarian Services Addressing Protection Risks by District.’"
+        }
+      ],
+      "geographies": [
+        "Lunga District",
+        "Shang’ombo District",
+        "Sioma District",
+        "Sikongo District",
+        "Gwembe District"
+      ],
+      "affected_groups": [
+        "affected households",
+        "remote communities",
+        "vulnerable populations"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The recipient survey reports different protection-service perceptions in Lunga and Gwembe and identifies remoteness, roads and communications as constraints.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ZMB-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ZMB-SRC-103",
+          "locator": "PDF printed p. iii, executive-summary key findings."
+        }
+      ],
+      "geographies": [
+        "selected drought- and flood-affected districts in Zambia"
+      ],
+      "affected_groups": [
+        "humanitarian-assistance recipients",
+        "marginalized groups"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09 reports: Among respondents, 42.3% felt excluded from decisions and 12.4% reported discrimination or access barriers; 87% reported no barriers.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ZMB-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ZMB-SRC-104",
+          "locator": "FAO feature, opening paragraphs on Gwembe and Sinazongwe drought recovery."
+        }
+      ],
+      "geographies": [
+        "Gwembe District",
+        "Sinazongwe District",
+        "Southern Province"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "rural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03-20 reports: FAO reports that drought-damaged crops, dried water sources and livestock losses persisted in Gwembe and Sinazongwe after above-average 2025/2026 rains supported crop recovery; some households entered later seasons with depleted herds and assets.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ZMB-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ZMB-SRC-104",
+          "locator": "FAO feature, intervention description and sustainability paragraphs."
+        }
+      ],
+      "geographies": [
+        "Gwembe District",
+        "Sinazongwe District"
+      ],
+      "affected_groups": [
+        "vulnerable farmers",
+        "women",
+        "rural households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03-20 reports: FAO and partners distributed 1,312 goats to vulnerable farmers in Gwembe and Sinazongwe, reporting about 1,600 people reached, a majority women; support also included animal husbandry, disease-control and climate-smart agriculture training.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ZMB-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ZMB-SRC-104",
+          "locator": "FAO feature, named farmer account from Luumbo Camp in Munyumbwe."
+        }
+      ],
+      "geographies": [
+        "Luumbo Camp",
+        "Munyumbwe",
+        "Gwembe District"
+      ],
+      "affected_groups": [
+        "woman farmer",
+        "participating households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03-20 reports: A woman farmer from Luumbo Camp, Munyumbwe, told FAO she had lost livestock in the drought and received replacement goats; the project says a pass-on arrangement is intended to extend offspring to other households.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ZMB-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ZMB-SRC-105",
+          "locator": "UNICEF story, opening flood impacts and named household account, 30 January 2026."
+        }
+      ],
+      "geographies": [
+        "Lundazi District",
+        "Lumezi District",
+        "Eastern Province"
+      ],
+      "affected_groups": [
+        "children",
+        "flood-displaced households",
+        "farming households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-01-30 reports: Late-December 2025 floods in Lundazi and Lumezi submerged Lundazi’s treatment plant, leaving over 40,000 people without safe water; UNICEF describes child displacement, missed school, crop losses and greater illness risk.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ZMB-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ZMB-SRC-105",
+          "locator": "UNICEF story, response and local-systems paragraphs, 30 January 2026."
+        }
+      ],
+      "geographies": [
+        "Lundazi District",
+        "Lumezi District",
+        "four directly affected health facilities",
+        "three flood-affected communities"
+      ],
+      "affected_groups": [
+        "flood-affected families",
+        "children",
+        "community volunteers"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-01-30 reports: UNICEF reported orienting over 75 community volunteers across four flood-affected health facilities and 11 additional facilities remotely; three hand pumps were provided for installation and three clinic boreholes remained planned.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "ZMB-E-001",
+  "source_access_review": {
+    "selected_record_id": "ZMB-E-001",
+    "selected_source_id": "ZMB-SRC-001",
+    "url": "https://documents1.worldbank.org/curated/en/099032626112537601/pdf/P506115-9f323e64-c331-4a06-a4f1-15c929eb1907.pdf",
+    "locator": "PDF p. 7, Key Report Messages",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": null,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+  },
+  "checks": [
+    {
+      "record_id": "ZMB-E-001",
+      "source_id": "ZMB-SRC-001",
+      "locator": "PDF p. 7, Key Report Messages",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "ZMB-E-001: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "ZMB-E-001",
+    "ZMB-E-002",
+    "ZMB-E-003",
+    "ZMB-E-004",
+    "ZMB-E-005",
+    "ZMB-E-006",
+    "ZMB-E-101",
+    "ZMB-E-103",
+    "ZMB-E-104",
+    "ZMB-E-105",
+    "ZMB-E-106",
+    "ZMB-E-107",
+    "ZMB-E-108",
+    "ZMB-E-109",
+    "ZMB-E-110",
+    "ZMB-E-111",
+    "ZMB-E-112",
+    "ZMB-E-113"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

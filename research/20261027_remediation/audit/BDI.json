@@ -1,0 +1,953 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "BDI",
+  "candidate_path": "countries/BDI/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 5,
+    "evidence_count": 13,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 13
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 6,
+      "access-only": 7
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "BDI-E-001",
+          "BDI-E-004",
+          "BDI-E-006"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "BDI-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "BDI-E-002",
+          "BDI-E-005",
+          "BDI-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BDI-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BDI-E-102",
+          "BDI-E-104",
+          "BDI-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "BDI-E-003",
+          "BDI-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "BDI-E-102",
+          "BDI-E-105",
+          "BDI-E-106",
+          "BDI-E-107"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "BDI-P-001"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/BDI/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "BDI-SRC-001",
+      "title": "Tackling Climate Change, Land Degradation and Fragility: Diagnosing Drivers of Climate and Environmental Fragility in Burundi’s Colline Landscapes: Towards a Multi-Sector Investment Plan to Scale up Climate Resilience",
+      "organization": "World Bank and Government of Burundi",
+      "publication_date": "2022",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099930006302237433/pdf/P17682007885e00780b1cc093a09277df1a.pdf",
+      "geographic_coverage": [
+        "Burundi",
+        "Burundi collines"
+      ],
+      "temporal_coverage": "Historical climate series, mid-century projections, and spatial multi-risk assessment reported in 2022",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "restricted",
+      "records_using_source": [
+        "BDI-E-001",
+        "BDI-E-002",
+        "BDI-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "BDI-E-003",
+        "selected_source_id": "BDI-SRC-001",
+        "url": "https://documents1.worldbank.org/curated/en/099930006302237433/pdf/P17682007885e00780b1cc093a09277df1a.pdf",
+        "locator": "PDF p. 9, executive summary on fragility and land scarcity",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "BDI-SRC-002",
+      "title": "Intended Nationally Determined Contribution (INDC) / Burundi",
+      "organization": "Government of Burundi",
+      "publication_date": "2015-09",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/NDC/2022-06/Burundi_INDC-english%2520version.pdf",
+      "geographic_coverage": [
+        "Burundi",
+        "north and northwest Burundi",
+        "Imbo Plain slope",
+        "central plateau"
+      ],
+      "temporal_coverage": "National vulnerability assessment and climate projections through 2050, as reported in 2015",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BDI-E-004",
+        "BDI-E-005",
+        "BDI-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BDI-SRC-101",
+      "title": "Burundi Colline Climate Resilience Project (P180864): Appraisal Environmental and Social Review Summary",
+      "organization": "World Bank",
+      "publication_date": "2024-11-07",
+      "publication_date_basis": "document-version",
+      "url": "https://documents1.worldbank.org/curated/en/099110724102042179/pdf/P180864-95d9a094-6e63-414f-a420-cdcd90f00c7c.pdf",
+      "geographic_coverage": [
+        "Burundi",
+        "Cibitoke",
+        "Gitega",
+        "Kirundo",
+        "Kayanza",
+        "Bujumbura",
+        "Muyinga",
+        "western Burundi",
+        "eastern Burundi",
+        "rural collines"
+      ],
+      "temporal_coverage": "Appraisal-stage project context and proposed activities, 2024",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BDI-E-102",
+        "BDI-E-103",
+        "BDI-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 1-5",
+          "notes": "Opened and read the appraisal summary, proposed interventions, local targeting and contextual fragility passage.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BDI-SRC-102",
+      "title": "Climate Change, Internal Mobility, and Conflict Dynamics: Country Brief - Burundi",
+      "organization": "Mixed Migration Centre (MMC)",
+      "publication_date": "2026-04",
+      "publication_date_basis": "document-version",
+      "url": "https://mixedmigration.org/wp-content/uploads/2026/04/434_Country-Brief%E2%80%93Burundi_Climate-Change-Mobility-Conflict-Dynamics.pdf",
+      "geographic_coverage": [
+        "Burundi",
+        "Bujumbura city",
+        "Bujumbura rural",
+        "Cibitoke",
+        "Makamba"
+      ],
+      "temporal_coverage": "Survey interviews May-July 2025; displacement experiences within the previous five years",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BDI-E-105",
+        "BDI-E-106",
+        "BDI-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 4, 9, 12 and 17",
+          "notes": "Read findings, sampling/limitations and early-warning/adaptation sections; updated province boundary change is noted by the source.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BDI-SRC-103",
+      "title": "Burundi country strategic plan (2024-2027)",
+      "organization": "World Food Programme (WFP)",
+      "publication_date": "2026-06",
+      "publication_date_basis": "document-version",
+      "url": "https://www.wfp.org/operations/bi03-burundi-country-strategic-plan-2024-2027",
+      "geographic_coverage": [
+        "Burundi"
+      ],
+      "temporal_coverage": "Country strategic plan period 2024-2027; revision approved June 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BDI-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "HTML page, country context and outcomes",
+          "notes": "Opened the current country plan page and read the June 2026 revision status and outcomes.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "BDI-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BDI-SRC-001",
+          "locator": "PDF p. 8, climate outlook summary"
+        }
+      ],
+      "geographies": [
+        "Burundi",
+        "northern Burundi",
+        "southern Burundi"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "The inspected summary does not specify it.",
+      "compact_statement": "The report projects 0.5–1.0°C warming for 2040–2060 versus 1981–2000, with uncertain north–south rainfall differences.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BDI-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BDI-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BDI-SRC-001",
+          "locator": "PDF pp. 50–51, colline multi-risk assessment and scoring note"
+        }
+      ],
+      "geographies": [
+        "2,616 collines in Burundi"
+      ],
+      "affected_groups": [
+        "colline populations"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The composite assessment scores 347 of 2,616 collines at very high combined climate, environmental and fragility risk, and none at low or very low risk.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BDI-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BDI-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "BDI-SRC-001",
+          "locator": "PDF p. 9, executive summary on fragility and land scarcity"
+        }
+      ],
+      "geographies": [
+        "Burundi"
+      ],
+      "affected_groups": [
+        "rural communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "The inspected summary does not specify it.",
+      "compact_statement": "The report describes land scarcity as an existing source of intercommunal conflict and warns climate and land degradation may reduce arable productivity and intensify this pressure.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BDI-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "BDI-E-003",
+        "selected_source_id": "BDI-SRC-001",
+        "url": "https://documents1.worldbank.org/curated/en/099930006302237433/pdf/P17682007885e00780b1cc093a09277df1a.pdf",
+        "locator": "PDF p. 9, executive summary on fragility and land scarcity",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "BDI-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BDI-SRC-002",
+          "locator": "PDF p. 3, section 2.1, climate change impacts and vulnerability"
+        }
+      ],
+      "geographies": [
+        "Burundi"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "The inspected summary does not specify it.",
+      "compact_statement": "Prior national analysis projected 1–3°C higher annual mean temperature and roughly 10% more rainfall by 2050, with a disrupted seasonal regime.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BDI-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BDI-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BDI-SRC-002",
+          "locator": "PDF p. 3, section 2.1, ACCES vulnerability analysis"
+        }
+      ],
+      "geographies": [
+        "north Burundi",
+        "northwest Burundi",
+        "Imbo Plain slope",
+        "central plateau"
+      ],
+      "affected_groups": [
+        "rural communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The INDC identifies northern and northwestern vulnerability hotspots and flags the slope toward the Imbo Plain, northern terrain and central plateau as erosion-prone.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "BDI-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BDI-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BDI-SRC-002",
+          "locator": "PDF p. 3, section 2.1 and Table 1, climate-related risks by sector"
+        }
+      ],
+      "geographies": [
+        "Burundi"
+      ],
+      "affected_groups": [
+        "farmers",
+        "livestock keepers"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "The inspected summary does not specify it.",
+      "compact_statement": "The INDC lists groundwater shortage, lowland flooding, soil-fertility loss, crop-season changes and unpredictable pest movements among projected risks.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "BDI-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BDI-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BDI-SRC-101",
+          "locator": "PDF p. 4, project targeting description"
+        }
+      ],
+      "geographies": [
+        "Cibitoke",
+        "Gitega",
+        "Kirundo",
+        "Kayanza",
+        "Bujumbura",
+        "Muyinga"
+      ],
+      "affected_groups": [
+        "households in hotspot collines"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The November 2024 appraisal proposed 71 locations covering 65 hotspot collines in seven provinces; six clearly readable names are Cibitoke, Gitega, Kirundo, Kayanza, Bujumbura and Muyinga.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BDI-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BDI-SRC-101",
+          "locator": "PDF p. 5, social and environmental context"
+        }
+      ],
+      "geographies": [
+        "Burundi",
+        "colline landscapes"
+      ],
+      "affected_groups": [
+        "rural communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The November 2024 appraisal describes a possible scarce-land mechanism: heavier rainfall and landslides may degrade land, heighten tensions, weaken cohesion and reopen post-conflict trauma.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BDI-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BDI-SRC-101",
+          "locator": "PDF pp. 3-4, proposed community livelihood-resilience component"
+        }
+      ],
+      "geographies": [
+        "Burundi",
+        "targeted collines"
+      ],
+      "affected_groups": [
+        "vulnerable households",
+        "women",
+        "youth",
+        "Batwa communities",
+        "internally displaced people"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The November 2024 appraisal proposed colline climate-action plans, early-warning and contingency systems, livelihood diversification and land certification; delivery and effects were not established.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BDI-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BDI-SRC-102",
+          "locator": "PDF p. 4, key findings; PDF p. 9, methodology"
+        }
+      ],
+      "geographies": [
+        "Bujumbura city",
+        "Cibitoke",
+        "Makamba city"
+      ],
+      "affected_groups": [
+        "internally displaced people"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Among 1,027 purposively selected climate-affected IDPs interviewed in Bujumbura, Cibitoke and Makamba in 2025, 63% reported flood impacts, 34% landslides and 34% unpredictable weather.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BDI-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BDI-SRC-102",
+          "locator": "PDF p. 12, reported flood impacts and movement triggers"
+        }
+      ],
+      "geographies": [
+        "Bujumbura city",
+        "Cibitoke",
+        "Makamba city"
+      ],
+      "affected_groups": [
+        "internally displaced people",
+        "children"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Among surveyed IDPs affected by floods, 96% said housing destruction or damage prompted movement; 22% also cited household food or water scarcity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BDI-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BDI-SRC-102",
+          "locator": "PDF p. 17, early warning and adaptation findings"
+        }
+      ],
+      "geographies": [
+        "Bujumbura city",
+        "Cibitoke",
+        "Makamba city"
+      ],
+      "affected_groups": [
+        "internally displaced households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "In the purposive sample, 91% reported no early-warning system. Of 92 respondents who received some warning, 37% could not act because of limited resources; crop and livestock adaptation were uncommon and often ineffective.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BDI-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BDI-SRC-103",
+          "locator": "HTML page, plan context and outcomes 3-5"
+        }
+      ],
+      "geographies": [
+        "Burundi"
+      ],
+      "affected_groups": [
+        "women",
+        "smallholder farmers",
+        "children",
+        "returnees",
+        "internally displaced people"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "WFP's June 2026 plan revision commits to climate-sensitive livelihoods and social protection, particularly for women smallholders, alongside government food-system and assistance capacity; these are intended actions, not evaluated results.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "BDI-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "BDI-E-001",
+        "BDI-E-003"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "BDI-E-001",
+          "BDI-E-003"
+        ],
+        "impact": [
+          "BDI-E-003"
+        ],
+        "mediator": [
+          "BDI-E-003"
+        ],
+        "consequence": [
+          "BDI-E-003"
+        ]
+      },
+      "geographies": [
+        "Burundi"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Lower productivity may intensify existing land-scarcity tensions.",
+      "alternative_explanations": [
+        "Population pressure and conflict legacies also matter."
+      ],
+      "uncertainty": "Prospective report mechanism; no causal estimate or current conflict forecast.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "BDI-E-003",
+  "source_access_review": {
+    "selected_record_id": "BDI-E-003",
+    "selected_source_id": "BDI-SRC-001",
+    "url": "https://documents1.worldbank.org/curated/en/099930006302237433/pdf/P17682007885e00780b1cc093a09277df1a.pdf",
+    "locator": "PDF p. 9, executive summary on fragility and land scarcity",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": null,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+  },
+  "checks": [
+    {
+      "record_id": "BDI-E-003",
+      "source_id": "BDI-SRC-001",
+      "locator": "PDF p. 9, executive summary on fragility and land scarcity",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "BDI-E-003: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "BDI-E-001",
+    "BDI-E-002",
+    "BDI-E-003",
+    "BDI-E-004",
+    "BDI-E-005",
+    "BDI-E-006",
+    "BDI-E-102",
+    "BDI-E-103",
+    "BDI-E-104",
+    "BDI-E-105",
+    "BDI-E-106",
+    "BDI-E-107",
+    "BDI-E-108",
+    "BDI-P-001"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

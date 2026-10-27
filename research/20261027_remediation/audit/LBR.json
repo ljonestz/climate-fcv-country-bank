@@ -1,0 +1,1098 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "LBR",
+  "candidate_path": "countries/LBR/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 7,
+    "evidence_count": 15,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 15
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 5,
+      "access-only": 9,
+      "verified": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "LBR-E-001",
+          "LBR-E-004"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "LBR-E-002",
+          "LBR-E-101",
+          "LBR-E-103",
+          "LBR-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "LBR-E-005",
+          "LBR-E-106",
+          "LBR-E-110",
+          "LBR-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "LBR-E-003",
+          "LBR-E-102"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "LBR-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "LBR-E-107",
+          "LBR-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "LBR-E-101",
+          "LBR-E-102",
+          "LBR-E-103",
+          "LBR-E-106",
+          "LBR-E-108",
+          "LBR-E-109",
+          "LBR-E-110",
+          "LBR-E-111"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/LBR/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "LBR-SRC-001",
+      "title": "Liberia Country Climate and Development Report",
+      "organization": "World Bank Group",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099032024143525952/pdf/P1798481a4fb560431a86a1bb83f1117b00.pdf",
+      "geographic_coverage": [
+        "Liberia",
+        "Greater Monrovia",
+        "Monrovia",
+        "New Kru Town",
+        "River Cess",
+        "Buchanan",
+        "Robertsport",
+        "Ganta",
+        "Gbarnga",
+        "Harbel"
+      ],
+      "temporal_coverage": "Observed rainfall impacts in 2020; flood exposure and climate projections through 2050 and 2064",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "restricted",
+      "records_using_source": [
+        "LBR-E-001",
+        "LBR-E-002",
+        "LBR-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBR-SRC-002",
+      "title": "Liberia’s Third Nationally Determined Contribution (NDC 3.0): Liberia’s 2035 Nationally Determined Contribution",
+      "organization": "Republic of Liberia; submitted to the UNFCCC",
+      "publication_date": "2025-09",
+      "publication_date_basis": "submission",
+      "url": "https://unfccc.int/sites/default/files/2025-09/Liberias_2035_NDC_3.0_Final.pdf",
+      "geographic_coverage": [
+        "Liberia",
+        "Monrovia",
+        "Buchanan",
+        "Greenville",
+        "Harper",
+        "West Point"
+      ],
+      "temporal_coverage": "NDC adaptation targets through 2035",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBR-E-004",
+        "LBR-E-005"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBR-SRC-101",
+      "title": "Greater Monrovia Urban Review: A Spatial Analysis Investigating Constraints and Opportunities",
+      "organization": "World Bank",
+      "publication_date": "2020",
+      "publication_date_basis": "document-version",
+      "url": "https://documents.worldbank.org/curated/en/649581593487174497/pdf/Main-Report.pdf",
+      "geographic_coverage": [
+        "Greater Monrovia",
+        "New Kru Town",
+        "Duala Market"
+      ],
+      "temporal_coverage": "Spatial and service data mainly from 2008–2020; report version 2020.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBR-E-101",
+        "LBR-E-102"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full report; printed pp.57–59 and 65–67 inspected.",
+          "notes": "Read passages on Duala Market flood/drainage and post-conflict local governance; older spatial baseline retained as historical.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBR-SRC-102",
+      "title": "FAO GIEWS Country Brief on Liberia",
+      "organization": "Food and Agriculture Organization of the United Nations (FAO), Global Information and Early Warning System",
+      "publication_date": "2026-01-09",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.fao.org/giews/countrybrief/country.jsp?code=LBR&lang=en",
+      "geographic_coverage": [
+        "Liberia",
+        "Grand Bassa County",
+        "Margibi County",
+        "Montserrado County",
+        "Sinoe County",
+        "Lofa County",
+        "Nimba County",
+        "Bong County"
+      ],
+      "temporal_coverage": "2025 rainy season and harvest; food-security estimate October–December 2025; forecast June–August 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBR-E-103",
+        "LBR-E-105",
+        "LBR-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full current brief page, reference date 9 January 2026.",
+          "notes": "Inspected 2025 rainfall/crop findings, Cadre Harmonisé food-security estimates and government support/targets.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBR-SRC-103",
+      "title": "Peacebuilding, Reconciliation, and Social Cohesion Project",
+      "organization": "United Nations Development Programme (UNDP) Liberia",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.undp.org/liberia/projects/peacebuilding-reconciliation-and-social-cohesion-project",
+      "geographic_coverage": [
+        "Liberia",
+        "Sanoyea District, Bong County",
+        "Voinjama District, Lofa County",
+        "Tewor District, Grand Cape Mount County",
+        "Central C District, Rivercess County",
+        "Tchien District, Grand Gedeh County"
+      ],
+      "temporal_coverage": "Project period 15 January 2020–31 December 2024; listed local achievements through 2023.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBR-E-107",
+        "LBR-E-108"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full official project summary, drivers and reported achievements.",
+          "notes": "Page lists project period through 2024 and county/district Palava Hut activities; results are implementer-reported.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "LBR-E-107",
+        "selected_source_id": "LBR-SRC-103",
+        "url": "https://www.undp.org/liberia/projects/peacebuilding-reconciliation-and-social-cohesion-project",
+        "locator": "UNDP project page, project summary",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 84497,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "LBR-E-107"
+      ],
+      "manual_verified_record_ids": [
+        "LBR-E-107"
+      ]
+    },
+    {
+      "source_id": "LBR-SRC-104",
+      "title": "USD 103.9M SARTLA Project Launched to Strengthen Liberia’s Climate Resilience",
+      "organization": "United Nations Development Programme (UNDP) Liberia",
+      "publication_date": "2026-05-29",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.undp.org/liberia/press-releases/usd-1039m-sartla-project-launched",
+      "geographic_coverage": [
+        "Bong County",
+        "Lofa County",
+        "Grand Cape Mount County",
+        "Montserrado County",
+        "Maryland County",
+        "Margibi County",
+        "Nimba County"
+      ],
+      "temporal_coverage": "SARTLA project period 2025–2030; launch reported May 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBR-E-109",
+        "LBR-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full official release, 29 May 2026, EPA remarks and SARTLA project description.",
+          "notes": "Project statements are treated as plans and official risk remarks, not independent measured outcomes.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBR-SRC-105",
+      "title": "Environmental and Social Impact Assessment for the Monrovia Metropolitan Climate Resilience Project",
+      "organization": "United Nations Development Programme (UNDP) Liberia; Environmental Protection Agency of Liberia",
+      "publication_date": "2026-03-12",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.undp.org/liberia/publications/environmental-and-social-impact-assessment-esia",
+      "geographic_coverage": [
+        "West Point community, Monrovia Metropolitan Area"
+      ],
+      "temporal_coverage": "Project assessment page published March 2026; project phases not dated in the page excerpt.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBR-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Official UNDP page summary, 12 March 2026.",
+          "notes": "The page states West Point risk focus and safeguard purpose; the linked substantive ESIA PDF exceeded reader limits.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "LBR-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBR-SRC-001",
+          "locator": "Section 4.4.1, printed p. 51 (PDF p. 67), rainfall population estimates."
+        }
+      ],
+      "geographies": [
+        "Liberia"
+      ],
+      "affected_groups": [
+        "Population affected by rainfall"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Moderate- and high-emissions scenarios; the passage does not specify scenario labels.",
+      "compact_statement": "The report projects the population share adversely affected by rainfall to rise to 16% by 2050 under a moderate-emissions scenario and 44% under a high-emissions scenario.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBR-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBR-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBR-SRC-001",
+          "locator": "Section 4.3, printed p. 39 (PDF p. 52), urban flood exposure."
+        }
+      ],
+      "geographies": [
+        "Liberia",
+        "Greater Monrovia"
+      ],
+      "affected_groups": [
+        "Urban residents",
+        "Residents of informal settlements"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The CCDR reports that over 60% of Liberia’s urban population lives in informal settlements and that wetland and floodplain development in Greater Monrovia leaves dwellings waterlogged and flooded during the rainy season.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBR-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBR-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBR-SRC-001",
+          "locator": "Section 4.4.1, printed p. 51 (PDF p. 67), climate-risk information gaps."
+        }
+      ],
+      "geographies": [
+        "Liberia",
+        "Greater Monrovia"
+      ],
+      "affected_groups": [],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The report says Liberia lacks adequate baseline data on floods, windstorms, heat waves, and droughts; only Greater Monrovia had a detailed flood assessment in the cited discussion.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LBR-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBR-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBR-SRC-002",
+          "locator": "Coastal Zones, printed p. 31 (PDF p. 31), vulnerability and adaptation targets."
+        }
+      ],
+      "geographies": [
+        "Liberia",
+        "Monrovia",
+        "Buchanan"
+      ],
+      "affected_groups": [
+        "Population living within 50 km of the coast"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Liberia’s NDC describes its 580-km coastline as exposed to sea-level rise, erosion, and storm surges, especially near Monrovia and Buchanan; it reports that 60% of the population lives within 50 km of the coast.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBR-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBR-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBR-SRC-002",
+          "locator": "Coastal Zones, printed pp. 31-32 (PDF pp. 31-32), 2035 adaptation targets."
+        }
+      ],
+      "geographies": [
+        "Liberia",
+        "Monrovia",
+        "Buchanan",
+        "Greenville",
+        "Harper",
+        "West Point"
+      ],
+      "affected_groups": [
+        "Residents of vulnerable urban slums and informal settlements",
+        "Coastal communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "Government adaptation targets for 2035, not outcome projections.",
+      "compact_statement": "The NDC sets 2035 targets for green-grey infrastructure along 60% of the highly vulnerable coastline, coastal-flood early warning and scenario modeling, and flood-resilient water and sanitation in at least 40% of vulnerable urban slums and informal settlements.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBR-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBR-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBR-SRC-101",
+          "locator": "Printed pp.57–59, Duala Market assessment"
+        }
+      ],
+      "geographies": [
+        "Duala Market",
+        "New Kru Town"
+      ],
+      "affected_groups": [
+        "market vendors",
+        "market users",
+        "nearby households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020 reports: Duala Market in New Kru Town has fragmented, blocked storm drains with no coherent outflow; local discussions report common peak-rainy-season flooding. Wetland-adjacent toilets also pose groundwater-contamination risks.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBR-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBR-SRC-101",
+          "locator": "Printed pp.65–67, municipal governance and service delivery"
+        }
+      ],
+      "geographies": [
+        "Greater Monrovia"
+      ],
+      "affected_groups": [
+        "urban residents",
+        "local governments"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020 reports: The review says years of conflict left Greater Monrovia's political and administrative authority centrally controlled, limiting fiscal allocation and local governments' ability to provide adequate services.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBR-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBR-SRC-102",
+          "locator": "FAO GIEWS brief, 9 January 2026, 2025 crop and rainfall findings"
+        }
+      ],
+      "geographies": [
+        "Grand Bassa County",
+        "Margibi County",
+        "Montserrado County",
+        "Sinoe County"
+      ],
+      "affected_groups": [
+        "farmers",
+        "rural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-01-09 reports: FAO reports 2025 dry spells after near- or below-average rainfall in May–August, followed by localized flood-related crop losses in Grand Bassa, Margibi, Montserrado and Sinoe counties.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBR-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBR-SRC-102",
+          "locator": "FAO GIEWS brief, 9 January 2026, 2025 government support"
+        }
+      ],
+      "geographies": [
+        "Liberia"
+      ],
+      "affected_groups": [
+        "farmers"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-01-09 reports: FAO reports that in 2025 the government provided farmers cash for land preparation, inputs, mechanization and equipment; the brief says this support enabled area expansion and improved yields.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBR-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBR-SRC-102",
+          "locator": "FAO GIEWS brief, 9 January 2026, Liberians Feed Yourselves Agenda"
+        }
+      ],
+      "geographies": [
+        "Lofa County",
+        "Nimba County",
+        "Bong County"
+      ],
+      "affected_groups": [
+        "farmers",
+        "rural households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "FAO's January 2026 brief describes a 2024–2030 agenda targeting 50,000 hectares of lowland irrigated rice in Lofa, Nimba and Bong; this is a target, not completed irrigation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBR-E-107",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "LBR-SRC-103",
+          "locator": "UNDP project page, project summary"
+        }
+      ],
+      "geographies": [
+        "Liberia"
+      ],
+      "affected_groups": [
+        "local communities",
+        "youth",
+        "women"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: UNDP lists land and boundary disputes, inter-group and political tensions, youth unemployment, natural-resource mismanagement, corruption, weak state trust and over-centralization as constraints to peace and social cohesion.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "LBR-E-107",
+        "source_id": "LBR-SRC-103",
+        "url": "https://www.undp.org/liberia/projects/peacebuilding-reconciliation-and-social-cohesion-project",
+        "locator": "UNDP project page, project summary",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+      },
+      "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "LBR-SRC-103",
+        "source_url": "https://www.undp.org/liberia/projects/peacebuilding-reconciliation-and-social-cohesion-project",
+        "locator": "UNDP project page, project summary",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "LBR-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBR-SRC-103",
+          "locator": "UNDP project page, reported achievements in Sanoyea District"
+        }
+      ],
+      "geographies": [
+        "Sanoyea District",
+        "Bong County"
+      ],
+      "affected_groups": [
+        "victims",
+        "alleged perpetrators",
+        "community members"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNDP reports Palava Hut hearings in Sanoyea District's Sanoyea Town, Gbonota and Gbonyea heard 52 cases and resolved 51. These historical implementer-reported dispute-resolution outputs are not evaluated climate or reconciliation impacts.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBR-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBR-SRC-104",
+          "locator": "UNDP launch release, EPA remarks on county climate risks"
+        }
+      ],
+      "geographies": [
+        "Bong County",
+        "Lofa County",
+        "Grand Cape Mount County",
+        "Montserrado County",
+        "Maryland County",
+        "Margibi County",
+        "Nimba County"
+      ],
+      "affected_groups": [
+        "farmers",
+        "fisherfolk",
+        "vulnerable communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-05-29 reports: EPA remarks identify farmers in Bong and Lofa, coastal fishers in Grand Cape Mount and Montserrado, and communities in Maryland, Margibi and Nimba as facing rising temperatures, erratic rainfall, coastal erosion and environmental degradation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBR-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBR-SRC-104",
+          "locator": "UNDP launch release, SARTLA project description"
+        }
+      ],
+      "geographies": [
+        "Bong County",
+        "Lofa County",
+        "Grand Cape Mount County",
+        "Montserrado County",
+        "Maryland County",
+        "Margibi County",
+        "Nimba County"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "women",
+        "youth",
+        "natural-resource-dependent communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-05-29 reports: The 2025–2030 SARTLA project aims to support climate-smart agriculture, sustainable fisheries, ecosystem restoration, coastal and land management, climate finance, and livelihoods across seven counties, with emphasis on women and youth.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBR-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBR-SRC-105",
+          "locator": "UNDP ESIA publication page, report summary"
+        }
+      ],
+      "geographies": [
+        "West Point community",
+        "Monrovia Metropolitan Area"
+      ],
+      "affected_groups": [
+        "West Point residents",
+        "local livelihoods"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03-12 reports: An EPA-implemented, UNDP-supervised and GCF-funded climate-resilience project targets vulnerable West Point, exposed to sea-level rise and intense storms; the ESIA page says the plan includes environmental and social safeguards.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "LBR-E-107",
+  "source_access_review": {
+    "selected_record_id": "LBR-E-107",
+    "selected_source_id": "LBR-SRC-103",
+    "url": "https://www.undp.org/liberia/projects/peacebuilding-reconciliation-and-social-cohesion-project",
+    "locator": "UNDP project page, project summary",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 84497,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+  },
+  "checks": [
+    {
+      "record_id": "LBR-E-107",
+      "source_id": "LBR-SRC-103",
+      "locator": "UNDP project page, project summary",
+      "verification_status": "verified",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "LBR-E-107: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "LBR-E-001",
+    "LBR-E-002",
+    "LBR-E-003",
+    "LBR-E-004",
+    "LBR-E-005",
+    "LBR-E-101",
+    "LBR-E-102",
+    "LBR-E-103",
+    "LBR-E-105",
+    "LBR-E-106",
+    "LBR-E-107",
+    "LBR-E-108",
+    "LBR-E-109",
+    "LBR-E-110",
+    "LBR-E-111"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

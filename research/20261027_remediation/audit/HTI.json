@@ -1,0 +1,2095 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "HTI",
+  "candidate_path": "countries/HTI/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 15,
+    "evidence_count": 27,
+    "pathway_count": 6,
+    "evidence_source_reference_count": 31
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 15,
+      "access-only": 12
+    },
+    "pathway_claims": {
+      "unresolved": 6
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "HTI-E-001"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "HTI-E-002",
+          "HTI-E-007",
+          "HTI-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "HTI-E-005",
+          "HTI-E-006",
+          "HTI-E-009",
+          "HTI-E-101",
+          "HTI-E-102",
+          "HTI-E-103",
+          "HTI-E-109",
+          "HTI-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "HTI-E-008",
+          "HTI-E-015",
+          "HTI-E-107",
+          "HTI-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "HTI-E-012",
+          "HTI-E-013"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "HTI-E-003",
+          "HTI-E-011",
+          "HTI-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "HTI-E-010",
+          "HTI-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "HTI-E-004",
+          "HTI-E-104",
+          "HTI-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "HTI-E-014"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "HTI-E-101",
+          "HTI-E-102",
+          "HTI-E-103",
+          "HTI-E-104",
+          "HTI-E-105",
+          "HTI-E-106",
+          "HTI-E-108",
+          "HTI-E-109",
+          "HTI-E-110",
+          "HTI-E-111"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "HTI-P-001",
+          "HTI-P-002",
+          "HTI-P-003",
+          "HTI-P-004",
+          "HTI-P-005",
+          "HTI-P-006"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/HTI/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "HTI-SRC-001",
+      "title": "Climate, Peace and Security Fact Sheet: Haiti (2025)",
+      "organization": "Stockholm International Peace Research Institute and Norwegian Institute of International Affairs",
+      "publication_date": "2025-06",
+      "publication_date_basis": "publication",
+      "url": "https://www.sipri.org/sites/default/files/2025-06/sipri-nupi_fact_sheet_haiti.pdf",
+      "geographic_coverage": [
+        "Haiti, with selected subnational examples"
+      ],
+      "temporal_coverage": "Observed and projected climate, displacement, food-security, and security evidence available through May 2025.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "HTI-E-004",
+        "HTI-E-005",
+        "HTI-E-006",
+        "HTI-E-014"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "HTI-E-014",
+        "selected_source_id": "HTI-SRC-001",
+        "url": "https://www.sipri.org/sites/default/files/2025-06/sipri-nupi_fact_sheet_haiti.pdf",
+        "locator": "pp. 1 and 4, recommendations on reintegration, dialogue, the Haiti Climate Security Group, and national climate-security policy",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 1370341,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "HTI-SRC-002",
+      "title": "Plan National d'Adaptation au Changement Climatique 2022-2030",
+      "organization": "Government of Haiti and United Nations Framework Convention on Climate Change",
+      "publication_date": "2023-01-09",
+      "publication_date_basis": "portal-publication",
+      "url": "https://unfccc.int/sites/default/files/resource/PNA_HAITI.pdf",
+      "geographic_coverage": [
+        "Haiti, national and municipal adaptation planning"
+      ],
+      "temporal_coverage": "National adaptation priorities for 2022-2030.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "HTI-E-003",
+        "HTI-E-012"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "HTI-SRC-003",
+      "title": "Climate and Health Vulnerability Assessment: Haiti",
+      "organization": "World Bank Group",
+      "publication_date": "2024-03-01",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099070324141550718/pdf/P501993113120209c18dcc145786e0fc312.pdf",
+      "geographic_coverage": [
+        "Haiti, with selected subnational health-risk analysis"
+      ],
+      "temporal_coverage": "Historical climate and health evidence with future risk discussion through mid-century and beyond.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "HTI-E-002",
+        "HTI-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "HTI-SRC-004",
+      "title": "Climate Risk and Adaptation Country Profile: Haiti",
+      "organization": "World Bank Group and Global Facility for Disaster Reduction and Recovery",
+      "publication_date": "2011-04-01",
+      "publication_date_basis": "publication",
+      "url": "https://climateknowledgeportal.worldbank.org/sites/default/files/2018-10/wb_gfdrr_climate_change_country_profile_for_HTI.pdf",
+      "geographic_coverage": [
+        "Haiti and Caribbean regional projection context"
+      ],
+      "temporal_coverage": "Observed changes since 1960 and older projections to 2060 and 2090.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "HTI-E-001"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "HTI-SRC-005",
+      "title": "Haiti Country Strategic Plan (2024-2028)",
+      "organization": "World Food Programme",
+      "publication_date": "2023-11",
+      "publication_date_basis": "document-version",
+      "url": "https://www.wfp.org/operations/ht03-haiti-country-strategic-plan-2024-2028",
+      "geographic_coverage": [
+        "Haiti, national WFP portfolio"
+      ],
+      "temporal_coverage": "Planned operations for 2024-2028, with context indicators available at approval. The live publisher page records Revision 01 approved in June 2026.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "HTI-E-005",
+        "HTI-E-013"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "HTI-SRC-006",
+      "title": "Evaluation of Haiti WFP Country Strategic Plan 2018-2022",
+      "organization": "World Food Programme Office of Evaluation",
+      "publication_date": "2023-10-02",
+      "publication_date_basis": "publication",
+      "url": "https://www.wfp.org/publications/evaluation-haiti-wfp-country-strategic-plan-2018-2022",
+      "geographic_coverage": [
+        "Haiti, WFP country portfolio"
+      ],
+      "temporal_coverage": "Activities from January 2018 through July 2022; evaluation completed in 2023.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "HTI-E-010"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "HTI-SRC-007",
+      "title": "Haiti faces record displacement amid escalating gang violence",
+      "organization": "United Nations in Haiti",
+      "publication_date": "2024-06-20",
+      "publication_date_basis": "publication",
+      "url": "https://haiti.un.org/en/272150-haiti-faces-record-displacement-amid-escalating-gang-violence",
+      "geographic_coverage": [
+        "Haiti, with Port-au-Prince and displacement-site context"
+      ],
+      "temporal_coverage": "Displacement and access conditions reported through June 2024.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "HTI-E-007",
+        "HTI-E-009"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "HTI-SRC-008",
+      "title": "Haiti Humanitarian Situation Report No. 11: End-of-year Sitrep",
+      "organization": "United Nations Children's Fund",
+      "publication_date": "2024-12",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/media/169016/file/Haiti-SitRep-EOY-December-2024.pdf",
+      "geographic_coverage": [
+        "Haiti, with violence-affected and displacement locations"
+      ],
+      "temporal_coverage": "Humanitarian conditions and UNICEF outputs from January through December 2024.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "HTI-E-008",
+        "HTI-E-009"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "HTI-SRC-009",
+      "title": "Haiti: Escalating armed violence in Port-au-Prince cuts people off from lifesaving services",
+      "organization": "International Committee of the Red Cross",
+      "publication_date": "2026-04-02",
+      "publication_date_basis": "publication",
+      "url": "https://www.icrc.org/en/article/haiti-escalating-armed-violence-cuts-people-off-lifesaving-services",
+      "geographic_coverage": [
+        "Port-au-Prince metropolitan area and displacement sites"
+      ],
+      "temporal_coverage": "Armed-violence impacts and ICRC-supported services reported in the update published 2 April 2026.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "HTI-E-008"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "HTI-SRC-010",
+      "title": "Strengthening Disaster Risk Management and Transport Infrastructure after a Disaster: The 2010 Haiti Post-Earthquake Experience",
+      "organization": "World Bank Group",
+      "publication_date": "2021-10-12",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/results/2021/10/12/strengthening-disaster-risk-management-and-transport-infrastructure-after-a-disaster-the-2010-haiti-post-earthquake-expe",
+      "geographic_coverage": [
+        "Haiti, all 140 municipalities and selected transport corridors"
+      ],
+      "temporal_coverage": "Project implementation from 2012 through 2020 and reported response use in 2021.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "HTI-E-011"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "HTI-SRC-011",
+      "title": "Haiti Systematic Country Diagnostic Update: Pathways to Responding to Recurrent Crises and Chronic Fragility",
+      "organization": "World Bank Group",
+      "publication_date": "2022-05-31",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099543310192241885/pdf/IDU00e7afdb3031b1042300bb5e055a015c9fc09.pdf",
+      "geographic_coverage": [
+        "Haiti, national development and fragility systems"
+      ],
+      "temporal_coverage": "Structural diagnostic evidence and crises through 2022.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "HTI-E-015"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "HTI-SRC-101",
+      "title": "Haiti Humanitarian Situation Report No.8, end of year 2025",
+      "organization": "UNICEF",
+      "publication_date": "2026-02-24",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/media/179056/file/Haiti-Humanitarian-Situation-Report-No.8-%28End%20of%20Year%29-31-December-2025.pdf.pdf",
+      "geographic_coverage": [
+        "Haiti",
+        "Sud-Est",
+        "southern departments"
+      ],
+      "temporal_coverage": "Retain the dated scope of individual claims; no extrapolation to present conditions.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "HTI-E-101",
+        "HTI-E-102",
+        "HTI-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Physical PDF pp.2–3.",
+          "notes": "Main coordinator inspected cited passages, separating dated observed context from forecasts and planned coverage.",
+          "reuse_terms": "Concise paraphrases; no licence assertion.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "HTI-SRC-102",
+      "title": "Haiti: Hurricane Melissa and escalation in gang violence, October–November 2025",
+      "organization": "UNFPA",
+      "publication_date": "2025-11",
+      "publication_date_basis": "document-version",
+      "url": "https://www.unfpa.org/sites/default/files/resource-pdf/UNFPA%20Haiti%20Situation%20Report%20%28October-November%202025%29.pdf",
+      "geographic_coverage": [
+        "Petit-Goâve",
+        "Grand’Anse",
+        "Artibonite",
+        "Ouest"
+      ],
+      "temporal_coverage": "Retain the dated scope of individual claims; no extrapolation to present conditions.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "HTI-E-104",
+        "HTI-E-105",
+        "HTI-E-106",
+        "HTI-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Physical PDF pp.1–4.",
+          "notes": "Main coordinator inspected cited passages, separating dated observed context from forecasts and planned coverage.",
+          "reuse_terms": "Concise paraphrases; no licence assertion.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "HTI-SRC-103",
+      "title": "Persistent insecurity and the effects of Hurricane Melissa maintain food insecurity",
+      "organization": "FEWS NET",
+      "publication_date": "2025-10",
+      "publication_date_basis": "document-version",
+      "url": "https://fews.net/latin-america-and-caribbean/haiti/food-security-outlook/october-2025",
+      "geographic_coverage": [
+        "Haiti",
+        "Sud-Est",
+        "Port-au-Prince metropolitan area"
+      ],
+      "temporal_coverage": "Retain the dated scope of individual claims; no extrapolation to present conditions.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "HTI-E-108",
+        "HTI-E-109",
+        "HTI-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Observed-context and humanitarian food-assistance sections.",
+          "notes": "Main coordinator inspected cited passages, separating dated observed context from forecasts and planned coverage.",
+          "reuse_terms": "Concise paraphrases; no licence assertion.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "HTI-SRC-104",
+      "title": "Situation Report on the Crisis in Haiti, July–August 2026",
+      "organization": "UNFPA",
+      "publication_date": "2026-09",
+      "publication_date_basis": "publication",
+      "url": "https://www.unfpa.org/resources/situation-report-crisis-haiti-july-august-2026",
+      "geographic_coverage": [
+        "Kenscoff",
+        "Dessalines",
+        "Petite-Rivière"
+      ],
+      "temporal_coverage": "Retain the dated scope of individual claims; no extrapolation to present conditions.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "HTI-E-111",
+        "HTI-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Substantive publisher summary, July–August 2026.",
+          "notes": "Main coordinator inspected cited passages, separating dated observed context from forecasts and planned coverage.",
+          "reuse_terms": "Concise paraphrases; no licence assertion.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "HTI-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-004",
+          "locator": "p. 4, sections 'Climate baseline summary for Haiti' and 'Climate future'"
+        }
+      ],
+      "geographies": [
+        "Haiti"
+      ],
+      "affected_groups": [
+        "coastal communities",
+        "rainfed farmers"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "historical",
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "Older AR4-era national and Caribbean projections to 2060 and 2090",
+      "compact_statement": "Haiti faces rising heat, uncertain seasonal rainfall, and sea-level pressures.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "HTI-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-003",
+          "locator": "pp. 3-4 (PDF pp. 11-12), country context paragraphs 1-2"
+        }
+      ],
+      "geographies": [
+        "Haiti",
+        "low-lying coastal plains"
+      ],
+      "affected_groups": [
+        "coastal communities",
+        "urban residents",
+        "farmers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Cyclone, flood, drought, and coastal exposure is nationally material but spatially uneven.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "HTI-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-002",
+          "locator": "p. 16, executive summary description of the 2022-2030 plan, priority actions, governance, cost, and monitoring"
+        }
+      ],
+      "geographies": [
+        "Haiti",
+        "municipalities of Haiti"
+      ],
+      "affected_groups": [
+        "climate-exposed communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current",
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "The national plan defines sector and municipal adaptation responsibilities but not delivered outcomes.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "HTI-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-001",
+          "locator": "pp. 2-4, sections 'Climate-related peace and security risks', 'Livelihood impacts', 'Migration and mobility', and 'Political and economic grievances'"
+        }
+      ],
+      "geographies": [
+        "Haiti"
+      ],
+      "affected_groups": [
+        "farmers",
+        "displaced people",
+        "host communities",
+        "children"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "historical",
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Climate-security risks are mediated and bidirectional, not deterministic.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "HTI-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-001",
+          "locator": "pp. 2-3, sections 'Livelihood impacts' and discussion of rainfed agriculture, drought, food insecurity, and insecurity"
+        },
+        {
+          "source_id": "HTI-SRC-005",
+          "locator": "country context and outcomes 1-3 on acute food insecurity and climate-related shocks"
+        }
+      ],
+      "geographies": [
+        "Haiti"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "food-insecure households",
+        "women",
+        "children"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Rainfed dependence creates food and livelihood sensitivity to interacting climate and security shocks.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "HTI-SRC-001",
+        "HTI-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-001",
+          "locator": "p. 2, lines discussing precipitation, flooding, water-borne and vector-borne disease and inadequate waste management"
+        },
+        {
+          "source_id": "HTI-SRC-003",
+          "locator": "sections II-IV on climate-sensitive disease burdens and health-system adaptive capacity"
+        }
+      ],
+      "geographies": [
+        "Haiti"
+      ],
+      "affected_groups": [
+        "children",
+        "displaced people",
+        "urban poor"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "historical",
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Flood and rainfall health risks rise where WASH and health systems are weak.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "HTI-SRC-001",
+        "HTI-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-007",
+          "locator": "paragraphs under 'Mass displacement' and 'Impact on children and women'"
+        }
+      ],
+      "geographies": [
+        "Haiti",
+        "Port-au-Prince"
+      ],
+      "affected_groups": [
+        "internally displaced people",
+        "women",
+        "children",
+        "host communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Armed violence drives displacement and sharply restricts services and humanitarian access.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "HTI-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-008",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-008",
+          "locator": "pp. 1-2, highlights and situation overview on suspended clinics, non-functional health centres, displacement, and access"
+        },
+        {
+          "source_id": "HTI-SRC-009",
+          "locator": "Article paragraphs under the title and 'ICRC response', on essential services, infrastructure access, patient transfer, water and humanitarian access."
+        }
+      ],
+      "geographies": [
+        "Port-au-Prince metropolitan area",
+        "violence-affected Haiti"
+      ],
+      "affected_groups": [
+        "children",
+        "patients",
+        "displaced people",
+        "urban residents"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Violence erodes the service and access systems needed to absorb climate and health shocks.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "HTI-SRC-008",
+        "HTI-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-009",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-007",
+          "locator": "section 'Mass displacement', paragraphs on host families, high-risk sites, and service shortages"
+        },
+        {
+          "source_id": "HTI-SRC-008",
+          "locator": "p. 2, situation overview on displacement sites, host families, food insecurity, cholera, and health services"
+        }
+      ],
+      "geographies": [
+        "Port-au-Prince",
+        "host communities in Haiti"
+      ],
+      "affected_groups": [
+        "internally displaced people",
+        "host communities",
+        "women",
+        "children"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict displacement concentrates people in sites and communities with high hazard sensitivity.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "HTI-SRC-007",
+        "HTI-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-010",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-006",
+          "locator": "evaluation webpage conclusions on adaptation, reach, contextual and funding constraints, and the impeded shift from emergency response"
+        }
+      ],
+      "geographies": [
+        "Haiti"
+      ],
+      "affected_groups": [
+        "food-insecure households",
+        "crisis-affected communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Independent evaluation found adaptive delivery alongside constrained resilience transition.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "HTI-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-011",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-010",
+          "locator": "sections 'Improving disaster response capacity' and 'Enhancing the resiliency of critical transport infrastructure'"
+        }
+      ],
+      "geographies": [
+        "140 municipalities of Haiti"
+      ],
+      "affected_groups": [
+        "municipal residents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Municipal civil-protection structures provide a nationwide disaster-response platform.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "HTI-SRC-010"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-012",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-002",
+          "locator": "p. 16, executive summary list of 21 highest-priority adaptation actions and estimated implementation budget"
+        }
+      ],
+      "geographies": [
+        "Haiti"
+      ],
+      "affected_groups": [
+        "farmers",
+        "watershed communities",
+        "climate-exposed households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Planned cross-sector actions target watershed, food, water, health, and municipal resilience.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "HTI-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-013",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-005",
+          "locator": "country-plan description and outcomes 1-5"
+        }
+      ],
+      "geographies": [
+        "Haiti"
+      ],
+      "affected_groups": [
+        "food-insecure households",
+        "smallholder farmers",
+        "women",
+        "children",
+        "people with disabilities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "The current WFP plan provides intended adaptive and delivery capacity across food systems and safety nets.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "HTI-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-014",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-001",
+          "locator": "pp. 1 and 4, recommendations on reintegration, dialogue, the Haiti Climate Security Group, and national climate-security policy"
+        }
+      ],
+      "geographies": [
+        "Haiti"
+      ],
+      "affected_groups": [
+        "youth",
+        "women",
+        "former gang members",
+        "climate-exposed communities"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Emerging climate-security coordination offers a potential resilience and peace platform.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "HTI-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+      "verification_attempt": {
+        "selected_record_id": "HTI-E-014",
+        "selected_source_id": "HTI-SRC-001",
+        "url": "https://www.sipri.org/sites/default/files/2025-06/sipri-nupi_fact_sheet_haiti.pdf",
+        "locator": "pp. 1 and 4, recommendations on reintegration, dialogue, the Haiti Climate Security Group, and national climate-security policy",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 1370341,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "HTI-E-015",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-011",
+          "locator": "executive summary and sections on recurrent crises, chronic fragility, service delivery, disaster risk management, and shock-responsive social protection"
+        }
+      ],
+      "geographies": [
+        "Haiti"
+      ],
+      "affected_groups": [
+        "poor households",
+        "crisis-affected communities",
+        "informal workers"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Chronic institutional weakness limits equitable shock response and recovery.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "HTI-SRC-011"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-101",
+          "locator": "Physical PDF p.2, natural-disasters paragraph."
+        }
+      ],
+      "geographies": [
+        "Nord-Est",
+        "Sud",
+        "Sud-Est",
+        "Nippes",
+        "Grand’Anse"
+      ],
+      "affected_groups": [
+        "children",
+        "flood-affected households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02-24 reports: UNICEF reports May 2025 heavy rains inundated about 3,900 homes in Nord-Est; Melissa later damaged schools, latrines and water systems especially in southern departments.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-101",
+          "locator": "Physical PDF p.2, cholera paragraph."
+        }
+      ],
+      "geographies": [
+        "Bainet",
+        "Marigot",
+        "Belle-Anse",
+        "Grand-Gosier",
+        "Thiotte"
+      ],
+      "affected_groups": [
+        "children",
+        "households with poor water access"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02-24 reports: Following Melissa, UNICEF reports cholera outbreaks in Bainet, Marigot, Belle-Anse, Grand-Gosier and Thiotte, exposing vulnerabilities where climate shocks damaged services.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-101",
+          "locator": "Physical PDF p.2, armed violence and displacement paragraphs."
+        }
+      ],
+      "geographies": [
+        "Mirebalais",
+        "Saut d’Eau",
+        "Petite-Rivière de l’Artibonite"
+      ],
+      "affected_groups": [
+        "displaced households",
+        "host families"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02-24 reports: UNICEF reports violence-driven site growth after Mirebalais/Saut d’Eau attacks and displacement in Petite-Rivière; most displaced people lived outside formal sites or with hosts.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-102",
+          "locator": "Physical PDF p.2, humanitarian access paragraph."
+        }
+      ],
+      "geographies": [
+        "Petit-Goâve",
+        "southern Haiti"
+      ],
+      "affected_groups": [
+        "women and girls",
+        "hurricane-affected households"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-11 reports: UNFPA reports November 2025 insecurity postponed planned distributions and mobile clinics, including support for hurricane-affected women/girls around Petit-Goâve and southern areas.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-102",
+          "locator": "Physical PDF p.2, hurricane impact paragraph."
+        }
+      ],
+      "geographies": [
+        "Grand’Anse",
+        "Les Cayes",
+        "Jérémie",
+        "Port-de-Paix"
+      ],
+      "affected_groups": [
+        "isolated communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-11 reports: Melissa damaged Grand’Anse roads and isolated communal sections; Les Cayes hospital flooding and minor Jérémie/Port-de-Paix damage were reported separately from insecurity restrictions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-102",
+          "locator": "Physical PDF p.3, mobile-clinic results."
+        }
+      ],
+      "geographies": [
+        "Petit-Goâve",
+        "Artibonite",
+        "Port-au-Prince metropolitan area"
+      ],
+      "affected_groups": [
+        "hurricane-affected people",
+        "internally displaced people"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-11 reports: UNFPA reports mobile clinics reached 2,453 Melissa-affected people in Petit-Goâve, alongside separate internally displaced populations in metropolitan and Artibonite sites.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-102",
+          "locator": "Physical PDF pp.2–3, response and kits/hotline sections."
+        }
+      ],
+      "geographies": [
+        "Haiti"
+      ],
+      "affected_groups": [
+        "GBV survivors",
+        "women and girls"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-11 reports: UNFPA maintained GBV hotlines/referrals and mobile services despite access barriers; reproductive-health kits supplied facilities, while projected coverage was an intended benefit.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check",
+        "programme_intent_and_outcome_terms_co-occur"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-103",
+          "locator": "Observed-context section, paragraphs on insecurity and Melissa."
+        }
+      ],
+      "geographies": [
+        "RN1",
+        "RN2",
+        "RN3",
+        "Port-au-Prince metropolitan area"
+      ],
+      "affected_groups": [
+        "displaced households",
+        "farmers"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-10 reports: The October 2025 assessment reports gang passage fees and restricted agricultural-input delivery along RN1/RN2/RN3, while Melissa separately flooded displacement sites in metropolitan Port-au-Prince.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-103",
+          "locator": "Observed-context section, Sud-Est road damage paragraph."
+        }
+      ],
+      "geographies": [
+        "Jacmel",
+        "Belle-Anse",
+        "Marigot"
+      ],
+      "affected_groups": [
+        "market-dependent households",
+        "isolated communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-10 reports: Melissa road damage disrupted Jacmel–Port-au-Prince connections and Belle-Anse/Marigot supply and emergency-access routes.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-103",
+          "locator": "Humanitarian food assistance section."
+        }
+      ],
+      "geographies": [
+        "Port-au-Prince metropolitan area",
+        "Haiti"
+      ],
+      "affected_groups": [
+        "displaced households",
+        "food-assistance recipients"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-10 reports: FEWS NET reports funding-related inability to preposition cyclone-season food, compounded by violence-related access interruptions and logistics costs near displacement sites.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-104",
+          "locator": "Publisher summary, first two paragraphs."
+        }
+      ],
+      "geographies": [
+        "Kenscoff",
+        "Dessalines",
+        "Petite-Rivière"
+      ],
+      "affected_groups": [
+        "women and girls",
+        "displaced families",
+        "sexual-violence survivors"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-09 reports: UNFPA’s August 2026 snapshot reports violence displacement in Kenscoff, Dessalines and Petite-Rivière and constrained access to prompt care for sexual-violence survivors.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "HTI-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "HTI-SRC-104",
+          "locator": "Publisher summary, service and funding paragraphs."
+        }
+      ],
+      "geographies": [
+        "Haiti"
+      ],
+      "affected_groups": [
+        "women and girls",
+        "crisis-affected people"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-09 reports: In July–August 2026, UNFPA reports delivering SRH and GBV services where access was possible, but financing remained well below its appeal.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "HTI-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "HTI-E-001",
+        "HTI-E-002",
+        "HTI-E-004",
+        "HTI-E-011",
+        "HTI-E-015"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "HTI-E-001",
+          "HTI-E-002"
+        ],
+        "impact": [
+          "HTI-E-002"
+        ],
+        "mediator": [
+          "HTI-E-004",
+          "HTI-E-011",
+          "HTI-E-015"
+        ],
+        "consequence": [
+          "HTI-E-004"
+        ]
+      },
+      "geographies": [
+        "coastal Haiti",
+        "urban valleys",
+        "flood-prone watersheds"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Cyclone and flood losses may deepen displacement and exclusion where poverty, unsafe settlement, and weak local delivery constrain recovery.",
+      "alternative_explanations": [
+        "Political instability, armed violence, poor land-use planning, chronic poverty, and infrastructure underinvestment can independently produce displacement and grievance."
+      ],
+      "uncertainty": "Hazard and vulnerability are documented, but no admitted source estimates a climate effect on social tension or conflict.",
+      "potentially_out_of_scope_support_ids": [
+        "HTI-E-001",
+        "HTI-E-002",
+        "HTI-E-004",
+        "HTI-E-011",
+        "HTI-E-015"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "HTI-P-002",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "HTI-E-001",
+        "HTI-E-004",
+        "HTI-E-005",
+        "HTI-E-013",
+        "HTI-E-015"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "HTI-E-001",
+          "HTI-E-005"
+        ],
+        "impact": [
+          "HTI-E-005"
+        ],
+        "mediator": [
+          "HTI-E-004",
+          "HTI-E-005",
+          "HTI-E-015"
+        ],
+        "consequence": [
+          "HTI-E-004"
+        ]
+      },
+      "geographies": [
+        "agricultural Haiti",
+        "food-insecure areas"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Climate stress can worsen food and livelihood insecurity where rainfed dependence, market disruption, poverty, and violence restrict alternatives.",
+      "alternative_explanations": [
+        "Inflation, trade and market disruption, violence, policy choices, land degradation, and chronic poverty independently affect food security and mobility."
+      ],
+      "uncertainty": "The sources establish interacting livelihood pressures but do not estimate the relative climate contribution or causal effects on migration, grievance, or recruitment.",
+      "potentially_out_of_scope_support_ids": [
+        "HTI-E-001",
+        "HTI-E-004",
+        "HTI-E-005",
+        "HTI-E-013",
+        "HTI-E-015"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "HTI-P-003",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "HTI-E-006",
+        "HTI-E-007",
+        "HTI-E-008",
+        "HTI-E-015"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "HTI-E-006"
+        ],
+        "impact": [
+          "HTI-E-006",
+          "HTI-E-008"
+        ],
+        "mediator": [
+          "HTI-E-007",
+          "HTI-E-008",
+          "HTI-E-015"
+        ],
+        "consequence": [
+          "HTI-E-008"
+        ]
+      },
+      "geographies": [
+        "Port-au-Prince metropolitan area",
+        "violence-affected Haiti"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Armed violence can magnify climate and health losses by disabling water, health, transport, and humanitarian delivery systems.",
+      "alternative_explanations": [
+        "Chronic underinvestment, workforce shortages, poverty, and weak maintenance can disrupt health and water systems without armed violence."
+      ],
+      "uncertainty": "Service disruption is directly documented, but its additional effect during a defined climate event is not quantified.",
+      "potentially_out_of_scope_support_ids": [
+        "HTI-E-006",
+        "HTI-E-007",
+        "HTI-E-015"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "HTI-P-004",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "HTI-E-006",
+        "HTI-E-007",
+        "HTI-E-008",
+        "HTI-E-009"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "HTI-E-006",
+          "HTI-E-009"
+        ],
+        "impact": [
+          "HTI-E-006",
+          "HTI-E-009"
+        ],
+        "mediator": [
+          "HTI-E-007",
+          "HTI-E-008",
+          "HTI-E-009"
+        ],
+        "consequence": [
+          "HTI-E-009"
+        ]
+      },
+      "geographies": [
+        "Port-au-Prince",
+        "displacement sites",
+        "host communities in Haiti"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Violence-driven displacement can place households in overcrowded, poorly serviced settings where flood, heat, and disease risks may compound insecurity.",
+      "alternative_explanations": [
+        "Housing shortages, land-use failure, poverty, and weak WASH services can create similar site risks independently of climate change."
+      ],
+      "uncertainty": "Displacement and poor site conditions are documented, while added flood or heat effects, repeated displacement and local tension remain conditional and unquantified.",
+      "potentially_out_of_scope_support_ids": [
+        "HTI-E-006",
+        "HTI-E-008"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "HTI-P-005",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "HTI-E-002",
+        "HTI-E-003",
+        "HTI-E-010",
+        "HTI-E-011",
+        "HTI-E-012",
+        "HTI-E-015"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "HTI-E-002",
+          "HTI-E-003"
+        ],
+        "impact": [
+          "HTI-E-011"
+        ],
+        "mediator": [
+          "HTI-E-011",
+          "HTI-E-015"
+        ],
+        "consequence": [
+          "HTI-E-010",
+          "HTI-E-011"
+        ]
+      },
+      "geographies": [
+        "140 municipalities of Haiti"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Municipal civil-protection and transport capacity mediate whether emergencies lead to timely, inclusive response or delayed and unequal recovery.",
+      "alternative_explanations": [
+        "Hazard magnitude, remoteness, transport quality, national political decisions, and external financing also determine response performance."
+      ],
+      "uncertainty": "Reported capacity gains are not independently evaluated and earthquake response cannot be interpreted as climate-response effectiveness.",
+      "potentially_out_of_scope_support_ids": [
+        "HTI-E-002",
+        "HTI-E-003",
+        "HTI-E-010",
+        "HTI-E-012",
+        "HTI-E-015"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "HTI-P-006",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "HTI-E-004",
+        "HTI-E-005",
+        "HTI-E-013",
+        "HTI-E-014"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "HTI-E-004",
+          "HTI-E-005"
+        ],
+        "impact": [
+          "HTI-E-005"
+        ],
+        "mediator": [
+          "HTI-E-004",
+          "HTI-E-014"
+        ],
+        "consequence": [
+          "HTI-E-014"
+        ]
+      },
+      "geographies": [
+        "Haiti"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Climate-resilient livelihoods and dialogue may support reintegration where poverty and exclusion narrow alternatives, but peace outcomes are unproven.",
+      "alternative_explanations": [
+        "Recruitment and violence are principally shaped by armed-group coercion, political economy, security conditions, exclusion, and criminal incentives."
+      ],
+      "uncertainty": "The admitted evidence supports a policy rationale and coordination platform, not causal effects on recruitment, reintegration, or peace.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ"
+      ],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "HTI-E-014",
+  "source_access_review": {
+    "selected_record_id": "HTI-E-014",
+    "selected_source_id": "HTI-SRC-001",
+    "url": "https://www.sipri.org/sites/default/files/2025-06/sipri-nupi_fact_sheet_haiti.pdf",
+    "locator": "pp. 1 and 4, recommendations on reintegration, dialogue, the Haiti Climate Security Group, and national climate-security policy",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "document-fetched",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 1370341,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null
+  },
+  "checks": [
+    {
+      "record_id": "HTI-E-014",
+      "source_id": "HTI-SRC-001",
+      "locator": "pp. 1 and 4, recommendations on reintegration, dialogue, the Haiti Climate Security Group, and national climate-security policy",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+      "access_date": "2026-10-27",
+      "source_access_status": "document-fetched",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "HTI-E-014: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "HTI-E-001",
+    "HTI-E-002",
+    "HTI-E-003",
+    "HTI-E-004",
+    "HTI-E-005",
+    "HTI-E-006",
+    "HTI-E-007",
+    "HTI-E-008",
+    "HTI-E-009",
+    "HTI-E-010",
+    "HTI-E-011",
+    "HTI-E-012",
+    "HTI-E-013",
+    "HTI-E-014",
+    "HTI-E-015",
+    "HTI-E-101",
+    "HTI-E-102",
+    "HTI-E-103",
+    "HTI-E-104",
+    "HTI-E-105",
+    "HTI-E-106",
+    "HTI-E-107",
+    "HTI-E-108",
+    "HTI-E-109",
+    "HTI-E-110",
+    "HTI-E-111",
+    "HTI-E-112",
+    "HTI-P-001",
+    "HTI-P-002",
+    "HTI-P-003",
+    "HTI-P-004",
+    "HTI-P-005",
+    "HTI-P-006"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

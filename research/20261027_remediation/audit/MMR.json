@@ -1,0 +1,2780 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "MMR",
+  "candidate_path": "countries/MMR/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 20,
+    "evidence_count": 40,
+    "pathway_count": 8,
+    "evidence_source_reference_count": 40
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 26,
+      "verified": 1,
+      "access-only": 13
+    },
+    "pathway_claims": {
+      "unresolved": 8
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "MMR-E-001",
+          "MMR-E-002",
+          "MMR-E-003"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "MMR-E-005",
+          "MMR-E-008",
+          "MMR-E-009",
+          "MMR-E-101",
+          "MMR-E-109",
+          "MMR-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "MMR-E-004",
+          "MMR-E-010",
+          "MMR-E-011",
+          "MMR-E-012",
+          "MMR-E-026",
+          "MMR-E-102",
+          "MMR-E-104",
+          "MMR-E-105",
+          "MMR-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MMR-E-013",
+          "MMR-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MMR-E-007",
+          "MMR-E-027"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MMR-E-006",
+          "MMR-E-016",
+          "MMR-E-024",
+          "MMR-E-025",
+          "MMR-E-108",
+          "MMR-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "MMR-E-014",
+          "MMR-E-015",
+          "MMR-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "MMR-E-017",
+          "MMR-E-018",
+          "MMR-E-019",
+          "MMR-E-020",
+          "MMR-E-021",
+          "MMR-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MMR-E-022",
+          "MMR-E-023",
+          "MMR-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "MMR-E-101",
+          "MMR-E-107",
+          "MMR-E-108",
+          "MMR-E-109",
+          "MMR-E-110",
+          "MMR-E-111",
+          "MMR-E-112",
+          "MMR-E-113"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "MMR-P-001",
+          "MMR-P-002",
+          "MMR-P-003",
+          "MMR-P-004",
+          "MMR-P-005",
+          "MMR-P-006",
+          "MMR-P-007",
+          "MMR-P-008"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/MMR/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "MMR-SRC-001",
+      "title": "Myanmar Climate Fact Sheet 2024",
+      "organization": "Red Cross Red Crescent Climate Centre / Myanmar Red Cross Society",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://www.climatecentre.org/wp-content/uploads/RCCC-Country-profiles-Myanmar_2024_final.pdf",
+      "geographic_coverage": [
+        "National, with regional differentiation"
+      ],
+      "temporal_coverage": "Historical to mid-century",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MMR-E-001",
+        "MMR-E-002",
+        "MMR-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MMR-SRC-002",
+      "title": "Myanmar's National Adaptation Programme of Action (NAPA) to Climate Change",
+      "organization": "Government of Myanmar / UNEP / UNFCCC",
+      "publication_date": "2012",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/resource/docs/napa/mmr01.pdf",
+      "geographic_coverage": [
+        "National plus three PRA townships and seven physiographic regions"
+      ],
+      "temporal_coverage": "Baseline 1971-2000; projections to 2100",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MMR-E-004",
+        "MMR-E-005"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MMR-SRC-003",
+      "title": "Nationally Determined Contributions",
+      "organization": "Government of Myanmar / UNFCCC",
+      "publication_date": "2021",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/NDC/2022-06/Myanmar%20Updated%20%20NDC%20July%202021.pdf",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "2021 onward",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MMR-E-006",
+        "MMR-E-007"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MMR-SRC-004",
+      "title": "Nationally Determined Contributions Registry - Myanmar entry",
+      "organization": "UNFCCC",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/NDCREG",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "Current status",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MMR-SRC-005",
+      "title": "Climate, Peace and Security Fact Sheet: Myanmar",
+      "organization": "SIPRI / NUPI",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://www.sipri.org/sites/default/files/2024-05/01_sipri-nupi_fact_sheet_myanmar_may_0.pdf",
+      "geographic_coverage": [
+        "National with Dry Zone, Rakhine, Karenni and border examples"
+      ],
+      "temporal_coverage": "Mainly post-2021 to early 2024",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MMR-E-020",
+        "MMR-E-021",
+        "MMR-E-022",
+        "MMR-E-023"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "MMR-E-023",
+        "selected_source_id": "MMR-SRC-005",
+        "url": "https://www.sipri.org/sites/default/files/2024-05/01_sipri-nupi_fact_sheet_myanmar_may_0.pdf",
+        "locator": "PDF p.3, “Military and armed actors”. (SIPRI6)",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 1812187,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          3
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "MMR-E-023"
+      ],
+      "manual_verified_record_ids": [
+        "MMR-E-023"
+      ]
+    },
+    {
+      "source_id": "MMR-SRC-006",
+      "title": "Climate change as an arena of wartime political struggles: Greening of military rule and resistance in Myanmar",
+      "organization": "Environment and Planning E: Nature and Space",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://journals.sagepub.com/doi/10.1177/25148486261449030",
+      "geographic_coverage": [
+        "Post-coup Myanmar; selected competing authorities"
+      ],
+      "temporal_coverage": "Post-2021",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "MMR-E-024"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MMR-SRC-007",
+      "title": "Myanmar September 2024 Typhoon Yagi Floods: Flood Extent Note",
+      "organization": "World Bank / GFDRR",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099061125060524995/pdf/P507337-0e233021-6a0c-45ba-a171-8641c52ae0f2.pdf",
+      "geographic_coverage": [
+        "National; detailed state/region analysis"
+      ],
+      "temporal_coverage": "Sep 2024",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MMR-E-017",
+        "MMR-E-018"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MMR-SRC-008",
+      "title": "Myanmar Emergency",
+      "organization": "World Food Programme",
+      "publication_date": "2026",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.wfp.org/emergencies/myanmar-emergency",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "Current through 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "MMR-E-011",
+        "MMR-E-012",
+        "MMR-E-013"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MMR-SRC-009",
+      "title": "Country - Myanmar Operational Data Portal",
+      "organization": "UNHCR",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://data.unhcr.org/en/country/mmr",
+      "geographic_coverage": [
+        "National/state-region"
+      ],
+      "temporal_coverage": "Current snapshot",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MMR-E-008",
+        "MMR-E-009",
+        "MMR-E-010"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MMR-SRC-010",
+      "title": "Cyclone Mocha: Aid efforts severely hampered by new restrictions",
+      "organization": "Médecins Sans Frontières",
+      "publication_date": "2023",
+      "publication_date_basis": "publication",
+      "url": "https://www.msf.org/cyclone-mocha-aid-efforts-severely-hampered-new-restrictions",
+      "geographic_coverage": [
+        "Rakhine State"
+      ],
+      "temporal_coverage": "May-Jul 2023",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MMR-E-019"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MMR-SRC-011",
+      "title": "Mid-term Evaluation of Addressing Climate Change Risks on Water Resources and Food Security in the Dry Zone of Myanmar",
+      "organization": "Adaptation Fund / UNDP",
+      "publication_date": "2018",
+      "publication_date_basis": "publication",
+      "url": "https://www.adaptation-fund.org/wp-content/uploads/2014/08/40MTEfinalreportJanuary292018.final_.pdf",
+      "geographic_coverage": [
+        "Central Dry Zone project sites"
+      ],
+      "temporal_coverage": "Project period to Jan 2018",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MMR-E-014",
+        "MMR-E-015",
+        "MMR-E-016"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MMR-SRC-012",
+      "title": "Terminal Evaluation: Addressing Climate Change Risks on Water and Food Security in the Dry Zone of Myanmar",
+      "organization": "UNDP Evaluation Resource Centre",
+      "publication_date": "2019",
+      "publication_date_basis": "publication",
+      "url": "https://erc.undp.org/evaluation/evaluations/detail/9682",
+      "geographic_coverage": [
+        "Dry Zone"
+      ],
+      "temporal_coverage": "Project completion 2019",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MMR-SRC-013",
+      "title": "Myanmar's Enduring Polycrisis: Four Years into a Tumultuous Journey",
+      "organization": "UNDP",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/asia-pacific/publications/myanmars-enduring-polycrisis-four-years-into-a-tumultuous-journey",
+      "geographic_coverage": [
+        "National, examples including Rakhine and Chin"
+      ],
+      "temporal_coverage": "2021-2025",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MMR-E-026"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MMR-SRC-014",
+      "title": "Strengthening Food Security in Myanmar: A Roadmap for Localized Action",
+      "organization": "UNDP",
+      "publication_date": "2023",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/asia-pacific/publications/strengthening-food-security-myanmar-roadmap-localized-action",
+      "geographic_coverage": [
+        "States, regions and agro-ecological zones"
+      ],
+      "temporal_coverage": "Post-2020 through 2023",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MMR-E-027"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MMR-SRC-015",
+      "title": "Supporting the People of Myanmar",
+      "organization": "World Bank",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/country/myanmar/brief/supporting-the-people-of-myanmar",
+      "geographic_coverage": [
+        "Selected conflict-affected areas"
+      ],
+      "temporal_coverage": "2023-2025 projects",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MMR-E-025"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MMR-SRC-101",
+      "title": "Layers of Deprivation: Multidimensional Poverty in Myanmar",
+      "organization": "United Nations Development Programme (UNDP)",
+      "publication_date": "2026-10-08",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-10/undp_multidimensional_poverty_report_final.pdf",
+      "geographic_coverage": [
+        "Myanmar",
+        "all 15 states and regions",
+        "rural and urban areas"
+      ],
+      "temporal_coverage": "People's Pulse Survey 2025; report issued October 2026; shock recall covers the preceding 12 months.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MMR-E-101",
+        "MMR-E-102",
+        "MMR-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 61-page PDF; especially PDF pp.26–28 for household hazard/conflict shocks, model estimates and coping-capacity findings.",
+          "notes": "Opened the original UNDP PDF and inspected the cited passages, methodology and limitations; report date is October 2026.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MMR-SRC-102",
+      "title": "Myanmar: Emergency and Resilience Plan, 2026–2028",
+      "organization": "Food and Agriculture Organization of the United Nations (FAO)",
+      "publication_date": "2026",
+      "publication_date_basis": "document-version",
+      "url": "https://myanmar.un.org/sites/default/files/2026-01/cd8169en.pdf",
+      "geographic_coverage": [
+        "Myanmar",
+        "rural areas",
+        "coastal fishing communities",
+        "11 states and regions (not individually named in cited passages)"
+      ],
+      "temporal_coverage": "2026–2028 plan; includes impacts of September 2024 floods and the March 2025 earthquake and describes ongoing FAO field presence.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MMR-E-104",
+        "MMR-E-105",
+        "MMR-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 30-page FAO plan; especially PDF pp.10–11 on climate/conflict-linked livelihood vulnerability and resilience actions.",
+          "notes": "Opened the original FAO plan; separated historical impacts and reported presence from proposed 2026–2028 activities.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MMR-SRC-103",
+      "title": "Myanmar Humanitarian Needs and Response Plan 2026",
+      "organization": "United Nations Office for the Coordination of Humanitarian Affairs (OCHA), Myanmar",
+      "publication_date": "2025-12",
+      "publication_date_basis": "document-version",
+      "url": "https://myanmar.un.org/sites/default/files/2026-01/MMR_HNRP_2026_EN_0.pdf",
+      "geographic_coverage": [
+        "Myanmar",
+        "northeast and northwest",
+        "Rakhine",
+        "southeast",
+        "Sagaing",
+        "hard-to-reach townships"
+      ],
+      "temporal_coverage": "2026 humanitarian planning period; issued December 2025; draws on 2025 assessments and monitoring.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MMR-E-107",
+        "MMR-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 70-page HNRP; especially PDF p.12 for 2026 outlook, p.22 for October 2025 access severity, and p.24 for locally-led response.",
+          "notes": "Opened the original UN/OCHA plan and inspected the forecast, access exercise, local response and assessment-method passages; cover states issued December 2025.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MMR-SRC-104",
+      "title": "Myanmar Health Cluster Bulletin: August 2026",
+      "organization": "World Health Organization (WHO) / Myanmar Health Cluster",
+      "publication_date": "2026-08-31",
+      "publication_date_basis": "portal-publication",
+      "url": "https://myanmar.un.org/en/download/215576/321949",
+      "geographic_coverage": [
+        "Myanmar",
+        "Sagaing",
+        "Mandalay",
+        "Magway",
+        "Ayeyarwady",
+        "Mon",
+        "Sittwe",
+        "Yangon"
+      ],
+      "temporal_coverage": "August 2026 disease and flood reporting; health-service figures cover January–June 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MMR-E-109",
+        "MMR-E-110",
+        "MMR-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full four-page August 2026 Health Cluster bulletin; outbreak and flood passages on PDF pp.1–2 and data limitations on p.4.",
+          "notes": "Opened the official PDF; used directly readable publisher text, not search-result snippets.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MMR-SRC-105",
+      "title": "Rakhine State, Western Myanmar: Flood Situation Update No. 1",
+      "organization": "United Nations Office for the Coordination of Humanitarian Affairs (OCHA), Myanmar",
+      "publication_date": "2026-07-21",
+      "publication_date_basis": "portal-publication",
+      "url": "https://myanmar.un.org/en/download/213024/319760",
+      "geographic_coverage": [
+        "Rakhine State",
+        "Buthidaung",
+        "Kyauktaw",
+        "Minbya",
+        "Mrauk-U",
+        "Ponnagyun",
+        "201 villages and 18 wards"
+      ],
+      "temporal_coverage": "Heavy-rain and flood impacts from early July 2026; partner information compiled through 17 July; report cover dated 20 July.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MMR-E-112",
+        "MMR-E-113"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full two-page OCHA flood update; PDF p.1 for locations and damage, p.2 for access constraints and response.",
+          "notes": "Opened the original PDF; report cover is dated 20 July 2026 and official portal publication is 21 July 2026.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "MMR-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-001",
+          "locator": "PDF p.2, §1.2 “Temperature”."
+        }
+      ],
+      "geographies": [
+        "Myanmar"
+      ],
+      "affected_groups": [
+        "population"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Observed warming ≈0.2°C/decade.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-001",
+          "locator": "PDF p.2, §1.2 “Projected climate - Temperature”."
+        }
+      ],
+      "geographies": [
+        "Myanmar"
+      ],
+      "affected_groups": [
+        "population"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "~2050; SSP2-4.5/SSP5-8.5",
+      "compact_statement": "Mid-century warming increases under both SSPs.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-001",
+          "locator": "PDF p.2, “Precipitation”."
+        }
+      ],
+      "geographies": [
+        "Myanmar"
+      ],
+      "affected_groups": [
+        "exposed communities"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "2040-2060; SSP2-4.5/SSP5-8.5",
+      "compact_statement": "Wetter mean conditions do not remove flood variability.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-002",
+          "locator": "PDF p.30, “Climate Change Vulnerable Regions…” (UNFCCC1)"
+        }
+      ],
+      "geographies": [
+        "coastal/low-lying Myanmar"
+      ],
+      "affected_groups": [
+        "poor households",
+        "farmers",
+        "fishers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Exposure and poverty amplify climatic risk.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-002",
+          "locator": "PDF p.30."
+        }
+      ],
+      "geographies": [
+        "Coastal",
+        "Central Dry",
+        "Northern Hilly"
+      ],
+      "affected_groups": [
+        "climate-sensitive livelihoods"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Vulnerability varies sharply by ecological zone.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-003",
+          "locator": "printed p.34, §§4-4.2."
+        }
+      ],
+      "geographies": [
+        "Myanmar"
+      ],
+      "affected_groups": [
+        "vulnerable communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Adaptation policy recognizes coordination and capacity deficits.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-003",
+          "locator": "printed p.37, §4.2.1.2(ii)."
+        }
+      ],
+      "geographies": [
+        "unspecified"
+      ],
+      "affected_groups": [
+        "conflict-displaced people"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "National policy recognizes conflict displacement in adaptation design.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-008",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-009",
+          "locator": "UNHCR Myanmar data portal, publisher page values displayed 12 October 2026."
+        }
+      ],
+      "geographies": [
+        "Myanmar"
+      ],
+      "affected_groups": [
+        "IDPs"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "UNHCR/UN in Myanmar estimated 4,051,000 internally displaced people as of 12 October 2026.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-009",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-009",
+          "locator": "UNHCR Myanmar data portal, publisher page values displayed 12 October 2026."
+        }
+      ],
+      "geographies": [
+        "Sagaing"
+      ],
+      "affected_groups": [
+        "IDPs"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Sagaing hosted an estimated 1,335,200 IDPs, about 33.0% of Myanmar's total, on 12 October 2026.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-010",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-009",
+          "locator": "UNHCR Myanmar data portal, publisher page values displayed 12 October 2026."
+        }
+      ],
+      "geographies": [
+        "Rakhine"
+      ],
+      "affected_groups": [
+        "stateless IDPs",
+        "predominantly Rohingya context"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Of the national IDP total, 224,749 were recorded as stateless persons in Rakhine State on 12 October 2026.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-011",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-008",
+          "locator": "“Myanmar” headline/introductory paragraphs. (World Food Programme3)"
+        }
+      ],
+      "geographies": [
+        "Myanmar"
+      ],
+      "affected_groups": [
+        "food-insecure households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Acute food insecurity is nationwide and severe.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-012",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-008",
+          "locator": "paragraph under “Myanmar”. (World Food Programme3)"
+        }
+      ],
+      "geographies": [
+        "Myanmar"
+      ],
+      "affected_groups": [
+        "vulnerable households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Hunger is explicitly multi-causal.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-013",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-008",
+          "locator": "heading “Resilience”. (World Food Programme3)"
+        }
+      ],
+      "geographies": [
+        "relatively stable areas"
+      ],
+      "affected_groups": [
+        "local communities"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Security conditions condition resilience delivery.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-014",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-011",
+          "locator": "printed p.v, MTE Ratings & Achievement Summary."
+        }
+      ],
+      "geographies": [
+        "Dry Zone project villages"
+      ],
+      "affected_groups": [
+        "rural households"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Water infrastructure gains were limited at mid-term.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-011"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-015",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-011",
+          "locator": "printed p.v."
+        }
+      ],
+      "geographies": [
+        "Dry Zone"
+      ],
+      "affected_groups": [
+        "marginal farming households"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Positive project performance had scale/sustainability limits.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-011"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-016",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-011",
+          "locator": "printed p.56, Outcome 3."
+        }
+      ],
+      "geographies": [
+        "five Dry Zone townships"
+      ],
+      "affected_groups": [
+        "farmers"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Early-warning information had not yet achieved broad village effects.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-011"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-017",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-007",
+          "locator": "printed pp.7 and 13. (World Bank5)"
+        }
+      ],
+      "geographies": [
+        "Rakhine",
+        "Sagaing",
+        "Magway and other affected areas"
+      ],
+      "affected_groups": [
+        "disaster-affected communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict reduced flood-response reach.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-018",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-007",
+          "locator": "printed p.22. (World Bank5)"
+        }
+      ],
+      "geographies": [
+        "affected conflict areas"
+      ],
+      "affected_groups": [
+        "IDPs"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict displacement compounded flood and protection exposure.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-019",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-010",
+          "locator": "“Response delayed by restrictions”. (Doctors Without Borders4)"
+        }
+      ],
+      "geographies": [
+        "Rakhine"
+      ],
+      "affected_groups": [
+        "IDPs",
+        "low-lying/remote communities",
+        "Rohingya and Rakhine communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Political/access restrictions delayed cyclone relief.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-010"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-020",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-005",
+          "locator": "PDF p.3, “Migration and mobility”. (SIPRI6)"
+        }
+      ],
+      "geographies": [
+        "Myanmar"
+      ],
+      "affected_groups": [
+        "displaced people",
+        "women/girls"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict drives mobility; climate hazards compound it.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-021",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-005",
+          "locator": "PDF p.2, “Livelihood deterioration”. (SIPRI6)"
+        }
+      ],
+      "geographies": [
+        "Mandalay",
+        "Magway",
+        "lower Sagaing"
+      ],
+      "affected_groups": [
+        "rain-fed farming households"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Livelihood stress is a possible mediator into conflict dynamics.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-022",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-005",
+          "locator": "PDF p.2, “Livelihood deterioration”. (SIPRI6)"
+        }
+      ],
+      "geographies": [
+        "Karenni"
+      ],
+      "affected_groups": [
+        "farmers/local communities"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Harvest access generated a localized peace-supporting window.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-023",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-005",
+          "locator": "PDF p.3, “Military and armed actors”. (SIPRI6)"
+        }
+      ],
+      "geographies": [
+        "border/Karen areas"
+      ],
+      "affected_groups": [
+        "local constituencies"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Non-state/local institutions can supply resilience functions.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "MMR-E-023",
+        "source_id": "MMR-SRC-005",
+        "url": "https://www.sipri.org/sites/default/files/2024-05/01_sipri-nupi_fact_sheet_myanmar_may_0.pdf",
+        "locator": "PDF p.3, “Military and armed actors”. (SIPRI6)",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+      },
+      "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "MMR-SRC-005",
+        "source_url": "https://www.sipri.org/sites/default/files/2024-05/01_sipri-nupi_fact_sheet_myanmar_may_0.pdf",
+        "locator": "PDF p.3, “Military and armed actors”. (SIPRI6)",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "MMR-E-024",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-006",
+          "locator": "webpage “Abstract” + “Data availability statement”. (Sage Journals8)"
+        }
+      ],
+      "geographies": [
+        "post-coup Myanmar"
+      ],
+      "affected_groups": [
+        "governed communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict politics shape climate action itself.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-025",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-015",
+          "locator": "opening paragraphs. (World Bank13)"
+        }
+      ],
+      "geographies": [
+        "Myanmar"
+      ],
+      "affected_groups": [
+        "conflict-affected/vulnerable populations"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Third-party delivery is an FCV adaptation of service architecture.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-015"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-026",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-013",
+          "locator": "publication-page summary. (UNDP11)"
+        }
+      ],
+      "geographies": [
+        "Myanmar"
+      ],
+      "affected_groups": [
+        "general population"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "FCV erodes underlying adaptive/service capacity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-013"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-027",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-014",
+          "locator": "publication-page summary. (UNDP12)"
+        }
+      ],
+      "geographies": [
+        "states/regions/agro-ecological zones"
+      ],
+      "affected_groups": [
+        "vulnerable households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Localized resilience is proposed for a multi-shock food system.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MMR-SRC-014"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-101",
+          "locator": "PDF p.26 (printed p.24), §3.2, Figure 5 and note 12."
+        }
+      ],
+      "geographies": [
+        "Myanmar rural and urban households",
+        "Kayah",
+        "Bago",
+        "Kayin",
+        "Magway",
+        "Tanintharyi",
+        "Yangon"
+      ],
+      "affected_groups": [
+        "rural households",
+        "urban households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-10-08 reports: PPS 2025 respondents reported natural-hazard exposure for 23% of rural versus 10% of urban households; rates were highest in Kayah (52%), Bago (32%), Kayin and Magway (30%), and lowest in Tanintharyi (4%) and Yangon (7%).",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-101",
+          "locator": "PDF p.27 (printed p.25), Table 5 and §3.2."
+        }
+      ],
+      "geographies": [
+        "Myanmar"
+      ],
+      "affected_groups": [
+        "households exposed to natural hazards",
+        "households exposed to conflict"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNDP's survey-adjusted models associate natural-hazard and conflict exposure with higher predicted multidimensional poverty; the conflict association is larger.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-101",
+          "locator": "PDF p.26 (printed p.24), §3.2; PDF p.28 (printed p.26), cumulative shock analysis."
+        }
+      ],
+      "geographies": [
+        "Myanmar"
+      ],
+      "affected_groups": [
+        "households exposed to repeated shocks"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-10-08 reports: UNDP reports that natural-hazard, economic and conflict shocks often co-occur; modeled poverty rises with cumulative shocks as assets, savings and household buffers are depleted.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-102",
+          "locator": "PDF p.10 (printed p.3), §1.1."
+        }
+      ],
+      "geographies": [
+        "Myanmar",
+        "conflict-affected rural areas"
+      ],
+      "affected_groups": [
+        "rural households",
+        "conflict-affected communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026 reports: FAO reports that the September 2024 floods and March 2025 earthquake damaged crops, livestock, inputs and incomes; repeated extreme-weather impacts compound vulnerability and food insecurity in conflict-affected, economically isolated areas.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-102",
+          "locator": "PDF p.10 (printed p.3), §1.1."
+        }
+      ],
+      "geographies": [
+        "rural Myanmar",
+        "coastal fishing communities"
+      ],
+      "affected_groups": [
+        "small-scale fishers",
+        "monocropping households",
+        "rural families"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026 reports: FAO says many rural households depend on one income source, such as small-scale fishing or monocropping; coastal fishers have few alternatives, and limited diversification heightens shock exposure and asset-depleting coping.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-102",
+          "locator": "PDF pp.10–11 (printed pp.3–4), §§1.2–1.3."
+        }
+      ],
+      "geographies": [
+        "Myanmar",
+        "11 states and regions (not individually named in cited passages)"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoralists",
+        "fishers",
+        "rural women",
+        "displaced households"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026 reports: FAO reports field projects in 11 states/regions and its 2026–2028 plan commits to climate-resilient production, flood/drought early warning, local finance and conflict-sensitive natural-resource management.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-103",
+          "locator": "PDF p.12, Humanitarian outlook and risks."
+        }
+      ],
+      "geographies": [
+        "Myanmar",
+        "northern Rakhine"
+      ],
+      "affected_groups": [
+        "conflict-affected communities",
+        "communities in northern Rakhine"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "2026 humanitarian planning period; no emissions or climate-model scenario stated.",
+      "compact_statement": "Source dated 2025-12 reports: For its 2026 planning period, OCHA expects worsening climate disasters and epidemics to erode resilience; northern Rakhine is identified as a food-insecurity and malnutrition hotspot under combined monsoon, conflict and economic pressures.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-103",
+          "locator": "PDF p.22, access-severity exercise (October 2025); PDF p.24, locally-led response."
+        }
+      ],
+      "geographies": [
+        "northeast Myanmar",
+        "northwest Myanmar",
+        "Rakhine",
+        "southeast Myanmar",
+        "330 townships"
+      ],
+      "affected_groups": [
+        "people in need in hard-to-reach areas",
+        "internally displaced people"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12 reports: OCHA found extreme access difficulties in 127 of 330 townships; nearly 95% clustered in conflict-affected northeast, northwest, Rakhine and southeast, where local organizations remain a response backbone.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-104",
+          "locator": "PDF p.1, Highlights; PDF p.2, Public Health Emergencies."
+        }
+      ],
+      "geographies": [
+        "Sagaing",
+        "Mandalay",
+        "Magway",
+        "Ayeyarwady",
+        "Mon",
+        "Shwebo",
+        "Lemyethna",
+        "Bago"
+      ],
+      "affected_groups": [
+        "flood-affected communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08-31 reports: The August bulletin reports monsoon flooding affecting over 470,000 people in Sagaing, Mandalay, Magway, Ayeyarwady and Mon; overflowed latrines contaminated water and food, with AWD cases in Shwebo, Lemyethna, Mandalay and Bago.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-104",
+          "locator": "PDF p.2, Sittwe Cholera/AWD outbreak passage."
+        }
+      ],
+      "geographies": [
+        "Sittwe, Rakhine State",
+        "IDP sites"
+      ],
+      "affected_groups": [
+        "internally displaced people"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08-31 reports: By 22 August, Sittwe had over 150 Cholera/AWD cases, almost half severe; all were reported in IDP sites, where overcrowding and poor water quality were identified as outbreak drivers.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-104",
+          "locator": "PDF p.1, Yangon MRCS response; PDF p.2, preparedness and EWARS."
+        }
+      ],
+      "geographies": [
+        "Yangon",
+        "high-risk townships"
+      ],
+      "affected_groups": [
+        "people in outbreak-affected townships"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08-31 reports: WHO reports MRCS water chlorination, awareness and early detection in Yangon alongside a sharp case decline; shared risk indexing, prepositioned supplies and EWARS supported faster alert verification and response.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-105",
+          "locator": "PDF p.1, Highlights and Situation Overview."
+        }
+      ],
+      "geographies": [
+        "Rakhine State",
+        "Buthidaung",
+        "Kyauktaw",
+        "Minbya",
+        "Mrauk-U",
+        "Ponnagyun",
+        "201 villages",
+        "18 wards"
+      ],
+      "affected_groups": [
+        "flood-affected households",
+        "temporarily evacuated people"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-07-21 reports: Early-July heavy rain and rising rivers flooded 18 wards and 201 villages in Rakhine, affecting 98,282 people; Buthidaung, Kyauktaw, Minbya, Mrauk-U and Ponnagyun were among the hardest-hit townships.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MMR-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MMR-SRC-105",
+          "locator": "PDF p.2, Humanitarian Needs, Access and Operational Constraints, and Response."
+        }
+      ],
+      "geographies": [
+        "affected areas of Rakhine State",
+        "Kyauktaw",
+        "Kyaukpyu",
+        "Ramree",
+        "Minbya",
+        "Mrauk-U",
+        "Ponnagyun"
+      ],
+      "affected_groups": [
+        "flood-affected communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-07-21 reports: Flood-damaged roads and communications, transport disruption, limited stocks and incomplete assessments delayed aid; partners had started WASH, mobile health and cash assistance, but response remained below assessed needs.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "MMR-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MMR-E-001",
+        "MMR-E-002",
+        "MMR-E-021"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MMR-E-001",
+          "MMR-E-002"
+        ],
+        "impact": [
+          "MMR-E-021"
+        ],
+        "mediator": [
+          "MMR-E-021"
+        ],
+        "consequence": [
+          "MMR-E-021"
+        ]
+      },
+      "geographies": [
+        "Mandalay",
+        "Magway and lower Sagaing Dry Zone"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Dry Zone climate stress can worsen farm hardship, but any effect on conflict dynamics is mediated through finance, livelihoods and pre-existing political violence.",
+      "alternative_explanations": [
+        "Armed violence",
+        "scorched-earth tactics",
+        "credit contraction after 2021",
+        "inflation/input prices",
+        "land tenure",
+        "poverty and political mobilization"
+      ],
+      "uncertainty": "SIPRI/NUPI directly presents the chain but does not estimate the independent effect of climate stress. (SIPRI6)",
+      "potentially_out_of_scope_support_ids": [
+        "MMR-E-001",
+        "MMR-E-002"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "MMR-P-002",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MMR-E-017",
+        "MMR-E-019"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MMR-E-017",
+          "MMR-E-019"
+        ],
+        "impact": [
+          "MMR-E-019"
+        ],
+        "mediator": [
+          "MMR-E-017",
+          "MMR-E-019"
+        ],
+        "consequence": [
+          "MMR-E-017",
+          "MMR-E-019"
+        ]
+      },
+      "geographies": [
+        "Rakhine",
+        "also Yagi-affected Sagaing",
+        "Magway and other regions"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "direct",
+      "compact_statement": "Conflict and access restrictions have demonstrably reduced the reach of climate-disaster response in specific Myanmar settings.",
+      "alternative_explanations": [
+        "Physical remoteness",
+        "road destruction",
+        "terrain and the scale of the disaster"
+      ],
+      "uncertainty": "Evidence is strong for specific events but cannot be assumed uniform across Myanmar. (Doctors Without Borders4)",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability."
+      ]
+    },
+    {
+      "record_id": "MMR-P-003",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MMR-E-008",
+        "MMR-E-010",
+        "MMR-E-018",
+        "MMR-E-020"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MMR-E-018"
+        ],
+        "impact": [
+          "MMR-E-018"
+        ],
+        "mediator": [
+          "MMR-E-008",
+          "MMR-E-010",
+          "MMR-E-020"
+        ],
+        "consequence": [
+          "MMR-E-018"
+        ]
+      },
+      "geographies": [
+        "2024 flood-affected conflict areas",
+        "Rakhine and other IDP locations"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "direct",
+      "compact_statement": "Conflict displacement can turn a climatic shock into repeated displacement and additional protection risk.",
+      "alternative_explanations": [
+        "Poverty",
+        "poor settlement siting and inadequate infrastructure can generate vulnerability independently of conflict"
+      ],
+      "uncertainty": "National IDP figures do not indicate how many IDPs are directly climate-exposed. (World Bank5)",
+      "potentially_out_of_scope_support_ids": [
+        "MMR-E-008",
+        "MMR-E-010",
+        "MMR-E-018",
+        "MMR-E-020"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "MMR-P-004",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MMR-E-020"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MMR-E-020"
+        ],
+        "impact": [
+          "MMR-E-020"
+        ],
+        "mediator": [
+          "MMR-E-020"
+        ],
+        "consequence": [
+          "MMR-E-020"
+        ]
+      },
+      "geographies": [
+        "Conflict-affected Myanmar",
+        "source emphasizes displaced and minority populations"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "direct",
+      "compact_statement": "Conflict-related mobility constraints can reduce people's ability to use migration or evacuation as climate coping strategies.",
+      "alternative_explanations": [
+        "Household income",
+        "social networks",
+        "documentation status and transport availability"
+      ],
+      "uncertainty": "Limited quantitative evidence identifies the relative contribution of each mobility constraint. (SIPRI6)",
+      "potentially_out_of_scope_support_ids": [
+        "MMR-E-020"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "MMR-P-005",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MMR-E-019",
+        "MMR-E-023",
+        "MMR-E-024"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MMR-E-019"
+        ],
+        "impact": [
+          "MMR-E-019"
+        ],
+        "mediator": [
+          "MMR-E-023",
+          "MMR-E-024"
+        ],
+        "consequence": [
+          "MMR-E-024"
+        ]
+      },
+      "geographies": [
+        "Particularly Rakhine",
+        "broader post-coup governance context"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "In post-coup Myanmar, disaster and climate action can become part of struggles over authority rather than merely technical adaptation.",
+      "alternative_explanations": [
+        "Long-standing ethnic politics",
+        "military strategy",
+        "territorial contestation and pre-existing legitimacy"
+      ],
+      "uncertainty": "Political effects vary strongly by actor and locality. (SIPRI6)",
+      "potentially_out_of_scope_support_ids": [
+        "MMR-E-019",
+        "MMR-E-023",
+        "MMR-E-024"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "MMR-P-006",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MMR-E-022"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MMR-E-022"
+        ],
+        "impact": [
+          "MMR-E-022"
+        ],
+        "mediator": [
+          "MMR-E-022"
+        ],
+        "consequence": [
+          "MMR-E-022"
+        ]
+      },
+      "geographies": [
+        "Karenni",
+        "single documented example"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Locally mediated harvest access can support food security and temporary de-escalation, but it is not evidence that adaptation causes peace.",
+      "alternative_explanations": [
+        "Ceasefire incentives may be humanitarian",
+        "military or political rather than climate-specific"
+      ],
+      "uncertainty": "No evidence of durable peace effects. (SIPRI6)",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    },
+    {
+      "record_id": "MMR-P-007",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MMR-E-006",
+        "MMR-E-016",
+        "MMR-E-024",
+        "MMR-E-025"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MMR-E-006"
+        ],
+        "impact": [
+          "MMR-E-016"
+        ],
+        "mediator": [
+          "MMR-E-024",
+          "MMR-E-025"
+        ],
+        "consequence": [
+          "MMR-E-006"
+        ]
+      },
+      "geographies": [
+        "National with significant subnational variation"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Conflict and divided authority appear to make adaptation capacity territorially uneven and politically contested.",
+      "alternative_explanations": [
+        "Long-standing administrative capacity and finance constraints predate the coup"
+      ],
+      "uncertainty": "No national post-2021 implementation audit was located.",
+      "potentially_out_of_scope_support_ids": [
+        "MMR-E-006",
+        "MMR-E-016",
+        "MMR-E-024",
+        "MMR-E-025"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "MMR-P-008",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MMR-E-013",
+        "MMR-E-023",
+        "MMR-E-025"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MMR-E-013"
+        ],
+        "impact": [
+          "MMR-E-013"
+        ],
+        "mediator": [
+          "MMR-E-023",
+          "MMR-E-025"
+        ],
+        "consequence": [
+          "MMR-E-013"
+        ]
+      },
+      "geographies": [
+        "Selected stable/local project areas",
+        "Karen areas and conflict-affected World Bank project locations"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Alternative delivery institutions can bridge some resilience gaps, but effectiveness and equity require independent evaluation.",
+      "alternative_explanations": [
+        "Selection toward more stable areas may itself explain better delivery"
+      ],
+      "uncertainty": "Programme outputs and institutional activity are not evidence of durable resilience or peace outcomes. (World Food Programme3)",
+      "potentially_out_of_scope_support_ids": [
+        "MMR-E-013",
+        "MMR-E-023",
+        "MMR-E-025"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "MMR-E-023",
+  "source_access_review": {
+    "selected_record_id": "MMR-E-023",
+    "selected_source_id": "MMR-SRC-005",
+    "url": "https://www.sipri.org/sites/default/files/2024-05/01_sipri-nupi_fact_sheet_myanmar_may_0.pdf",
+    "locator": "PDF p.3, “Military and armed actors”. (SIPRI6)",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 1812187,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      3
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+  },
+  "checks": [
+    {
+      "record_id": "MMR-E-023",
+      "source_id": "MMR-SRC-005",
+      "locator": "PDF p.3, “Military and armed actors”. (SIPRI6)",
+      "verification_status": "verified",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "MMR-E-023: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "MMR-E-001",
+    "MMR-E-002",
+    "MMR-E-003",
+    "MMR-E-004",
+    "MMR-E-005",
+    "MMR-E-006",
+    "MMR-E-007",
+    "MMR-E-008",
+    "MMR-E-009",
+    "MMR-E-010",
+    "MMR-E-011",
+    "MMR-E-012",
+    "MMR-E-013",
+    "MMR-E-014",
+    "MMR-E-015",
+    "MMR-E-016",
+    "MMR-E-017",
+    "MMR-E-018",
+    "MMR-E-019",
+    "MMR-E-020",
+    "MMR-E-021",
+    "MMR-E-022",
+    "MMR-E-023",
+    "MMR-E-024",
+    "MMR-E-025",
+    "MMR-E-026",
+    "MMR-E-027",
+    "MMR-E-101",
+    "MMR-E-102",
+    "MMR-E-103",
+    "MMR-E-104",
+    "MMR-E-105",
+    "MMR-E-106",
+    "MMR-E-107",
+    "MMR-E-108",
+    "MMR-E-109",
+    "MMR-E-110",
+    "MMR-E-111",
+    "MMR-E-112",
+    "MMR-E-113",
+    "MMR-P-001",
+    "MMR-P-002",
+    "MMR-P-003",
+    "MMR-P-004",
+    "MMR-P-005",
+    "MMR-P-006",
+    "MMR-P-007",
+    "MMR-P-008"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

@@ -1,0 +1,2519 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "LBY",
+  "candidate_path": "countries/LBY/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 17,
+    "evidence_count": 33,
+    "pathway_count": 8,
+    "evidence_source_reference_count": 33
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 24,
+      "verified": 1,
+      "access-only": 8
+    },
+    "pathway_claims": {
+      "unresolved": 8
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "At least one known-gap statement appears inconsistent with the current pathway inventory.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "LBY-E-001",
+          "LBY-E-002",
+          "LBY-E-003",
+          "LBY-E-004",
+          "LBY-E-101"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "LBY-E-005",
+          "LBY-E-006",
+          "LBY-E-008",
+          "LBY-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "LBY-E-007",
+          "LBY-E-009",
+          "LBY-E-010",
+          "LBY-E-024",
+          "LBY-E-102",
+          "LBY-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "LBY-E-015"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "LBY-E-012",
+          "LBY-E-013",
+          "LBY-E-014",
+          "LBY-E-107",
+          "LBY-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "LBY-E-011",
+          "LBY-E-023",
+          "LBY-E-025",
+          "LBY-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "LBY-E-016",
+          "LBY-E-022"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "LBY-E-017",
+          "LBY-E-018",
+          "LBY-E-019",
+          "LBY-E-021",
+          "LBY-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "LBY-E-020"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "LBY-E-101",
+          "LBY-E-104",
+          "LBY-E-105",
+          "LBY-E-106",
+          "LBY-E-107",
+          "LBY-E-108"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "LBY-P-001",
+          "LBY-P-002",
+          "LBY-P-003",
+          "LBY-P-004",
+          "LBY-P-005",
+          "LBY-P-006",
+          "LBY-P-007",
+          "LBY-P-008"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [
+      {
+        "text": "Sources describe connected climate, governance and conflict vulnerabilities in southern Libya but do not establish a causal climate-to-violence pathway or show that conflict obstructed a specific adaptation project.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      },
+      {
+        "text": "Co-located conflict, governance and climate vulnerabilities do not justify a new causal pathway. National strategies and water installations do not establish durable or equitable outcomes.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      }
+    ],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/LBY/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "LBY-SRC-001",
+      "title": "*Interplay of climate change-exacerbated rainfall, exposure and vulnerability led to widespread impacts in the Mediterranean region* (World Weather Attribution)",
+      "organization": "World Weather Attribution",
+      "publication_date": "2023-09-19",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldweatherattribution.org/interplay-of-climate-change-exacerbated-rainfall-exposure-and-vulnerability-led-to-widespread-impacts-in-the-mediterranean-region/",
+      "geographic_coverage": [
+        "Libya plus Mediterranean comparison regions"
+      ],
+      "temporal_coverage": "Storm Daniel, Sep 2023; counterfactual climate comparison",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBY-E-001",
+        "LBY-E-002",
+        "LBY-E-017"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBY-SRC-002",
+      "title": "*Climate, Peace and Security Fact Sheet: Libya 2024* (SIPRI)",
+      "organization": "SIPRI / NUPI",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://www.sipri.org/sites/default/files/2024-08/02_sipri-nupi_fact_sheet_libya_august_270824.pdf",
+      "geographic_coverage": [
+        "National with Derna, Fezzan and other subnational examples"
+      ],
+      "temporal_coverage": "Mainly 2011-2024; projections to mid-century/2060",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "LBY-E-003",
+        "LBY-E-004",
+        "LBY-E-018",
+        "LBY-E-019",
+        "LBY-E-020",
+        "LBY-E-021",
+        "LBY-E-022"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "LBY-E-019",
+        "selected_source_id": "LBY-SRC-002",
+        "url": "https://www.sipri.org/sites/default/files/2024-08/02_sipri-nupi_fact_sheet_libya_august_270824.pdf",
+        "locator": "SIPRI PDF p.2, GMR contestation and Fezzan.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 2150542,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          2
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "LBY-E-019"
+      ],
+      "manual_verified_record_ids": [
+        "LBY-E-019"
+      ]
+    },
+    {
+      "source_id": "LBY-SRC-003",
+      "title": "*Environment and Climate Change - Libya* (UNDP)",
+      "organization": "UNDP Libya",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.undp.org/libya/environment-and-climate-change",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "Current context; forward-looking programme discussion",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBY-E-005"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBY-SRC-004",
+      "title": "*Final Evaluation: Support to Energy Transition and Climate Change Mitigation in Libya*",
+      "organization": "UNDP Independent Evaluation",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://erc.undp.org/evaluation/documents/download/24736",
+      "geographic_coverage": [
+        "National with participating institutions/local authorities"
+      ],
+      "temporal_coverage": "Programme period through mid-2025",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBY-E-011",
+        "LBY-E-012",
+        "LBY-E-016"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBY-SRC-005",
+      "title": "*National Drought Management Strategy and Action Plan for Libya* (UNDP)",
+      "organization": "Government of Libya / UNDP-supported publication",
+      "publication_date": "2026-01-26",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/libya/publications/national-drought-management-strategy-and-action-plan-libya",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "Ten-year strategy",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBY-E-013"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBY-SRC-006",
+      "title": "*Libya Launches 2050 National Water Security Strategy to Combat Scarcity and Build Climate Resilience* (UNDP)",
+      "organization": "UNDP Libya / Libyan authorities",
+      "publication_date": "2026-04-22",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/libya/news/libya-launches-2050-national-water-security-strategy-combat-scarcity-and-build-climate-resilience",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "Strategy horizon to 2050",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBY-E-014"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBY-SRC-007",
+      "title": "*UN 2.0 in Action: Building Climate Resilience in Libya* (The United Nations in Libya)",
+      "organization": "United Nations in Libya",
+      "publication_date": "2026-06-18",
+      "publication_date_basis": "publication",
+      "url": "https://libya.un.org/en/317642-un-20-action-building-climate-resilience-libya",
+      "geographic_coverage": [
+        "National plus named municipalities"
+      ],
+      "temporal_coverage": "Recent programme activity through 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBY-E-015"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBY-SRC-008",
+      "title": "*Libya Operational Update - 31 October 2025* (UNHCR)",
+      "organization": "UNHCR",
+      "publication_date": "2025-10-31",
+      "publication_date_basis": "document-version",
+      "url": "https://www.unhcr.org/sites/default/files/2026-03/libya-operational-update-oct-2025.pdf",
+      "geographic_coverage": [
+        "National with Alkufra and other operational locations"
+      ],
+      "temporal_coverage": "Through Oct 2025",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBY-E-008"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBY-SRC-009",
+      "title": "*Libya Country Strategic Plan (2023-2025)* (The United Nations in Libya)",
+      "organization": "World Food Programme",
+      "publication_date": "2023",
+      "publication_date_basis": "publication",
+      "url": "https://libya.un.org/en/download/137539/239070",
+      "geographic_coverage": [
+        "National plus livelihood zones"
+      ],
+      "temporal_coverage": "Evidence mainly through 2021-2022; programme horizon 2023-2025",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBY-E-009"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBY-SRC-010",
+      "title": "*Libya - Country Overview* (World Bank)",
+      "organization": "World Bank Group",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/ext/en/country/libya",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "Current macro/institutional context",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBY-E-010",
+        "LBY-E-023"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBY-SRC-011",
+      "title": "*Joint World Bank, EU, UN Report Assesses Damages Caused by Catastrophic Flooding in Libya* (World Bank)",
+      "organization": "World Bank / European Union / United Nations",
+      "publication_date": "2024-01-24",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2024/01/24/joint-world-bank-eu-un-report-assesses-damages-caused-by-catastrophic-flooding-in-libya",
+      "geographic_coverage": [
+        "20 flood-affected municipalities in eastern Libya"
+      ],
+      "temporal_coverage": "Sep 2023 event and immediate recovery assessment",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBY-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBY-SRC-012",
+      "title": "*Libya: Storm Daniel and Flooding Situation Report No. 4*",
+      "organization": "UNICEF",
+      "publication_date": "2023-10-05",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/media/146041/file/Libya-Humanitarian-SitRep-05-October-2023.pdf",
+      "geographic_coverage": [
+        "Eastern flood-affected Libya"
+      ],
+      "temporal_coverage": "Immediate aftermath through 5 Oct 2023",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBY-E-007",
+        "LBY-E-024"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBY-SRC-013",
+      "title": "*National Communication submissions from Non-Annex I Parties* (UNFCCC)",
+      "organization": "UNFCCC",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://unfccc.int/non-annex-I-NCs",
+      "geographic_coverage": [
+        "Global; Libya row"
+      ],
+      "temporal_coverage": "Registry current to Aug 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBY-E-025"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBY-SRC-101",
+      "title": "Libya Country Brief",
+      "organization": "Food and Agriculture Organization of the United Nations (FAO), Global Information and Early Warning System",
+      "publication_date": "2026-07-16",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.fao.org/giews/countrybrief/country.jsp?code=LBY&lang=en",
+      "geographic_coverage": [
+        "Libya",
+        "Al Jabal al Akhdar"
+      ],
+      "temporal_coverage": "Weather and crop conditions through July 2026; 2026 harvest and 2026/27 import forecasts.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBY-E-101",
+        "LBY-E-102",
+        "LBY-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete FAO GIEWS country brief page; reference date 16 July 2026.",
+          "notes": "Inspected rainfall, crop outlook, imports, price and food-security passages.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBY-SRC-102",
+      "title": "Rapid flood impact assessment on water management infrastructure and agriculture in Eastern Libya in 2023",
+      "organization": "Food and Agriculture Organization of the United Nations (FAO)",
+      "publication_date": "2025-05-15",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.fao.org/platforms/water-scarcity/Knowledge/knowledge-products/detail/rapid-flood-impact-assessment-on-water-management-infrastructure-and-agriculture-in-eastern-libya-in-2023/en",
+      "geographic_coverage": [
+        "Eastern Libya",
+        "Benghazi"
+      ],
+      "temporal_coverage": "Assessment of the September 2023 floods; FAO summary published May 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBY-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete official FAO summary page; findings on geospatial assessment and Benghazi flood extent.",
+          "notes": "The full linked assessment returned 403 at https://openknowledge.fao.org/server/api/core/bitstreams/cb0a2ce8-b5ff-4032-9472-2ffb9cdc2be57/content; no details beyond the FAO summary are asserted.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBY-SRC-103",
+      "title": "Situational Assessment of The South of Libya 2024",
+      "organization": "United Nations Resident Coordinator's Office in Libya",
+      "publication_date": "2024",
+      "publication_date_basis": "document-version",
+      "url": "https://libya.un.org/sites/default/files/2025-01/2024%20Situational%20Assessment%20of%20The%20South%20of%20Libya-compressed_0.pdf",
+      "geographic_coverage": [
+        "Southern Libya",
+        "Sebha",
+        "Murzuq",
+        "Ghat",
+        "Kufra",
+        "Ubari"
+      ],
+      "temporal_coverage": "2024 assessment version; synthesis of 2018–2023 agency and INGO assessments.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBY-E-105",
+        "LBY-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Official indexed excerpts from Executive Summary printed p.1 and climate adaptation/DRR printed p.29; official publication page inspected.",
+          "notes": "The full 13.7 MB PDF exceeded the reader limit. The official publication page confirms title, publisher and publication date; claims are limited to the indexed passages.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBY-SRC-104",
+      "title": "The United Nations Libya Annual Results Report 2025",
+      "organization": "United Nations in Libya",
+      "publication_date": "2026-05-03",
+      "publication_date_basis": "portal-publication",
+      "url": "https://libya.un.org/sites/default/files/2026-05/UN_ANNUAL%20RESULTS%20REPORT%202025%20EN.pdf",
+      "geographic_coverage": [
+        "Libya",
+        "Ubari",
+        "Ghat",
+        "Tahala",
+        "Alberkit",
+        "Qatroun",
+        "Yefren"
+      ],
+      "temporal_coverage": "Reported United Nations results achieved during 2025; report published 3 May 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBY-E-107",
+        "LBY-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Official indexed excerpts on printed p.34; official publication listing inspected.",
+          "notes": "The full 46.9 MB PDF exceeded the reader limit; local water-result claims use only the indexed excerpt and are reported UN outputs.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "LBY-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-001",
+          "locator": "Publisher Key findings: Libya return period."
+        }
+      ],
+      "geographies": [
+        "Eastern Libya analysis region"
+      ],
+      "affected_groups": [
+        "Flood-exposed population"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "On 10 September 2023, WWA estimated rainfall over its eastern Libya analysis region as a 1-in-300 to 1-in-600-year event.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-001",
+          "locator": "Publisher Key findings: Libya attribution and uncertainty."
+        }
+      ],
+      "geographies": [
+        "Libya study region"
+      ],
+      "affected_groups": [
+        "Flood-exposed population"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "For September 2023, WWA estimated up to 50 times greater likelihood and 50% greater intensity, while uncertainty included no detectable change.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-002",
+          "locator": "PDF p.2, Climate exposure, Temperature."
+        }
+      ],
+      "geographies": [
+        "Libya"
+      ],
+      "affected_groups": [
+        "National population"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "2060; underlying scenario not specified in accessible fact sheet",
+      "compact_statement": "By 2060, projected mean annual warming is 1.42 to 2.69 degrees C.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-002",
+          "locator": "PDF p.2, Climate exposure, Precipitation."
+        }
+      ],
+      "geographies": [
+        "Libya"
+      ],
+      "affected_groups": [
+        "National population"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "2050; scenario not specified in accessible fact sheet",
+      "compact_statement": "Drier averages can coexist with stronger extremes.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-003",
+          "locator": "webpage paragraphs on coastal concentration and climate pressures. (UNDP)"
+        }
+      ],
+      "geographies": [
+        "Mediterranean coast"
+      ],
+      "affected_groups": [
+        "Coastal residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Coastal concentration increases exposure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-011",
+          "locator": "World Bank RDNA release: affected population, displacement and 20 municipalities."
+        }
+      ],
+      "geographies": [
+        "20 eastern municipalities"
+      ],
+      "affected_groups": [
+        "Residents",
+        "displaced households",
+        "children"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The September 2023 floods affected about 1.5 million people and initially displaced nearly 44,800 across 20 eastern municipalities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-011"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-012",
+          "locator": "PDF pp.2-3, Situation Overview, Health and Nutrition, WASH."
+        }
+      ],
+      "geographies": [
+        "Eastern flood-affected Libya"
+      ],
+      "affected_groups": [
+        "Children",
+        "families",
+        "patients"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "In October 2023, UNICEF documented damaged WASH and health infrastructure and service disruption in flood-affected eastern Libya.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-012"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-008",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-008",
+          "locator": "Official UNHCR indexed continuous passage, October 2025 update, Protection."
+        }
+      ],
+      "geographies": [
+        "Libya",
+        "especially southern/eastern entry areas"
+      ],
+      "affected_groups": [
+        "Sudanese refugees"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "By October 2025, UNHCR estimated 467,000 Sudanese refugees had arrived in Libya since April 2023.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-009",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-009",
+          "locator": "PDF printed pp.5-6, paragraph 18, 2021-2022 livelihoods exercise."
+        }
+      ],
+      "geographies": [
+        "Assessed livelihood zones"
+      ],
+      "affected_groups": [
+        "Farmers",
+        "rural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "WFP's 2021-2022 exercise found 7 of 19 livelihood zones not resilient to climate change amid multiple non-climate constraints.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-010",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-010",
+          "locator": "World Bank overview, service delivery and structural constraints."
+        }
+      ],
+      "geographies": [
+        "Libya"
+      ],
+      "affected_groups": [
+        "Service users",
+        "poorer/local populations"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Weak basic services increase shock sensitivity.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-010"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-011",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-004",
+          "locator": "Evaluation PDF pp.34 and 61-62, NDC and implementation."
+        }
+      ],
+      "geographies": [
+        "Libya"
+      ],
+      "affected_groups": [
+        "National population indirectly"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "By mid-2025, Libya still lacked a submitted NDC and the evaluated programme had not produced a finalized comprehensive climate framework.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-012",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-004",
+          "locator": "Evaluation PDF p.39, Local Climate Action Planning."
+        }
+      ],
+      "geographies": [
+        "Participating Libyan municipalities/localities"
+      ],
+      "affected_groups": [
+        "Local residents"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "By mid-2025, local climate-action training had not produced implemented local plans or climate-resilient municipal projects.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-013",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-005",
+          "locator": "UNDP page dated 26 January 2026, strategy description."
+        }
+      ],
+      "geographies": [
+        "Libya"
+      ],
+      "affected_groups": [
+        "Water users",
+        "farmers",
+        "communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "A national drought-planning framework now exists.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-014",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-006",
+          "locator": "UNDP page, 21-22 April 2026 endorsement, baseline and targets."
+        }
+      ],
+      "geographies": [
+        "Libya"
+      ],
+      "affected_groups": [
+        "Households",
+        "farmers",
+        "urban/rural users"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Water strategy targets structural scarcity and system losses.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check",
+        "programme_intent_and_outcome_terms_co-occur"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-015",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-007",
+          "locator": "UN story dated 18 June 2026, Water Security and Services."
+        }
+      ],
+      "geographies": [
+        "Named Libyan municipalities",
+        "especially southern/western sites"
+      ],
+      "affected_groups": [
+        "Local residents"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "For 2025, UN reporting attributed more reliable climate-resilient water access to 642,600 people and reported 40 solar-powered installations plus technician training.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-016",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-004",
+          "locator": "Evaluation PDF pp.61-62, delivery and timeframe."
+        }
+      ],
+      "geographies": [
+        "Libya climate/energy programme"
+      ],
+      "affected_groups": [
+        "Programme stakeholders"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "By June 2025, the evaluation reported 71% delivery, about US$1.3 million unspent, weak outcome monitoring and an overly ambitious implementation window.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-017",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-001",
+          "locator": "WWA Key findings: maintenance, fragility and coordination."
+        }
+      ],
+      "geographies": [
+        "Derna"
+      ],
+      "affected_groups": [
+        "Flood-exposed residents"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "For September 2023, WWA found fragility contributed to poor dam maintenance and constrained planning and coordination.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-018",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-002",
+          "locator": "SIPRI PDF pp.2-3, climate-security and livelihoods."
+        }
+      ],
+      "geographies": [
+        "Libya"
+      ],
+      "affected_groups": [
+        "Rural communities",
+        "water users"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Climate-livelihood stress is a conditional conflict-risk factor.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-019",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-002",
+          "locator": "SIPRI PDF p.2, GMR contestation and Fezzan."
+        }
+      ],
+      "geographies": [
+        "Fezzan"
+      ],
+      "affected_groups": [
+        "Water-dependent communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Water governance can mediate local grievance and disruption.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-002"
+      ],
+      "recommendations": [
+        "Retain the named Fezzan/GMR example and avoid attributing the contestation itself to climate change."
+      ],
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+      "verification_attempt": {
+        "record_id": "LBY-E-019",
+        "source_id": "LBY-SRC-002",
+        "url": "https://www.sipri.org/sites/default/files/2024-08/02_sipri-nupi_fact_sheet_libya_august_270824.pdf",
+        "locator": "SIPRI PDF p.2, GMR contestation and Fezzan.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "SIPRI's Libya fact sheet describes inequitable GMR water management as a source of communal contestation and Fezzan exclusion grievances, including protester sabotage of pumps that reduced output. This is a source-reported example, not a quantified climate-conflict effect."
+      },
+      "verification_note": "SIPRI's Libya fact sheet describes inequitable GMR water management as a source of communal contestation and Fezzan exclusion grievances, including protester sabotage of pumps that reduced output. This is a source-reported example, not a quantified climate-conflict effect.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "LBY-SRC-002",
+        "source_url": "https://www.sipri.org/sites/default/files/2024-08/02_sipri-nupi_fact_sheet_libya_august_270824.pdf",
+        "locator": "SIPRI PDF p.2, GMR contestation and Fezzan.",
+        "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+        "reason": "SIPRI's Libya fact sheet describes inequitable GMR water management as a source of communal contestation and Fezzan exclusion grievances, including protester sabotage of pumps that reduced output. This is a source-reported example, not a quantified climate-conflict effect.",
+        "recommended_record_patch": "Retain the named Fezzan/GMR example and avoid attributing the contestation itself to climate change.",
+        "coordinator_decision_ref": null
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "LBY-E-020",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-002",
+          "locator": "SIPRI PDF p.2, shared reliance and cooperation."
+        }
+      ],
+      "geographies": [
+        "Selected Libyan localities"
+      ],
+      "affected_groups": [
+        "Water users",
+        "local communities"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Shared water dependence can create cooperation incentives.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-021",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-002",
+          "locator": "SIPRI PDF p.3, Migration and mobility."
+        }
+      ],
+      "geographies": [
+        "Libya-linked migration routes/origins"
+      ],
+      "affected_groups": [
+        "Migrants"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Climate exposure appears in some migrants' histories but does not establish climate-caused migration.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-022",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-002",
+          "locator": "SIPRI PDF p.3, Derna exclusion and military actors."
+        }
+      ],
+      "geographies": [
+        "Derna/eastern Libya"
+      ],
+      "affected_groups": [
+        "Disaster-affected residents",
+        "migrants",
+        "refugees"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "SIPRI's September 2023 Derna account found fragmentation and securitized access impeded response and contributed to exclusion.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-023",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-010",
+          "locator": "World Bank overview, structural constraints."
+        }
+      ],
+      "geographies": [
+        "Libya"
+      ],
+      "affected_groups": [
+        "National population"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Political-economic structure constrains resilience capacity independently of climate.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-010"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-024",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-012",
+          "locator": "UNICEF PDF pp.3-4, Child Protection and Education."
+        }
+      ],
+      "geographies": [
+        "Eastern Libya"
+      ],
+      "affected_groups": [
+        "Women",
+        "girls",
+        "children"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNICEF's October 2023 assessment documented differentiated protection, service and education impacts after Storm Daniel.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-012"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-025",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-013",
+          "locator": "UNFCCC table, Libya row, accessed 26 October 2026."
+        }
+      ],
+      "geographies": [
+        "Libya"
+      ],
+      "affected_groups": [
+        "National population indirectly"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Formal UNFCCC reporting remains incomplete.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBY-SRC-013"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-101",
+          "locator": "FAO GIEWS brief, reference date 16 July 2026, rainfall and crop conditions"
+        }
+      ],
+      "geographies": [
+        "Libya",
+        "Al Jabal al Akhdar"
+      ],
+      "affected_groups": [
+        "farmers",
+        "rural households"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-07-16 reports: FAO reports dry October-November 2025 weather delayed planting and reduced area; March 2026 rainfall improved some regions but remained well below average in cereal-producing Al Jabal al Akhdar.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-101",
+          "locator": "FAO GIEWS brief, 2026 cereal production and import forecast"
+        }
+      ],
+      "geographies": [
+        "Libya"
+      ],
+      "affected_groups": [
+        "food-import-dependent households",
+        "farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "historical",
+        "near-term"
+      ],
+      "scenario": "FAO forecast; no emissions scenario.",
+      "compact_statement": "The 16 July 2026 FAO brief forecasts 2026 cereal output of about 150,000 tonnes, almost 20% below the five-year average, and 2026/27 imports of 3.3 million tonnes; neither is verified final production.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-101",
+          "locator": "FAO GIEWS brief, May 2026 food-price and assistance conditions"
+        }
+      ],
+      "geographies": [
+        "Libya"
+      ],
+      "affected_groups": [
+        "refugees",
+        "migrants",
+        "internally displaced people"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-07-16 reports: FAO reports 18 percent annual food inflation in May 2026; political and economic instability undermines livelihoods and services, while funding limits assistance to refugees, migrants and internally displaced people.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-102",
+          "locator": "Official FAO summary, assessment results for Benghazi"
+        }
+      ],
+      "geographies": [
+        "Eastern Libya",
+        "Benghazi"
+      ],
+      "affected_groups": [
+        "farmers",
+        "flood-affected residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "FAO's official summary of its rapid geospatial assessment reports 36,245 flooded hectares in Benghazi following the September 2023 eastern Libya disaster. This is mapped flood exposure, not a ranking of fatalities or total human impacts.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-103",
+          "locator": "Original PDF physical p.5, printed Executive Summary p.1; downloaded and read 27 October 2026."
+        }
+      ],
+      "geographies": [
+        "Southern Libya",
+        "Sebha",
+        "Murzuq",
+        "Ghat",
+        "Kufra",
+        "Ubari"
+      ],
+      "affected_groups": [
+        "women",
+        "youth",
+        "displaced populations"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-01-19 reports: The UN names Sebha, Murzuq, Ghat, Kufra and Ubari among municipalities facing heat, water scarcity and drought, alongside service deficits, conflict and weak governance; women, youth and displaced people face disproportionate service gaps.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-103",
+          "locator": "Original PDF physical pp.5 and 33, printed pp.1 and 29; downloaded and read 27 October 2026."
+        }
+      ],
+      "geographies": [
+        "Murzuq",
+        "Kufra",
+        "Southern Libya"
+      ],
+      "affected_groups": [
+        "southern communities",
+        "people in conflict-affected municipalities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-01-19 reports: The assessment says unresolved conflicts in Murzuq and Kufra eroded cohesion and stalled reconciliation; climate adaptation and disaster-risk efforts are fragmented and underfunded, leaving communities vulnerable.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-104",
+          "locator": "Original 56-page PDF, physical and printed p.34, water-security results and Hayat caption."
+        }
+      ],
+      "geographies": [
+        "Southern Libya",
+        "Ubari",
+        "Ghat",
+        "Tahala",
+        "Alberkit"
+      ],
+      "affected_groups": [
+        "southern residents",
+        "water users"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The UN 2025 results report describes solar panels under WFP's Hayat project and a water-food nexus programme in Ubari, Ghat, Tahala and Alberkit: four desalination units and ten solar-powered extraction systems reportedly benefited more than 150,000 people.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBY-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBY-SRC-104",
+          "locator": "Original PDF physical and printed p.34, Qatroun wells and Yefren water delivery."
+        }
+      ],
+      "geographies": [
+        "Qatroun",
+        "Yefren"
+      ],
+      "affected_groups": [
+        "Qatroun residents",
+        "Yefren residents",
+        "women"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-05-03 reports: The report states restored wells provided water access to 75 percent of Qatroun's population, while a Yefren integrated water-resource plan delivered long-distance water to 49,000 residents, 52 percent of them women.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "LBY-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "LBY-E-001",
+        "LBY-E-002",
+        "LBY-E-006",
+        "LBY-E-007",
+        "LBY-E-017"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "LBY-E-001",
+          "LBY-E-002"
+        ],
+        "impact": [
+          "LBY-E-006",
+          "LBY-E-007"
+        ],
+        "mediator": [
+          "LBY-E-017"
+        ],
+        "consequence": [
+          "LBY-E-006",
+          "LBY-E-017"
+        ]
+      },
+      "geographies": [
+        "Derna and affected eastern municipalities"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "direct",
+      "compact_statement": "Derna demonstrates compound disaster risk, not simple climate causation. (World Weather Attribution)",
+      "alternative_explanations": [
+        "Dam design",
+        "reservoir condition",
+        "land-use/exposure",
+        "infrastructure quality and emergency decisions independently affected losses"
+      ],
+      "uncertainty": "The magnitude of anthropogenic influence on the rainfall is highly uncertain; no evidence apportions total losses quantitatively among rainfall, dams and governance.",
+      "potentially_out_of_scope_support_ids": [
+        "LBY-E-001",
+        "LBY-E-002",
+        "LBY-E-006",
+        "LBY-E-007",
+        "LBY-E-017"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "LBY-P-002",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "LBY-E-003",
+        "LBY-E-004",
+        "LBY-E-011",
+        "LBY-E-012",
+        "LBY-E-016",
+        "LBY-E-017",
+        "LBY-E-023"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "LBY-E-003",
+          "LBY-E-004"
+        ],
+        "impact": [
+          "LBY-E-017"
+        ],
+        "mediator": [
+          "LBY-E-011",
+          "LBY-E-023"
+        ],
+        "consequence": [
+          "LBY-E-012",
+          "LBY-E-016",
+          "LBY-E-017"
+        ]
+      },
+      "geographies": [
+        "National",
+        "with strongest direct disaster evidence in eastern Libya"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "triangulated",
+      "compact_statement": "FCV-related institutional fragmentation is a documented constraint on climate resilience.",
+      "alternative_explanations": [
+        "Resource scarcity",
+        "technical skill gaps",
+        "financing",
+        "procurement and sanctions/external constraints may also affect implementation"
+      ],
+      "uncertainty": "Direct evidence varies by institution; national institutional weakness does not imply identical municipal performance.",
+      "potentially_out_of_scope_support_ids": [
+        "LBY-E-003",
+        "LBY-E-004",
+        "LBY-E-011",
+        "LBY-E-012",
+        "LBY-E-016",
+        "LBY-E-017",
+        "LBY-E-023"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "LBY-P-003",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "LBY-E-003",
+        "LBY-E-004",
+        "LBY-E-009",
+        "LBY-E-018",
+        "LBY-E-019"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "LBY-E-003",
+          "LBY-E-004"
+        ],
+        "impact": [
+          "LBY-E-009"
+        ],
+        "mediator": [
+          "LBY-E-019"
+        ],
+        "consequence": [
+          "LBY-E-018"
+        ]
+      },
+      "geographies": [
+        "Potentially national",
+        "direct grievance evidence is localized",
+        "including Fezzan"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Water scarcity becomes an FCV risk through governance and livelihoods, not through climate alone. (SIPRI)",
+      "alternative_explanations": [
+        "Groundwater over-abstraction",
+        "allocation decisions",
+        "infrastructure losses",
+        "energy availability",
+        "food prices",
+        "political exclusion and armed competition"
+      ],
+      "uncertainty": "No strong national causal estimate links temperature or rainfall change to violent events.",
+      "potentially_out_of_scope_support_ids": [
+        "LBY-E-003",
+        "LBY-E-004",
+        "LBY-E-009",
+        "LBY-E-018",
+        "LBY-E-019"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "LBY-P-004",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "LBY-E-014",
+        "LBY-E-019",
+        "LBY-E-020"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "LBY-E-014"
+        ],
+        "impact": [
+          "LBY-E-019"
+        ],
+        "mediator": [
+          "LBY-E-019",
+          "LBY-E-020"
+        ],
+        "consequence": [
+          "LBY-E-020"
+        ]
+      },
+      "geographies": [
+        "Fezzan and other local examples",
+        "not nationalized"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "direct",
+      "compact_statement": "Water dependence is not intrinsically conflictual; institutions determine whether it divides or connects communities. (SIPRI)",
+      "alternative_explanations": [
+        "Political rivalry",
+        "infrastructure condition and local power relationships can drive both service interruptions and cooperation independently of climate"
+      ],
+      "uncertainty": "Duration and transferability of cooperative arrangements are not evaluated.",
+      "potentially_out_of_scope_support_ids": [
+        "LBY-E-014",
+        "LBY-E-019",
+        "LBY-E-020"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "LBY-P-005",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "LBY-E-008",
+        "LBY-E-009",
+        "LBY-E-021"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "LBY-E-021"
+        ],
+        "impact": [
+          "LBY-E-009",
+          "LBY-E-021"
+        ],
+        "mediator": [
+          "LBY-E-008",
+          "LBY-E-021"
+        ],
+        "consequence": [
+          "LBY-E-021"
+        ]
+      },
+      "geographies": [
+        "Libya-linked migration systems",
+        "migrant origins vary"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Climate may be one migration stressor, but Libya's mobility dynamics remain strongly multi-causal. (SIPRI)",
+      "alternative_explanations": [
+        "Armed conflict",
+        "persecution",
+        "employment",
+        "currency conditions",
+        "household networks and migration policy"
+      ],
+      "uncertainty": "The 25% climate-shock figure is sample-based association, not causal attribution.",
+      "potentially_out_of_scope_support_ids": [
+        "LBY-E-008",
+        "LBY-E-009",
+        "LBY-E-021"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "LBY-P-006",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "LBY-E-001",
+        "LBY-E-006",
+        "LBY-E-007",
+        "LBY-E-017",
+        "LBY-E-022"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "LBY-E-001"
+        ],
+        "impact": [
+          "LBY-E-006",
+          "LBY-E-007"
+        ],
+        "mediator": [
+          "LBY-E-017",
+          "LBY-E-022"
+        ],
+        "consequence": [
+          "LBY-E-022"
+        ]
+      },
+      "geographies": [
+        "Derna/eastern Libya"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "direct",
+      "compact_statement": "Political-security fragmentation affected who could deliver and receive recovery assistance. (SIPRI)",
+      "alternative_explanations": [
+        "Physical access damage",
+        "scale of destruction and administrative capacity also constrained response"
+      ],
+      "uncertainty": "Available evidence is predominantly qualitative regarding the magnitude of delay/exclusion.",
+      "potentially_out_of_scope_support_ids": [
+        "LBY-E-001",
+        "LBY-E-006",
+        "LBY-E-007",
+        "LBY-E-017"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "LBY-P-007",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "LBY-E-001",
+        "LBY-E-003",
+        "LBY-E-004",
+        "LBY-E-005",
+        "LBY-E-007",
+        "LBY-E-008",
+        "LBY-E-010",
+        "LBY-E-022",
+        "LBY-E-024"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "LBY-E-001",
+          "LBY-E-003",
+          "LBY-E-004"
+        ],
+        "impact": [
+          "LBY-E-007",
+          "LBY-E-024"
+        ],
+        "mediator": [
+          "LBY-E-008",
+          "LBY-E-010",
+          "LBY-E-022"
+        ],
+        "consequence": [
+          "LBY-E-007",
+          "LBY-E-024"
+        ]
+      },
+      "geographies": [
+        "Strongest direct evidence in eastern flood zones",
+        "structural service weakness is national with regional differences"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Climate exposure intersects with pre-existing service and protection inequalities.",
+      "alternative_explanations": [
+        "War-related displacement",
+        "discrimination and chronic service underinvestment create vulnerability independently of climate"
+      ],
+      "uncertainty": "Differentiated quantitative outcome data are limited.",
+      "potentially_out_of_scope_support_ids": [
+        "LBY-E-001",
+        "LBY-E-003",
+        "LBY-E-004",
+        "LBY-E-005",
+        "LBY-E-007",
+        "LBY-E-008",
+        "LBY-E-010",
+        "LBY-E-022",
+        "LBY-E-024"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "LBY-P-008",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "LBY-E-003",
+        "LBY-E-004",
+        "LBY-E-011",
+        "LBY-E-012",
+        "LBY-E-013",
+        "LBY-E-014",
+        "LBY-E-015",
+        "LBY-E-020"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "LBY-E-003",
+          "LBY-E-004"
+        ],
+        "impact": [
+          "LBY-E-014"
+        ],
+        "mediator": [
+          "LBY-E-011",
+          "LBY-E-012"
+        ],
+        "consequence": [
+          "LBY-E-015",
+          "LBY-E-020"
+        ]
+      },
+      "geographies": [
+        "National",
+        "with implementation at municipal/community levels"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Libya has emerging resilience assets, but implementation rather than policy adoption is the critical test. (UNDP)",
+      "alternative_explanations": [
+        "Strategies may remain underfunded or fragmented",
+        "infrastructure investments may fail without maintenance and governance reform"
+      ],
+      "uncertainty": "Independent outcome evidence for 2025-2026 initiatives is not yet available.",
+      "potentially_out_of_scope_support_ids": [
+        "LBY-E-003",
+        "LBY-E-004",
+        "LBY-E-011",
+        "LBY-E-012",
+        "LBY-E-013",
+        "LBY-E-014",
+        "LBY-E-015",
+        "LBY-E-020"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "LBY-E-019",
+  "source_access_review": {
+    "selected_record_id": "LBY-E-019",
+    "selected_source_id": "LBY-SRC-002",
+    "url": "https://www.sipri.org/sites/default/files/2024-08/02_sipri-nupi_fact_sheet_libya_august_270824.pdf",
+    "locator": "SIPRI PDF p.2, GMR contestation and Fezzan.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 2150542,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      2
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+    "verification_note": "SIPRI's Libya fact sheet describes inequitable GMR water management as a source of communal contestation and Fezzan exclusion grievances, including protester sabotage of pumps that reduced output. This is a source-reported example, not a quantified climate-conflict effect."
+  },
+  "checks": [
+    {
+      "record_id": "LBY-E-019",
+      "source_id": "LBY-SRC-002",
+      "locator": "SIPRI PDF p.2, GMR contestation and Fezzan.",
+      "verification_status": "verified",
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Retain the named Fezzan/GMR example and avoid attributing the contestation itself to climate change.",
+      "coordinator_decision_ref": null
+    }
+  ],
+  "limitations": [
+    "LBY-E-019: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "LBY-E-001",
+    "LBY-E-002",
+    "LBY-E-003",
+    "LBY-E-004",
+    "LBY-E-005",
+    "LBY-E-006",
+    "LBY-E-007",
+    "LBY-E-008",
+    "LBY-E-009",
+    "LBY-E-010",
+    "LBY-E-011",
+    "LBY-E-012",
+    "LBY-E-013",
+    "LBY-E-014",
+    "LBY-E-015",
+    "LBY-E-016",
+    "LBY-E-017",
+    "LBY-E-018",
+    "LBY-E-019",
+    "LBY-E-020",
+    "LBY-E-021",
+    "LBY-E-022",
+    "LBY-E-023",
+    "LBY-E-024",
+    "LBY-E-025",
+    "LBY-E-101",
+    "LBY-E-102",
+    "LBY-E-103",
+    "LBY-E-104",
+    "LBY-E-105",
+    "LBY-E-106",
+    "LBY-E-107",
+    "LBY-E-108",
+    "LBY-P-001",
+    "LBY-P-002",
+    "LBY-P-003",
+    "LBY-P-004",
+    "LBY-P-005",
+    "LBY-P-006",
+    "LBY-P-007",
+    "LBY-P-008"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 1,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

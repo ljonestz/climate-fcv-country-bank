@@ -1,0 +1,1016 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "TKM",
+  "candidate_path": "countries/TKM/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 4,
+    "evidence_count": 15,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 15
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 14,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "At least one known-gap statement appears inconsistent with the current pathway inventory.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "TKM-E-101"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "TKM-E-102",
+          "TKM-E-104",
+          "TKM-E-107",
+          "TKM-E-113",
+          "TKM-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "TKM-E-108",
+          "TKM-E-110",
+          "TKM-E-111",
+          "TKM-E-115"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "TKM-E-105",
+          "TKM-E-106",
+          "TKM-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "TKM-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "TKM-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "TKM-E-101",
+          "TKM-E-102",
+          "TKM-E-103",
+          "TKM-E-104",
+          "TKM-E-109",
+          "TKM-E-110",
+          "TKM-E-111",
+          "TKM-E-112",
+          "TKM-E-113",
+          "TKM-E-114",
+          "TKM-E-115"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "TKM-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [
+      {
+        "text": "No verified armed-conflict-to-adaptation pathway or climate-caused armed violence. Conditional water-user disputes are not an armed-conflict forecast.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      }
+    ],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/TKM/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "TKM-SRC-101",
+      "title": "Risks from Climate Change for Water & Agriculture in Turkmenistan: Assessment Report on Climate Risk, Vulnerability, Gender and Vulnerable Groups",
+      "organization": "HYDROPHIL / UNDP, for Ministry of Environmental Protection",
+      "publication_date": "2024-06-27",
+      "publication_date_basis": "document-version",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2024-11/crva_tkm_hydrophil_v4_en-copy_copy.pdf",
+      "geographic_coverage": [
+        "Dashoguz Province",
+        "Ashgabat",
+        "Amu Darya",
+        "Karakum Canal",
+        "Mary",
+        "Tejen"
+      ],
+      "temporal_coverage": "Assessment November 2023–June 2024; climate comparisons 1991–2010 to 2041–2060; longer projections to 2099.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TKM-E-101",
+        "TKM-E-102",
+        "TKM-E-103",
+        "TKM-E-104",
+        "TKM-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 130-page PDF opened; physical pp.56-59,97-98,107-108 inspected.",
+          "notes": "Original publisher-hosted material directly read; no snippet-derived evidence.",
+          "reuse_terms": "No explicit reuse licence identified in inspected passages.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "TKM-E-103",
+        "selected_source_id": "TKM-SRC-101",
+        "url": "https://www.undp.org/sites/g/files/zskgke326/files/2024-11/crva_tkm_hydrophil_v4_en-copy_copy.pdf",
+        "locator": "PDF physical pp.58-59 (printed pp.57-58), seasonal water supply and crop-field impact chain.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "metadata-only",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": null,
+        "declared_bytes": 10214195,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "source exceeds the in-memory size cap"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "TKM-SRC-102",
+      "title": "Independent Country Programme Evaluation: Turkmenistan",
+      "organization": "UNDP Independent Evaluation Office",
+      "publication_date": "2025-06",
+      "publication_date_basis": "document-version",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2025-07/icpe-turkmenistan-report.pdf",
+      "geographic_coverage": [
+        "Turkmenistan",
+        "Lebap",
+        "Dashoguz",
+        "Ashgabat"
+      ],
+      "temporal_coverage": "Evaluation conducted 2024, covers 2021–2024; published June 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TKM-E-106",
+        "TKM-E-107",
+        "TKM-E-108",
+        "TKM-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 71-page PDF opened; physical pp.13-14,38-40 inspected.",
+          "notes": "Original publisher-hosted material directly read; no snippet-derived evidence.",
+          "reuse_terms": "No explicit reuse licence identified in inspected passages.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TKM-SRC-103",
+      "title": "Local communities from Dashoguz and Akhal velayats discuss efficient water management practices as adaptation to climate change",
+      "organization": "International Organization for Migration / UN Turkmenistan",
+      "publication_date": "2025-05-20",
+      "publication_date_basis": "publication",
+      "url": "https://turkmenistan.un.org/en/294664-local-communities-dashoguz-and-akhal-velayats-discuss-efficient-water-management-practices",
+      "geographic_coverage": [
+        "Gorogly district, Dashoguz",
+        "Konegummez village, Akhal"
+      ],
+      "temporal_coverage": "Seminars in late April and mid-May 2025; publication 20 May 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TKM-E-110",
+        "TKM-E-111",
+        "TKM-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete original HTML article inspected.",
+          "notes": "Original publisher-hosted material directly read; no snippet-derived evidence.",
+          "reuse_terms": "No explicit reuse licence identified in inspected passages.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TKM-SRC-104",
+      "title": "Protecting Turkmenistan's economic and social future from Climate Change: Insights from the Water-Agriculture Nexus in Dashoguz Province and Ashgabat City",
+      "organization": "Robert Bierkandt and Sven Willner / UNDP",
+      "publication_date": "2024-06",
+      "publication_date_basis": "document-version",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2024-08/undp-tm-policy_brief_eng-2024.pdf",
+      "geographic_coverage": [
+        "Dashoguz Province",
+        "Ashgabat",
+        "Tuyamuyun Hydro Complex"
+      ],
+      "temporal_coverage": "June 2024 synthesis of risks and proposed adaptations.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TKM-E-113",
+        "TKM-E-114",
+        "TKM-E-115"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete four-page policy brief inspected.",
+          "notes": "Synthesis of source 101, not independent corroboration.",
+          "reuse_terms": "No explicit reuse licence identified in inspected passages.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "TKM-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TKM-SRC-101",
+          "locator": "PDF physical pp.56-57 (printed pp.55-56), Figure 28 and extremes discussion."
+        }
+      ],
+      "geographies": [
+        "Dashoguz Province"
+      ],
+      "affected_groups": [
+        "residents",
+        "farm workers"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "Global-climate-action and business-as-usual scenarios; 2041–2060 versus 1991–2010.",
+      "compact_statement": "Source dated 2024-06-27 reports: Dashoguz heat days above 30°C increase by a median 18–22 days toward mid-century, from about 140 historically.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TKM-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TKM-SRC-101",
+          "locator": "PDF physical p.59 (printed p.58), channel systems and crop fields."
+        }
+      ],
+      "geographies": [
+        "Dashoguz Province"
+      ],
+      "affected_groups": [
+        "farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-06-27 reports: Dashoguz irrigation has limited reuse, water-intensive crops and flood irrigation; farmer-managed channels face knowledge and management constraints.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TKM-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "TKM-SRC-101",
+          "locator": "PDF physical pp.58-59 (printed pp.57-58), seasonal water supply and crop-field impact chain."
+        }
+      ],
+      "geographies": [
+        "Dashoguz Province"
+      ],
+      "affected_groups": [
+        "farmers",
+        "water users"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-06-27 reports: The assessment links climate-related water-supply pressure and demand, compounded by inefficient irrigation, to possible conflict among Dashoguz water users.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "TKM-E-103",
+        "selected_source_id": "TKM-SRC-101",
+        "url": "https://www.undp.org/sites/g/files/zskgke326/files/2024-11/crva_tkm_hydrophil_v4_en-copy_copy.pdf",
+        "locator": "PDF physical pp.58-59 (printed pp.57-58), seasonal water supply and crop-field impact chain.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "metadata-only",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": null,
+        "declared_bytes": 10214195,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "source exceeds the in-memory size cap"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "TKM-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TKM-SRC-101",
+          "locator": "PDF physical pp.97-98 (printed pp.96-97), Karakum Canal and drinking water."
+        }
+      ],
+      "geographies": [
+        "Ashgabat",
+        "Mary",
+        "Tejen",
+        "Karakum Canal"
+      ],
+      "affected_groups": [
+        "water users"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-06-27 reports: Ashgabat depends on Karakum Canal reservoirs; losses, irrigation withdrawals near Mary/Tejen and shared drinking/park supply constrain water management.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TKM-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TKM-SRC-101",
+          "locator": "PDF physical pp.107-108 (printed pp.106-107), SDG 6.5.1 participation assessment."
+        }
+      ],
+      "geographies": [
+        "Turkmenistan"
+      ],
+      "affected_groups": [
+        "vulnerable groups",
+        "women"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-06-27 reports: The cited 2023 assessment scores vulnerable-group participation 10/100, unchanged since 2020, indicating no explicit inclusion in water policies.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TKM-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TKM-SRC-102",
+          "locator": "PDF physical p.39 (printed p.31), Finding 12."
+        }
+      ],
+      "geographies": [
+        "Turkmenistan"
+      ],
+      "affected_groups": [
+        "farmers",
+        "local institutions"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-06 reports: Agricultural information centres were not scaled up and some local adaptation plans were not integrated into policy or legislation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TKM-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TKM-SRC-102",
+          "locator": "PDF physical p.40 (printed p.32), water-saving finance."
+        }
+      ],
+      "geographies": [
+        "Turkmenistan"
+      ],
+      "affected_groups": [
+        "private farmers",
+        "greenhouse producers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-06 reports: Water-saving credit schemes were used chiefly by greenhouse producers; currency conditions made them less attractive to wider producers.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TKM-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TKM-SRC-102",
+          "locator": "PDF physical p.38 (printed p.30), Finding 11."
+        }
+      ],
+      "geographies": [
+        "Dashoguz",
+        "Turkmenistan"
+      ],
+      "affected_groups": [
+        "local administrations",
+        "farmers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-06 reports: The evaluation finds stronger technical institutions and drought-prediction capacity, while local administrative support remained geographically limited.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TKM-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TKM-SRC-102",
+          "locator": "PDF physical p.40 (printed p.32), Finding 13."
+        }
+      ],
+      "geographies": [
+        "Lebap",
+        "Dashoguz"
+      ],
+      "affected_groups": [
+        "agricultural communities"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-06 reports: The evaluation identifies regional water cooperation and community adaptation in Lebap/Dashoguz, while noting persistent degradation and water stress.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TKM-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TKM-SRC-103",
+          "locator": "HTML opening paragraph, 20 May 2025."
+        }
+      ],
+      "geographies": [
+        "Gorogly district, Dashoguz",
+        "Konegummez village, Akhal"
+      ],
+      "affected_groups": [
+        "women-led households",
+        "families of migrants"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-05-20 reports: Over forty representatives joined seminars for Gorogly and Konegummez, including women-led households and families remaining behind when migrants leave.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TKM-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TKM-SRC-103",
+          "locator": "HTML practical sessions and feedback paragraphs."
+        }
+      ],
+      "geographies": [
+        "Gorogly district, Dashoguz",
+        "Konegummez village, Akhal"
+      ],
+      "affected_groups": [
+        "local communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-05-20 reports: Participants practised water conservation and collaborative pasture/irrigated-land management; reported learning is not evidence of sustained adoption.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TKM-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TKM-SRC-103",
+          "locator": "HTML final two paragraphs, project partnership."
+        }
+      ],
+      "geographies": [
+        "Akhal",
+        "Dashoguz"
+      ],
+      "affected_groups": [
+        "women-led households",
+        "families of migrants"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-05-20 reports: The two-year IOM project partners with the environment ministry to support gender-sensitive local adaptation in Akhal and Dashoguz.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TKM-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TKM-SRC-104",
+          "locator": "PDF physical p.3, Gender and Vulnerable Groups."
+        }
+      ],
+      "geographies": [
+        "Dashoguz Province",
+        "Ashgabat"
+      ],
+      "affected_groups": [
+        "women",
+        "children",
+        "people with chronic illness"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-06 reports: Women managing household water, children and people with chronic illness face differentiated risks from scarcity or reduced water quality.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TKM-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TKM-SRC-104",
+          "locator": "PDF physical p.2, Tuyamuyun Hydro Complex and irrigation discussion."
+        }
+      ],
+      "geographies": [
+        "Dashoguz Province",
+        "Tuyamuyun Hydro Complex"
+      ],
+      "affected_groups": [
+        "farmers",
+        "water users"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-06 reports: Dashoguz water supply depends on Tuyamuyun reservoirs; evaporation, sedimentation and irrigation-channel losses compound climate-related scarcity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TKM-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TKM-SRC-104",
+          "locator": "PDF physical p.3, adaptation options table and gender discussion."
+        }
+      ],
+      "geographies": [
+        "Dashoguz Province",
+        "Ashgabat"
+      ],
+      "affected_groups": [
+        "women",
+        "farmers",
+        "water users"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-06 reports: Proposed measures include upstream coordination, efficient irrigation and women's participation in water decisions; effectiveness is not evaluated.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "TKM-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "TKM-E-102",
+        "TKM-E-103"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "TKM-E-103"
+        ],
+        "impact": [
+          "TKM-E-102",
+          "TKM-E-103"
+        ],
+        "mediator": [
+          "TKM-E-102",
+          "TKM-E-103"
+        ],
+        "consequence": [
+          "TKM-E-103"
+        ]
+      },
+      "geographies": [
+        "Dashoguz Province"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Climate-related water pressure and inefficient, competing irrigation uses can create water-user disputes in Dashoguz; violence is not established.",
+      "alternative_explanations": [
+        "Upstream withdrawals, crop choice, infrastructure losses and allocation decisions affect scarcity independently of climate."
+      ],
+      "uncertainty": "A stakeholder-informed conditional mechanism, not an identified causal effect, current dispute count or armed-conflict forecast.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "TKM-E-103",
+  "source_access_review": {
+    "selected_record_id": "TKM-E-103",
+    "selected_source_id": "TKM-SRC-101",
+    "url": "https://www.undp.org/sites/g/files/zskgke326/files/2024-11/crva_tkm_hydrophil_v4_en-copy_copy.pdf",
+    "locator": "PDF physical pp.58-59 (printed pp.57-58), seasonal water supply and crop-field impact chain.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "metadata-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": null,
+    "declared_bytes": 10214195,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "source exceeds the in-memory size cap"
+  },
+  "checks": [
+    {
+      "record_id": "TKM-E-103",
+      "source_id": "TKM-SRC-101",
+      "locator": "PDF physical pp.58-59 (printed pp.57-58), seasonal water supply and crop-field impact chain.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "metadata-only",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "TKM-E-103: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "TKM-E-101",
+    "TKM-E-102",
+    "TKM-E-103",
+    "TKM-E-104",
+    "TKM-E-105",
+    "TKM-E-106",
+    "TKM-E-107",
+    "TKM-E-108",
+    "TKM-E-109",
+    "TKM-E-110",
+    "TKM-E-111",
+    "TKM-E-112",
+    "TKM-E-113",
+    "TKM-E-114",
+    "TKM-E-115",
+    "TKM-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

@@ -1,0 +1,1068 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "BWA",
+  "candidate_path": "countries/BWA/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 5,
+    "evidence_count": 16,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 16
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 15,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "BWA-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "BWA-E-101",
+          "BWA-E-102",
+          "BWA-E-104",
+          "BWA-E-111",
+          "BWA-E-114",
+          "BWA-E-115",
+          "BWA-E-116",
+          "BWA-E-117"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BWA-E-103",
+          "BWA-E-105",
+          "BWA-E-110",
+          "BWA-E-118"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BWA-E-108",
+          "BWA-E-109",
+          "BWA-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "BWA-E-102",
+          "BWA-E-103",
+          "BWA-E-104",
+          "BWA-E-105",
+          "BWA-E-106",
+          "BWA-E-111",
+          "BWA-E-113",
+          "BWA-E-116",
+          "BWA-E-117",
+          "BWA-E-118"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/BWA/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "BWA-SRC-101",
+      "title": "Republic of Botswana: World Bank Group Country Climate and Development Report",
+      "organization": "World Bank Group",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099110725140030205/pdf/P180433-fcd2ebaa-4f37-4e94-8389-1fd1f9f5d879.pdf",
+      "geographic_coverage": [
+        "Botswana",
+        "Southern District",
+        "Kgalagadi District",
+        "Ghanzi District",
+        "Ngamiland Delta subdistrict",
+        "Francistown",
+        "Ngamiland East",
+        "Kalahari",
+        "Chobe District",
+        "Central District",
+        "Kweneng District"
+      ],
+      "temporal_coverage": "Country climate-development diagnostic published in 2025; combines historical observations and referenced studies with current-risk overlays and scenarios extending to 2050.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BWA-E-101",
+        "BWA-E-102",
+        "BWA-E-103",
+        "BWA-E-104",
+        "BWA-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "One-based PDF pp. 17 and 38-39; cover, methodology, district exposure, gender, poverty and social-exclusion discussions reviewed",
+          "notes": "Opened the complete 118-page public report and read the cited national and subnational passages.",
+          "reuse_terms": "World Bank reproduction terms reviewed; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BWA-SRC-102",
+      "title": "National Drought Plan: Republic of Botswana",
+      "organization": "Republic of Botswana, prepared by Nnyaladzi Batisani under the UNCCD Drought Initiative",
+      "publication_date": "2020",
+      "publication_date_basis": "publication",
+      "url": "https://www.unccd.int/sites/default/files/country_profile_documents/National%20Drought%20Plan%20-%20BOTSWANA.pdf",
+      "geographic_coverage": [
+        "Botswana",
+        "Ngamiland District",
+        "Ghanzi District",
+        "Kgalagadi District",
+        "western Botswana"
+      ],
+      "temporal_coverage": "Historical droughts through the 2020 plan; includes a 2015 vulnerability assessment, RCP4.5/8.5 projections and proposed 2020-2023 actions.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BWA-E-106",
+        "BWA-E-108",
+        "BWA-E-109",
+        "BWA-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "One-based PDF pp. 53-57, 59-62 and 65; cover, risk assessment, monitoring and drought-response passages reviewed",
+          "notes": "Opened the complete public 87-page national plan and checked its named-risk areas, model qualifications, institutional gaps and proposed actions.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BWA-SRC-103",
+      "title": "Makgadikgadi Framework Management Plan 2010, Volume 2, Chapter 5: Wildlife Resources and Human Wildlife Conflict",
+      "organization": "Department of Environmental Affairs, Government of Botswana, with the Centre for Applied Research",
+      "publication_date": "2010-10",
+      "publication_date_basis": "publication",
+      "url": "https://www.car.org.bw/wp-content/uploads/2016/06/MFMP-Vol-2-Chapter-5-wildlife.pdf",
+      "geographic_coverage": [
+        "Makgadikgadi",
+        "Boteti River",
+        "Gweta",
+        "Phuduhudu",
+        "Rakops",
+        "Mmatshumo",
+        "NG45"
+      ],
+      "temporal_coverage": "Assesses historical and current-at-the-time wildlife and human-wildlife conflict patterns, with focus groups in April-May 2010.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BWA-E-111",
+        "BWA-E-113"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Printed pp. 83-84 and 106-107 (one-based PDF pp. 90-91 and 113-114); cover, methods, drought/HWC, focus groups and compensation findings reviewed",
+          "notes": "Opened the complete 161-page technical chapter prepared for Government by the Department of Environmental Affairs and the Centre for Applied Research.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BWA-SRC-104",
+      "title": "Human-wildlife conflict a growing challenge",
+      "organization": "Botswana Daily News / Botswana Press Agency, reporting an Acting Director of the Department of Wildlife and National Parks briefing",
+      "publication_date": "2025-02-03",
+      "publication_date_basis": "publication",
+      "url": "https://dailynews.gov.bw/news-detail/84359",
+      "geographic_coverage": [
+        "Botswana"
+      ],
+      "temporal_coverage": "Reports a February 2025 briefing, including national wildlife-conflict figures for 2022-2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BWA-E-114",
+        "BWA-E-115"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full article, paragraphs 2-5 and dateline, February 2025 briefing",
+          "notes": "Opened the complete public government-news article; claims and incident counts are attributed to the named official.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "BWA-E-114",
+        "selected_source_id": "BWA-SRC-104",
+        "url": "https://dailynews.gov.bw/news-detail/84359",
+        "locator": "Article paragraphs 2-3, Acting DWNP Director's February 2025 briefing",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1032)>"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "BWA-SRC-105",
+      "title": "Gender and Equity Considerations for Building Climate Resilience: Lessons from Rural and Periurban Botswana",
+      "organization": "Kutlwano Makwatse, Leatile Modie, Morati Mpalo and Caitlin Blaser Mapitsa; Sustainability (MDPI)",
+      "publication_date": "2022-08-25",
+      "publication_date_basis": "publication",
+      "url": "https://doi.org/10.3390/su141710599",
+      "geographic_coverage": [
+        "Xhumaga",
+        "Ramotswa",
+        "Central District",
+        "South-East District",
+        "Makgadikgadi National Park"
+      ],
+      "temporal_coverage": "Household baseline research in Xhumaga and Ramotswa, reported in 2022; exact fieldwork dates are not stated.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "BWA-E-116",
+        "BWA-E-117",
+        "BWA-E-118"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 14-page article; printed pp. 4-8 and methods pp. 5-7; journal cover and CC BY 4.0 notice reviewed",
+          "notes": "The publisher page was rate-limited; the complete article PDF was read from a public mirror and matched to the DOI and publisher front matter.",
+          "reuse_terms": "Article front matter states Creative Commons Attribution 4.0; license_status set to open.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "BWA-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BWA-SRC-101",
+          "locator": "One-based PDF p. 38, smallholder and rainfall-shock vulnerability discussion"
+        }
+      ],
+      "geographies": [
+        "poorer villages in Botswana"
+      ],
+      "affected_groups": [
+        "poorer rural households",
+        "small-scale farmers",
+        "subsistence farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: The CCDR reports poorer villages face more excessive or deficient rainfall; poorer smallholders are highly exposed to food insecurity and unstable livelihoods and lack resources to adapt.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BWA-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BWA-SRC-101",
+          "locator": "One-based PDF p. 39, Figure 23 drought and flood vulnerability overlay"
+        }
+      ],
+      "geographies": [
+        "Southern District",
+        "Kgalagadi District",
+        "western Ghanzi District",
+        "Ngamiland Delta subdistrict",
+        "Francistown"
+      ],
+      "affected_groups": [
+        "poor households",
+        "rural communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: Highest drought-vulnerability pockets are Southern District, Kgalagadi and western Ghanzi; Ngamiland Delta subdistrict and Francistown combine high flood risk with many poor households.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BWA-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BWA-SRC-101",
+          "locator": "One-based PDF p. 38, Ngamiland East smallholder adaptation discussion"
+        }
+      ],
+      "geographies": [
+        "Ngamiland East"
+      ],
+      "affected_groups": [
+        "smallholder farmers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: In Ngamiland East, smallholders use hybrid seeds, changed planting and water harvesting; access to credit remains a barrier to investment.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BWA-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BWA-SRC-101",
+          "locator": "One-based PDF pp. 17 and 38-39, social exclusion and climate vulnerability discussion"
+        }
+      ],
+      "geographies": [
+        "Kalahari",
+        "Ngamiland District",
+        "Chobe District",
+        "Central District"
+      ],
+      "affected_groups": [
+        "communal pastoralists",
+        "socially excluded households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: Kalahari communal pastoralists are disproportionately affected by land privatization; Ngamiland, Chobe and Central combine high climate impacts with social exclusion, whose reported drivers include process-legitimacy and social-cohesion challenges.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BWA-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BWA-SRC-101",
+          "locator": "One-based PDF p. 39, gendered climate exposure and adaptation discussion"
+        }
+      ],
+      "geographies": [
+        "rural and peri-urban Botswana",
+        "Kweneng District"
+      ],
+      "affected_groups": [
+        "women",
+        "female-headed households",
+        "Bogakhwe"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: The CCDR says women's water-collection and natural-resource roles heighten climate exposure; Bogakhwe knowledge, drought-tolerant crops and livelihood diversification support adaptation, while female-headed households in Kweneng show resilience and women report less institutional confidence.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BWA-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BWA-SRC-102",
+          "locator": "One-based PDF pp. 56-57, 2015 drought-risk assessment and administrative areas"
+        }
+      ],
+      "geographies": [
+        "Ngamiland District",
+        "Ghanzi District",
+        "Kgalagadi District",
+        "Botswana"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoralists",
+        "rural residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020 reports: The plan's 2015 assessment found over 50% precipitation shortfalls in parts of Ngamiland, Ghanzi and Kgalagadi; other high-risk areas had 25-50% deficits.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BWA-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BWA-SRC-102",
+          "locator": "One-based PDF pp. 59-62, drought monitoring and early-warning diagnosis"
+        }
+      ],
+      "geographies": [
+        "Botswana",
+        "districts and communities"
+      ],
+      "affected_groups": [
+        "drought-prone communities",
+        "farmers",
+        "livestock keepers"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020 reports: In 2020 the plan described drought monitoring and impact assessment as reactive; it noted sparse hydrometeorological stations and missing data, and proposed community-engaged early warning.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check",
+        "programme_intent_and_outcome_terms_co-occur"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BWA-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BWA-SRC-102",
+          "locator": "One-based PDF p. 60, drought declaration and relief options"
+        }
+      ],
+      "geographies": [
+        "Botswana",
+        "drought-affected districts"
+      ],
+      "affected_groups": [
+        "children under five",
+        "farmers",
+        "drought-affected households"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020 reports: The plan describes presidential drought declarations after interministerial assessment and lists possible public works, under-five clinic feeding and farm-subsidy responses.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BWA-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BWA-SRC-102",
+          "locator": "One-based PDF p. 65, drought mitigation and integrated water management"
+        }
+      ],
+      "geographies": [
+        "Botswana",
+        "upstream and downstream water users"
+      ],
+      "affected_groups": [
+        "water users",
+        "communities",
+        "farmers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020 reports: Proposed drought measures include integrated water management to mitigate upstream-downstream water-user conflicts and coordinate users, communities and sectors.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BWA-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BWA-SRC-103",
+          "locator": "Printed p. 83 (one-based PDF p. 90), drought and water-resource conflict in Makgadikgadi"
+        }
+      ],
+      "geographies": [
+        "Boteti River",
+        "Makgadikgadi"
+      ],
+      "affected_groups": [
+        "farmers",
+        "livestock keepers",
+        "wildlife-dependent communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2010-10 reports: The plan says drought concentrates people and wildlife around remaining water points and identifies the Boteti River as an existing Makgadikgadi human-wildlife-conflict focus.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BWA-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BWA-SRC-103",
+          "locator": "Printed pp. 106-107 (one-based PDF pp. 113-114), focus-group reports on compensation"
+        }
+      ],
+      "geographies": [
+        "Gweta",
+        "Phuduhudu",
+        "Rakops",
+        "Mmatshumo",
+        "Makgadikgadi"
+      ],
+      "affected_groups": [
+        "farmers",
+        "poor rural households",
+        "wildlife-adjacent communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2010-10 reports: At Gweta, Phuduhudu, Rakops and Mmatshumo, focus groups said low or late compensation left farmers bitter toward wildlife and government; the plan judged direct compensation ineffective as appeasement.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BWA-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "BWA-SRC-104",
+          "locator": "Article paragraphs 2-3, Acting DWNP Director's February 2025 briefing"
+        }
+      ],
+      "geographies": [
+        "Botswana"
+      ],
+      "affected_groups": [
+        "farmers",
+        "rural communities",
+        "wildlife-adjacent residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-02-03 reports: The Acting DWNP Director said climate-change effects exacerbate human-wildlife conflict; agricultural land demand and settlement encroachment into wildlife habitat were additional drivers.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "BWA-E-114",
+        "selected_source_id": "BWA-SRC-104",
+        "url": "https://dailynews.gov.bw/news-detail/84359",
+        "locator": "Article paragraphs 2-3, Acting DWNP Director's February 2025 briefing",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1032)>"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "BWA-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BWA-SRC-104",
+          "locator": "Article paragraphs 4-5, reported livelihood impacts, retaliation and casualty figures"
+        }
+      ],
+      "geographies": [
+        "Botswana"
+      ],
+      "affected_groups": [
+        "farmers",
+        "rural communities",
+        "people injured by wildlife"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-02-03 reports: The official said crop and livestock losses, injuries and deaths damage livelihoods and can trigger resentment and retaliatory animal killing; he reported eight deaths each year in 2022-2024 and 8, 17 and 14 injuries.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BWA-E-116",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BWA-SRC-105",
+          "locator": "Printed pp. 4-5 (one-based PDF pp. 4-5), Xhumaga drought, shared water and HWC conditions"
+        }
+      ],
+      "geographies": [
+        "Xhumaga",
+        "Makgadikgadi National Park",
+        "Central District"
+      ],
+      "affected_groups": [
+        "Xhumaga residents",
+        "farmers",
+        "women water collectors"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-08-25 reports: In Xhumaga beside Makgadikgadi National Park, drought dried the seasonal river; a broken boundary fence and failed backup borehole left people and elephants sharing water, amid crop damage and reported trampling.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BWA-E-117",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BWA-SRC-105",
+          "locator": "Printed p. 5 (one-based PDF p. 5), gendered exposure and household adaptive capital in Xhumaga"
+        }
+      ],
+      "geographies": [
+        "Xhumaga",
+        "Central District"
+      ],
+      "affected_groups": [
+        "women",
+        "female-headed households",
+        "Xhumaga residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-08-25 reports: Xhumaga women responsible for household water collection were especially exposed to human-wildlife conflict shifts; households had little capital for climate-adaptive planning.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BWA-E-118",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BWA-SRC-105",
+          "locator": "Printed pp. 5-6 (one-based PDF pp. 5-6), Ramotswa-Xhumaga comparison"
+        }
+      ],
+      "geographies": [
+        "Ramotswa",
+        "Xhumaga",
+        "South-East District",
+        "Central District"
+      ],
+      "affected_groups": [
+        "peri-urban households",
+        "rural households",
+        "water users"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-08-25 reports: Ramotswa households had more formal employment and livelihood diversity, and greater capacity to withstand drought and flood shocks than Xhumaga, but faced dry taps, billing, maintenance and outage barriers.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "BWA-E-114",
+  "source_access_review": {
+    "selected_record_id": "BWA-E-114",
+    "selected_source_id": "BWA-SRC-104",
+    "url": "https://dailynews.gov.bw/news-detail/84359",
+    "locator": "Article paragraphs 2-3, Acting DWNP Director's February 2025 briefing",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": null,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1032)>"
+  },
+  "checks": [
+    {
+      "record_id": "BWA-E-114",
+      "source_id": "BWA-SRC-104",
+      "locator": "Article paragraphs 2-3, Acting DWNP Director's February 2025 briefing",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "BWA-E-114: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "BWA-E-101",
+    "BWA-E-102",
+    "BWA-E-103",
+    "BWA-E-104",
+    "BWA-E-105",
+    "BWA-E-106",
+    "BWA-E-108",
+    "BWA-E-109",
+    "BWA-E-110",
+    "BWA-E-111",
+    "BWA-E-113",
+    "BWA-E-114",
+    "BWA-E-115",
+    "BWA-E-116",
+    "BWA-E-117",
+    "BWA-E-118"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

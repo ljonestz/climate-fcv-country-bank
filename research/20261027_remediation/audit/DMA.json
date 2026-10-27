@@ -1,0 +1,1268 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "DMA",
+  "candidate_path": "countries/DMA/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 9,
+    "evidence_count": 18,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 18
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 7,
+      "access-only": 11
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "At least one known-gap statement appears inconsistent with the current pathway inventory.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "DMA-E-001"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "DMA-E-003",
+          "DMA-E-101",
+          "DMA-E-102",
+          "DMA-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "DMA-E-002",
+          "DMA-E-004",
+          "DMA-E-005",
+          "DMA-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "DMA-E-006",
+          "DMA-E-104",
+          "DMA-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "DMA-E-106",
+          "DMA-E-110",
+          "DMA-E-111",
+          "DMA-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "DMA-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "DMA-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "DMA-E-101",
+          "DMA-E-107",
+          "DMA-E-108",
+          "DMA-E-109",
+          "DMA-E-110",
+          "DMA-E-111",
+          "DMA-E-112"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "DMA-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [
+      {
+        "text": "The bank contains no completed mediated climate-FCV pathway; this is an evidence gap, not evidence of absence.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      }
+    ],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/DMA/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "DMA-SRC-001",
+      "title": "Dominica",
+      "organization": "UNDP",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.undp.org/barbados/dominica",
+      "geographic_coverage": [
+        "Dominica"
+      ],
+      "temporal_coverage": "Hurricane Maria recovery and resilience programmes described on an undated page.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "DMA-E-001",
+        "DMA-E-002"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "DMA-SRC-002",
+      "title": "Strengthening community resilience within Kalinago Territory",
+      "organization": "UNDP",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.undp.org/barbados/projects/strengthening-community-resilience-within-kalinago-territory",
+      "geographic_coverage": [
+        "Dominica",
+        "Kalinago Territory"
+      ],
+      "temporal_coverage": "Programme described for 2025-2026.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "DMA-E-003",
+        "DMA-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "DMA-SRC-003",
+      "title": "Strengthening community resilience in the Kalinago Territory in Dominica",
+      "organization": "Inter-American Institute for Cooperation on Agriculture",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://apps.iica.int/DashboardProyectos/programas/Detalle?CRON=5681&SCRON=00",
+      "geographic_coverage": [
+        "Dominica",
+        "Kalinago Territory"
+      ],
+      "temporal_coverage": "Project dates17August2026-17February2027.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "DMA-E-005",
+        "DMA-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "DMA-SRC-101",
+      "title": "Post-Disaster Needs Assessment: Hurricane Maria, September 18, 2017",
+      "organization": "Government of the Commonwealth of Dominica, with technical support from GFDRR, UNDP, EU, UN, OECS and World Bank Group",
+      "publication_date": "2017-11-15",
+      "publication_date_basis": "document-version",
+      "url": "https://www.gfdrr.org/sites/default/files/publication/dominica-pdna-maria.pdf",
+      "geographic_coverage": [
+        "Dominica",
+        "Kalinago Territory",
+        "10 parishes"
+      ],
+      "temporal_coverage": "Hurricane Maria effects and recovery needs; figures reported through November 2017.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "DMA-E-101",
+        "DMA-E-102"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Official full 161-page Government PDNA; claims checked at printed pp. 28–29 and 87–88.",
+          "notes": "Read the relevant social-impact/shelter and Kalinago cultural-industry sections of the full PDF.",
+          "reuse_terms": "No reuse license verified; paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "DMA-SRC-102",
+      "title": "Dominica: Disaster Resilience Strategy",
+      "organization": "Government of Dominica; published by the International Monetary Fund",
+      "publication_date": "2021-02",
+      "publication_date_basis": "document-version",
+      "url": "https://www.imf.org/-/media/files/publications/cr/2021/english/1dmaea2021001.pdf",
+      "geographic_coverage": [
+        "Dominica",
+        "towns and communities affected by Hurricane Maria"
+      ],
+      "temporal_coverage": "Government disaster-resilience strategy, August 2021; includes the post-Maria emergency and recovery period.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "DMA-E-103",
+        "DMA-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Official 35-page Government Disaster Resilience Strategy; claims checked at PDF p. 17, paragraphs 33–35.",
+          "notes": "Read full relevant post-disaster preparedness, response and civil-security passages.",
+          "reuse_terms": "No reuse license verified; paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "DMA-E-103",
+        "selected_source_id": "DMA-SRC-102",
+        "url": "https://www.imf.org/-/media/files/publications/cr/2021/english/1dmaea2021001.pdf",
+        "locator": "PDF p. 17, paragraph 35, post-disaster social resilience",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": 403,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "HTTP 403"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "DMA-SRC-103",
+      "title": "Dominica’s Journey to Become the World’s First Climate Resilient Country",
+      "organization": "World Bank Group",
+      "publication_date": "2023-09-26",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/feature/2023/09/26/dominica-s-journey-to-become-the-world-s-first-climate-resilient-country",
+      "geographic_coverage": [
+        "Dominica",
+        "Southeast",
+        "western coast",
+        "East Coast Road",
+        "Kalinago Territory"
+      ],
+      "temporal_coverage": "Disaster Vulnerability Reduction Project outputs and infrastructure works reported in 2023, including the 2022 trough event.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "DMA-E-105",
+        "DMA-E-106",
+        "DMA-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete WB feature; claims checked in hydromet, water-storage and East Coast Road sections.",
+          "notes": "Read the full feature passages on 44 monitoring stations, Southeast rainfall, west-coast water tanks and East Coast Road works.",
+          "reuse_terms": "No reuse license verified; paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "DMA-SRC-104",
+      "title": "Strengthening Community Resilience within Kalinago Territory, Project Document",
+      "organization": "United Nations Development Programme and Government of the Commonwealth of Dominica",
+      "publication_date": "2025-07-31",
+      "publication_date_basis": "document-version",
+      "url": "https://undpngddlsprod01.blob.core.windows.net/pdc/01004631-PPMSCR-K%20Signed%20Prodoc%201.pdf",
+      "geographic_coverage": [
+        "Kalinago Territory",
+        "eight hamlets",
+        "Dominica"
+      ],
+      "temporal_coverage": "Signed project design for July 2025–December 2026, including cited poverty context and planned activities.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "DMA-E-108",
+        "DMA-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Official 52-page UNDP project document; claims checked at pp. 3–5, 8 and 11.",
+          "notes": "Read the local vulnerability analysis, prior land-tenure implementation issue, participation design and theory of change.",
+          "reuse_terms": "No reuse license verified; paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "DMA-SRC-105",
+      "title": "Kalinago Families Receive Tools and Training to Strengthen Food Security and Resilience",
+      "organization": "United Nations Development Programme",
+      "publication_date": "2026-08-15",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/barbados/press-releases/kalinago-families-receive-tools-and-training-strengthen-food-security-and-resilience",
+      "geographic_coverage": [
+        "Kalinago Territory",
+        "Salybia"
+      ],
+      "temporal_coverage": "UNDP community distribution and training reported in August 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "DMA-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete UNDP press release, paragraphs 2–6, August 2026.",
+          "notes": "Read full update on beneficiary households, delivered agricultural inputs, water storage and training.",
+          "reuse_terms": "No reuse license verified; paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "DMA-SRC-106",
+      "title": "Update: Government of Dominica Response to Trough System – April 30",
+      "organization": "Government of the Commonwealth of Dominica, Office of the Prime Minister",
+      "publication_date": "2026-05-01",
+      "publication_date_basis": "publication",
+      "url": "https://pressroomopm.gov.dm/update-government-of-dominica-response-to-trough-system/",
+      "geographic_coverage": [
+        "Antrizzle",
+        "Atkinson",
+        "Kalinago Territory",
+        "Castle Bruce"
+      ],
+      "temporal_coverage": "Flood and landslide impacts from the 26 April 2026 trough and immediate response update published 1 May 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "DMA-E-111",
+        "DMA-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete Government update, paragraphs 5–11, dated 1 May 2026.",
+          "notes": "Read the full update on named places, water/road restoration, farmer assistance and rapid household relief.",
+          "reuse_terms": "No reuse license verified; paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "DMA-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DMA-SRC-001",
+          "locator": "Overview, Hurricane Maria paragraph"
+        }
+      ],
+      "geographies": [
+        "Dominica"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Hurricane Maria in 2017 severely damaged Dominica's infrastructure and economy, prompting a resilience-oriented reconstruction programme.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "DMA-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DMA-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DMA-SRC-001",
+          "locator": "Main Initiatives, gender and livelihood assessment paragraphs"
+        }
+      ],
+      "geographies": [
+        "Dominica"
+      ],
+      "affected_groups": [
+        "women",
+        "Kalinago communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNDP's recovery work includes gender-responsive planning, social protection and livelihood assessment for Kalinago communities.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "DMA-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DMA-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DMA-SRC-002",
+          "locator": "Background paragraphs"
+        }
+      ],
+      "geographies": [
+        "Kalinago Territory"
+      ],
+      "affected_groups": [
+        "Kalinago communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "In the Kalinago Territory, climate hazards, forest degradation and livelihood vulnerability motivate integrated agriculture, watershed and Indigenous tourism support.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "DMA-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DMA-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DMA-SRC-002",
+          "locator": "Expected Results1-3"
+        }
+      ],
+      "geographies": [
+        "Kalinago Territory"
+      ],
+      "affected_groups": [
+        "Kalinago communities",
+        "women",
+        "youth"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The Kalinago project proposes greenhouse production, community forest management and eco-tourism to diversify local livelihoods.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "DMA-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DMA-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DMA-SRC-003",
+          "locator": "Description and General Objective"
+        }
+      ],
+      "geographies": [
+        "Kalinago Territory"
+      ],
+      "affected_groups": [
+        "Kalinago farmers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "IICA's Kalinago initiative prioritizes climate-resilient farming, soil and water management, and producer business skills.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "DMA-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DMA-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DMA-SRC-003",
+          "locator": "Specific Objectives4 and Expected Results"
+        }
+      ],
+      "geographies": [
+        "Kalinago Territory"
+      ],
+      "affected_groups": [
+        "women",
+        "youth",
+        "vulnerable producers"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The IICA project includes community consultation and participation by women, youth and vulnerable producers in resilience planning.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "DMA-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DMA-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DMA-SRC-101",
+          "locator": "PDF pp. 87–88 (printed), Cultural Industries section"
+        }
+      ],
+      "geographies": [
+        "Kalinago Territory"
+      ],
+      "affected_groups": [
+        "Kalinago artisans",
+        "Indigenous households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2017-11-15 reports: The PDNA reports about 500 artisans in the Kalinago Territory; around 98% had workspaces damaged or destroyed, and some also lost craft stock. Craft sales were a major Indigenous-community income source.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DMA-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DMA-SRC-101",
+          "locator": "PDF pp. 28–29 (printed), Human and Social Impact and shelter table"
+        }
+      ],
+      "geographies": [
+        "Dominica",
+        "63 collective shelters",
+        "10 parishes"
+      ],
+      "affected_groups": [
+        "displaced households",
+        "older people",
+        "single female-headed households",
+        "people with chronic illness"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2017-11-15 reports: As of 8 November 2017, 1,862 people remained in 63 shelters after Maria; 32% were reported among the most vulnerable, including older people, single female-headed households and people with chronic illness.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DMA-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "DMA-SRC-102",
+          "locator": "PDF p. 17, paragraph 35, post-disaster social resilience"
+        }
+      ],
+      "geographies": [
+        "Dominica"
+      ],
+      "affected_groups": [
+        "disaster-affected households",
+        "businesses"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The government strategy says extreme social conditions after Hurricane Maria triggered episodes of looting and social unrest; authorities declared a curfew and deployed security forces, while insufficient property protection slowed recovery businesses.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "DMA-E-103",
+        "selected_source_id": "DMA-SRC-102",
+        "url": "https://www.imf.org/-/media/files/publications/cr/2021/english/1dmaea2021001.pdf",
+        "locator": "PDF p. 17, paragraph 35, post-disaster social resilience",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": 403,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "HTTP 403"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "DMA-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DMA-SRC-102",
+          "locator": "PDF p. 17, paragraphs 33–34, post-disaster preparedness and recovery"
+        }
+      ],
+      "geographies": [
+        "Dominica",
+        "isolated towns and communities"
+      ],
+      "affected_groups": [
+        "isolated communities",
+        "displaced households",
+        "people needing assistance"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The strategy says damaged feeder roads isolated some communities and missing population, socioeconomic and location data limited response targeting; needs handled through direct requests to Cabinet and Finance created inefficiencies and possible duplicate benefits.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DMA-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DMA-SRC-103",
+          "locator": "WB feature section on disaster-risk data systems, paragraphs on hydromet monitoring"
+        }
+      ],
+      "geographies": [
+        "Dominica",
+        "Southeast"
+      ],
+      "affected_groups": [
+        "communities exposed to weather hazards"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-09-26 reports: DVRP expanded hydromet monitoring from two airports to 44 stations, gauges and water-level sensors islandwide. In November 2022 the network measured 500 mm of rain in the Southeast over two days.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DMA-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DMA-SRC-103",
+          "locator": "WB feature paragraphs on western-coast water tanks, printed article section 2"
+        }
+      ],
+      "geographies": [
+        "western coast",
+        "20 communities",
+        "Dominica"
+      ],
+      "affected_groups": [
+        "residents of 20 communities",
+        "water users"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-09-26 reports: Eight western-coast tanks built in 2020 serve 20 communities and 11,000 people, adding over 1 million litres of storage; water-system sections and access roads were also upgraded after Maria.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DMA-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DMA-SRC-103",
+          "locator": "WB feature paragraphs on East Coast Road and access to Indigenous communities"
+        }
+      ],
+      "geographies": [
+        "East Coast Road",
+        "Kalinago Territory",
+        "Dominica"
+      ],
+      "affected_groups": [
+        "Kalinago community",
+        "farmers",
+        "road users"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "Road works under construction in 2023; completion is not verified.",
+      "compact_statement": "Source dated 2023-09-26 reports: DVRP’s 31-km East Coast Road works include slope/landslide stabilization, flood mitigation and bridge/culvert works; the route carries farm produce and connects the Kalinago community to services and tourist sites.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DMA-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DMA-SRC-104",
+          "locator": "PDF pp. 3–5, Kalinago Territory context and vulnerability analysis"
+        }
+      ],
+      "geographies": [
+        "Kalinago Territory",
+        "eight hamlets"
+      ],
+      "affected_groups": [
+        "Kalinago residents",
+        "women",
+        "youth",
+        "people with disabilities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-07-31 reports: The project document describes eight Kalinago hamlets under communal land governance; it cites a 2015 poverty assessment finding 50% of residents poor and notes reliance on agriculture and forest products vulnerable to ecosystem degradation and climate hazards.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DMA-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DMA-SRC-104",
+          "locator": "PDF pp. 5, 8 and 11, prior project land-tenure issue, community participation and theory of change"
+        }
+      ],
+      "geographies": [
+        "Kalinago Territory"
+      ],
+      "affected_groups": [
+        "Kalinago farmers",
+        "women",
+        "youth",
+        "community members"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term",
+        "long-term"
+      ],
+      "scenario": "UNDP project design for 2025–2026; risks and social-cohesion benefits are prospective, not evaluated results.",
+      "compact_statement": "Source dated 2025-07-31 reports: The project identifies communal-land compensation contention and political instability as risks; it plans a Council-controlled greenhouse site and community-led activities, with stronger Kalinago social cohesion an intended long-term outcome.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DMA-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DMA-SRC-105",
+          "locator": "UNDP release paragraphs 2–6, 36 households and backyard-gardening support, August 2026"
+        }
+      ],
+      "geographies": [
+        "Kalinago Territory",
+        "Salybia"
+      ],
+      "affected_groups": [
+        "36 households",
+        "women-led and vulnerable households",
+        "Kalinago farmers"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08-15 reports: UNDP reports 36 Kalinago Territory households received seedlings, fruit trees, tools, tarpaulins, water-storage equipment and climate-smart agriculture training through SCR-K; delivery was coordinated with the Kalinago Council and IsraAID Dominica.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DMA-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DMA-SRC-106",
+          "locator": "Government update paragraphs 5–11, 26 April 2026 trough impacts and recovery actions"
+        }
+      ],
+      "geographies": [
+        "Antrizzle",
+        "Atkinson",
+        "Kalinago Territory",
+        "Castle Bruce"
+      ],
+      "affected_groups": [
+        "farmers",
+        "affected residents",
+        "livestock keepers"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-05-01 reports: After a trough caused flooding and landslides, the government reported impacts in Antrizzle, Atkinson, the Kalinago Territory and Castle Bruce, including low-pressure water service, blocked farm access and crop/livestock losses; water and road restoration and farm inputs were under way.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DMA-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DMA-SRC-106",
+          "locator": "Government update paragraphs 9–10, rapid household assessment and social relief in Atkinson and Antrizzle"
+        }
+      ],
+      "geographies": [
+        "Atkinson",
+        "Antrizzle"
+      ],
+      "affected_groups": [
+        "22 households",
+        "64 affected people",
+        "families who lost homes"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-05-01 reports: Rapid assessments identified 22 affected households comprising 64 people in Atkinson and Antrizzle; food packages were distributed with DEXIA and the Red Cross, and psychosocial support was provided.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "DMA-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "DMA-E-102",
+        "DMA-E-103",
+        "DMA-E-104"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "DMA-E-102",
+          "DMA-E-103"
+        ],
+        "impact": [
+          "DMA-E-102",
+          "DMA-E-104"
+        ],
+        "mediator": [
+          "DMA-E-103"
+        ],
+        "consequence": [
+          "DMA-E-103"
+        ]
+      },
+      "geographies": [
+        "Dominica"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "The government reports limited looting/unrest after Maria amid severe disruption, with property-protection gaps complicating recovery.",
+      "alternative_explanations": [
+        "Response logistics, data gaps, institutional capacity and pre-existing vulnerability also affected recovery."
+      ],
+      "uncertainty": "Single historical government's account, not measured causal attribution, anthropogenic event attribution or a current FCV classification.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "DMA-E-103",
+  "source_access_review": {
+    "selected_record_id": "DMA-E-103",
+    "selected_source_id": "DMA-SRC-102",
+    "url": "https://www.imf.org/-/media/files/publications/cr/2021/english/1dmaea2021001.pdf",
+    "locator": "PDF p. 17, paragraph 35, post-disaster social resilience",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": 403,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "HTTP 403"
+  },
+  "checks": [
+    {
+      "record_id": "DMA-E-103",
+      "source_id": "DMA-SRC-102",
+      "locator": "PDF p. 17, paragraph 35, post-disaster social resilience",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "DMA-E-103: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "DMA-E-001",
+    "DMA-E-002",
+    "DMA-E-003",
+    "DMA-E-004",
+    "DMA-E-005",
+    "DMA-E-006",
+    "DMA-E-101",
+    "DMA-E-102",
+    "DMA-E-103",
+    "DMA-E-104",
+    "DMA-E-105",
+    "DMA-E-106",
+    "DMA-E-107",
+    "DMA-E-108",
+    "DMA-E-109",
+    "DMA-E-110",
+    "DMA-E-111",
+    "DMA-E-112",
+    "DMA-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

@@ -1,0 +1,1153 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "ARG",
+  "candidate_path": "countries/ARG/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 6,
+    "evidence_count": 17,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 17
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 16,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "ARG-E-103",
+          "ARG-E-117"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "ARG-E-101",
+          "ARG-E-106",
+          "ARG-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "ARG-E-104",
+          "ARG-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "ARG-E-115"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "ARG-E-108",
+          "ARG-E-109",
+          "ARG-E-110",
+          "ARG-E-111",
+          "ARG-E-112",
+          "ARG-E-116",
+          "ARG-E-118"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "ARG-E-113",
+          "ARG-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "ARG-E-101",
+          "ARG-E-106",
+          "ARG-E-107",
+          "ARG-E-108",
+          "ARG-E-109",
+          "ARG-E-110",
+          "ARG-E-111",
+          "ARG-E-112",
+          "ARG-E-113",
+          "ARG-E-114",
+          "ARG-E-117",
+          "ARG-E-118"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/ARG/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "ARG-SRC-101",
+      "title": "Argentina's Second Nationally Determined Contribution",
+      "organization": "Ministry of Environment and Sustainable Development, Argentine Republic",
+      "publication_date": "2020-12",
+      "publication_date_basis": "publication",
+      "url": "https://www.unfccc.int/sites/default/files/NDC/2023-12/Argentinas%20Second%20NDC.pdf",
+      "geographic_coverage": [
+        "Argentina",
+        "Patagonia",
+        "Province of Buenos Aires",
+        "Santa Fe",
+        "Corrientes",
+        "Córdoba",
+        "Mendoza"
+      ],
+      "temporal_coverage": "Observed climate trends mainly cover 1960–2010; the Adaptation Communication also summarizes regional vulnerabilities and end-century RCP8.5 projections.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ARG-E-101",
+        "ARG-E-103",
+        "ARG-E-104",
+        "ARG-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Second NDC Adaptation Communication, PDF pp. 45–48",
+          "notes": "Opened and read the substantive Party-submitted PDF; projections, observed trends and regional impact statements are distinguished.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ARG-SRC-102",
+      "title": "Tools for understanding the dynamics of the 7 March 2025 flood in Bahía Blanca",
+      "organization": "Instituto Nacional del Agua, Hydraulic Laboratory, Argentina",
+      "publication_date": "2025-04",
+      "publication_date_basis": "document-version",
+      "url": "https://repositorio.ina.gob.ar/bitstreams/e4e63ed0-d51d-466c-809a-97cc0d4a0d48/download",
+      "geographic_coverage": [
+        "Bahía Blanca",
+        "Barrio Napostá",
+        "Ingeniero White",
+        "General Cerri",
+        "Canal Maldonado",
+        "Arroyo Napostá",
+        "Arroyo Sauce Chico"
+      ],
+      "temporal_coverage": "Technical analysis of the 7 March 2025 flood, using event observations and a preliminary hydrodynamic model.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ARG-E-106",
+        "ARG-E-107",
+        "ARG-E-108",
+        "ARG-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Technical report, printed pp. 5–8, 21–29 and 40–46",
+          "notes": "Opened and read the 57-page version 1.0 INA report; PDF page references are printed page numbers.",
+          "reuse_terms": "Not inspected; the report describes tools as freely available, but license terms remain unverified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ARG-SRC-103",
+      "title": "Resolution 532/2025: Supplement for Reconstruction rules, updated text",
+      "organization": "Ministry of National Security, Argentine Republic",
+      "publication_date": "2025-05-07",
+      "publication_date_basis": "publication",
+      "url": "https://www.argentina.gob.ar/normativa/nacional/norma-412441/actualizacion",
+      "geographic_coverage": [
+        "Bahía Blanca",
+        "General Daniel Cerri",
+        "Ingeniero White",
+        "affected surrounding localities"
+      ],
+      "temporal_coverage": "Rules for the one-time housing recovery subsidy after the 7 March 2025 Bahía Blanca flood, including July 2025 amendments.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ARG-E-110",
+        "ARG-E-111",
+        "ARG-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Resolution 532/2025, Annex sections 2–15",
+          "notes": "Opened the official updated legal text, including July 2025 amendments; parsed program rules as design rather than payment outcomes.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ARG-SRC-104",
+      "title": "Storm impacts and resources sent to Bahía Blanca",
+      "organization": "Government of Buenos Aires Province",
+      "publication_date": "2025-03-07",
+      "publication_date_basis": "publication",
+      "url": "https://gba.gob.ar/comunicacion_publica/gacetillas/afectaci%C3%B3n_de_la_tormenta_y_recursos_enviados_bah%C3%ADa_blanca",
+      "geographic_coverage": [
+        "Bahía Blanca",
+        "Hospital Penna",
+        "Province of Buenos Aires"
+      ],
+      "temporal_coverage": "Provincial emergency update at 18:00 on 7 March 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ARG-E-113",
+        "ARG-E-114"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Provincial emergency communication, 7 March 2025, 18:00 update",
+          "notes": "Opened and read the provincial government's event-day statement; deployments are reported as announced, not independently evaluated.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ARG-SRC-105",
+      "title": "National Plan for Disaster Risk Reduction 2025–2029",
+      "organization": "National System for Integral Risk Management and Civil Protection, Argentina",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.argentina.gob.ar/sinagir/plan-2025-2029",
+      "geographic_coverage": [
+        "Argentina",
+        "provinces",
+        "municipalities",
+        "SINAGIR member organizations"
+      ],
+      "temporal_coverage": "National disaster-risk priorities and targets for 2025–2029.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ARG-E-115",
+        "ARG-E-116"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Government plan summary webpage, formulation and four priorities",
+          "notes": "Read the full official summary webpage; the linked presentation document was not opened.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ARG-SRC-106",
+      "title": "Water situation and runoff forecast for Mendoza, 2026–2027 season",
+      "organization": "Department General of Irrigation, Government of Mendoza Province",
+      "publication_date": "2026-10-02",
+      "publication_date_basis": "publication",
+      "url": "https://www.irrigacion.gov.ar/web/2026/10/02/informe-de-la-situacion-hidrica-a-partir-del-pronostico-de-escurrimientos-temporada-2026-2027/",
+      "geographic_coverage": [
+        "Mendoza Province",
+        "Mendoza River",
+        "Tunuyán River",
+        "Diamante River",
+        "Atuel River",
+        "Malargüe River",
+        "Grande River"
+      ],
+      "temporal_coverage": "Observed 2025–2026 runoff and provincial flow forecasts for the 2026–2027 water season.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ARG-E-117",
+        "ARG-E-118"
+      ],
+      "this_audit_verification": "access-only",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "DGI forecast webpage, river-specific 2026–2027 volumes and monitoring methods",
+          "notes": "Opened the full official summary webpage; the separate linked full forecast file was not opened.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "ARG-E-117",
+        "selected_source_id": "ARG-SRC-106",
+        "url": "https://www.irrigacion.gov.ar/web/2026/10/02/informe-de-la-situacion-hidrica-a-partir-del-pronostico-de-escurrimientos-temporada-2026-2027/",
+        "locator": "Mendoza water forecast webpage, runoff volumes for the 2026–2027 season",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 67250,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "ARG-E-117"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "ARG-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARG-SRC-101",
+          "locator": "Second NDC, Adaptation Communication, PDF p. 46, observed hydrological changes"
+        }
+      ],
+      "geographies": [
+        "eastern and central Buenos Aires Province",
+        "southern Santa Fe",
+        "southern Corrientes"
+      ],
+      "affected_groups": [
+        "farmers",
+        "nearby residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The December 2020 NDC describes historical 1960–2010 rainfall-linked expansion of permanent water bodies in parts of central/eastern Argentina, alongside high rainfall variability.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARG-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARG-SRC-101",
+          "locator": "Second NDC, Adaptation Communication, PDF p. 46, end-century precipitation projection"
+        }
+      ],
+      "geographies": [
+        "western Patagonia",
+        "Mendoza Andes",
+        "central Argentina",
+        "eastern Argentina"
+      ],
+      "affected_groups": [
+        "communities and producers in the named regions"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "RCP8.5; end-century.",
+      "compact_statement": "Source dated 2020-12 reports: For end-century RCP8.5, it projects 10–20% less rainfall in western Patagonia and the Mendoza Andes, with similar increases in central/eastern Argentina.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARG-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARG-SRC-101",
+          "locator": "Second NDC, Adaptation Communication, PDF p. 48, regional vulnerability table"
+        }
+      ],
+      "geographies": [
+        "Argentina; regional assessment"
+      ],
+      "affected_groups": [
+        "low-income Indigenous populations"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-12 reports: NDC identifies low-income Indigenous populations as exposed due to ecosystem dependence, fragile livelihoods, limited voice and territorial displacement.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARG-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARG-SRC-101",
+          "locator": "Second NDC, Adaptation Communication, PDF p. 47, regional vulnerability table"
+        }
+      ],
+      "geographies": [
+        "Argentina; regional assessment"
+      ],
+      "affected_groups": [
+        "people seeking better livelihood conditions"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "No specific emissions scenario or migration horizon is given.",
+      "compact_statement": "Source dated 2020-12 reports: NDC expects climate impacts to increase internal migration in search of better livelihoods.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARG-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARG-SRC-102",
+          "locator": "INA technical report, printed pp. 5 and 21–22, reported impacts and maximum flood marks"
+        }
+      ],
+      "geographies": [
+        "Bahía Blanca",
+        "Barrio Napostá",
+        "Ingeniero White"
+      ],
+      "affected_groups": [
+        "people killed",
+        "evacuees",
+        "residents of Barrio Napostá and Ingeniero White"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-04 reports: INA's April report records 16 reported deaths and 1,000+ evacuees; estimated depths reached 2.0 m in Barrio Napostá and 0.8 m in Ingeniero White.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARG-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARG-SRC-102",
+          "locator": "INA technical report, printed pp. 25–28, Canal Maldonado velocity estimates"
+        }
+      ],
+      "geographies": [
+        "Canal Maldonado",
+        "Agustín Álvarez crossing",
+        "Bahía Blanca"
+      ],
+      "affected_groups": [
+        "residents and people using the canal crossing"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-04 reports: Video analysis at Canal Maldonado/Agustín Álvarez estimated surface flows of 3.5–4.5 m/s; an impact-based estimate approached 5 m/s.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARG-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARG-SRC-102",
+          "locator": "INA technical report, printed pp. 5–8 and 45–46, model coverage and shared tools"
+        }
+      ],
+      "geographies": [
+        "Bahía Blanca",
+        "General Cerri",
+        "Ingeniero White",
+        "Arroyo Napostá",
+        "Arroyo Sauce Chico"
+      ],
+      "affected_groups": [
+        "local authorities",
+        "residents and technical users"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-04 reports: INA shared a preliminary 2D model of four Bahía Blanca watersheds, calibrated with public-video flood marks.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARG-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARG-SRC-102",
+          "locator": "INA technical report, printed pp. 7–8 and 45–46, watershed definition and model limitations"
+        }
+      ],
+      "geographies": [
+        "Bahía Blanca",
+        "Ingeniero White",
+        "General Cerri",
+        "Arroyo Napostá",
+        "Arroyo Sauce Chico"
+      ],
+      "affected_groups": [
+        "residents of the studied localities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-04 reports: Study domain covers Bahía Blanca, Ingeniero White and General Cerri across the Napostá and Sauce Chico basins; smaller drains were omitted.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARG-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARG-SRC-103",
+          "locator": "Resolution 532/2025, Annex sections 3–5, eligibility and payment zones"
+        }
+      ],
+      "geographies": [
+        "Bahía Blanca",
+        "General Daniel Cerri",
+        "Ingeniero White",
+        "affected surrounding localities"
+      ],
+      "affected_groups": [
+        "adult regular residents of affected homes",
+        "households sharing one home",
+        "residents in upper-floor homes"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-05-07 reports: The one-time SUR subsidy is limited to one payment per affected home for its regular resident; it excludes applicants in homes above ground level and differentiates high- and medium-impact zones.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARG-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARG-SRC-103",
+          "locator": "Resolution 532/2025, Annex sections 14–15, vulnerable housing and supplementary application"
+        }
+      ],
+      "geographies": [
+        "Bahía Blanca",
+        "affected surrounding localities"
+      ],
+      "affected_groups": [
+        "residents of flood-damaged homes without electricity meters",
+        "applicants with incomplete or unverified documentation"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The updated text of Resolution 532/2025 defines a vulnerable-housing component for homes without an electricity meter. Its complementary 72-hour application procedure was added by Resolution 760/2025 in July 2025; the text does not establish actual beneficiary reach.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARG-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARG-SRC-103",
+          "locator": "Resolution 532/2025, Annex sections 2, 9–13, transparency and payment monitoring"
+        }
+      ],
+      "geographies": [
+        "Bahía Blanca",
+        "affected surrounding localities"
+      ],
+      "affected_groups": [
+        "subsidy applicants",
+        "affected residents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-05-07 reports: The subsidy rules require public process information, cross-checking with utility and public-agency records, applicant status tracking, and ministry monitoring of payments.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARG-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARG-SRC-104",
+          "locator": "Buenos Aires Province emergency update, 7 March 2025, emergency resources"
+        }
+      ],
+      "geographies": [
+        "Bahía Blanca",
+        "Province of Buenos Aires"
+      ],
+      "affected_groups": [
+        "flood-affected residents",
+        "evacuees",
+        "people needing rescue or shelter"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-03-07 reports: The Province reported an interministerial emergency committee and deployed rescue personnel, boats, emergency shelters, food, water, ambulances and municipal coordination to Bahía Blanca.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARG-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARG-SRC-104",
+          "locator": "Buenos Aires Province emergency update, 7 March 2025, hospital response"
+        }
+      ],
+      "geographies": [
+        "Bahía Blanca",
+        "Hospital Penna"
+      ],
+      "affected_groups": [
+        "hospital patients",
+        "health workers"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-03-07 reports: The Province reported evacuating Hospital Penna and transferring patients to Bahía Blanca's municipal hospital and private clinics; mobile intensive care and ambulances were sent.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARG-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARG-SRC-105",
+          "locator": "National Plan for Disaster Risk Reduction webpage, formulation process and priorities"
+        }
+      ],
+      "geographies": [
+        "Argentina",
+        "provinces",
+        "municipalities"
+      ],
+      "affected_groups": [
+        "communities exposed to disasters"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: Argentina's 2025–2029 plan sets priorities for risk understanding, SINAGIR coordination, coordinated provincial and municipal preparedness, and resilient recovery.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARG-E-116",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARG-SRC-105",
+          "locator": "National Plan for Disaster Risk Reduction webpage, participatory formulation"
+        }
+      ],
+      "geographies": [
+        "Argentina"
+      ],
+      "affected_groups": [
+        "government, technical, academic, civil-society and business stakeholders"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The plan's technical formulation used ten SINAGIR commissions involving government, scientific agencies, universities, civil society and business representatives.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARG-E-117",
+      "record_review": "manual-passage-check-incomplete",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "ARG-SRC-106",
+          "locator": "Mendoza water forecast webpage, runoff volumes for the 2026–2027 season"
+        }
+      ],
+      "geographies": [
+        "Mendoza River",
+        "Tunuyán River",
+        "Diamante River",
+        "Grande River",
+        "Atuel River",
+        "Malargüe River",
+        "Mendoza Province"
+      ],
+      "affected_groups": [
+        "water users",
+        "irrigators",
+        "energy users"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "Provincial seasonal runoff forecast for 2026–2027 relative to mean flow; not an emissions scenario.",
+      "compact_statement": "Source dated 2026-10-02 reports: Mendoza's DGI forecasts above-average 2026–2027 runoff for the Mendoza (129%), Tunuyán (117%), Diamante (112%) and Grande (111%) rivers, and near-average Atuel and Malargüe flows.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "ARG-E-117",
+        "source_id": "ARG-SRC-106",
+        "url": "https://www.irrigacion.gov.ar/web/2026/10/02/informe-de-la-situacion-hidrica-a-partir-del-pronostico-de-escurrimientos-temporada-2026-2027/",
+        "locator": "Mendoza water forecast webpage, runoff volumes for the 2026–2027 season",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "access-only",
+        "claim_verification": "unresolved",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "manual_adjudication_completed": true,
+        "verification_note": "The inspected window confirms Mendoza and Tunuyan forecasts but ends before the other river values; the whole multi-river claim is not reverified."
+      },
+      "verification_note": "The inspected window confirms Mendoza and Tunuyan forecasts but ends before the other river values; the whole multi-river claim is not reverified.",
+      "manual_adjudication": {
+        "status": "unresolved",
+        "reviewed_on": "2026-10-27",
+        "source_id": "ARG-SRC-106",
+        "source_url": "https://www.irrigacion.gov.ar/web/2026/10/02/informe-de-la-situacion-hidrica-a-partir-del-pronostico-de-escurrimientos-temporada-2026-2027/",
+        "locator": "Mendoza water forecast webpage, runoff volumes for the 2026–2027 season",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The inspected window confirms Mendoza and Tunuyan forecasts but ends before the other river values; the whole multi-river claim is not reverified.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      }
+    },
+    {
+      "record_id": "ARG-E-118",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARG-SRC-106",
+          "locator": "Mendoza water forecast webpage, forecast production and monitoring network"
+        }
+      ],
+      "geographies": [
+        "Mendoza Province",
+        "provincial river basins"
+      ],
+      "affected_groups": [
+        "irrigators",
+        "households and industries using water"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-10-02 reports: DGI says its year-round flow forecasting informs reservoir management for irrigation, energy and consumption and uses nine automated monitoring stations across Mendoza.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "ARG-E-117",
+  "source_access_review": {
+    "selected_record_id": "ARG-E-117",
+    "selected_source_id": "ARG-SRC-106",
+    "url": "https://www.irrigacion.gov.ar/web/2026/10/02/informe-de-la-situacion-hidrica-a-partir-del-pronostico-de-escurrimientos-temporada-2026-2027/",
+    "locator": "Mendoza water forecast webpage, runoff volumes for the 2026–2027 season",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "access-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 67250,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The inspected window confirms Mendoza and Tunuyan forecasts but ends before the other river values; the whole multi-river claim is not reverified."
+  },
+  "checks": [
+    {
+      "record_id": "ARG-E-117",
+      "source_id": "ARG-SRC-106",
+      "locator": "Mendoza water forecast webpage, runoff volumes for the 2026–2027 season",
+      "verification_status": "unresolved",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "access-only",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": false,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "ARG-E-117: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "ARG-E-101",
+    "ARG-E-103",
+    "ARG-E-104",
+    "ARG-E-105",
+    "ARG-E-106",
+    "ARG-E-107",
+    "ARG-E-108",
+    "ARG-E-109",
+    "ARG-E-110",
+    "ARG-E-111",
+    "ARG-E-112",
+    "ARG-E-113",
+    "ARG-E-114",
+    "ARG-E-115",
+    "ARG-E-116",
+    "ARG-E-117",
+    "ARG-E-118"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

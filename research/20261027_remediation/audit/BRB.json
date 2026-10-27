@@ -1,0 +1,1006 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "BRB",
+  "candidate_path": "countries/BRB/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 6,
+    "evidence_count": 14,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 14
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 13,
+      "verified": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "BRB-E-101",
+          "BRB-E-104",
+          "BRB-E-105",
+          "BRB-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "BRB-E-102",
+          "BRB-E-109",
+          "BRB-E-111",
+          "BRB-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BRB-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BRB-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BRB-E-106",
+          "BRB-E-107",
+          "BRB-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "BRB-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "BRB-E-102",
+          "BRB-E-103",
+          "BRB-E-104",
+          "BRB-E-110",
+          "BRB-E-112",
+          "BRB-E-114"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/BRB/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "BRB-SRC-101",
+      "title": "National Disaster Preparedness Baseline Assessment: Barbados",
+      "organization": "Pacific Disaster Center",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://dev.pdc.org/wp-content/uploads/FINAL_NDPBA_Island_Report_Barbados.pdf",
+      "geographic_coverage": [
+        "Barbados",
+        "Saint Michael",
+        "Saint Joseph",
+        "Saint Andrew",
+        "Saint John",
+        "Saint Lucy",
+        "Saint James"
+      ],
+      "temporal_coverage": "2024 national disaster-preparedness risk and vulnerability assessment with parish-level exposure, vulnerability and capacity composites.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BRB-E-101",
+        "BRB-E-102",
+        "BRB-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "NDPBA printed pp. 20–58, including hazard exposure, parish vulnerability and capacity; recommendations reviewed through printed p. 100",
+          "notes": "Opened the full 124-page report, including assessment methodology, island-wide results and parish composite tables.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BRB-SRC-102",
+      "title": "The Barbados Integrated Coastal Zone Management Plan, Volume 2, Segment 2",
+      "organization": "Coastal Zone Management Unit, Government of Barbados",
+      "publication_date": "2020-10",
+      "publication_date_basis": "document-version",
+      "url": "https://coastal.gov.bb/wp-content/uploads/2023/04/ICZM-Plan_Vol2_Seg2_Final.pdf",
+      "geographic_coverage": [
+        "Barbados coastal zone",
+        "Speightstown",
+        "Holetown",
+        "Bridgetown",
+        "Oistins"
+      ],
+      "temporal_coverage": "Volume 2 Part B and Part C of the coastal management plan dated October 2020; includes coastal risk assessment summaries and guidance for future management.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BRB-E-104",
+        "BRB-E-105",
+        "BRB-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Part B SWOT, printed pp. 91–93; Part C coastal-risk analysis, printed pp. 103–105; transport, printed pp. 166–167",
+          "notes": "Opened all 127 pages of Part B/C; the separately referenced sub-area map volume was not reviewed.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BRB-SRC-103",
+      "title": "Barbados Voluntary National Review 2023",
+      "organization": "Government of Barbados, Office of the Prime Minister",
+      "publication_date": "2023",
+      "publication_date_basis": "submission",
+      "url": "https://statistics.caricom.org/wp-content/uploads/2026/01/2023_VNR_Report_Barbados.pdf",
+      "geographic_coverage": [
+        "Barbados",
+        "southern and western coastal urban corridor",
+        "west coast",
+        "south coast"
+      ],
+      "temporal_coverage": "Government SDG progress review submitted in 2023; includes 2021 Hurricane Elsa impacts and summaries of coastal-risk and resilience initiatives.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BRB-E-107",
+        "BRB-E-108",
+        "BRB-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "VNR printed pp. 158 and 177–178, Hurricane Elsa, NCRIPP and CORVI summary",
+          "notes": "Opened the full 246-page report; cited platform and assessment descriptions are attributed to the VNR rather than treated as independent review of underlying products.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BRB-SRC-104",
+      "title": "Barbados – Beryl Emergency Response and Recovery Project: Project Information Document",
+      "organization": "World Bank",
+      "publication_date": "2024-10-18",
+      "publication_date_basis": "document-version",
+      "url": "https://documents1.worldbank.org/curated/en/099101824105511154/pdf/P5071901c931ef0a1b5e0148150cf6f13c.pdf",
+      "geographic_coverage": [
+        "Barbados",
+        "Bridgetown Port",
+        "Bridgetown Fisheries Marina",
+        "south coast",
+        "west coast",
+        "fishing landing sites"
+      ],
+      "temporal_coverage": "Appraisal-stage project document covering Hurricane Beryl impacts in 2024, immediate recovery actions and the proposed emergency-response project.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BRB-E-110",
+        "BRB-E-111",
+        "BRB-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PID printed pp. 2–3 and 6, event damage, fisheries-sector impacts and response actions",
+          "notes": "Opened the complete 16-page public appraisal-stage PID; it is not a completion or outcome report.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BRB-SRC-105",
+      "title": "Participatory Recovery Planning Workshop",
+      "organization": "Barbados Fisheries Division",
+      "publication_date": "2026-02-05",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.fisheries.gov.bb/participatory-recovery-planning-workshop/",
+      "geographic_coverage": [
+        "Barbados",
+        "fishing markets and landing sites"
+      ],
+      "temporal_coverage": "Fisherfolk survey findings and a community-recovery planning workshop held on 22 January 2026 after Hurricane Beryl.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BRB-E-113"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Paragraphs 1–2, PACIFICO survey summary and 22 January 2026 workshop",
+          "notes": "Opened the complete Barbados Fisheries Division post; underlying survey materials were not linked on the page.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "BRB-E-113",
+        "selected_source_id": "BRB-SRC-105",
+        "url": "https://www.fisheries.gov.bb/participatory-recovery-planning-workshop/",
+        "locator": "Fisheries Division post, paragraphs 1–2, survey findings and workshop held 22 January 2026",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 35127,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "BRB-E-113"
+      ],
+      "manual_verified_record_ids": [
+        "BRB-E-113"
+      ]
+    },
+    {
+      "source_id": "BRB-SRC-106",
+      "title": "Barbados Coastal Fisheries Resilience",
+      "organization": "United Nations Development Programme",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.undp.org/barbados/projects/barbados-coastal-fisheries-resilience",
+      "geographic_coverage": [
+        "Barbados",
+        "Bridgetown Fisheries Complex"
+      ],
+      "temporal_coverage": "Japan-funded UNDP coastal-fisheries recovery initiative following Hurricane Beryl; the project page reports a March 2025 start, December 2027 end and ongoing status.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BRB-E-114"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Background, Expected Results and project status/dates",
+          "notes": "Opened the UNDP project page; its intended outputs and ongoing status are reported, without treating them as evaluated outcomes.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "BRB-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRB-SRC-101",
+          "locator": "NDPBA, printed pp. 23–24, multi-hazard exposure estimates"
+        }
+      ],
+      "geographies": [
+        "Barbados"
+      ],
+      "affected_groups": [
+        "residents of Barbados"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: PDC estimates 40% of Barbados's population is exposed to flash flooding, 66% to extreme heat and 1% to coastal flooding; coastal-flood zones include 8% of critical infrastructure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRB-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRB-SRC-101",
+          "locator": "NDPBA, printed p. 37, vulnerability indicators and parish composite scores"
+        }
+      ],
+      "geographies": [
+        "Saint Michael",
+        "Saint Joseph",
+        "Saint Andrew",
+        "Saint John",
+        "Saint Lucy"
+      ],
+      "affected_groups": [
+        "parish populations"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: The composite vulnerability ranking places Saint Michael and Saint Joseph highest, followed by Saint Andrew, Saint John and Saint Lucy among Barbados's 11 parishes.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRB-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRB-SRC-101",
+          "locator": "NDPBA, printed p. 41, island-capacity indicators and parish scores"
+        }
+      ],
+      "geographies": [
+        "Saint James",
+        "Saint Joseph",
+        "Saint Andrew",
+        "Saint Lucy"
+      ],
+      "affected_groups": [
+        "parish populations"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: Island-capacity scores are highest in Saint James and lowest in Saint Joseph; Saint Andrew and Saint Lucy also rank near the bottom.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRB-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRB-SRC-102",
+          "locator": "ICZM Plan, Part C §C6.1, printed pp. 166–167 (PDF pp. 79–80), coastal transportation services"
+        }
+      ],
+      "geographies": [
+        "Speightstown",
+        "Holetown",
+        "Bridgetown",
+        "Oistins",
+        "north-west coast",
+        "south coast"
+      ],
+      "affected_groups": [
+        "coastal residents",
+        "tourism workers",
+        "transport users"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-10 reports: The plan reports more frequent flooding after extreme rainfall raises disruption risk along coastal links among Speightstown, Holetown, Bridgetown and Oistins, affecting tourism and freight.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRB-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRB-SRC-102",
+          "locator": "ICZM Plan, Part B2 Table B.1, printed p. 93 (PDF p. 5), coastal floodplain exposure"
+        }
+      ],
+      "geographies": [
+        "Barbados coastal floodplain"
+      ],
+      "affected_groups": [
+        "coastal residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-10 reports: The plan estimates that about 25% of the population and much infrastructure lie within a zone roughly 2 km from the coastal floodplain.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRB-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRB-SRC-102",
+          "locator": "ICZM Plan, Part B2 Table B.1, printed pp. 91–92 (PDF pp. 3–4), coastal-management SWOT findings"
+        }
+      ],
+      "geographies": [
+        "Barbados coastal zone"
+      ],
+      "affected_groups": [
+        "coastal user groups",
+        "civil society"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-10 reports: The plan's 2020 SWOT identifies weak climate-adaptation and disaster-management capacity, limited coastal enforcement and weak public participation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRB-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRB-SRC-103",
+          "locator": "VNR 2023, printed p. 158 (PDF p. 172), Hurricane Elsa recovery"
+        }
+      ],
+      "geographies": [
+        "Barbados"
+      ],
+      "affected_groups": [
+        "vulnerable households"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: After Hurricane Elsa in 2021, the Government earmarked an initial BDS$54.5 million to repair or rebuild housing for the most vulnerable; the VNR estimates the hurricane's impact at 1% of GDP.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRB-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRB-SRC-103",
+          "locator": "VNR 2023, printed p. 177 (PDF p. 191), National Coastal Risk Information and Planning Platform"
+        }
+      ],
+      "geographies": [
+        "Barbados",
+        "coastal areas"
+      ],
+      "affected_groups": [
+        "coastal communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: The Government reports using the IDB-funded NCRIPP GIS platform and Coastal Risk Atlas to view hazard, vulnerability and risk maps for coastal and island-wide areas.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRB-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRB-SRC-103",
+          "locator": "VNR 2023, printed pp. 177–178 (PDF pp. 191–192), 2022 CORVI rapid assessment summary"
+        }
+      ],
+      "geographies": [
+        "southern and western coastal urban corridor"
+      ],
+      "affected_groups": [
+        "coastal communities",
+        "tourism-dependent businesses"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: The VNR says CORVI found significant ecological and financial risks in the southern and western coastal urban corridor, reflecting reliance on marine and coastal activities threatened by climate change.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRB-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRB-SRC-104",
+          "locator": "World Bank PID, printed pp. 2–3, paragraph 1, Hurricane Beryl damage summary"
+        }
+      ],
+      "geographies": [
+        "Bridgetown",
+        "south coast",
+        "west coast"
+      ],
+      "affected_groups": [
+        "fishers",
+        "tourism businesses",
+        "households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-10-18 reports: The PID reports Beryl damaged 240 vessels, Bridgetown Port and marina breakwaters; 73% of hotels, apartments and guest houses and 40 houses also suffered damage.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRB-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRB-SRC-104",
+          "locator": "World Bank PID, printed p. 6, paragraphs 10–11, fisheries value chain and vulnerable groups"
+        }
+      ],
+      "geographies": [
+        "Barbados",
+        "fishing landing and vending sites"
+      ],
+      "affected_groups": [
+        "fisherfolk",
+        "women processors and vendors"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-10-18 reports: About 3,230 fisherfolk work across roughly 30 sites; the PID says women processors and sellers faced post-Beryl pressure, selling reserves or importing fish for local demand.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRB-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRB-SRC-104",
+          "locator": "World Bank PID, printed pp. 3 and 6, paragraphs 2 and 11, emergency response and recovery"
+        }
+      ],
+      "geographies": [
+        "Bridgetown",
+        "Barbados"
+      ],
+      "affected_groups": [
+        "fisherfolk",
+        "fish vendors",
+        "boat owners"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-10-18 reports: The Government mobilized partners to relocate vessels, clear debris and repair Bridgetown Port; it established a Fisheries Benevolent Fund to support fisherfolk livelihoods.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRB-E-113",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "BRB-SRC-105",
+          "locator": "Fisheries Division post, paragraphs 1–2, survey findings and workshop held 22 January 2026"
+        }
+      ],
+      "geographies": [
+        "Barbados",
+        "fishing markets and landing sites"
+      ],
+      "affected_groups": [
+        "fisherfolk",
+        "fishing-community representatives"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02-05 reports: Fisherfolk surveyed across Barbados most often reported reduced income, disrupted market and service access, and damaged or lost boats and gear; landing-site representatives met to discuss recovery priorities.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "BRB-E-113",
+        "source_id": "BRB-SRC-105",
+        "url": "https://www.fisheries.gov.bb/participatory-recovery-planning-workshop/",
+        "locator": "Fisheries Division post, paragraphs 1–2, survey findings and workshop held 22 January 2026",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+      },
+      "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "BRB-SRC-105",
+        "source_url": "https://www.fisheries.gov.bb/participatory-recovery-planning-workshop/",
+        "locator": "Fisheries Division post, paragraphs 1–2, survey findings and workshop held 22 January 2026",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "BRB-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRB-SRC-106",
+          "locator": "UNDP Barbados Coastal Fisheries Resilience project page, Background and Expected Results"
+        }
+      ],
+      "geographies": [
+        "Bridgetown Fisheries Complex",
+        "Barbados"
+      ],
+      "affected_groups": [
+        "fishers",
+        "fishing-community members"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: UNDP's Japan-funded project aims to upgrade select Bridgetown Fisheries Complex infrastructure and equipment, support affected livelihoods and strengthen the fishing community's disaster preparedness through capacity building.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "BRB-E-113",
+  "source_access_review": {
+    "selected_record_id": "BRB-E-113",
+    "selected_source_id": "BRB-SRC-105",
+    "url": "https://www.fisheries.gov.bb/participatory-recovery-planning-workshop/",
+    "locator": "Fisheries Division post, paragraphs 1–2, survey findings and workshop held 22 January 2026",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 35127,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+  },
+  "checks": [
+    {
+      "record_id": "BRB-E-113",
+      "source_id": "BRB-SRC-105",
+      "locator": "Fisheries Division post, paragraphs 1–2, survey findings and workshop held 22 January 2026",
+      "verification_status": "verified",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "BRB-E-113: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "BRB-E-101",
+    "BRB-E-102",
+    "BRB-E-103",
+    "BRB-E-104",
+    "BRB-E-105",
+    "BRB-E-106",
+    "BRB-E-107",
+    "BRB-E-108",
+    "BRB-E-109",
+    "BRB-E-110",
+    "BRB-E-111",
+    "BRB-E-112",
+    "BRB-E-113",
+    "BRB-E-114"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

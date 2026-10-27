@@ -1,0 +1,1221 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "WSM",
+  "candidate_path": "countries/WSM/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 8,
+    "evidence_count": 19,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 19
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "verified": 1,
+      "unresolved": 5,
+      "access-only": 13
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "WSM-E-001",
+          "WSM-E-004"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "WSM-E-005",
+          "WSM-E-101",
+          "WSM-E-102",
+          "WSM-E-103",
+          "WSM-E-106",
+          "WSM-E-109",
+          "WSM-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "WSM-E-002",
+          "WSM-E-104",
+          "WSM-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "WSM-E-003",
+          "WSM-E-108",
+          "WSM-E-111",
+          "WSM-E-112",
+          "WSM-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "WSM-E-006",
+          "WSM-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "WSM-E-101",
+          "WSM-E-102",
+          "WSM-E-103",
+          "WSM-E-104",
+          "WSM-E-105",
+          "WSM-E-106",
+          "WSM-E-107",
+          "WSM-E-108",
+          "WSM-E-109",
+          "WSM-E-111",
+          "WSM-E-112",
+          "WSM-E-113"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/WSM/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "WSM-SRC-001",
+      "title": "Samoa set to strengthen disaster readiness, protect livelihoods and create jobs with new World Bank support",
+      "organization": "World Bank",
+      "publication_date": "2026-03-20",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/03/23/samoa-set-to-strengthen-disaster-readiness-protect-livelihoods-and-create-jobs-with-new-world-bank-support",
+      "geographic_coverage": [
+        "Samoa"
+      ],
+      "temporal_coverage": "March 2026 approval",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "WSM-E-001",
+        "WSM-E-002",
+        "WSM-E-003"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "WSM-E-001",
+        "selected_source_id": "WSM-SRC-001",
+        "url": "https://www.worldbank.org/en/news/press-release/2026/03/23/samoa-set-to-strengthen-disaster-readiness-protect-livelihoods-and-create-jobs-with-new-world-bank-support",
+        "locator": "Coastal population exposure",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 30354,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "WSM-E-001"
+      ],
+      "manual_verified_record_ids": [
+        "WSM-E-001"
+      ]
+    },
+    {
+      "source_id": "WSM-SRC-002",
+      "title": "Safer, more resilient and reliable transport for Samoa",
+      "organization": "World Bank",
+      "publication_date": "2022-06-02",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2022/06/02/safer-more-resilient-and-reliable-transport-for-samoa",
+      "geographic_coverage": [
+        "Samoa"
+      ],
+      "temporal_coverage": "2018/2020 flooding and 2022 approval",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "WSM-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "WSM-SRC-003",
+      "title": "Improved roads driving renewed confidence in Samoa",
+      "organization": "World Bank",
+      "publication_date": "2023-11-15",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/feature/2023/11/16/improved-roads-driving-renewed-confidence-in-samoa",
+      "geographic_coverage": [
+        "Samoa"
+      ],
+      "temporal_coverage": "2023 feature and earlier storm damage",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "WSM-E-005",
+        "WSM-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "WSM-SRC-101",
+      "title": "Climate micro-mobilities as adaptation practice in the Pacific: the case of Samoa",
+      "organization": "Anita Latai-Niusulu, Masami Tsujita and Andreas Neef; Philosophical Transactions of the Royal Society B",
+      "publication_date": "2023-09-18",
+      "publication_date_basis": "publication",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10505846/",
+      "geographic_coverage": [
+        "Salani",
+        "Upolu",
+        "Vaitele"
+      ],
+      "temporal_coverage": "Talanoa fieldwork June–August 2021; mobility histories cover participants' prior 10–30 years; site context includes 2016 census data and 2009 tsunami experience.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "WSM-E-101",
+        "WSM-E-102",
+        "WSM-E-103",
+        "WSM-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full article read, including study area, methods, findings and discussion.",
+          "notes": "Publisher-hosted full text available through PubMed Central; cited sections directly inspected.",
+          "reuse_terms": "CC BY 4.0 stated in article rights notice.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "WSM-SRC-102",
+      "title": "The effects of Climate Change on the small village of Salei'a",
+      "organization": "United Nations Development Programme, Samoa",
+      "publication_date": "2019-10-28",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/samoa/news/effects-climate-change-small-village-saleia",
+      "geographic_coverage": [
+        "Salei'a",
+        "Samoa"
+      ],
+      "temporal_coverage": "Climate risks and Adaptation Fund-supported works reported as of October 2019; programme began in 2013.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "WSM-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full UNDP article body, including date, risks, project details and village mayor statement.",
+          "notes": "Publisher page read directly; article also identifies itself as sponsored by the Adaptation Fund.",
+          "reuse_terms": "Not stated on page; license status left unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "WSM-SRC-103",
+      "title": "Community-Based Adaptation in Small Island Developing States, and Mekong-Asia-Pacific Regions",
+      "organization": "United Nations Development Programme, Global Environment Facility Small Grants Programme",
+      "publication_date": "2017",
+      "publication_date_basis": "publication",
+      "url": "https://sgp.undp.org/all-documents/country-documents/905-community-based-adaptation-small-island-development-states-and-mekong-asia-pacific-regions/file.html",
+      "geographic_coverage": [
+        "Matafa'a village",
+        "Samoa"
+      ],
+      "temporal_coverage": "Regional programme case account, including Matafa'a outcomes reported during and after the 2011 El Niño drought.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "WSM-E-106",
+        "WSM-E-107",
+        "WSM-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 12-page report read; Samoa case on printed p.9.",
+          "notes": "Publisher-hosted report; claims limited to its Matafa'a programme case account.",
+          "reuse_terms": "Report states ©2017 UNDP, all rights reserved; no open licence identified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "WSM-SRC-104",
+      "title": "Pacific Peoples and Climate-Related (Im)Mobility: A Synthesis Report on Scale, Pattern and Impact, Now and in the Future",
+      "organization": "Bruce Burson, Evelyn Marsters, Richard Bedford and Sandy Morrison; prepared for New Zealand Ministry of Foreign Affairs and Trade",
+      "publication_date": "2024-06-30",
+      "publication_date_basis": "publication",
+      "url": "https://www.mfat.govt.nz/assets/Environment/Climate-change/Pacific-Climate-Immobility-Synthesis-Report-30-June-2024.pdf",
+      "geographic_coverage": [
+        "Samoa",
+        "Lalomanu",
+        "Pacific region"
+      ],
+      "temporal_coverage": "Synthesis published June 2024, drawing on earlier and commissioned Pacific household, community and mobility research; Samoa examples include 2009 tsunami relocation and 2023–2024 fieldwork synthesis.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "WSM-E-109",
+        "WSM-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 186-page synthesis read for cited Samoa passages, methods and limitations.",
+          "notes": "Samoa findings are distinguished from other Pacific country examples; Table 5 caveat retained.",
+          "reuse_terms": "Not stated in inspected report; license status left unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "WSM-SRC-105",
+      "title": "Pacific Region Preparedness, Adaptation, and Resilience Program – Samoa Project: Environmental and Social Management Framework",
+      "organization": "Government of Samoa, Pacific Region Preparedness, Adaptation and Resilience Program – Samoa Project",
+      "publication_date": "2025-06",
+      "publication_date_basis": "document-version",
+      "url": "https://www.mwti.gov.ws/wp-content/uploads/2025/06/250625-PREPARE-ESMF-Updated-Clean.pdf",
+      "geographic_coverage": [
+        "Sālelologa",
+        "Savai'i",
+        "Upolu",
+        "Samoa"
+      ],
+      "temporal_coverage": "Framework dated June 2025 for a six-year project planned to begin in August 2025; township-plan works and risks were preliminary at report date.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "WSM-E-111",
+        "WSM-E-112",
+        "WSM-E-113"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 136-page ESMF read for project description, social-risk register and planned safeguards.",
+          "notes": "Risk statements and project status recorded as preliminary and preparation-stage as of June 2025.",
+          "reuse_terms": "No licence terms identified in inspected report; status left unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "WSM-E-001",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "WSM-SRC-001",
+          "locator": "Coastal population exposure"
+        }
+      ],
+      "geographies": [
+        "Samoa"
+      ],
+      "affected_groups": [
+        "coastal residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The announcement identifies low-lying coastal settlement as a major source of climate exposure in Samoa.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "WSM-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "WSM-E-001",
+        "source_id": "WSM-SRC-001",
+        "url": "https://www.worldbank.org/en/news/press-release/2026/03/23/samoa-set-to-strengthen-disaster-readiness-protect-livelihoods-and-create-jobs-with-new-world-bank-support",
+        "locator": "Coastal population exposure",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+      },
+      "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "WSM-SRC-001",
+        "source_url": "https://www.worldbank.org/en/news/press-release/2026/03/23/samoa-set-to-strengthen-disaster-readiness-protect-livelihoods-and-create-jobs-with-new-world-bank-support",
+        "locator": "Coastal population exposure",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "WSM-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "WSM-SRC-001",
+          "locator": "Sālelologa investment focus"
+        }
+      ],
+      "geographies": [
+        "Sālelologa",
+        "Savai'i"
+      ],
+      "affected_groups": [],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Sālelologa on Savai'i is targeted for resilient infrastructure and urban planning to manage settlement growth and exposure.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "WSM-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "WSM-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "WSM-SRC-001",
+          "locator": "Inclusive planning and warning systems"
+        }
+      ],
+      "geographies": [
+        "Samoa"
+      ],
+      "affected_groups": [
+        "women"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Training and female representation in urban-planning committees are planned alongside multi-hazard warnings, not demonstrated delivery results.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "WSM-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "WSM-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "WSM-SRC-002",
+          "locator": "Airport flooding"
+        }
+      ],
+      "geographies": [
+        "Faleolo International Airport"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Flooding in 2018 and 2020 disrupted Faleolo International Airport; coastal transport assets face storm-surge, flood and rising-sea risk.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "WSM-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "WSM-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "WSM-SRC-003",
+          "locator": "West Coast Road business account"
+        }
+      ],
+      "geographies": [
+        "West Coast Road",
+        "Upolu"
+      ],
+      "affected_groups": [
+        "small businesses"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "A West Coast Road business account recalls cyclone and wave damage to the road serving coastal businesses.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "WSM-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "WSM-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "WSM-SRC-003",
+          "locator": "Upgrade and reported business experience"
+        }
+      ],
+      "geographies": [
+        "West Coast Road"
+      ],
+      "affected_groups": [],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The feature reports a completed road upgrade and improved business confidence; testimony does not establish the size or durability of resilience gains.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "WSM-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "WSM-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "WSM-SRC-101",
+          "locator": "Section 4, 'The study area'; Section 5, 'Talanoa methodology'."
+        }
+      ],
+      "geographies": [
+        "Salani",
+        "Upolu",
+        "Vaitele"
+      ],
+      "affected_groups": [
+        "customary-land households",
+        "freehold-land households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-09-18 reports: Rural coastal Salani had 93% of 88 households on customary land; inland suburban Vaitele had 80% of about 1,300 households on freehold land.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "WSM-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "WSM-SRC-101",
+          "locator": "Section 6(a), 'Climate responses and other mobility drivers', Salani findings."
+        }
+      ],
+      "geographies": [
+        "Salani",
+        "Upolu"
+      ],
+      "affected_groups": [
+        "coastal households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-09-18 reports: At Salani, 10/20 participants partly or fully linked inland moves to climate factors (four entirely); storm surge and cyclone rainfall were recurring triggers.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "WSM-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "WSM-SRC-101",
+          "locator": "Section 6(a), 'Climate responses and other mobility drivers', Vaitele findings."
+        }
+      ],
+      "geographies": [
+        "Vaitele"
+      ],
+      "affected_groups": [
+        "urban households",
+        "households with freehold access"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-09-18 reports: At Vaitele, 6/20 households linked movement partly or fully to climate factors; seven participants cited social reasons and seven freehold access, with overlap in environmental changes.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "WSM-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "WSM-SRC-101",
+          "locator": "Section 6(c), 'Micro-mobility patterns'; Section 7, 'fa'a-'āigalua as climate adaptation strategy'."
+        }
+      ],
+      "geographies": [
+        "Salani",
+        "Upolu"
+      ],
+      "affected_groups": [
+        "coastal households",
+        "customary-land households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-09-18 reports: Seventeen of 20 Salani households near water moved inland; short moves were easier where customary access avoided land-purchase costs.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "WSM-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "WSM-SRC-102",
+          "locator": "Opening paragraphs and Salei'a mayor's statement, article dated 28 October 2019."
+        }
+      ],
+      "geographies": [
+        "Salei'a"
+      ],
+      "affected_groups": [
+        "village residents",
+        "children"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2019-10-28 reports: UNDP described Salei'a as exposed to sea-level rise, flooding, erosion, stronger tropical storms, rainfall and heat; by 2019 a revetment and raised bridge provided daily access and a disaster escape route.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "WSM-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "WSM-SRC-103",
+          "locator": "Matafa'a, report PDF p.9, community vulnerability narrative."
+        }
+      ],
+      "geographies": [
+        "Matafa'a village"
+      ],
+      "affected_groups": [
+        "elderly people",
+        "women",
+        "children"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2017 reports: At Matafa'a, runoff, land management, variable rain, floods and drought were linked to poor water quality and livelihood and health effects; elderly people, women and children bore water-collection burdens.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "WSM-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "WSM-SRC-103",
+          "locator": "Matafa'a, report PDF p.9, adaptation outcomes narrative."
+        }
+      ],
+      "geographies": [
+        "Matafa'a village"
+      ],
+      "affected_groups": [
+        "Matafa'a households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2017 reports: The report says a mountain gravity-fed system and native reforestation were installed; Matafa'a had water during the three-month September 2011 El Niño drought, with clean water in all homes.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "WSM-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "WSM-SRC-103",
+          "locator": "Matafa'a, report PDF p.9, community-managed scheme and maintenance account."
+        }
+      ],
+      "geographies": [
+        "Matafa'a village"
+      ],
+      "affected_groups": [
+        "Matafa'a households"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2017 reports: Matafa'a's community-managed scheme set a household maintenance fee; the Independent Water Scheme Association supported filter maintenance and water quality.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "WSM-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "WSM-SRC-104",
+          "locator": "Chapter 'Women and (Im)Mobility in the Context of Climate Change', 'Economic Impacts and Opportunities', report p.96."
+        }
+      ],
+      "geographies": [
+        "Lalomanu"
+      ],
+      "affected_groups": [
+        "women",
+        "craft sellers",
+        "seafood sellers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-06-30 reports: Women at a Lalomanu workshop said inland relocation reduced sea access and coastal-road customers for craft and seafood businesses.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "WSM-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "WSM-SRC-104",
+          "locator": "Table 5, Samoa–Tonga fieldwork findings, 'Impacts' row, printed p.149."
+        }
+      ],
+      "geographies": [
+        "Samoa"
+      ],
+      "affected_groups": [
+        "women",
+        "mobile households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The Pacific synthesis records Samoa participants' reports of domestic-violence concerns, but explicitly warns that sample/cultural differences may explain the Samoa–Tonga contrast.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "WSM-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "WSM-SRC-105",
+          "locator": "Executive Summary, printed pp.1–2; Project Description, printed pp.6–7."
+        }
+      ],
+      "geographies": [
+        "Sālelologa",
+        "Savai'i",
+        "Upolu"
+      ],
+      "affected_groups": [
+        "Sālelologa residents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-06 reports: In June 2025, PREPARE planned six years of hazard monitoring, early warning, response and urban resilience work, with township planning focused on Sālelologa.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "WSM-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "WSM-SRC-105",
+          "locator": "Section 5.3.2, preliminary Sālelologa social risks, printed p.40; risk analysis table, printed p.53."
+        }
+      ],
+      "geographies": [
+        "Sālelologa",
+        "Savai'i"
+      ],
+      "affected_groups": [
+        "customary landowners",
+        "Sālelologa-area communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "June 2025 preparation-stage project risk scenario.",
+      "compact_statement": "Source dated 2025-06 reports: The ESMF identifies Sālelologa land disputes as a potential planning conflict risk; proposed controls map disputes, exclude disputed areas and use consultation and grievance handling.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "WSM-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "WSM-SRC-105",
+          "locator": "Section 5.3.2, preliminary Sālelologa social risks, printed p.40."
+        }
+      ],
+      "geographies": [
+        "Sālelologa",
+        "Savai'i"
+      ],
+      "affected_groups": [
+        "women",
+        "youth",
+        "people with disabilities",
+        "marginalized groups"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "June 2025 preparation-stage risk scenario.",
+      "compact_statement": "Source dated 2025-06 reports: The ESMF flags possible exclusion of women, youth, people with disabilities and other marginalized groups from Sālelologa planning.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "WSM-E-001",
+  "source_access_review": {
+    "selected_record_id": "WSM-E-001",
+    "selected_source_id": "WSM-SRC-001",
+    "url": "https://www.worldbank.org/en/news/press-release/2026/03/23/samoa-set-to-strengthen-disaster-readiness-protect-livelihoods-and-create-jobs-with-new-world-bank-support",
+    "locator": "Coastal population exposure",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 30354,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+  },
+  "checks": [
+    {
+      "record_id": "WSM-E-001",
+      "source_id": "WSM-SRC-001",
+      "locator": "Coastal population exposure",
+      "verification_status": "verified",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "WSM-E-001: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "WSM-E-001",
+    "WSM-E-002",
+    "WSM-E-003",
+    "WSM-E-004",
+    "WSM-E-005",
+    "WSM-E-006",
+    "WSM-E-101",
+    "WSM-E-102",
+    "WSM-E-103",
+    "WSM-E-104",
+    "WSM-E-105",
+    "WSM-E-106",
+    "WSM-E-107",
+    "WSM-E-108",
+    "WSM-E-109",
+    "WSM-E-110",
+    "WSM-E-111",
+    "WSM-E-112",
+    "WSM-E-113"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

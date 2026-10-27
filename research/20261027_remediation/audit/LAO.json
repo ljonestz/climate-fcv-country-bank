@@ -1,0 +1,1108 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "LAO",
+  "candidate_path": "countries/LAO/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 6,
+    "evidence_count": 17,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 17
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "verified": 1,
+      "unresolved": 6,
+      "access-only": 10
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "LAO-E-001",
+          "LAO-E-002",
+          "LAO-E-003",
+          "LAO-E-005",
+          "LAO-E-006",
+          "LAO-E-007",
+          "LAO-E-101",
+          "LAO-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "LAO-E-004",
+          "LAO-E-106",
+          "LAO-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "LAO-E-102",
+          "LAO-E-104",
+          "LAO-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "LAO-E-103",
+          "LAO-E-107",
+          "LAO-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "LAO-E-101",
+          "LAO-E-102",
+          "LAO-E-103",
+          "LAO-E-104",
+          "LAO-E-107",
+          "LAO-E-108",
+          "LAO-E-109",
+          "LAO-E-110"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/LAO/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "LAO-SRC-001",
+      "title": "Lao PDR Country Climate and Development Report",
+      "organization": "World Bank Group",
+      "publication_date": "2026-02-09",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/country/lao/publication/lao-pdr-country-climate-and-development-report",
+      "geographic_coverage": [
+        "Lao PDR",
+        "urban areas",
+        "high flood-risk provinces",
+        "Champassak"
+      ],
+      "temporal_coverage": "Country climate-development findings and priority recommendations summarized in the 2026 CCDR page.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LAO-E-001",
+        "LAO-E-002",
+        "LAO-E-003",
+        "LAO-E-004"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "LAO-E-001",
+        "selected_source_id": "LAO-SRC-001",
+        "url": "https://www.worldbank.org/en/country/lao/publication/lao-pdr-country-climate-and-development-report",
+        "locator": "Key findings, paragraph beginning “Laos has experienced rapid and unplanned urbanization…”",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 267553,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "LAO-E-001"
+      ],
+      "manual_verified_record_ids": [
+        "LAO-E-001"
+      ]
+    },
+    {
+      "source_id": "LAO-SRC-002",
+      "title": "Lao PDR’s 2020 Updated and Enhanced Nationally Determined Contribution",
+      "organization": "Government of Lao PDR",
+      "publication_date": "2021-05-11",
+      "publication_date_basis": "submission",
+      "url": "https://unfccc.int/sites/default/files/NDC/2022-06/NDC%202020%20of%20Lao%20PDR%20%28English%29%2C%2009%20April%202021%20%281%29.pdf",
+      "geographic_coverage": [
+        "Lao PDR",
+        "central and southern provinces",
+        "Mekong region"
+      ],
+      "temporal_coverage": "Historical disaster impacts and national climate vulnerability described in the 2020 updated NDC submitted in May 2021.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LAO-E-005",
+        "LAO-E-006",
+        "LAO-E-007"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LAO-SRC-101",
+      "title": "Mid-Term Evaluation Report: Integrated Water Resource Management and Ecosystem-based Adaptation in the Xe Bang Hieng River Basin and Luang Prabang City",
+      "organization": "UNDP, Global Environment Facility project evaluation",
+      "publication_date": "2024-12",
+      "publication_date_basis": "document-version",
+      "url": "https://laoiwrm-eba.com/sites/default/files/2025-01/final-mtr-report-iwrm-laos-dec-2024-31-dec-2024.pdf",
+      "geographic_coverage": [
+        "Champhone District",
+        "Songkhone District",
+        "Xonbuly District",
+        "Nong District",
+        "Sepone District",
+        "Luang Prabang City"
+      ],
+      "temporal_coverage": "Midterm evaluation fieldwork September 2024–January 2025; project activity through 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LAO-E-101",
+        "LAO-E-102",
+        "LAO-E-103",
+        "LAO-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 89-page midterm evaluation; printed pp. v–vi, 19, 30–32",
+          "notes": "Inspected methodology, project-area findings, beneficiary counts, capacity results and evaluator limitations.",
+          "reuse_terms": "Terms not reviewed; paraphrased only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LAO-SRC-102",
+      "title": "Global Status of Multi-Hazard Early Warning Systems 2024: Lao PDR country perspective",
+      "organization": "United Nations Office for Disaster Risk Reduction",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://www.undrr.org/reports/global-status-MHEWS-2024",
+      "geographic_coverage": [
+        "Lao PDR national and village disaster management systems"
+      ],
+      "temporal_coverage": "Country case study in the 2024 global report.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LAO-E-105",
+        "LAO-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Official Lao PDR country perspective, early-warning system challenges and last-mile channels",
+          "notes": "Full country case summary on official UNDRR report page inspected; no subnational coverage statistics reported.",
+          "reuse_terms": "Terms not reviewed; paraphrased only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LAO-SRC-103",
+      "title": "FAO and Partners Conclude Anticipatory Action Project in Lao People's Democratic Republic, Strengthening Flood Resilience",
+      "organization": "Food and Agriculture Organization of the United Nations",
+      "publication_date": "2025-05-30",
+      "publication_date_basis": "publication",
+      "url": "https://www.fao.org/lao-people-democratic-republic/news/detail/fao-and-partners-conclude-anticipatory-action-project-in-lao-people%27s-democratic-republic--strengthening-flood-resilience/en",
+      "geographic_coverage": [
+        "Champhone District",
+        "Songkhone District",
+        "Xonnabouly District",
+        "Savannakhet Province"
+      ],
+      "temporal_coverage": "Project delivery August 2024–May 2025; flood protocol activations in September 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LAO-E-107",
+        "LAO-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "FAO completion update, paragraphs 20–34",
+          "notes": "Full official page inspected for project dates, activation output, geographic reach and capacity-building details.",
+          "reuse_terms": "Terms not reviewed; paraphrased only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LAO-SRC-104",
+      "title": "UNFPA, Lao Women’s Union, and Australia Deliver Essential Support for Women and Girls Affected by the Floods in Laos",
+      "organization": "United Nations Population Fund Lao PDR",
+      "publication_date": "2024-10-25",
+      "publication_date_basis": "publication",
+      "url": "https://lao.unfpa.org/en/news/unfpa-lao-womens-union-and-australia-deliver-essential-support-women-and-girls-affected-floods",
+      "geographic_coverage": [
+        "Luang Prabang Province",
+        "Xayaburi Province",
+        "Luang Namtha Province",
+        "other flood-affected northern provinces"
+      ],
+      "temporal_coverage": "Flood response and field needs assessment in 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LAO-E-109",
+        "LAO-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "UNFPA release, paragraphs 94–123",
+          "notes": "Full official page inspected, including needs-assessment summary, GBV risk-mitigation context and handover quantities.",
+          "reuse_terms": "Terms not reviewed; paraphrased only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "LAO-E-001",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "LAO-SRC-001",
+          "locator": "Key findings, paragraph beginning “Laos has experienced rapid and unplanned urbanization…”"
+        }
+      ],
+      "geographies": [
+        "Lao PDR",
+        "urban areas"
+      ],
+      "affected_groups": [
+        "urban residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": "The summary describes outcomes without preventive measures.",
+      "compact_statement": "The summary says unplanned urbanization heightens city climate risk; more frequent, intense floods could cause losses and damage critical infrastructure.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LAO-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "LAO-E-001",
+        "source_id": "LAO-SRC-001",
+        "url": "https://www.worldbank.org/en/country/lao/publication/lao-pdr-country-climate-and-development-report",
+        "locator": "Key findings, paragraph beginning “Laos has experienced rapid and unplanned urbanization…”",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+      },
+      "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "LAO-SRC-001",
+        "source_url": "https://www.worldbank.org/en/country/lao/publication/lao-pdr-country-climate-and-development-report",
+        "locator": "Key findings, paragraph beginning “Laos has experienced rapid and unplanned urbanization…”",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "LAO-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LAO-SRC-001",
+          "locator": "Key findings, paragraph beginning “Laos is water rich…”"
+        }
+      ],
+      "geographies": [
+        "Lao PDR"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "Scenario not specified in inspected passage.",
+      "compact_statement": "Climate change is increasing water-resource pressure, and hydropower is likely to be significantly affected.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LAO-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LAO-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LAO-SRC-001",
+          "locator": "Key findings, paragraph beginning “Agriculture faces considerable challenges…”"
+        }
+      ],
+      "geographies": [
+        "Lao PDR"
+      ],
+      "affected_groups": [
+        "poor people",
+        "farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "Scenario not specified in inspected passage.",
+      "compact_statement": "The CCDR summary says climate change could harm rice cultivation and livestock, disproportionately affecting poor people and increasing farmers’ need for adaptation support.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LAO-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LAO-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LAO-SRC-001",
+          "locator": "Priority action 10, paragraph beginning “Improve maintenance of roads…”"
+        }
+      ],
+      "geographies": [
+        "high flood-risk provinces",
+        "Champassak",
+        "National Road 13"
+      ],
+      "affected_groups": [
+        "road users",
+        "communities served by National Road 13"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "The CCDR recommends road maintenance and expanded paving in high flood-risk provinces, prioritizing National Road 13 in Champassak.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LAO-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LAO-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LAO-SRC-002",
+          "locator": "Section 3.1, “National context,” PDF p. 10."
+        }
+      ],
+      "geographies": [
+        "Lao PDR"
+      ],
+      "affected_groups": [
+        "people affected by 2018 floods"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC reports 2018 floods affected more than 600,000 people nationwide, with damage and losses estimated at US$371 million, or 2% of GDP.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LAO-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LAO-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LAO-SRC-002",
+          "locator": "Section 3.1, “National context,” PDF p. 10."
+        }
+      ],
+      "geographies": [
+        "two central provinces",
+        "four southern provinces"
+      ],
+      "affected_groups": [
+        "people in affected provinces"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC says tropical storms and depressions in 2019 affected more than 764,000 people across two central and four southern provinces, disrupting livelihoods and damaging property.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LAO-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LAO-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LAO-SRC-002",
+          "locator": "Section 3.1, “National context,” PDF p. 10."
+        }
+      ],
+      "geographies": [
+        "Mekong region",
+        "Lao PDR"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "Scenario not specified in inspected passage.",
+      "compact_statement": "The NDC expects warming across the Mekong region but says rainfall changes vary by location; altered temperature and precipitation may worsen flood conditions and affect crops, hydropower, roads, water supply, and food security.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LAO-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LAO-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LAO-SRC-101",
+          "locator": "Printed pp. v–vi, project description and target-area vulnerability"
+        }
+      ],
+      "geographies": [
+        "Champhone",
+        "Songkhone",
+        "Xonbuly",
+        "Nong",
+        "Sepone",
+        "Luang Prabang City"
+      ],
+      "affected_groups": [
+        "rural communities",
+        "farmers",
+        "Luang Prabang residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "In five Savannakhet districts, the evaluation describes recurring flood damage to homes, farms and infrastructure, plus drought-related food insecurity linked to forest degradation and reduced fisheries; Luang Prabang City faces flash floods and landslides.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LAO-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LAO-SRC-101",
+          "locator": "Printed p. vi, project-area summary"
+        }
+      ],
+      "geographies": [
+        "Savannakhet project districts",
+        "Luang Prabang City"
+      ],
+      "affected_groups": [
+        "project-area communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The evaluation says the absence of effective early-warning systems in the project regions compounds local flood and drought vulnerability.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LAO-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LAO-SRC-101",
+          "locator": "Printed pp.vi-vii/19 (one-based PDF pp.7-8/20), outputs and beneficiary-measurement cautions."
+        }
+      ],
+      "geographies": [
+        "Seven villages across Savannakhet and Luang Prabang project areas"
+      ],
+      "affected_groups": [
+        "9,632 well users",
+        "government officials"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The December 2024 midterm evaluation reports 16 solar-pumped wells and 9,632 beneficiaries, plus 200 trained officials, but flags inconsistent beneficiary denominators and limited outcome tracking.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LAO-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LAO-SRC-101",
+          "locator": "Printed pp. 18–19 and 34, community awareness, measurement and financing findings"
+        }
+      ],
+      "geographies": [
+        "Savannakhet project districts",
+        "Luang Prabang City"
+      ],
+      "affected_groups": [
+        "target-village residents",
+        "local authorities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Some visited residents linked land use to flood and drought risks but poorly understood planned measures; the MTR also flagged weak beneficiary tracking and watershed needs beyond the grant.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LAO-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LAO-SRC-102",
+          "locator": "Official report page, Lao PDR country perspective, paragraphs on challenges and village communications"
+        }
+      ],
+      "geographies": [
+        "Lao PDR national"
+      ],
+      "affected_groups": [
+        "people relying on warning services",
+        "remote communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNDRR identifies high staff turnover, few skilled forecasters and absent legal tools to mobilize private resources as constraints on Lao PDR's multi-hazard warning system.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LAO-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LAO-SRC-102",
+          "locator": "Official report page, Lao PDR country perspective, village committee and communication passages"
+        }
+      ],
+      "geographies": [
+        "Lao PDR villages"
+      ],
+      "affected_groups": [
+        "village communities",
+        "warning recipients"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The report presents Village Disaster Management Committees, loudspeakers and mobile-operator SMS partnerships as channels for actionable last-mile warnings.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LAO-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LAO-SRC-103",
+          "locator": "FAO completion update, paragraphs on project reach and two activations"
+        }
+      ],
+      "geographies": [
+        "Champhone District",
+        "Songkhone District",
+        "Xonnabouly District",
+        "Savannakhet Province"
+      ],
+      "affected_groups": [
+        "4,000 target households",
+        "livestock-keeping communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The flood protocol was activated twice in September 2024, reaching 15 at-risk communities in Champhone, Songkhone and Xonnabouly and 4,000 households with early warnings and watertight drums.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LAO-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LAO-SRC-103",
+          "locator": "FAO completion update, paragraphs on toolkits, training and protocol development"
+        }
+      ],
+      "geographies": [
+        "Savannakhet Province; three project districts"
+      ],
+      "affected_groups": [
+        "3,500 target households",
+        "district and provincial officials"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The project reports 3,500 households received livestock-evacuation toolkits and silage-making guidance; district and provincial officials received training-of-trainers for livestock guidelines and warning dissemination.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LAO-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LAO-SRC-104",
+          "locator": "UNFPA release, flood assessment and response paragraphs, 25October 2024."
+        }
+      ],
+      "geographies": [
+        "Luang Prabang Province",
+        "Xayaburi Province",
+        "Luang Namtha Province",
+        "other northern provinces"
+      ],
+      "affected_groups": [
+        "women",
+        "girls",
+        "adolescents",
+        "people with disabilities",
+        "older people"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNFPA's October 2024 flood response reports urgent needs for GBV-service information among affected northern communities; this documents protection-service needs, not observed climate-caused violence.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LAO-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LAO-SRC-104",
+          "locator": "UNFPA release, October 2024 flood response and dignity-kit handover paragraphs."
+        }
+      ],
+      "geographies": [
+        "Luang Prabang Province",
+        "Xayaburi Province",
+        "Luang Namtha Province",
+        "northern flood-affected provinces"
+      ],
+      "affected_groups": [
+        "women",
+        "girls"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNFPA reports distribution of 200 dignity kits in affected areas and a further 466 kits handed to the Lao Women's Union for Luang Prabang, Xayaburi and Luang Namtha provinces.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "LAO-E-001",
+  "source_access_review": {
+    "selected_record_id": "LAO-E-001",
+    "selected_source_id": "LAO-SRC-001",
+    "url": "https://www.worldbank.org/en/country/lao/publication/lao-pdr-country-climate-and-development-report",
+    "locator": "Key findings, paragraph beginning “Laos has experienced rapid and unplanned urbanization…”",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 267553,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+  },
+  "checks": [
+    {
+      "record_id": "LAO-E-001",
+      "source_id": "LAO-SRC-001",
+      "locator": "Key findings, paragraph beginning “Laos has experienced rapid and unplanned urbanization…”",
+      "verification_status": "verified",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "LAO-E-001: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "LAO-E-001",
+    "LAO-E-002",
+    "LAO-E-003",
+    "LAO-E-004",
+    "LAO-E-005",
+    "LAO-E-006",
+    "LAO-E-007",
+    "LAO-E-101",
+    "LAO-E-102",
+    "LAO-E-103",
+    "LAO-E-104",
+    "LAO-E-105",
+    "LAO-E-106",
+    "LAO-E-107",
+    "LAO-E-108",
+    "LAO-E-109",
+    "LAO-E-110"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

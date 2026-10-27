@@ -1,0 +1,945 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "MAR",
+  "candidate_path": "countries/MAR/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 4,
+    "evidence_count": 13,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 13
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 12,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "MAR-E-101",
+          "MAR-E-102",
+          "MAR-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "MAR-E-103",
+          "MAR-E-107",
+          "MAR-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MAR-E-104",
+          "MAR-E-105",
+          "MAR-E-108",
+          "MAR-E-110",
+          "MAR-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MAR-E-111",
+          "MAR-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "MAR-E-101",
+          "MAR-E-102",
+          "MAR-E-103",
+          "MAR-E-104",
+          "MAR-E-106",
+          "MAR-E-107",
+          "MAR-E-108",
+          "MAR-E-111",
+          "MAR-E-112",
+          "MAR-E-113"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/MAR/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "MAR-SRC-101",
+      "title": "Contribution Déterminée au niveau National 3.0 du Maroc (2026-2035)",
+      "organization": "Kingdom of Morocco, Ministry of Energy Transition and Sustainable Development",
+      "publication_date": "2025",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/2026-04/CDN%203.0%20DU%20MAROC.pdf",
+      "geographic_coverage": [
+        "Morocco",
+        "Gharb",
+        "Haouz",
+        "Saïss",
+        "Agadir",
+        "Oriental",
+        "Ourika",
+        "Guelmim",
+        "Tanger",
+        "Casablanca"
+      ],
+      "temporal_coverage": "NDC 3.0 covers 2026-2035 and reports climate and disaster impacts through 2024, alongside longer-term climate projections.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MAR-E-101",
+        "MAR-E-102",
+        "MAR-E-103",
+        "MAR-E-104",
+        "MAR-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 110-page official NDC PDF opened; physical pp.37-38, 62-66 and 106 reviewed.",
+          "notes": "Direct UNFCCC-hosted PDF was inspected; document identifies itself as the 2025 NDC 3.0. Search-result text was not used as evidence.",
+          "reuse_terms": "No license terms identified in inspected pages.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MAR-SRC-102",
+      "title": "Plan National Stratégique d’Adaptation (PNSA-2030)",
+      "organization": "Morocco Ministry of Energy Transition and Sustainable Development, Department of Sustainable Development",
+      "publication_date": "2022-01",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/resource/PNSA_Morocco_Fr.pdf",
+      "geographic_coverage": [
+        "Morocco",
+        "Souss",
+        "El Haouz",
+        "Oriental",
+        "Atlantic coast",
+        "oasis zones",
+        "mountain areas"
+      ],
+      "temporal_coverage": "National plan for 2022-2030; combines observed climate trends, sector risk analysis and proposed adaptation measures.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MAR-E-106",
+        "MAR-E-107",
+        "MAR-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 90-page government plan opened; physical pp.7, 10, 61-63 and 69-74 reviewed.",
+          "notes": "Direct PDF text was inspected in French; English paraphrases preserve the source's conditional language.",
+          "reuse_terms": "No license terms identified in inspected pages.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MAR-SRC-103",
+      "title": "Water Scarcity in Morocco: Analysis of Key Water Challenges",
+      "organization": "World Bank Water Global Practice",
+      "publication_date": "2020",
+      "publication_date_basis": "document-version",
+      "url": "https://documents.worldbank.org/curated/en/642681580455542456/pdf/Water-Scarcity-in-Morocco-Analysis-of-Key-Water-Challenges.pdf",
+      "geographic_coverage": [
+        "Morocco"
+      ],
+      "temporal_coverage": "National model uses a 2016 baseline and medium- to long-run water-supply and crop-yield scenarios.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "MAR-E-109",
+        "MAR-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 55-page World Bank PDF opened; physical pp.24-26 and 32-33 reviewed.",
+          "notes": "Direct PDF and its model-scenario limitations were inspected; no search-result snippets were used as evidence.",
+          "reuse_terms": "World Bank copyright permits noncommercial reproduction with attribution.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MAR-SRC-104",
+      "title": "Morocco 2000003887: PADERMO Supervision Report February 2026",
+      "organization": "International Fund for Agricultural Development (IFAD)",
+      "publication_date": "2026-02-05",
+      "publication_date_basis": "document-version",
+      "url": "https://www.ifad.org/documents/48415603/51754816/MAR_2000003887_SUPERVISION_REPORT_FEB_2026_0018-1049349578-6754.pdf/222b9b89-55fd-55cd-98e3-779b4bb40ed3?t=1771430632239",
+      "geographic_coverage": [
+        "Oriental Region",
+        "Oujda-Angad",
+        "Berkane",
+        "Driouch",
+        "Guercif",
+        "Amejjaou"
+      ],
+      "temporal_coverage": "Report dated 5 February 2026 on a supervision mission held 16-29 November 2025; implementation indicators generally reflect 31 October 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MAR-E-111",
+        "MAR-E-112",
+        "MAR-E-113"
+      ],
+      "this_audit_verification": "access-only",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 91-page IFAD supervision report opened; physical pp.6-7, 17, 21 and 81 reviewed.",
+          "notes": "Direct IFAD-hosted PDF; cover states document date 5 February 2026 and mission dates 16-29 November 2025. French text was translated for paraphrase.",
+          "reuse_terms": "No license terms identified in inspected pages.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "MAR-E-111",
+        "selected_source_id": "MAR-SRC-104",
+        "url": "https://www.ifad.org/documents/48415603/51754816/MAR_2000003887_SUPERVISION_REPORT_FEB_2026_0018-1049349578-6754.pdf/222b9b89-55fd-55cd-98e3-779b4bb40ed3?t=1771430632239",
+        "locator": "PDF physical pp.6-7 (printed pp.3-4), sections C-D, mission conclusions on provincial project execution.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 764832,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          6,
+          7
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "MAR-E-111"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "MAR-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MAR-SRC-101",
+          "locator": "PDF physical p.62 (printed p.60), section 6, recent basin water deficits and climate impacts."
+        }
+      ],
+      "geographies": [
+        "Moroccan river basins",
+        "Agadir",
+        "Oriental Region"
+      ],
+      "affected_groups": [
+        "cereal producers",
+        "communities in affected areas"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: 2022-23 deficits reached 81% in unnamed basins and cereal output fell 67%; the NDC records 50.4°C heat in Agadir and over 6,000 hectares burned in Oriental in 2023.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MAR-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MAR-SRC-101",
+          "locator": "PDF physical p.65 (printed p.63), section 7.2, flood deaths, displacement and service disruption."
+        }
+      ],
+      "geographies": [
+        "Ourika",
+        "Guelmim",
+        "Tanger",
+        "Casablanca",
+        "Agadir",
+        "Morocco"
+      ],
+      "affected_groups": [
+        "people killed or internally displaced",
+        "urban residents and workers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC reports historical flood deaths at Ourika in 1995 and Guelmim in 2014, and a separate national total of nearly 22,000 internal displacements in 2008-2024. That displacement total is not assigned to these cities or particular flood events.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MAR-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MAR-SRC-101",
+          "locator": "PDF physical pp.65-66 (printed pp.63-64), section 7.2, 2022 drought and agricultural losses."
+        }
+      ],
+      "geographies": [
+        "Gharb",
+        "Haouz",
+        "Saïss",
+        "rural Morocco"
+      ],
+      "affected_groups": [
+        "family farms",
+        "rural women",
+        "agricultural workers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC reports drought-related fruit losses in Gharb, Haouz and Saïss in 2022 and disproportionate livelihood pressure on rural women. Its discussion links farm precarity with rural out-migration; it does not establish violence or allocate migration counts to these regions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MAR-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MAR-SRC-101",
+          "locator": "PDF physical pp.37-38 (printed pp.35-36), territorial adaptation plans and regional actions."
+        }
+      ],
+      "geographies": [
+        "Oriental Region",
+        "Drâa-Tafilalet",
+        "Souss-Massa",
+        "Béni Mellal-Khénifra",
+        "Marrakech-Safi"
+      ],
+      "affected_groups": [
+        "rural communities",
+        "oasis communities",
+        "people in vulnerable rural areas"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: Regional plans in Oriental, Drâa-Tafilalet, Souss-Massa, Béni Mellal-Khénifra and Marrakech-Safi target oasis and rural adaptation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MAR-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MAR-SRC-101",
+          "locator": "PDF physical p.106 (printed p.98), Annex 4, adaptation projects and human mobility."
+        }
+      ],
+      "geographies": [
+        "Morocco",
+        "rural communities",
+        "multiple river basins"
+      ],
+      "affected_groups": [
+        "rural communities",
+        "people at risk of climate-related migration"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "Proposed 2026-2035 measures; no modeled scenario.",
+      "compact_statement": "Morocco's NDC proposes wastewater reuse, groundwater management and interbasin transfers in 2026-2035 as measures intended to reduce water-stress migration. Benefits are not measured; interbasin transfer is not cross-border migration.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check",
+        "programme_intent_and_outcome_terms_co-occur"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MAR-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MAR-SRC-102",
+          "locator": "PDF physical p.7, national climate circumstances and rainfall distribution."
+        }
+      ],
+      "geographies": [
+        "southern provinces",
+        "southeast Atlas",
+        "Souss",
+        "El Haouz",
+        "Oriental"
+      ],
+      "affected_groups": [
+        "rural communities",
+        "farmers",
+        "water users"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-01 reports: The plan reports 1960-2018 rainfall decline, warming and increased aridity; southern and southeast Atlas provinces are arid, while Souss, El Haouz and Oriental include semi-arid zones.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check",
+        "programme_intent_and_outcome_terms_co-occur"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MAR-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MAR-SRC-102",
+          "locator": "PDF physical p.10, fisheries vulnerability and exposure assessment."
+        }
+      ],
+      "geographies": [
+        "Atlantic coast",
+        "Morocco"
+      ],
+      "affected_groups": [
+        "artisanal fishers",
+        "small aquaculture producers",
+        "women fish processors"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "RCP8.5 projection to 2050.",
+      "compact_statement": "Source dated 2022-01 reports: By 2050, catch potential could fall 5% under RCP8.5; artisanal fishers, small aquaculture producers and women-majority fish processors are identified as especially exposed.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MAR-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MAR-SRC-102",
+          "locator": "PDF physical pp.61-63 and 69-74, oasis and community-based adaptation actions."
+        }
+      ],
+      "geographies": [
+        "oasis zones",
+        "mountain areas",
+        "local communities"
+      ],
+      "affected_groups": [
+        "oasis populations",
+        "mountain communities",
+        "women",
+        "vulnerable rural households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-01 reports: The plan proposes oasis livelihood diversification and climate early warning, and community-led vulnerability mapping and water options tailored to each mountain massif.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MAR-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MAR-SRC-103",
+          "locator": "PDF physical pp.32-33 (printed pp.25-26), Table 6.3 and discussion of labor and migration."
+        }
+      ],
+      "geographies": [
+        "Morocco",
+        "urban areas"
+      ],
+      "affected_groups": [
+        "unskilled workers",
+        "agricultural workers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "SC4: 25% water-supply reduction combined with crop-yield shocks; report describes medium- to long-run effects.",
+      "compact_statement": "Source dated 2020 reports: In modeled case SC4, a 25% water-supply reduction plus climate-related yield changes reduces national unskilled-labor demand by 7%; permanent losses may expand urban migration.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MAR-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MAR-SRC-103",
+          "locator": "PDF physical pp.25-26 (printed pp.18-19), National Irrigation Water Saving Program discussion."
+        }
+      ],
+      "geographies": [
+        "Morocco"
+      ],
+      "affected_groups": [
+        "farmers",
+        "irrigation users"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020 reports: The 2020 report says the government program supports sprinkler and drip irrigation, targeting 555,000 hectares and a reduction in flood-irrigated land from 81% to 43%.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MAR-E-111",
+      "record_review": "manual-passage-check-incomplete",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "MAR-SRC-104",
+          "locator": "PDF physical pp.6-7 (printed pp.3-4), sections C-D, mission conclusions on provincial project execution."
+        }
+      ],
+      "geographies": [
+        "Oriental Region",
+        "Guercif",
+        "Oujda",
+        "Driouch"
+      ],
+      "affected_groups": [
+        "rural households",
+        "project beneficiaries"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02-05 reports: The 2025 mission found cumulative delays, 9% effective physical execution and under 1% disbursement; it attributed slow progress partly to limited provincial agriculture-department capacity and delayed technical assistance.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "MAR-E-111",
+        "source_id": "MAR-SRC-104",
+        "url": "https://www.ifad.org/documents/48415603/51754816/MAR_2000003887_SUPERVISION_REPORT_FEB_2026_0018-1049349578-6754.pdf/222b9b89-55fd-55cd-98e3-779b4bb40ed3?t=1771430632239",
+        "locator": "PDF physical pp.6-7 (printed pp.3-4), sections C-D, mission conclusions on provincial project execution.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "access-only",
+        "claim_verification": "unresolved",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "manual_adjudication_completed": true,
+        "verification_note": "The inspected mission page contains remedial recommendations, not the complete9%-execution/under1%-disbursement passage."
+      },
+      "verification_note": "The inspected mission page contains remedial recommendations, not the complete9%-execution/under1%-disbursement passage.",
+      "manual_adjudication": {
+        "status": "unresolved",
+        "reviewed_on": "2026-10-27",
+        "source_id": "MAR-SRC-104",
+        "source_url": "https://www.ifad.org/documents/48415603/51754816/MAR_2000003887_SUPERVISION_REPORT_FEB_2026_0018-1049349578-6754.pdf/222b9b89-55fd-55cd-98e3-779b4bb40ed3?t=1771430632239",
+        "locator": "PDF physical pp.6-7 (printed pp.3-4), sections C-D, mission conclusions on provincial project execution.",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The inspected mission page contains remedial recommendations, not the complete9%-execution/under1%-disbursement passage.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      }
+    },
+    {
+      "record_id": "MAR-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MAR-SRC-104",
+          "locator": "PDF physical p.17 (printed p.15), outreach indicators and planned target groups."
+        }
+      ],
+      "geographies": [
+        "19 communes in Oujda-Angad, Berkane, Driouch and Guercif"
+      ],
+      "affected_groups": [
+        "women",
+        "young people",
+        "rural households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02-05 reports: The report records 5,651 activity participants, 45% women and 52% youth, against design targets of 30% and 40%; another section gives a different reach total.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MAR-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MAR-SRC-104",
+          "locator": "PDF physical p.21 (printed p.19), sections on climate adaptation investments and Amejjaou rural road damage."
+        }
+      ],
+      "geographies": [
+        "Amejjaou",
+        "Driouch",
+        "Oriental Region"
+      ],
+      "affected_groups": [
+        "rural residents",
+        "road users",
+        "project beneficiaries"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": "Report warns of intensifying extreme rainfall; no named projection scenario is specified.",
+      "compact_statement": "Source dated 2026-02-05 reports: Strong recent floods damaged the provisionally accepted Amejjaou track in Driouch; missing drainage and slope protections leave its durability at risk under intensifying extreme rainfall.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "MAR-E-111",
+  "source_access_review": {
+    "selected_record_id": "MAR-E-111",
+    "selected_source_id": "MAR-SRC-104",
+    "url": "https://www.ifad.org/documents/48415603/51754816/MAR_2000003887_SUPERVISION_REPORT_FEB_2026_0018-1049349578-6754.pdf/222b9b89-55fd-55cd-98e3-779b4bb40ed3?t=1771430632239",
+    "locator": "PDF physical pp.6-7 (printed pp.3-4), sections C-D, mission conclusions on provincial project execution.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "access-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 764832,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      6,
+      7
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The inspected mission page contains remedial recommendations, not the complete9%-execution/under1%-disbursement passage."
+  },
+  "checks": [
+    {
+      "record_id": "MAR-E-111",
+      "source_id": "MAR-SRC-104",
+      "locator": "PDF physical pp.6-7 (printed pp.3-4), sections C-D, mission conclusions on provincial project execution.",
+      "verification_status": "unresolved",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "access-only",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": false,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "MAR-E-111: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "MAR-E-101",
+    "MAR-E-102",
+    "MAR-E-103",
+    "MAR-E-104",
+    "MAR-E-105",
+    "MAR-E-106",
+    "MAR-E-107",
+    "MAR-E-108",
+    "MAR-E-109",
+    "MAR-E-110",
+    "MAR-E-111",
+    "MAR-E-112",
+    "MAR-E-113"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

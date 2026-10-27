@@ -1,0 +1,950 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "MYS",
+  "candidate_path": "countries/MYS/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 4,
+    "evidence_count": 12,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 12
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 11,
+      "verified": 1
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "MYS-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "MYS-E-101",
+          "MYS-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MYS-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MYS-E-102",
+          "MYS-E-103",
+          "MYS-E-104",
+          "MYS-E-108",
+          "MYS-E-111",
+          "MYS-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "MYS-E-106",
+          "MYS-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "MYS-E-101",
+          "MYS-E-103",
+          "MYS-E-104",
+          "MYS-E-105",
+          "MYS-E-108",
+          "MYS-E-109",
+          "MYS-E-110"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "MYS-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/MYS/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "MYS-SRC-101",
+      "title": "Malaysia Country Climate and Development Report",
+      "organization": "World Bank Group",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099042326042519641/pdf/P506809-28f13efd-7e6f-4791-8131-3f2c93836798.pdf",
+      "geographic_coverage": [
+        "Malaysia",
+        "Sarawak",
+        "Sabah",
+        "Kanowit",
+        "Kapit",
+        "Sibu",
+        "Song",
+        "Sandakan",
+        "Semporna",
+        "Sabak Bernam",
+        "Batu Pahat"
+      ],
+      "temporal_coverage": "Country climate-development assessment; observed subnational vulnerabilities and policy recommendations, with modeled future impacts.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "MYS-E-101",
+        "MYS-E-102",
+        "MYS-E-103",
+        "MYS-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF physical pp.32-34, 56.",
+          "notes": "Opened the original World Bank PDF and read the distributional, cohesion, recommendations and Indigenous-tenure passages.",
+          "reuse_terms": "Copyright applies; full attribution and any required permissions are needed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MYS-SRC-102",
+      "title": "Governing Climate Risks as National Security Priority: Call to Re-examine Malaysia’s Reactive Approach to Environmental Hazards",
+      "organization": "Institute of Strategic & International Studies (ISIS) Malaysia",
+      "publication_date": "2026-08-10",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.isis.org.my/wp-content/uploads/2026/08/Climate-peace-security_online_100826.pdf",
+      "geographic_coverage": [
+        "Malaysia",
+        "Kelantan",
+        "Terengganu",
+        "Sabah",
+        "Sarawak",
+        "Pahang",
+        "Klang Valley"
+      ],
+      "temporal_coverage": "Research note published in 2026; displacement examples from 2021-24 and conditional future risks.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "MYS-E-105",
+        "MYS-E-106",
+        "MYS-E-107"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF physical pp.14-15, printed pp.13-16.",
+          "notes": "Opened the original ISIS Malaysia PDF and read the displacement, social-tension and protection passages; its text states all rights reserved and written permission required.",
+          "reuse_terms": "Written permission required for reproduction; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "MYS-E-106",
+        "selected_source_id": "MYS-SRC-102",
+        "url": "https://www.isis.org.my/wp-content/uploads/2026/08/Climate-peace-security_online_100826.pdf",
+        "locator": "PDF physical p.14, printed p.13.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 966770,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          14
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "MYS-E-106"
+      ],
+      "manual_verified_record_ids": [
+        "MYS-E-106"
+      ]
+    },
+    {
+      "source_id": "MYS-SRC-103",
+      "title": "Balancing Innovation and Coordination: Institutional Solutions for Effective Climate Action in Malaysia’s Borneo States — Subnational Climate Change Institutional Assessment Overview",
+      "organization": "World Bank Group, with Sarawak Ministry of Energy and Environmental Sustainability and Sabah Forestry Department",
+      "publication_date": "2026-03",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099021126085575250/pdf/P512756-b1703b72-1259-4256-9d83-257d98e2873c.pdf",
+      "geographic_coverage": [
+        "Sabah",
+        "Sarawak"
+      ],
+      "temporal_coverage": "Institutional overview published March 2026; describes state structures, tools and capacity constraints.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "MYS-E-108",
+        "MYS-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF physical pp.15, 17; printed pp.14, 16.",
+          "notes": "Opened the original World Bank overview and read state coordination and climate-monitoring passages.",
+          "reuse_terms": "Overview requests prior written authorization for noncommercial reproduction.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MYS-SRC-104",
+      "title": "Coping with Climate Change: OECD Economic Surveys: Malaysia 2026",
+      "organization": "Organisation for Economic Co-operation and Development",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-malaysia-2026_9ab6b826-en/full-report/coping-with-climate-change_4ce1f477.html",
+      "geographic_coverage": [
+        "Malaysia",
+        "Kedah",
+        "Perlis",
+        "Perak",
+        "state and district governments"
+      ],
+      "temporal_coverage": "2026 economic survey chapter; includes first-half 2026 agricultural impacts and current policy status.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MYS-E-110",
+        "MYS-E-111",
+        "MYS-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full-report chapter, section 2, paragraphs on 2026 dry spells and adaptation governance.",
+          "notes": "Opened and read the full official OECD chapter body, not the indexed search excerpt.",
+          "reuse_terms": "No reuse terms assessed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "MYS-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MYS-SRC-101",
+          "locator": "PDF physical pp.32-34, printed pp.19-21."
+        }
+      ],
+      "geographies": [
+        "Kanowit District",
+        "Kapit District",
+        "Sibu District",
+        "Song District",
+        "Sandakan",
+        "Semporna",
+        "Sabak Bernam",
+        "Batu Pahat"
+      ],
+      "affected_groups": [
+        "people in poverty",
+        "outdoor workers",
+        "low-income households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026 reports: Flood and poverty exposure overlap in Sarawak’s Kanowit, Kapit, Sibu and Song districts and coastal Sandakan, Semporna, Sabak Bernam and Batu Pahat; poorer households have weaker housing and fewer savings or insurance.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MYS-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MYS-SRC-101",
+          "locator": "PDF physical p.34, printed p.21."
+        }
+      ],
+      "geographies": [
+        "Malaysia"
+      ],
+      "affected_groups": [
+        "citizens",
+        "low-income groups",
+        "women",
+        "youth",
+        "Indigenous peoples"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026 reports: Climate planning faces weak participation, low climate knowledge and public-trust concerns.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MYS-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MYS-SRC-101",
+          "locator": "PDF physical p.56, printed p.43."
+        }
+      ],
+      "geographies": [
+        "Sabah",
+        "Sarawak"
+      ],
+      "affected_groups": [
+        "Indigenous communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026 reports: Indigenous land-tenure insecurity in Sabah and Sarawak leaves customary rights contested and undermines forest governance and conservation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MYS-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MYS-SRC-101",
+          "locator": "PDF physical p.34, printed p.21."
+        }
+      ],
+      "geographies": [
+        "Kelantan",
+        "Sabah",
+        "Terengganu",
+        "Kuala Krai",
+        "coastal Sabah"
+      ],
+      "affected_groups": [
+        "B40 households",
+        "women",
+        "youth",
+        "Orang Asli",
+        "Indigenous peoples"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026 reports: The CCDR proposes targeted housing, livelihood and financial support for poorer flood-prone communities and climate planning with women, youth, Orang Asli and other Indigenous peoples.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MYS-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MYS-SRC-102",
+          "locator": "PDF physical p.14, printed p.13."
+        }
+      ],
+      "geographies": [
+        "Kelantan",
+        "Terengganu",
+        "Sabah",
+        "Sarawak",
+        "Pahang",
+        "Klang Valley"
+      ],
+      "affected_groups": [
+        "flood-displaced people",
+        "lower-income households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08-10 reports: Floods displaced 129,000 people in 2021 and 156,000 in 2022, concentrated in five states; poorer Klang Valley households can be trapped in repeated evacuations.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MYS-E-106",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "MYS-SRC-102",
+          "locator": "PDF physical p.14, printed p.13."
+        }
+      ],
+      "geographies": [
+        "Malaysia"
+      ],
+      "affected_groups": [
+        "children",
+        "women",
+        "older people",
+        "displaced people"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08-10 reports: Climate displacement can remove legal, social and economic protections that otherwise contain resource competition and social tension; children, women and elders face higher risks.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "Retain as a research-note proposition and preserve its conditional scope; do not present as a measured causal effect."
+      ],
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+      "verification_attempt": {
+        "record_id": "MYS-E-106",
+        "source_id": "MYS-SRC-102",
+        "url": "https://www.isis.org.my/wp-content/uploads/2026/08/Climate-peace-security_online_100826.pdf",
+        "locator": "PDF physical p.14, printed p.13.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The cited ISIS Malaysia research note states that climate-induced displacement can remove legal/social/economic protections and that children, women and older people face heightened exposure where displacement governance is limited. This is the report's analytical proposition, not a measured outcome estimate."
+      },
+      "verification_note": "The cited ISIS Malaysia research note states that climate-induced displacement can remove legal/social/economic protections and that children, women and older people face heightened exposure where displacement governance is limited. This is the report's analytical proposition, not a measured outcome estimate.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "MYS-SRC-102",
+        "source_url": "https://www.isis.org.my/wp-content/uploads/2026/08/Climate-peace-security_online_100826.pdf",
+        "locator": "PDF physical p.14, printed p.13.",
+        "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+        "reason": "The cited ISIS Malaysia research note states that climate-induced displacement can remove legal/social/economic protections and that children, women and older people face heightened exposure where displacement governance is limited. This is the report's analytical proposition, not a measured outcome estimate.",
+        "recommended_record_patch": "Retain as a research-note proposition and preserve its conditional scope; do not present as a measured causal effect.",
+        "coordinator_decision_ref": null
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "MYS-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MYS-SRC-102",
+          "locator": "PDF physical p.15, printed p.16."
+        }
+      ],
+      "geographies": [
+        "Malaysia"
+      ],
+      "affected_groups": [
+        "future climate-displaced people",
+        "refugees",
+        "host communities",
+        "undocumented migrants"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "The note presents a conditional future risk and specifies no climate or demographic scenario.",
+      "compact_statement": "The August 2026 ISIS policy note warns that gaps in recognition and protection for future climate-displaced people could limit service access and aggravate resource tensions. This is the authors' conditional policy-risk framing, not a comprehensive current legal opinion.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MYS-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MYS-SRC-103",
+          "locator": "PDF physical p.15, printed p.14."
+        }
+      ],
+      "geographies": [
+        "Sabah",
+        "Sarawak"
+      ],
+      "affected_groups": [
+        "state agencies",
+        "communities in Sabah and Sarawak"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03 reports: Sabah’s climate governance is centralized in the Chief Minister’s Department; Sabah and Sarawak have overlapping mandates and silos that impede coordination.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MYS-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MYS-SRC-103",
+          "locator": "PDF physical p.17, printed p.16."
+        }
+      ],
+      "geographies": [
+        "Sabah",
+        "Sarawak"
+      ],
+      "affected_groups": [
+        "forestry agencies",
+        "communities in Sabah and Sarawak"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03 reports: Sabah uses iForSABAH, GeoForest and forest-fire danger maps, while both Borneo states report technical and budget gaps in climate monitoring.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MYS-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MYS-SRC-104",
+          "locator": "Full-report chapter, “Coping with Climate Change,” paragraph beginning “During the first half of 2026”."
+        }
+      ],
+      "geographies": [
+        "Kedah",
+        "Perlis",
+        "Perak"
+      ],
+      "affected_groups": [
+        "paddy farmers",
+        "small farmers",
+        "rural communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026 reports: During the first half of 2026, dry spells lowered paddy yields by over 60% in areas of Kedah, Perlis and Perak.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MYS-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MYS-SRC-104",
+          "locator": "Full-report chapter, “Coping with Climate Change,” paragraphs under “Developing a national climate change adaptation strategy”."
+        }
+      ],
+      "geographies": [
+        "Malaysia",
+        "state and district governments"
+      ],
+      "affected_groups": [
+        "state governments",
+        "district governments",
+        "local communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026 reports: The late-2024 National Disaster Risk Reduction Policy 2030 decentralizes risk management, but local human and financial shortages hinder implementation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MYS-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MYS-SRC-104",
+          "locator": "Full-report chapter, “Coping with Climate Change,” paragraphs beginning “Despite the ongoing policy initiatives” and “The national government is still working”."
+        }
+      ],
+      "geographies": [
+        "Malaysia"
+      ],
+      "affected_groups": [
+        "national ministries",
+        "state and local governments",
+        "climate-vulnerable groups"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026 reports: Adaptation policies remain fragmented across ministries and sectors; Malaysia’s National Adaptation Plan is still under development.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "MYS-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MYS-E-105",
+        "MYS-E-106",
+        "MYS-E-107"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MYS-E-105"
+        ],
+        "impact": [
+          "MYS-E-106"
+        ],
+        "mediator": [
+          "MYS-E-106",
+          "MYS-E-107"
+        ],
+        "consequence": [
+          "MYS-E-106",
+          "MYS-E-107"
+        ]
+      },
+      "geographies": [
+        "Malaysia (national conditional framing)"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "The 2026 ISIS note warns that climate-related displacement can weaken protective systems and, where recognition/services are inadequate, aggravate resource tensions; this is conditional policy analysis, not observed climate-caused violence.",
+      "alternative_explanations": [
+        "Pre-existing inequality, tenure rules, service investment, urban development and wider political/economic conditions also affect displacement and social relations."
+      ],
+      "uncertainty": "Conditional national policy analysis, not local incident evidence or causal evaluation. Legal-protection claims are attributed to the authors, not current legal advice; no displaced-group threat label.",
+      "potentially_out_of_scope_support_ids": [
+        "MYS-E-105",
+        "MYS-E-106",
+        "MYS-E-107"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "MYS-E-106",
+  "source_access_review": {
+    "selected_record_id": "MYS-E-106",
+    "selected_source_id": "MYS-SRC-102",
+    "url": "https://www.isis.org.my/wp-content/uploads/2026/08/Climate-peace-security_online_100826.pdf",
+    "locator": "PDF physical p.14, printed p.13.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 966770,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      14
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+    "verification_note": "The cited ISIS Malaysia research note states that climate-induced displacement can remove legal/social/economic protections and that children, women and older people face heightened exposure where displacement governance is limited. This is the report's analytical proposition, not a measured outcome estimate."
+  },
+  "checks": [
+    {
+      "record_id": "MYS-E-106",
+      "source_id": "MYS-SRC-102",
+      "locator": "PDF physical p.14, printed p.13.",
+      "verification_status": "verified",
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Retain as a research-note proposition and preserve its conditional scope; do not present as a measured causal effect.",
+      "coordinator_decision_ref": null
+    }
+  ],
+  "limitations": [
+    "MYS-E-106: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "MYS-E-101",
+    "MYS-E-102",
+    "MYS-E-103",
+    "MYS-E-104",
+    "MYS-E-105",
+    "MYS-E-106",
+    "MYS-E-107",
+    "MYS-E-108",
+    "MYS-E-109",
+    "MYS-E-110",
+    "MYS-E-111",
+    "MYS-E-112",
+    "MYS-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 1,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

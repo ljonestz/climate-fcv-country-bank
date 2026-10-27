@@ -1,0 +1,1116 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "TGO",
+  "candidate_path": "countries/TGO/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 6,
+    "evidence_count": 16,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 16
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 7,
+      "access-only": 9
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "TGO-E-002"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "TGO-E-003",
+          "TGO-E-101",
+          "TGO-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "TGO-E-001",
+          "TGO-E-006",
+          "TGO-E-007",
+          "TGO-E-102",
+          "TGO-E-103",
+          "TGO-E-106",
+          "TGO-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "TGO-E-104",
+          "TGO-E-107",
+          "TGO-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "TGO-E-004",
+          "TGO-E-005"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "TGO-E-101",
+          "TGO-E-102",
+          "TGO-E-103",
+          "TGO-E-104",
+          "TGO-E-105",
+          "TGO-E-106"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "TGO-P-001"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/TGO/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "TGO-SRC-001",
+      "title": "Première Communication relative à l'Adaptation aux Changements Climatiques au Togo",
+      "organization": "Ministère de l'Environnement et des Ressources Forestières, République Togolaise",
+      "publication_date": "2023-04",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/ACR/2023-08/togo-ad-comm-fr.pdf",
+      "geographic_coverage": [
+        "Togo",
+        "Savanes Region",
+        "Kara Region",
+        "Coastal zone"
+      ],
+      "temporal_coverage": "Synthesis of 2017-2023 vulnerability studies; projections to 2050 and 2100",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "restricted",
+      "records_using_source": [
+        "TGO-E-001",
+        "TGO-E-002",
+        "TGO-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TGO-SRC-002",
+      "title": "Contributions Déterminées au Niveau National Révisées du Togo: Document Intérimaire",
+      "organization": "Ministère de l'Environnement et des Ressources Forestières, République Togolaise",
+      "publication_date": "2021-10",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/NDC/2022-06/CDN%20Revis%C3%A9es_Togo_Document%20int%C3%A9rimaire_rv_11%2010%2021.pdf",
+      "geographic_coverage": [
+        "Togo",
+        "Savanes Region",
+        "Plateaux Region",
+        "Oti Basin",
+        "Mono Basin",
+        "Lake Togo"
+      ],
+      "temporal_coverage": "Historical sector impacts and climate observations; basin and sector projections to 2030 and 2050",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TGO-E-004",
+        "TGO-E-005",
+        "TGO-E-006",
+        "TGO-E-007"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "TGO-E-005",
+        "selected_source_id": "TGO-SRC-002",
+        "url": "https://unfccc.int/sites/default/files/NDC/2022-06/CDN%20Revis%C3%A9es_Togo_Document%20int%C3%A9rimaire_rv_11%2010%2021.pdf",
+        "locator": "Section 4.2.3, PDF pp. 51-52 (one-based), basin water projections and source-conflict risk.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 212,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "TGO-SRC-101",
+      "title": "FAO GIEWS Country Brief on Togo",
+      "organization": "Food and Agriculture Organization of the United Nations",
+      "publication_date": "2026-08-28",
+      "publication_date_basis": "document-version",
+      "url": "https://www.fao.org/giews/countrybrief/country.jsp?code=TGO&lang=en",
+      "geographic_coverage": [
+        "Togo",
+        "Savanes Region",
+        "Kara Region",
+        "Greater Lomé",
+        "Maritime Region",
+        "Plateaux Region"
+      ],
+      "temporal_coverage": "GIEWS reference date 28 August 2026; reports 2026 crop conditions, June 2026 flooding and the 2026 lean season.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TGO-E-101",
+        "TGO-E-102",
+        "TGO-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full GIEWS page, including crop conditions, Savanes food insecurity and late-June 2026 flood reporting; reference date 28 August 2026.",
+          "notes": "The full current page was read. Forecasts with expired periods were not presented as current results.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TGO-SRC-102",
+      "title": "Response in Coastal Countries Linked to Sahel Crisis Spillover: Humanitarian Situation Report No. 2, End of Year 2024",
+      "organization": "United Nations Children’s Fund",
+      "publication_date": "2025-04-14",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/media/169701/file/WCAR-Response-in-coastal-countries-linked-to-Sahel-crisis-spillover-EoY-December-2024.pdf",
+      "geographic_coverage": [
+        "Togo",
+        "Savanes Region",
+        "Kpendjal Prefecture",
+        "Kpendjal Ouest Prefecture",
+        "Tône Prefecture",
+        "Tandjoaré Prefecture",
+        "Maritime Region",
+        "Grand Lomé"
+      ],
+      "temporal_coverage": "UNICEF regional report covering 1 January to 31 December 2024; published 14 April 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TGO-E-104",
+        "TGO-E-105",
+        "TGO-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 28-page report, Togo ‘Situation Overview & Humanitarian Needs’, climate-risk discussion and programme-response section.",
+          "notes": "The complete UNICEF regional PDF was read. The report distinguishes 2024 flood impacts from conflict-related insecurity and emergency-access restrictions.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TGO-SRC-103",
+      "title": "Togo Hydromet and Early Warning Services",
+      "organization": "World Meteorological Organization",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://public.wmo.int/activities/projects/project-portfolio/togo-hydromet-and-early-warning-services",
+      "geographic_coverage": [
+        "Togo"
+      ],
+      "temporal_coverage": "WMO project portfolio page lists the project as completed; the accessible page does not state dates.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TGO-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full WMO project page, status, background, objectives, outputs and partner list.",
+          "notes": "The page marks the project completed but lists output areas rather than verified delivery or performance results.",
+          "reuse_terms": "WMO copyright notice; no separate open license verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TGO-SRC-104",
+      "title": "Analyse du paysage climatique pour les enfants au Togo: Placer les droits des enfants au cœur de l’action climatique",
+      "organization": "Ministry of Environment and Forest Resources of Togo, with support from the United Nations Children’s Fund",
+      "publication_date": "2025-11",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/togo/rapports/analyse-du-paysage-climatique-pour-les-enfants-au-togo",
+      "geographic_coverage": [
+        "Togo"
+      ],
+      "temporal_coverage": "Publisher webpage summary for the French-language Ministry–UNICEF climate landscape for children, published November 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TGO-E-108",
+        "TGO-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full publisher webpage, title, author/date metadata and two ‘Highlights’ paragraphs.",
+          "notes": "The accessible page summary was read in full; claims are limited to its stated national highlights.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "TGO-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TGO-SRC-001",
+          "locator": "Executive summary, printed p. iii (PDF p. 3), agriculture vulnerability by region."
+        }
+      ],
+      "geographies": [
+        "Togo",
+        "Savanes Region",
+        "Kara Region"
+      ],
+      "affected_groups": [
+        "Agricultural producers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "RCP6.0; projection horizon 2050.",
+      "compact_statement": "Agriculture vulnerability is high nationwide and very high in Savanes; under RCP6.0, Kara also reaches very high by 2050.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "TGO-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TGO-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TGO-SRC-001",
+          "locator": "Section 2.3.4.1, printed p. 50 (PDF p. 61), coastal erosion and shoreline change."
+        }
+      ],
+      "geographies": [
+        "Togo",
+        "Coastal zone"
+      ],
+      "affected_groups": [
+        "Coastal communities",
+        "Fishers"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Communication reports retreat along 40 km of sandy coast at an average 10 m yearly, aggravated by storms and local sediment dynamics.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "TGO-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TGO-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TGO-SRC-001",
+          "locator": "Section 2.3.4.1, printed p. 50 (PDF p. 61), sea-level projection summary."
+        }
+      ],
+      "geographies": [
+        "Togo",
+        "Coastal zone"
+      ],
+      "affected_groups": [
+        "Coastal communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term",
+        "long-term"
+      ],
+      "scenario": "RCP6.0.",
+      "compact_statement": "Under RCP6.0, sea level is projected to rise 11.35 cm by 2025 and 62 cm by 2100, worsening coastal erosion and livelihood risks.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "TGO-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TGO-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TGO-SRC-002",
+          "locator": "Section 4.2.2.2, PDF pp. 50-51 (one-based), livestock vulnerability and farmer-herder conflict."
+        }
+      ],
+      "geographies": [
+        "Togo",
+        "Savanes Region",
+        "Plateaux Region"
+      ],
+      "affected_groups": [
+        "Herders",
+        "Farmers",
+        "Transhumant pastoralists"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "NDC links prolonged drought in recent decades with recurring farmer-herder conflicts in the Savanes and Plateaux livestock areas.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "TGO-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TGO-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "TGO-SRC-002",
+          "locator": "Section 4.2.3, PDF pp. 51-52 (one-based), basin water projections and source-conflict risk."
+        }
+      ],
+      "geographies": [
+        "Mono Basin",
+        "Oti Basin",
+        "Lake Togo"
+      ],
+      "affected_groups": [
+        "Water users"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "RCP6.0 stabilization; horizon 2030.",
+      "compact_statement": "Under RCP6.0 to 2030, water stocks rise in Mono but fall in Oti and Lake Togo; NDC warns inaction may heighten water-source conflict risk.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "TGO-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET; HTML visible-text extraction",
+      "verification_attempt": {
+        "selected_record_id": "TGO-E-005",
+        "selected_source_id": "TGO-SRC-002",
+        "url": "https://unfccc.int/sites/default/files/NDC/2022-06/CDN%20Revis%C3%A9es_Togo_Document%20int%C3%A9rimaire_rv_11%2010%2021.pdf",
+        "locator": "Section 4.2.3, PDF pp. 51-52 (one-based), basin water projections and source-conflict risk.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 212,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "TGO-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TGO-SRC-002",
+          "locator": "Section 4.2.4, PDF p. 52 (one-based), Oti and Mono flood impacts in 2020 and 2021."
+        }
+      ],
+      "geographies": [
+        "Oti Basin",
+        "Mono Basin"
+      ],
+      "affected_groups": [
+        "Flood-affected communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "NDC reports 2020-2021 Oti and Mono floods caused deaths and damaged roads, markets, health centers, homes, schools, power and telecoms.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "TGO-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TGO-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TGO-SRC-002",
+          "locator": "Section 4.2.2.2, PDF p. 50 (one-based), 2020 crop losses from flooding and dry spells."
+        }
+      ],
+      "geographies": [
+        "Togo"
+      ],
+      "affected_groups": [
+        "Farmers",
+        "Food crop producers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "NDC estimates 6,902 hectares of food crops flooded in 2020 and production losses near 9,000 tonnes; dry spells also reduced yields.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "TGO-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TGO-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TGO-SRC-101",
+          "locator": "Section ‘Generally favourable performance of 2026 seasonal rains’, paragraphs on northern planting and vegetation."
+        }
+      ],
+      "geographies": [
+        "Kara Region",
+        "Savanes Region",
+        "northern Kara"
+      ],
+      "affected_groups": [
+        "farmers",
+        "agricultural households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08-28 reports: FAO reports that early-season dryness and erratic rain delayed planting and required replanting in parts of Kara and Savanes; early-August satellite data showed below-average vegetation pockets in northern Kara.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TGO-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TGO-SRC-101",
+          "locator": "Section ‘About 332 000 people estimated to face severe acute food insecurity between June and August 2026’."
+        }
+      ],
+      "geographies": [
+        "Savanes Region"
+      ],
+      "affected_groups": [
+        "people facing acute food insecurity",
+        "internally displaced people",
+        "refugees",
+        "host communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "FAO's August 2026 brief places about 45% of the nationally estimated June–August CH Phase 3 population in Savanes. It separately reports insecurity-related livelihood/trade disruption and about 13,400 IDPs as of June.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TGO-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TGO-SRC-101",
+          "locator": "Final paragraph on heavy rainfall and flooding."
+        }
+      ],
+      "geographies": [
+        "Greater Lomé",
+        "Maritime Region",
+        "Plateaux Region"
+      ],
+      "affected_groups": [
+        "flood-affected people",
+        "households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08-28 reports: FAO reports late-June 2026 heavy rain flooded Greater Lomé and parts of Maritime and Plateaux, affecting about 26,600 people and damaging housing and infrastructure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TGO-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TGO-SRC-102",
+          "locator": "Togo ‘Situation Overview & Humanitarian Needs’, paragraph on Savanes security incidents in 2024."
+        }
+      ],
+      "geographies": [
+        "Savanes Region",
+        "Kpendjal Prefecture",
+        "Kpendjal Ouest Prefecture",
+        "Tône Prefecture",
+        "Tandjoaré Prefecture"
+      ],
+      "affected_groups": [
+        "residents",
+        "displaced people",
+        "humanitarian responders"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-04-14 reports: UNICEF reports 16 IED explosions in 2024 limited emergency actors’ access in Kpendjal, Kpendjal Ouest, Tône and Tandjoaré; 31 armed-group attacks or incursions caused 49 deaths and displacement.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TGO-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TGO-SRC-102",
+          "locator": "Togo ‘Situation Overview & Humanitarian Needs’, paragraph on the 2024 rainy season."
+        }
+      ],
+      "geographies": [
+        "Maritime Region",
+        "Grand Lomé"
+      ],
+      "affected_groups": [
+        "flood-affected people",
+        "displaced communities",
+        "children"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-04-14 reports: UNICEF reports a bad 2024 rainy season flooded Maritime and Grand Lomé, affecting 42,000 people; its regional overview says floods damaged crops and infrastructure and displaced communities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TGO-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TGO-SRC-102",
+          "locator": "Togo ‘Situation Overview & Humanitarian Needs’, paragraphs on displacement and service access."
+        }
+      ],
+      "geographies": [
+        "Savanes Region",
+        "71 Savanes localities"
+      ],
+      "affected_groups": [
+        "refugees",
+        "internally displaced people",
+        "children",
+        "host communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-04-14 reports: By October 2024, UNICEF recorded 49,607 displaced people nationally, including 39,436 refugees and 10,171 IDPs; it reports displaced people in 71 Savanes localities had limited access to water, sanitation, health care, education and protection services.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TGO-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TGO-SRC-103",
+          "locator": "Project background, objectives and Components A–B under ‘Outputs’."
+        }
+      ],
+      "geographies": [
+        "Togo",
+        "communities in flood- and agricultural-drought-prone areas"
+      ],
+      "affected_groups": [
+        "communities in hazard-prone areas",
+        "national service agencies"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: WMO lists its completed Togo project as supporting meteorological, hydrological and civil-protection capacity, climate-watch forecasting, pilot flood and food-security warnings, multi-hazard procedures and community contingency exercises.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TGO-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TGO-SRC-104",
+          "locator": "Publisher webpage ‘Highlights’, first summary paragraph."
+        }
+      ],
+      "geographies": [
+        "Togo"
+      ],
+      "affected_groups": [
+        "children",
+        "young people"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-11 reports: The Ministry–UNICEF climate-landscape summary says prolonged drought, recurring floods, coastal erosion and rising temperatures threaten children’s rights and access to safe water, food, education, health care and protection.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TGO-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TGO-SRC-104",
+          "locator": "Publisher webpage ‘Highlights’, second summary paragraph."
+        }
+      ],
+      "geographies": [
+        "Togo"
+      ],
+      "affected_groups": [
+        "children",
+        "young people"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-11 reports: The summary cites Togo’s 2025 climate-change law as governance progress but says children’s and young people’s needs remain insufficiently integrated into public policy; it recommends resilient essential services and youth participation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "TGO-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "TGO-E-005"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "TGO-E-005"
+        ],
+        "impact": [
+          "TGO-E-005"
+        ],
+        "mediator": [
+          "TGO-E-005"
+        ],
+        "consequence": [
+          "TGO-E-005"
+        ]
+      },
+      "geographies": [
+        "Oti Basin",
+        "Lake Togo"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Unaddressed basin water stress may heighten access disputes.",
+      "alternative_explanations": [
+        "Water demand and allocation can affect disputes independently."
+      ],
+      "uncertainty": "NDC scenario and qualitative risk warning; Mono has a different projected trend. No forecast of violent incidents.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "TGO-E-005",
+  "source_access_review": {
+    "selected_record_id": "TGO-E-005",
+    "selected_source_id": "TGO-SRC-002",
+    "url": "https://unfccc.int/sites/default/files/NDC/2022-06/CDN%20Revis%C3%A9es_Togo_Document%20int%C3%A9rimaire_rv_11%2010%2021.pdf",
+    "locator": "Section 4.2.3, PDF pp. 51-52 (one-based), basin water projections and source-conflict risk.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "document-fetched",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 212,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null
+  },
+  "checks": [
+    {
+      "record_id": "TGO-E-005",
+      "source_id": "TGO-SRC-002",
+      "locator": "Section 4.2.3, PDF pp. 51-52 (one-based), basin water projections and source-conflict risk.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET; HTML visible-text extraction",
+      "access_date": "2026-10-27",
+      "source_access_status": "document-fetched",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "TGO-E-005: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "TGO-E-001",
+    "TGO-E-002",
+    "TGO-E-003",
+    "TGO-E-004",
+    "TGO-E-005",
+    "TGO-E-006",
+    "TGO-E-007",
+    "TGO-E-101",
+    "TGO-E-102",
+    "TGO-E-103",
+    "TGO-E-104",
+    "TGO-E-105",
+    "TGO-E-106",
+    "TGO-E-107",
+    "TGO-E-108",
+    "TGO-E-109",
+    "TGO-P-001"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

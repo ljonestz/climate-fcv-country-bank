@@ -1,0 +1,1232 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "UZB",
+  "candidate_path": "countries/UZB/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 7,
+    "evidence_count": 19,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 19
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 8,
+      "access-only": 10,
+      "verified": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "UZB-E-001",
+          "UZB-E-003"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "UZB-E-005",
+          "UZB-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "UZB-E-002",
+          "UZB-E-006",
+          "UZB-E-007",
+          "UZB-E-107",
+          "UZB-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "UZB-E-004",
+          "UZB-E-008",
+          "UZB-E-105",
+          "UZB-E-106",
+          "UZB-E-110",
+          "UZB-E-111",
+          "UZB-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "UZB-E-109",
+          "UZB-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "UZB-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "UZB-E-104",
+          "UZB-E-105",
+          "UZB-E-106",
+          "UZB-E-109",
+          "UZB-E-110",
+          "UZB-E-111",
+          "UZB-E-112",
+          "UZB-E-113",
+          "UZB-E-114"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/UZB/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "UZB-SRC-001",
+      "title": "Updated Nationally Determined Contribution of the Republic of Uzbekistan",
+      "organization": "Government of the Republic of Uzbekistan; UNFCCC repository",
+      "publication_date": "2021-10-30",
+      "publication_date_basis": "submission",
+      "url": "https://www.unfccc.int/sites/default/files/NDC/2022-06/Uzbekistan_Updated%20NDC_2021_EN.pdf",
+      "geographic_coverage": [
+        "Uzbekistan",
+        "western Uzbekistan",
+        "Aral Sea region"
+      ],
+      "temporal_coverage": "Historical warming since the early 1950s; NDC adaptation planning through 2030 and projections through 2050.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "UZB-E-001",
+        "UZB-E-002",
+        "UZB-E-003",
+        "UZB-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "UZB-SRC-002",
+      "title": "Climate Action Could Accelerate Growth and Improve Living Standards in Uzbekistan: World Bank Group Report",
+      "organization": "World Bank Group",
+      "publication_date": "2023-11-21",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2023/11/21/uzbekistan-ccdr",
+      "geographic_coverage": [
+        "Uzbekistan",
+        "Aral Sea region"
+      ],
+      "temporal_coverage": "CCDR release gives population risk estimates to 2030 and economic projection to 2050.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "UZB-E-005",
+        "UZB-E-006",
+        "UZB-E-007",
+        "UZB-E-008"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "UZB-SRC-101",
+      "title": "ATLAS of socio-economic and environmental indicators in the Aral Sea region of Uzbekistan",
+      "organization": "United Nations Development Programme; Institute for Social Research",
+      "publication_date": "2019-07-14",
+      "publication_date_basis": "publication",
+      "url": "https://uzbekistan.un.org/uz/download/13232/49737",
+      "geographic_coverage": [
+        "Karakalpakstan"
+      ],
+      "temporal_coverage": "2017 household and focus-group survey; Atlas published 2019.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "permission-required",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Introductory restriction notice",
+          "notes": "Coordinator confirmed the internal-use-only marking and removed substantive extracted findings before any commit. Public metadata retained only to explain exclusion.",
+          "reuse_terms": "Internal-use marking; no substantive content reused.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "UZB-SRC-102",
+      "title": "Karakalpakstan Agriculture Risk Profile for Climate Resilience Capacity Development",
+      "organization": "Global Green Growth Institute",
+      "publication_date": "2025-03-13",
+      "publication_date_basis": "publication",
+      "url": "https://gggi.org/report/karakalpakstan-agriculture-risk-profile-for-climate-resilience-capacity-development/",
+      "geographic_coverage": [
+        "Karakalpakstan",
+        "Bozataw District",
+        "Chimbay District",
+        "Karauzyak District",
+        "Kegeyli District"
+      ],
+      "temporal_coverage": "Four-district climate-resilience risk profile published March 2025; assessment period not specified in the publisher summary.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "UZB-E-104",
+        "UZB-E-105",
+        "UZB-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Publisher summary, opening water-risk paragraph and six key conclusions.",
+          "notes": "Substantive publisher text was read. The linked 13.5-MB English report PDF exceeded the browser reader's content-size limit, so no PDF-only details are used.",
+          "reuse_terms": "No reuse terms verified; status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "UZB-SRC-103",
+      "title": "Water and conflict in Central Asia",
+      "organization": "Norwegian Institute of International Affairs",
+      "publication_date": "2025",
+      "publication_date_basis": "document-version",
+      "url": "https://www.nupi.no/en/content/download/30723/1226153?version=5",
+      "geographic_coverage": [
+        "Uzbekistan",
+        "Central Asia",
+        "Aral Sea Basin",
+        "Amu Darya and Syr Darya basins"
+      ],
+      "temporal_coverage": "Review published in 2025; assesses regional water/conflict evidence, including 1990-2024 and future prospects.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "UZB-E-107",
+        "UZB-E-108"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 12-page research paper, especially pp. 2-4 and 8 (printed pp. 3-5 and 9), plus endnote vii on p. 11.",
+          "notes": "The complete PDF was read; geographic limits and the paper's caveat on contested scarcity-conflict causality were retained.",
+          "reuse_terms": "No reuse terms verified; status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "UZB-E-108",
+        "selected_source_id": "UZB-SRC-103",
+        "url": "https://www.nupi.no/en/content/download/30723/1226153?version=5",
+        "locator": "One-based PDF p.8 (printed p.8), Future prospects.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 1552464,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          8
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "UZB-E-108"
+      ],
+      "manual_verified_record_ids": [
+        "UZB-E-108"
+      ]
+    },
+    {
+      "source_id": "UZB-SRC-104",
+      "title": "UNDP in Uzbekistan and Uzhydromet sum up the results of joint activities on developing climate resilience of farming communities in Karakalpakstan",
+      "organization": "United Nations Development Programme; Center of Hydrometeorological Service of Uzbekistan (Uzhydromet)",
+      "publication_date": "2021-11-24",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/uzbekistan/press-releases/undp-uzbekistan-and-uzhydromet-sum-results-joint-activities-developing-climate-resilience-farming-communities",
+      "geographic_coverage": [
+        "Karakalpakstan",
+        "lower Amu Darya",
+        "Nukus",
+        "Kegeyli District"
+      ],
+      "temporal_coverage": "Adaptation Fund project implemented 2014-November 30, 2021; closeout results announced November 2021.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "UZB-E-109",
+        "UZB-E-110",
+        "UZB-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full substantive publisher page; project dates, warning-system outputs, center reach, practice uptake, and pasture-cooperative results.",
+          "notes": "The closeout account was read in full and treated as project-reported outputs/reach, not independent impact estimates.",
+          "reuse_terms": "No reuse terms verified; status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "UZB-SRC-105",
+      "title": "From local knowledge to local action: Communities shape restoration in three regions of Uzbekistan",
+      "organization": "Food and Agriculture Organization of the United Nations",
+      "publication_date": "2026-08-13",
+      "publication_date_basis": "publication",
+      "url": "https://www.fao.org/uzbekistan/news/detail/from-local-knowledge-to-local-action--communities-shape-restoration-in-three-regions-of-uzbekistan/en",
+      "geographic_coverage": [
+        "Karakalpakstan",
+        "Lower Amu Darya State Biosphere Reserve",
+        "Baday-Tugay",
+        "Khorezm",
+        "Kashkadarya"
+      ],
+      "temporal_coverage": "FAO-reported field visits and community workshops, including June 2026 consultations.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "UZB-E-112",
+        "UZB-E-113",
+        "UZB-E-114"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full substantive publisher page, especially June 2026 participation method and Karakalpakstan and community-restoration sections.",
+          "notes": "Article distinguishes community reports and proposals from future implementation; wildlife-related conflict is not treated as FCV evidence.",
+          "reuse_terms": "No reuse terms verified; status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "UZB-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UZB-SRC-001",
+          "locator": "NDC national circumstances, PDF p. 6; printed p. 6."
+        }
+      ],
+      "geographies": [
+        "Uzbekistan"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC reports Uzbekistan’s average temperature rose about 0.29°C per decade from the early 1950s, roughly twice the global rate.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "UZB-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UZB-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UZB-SRC-001",
+          "locator": "NDC adaptation section, PDF p. 21; printed pp. 22–23."
+        }
+      ],
+      "geographies": [
+        "Uzbekistan"
+      ],
+      "affected_groups": [
+        "farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "RCP4.5 and RCP8.5; 90% water-availability case stated in the NDC.",
+      "compact_statement": "For 2039 with 90% water availability, the NDC projects 10–13% cotton and winter-wheat yield losses and 10–12% for alfalfa under RCP4.5/8.5.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "UZB-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UZB-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UZB-SRC-001",
+          "locator": "NDC adaptation section, PDF pp. 21–22; printed pp. 22–23."
+        }
+      ],
+      "geographies": [
+        "western Uzbekistan",
+        "Uzbekistan"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "The NDC cites climate projections; the inspected passage does not name an emissions scenario.",
+      "compact_statement": "The NDC expects increasing aridity, especially in western Uzbekistan, as declining water resources and changing precipitation contribute to longer droughts and extreme events.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "UZB-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UZB-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UZB-SRC-001",
+          "locator": "NDC adaptation measures through 2030, PDF p. 23; printed p. 24."
+        }
+      ],
+      "geographies": [
+        "Uzbekistan"
+      ],
+      "affected_groups": [
+        "women",
+        "local communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Planned social-sector adaptation includes climate-risk information, hydrometeorological early warnings, and greater participation by women and local communities in planning and management.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "UZB-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UZB-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UZB-SRC-002",
+          "locator": "CCDR press-release paragraph beginning ‘Climate will affect the people of Uzbekistan’ (accessed 2026-10-26)."
+        }
+      ],
+      "geographies": [
+        "Uzbekistan"
+      ],
+      "affected_groups": [
+        "people in very high climate-risk areas"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "The inspected release does not specify the risk-area model scenario.",
+      "compact_statement": "The CCDR release projects at least 8 million people will live in very high climate-risk areas by 2030.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "UZB-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UZB-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UZB-SRC-002",
+          "locator": "CCDR press-release paragraph beginning ‘Without action on climate adaptation’ (accessed 2026-10-26)."
+        }
+      ],
+      "geographies": [
+        "Uzbekistan"
+      ],
+      "affected_groups": [
+        "households",
+        "workers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "The inspected release does not specify the climate or economic scenario.",
+      "compact_statement": "Without adaptation, the CCDR estimates the economy could be 10% smaller by 2050, with lower employment and household incomes.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "UZB-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UZB-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UZB-SRC-002",
+          "locator": "CCDR press-release paragraph describing the drying Aral Sea and climate risks (accessed 2026-10-26)."
+        }
+      ],
+      "geographies": [
+        "Uzbekistan",
+        "Aral Sea region"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The release identifies Aral Sea degradation, water scarcity, drought, heat, rainfall volatility, and dust storms as societal and economic risks.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "UZB-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UZB-E-008",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UZB-SRC-002",
+          "locator": "CCDR press-release human-capital recommendation (accessed 2026-10-26)."
+        }
+      ],
+      "geographies": [
+        "Uzbekistan"
+      ],
+      "affected_groups": [
+        "vulnerable groups",
+        "workers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "The CCDR recommends social protection for groups vulnerable to climate risks and skills training to prepare workers for green-economy jobs.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "UZB-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UZB-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UZB-SRC-102",
+          "locator": "Publisher report page, opening summary, paragraphs on water supply and four target districts."
+        }
+      ],
+      "geographies": [
+        "Bozataw District",
+        "Chimbay District",
+        "Karauzyak District",
+        "Kegeyli District",
+        "Karakalpakstan"
+      ],
+      "affected_groups": [
+        "residents",
+        "farmers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "GGGI's March 2025 publisher summary identifies restricted water supply in Bozataw, Chimbay, Karauzyak and Kegeyli, associated with upstream diversion and climate change; their separate contributions are not measured.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UZB-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UZB-SRC-102",
+          "locator": "Publisher report page, key conclusions, poverty and adaptive-capacity bullet."
+        }
+      ],
+      "geographies": [
+        "Bozataw District",
+        "Chimbay District",
+        "Karauzyak District",
+        "Kegeyli District"
+      ],
+      "affected_groups": [
+        "young women",
+        "dehkans",
+        "residents"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "GGGI's March 2025 summary reports poverty-related adaptation constraints, particularly among young women and dehkan farmers in its four-district target area.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UZB-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UZB-SRC-102",
+          "locator": "Publisher report page, key conclusions, finance, training, and farm-strategy bullets."
+        }
+      ],
+      "geographies": [
+        "Bozataw District",
+        "Chimbay District",
+        "Karauzyak District",
+        "Kegeyli District"
+      ],
+      "affected_groups": [
+        "dehkan farmers",
+        "homestead landowner groups"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "GGGI's March 2025 summary describes expensive formal finance, limited formal management training and missing climate strategies among target-area farmer groups.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UZB-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UZB-SRC-103",
+          "locator": "PDF p. 3 (printed p. 4), section 'Estimating the water shortage in Central Asia'; PDF p. 11, endnote vii."
+        }
+      ],
+      "geographies": [
+        "Uzbekistan",
+        "13 provinces (province names not given in the cited text)"
+      ],
+      "affected_groups": [
+        "water users",
+        "irrigated farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Across six metrics, NUPI ranks Uzbekistan as most water-insufficient in Central Asia; 9 of 13 provinces have high water stress, including four extremely high.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UZB-E-108",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "UZB-SRC-103",
+          "locator": "One-based PDF p.8 (printed p.8), Future prospects."
+        }
+      ],
+      "geographies": [
+        "Uzbekistan",
+        "Central Asia",
+        "Amu Darya and Syr Darya basins"
+      ],
+      "affected_groups": [
+        "downstream water users",
+        "irrigated farmers"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term",
+        "long-term"
+      ],
+      "scenario": "No named emissions scenario is specified; this conditional future runoff shift is linked to warming and glacier melt.",
+      "compact_statement": "NUPI warns glacier-driven runoff shifts could intensify summer water tensions because Uzbekistan depends on summer irrigation flows; weak regional cooperation may threaten stability.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "UZB-E-108",
+        "source_id": "UZB-SRC-103",
+        "url": "https://www.nupi.no/en/content/download/30723/1226153?version=5",
+        "locator": "One-based PDF p.8 (printed p.8), Future prospects.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+      },
+      "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "UZB-SRC-103",
+        "source_url": "https://www.nupi.no/en/content/download/30723/1226153?version=5",
+        "locator": "One-based PDF p.8 (printed p.8), Future prospects.",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "UZB-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UZB-SRC-104",
+          "locator": "Publisher page, paragraphs beginning 'During the event...' and 'Automation of the observations network...'."
+        }
+      ],
+      "geographies": [
+        "Karakalpakstan",
+        "lower Amu Darya"
+      ],
+      "affected_groups": [
+        "farmers",
+        "rural communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "At project closeout, UNDP reported 10 automated meteorological stations and two equipped hydrological posts in Karakalpakstan, supporting drought early warnings with six-to-eight months' lead time for the lower Amu Darya.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UZB-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UZB-SRC-104",
+          "locator": "Publisher page, paragraphs beginning 'With the assistance of the project...' and '21,200 farmers...'."
+        }
+      ],
+      "geographies": [
+        "Nukus",
+        "Kegeyli District",
+        "Karakalpakstan"
+      ],
+      "affected_groups": [
+        "farmers",
+        "household-land owners",
+        "women"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Three project advisory centers in Nukus and Kegeyli district served 21,200 farmers and household-land owners, including more than 6,000 women, according to UNDP's 2021 closeout account.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UZB-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UZB-SRC-104",
+          "locator": "Publisher page, paragraphs beginning 'So about 41,200 people...' and 'As a result of project activities...'."
+        }
+      ],
+      "geographies": [
+        "Karakalpakstan",
+        "pilot districts"
+      ],
+      "affected_groups": [
+        "farmers",
+        "rural residents",
+        "women"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNDP reports that 41,200 people applied resource-saving climate-resilient agriculture and 43,750 farmers used water-saving practices such as laser leveling and drip irrigation in Karakalpakstan.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UZB-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UZB-SRC-105",
+          "locator": "Publisher page, section 'Karakalpakstan: Water as the starting point', paragraphs on community-identified pressures."
+        }
+      ],
+      "geographies": [
+        "Lower Amu Darya State Biosphere Reserve",
+        "Baday-Tugay",
+        "neighboring Karakalpakstan farming communities"
+      ],
+      "affected_groups": [
+        "local residents",
+        "farmers",
+        "pastoralists"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Participants near the Lower Amu Darya State Biosphere Reserve and Baday-Tugay connected land degradation with insufficient irrigation and drinking water, limited employment, and high agricultural costs; they identified reliable water as essential for restoration.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UZB-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UZB-SRC-105",
+          "locator": "Publisher page, opening methods paragraphs and 'Restoration designed with and for communities'."
+        }
+      ],
+      "geographies": [
+        "Karakalpakstan",
+        "Khorezm",
+        "Kashkadarya"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoralists",
+        "women",
+        "protected-area communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Under FOLUR-Uzbekistan, farmers, pastoralists, women, protected-area staff, communities, and authorities reviewed restoration proposals, identified priority sites, and discussed implementation and maintenance roles across three regions, including Karakalpakstan.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UZB-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UZB-SRC-105",
+          "locator": "Publisher page, 'Karakalpakstan: Water as the starting point', paragraphs on restoration proposals and community participation."
+        }
+      ],
+      "geographies": [
+        "Baday-Tugay",
+        "Lower Amu Darya State Biosphere Reserve",
+        "Karakalpakstan"
+      ],
+      "affected_groups": [
+        "neighboring farming communities",
+        "local residents"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Karakalpakstan participants supported restoring degraded Tugay forests near Baday-Tugay with native riparian species; FAO reports that water access and livelihood pressures will affect sustained community participation.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "UZB-E-108",
+  "source_access_review": {
+    "selected_record_id": "UZB-E-108",
+    "selected_source_id": "UZB-SRC-103",
+    "url": "https://www.nupi.no/en/content/download/30723/1226153?version=5",
+    "locator": "One-based PDF p.8 (printed p.8), Future prospects.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 1552464,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      8
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+  },
+  "checks": [
+    {
+      "record_id": "UZB-E-108",
+      "source_id": "UZB-SRC-103",
+      "locator": "One-based PDF p.8 (printed p.8), Future prospects.",
+      "verification_status": "verified",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "UZB-E-108: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "UZB-E-001",
+    "UZB-E-002",
+    "UZB-E-003",
+    "UZB-E-004",
+    "UZB-E-005",
+    "UZB-E-006",
+    "UZB-E-007",
+    "UZB-E-008",
+    "UZB-E-104",
+    "UZB-E-105",
+    "UZB-E-106",
+    "UZB-E-107",
+    "UZB-E-108",
+    "UZB-E-109",
+    "UZB-E-110",
+    "UZB-E-111",
+    "UZB-E-112",
+    "UZB-E-113",
+    "UZB-E-114"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

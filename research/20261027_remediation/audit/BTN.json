@@ -1,0 +1,1141 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "BTN",
+  "candidate_path": "countries/BTN/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 6,
+    "evidence_count": 18,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 18
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 10,
+      "access-only": 8
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "BTN-E-003",
+          "BTN-E-004",
+          "BTN-E-005",
+          "BTN-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "BTN-E-001",
+          "BTN-E-006",
+          "BTN-E-101",
+          "BTN-E-103",
+          "BTN-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BTN-E-002",
+          "BTN-E-102",
+          "BTN-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BTN-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "BTN-E-108",
+          "BTN-E-110",
+          "BTN-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "BTN-E-105",
+          "BTN-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "BTN-E-101",
+          "BTN-E-102",
+          "BTN-E-103",
+          "BTN-E-104",
+          "BTN-E-107",
+          "BTN-E-108",
+          "BTN-E-110",
+          "BTN-E-111",
+          "BTN-E-112"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/BTN/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "BTN-SRC-001",
+      "title": "Bhutan Second Nationally Determined Contribution",
+      "organization": "Royal Government of Bhutan",
+      "publication_date": "2021-06-05",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/NDC/2022-06/Second%20NDC%20Bhutan.pdf",
+      "geographic_coverage": [
+        "Bhutan"
+      ],
+      "temporal_coverage": "Second NDC covering 2021-2030.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BTN-E-001",
+        "BTN-E-002"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BTN-SRC-002",
+      "title": "Assessment of Climate-Induced Loss and Damage in Bhutan",
+      "organization": "United Nations Development Programme Bhutan",
+      "publication_date": "2026-02-06",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-02/undp-bhutan-assessment_of_climate_induced_loss_and_damage_report.pdf",
+      "geographic_coverage": [
+        "Bhutan",
+        "Samtse",
+        "Chukha",
+        "Haa",
+        "Dagana"
+      ],
+      "temporal_coverage": "Assessment published in 2026; includes a documented October 2025 extreme-weather event.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BTN-E-003",
+        "BTN-E-004",
+        "BTN-E-105",
+        "BTN-E-106",
+        "BTN-E-107",
+        "BTN-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "BTN-E-105",
+        "selected_source_id": "BTN-SRC-002",
+        "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-02/undp-bhutan-assessment_of_climate_induced_loss_and_damage_report.pdf",
+        "locator": "Printed p. 45, section 4.2, Food and Water Insecurity",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "metadata-only",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": null,
+        "declared_bytes": 9135270,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "source exceeds the in-memory size cap"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "BTN-SRC-003",
+      "title": "Adaptation, Climate Resilience, and Diversification Key to Creating Jobs, Accelerating Growth in Bhutan",
+      "organization": "World Bank Group",
+      "publication_date": "2025-06-18",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2025/06/18/adaptation-climate-resilience-and-diversification-key-to-creating-jobs-accelerating-growth-in-bhutan",
+      "geographic_coverage": [
+        "Bhutan",
+        "Zhemgang",
+        "Mongar"
+      ],
+      "temporal_coverage": "World Bank publication page dated 2025; reports modeled risks through 2050.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BTN-E-005",
+        "BTN-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BTN-SRC-101",
+      "title": "Climate Change Vulnerability Analyses and Mapping for National Adaptation Plan Formulation Process in Bhutan",
+      "organization": "Royal Government of Bhutan and United Nations Development Programme Bhutan",
+      "publication_date": "2022-08-17",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2022-08/Climate%20change%20vulnerability%20analyses%20_%20mapping.pdf",
+      "geographic_coverage": [
+        "Bhutan",
+        "Samtse",
+        "Monggar",
+        "Sarpang",
+        "Punakha",
+        "Dagana",
+        "Zhemgang",
+        "Gasa",
+        "Lunana gewog",
+        "Thimphu"
+      ],
+      "temporal_coverage": "Dzongkhag indicators mainly from 2005-2017 and hazard records from 2010-2018; future risk modeled at five-year intervals to 2050.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BTN-E-101",
+        "BTN-E-102",
+        "BTN-E-103",
+        "BTN-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Printed pp. 35, 38 and 52; methodology and limitations, printed pp. 7-14",
+          "notes": "Full 74-page report inspected; indices and stated data limitations retained as assessment findings.",
+          "reuse_terms": "Unknown; no specific reuse license verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BTN-SRC-103",
+      "title": "Kingdom of Bhutan, First National Adaptation Plan 2023",
+      "organization": "Department of Environment and Climate Change, Ministry of Energy and Natural Resources, Royal Government of Bhutan",
+      "publication_date": "2023",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/resource/NAP-Bhutan-2023.pdf",
+      "geographic_coverage": [
+        "Bhutan",
+        "Gasa",
+        "Punakha",
+        "Tsirang"
+      ],
+      "temporal_coverage": "National adaptation priorities and implementation needs for the medium and long term; document published in 2023.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BTN-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF p. 19, Executive Summary, Water-sector adaptation priorities",
+          "notes": "Full 241-page government NAP inspected; adaptation priorities were recorded as commitments rather than delivery results.",
+          "reuse_terms": "The report permits educational and non-profit reproduction with acknowledgement; other reuse not verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BTN-SRC-104",
+      "title": "Mid Term Review of Advancing Climate Resilience of the Water Sector in Bhutan (ACREWAS)",
+      "organization": "United Nations Development Programme and Royal Government of Bhutan, Ministry of Infrastructure and Transport",
+      "publication_date": "2026-03-01",
+      "publication_date_basis": "document-version",
+      "url": "https://erc.undp.org/evaluation/documents/download/25327",
+      "geographic_coverage": [
+        "Punakha",
+        "Gasa",
+        "Tsirang",
+        "Punatsangchhu River Basin"
+      ],
+      "temporal_coverage": "Midterm review submitted in February 2026 for a project running from September 2023 to September 2028.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BTN-E-110",
+        "BTN-E-111",
+        "BTN-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 27-29, 38-39 and 49-50",
+          "notes": "Full 75-page midterm review inspected, including outcome indicators, women’s water-governance participation and the Gasa labor-influx safeguard risk.",
+          "reuse_terms": "Unknown; the report points to ADB website terms of use, and no specific reuse license was verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "BTN-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BTN-SRC-001",
+          "locator": "National context, printed p. 2 (PDF p. 2)."
+        }
+      ],
+      "geographies": [
+        "Bhutan"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Bhutan's mountainous setting, reliance on hydropower and agriculture, and limited resources and capacity shape its climate vulnerability.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "BTN-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BTN-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BTN-SRC-001",
+          "locator": "National climate response and 12th Five-Year Plan discussion, printed pp. 3-4 (PDF pp. 3-4)."
+        }
+      ],
+      "geographies": [
+        "Bhutan"
+      ],
+      "affected_groups": [],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC reports that the 12th Five-Year Plan includes climate resilience and disaster preparedness priorities and describes national coordination arrangements for climate action.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "BTN-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BTN-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BTN-SRC-002",
+          "locator": "Assessment summary, printed p. 6 (PDF p. 10)."
+        }
+      ],
+      "geographies": [
+        "Bhutan"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The assessment identifies glacial lake outburst floods, flash floods, landslides, forest fires, and windstorms alongside slower-onset glacial retreat and ecosystem degradation, with implications for water, food, energy, infrastructure, health, and livelihoods.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "BTN-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BTN-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BTN-SRC-002",
+          "locator": "October 2025 event case study, printed p. 79 (PDF p. 92)."
+        }
+      ],
+      "geographies": [
+        "Samtse",
+        "Chukha",
+        "Haa",
+        "Dagana"
+      ],
+      "affected_groups": [
+        "residents",
+        "farmers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The report records heavy rain on 4-5 October 2025 followed by flash floods, landslides, swollen rivers, and windstorms; it notes crop, livestock, home, cultural-site, infrastructure, and hydropower impacts, one death, and two people missing, with Samtse, Chukha, Haa, and Dagana among the most affected districts.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BTN-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BTN-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BTN-SRC-003",
+          "locator": "Climate risk and economic impact summary, webpage paragraphs on climate scenarios and projected losses (accessed 2026-10-26)."
+        }
+      ],
+      "geographies": [
+        "Bhutan"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Hotter-and-drier scenario described in the official summary; no named model pathway is specified there.",
+      "compact_statement": "The World Bank release says hotter and drier conditions could affect hydropower, tourism, and agriculture and produce economic losses by 2050; it reports that adaptation and diversification could reduce projected losses by at least 40 percent.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BTN-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BTN-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BTN-SRC-003",
+          "locator": "Climate risks for communities and locations, webpage paragraphs on population and subnational exposure (accessed 2026-10-26)."
+        }
+      ],
+      "geographies": [
+        "Bhutan",
+        "Zhemgang",
+        "Mongar"
+      ],
+      "affected_groups": [
+        "vulnerable populations"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The release reports that about 65 percent of Bhutan's population is exposed to at least one natural hazard and identifies Zhemgang and Mongar among districts with higher risk; floods, landslides, and heat disproportionately affect vulnerable people.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BTN-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BTN-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BTN-SRC-101",
+          "locator": "Printed p. 38, section 2.4, Present Risk"
+        }
+      ],
+      "geographies": [
+        "Samtse",
+        "Monggar",
+        "Sarpang",
+        "Punakha",
+        "Dagana"
+      ],
+      "affected_groups": [
+        "residents",
+        "women",
+        "children",
+        "older people"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2022 vulnerability assessment's present-risk index ranks Samtse, Monggar, Sarpang, Punakha and Dagana highest using older administrative indicators; not a 2026 risk or loss ranking.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BTN-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BTN-SRC-101",
+          "locator": "Printed p. 35, section 2.3.2, Adaptive Capacity"
+        }
+      ],
+      "geographies": [
+        "Zhemgang",
+        "Dagana",
+        "Gasa"
+      ],
+      "affected_groups": [
+        "residents",
+        "local communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2022 assessment gives Zhemgang, Dagana and Gasa the lowest adaptive-capacity index scores; slower recovery is an inference, not measured outcomes.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BTN-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BTN-SRC-101",
+          "locator": "Printed p. 52, section 5.1.3, Gewog Vulnerability Recommendations"
+        }
+      ],
+      "geographies": [
+        "Lunana gewog",
+        "Gasa"
+      ],
+      "affected_groups": [
+        "Lunana residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2022 assessment ranks Lunana gewog in Gasa highest in socioeconomic vulnerability, citing low electricity and roughly19%concrete housing in its underlying data.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BTN-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BTN-SRC-101",
+          "locator": "Printed p. 52, section 5.1.2, Future Climate Risk Recommendations"
+        }
+      ],
+      "geographies": [
+        "Thimphu"
+      ],
+      "affected_groups": [
+        "urban residents",
+        "migrants"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "Model to 2050 uses RCP4.5/RCP8.5; Thimphu summary does not specify one.",
+      "compact_statement": "Thimphu is projected as the highest future-risk area, associated with in-migration, urbanisation and population growth.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BTN-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "BTN-SRC-002",
+          "locator": "Printed p. 45, section 4.2, Food and Water Insecurity"
+        }
+      ],
+      "geographies": [
+        "Bhutan"
+      ],
+      "affected_groups": [
+        "rural residents",
+        "farmers"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2025 loss-and-damage report describes climate-related farmland/water loss as a distress-mobility pressure but notes that much evidence is anecdotal; no movement count or later conflict effect is established.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BTN-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "BTN-E-105",
+        "selected_source_id": "BTN-SRC-002",
+        "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-02/undp-bhutan-assessment_of_climate_induced_loss_and_damage_report.pdf",
+        "locator": "Printed p. 45, section 4.2, Food and Water Insecurity",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "metadata-only",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": null,
+        "declared_bytes": 9135270,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "source exceeds the in-memory size cap"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "BTN-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BTN-SRC-002",
+          "locator": "Printed p. 61, section on terrestrial and freshwater ecosystem impacts"
+        }
+      ],
+      "geographies": [
+        "Bhutan"
+      ],
+      "affected_groups": [
+        "communities",
+        "wetland-dependent species"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Assessment links climate-driven wetland and habitat shifts with increased human-wildlife conflict.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "BTN-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BTN-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BTN-SRC-002",
+          "locator": "Printed p.74 (one-based PDF p.88), Dechencholing case."
+        }
+      ],
+      "geographies": [
+        "Dechencholing",
+        "Thimphu"
+      ],
+      "affected_groups": [
+        "displaced families",
+        "students",
+        "affected residents"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2025 loss-and-damage report describes the 2024 Dechencholing flood displacing84families, temporarily closing two schools and killing one person, with wellbeing and cohesion consequences.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BTN-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BTN-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BTN-SRC-002",
+          "locator": "Printed pp.75-76 (one-based PDF pp.89-90), Punakha flash-flood case."
+        }
+      ],
+      "geographies": [
+        "Punakha",
+        "Gasa",
+        "Damji",
+        "Tshachu Junction",
+        "Thinleygang",
+        "Renakha-Damchi Chewog"
+      ],
+      "affected_groups": [
+        "42 households",
+        "people with chronic health conditions",
+        "students",
+        "local residents"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "2025 Punakha floods cut Gasa road access for over two weeks; bridge loss affected 42 households, while budget gaps delayed response and residents supplied most repair labour.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BTN-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BTN-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BTN-SRC-103",
+          "locator": "PDF p. 19, Executive Summary, Water-sector adaptation priorities"
+        }
+      ],
+      "geographies": [
+        "Bhutan"
+      ],
+      "affected_groups": [
+        "water users",
+        "local communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The NAP prioritizes protecting and managing water sources, water-user groups, local stakeholder capacity, research and integrated water management across sectors.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BTN-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BTN-SRC-104",
+          "locator": "PDF pp. 38-39, Table 6, GEF 7 Climate Change Adaptation Results Framework"
+        }
+      ],
+      "geographies": [
+        "Punakha",
+        "Gasa",
+        "Tsirang",
+        "Punatsangchhu River Basin"
+      ],
+      "affected_groups": [
+        "project beneficiaries",
+        "women",
+        "farmers",
+        "community members"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2026 ACREWAS midterm review reports11,544beneficiaries (45.7%female),3,220trained people and4,426hectares under climate-resilient management; these are interim programme indicators.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BTN-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BTN-SRC-104",
+          "locator": "PDF p. 29, Finding 8, Indicator 8 on assured water access"
+        }
+      ],
+      "geographies": [
+        "Punakha",
+        "Gasa",
+        "Tsirang"
+      ],
+      "affected_groups": [
+        "target households",
+        "farmers"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "At the 2026 ACREWAS midterm, assured irrigation/domestic-water access reached5.6%of its interim target, with systems still under construction; final water-service benefits were not yet measurable.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check",
+        "programme_intent_and_outcome_terms_co-occur"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BTN-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BTN-SRC-104",
+          "locator": "PDF pp. 27-28, Finding 7, Gender Analysis and Gender Action Plan"
+        }
+      ],
+      "geographies": [
+        "Punakha",
+        "Gasa",
+        "Tsirang"
+      ],
+      "affected_groups": [
+        "women",
+        "women's groups"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2026 ACREWAS review describes women interested in water-user associations but constrained by gender roles, lower formal education and care burdens; sustained participation effects were not evaluated.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "BTN-E-105",
+  "source_access_review": {
+    "selected_record_id": "BTN-E-105",
+    "selected_source_id": "BTN-SRC-002",
+    "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-02/undp-bhutan-assessment_of_climate_induced_loss_and_damage_report.pdf",
+    "locator": "Printed p. 45, section 4.2, Food and Water Insecurity",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "metadata-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": null,
+    "declared_bytes": 9135270,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "source exceeds the in-memory size cap"
+  },
+  "checks": [
+    {
+      "record_id": "BTN-E-105",
+      "source_id": "BTN-SRC-002",
+      "locator": "Printed p. 45, section 4.2, Food and Water Insecurity",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "metadata-only",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "BTN-E-105: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "BTN-E-001",
+    "BTN-E-002",
+    "BTN-E-003",
+    "BTN-E-004",
+    "BTN-E-005",
+    "BTN-E-006",
+    "BTN-E-101",
+    "BTN-E-102",
+    "BTN-E-103",
+    "BTN-E-104",
+    "BTN-E-105",
+    "BTN-E-106",
+    "BTN-E-107",
+    "BTN-E-108",
+    "BTN-E-109",
+    "BTN-E-110",
+    "BTN-E-111",
+    "BTN-E-112"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

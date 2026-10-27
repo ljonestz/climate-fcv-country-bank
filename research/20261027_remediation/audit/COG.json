@@ -1,0 +1,852 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "COG",
+  "candidate_path": "countries/COG/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 6,
+    "evidence_count": 11,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 11
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 8,
+      "access-only": 3
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "COG-E-001",
+          "COG-E-004",
+          "COG-E-005",
+          "COG-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "COG-E-003",
+          "COG-E-006",
+          "COG-E-007",
+          "COG-E-101"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "COG-E-002",
+          "COG-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "COG-E-102"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "COG-E-101",
+          "COG-E-102",
+          "COG-E-103",
+          "COG-E-107"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/COG/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "COG-SRC-001",
+      "title": "The Republic of Congo can turn the climate crisis into an opportunity to end poverty and boost shared prosperity",
+      "organization": "World Bank",
+      "publication_date": "2023-10-09",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2023/10/09/the-republic-of-congo-can-turn-the-climate-crisis-into-an-opportunity-to-end-poverty-and-boost-shared-prosperity",
+      "geographic_coverage": [
+        "Republic of Congo"
+      ],
+      "temporal_coverage": "World Bank CCDR summary includes projections through 2050 and policy priorities",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "COG-E-001",
+        "COG-E-002"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "COG-SRC-002",
+      "title": "Contribution Déterminée au niveau National de la République du Congo",
+      "organization": "Government of the Republic of Congo",
+      "publication_date": "2021",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/NDC/2022-06/CDN_Congo.pdf",
+      "geographic_coverage": [
+        "Republic of Congo",
+        "Congo River basin",
+        "Coastal zone"
+      ],
+      "temporal_coverage": "NDC vulnerability assessment and adaptation priorities; historical hydrological observations described in the document",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "COG-E-003",
+        "COG-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "COG-SRC-003",
+      "title": "Republic of Congo: Selected Issues; IMF Country Report No. 24/252",
+      "organization": "International Monetary Fund",
+      "publication_date": "2024-06-24",
+      "publication_date_basis": "publication",
+      "url": "https://www.imf.org/-/media/files/publications/cr/2024/english/1cogea2024003-print-pdf.pdf",
+      "geographic_coverage": [
+        "Republic of Congo",
+        "Congo and Oubangui river corridors",
+        "Brazzaville",
+        "Pointe-Noire",
+        "Northern departments"
+      ],
+      "temporal_coverage": "EM-DAT data from 2000; flood events and government estimates for 2023–2024",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "COG-E-005",
+        "COG-E-006",
+        "COG-E-007"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "COG-SRC-101",
+      "title": "Urban Flood and Gully Erosion Risk Management in the Congo Basin: Republic of the Congo, Technical Report",
+      "organization": "Global Center on Adaptation and World Bank",
+      "publication_date": "2025-12",
+      "publication_date_basis": "document-version",
+      "url": "https://gca.org/wp-content/uploads/2026/03/Congo-Basin_Summary-Report_RoC_vFinal-ENG-1_REFORMAT.pdf",
+      "geographic_coverage": [
+        "Brazzaville",
+        "Mfilou district",
+        "Ngambio neighbourhood",
+        "Itsali neighbourhood",
+        "Pointe-Noire",
+        "Tchikobo-Songolo corridor"
+      ],
+      "temporal_coverage": "Urban hazard and pre-feasibility assessments; workshops and community demonstrations in October-November 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "COG-E-101",
+        "COG-E-102",
+        "COG-E-103",
+        "COG-E-107"
+      ],
+      "this_audit_verification": "access-only",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 9, 11, 13, 16 and 29",
+          "notes": "Opened 33-page publisher PDF and inspected urban hazard, named-site, feasibility, workshop and implementation material.",
+          "reuse_terms": "Publisher page states CC BY-NC-ND 4.0; no source text reproduced and adapted content reuse was not assumed open.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "COG-E-101",
+        "selected_source_id": "COG-SRC-101",
+        "url": "https://gca.org/wp-content/uploads/2026/03/Congo-Basin_Summary-Report_RoC_vFinal-ENG-1_REFORMAT.pdf",
+        "locator": "PDF pp. 9 and 13, sections 2.1 and 3.2, Site B risk context",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 962774,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          9
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "COG-E-101"
+      ]
+    },
+    {
+      "source_id": "COG-SRC-102",
+      "title": "Republic of the Congo: Multi-Year Strategy 2025-2027",
+      "organization": "United Nations High Commissioner for Refugees",
+      "publication_date": "2025-11",
+      "publication_date_basis": "document-version",
+      "url": "https://www.unhcr.org/sites/default/files/2025-01/Republic%20of%20the%20Congo%20-%20Strategy%202025%20%E2%80%93%202027_0.pdf",
+      "geographic_coverage": [
+        "Republic of Congo",
+        "Likouala Department",
+        "Pool Department",
+        "refugee-hosting areas"
+      ],
+      "temporal_coverage": "Situation analysis includes dated 2021-2024 displacement information; strategy period 2025-2027.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Situation Analysis and 2025-2027 strategy sections; pagination not shown by index",
+          "notes": "Publisher search index exposed continuous strategy text; direct PDF open and urllib download returned HTTP 429/403, so pagination/full-file access was not claimed.",
+          "reuse_terms": "Unknown; no reuse license verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "COG-SRC-103",
+      "title": "IFRC-DG ECHO Pilot Programmatic Partnership: Annual Overview 2024",
+      "organization": "International Federation of Red Cross and Red Crescent Societies",
+      "publication_date": "2025-09",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.ifrc.org/sites/default/files/2025-09/IFRC%202024%20Annual%20Report.pdf",
+      "geographic_coverage": [
+        "Republic of Congo"
+      ],
+      "temporal_coverage": "IFRC-DG ECHO Pilot Programmatic Partnership activities and reported results in 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Annual Overview, IFRC-DG ECHO Pilot Programmatic Partnership, printed p. 89",
+          "notes": "Publisher search index exposed the Congo early-warning passage; direct PDF open exceeded the web tool size limit and urllib download returned HTTP 403.",
+          "reuse_terms": "Unknown; no reuse license verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "COG-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COG-SRC-001",
+          "locator": "Press-release summary, CCDR headline paragraph on potential economic losses and health costs."
+        }
+      ],
+      "geographies": [
+        "Republic of Congo"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "historical",
+        "long-term"
+      ],
+      "scenario": "Without reforms, diversification and climate action, as stated in the summary; underlying model assumptions are not stated there.",
+      "compact_statement": "The World Bank summary projects economic losses could reach 17% of GDP by 2050 without reforms, diversification and climate action; it also reports health costs rising from US$92 million in 2010 to US$260 million by 2050.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "COG-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COG-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COG-SRC-001",
+          "locator": "Press-release summary, paragraph on the CCDR’s adaptation priorities."
+        }
+      ],
+      "geographies": [
+        "Republic of Congo"
+      ],
+      "affected_groups": [],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The World Bank summary lists climate-ready health and education services, disease surveillance, climate-smart agriculture and forest management among proposed priorities; these are recommendations, not verified delivery.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "COG-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COG-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COG-SRC-002",
+          "locator": "Section 3.1.1, subsection b, ‘Sous-secteur de l’hydroélectricité’, printed pp. 23–24 (PDF pp. 22–23)."
+        }
+      ],
+      "geographies": [
+        "Republic of Congo",
+        "Hydropower basins"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC assesses hydropower as moderately exposed to climate hazards, particularly uneven rainfall and drought, because generation depends on surface-water availability and river flows.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "COG-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COG-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COG-SRC-002",
+          "locator": "Section 3.1, impacts and vulnerabilities, printed pp. 23–24 (PDF pp. 23–24), Congo River and coastal-zone discussion."
+        }
+      ],
+      "geographies": [
+        "Congo River basin",
+        "Coastal zone"
+      ],
+      "affected_groups": [
+        "Riverine communities",
+        "Coastal communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC describes repeated low river-water levels and identifies coastal flooding, erosion, submersion and salinization among risks to coastal areas; it says sea-level rise was not yet perceptible in the assessment.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "COG-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COG-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COG-SRC-003",
+          "locator": "Chapter ‘Flood Events of 2023–2024’, section A, printed p. 65 (PDF p. 65), paragraph 1."
+        }
+      ],
+      "geographies": [
+        "Congo River corridor",
+        "Oubangui River corridor",
+        "Brazzaville",
+        "Pointe-Noire"
+      ],
+      "affected_groups": [
+        "Residents in flood-prone regions and urban centers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The IMF report says major floods have become more recurrent, affecting the river corridor and Brazzaville and Pointe-Noire; the Congo and Oubangui reached record levels during the 2023–2024 rainy season.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "COG-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COG-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COG-SRC-003",
+          "locator": "Chapter ‘Flood Events of 2023–2024’, section B, printed p. 66 (PDF p. 66), paragraph 3."
+        }
+      ],
+      "geographies": [
+        "Nine departments, mainly northern regions bordering the Congo River"
+      ],
+      "affected_groups": [
+        "336,560 people reported affected",
+        "Households dependent on farming and fishing"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "For December 2023 floods across nine departments, initial government estimates as of January 2024 counted 336,560 people affected and 23 deaths; homes, schools, health centers, water and sanitation were disrupted, and farming and fishing halted.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "COG-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COG-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COG-SRC-003",
+          "locator": "Chapter ‘Flood Events of 2023–2024’, section A, printed p. 65 (PDF p. 65), EM-DAT summary paragraph."
+        }
+      ],
+      "geographies": [
+        "Republic of Congo"
+      ],
+      "affected_groups": [
+        "People affected by floods"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Using EM-DAT data from 2000, the IMF chapter reports a flood about every two and a half years and an average of approximately 92,000 people affected per flood event.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "COG-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COG-E-101",
+      "record_review": "manual-passage-check-incomplete",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "COG-SRC-101",
+          "locator": "PDF pp. 9 and 13, sections 2.1 and 3.2, Site B risk context"
+        }
+      ],
+      "geographies": [
+        "Tsieme catchment",
+        "Mfilou district",
+        "Ngambio neighbourhood",
+        "Itsali neighbourhood"
+      ],
+      "affected_groups": [
+        "residents near active gullies"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12 reports: In Brazzaville's Tsieme catchment, runoff-fed active gullies at Ngambio and Itsali in Mfilou threaten nearby homes and infrastructure; at Ngambio, erosion continues despite existing channels.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "COG-E-101",
+        "source_id": "COG-SRC-101",
+        "url": "https://gca.org/wp-content/uploads/2026/03/Congo-Basin_Summary-Report_RoC_vFinal-ENG-1_REFORMAT.pdf",
+        "locator": "PDF pp. 9 and 13, sections 2.1 and 3.2, Site B risk context",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "access-only",
+        "claim_verification": "unresolved",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "manual_adjudication_completed": true,
+        "verification_note": "Physical page9 confirms named urban sites and scope; it does not show the page13 ongoing-erosion observation."
+      },
+      "verification_note": "Physical page9 confirms named urban sites and scope; it does not show the page13 ongoing-erosion observation.",
+      "manual_adjudication": {
+        "status": "unresolved",
+        "reviewed_on": "2026-10-27",
+        "source_id": "COG-SRC-101",
+        "source_url": "https://gca.org/wp-content/uploads/2026/03/Congo-Basin_Summary-Report_RoC_vFinal-ENG-1_REFORMAT.pdf",
+        "locator": "PDF pp. 9 and 13, sections 2.1 and 3.2, Site B risk context",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "Physical page9 confirms named urban sites and scope; it does not show the page13 ongoing-erosion observation.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      }
+    },
+    {
+      "record_id": "COG-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COG-SRC-101",
+          "locator": "PDF pp. 9 and 11, sections 2.1 and feasibility decision tree"
+        }
+      ],
+      "geographies": [
+        "Brazzaville",
+        "Pointe-Noire",
+        "Tchikobo-Songolo corridor"
+      ],
+      "affected_groups": [
+        "residents of exposed informal settlements",
+        "land users"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12 reports: Exposed informal settlements, undersized drainage and catchment degradation amplify flood and erosion impacts; where land tenure is unclear, the report advises conflict-sensitive consultation and due diligence before works.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COG-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COG-SRC-101",
+          "locator": "PDF pp. 16 and 29, technical lessons and Stage 1 feasibility screen"
+        }
+      ],
+      "geographies": [
+        "Brazzaville ravines",
+        "Republic of Congo urban priority sites"
+      ],
+      "affected_groups": [
+        "neighbourhood residents",
+        "local groups"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12 reports: November 2025 demonstrations observed sediment trapped by bamboo check-dams, considered locally replicable; site screening weighs security, institutions and social tensions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COG-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COG-SRC-101",
+          "locator": "PDF p. 9, section 2.1, floodplain and coastal-fluvial exposure in Pointe-Noire"
+        }
+      ],
+      "geographies": [
+        "Pointe-Noire",
+        "Tchikobo-Songolo river corridor"
+      ],
+      "affected_groups": [
+        "nearby settlements"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12 reports: At Pointe-Noire's Tchikobo-Songolo corridor, project screening found high susceptibility to adjacent coastal floods and fluvial flooding intensified by rainfall runoff.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "COG-E-101",
+  "source_access_review": {
+    "selected_record_id": "COG-E-101",
+    "selected_source_id": "COG-SRC-101",
+    "url": "https://gca.org/wp-content/uploads/2026/03/Congo-Basin_Summary-Report_RoC_vFinal-ENG-1_REFORMAT.pdf",
+    "locator": "PDF pp. 9 and 13, sections 2.1 and 3.2, Site B risk context",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "access-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 962774,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      9
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "Physical page9 confirms named urban sites and scope; it does not show the page13 ongoing-erosion observation."
+  },
+  "checks": [
+    {
+      "record_id": "COG-E-101",
+      "source_id": "COG-SRC-101",
+      "locator": "PDF pp. 9 and 13, sections 2.1 and 3.2, Site B risk context",
+      "verification_status": "unresolved",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "access-only",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": false,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "COG-E-101: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "COG-E-001",
+    "COG-E-002",
+    "COG-E-003",
+    "COG-E-004",
+    "COG-E-005",
+    "COG-E-006",
+    "COG-E-007",
+    "COG-E-101",
+    "COG-E-102",
+    "COG-E-103",
+    "COG-E-107"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

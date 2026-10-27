@@ -1,0 +1,956 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "LSO",
+  "candidate_path": "countries/LSO/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 6,
+    "evidence_count": 12,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 12
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 6,
+      "access-only": 6
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "LSO-E-005"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "LSO-E-001"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "LSO-E-003",
+          "LSO-E-105",
+          "LSO-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "LSO-E-006",
+          "LSO-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "LSO-E-004",
+          "LSO-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "LSO-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "LSO-E-002",
+          "LSO-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "LSO-E-106",
+          "LSO-E-107",
+          "LSO-E-109"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "LSO-P-001"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/LSO/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "LSO-SRC-001",
+      "title": "Drought Resilience Profiles: Lesotho",
+      "organization": "World Bank, CIWA, SADRI, IWMI and National Drought Mitigation Center",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://documents1.worldbank.org/curated/en/099072723174573255/pdf/P1730770d5fd890f50bd5302e810c6837b9.pdf",
+      "geographic_coverage": [
+        "Lesotho",
+        "Leribe",
+        "Mafeteng",
+        "Mohale's Hoek",
+        "Berea",
+        "Quthing"
+      ],
+      "temporal_coverage": "Drought impacts, risk mapping and institutional preparedness summarized in an undated profile",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LSO-E-001",
+        "LSO-E-002",
+        "LSO-E-003",
+        "LSO-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "LSO-E-002",
+        "selected_source_id": "LSO-SRC-001",
+        "url": "https://documents1.worldbank.org/curated/en/099072723174573255/pdf/P1730770d5fd890f50bd5302e810c6837b9.pdf",
+        "locator": "PDF p. 2, drought, water access and protection",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "LSO-SRC-002",
+      "title": "Climate Change Key for Lesotho's Domestic and Industrial Water Security, Agricultural Production and Regional Water Transfers",
+      "organization": "World Bank",
+      "publication_date": "2016-09-14",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/country/lesotho/publication/climate-change-key-for-lesothos-domestic-and-industrial-water-security-agricultural-production-and-regional-water-transfers",
+      "geographic_coverage": [
+        "Lesotho",
+        "Lesotho water system"
+      ],
+      "temporal_coverage": "Climate and water assessment considers possible future conditions through 2050, as described in 2016",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LSO-E-005",
+        "LSO-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LSO-SRC-101",
+      "title": "IPC Acute Food Insecurity Analysis: Lesotho, May 2025-March 2026",
+      "organization": "Lesotho Vulnerability Assessment Committee (LVAC); Integrated Food Security Phase Classification (IPC)",
+      "publication_date": "2025-10-09",
+      "publication_date_basis": "document-version",
+      "url": "https://lvac.gov.ls/media/reports/IPC_Lesotho_Acute_Food_Insecurity_May2025_Mar2026_Report.pdf",
+      "geographic_coverage": [
+        "Lesotho",
+        "rural Lesotho"
+      ],
+      "temporal_coverage": "IPC analysis of acute food insecurity for May 2025-March 2026, with current and projected periods as defined in the report.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Official PDF indexed excerpts on May-September 2025 classifications, October 2025-March 2026 projection and key drivers inspected; direct PDF open timed out.",
+          "notes": "No claim is based only on document metadata; extracted report passages were available from the official LVAC PDF index. Outcomes after the projection periods were not reviewed.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LSO-SRC-102",
+      "title": "Lesotho: El Niño-Related Drought, Office of the Resident Coordinator Situation Update 04",
+      "organization": "United Nations Office of the Resident Coordinator in Lesotho; Humanitarian Country Team",
+      "publication_date": "2016-07-25",
+      "publication_date_basis": "document-version",
+      "url": "https://lesotho.un.org/en/download/3710/19742",
+      "geographic_coverage": [
+        "Lesotho",
+        "affected districts",
+        "community water points"
+      ],
+      "temporal_coverage": "Situation update covering 16 May-25 July 2016 during the El Niño-related drought.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LSO-E-104",
+        "LSO-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 8-page Situation Update inspected, especially PDF pp.2-4 on food/water stress, protection and gendered water-point conflict.",
+          "notes": "2016 El Niño emergency evidence; incomplete population data and dated risk estimates are not treated as current.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LSO-SRC-103",
+      "title": "United Nations Lesotho Annual Report 2025",
+      "organization": "United Nations Country Team in Lesotho",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://lesotho.un.org/sites/default/files/2026-04/UNCT%20Annual%20Report%202025%20FIN.pdf",
+      "geographic_coverage": [
+        "Lesotho",
+        "Qacha's Nek",
+        "Mafeteng",
+        "Mohale's Hoek",
+        "Quthing",
+        "Mokhotlong"
+      ],
+      "temporal_coverage": "UNCT-reported results and activities during 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LSO-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full UNCT Annual Report inspected, PDF pp.20-21 on ecosystem restoration, DMA early warning, drought protocols and climate resilience outputs.",
+          "notes": "Report covers 2025 UN and partner activities; outputs are self-reported rather than independently impact-evaluated.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LSO-SRC-104",
+      "title": "Lesotho Launches IACoV Phase II to Strengthen Climate Resilience and Food Security",
+      "organization": "United Nations Resident Coordinator Office in Lesotho",
+      "publication_date": "2026-03-02",
+      "publication_date_basis": "portal-publication",
+      "url": "https://lesotho.un.org/en/310952-lesotho-launches-iacov-phase-ii-strengthen-climate-resilience-and-food-security",
+      "geographic_coverage": [
+        "Mafeteng",
+        "Mohale's Hoek",
+        "Quthing",
+        "Thaba-Tseka",
+        "Lesotho"
+      ],
+      "temporal_coverage": "UN account of the IACoV Phase II launch and project design on 2 March 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LSO-E-107",
+        "LSO-E-108",
+        "LSO-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full UN launch article inspected, including district selection, Phase I summary and Phase II implementation design.",
+          "notes": "Launch article reports project design and progress; commitments are not treated as delivered outcomes.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "LSO-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LSO-SRC-001",
+          "locator": "PDF p. 1, 2018/19 drought impacts"
+        }
+      ],
+      "geographies": [
+        "Lesotho"
+      ],
+      "affected_groups": [
+        "farmers",
+        "rural households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The profile reports 2018/19 yields fell over 60% versus 2018 (maize 78%, wheat 61%, sorghum 93%).",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LSO-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LSO-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "LSO-SRC-001",
+          "locator": "PDF p. 2, drought, water access and protection"
+        }
+      ],
+      "geographies": [
+        "Lesotho",
+        "rural areas"
+      ],
+      "affected_groups": [
+        "women",
+        "girls"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Drought-dried water sources forced women and girls to travel farther, exposing them to abuse, violence and other protection concerns.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LSO-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "LSO-E-002",
+        "selected_source_id": "LSO-SRC-001",
+        "url": "https://documents1.worldbank.org/curated/en/099072723174573255/pdf/P1730770d5fd890f50bd5302e810c6837b9.pdf",
+        "locator": "PDF p. 2, drought, water access and protection",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "LSO-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LSO-SRC-001",
+          "locator": "PDF p. 2, IWMI drought-risk map"
+        }
+      ],
+      "geographies": [
+        "Leribe",
+        "Mafeteng",
+        "Mohale's Hoek",
+        "Berea",
+        "Quthing"
+      ],
+      "affected_groups": [
+        "farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The profile map ranks 42% of agricultural areas in five named districts among Lesotho's most drought-prone.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LSO-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LSO-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LSO-SRC-001",
+          "locator": "PDF p. 2, drought preparedness and early warning capacity ratings"
+        }
+      ],
+      "geographies": [
+        "Lesotho"
+      ],
+      "affected_groups": [],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The profile rates early warning low and notes weak institutional coordination and no protocol.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LSO-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LSO-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LSO-SRC-002",
+          "locator": "World Bank assessment summary, climate and water-security findings"
+        }
+      ],
+      "geographies": [
+        "Lesotho"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "The inspected summary does not specify it.",
+      "compact_statement": "The assessment summary says all climate models considered project rising temperatures for Lesotho, while precipitation projections differ, complicating water-availability estimates through 2050.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LSO-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LSO-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LSO-SRC-002",
+          "locator": "World Bank assessment summary, adaptation and water-system findings"
+        }
+      ],
+      "geographies": [
+        "Lesotho",
+        "regional water-transfer system"
+      ],
+      "affected_groups": [
+        "water users",
+        "farmers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "The inspected summary does not specify it.",
+      "compact_statement": "The assessment identifies water infrastructure and adaptation investments as options to strengthen domestic and industrial water security, irrigation and food production, and regional water transfers.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LSO-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LSO-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LSO-SRC-102",
+          "locator": "PDF p.4 (one-based), gender analysis of tensions around livestock and household water; water-point queues"
+        }
+      ],
+      "geographies": [
+        "affected districts",
+        "community water points"
+      ],
+      "affected_groups": [
+        "women",
+        "men",
+        "water users",
+        "livestock keepers"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The July 2016 UN drought update reports water-point tensions associated with queues and queue-jumping, differentiated between men's livestock-water responsibilities and women's household-water collection.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LSO-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LSO-SRC-102",
+          "locator": "Original eight-page UN drought update, physical p.3, child-protection risk assessment; the gendered tensions discussion follows on p.4."
+        }
+      ],
+      "geographies": [
+        "affected communities",
+        "community food and water points"
+      ],
+      "affected_groups": [
+        "children",
+        "girls",
+        "boys"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2016-07-25 reports: The report says children collecting water or food at community points, and children walking longer distances during drought, faced increased danger and injury risk.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LSO-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LSO-SRC-103",
+          "locator": "Original 42-page UNCT 2025 report, physical pp.20–21 (printed spread pp.38–41), environmental management and anticipatory-action outputs."
+        }
+      ],
+      "geographies": [
+        "Mafeteng",
+        "Mohale's Hoek",
+        "Quthing",
+        "Lesotho"
+      ],
+      "affected_groups": [
+        "local communities",
+        "farmers",
+        "livestock keepers"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The UN reported 2025 support for restoration in degraded areas of Mafeteng, Mohale's Hoek and Quthing, including agroforestry, 400 indigenous trees and a check dam; it also reported drought anticipatory-action protocols and improved early-warning procedures for the DMA.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LSO-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LSO-SRC-104",
+          "locator": "Paragraphs describing district selection and local climate/food-security conditions"
+        }
+      ],
+      "geographies": [
+        "Mafeteng",
+        "Mohale's Hoek",
+        "Quthing",
+        "Thaba-Tseka",
+        "Southern Lowlands",
+        "Highlands"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "poor households",
+        "people with chronic malnutrition"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03-02 reports: The UN identifies Mafeteng, Mohale's Hoek and Quthing in the Southern Lowlands as facing recurrent drought and land degradation that undermine farming; Thaba-Tseka in the Highlands faces drought, erosion and limited services alongside high poverty and chronic malnutrition.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LSO-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LSO-SRC-104",
+          "locator": "Paragraphs on Phase I accomplishments and IACoV Phase II design"
+        }
+      ],
+      "geographies": [
+        "Lesotho"
+      ],
+      "affected_groups": [
+        "communities",
+        "vulnerable households"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03-02 reports: The UN reports Phase I strengthened national climate-information systems, supported climate-smart agriculture and community risk knowledge; Phase II is funded for US$10 million, implemented by WFP and executed by two ministries.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LSO-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LSO-SRC-104",
+          "locator": "Phase II activities and priority populations"
+        }
+      ],
+      "geographies": [
+        "Mafeteng",
+        "Mohale's Hoek",
+        "Quthing",
+        "Thaba-Tseka",
+        "Lesotho"
+      ],
+      "affected_groups": [
+        "women-headed households",
+        "youth",
+        "persons with disabilities",
+        "remote rural communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03-02 reports: Phase II plans better seasonal forecasts, gender-responsive last-mile climate services, anticipatory action, ecosystem rehabilitation, livelihood diversification and improved market links; it prioritizes women-headed households, youth, persons with disabilities and remote rural communities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check",
+        "programme_intent_and_outcome_terms_co-occur"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "LSO-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "LSO-E-002"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "LSO-E-002"
+        ],
+        "impact": [
+          "LSO-E-002"
+        ],
+        "mediator": [
+          "LSO-E-002"
+        ],
+        "consequence": [
+          "LSO-E-002"
+        ]
+      },
+      "geographies": [
+        "rural Lesotho"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Drought-related water journeys can increase protection risks for women and girls.",
+      "alternative_explanations": [
+        "Baseline gender inequalities and protection conditions also shape risk."
+      ],
+      "uncertainty": "Historical protection-risk account; no measured violence effect or event attribution.",
+      "potentially_out_of_scope_support_ids": [
+        "LSO-E-002"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "LSO-E-002",
+  "source_access_review": {
+    "selected_record_id": "LSO-E-002",
+    "selected_source_id": "LSO-SRC-001",
+    "url": "https://documents1.worldbank.org/curated/en/099072723174573255/pdf/P1730770d5fd890f50bd5302e810c6837b9.pdf",
+    "locator": "PDF p. 2, drought, water access and protection",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": null,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+  },
+  "checks": [
+    {
+      "record_id": "LSO-E-002",
+      "source_id": "LSO-SRC-001",
+      "locator": "PDF p. 2, drought, water access and protection",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "LSO-E-002: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "LSO-E-001",
+    "LSO-E-002",
+    "LSO-E-003",
+    "LSO-E-004",
+    "LSO-E-005",
+    "LSO-E-006",
+    "LSO-E-104",
+    "LSO-E-105",
+    "LSO-E-106",
+    "LSO-E-107",
+    "LSO-E-108",
+    "LSO-E-109",
+    "LSO-P-001"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

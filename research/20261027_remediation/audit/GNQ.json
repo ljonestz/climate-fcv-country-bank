@@ -1,0 +1,674 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "GNQ",
+  "candidate_path": "countries/GNQ/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 4,
+    "evidence_count": 8,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 8
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 7,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "GNQ-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "GNQ-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "GNQ-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "GNQ-E-101",
+          "GNQ-E-102",
+          "GNQ-E-105",
+          "GNQ-E-106",
+          "GNQ-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "GNQ-E-103"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/GNQ/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "GNQ-SRC-101",
+      "title": "First National Communication to the United Nations Framework Convention on Climate Change",
+      "organization": "Republic of Equatorial Guinea, Ministry of Agriculture, Livestock, Forests and Environment",
+      "publication_date": "2019",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/resource/INC%20of%20Equatorial%20Guinea_English%20version.pdf",
+      "geographic_coverage": [
+        "Equatorial Guinea",
+        "Malabo",
+        "Bata",
+        "urban and rural areas"
+      ],
+      "temporal_coverage": "National climate and institutional assessment published in 2019; some baselines cite the 2013 adaptation plan.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "restricted",
+      "records_using_source": [
+        "GNQ-E-101",
+        "GNQ-E-102"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Opened original 160-page national communication; cited PDF pp.136, 151.",
+          "notes": "Cover dates the communication 2019; water-manager conflict is not characterized as armed violence.",
+          "reuse_terms": "Government report permits educational partial reproduction with attribution; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GNQ-SRC-102",
+      "title": "Contribuciones Determinadas a Nivel Nacional (CDN), actualización 2022",
+      "organization": "Republic of Equatorial Guinea, Ministry of Agriculture, Livestock, Forests and Environment",
+      "publication_date": "2022-06",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/NDC/2022-10/CND-GuineaEcuatorial-Version2022-Actualizada.pdf",
+      "geographic_coverage": [
+        "Equatorial Guinea",
+        "Malabo",
+        "Bata",
+        "coastal areas"
+      ],
+      "temporal_coverage": "2022 update; vulnerability passages draw partly on 2013 and 2016 evidence; targets extend to 2050.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GNQ-E-103",
+        "GNQ-E-104",
+        "GNQ-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Opened original 40-page Spanish NDC; cited PDF pp.18 and 26.",
+          "notes": "This 2022 version is not treated as current after the NDC 3.0 registry entry.",
+          "reuse_terms": "Terms not reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GNQ-SRC-103",
+      "title": "SCALA Equatorial Guinea",
+      "organization": "United Nations Development Programme and Food and Agriculture Organization",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.adaptation-undp.org/projects/scala-equatorial-guinea",
+      "geographic_coverage": [
+        "Equatorial Guinea"
+      ],
+      "temporal_coverage": "The page reports government engagement and meetings in September–October 2023; other project statistics are undated.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GNQ-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Opened project description and dated September–October 2023 activity passages.",
+          "notes": "Undated page has older NAP-status text; only dated activity statements are retained.",
+          "reuse_terms": "Terms not reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GNQ-SRC-104",
+      "title": "Equatorial Guinea Economic Update 2024: Designing Fiscal Instruments for Sustainable Forestry",
+      "organization": "World Bank Group",
+      "publication_date": "2024-06",
+      "publication_date_basis": "document-version",
+      "url": "https://documents1.worldbank.org/curated/en/099100724125025884/pdf/P1812301643d2102d1ad2b1f87d5e267ac3.pdf",
+      "geographic_coverage": [
+        "Equatorial Guinea",
+        "forest concessions",
+        "forest-dependent communities"
+      ],
+      "temporal_coverage": "Second edition published June 2024; forestry status and institutional review are reported for that edition.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "GNQ-E-107",
+        "GNQ-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Opened original 64-page Economic Update; cited PDF pp.12 and 57–58.",
+          "notes": "Second edition cover dates the report June 2024; recommendations remain proposals.",
+          "reuse_terms": "World Bank permits attributed noncommercial reproduction; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "GNQ-E-107",
+        "selected_source_id": "GNQ-SRC-104",
+        "url": "https://documents1.worldbank.org/curated/en/099100724125025884/pdf/P1812301643d2102d1ad2b1f87d5e267ac3.pdf",
+        "locator": "PDF p.57, forestry governance recommendations.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "audit_accessed_on": "2026-10-27"
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "GNQ-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GNQ-SRC-101",
+          "locator": "One-based PDF p. 152, section 3: sustainable water resources"
+        }
+      ],
+      "geographies": [
+        "Equatorial Guinea",
+        "urban and rural areas"
+      ],
+      "affected_groups": [
+        "poor urban residents",
+        "poor rural residents",
+        "water managers"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "The communication does not specify a climate scenario.",
+      "compact_statement": "The 2019 communication anticipates climate pressure on water and describes competing control/use among water managers, recommending basin coordination. The passage concerns administrative resource governance, not documented armed conflict.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GNQ-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GNQ-SRC-101",
+          "locator": "PDF pp.136 and 151, meteorological-service priorities."
+        }
+      ],
+      "geographies": [
+        "Equatorial Guinea"
+      ],
+      "affected_groups": [
+        "farmers",
+        "fishers",
+        "rural residents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2019 reports: The report says the absence of a national meteorological system prevents services for agriculture, fishing and water management, including early warnings for floods and dangerous weather.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GNQ-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GNQ-SRC-102",
+          "locator": "PDF p.18, climate-station series."
+        }
+      ],
+      "geographies": [
+        "Malabo",
+        "Bata",
+        "Equatorial Guinea"
+      ],
+      "affected_groups": [
+        "residents of Malabo",
+        "residents of Bata"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-06 reports: The NDC relies on only two ASECNA stations, in Malabo and Bata; cited trends show significantly rising temperatures in Malabo but a different pattern in Bata, with no significant accumulated-rainfall trend.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GNQ-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GNQ-SRC-102",
+          "locator": "PDF p.18, vulnerability and reported climate changes."
+        }
+      ],
+      "geographies": [
+        "Equatorial Guinea"
+      ],
+      "affected_groups": [
+        "residents",
+        "rural communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-06 reports: Citing the 2013 adaptation plan, the NDC reports that residents had noted more storms and floods, drying springs and warmer conditions; it labels the country highly vulnerable.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GNQ-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GNQ-SRC-102",
+          "locator": "PDF p.26, coastal and mangrove targets."
+        }
+      ],
+      "geographies": [
+        "Equatorial Guinea",
+        "coastal areas"
+      ],
+      "affected_groups": [
+        "coastal communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-06 reports: The 2022 NDC sets targets for protecting 50% of the coast by 2050 and restoring 1,300 hectares and conserving 24,700 hectares of mangroves.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GNQ-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GNQ-SRC-103",
+          "locator": "Project page, September–October 2023 activity description."
+        }
+      ],
+      "geographies": [
+        "Equatorial Guinea"
+      ],
+      "affected_groups": [
+        "farmers",
+        "agricultural businesses"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The government requested SCALA support to strengthen private-sector participation in adaptation; follow-up discussions sought evidence for climate-resilient agriculture and value-chain work linked to the GCF program.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GNQ-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "GNQ-SRC-104",
+          "locator": "PDF p.57, forestry governance recommendations."
+        }
+      ],
+      "geographies": [
+        "Equatorial Guinea",
+        "forest concessions"
+      ],
+      "affected_groups": [
+        "forest-dependent communities",
+        "indigenous peoples"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-06 reports: The World Bank reports that no national forestry inventory has been completed since 1992 and no forestry management plans have been formulated or implemented; the governing law also awaits update.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "GNQ-E-107",
+        "selected_source_id": "GNQ-SRC-104",
+        "url": "https://documents1.worldbank.org/curated/en/099100724125025884/pdf/P1812301643d2102d1ad2b1f87d5e267ac3.pdf",
+        "locator": "PDF p.57, forestry governance recommendations.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "GNQ-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GNQ-SRC-104",
+          "locator": "PDF pp.12 and 57–58, funding and proposed forest measures."
+        }
+      ],
+      "geographies": [
+        "Equatorial Guinea",
+        "forest-dependent communities"
+      ],
+      "affected_groups": [
+        "indigenous peoples",
+        "rural women",
+        "smallholder farmers",
+        "local communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2024 economic update identifies inadequate support for communal forests, indigenous populations, rural women and smallholders; participatory management and benefit-sharing are recommendations, not delivered peacebuilding capacity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "GNQ-E-107",
+  "source_access_review": {
+    "selected_record_id": "GNQ-E-107",
+    "selected_source_id": "GNQ-SRC-104",
+    "url": "https://documents1.worldbank.org/curated/en/099100724125025884/pdf/P1812301643d2102d1ad2b1f87d5e267ac3.pdf",
+    "locator": "PDF p.57, forestry governance recommendations.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": null,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+  },
+  "checks": [
+    {
+      "record_id": "GNQ-E-107",
+      "source_id": "GNQ-SRC-104",
+      "locator": "PDF p.57, forestry governance recommendations.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "GNQ-E-107: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "GNQ-E-101",
+    "GNQ-E-102",
+    "GNQ-E-103",
+    "GNQ-E-104",
+    "GNQ-E-105",
+    "GNQ-E-106",
+    "GNQ-E-107",
+    "GNQ-E-108"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

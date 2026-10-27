@@ -1,0 +1,2118 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "LBN",
+  "candidate_path": "countries/LBN/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 15,
+    "evidence_count": 28,
+    "pathway_count": 7,
+    "evidence_source_reference_count": 28
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 20,
+      "verified": 1,
+      "access-only": 7
+    },
+    "pathway_claims": {
+      "unresolved": 7
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "LBN-E-001"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "LBN-E-006",
+          "LBN-E-012"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "LBN-E-002",
+          "LBN-E-008",
+          "LBN-E-011",
+          "LBN-E-013",
+          "LBN-E-020",
+          "LBN-E-102",
+          "LBN-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "LBN-E-016",
+          "LBN-E-017"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "LBN-E-003",
+          "LBN-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "LBN-E-004",
+          "LBN-E-005",
+          "LBN-E-007",
+          "LBN-E-009",
+          "LBN-E-101"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "LBN-E-021",
+          "LBN-E-022"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "LBN-E-014",
+          "LBN-E-015",
+          "LBN-E-019",
+          "LBN-E-103",
+          "LBN-E-104",
+          "LBN-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "LBN-E-018"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "LBN-E-102",
+          "LBN-E-103",
+          "LBN-E-104",
+          "LBN-E-106"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "LBN-P-001",
+          "LBN-P-002",
+          "LBN-P-003",
+          "LBN-P-004",
+          "LBN-P-005",
+          "LBN-P-006",
+          "LBN-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/LBN/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "LBN-SRC-001",
+      "title": "*Lebanon's Nationally Determined Contribution (NDC 3.0) - Target Year 2035* (UNDP)",
+      "organization": "UNDP Lebanon / Government of Lebanon document mirror",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/lebanon/publications/lebanons-nationally-determined-contribution-ndc-30-target-year-2035-1",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "Targets to 2035; net-zero trajectory to 2050",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBN-E-005"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBN-SRC-002",
+      "title": "*Lebanon National Adaptation Plan (NAP)* (UNDP)",
+      "organization": "UNDP Lebanon / Government of Lebanon document mirror",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/lebanon/publications/lebanon-national-adaptation-plan-nap",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "2025-2035",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBN-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBN-SRC-003",
+      "title": "*Critical Investments in Key Sectors Can Help Lebanon Mitigate Climate Change Impact on Growth and Prepare for a Green Transition* (World Bank)",
+      "organization": "World Bank",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2024/03/13/critical-investments-in-key-sectors-can-help-lebanon-mitigate-climate-change-impact-on-growth-and-prepare-for-a-green-tr",
+      "geographic_coverage": [
+        "National; energy, water, transport, solid waste"
+      ],
+      "temporal_coverage": "Projections to 2040; investment horizon 2024-2030",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBN-E-001",
+        "LBN-E-002",
+        "LBN-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBN-SRC-004",
+      "title": "*New World Bank Program to Improve Water Supply and Quality and Advance Water Sector Reforms* (World Bank)",
+      "organization": "World Bank",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2025/01/15/new-world-bank-program-to-improve-water-supply-and-quality-and-advance-water-sector-reforms",
+      "geographic_coverage": [
+        "Greater Beirut and Mount Lebanon; national water reform"
+      ],
+      "temporal_coverage": "2024-2035 strategy; projection to 2040",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBN-E-006",
+        "LBN-E-007"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBN-SRC-005",
+      "title": "*Lebanon's Recovery and Reconstruction Needs Estimated at US$11 Billion* (World Bank)",
+      "organization": "World Bank",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2025/03/07/lebanon-s-recovery-and-reconstruction-needs-estimated-at-us-11-billion",
+      "geographic_coverage": [
+        "National, with subnational damage patterns"
+      ],
+      "temporal_coverage": "8 Oct 2023-20 Dec 2024",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBN-E-008"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBN-SRC-006",
+      "title": "*Lebanon Emergency Assistance Project: Frequently Asked Questions* (World Bank)",
+      "organization": "World Bank",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/factsheet/2026/02/17/lebanon-emergency-assistance-project-frequently-asked-questions",
+      "geographic_coverage": [
+        "Conflict-affected areas nationally"
+      ],
+      "temporal_coverage": "2025-2026 onward",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBN-E-009"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBN-SRC-008",
+      "title": "*It's a long road to food security for Lebanon, report warns* (World Food Programme)",
+      "organization": "World Food Programme",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://www.wfp.org/stories/its-long-road-food-security-lebanon-report-warns",
+      "geographic_coverage": [
+        "National; conflict-affected communities"
+      ],
+      "temporal_coverage": "Late 2024-Jan 2025",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBN-SRC-009",
+      "title": "*Public Perceptions of Climate Change Risks in Lebanon - Regular Perception Surveys on Social Tensions, Wave 22*",
+      "organization": "UNDP Regular Perceptions Survey / ARK",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://admin.tms-lebanon.com/StaticFiles/Files/w22_climate_change_risks_v2.pdf",
+      "geographic_coverage": [
+        "National with governorate/rural-urban differentiation"
+      ],
+      "temporal_coverage": "Fieldwork Oct-9 Nov 2025; comparison with earlier waves",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBN-E-012",
+        "LBN-E-013",
+        "LBN-E-014",
+        "LBN-E-015",
+        "LBN-E-016",
+        "LBN-E-017"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBN-SRC-010",
+      "title": "*Water as a Tool for Defusing Socio-Political Tension - Executive Summary*",
+      "organization": "UNICEF Lebanon; AUB-IFI; Search for Common Ground",
+      "publication_date": "2022",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/lebanon/media/8866/file/Water%20as%20a%20Tool%20for%20Defusing%20Socio%20Political%20Tension%20-%20Executive%20Summary%20EN.pdf",
+      "geographic_coverage": [
+        "Lebanon; local hotspot evidence including North Lebanon"
+      ],
+      "temporal_coverage": "Published 2022",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBN-E-018"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "LBN-E-018",
+        "selected_source_id": "LBN-SRC-010",
+        "url": "https://www.unicef.org/lebanon/media/8866/file/Water%20as%20a%20Tool%20for%20Defusing%20Socio%20Political%20Tension%20-%20Executive%20Summary%20EN.pdf",
+        "locator": "PDF p.2/6, “Overview”",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 709285,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          2
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "LBN-E-018"
+      ],
+      "manual_verified_record_ids": [
+        "LBN-E-018"
+      ]
+    },
+    {
+      "source_id": "LBN-SRC-011",
+      "title": "*Water Scarcity and Social Tensions in Lebanon: Lessons from the Bcharreh-Denniyeh Case*",
+      "organization": "ALEF - act for human rights, with Oxfam/SHiFT/Right to Play",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://alefliban.org/wp-content/uploads/2026/02/Policy-Note-Water-Scarcity-EN-v01.pdf",
+      "geographic_coverage": [
+        "Bcharreh-Denniyeh plus broader synthesis"
+      ],
+      "temporal_coverage": "Historical dispute through 2025",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBN-E-019"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBN-SRC-012",
+      "title": "*Conflict Sensitivity Guidance for the Food Security and Agriculture sector (FSAS) in Lebanon*",
+      "organization": "International Alert with FSA Core Group; UNDP-supported",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-06/conflict_sensitivity_guidance_for_the_food_and_argriculture_sector_in_lebanon.pdf",
+      "geographic_coverage": [
+        "National with local examples"
+      ],
+      "temporal_coverage": "2024-2025 context",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBN-E-011",
+        "LBN-E-020"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBN-SRC-013",
+      "title": "*Evaluation of Lebanon Host Communities Support Project (2019-2022)*",
+      "organization": "UNDP; independent evaluation team",
+      "publication_date": "2023",
+      "publication_date_basis": "publication",
+      "url": "https://alnap.hacdn.io/media/documents/LHSP_2023_FinalProjectEvaluation_FinalReport.pdf",
+      "geographic_coverage": [
+        "Multiple municipalities nationally"
+      ],
+      "temporal_coverage": "Programme 2019-2022; evaluation Apr-Oct 2023",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBN-E-021",
+        "LBN-E-022"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBN-SRC-101",
+      "title": "From Crisis to Recovery: Local Authorities Confronting Post-War Realities in Lebanon: Rapid Impact Assessment",
+      "organization": "United Nations Development Programme (UNDP) Lebanon",
+      "publication_date": "2025-01",
+      "publication_date_basis": "document-version",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2025-01/rapid_impact_assessment_report_of_union_of_mun_jan21.pdf",
+      "geographic_coverage": [
+        "135 surveyed affected areas in 19 districts and eight governorates",
+        "Beirut Southern Suburbs",
+        "Baalbek Union of Municipalities",
+        "Aitaroun",
+        "Al-Jibbin",
+        "South Lebanon",
+        "Nabatieh",
+        "Bekaa",
+        "Baalbek-El Hermel"
+      ],
+      "temporal_coverage": "Hostilities October 2023–November 2024; municipality survey 5–15 December 2024; publication January 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBN-E-101",
+        "LBN-E-102"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 16-page PDF; methodology, institutional constraints, municipal damage and locality findings inspected.",
+          "notes": "Read full report; primary survey covers 135 of 392 affected areas and flags inaccessible localities and need for validation.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBN-SRC-102",
+      "title": "The Socioeconomic Impacts of the 2024 War on Lebanon",
+      "organization": "United Nations Economic and Social Commission for Western Asia (ESCWA), UNDP, UNICEF, ILO and UN-Habitat",
+      "publication_date": "2025-07",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2025-08/2500251e-socioeconomic-impacts-lebanon-2024-war-web-report-jul30.pdf",
+      "geographic_coverage": [
+        "Lebanon",
+        "Bekaa",
+        "Southern Lebanon",
+        "Tyre District",
+        "Bent Jbeil District",
+        "Marjaayoun District",
+        "Rmeich"
+      ],
+      "temporal_coverage": "2024 war impacts; field data collected December 2024–February 2025; publication July 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBN-E-103",
+        "LBN-E-104",
+        "LBN-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 104-page PDF; printed pp.45, 49–50, 61–62 and PDF p.21 inspected.",
+          "notes": "Inspected methodology and full passages on climate-labour, water service, environmental and agricultural effects.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LBN-SRC-103",
+      "title": "FAO and Ministry of Agriculture Launch the Lebanon Agricultural Damage and Loss Assessment Report",
+      "organization": "Food and Agriculture Organization of the United Nations (FAO), Ministry of Agriculture and National Council for Scientific Research-Lebanon",
+      "publication_date": "2025-04-16",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.fao.org/neareast/news/details/fao-and-ministry-of-agriculture-launch-the-lebanon-agricultural-damage-and-loss-assessment-report",
+      "geographic_coverage": [
+        "Lebanon",
+        "Southern Lebanon",
+        "Bekaa Valley"
+      ],
+      "temporal_coverage": "Conflict assessment period October 2023–November 2024; recovery priorities include 2025/26.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LBN-E-106",
+        "LBN-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Full official FAO launch page inspected, 16 April 2025, findings and recovery priorities.",
+          "notes": "The linked FAO Open Knowledge report returned 403; a government-hosted PDF mirror returned 502. Claims use only accessible official summary text.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "LBN-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-003",
+          "locator": "webpage paragraph beginning “Climate change is projected to decrease water availability…” (World Bank)"
+        }
+      ],
+      "geographies": [
+        "Lebanon"
+      ],
+      "affected_groups": [
+        "water users"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "2040; emissions scenario not specified in accessible release",
+      "compact_statement": "Material dry-season water decline projected.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBN-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-003",
+          "locator": "paragraph beginning “Climate change in Lebanon…” (World Bank)"
+        }
+      ],
+      "geographies": [
+        "Lebanon"
+      ],
+      "affected_groups": [
+        "national population"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "2040; CCDR modelling",
+      "compact_statement": "Climate may materially constrain growth.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBN-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-003",
+          "locator": "paragraphs on readiness/adaptive capacity and public finances (World Bank)"
+        }
+      ],
+      "geographies": [
+        "Lebanon"
+      ],
+      "affected_groups": [
+        "service users"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Economic crisis weakens adaptation capacity.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LBN-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-002",
+          "locator": "webpage paragraphs under “Lebanon National Adaptation Plan (NAP)” (UNDP)"
+        }
+      ],
+      "geographies": [
+        "Lebanon"
+      ],
+      "affected_groups": [
+        "national population"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "National adaptation framework now exists.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBN-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-001",
+          "locator": "webpage paragraph beginning “Beyond setting targets…” (UNDP)"
+        }
+      ],
+      "geographies": [
+        "Lebanon"
+      ],
+      "affected_groups": [
+        "national population"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "NDC records implementation constraints.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBN-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-004",
+          "locator": "paragraph beginning “The project aims to increase water supply…” (World Bank)"
+        }
+      ],
+      "geographies": [
+        "Greater Beirut",
+        "Mount Lebanon"
+      ],
+      "affected_groups": [
+        "households reliant on private supply"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Informal water provision can impose high household costs.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LBN-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-004",
+          "locator": "paragraph beginning “Moreover, as a result of the multiple crises…” (World Bank)"
+        }
+      ],
+      "geographies": [
+        "Lebanon"
+      ],
+      "affected_groups": [
+        "water users"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Crisis conditions obstruct water-system adaptation.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LBN-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-008",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-005",
+          "locator": "RDNA release paragraphs on assessment period and damage/loss totals (World Bank)"
+        }
+      ],
+      "geographies": [
+        "Lebanon"
+      ],
+      "affected_groups": [
+        "conflict-affected population"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict caused major damage/loss independently of climate.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBN-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-009",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-006",
+          "locator": "FAQ question 1 (World Bank)"
+        }
+      ],
+      "geographies": [
+        "conflict-affected areas"
+      ],
+      "affected_groups": [
+        "residents/service users"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Recovery financing capacity exists but is incomplete.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBN-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-011",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-012",
+          "locator": "PDF p.5/19, “Context overview”"
+        }
+      ],
+      "geographies": [
+        "Lebanon"
+      ],
+      "affected_groups": [
+        "Lebanese",
+        "displaced Syrians",
+        "Palestine refugees"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "For April-June 2025, about 1.17 million people were in IPC Phase 3+, principally driven by conflict, displacement and reduced assistance.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBN-SRC-012"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-012",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-009",
+          "locator": "PDF pp.13-14/20, §4.3 and Figure 5"
+        }
+      ],
+      "geographies": [
+        "Lebanon"
+      ],
+      "affected_groups": [
+        "surveyed households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "In the October-November 2025 Wave 22 survey, 76.0% reported at least one listed climate-associated exposure, including water shortage and heat.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBN-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-013",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-009",
+          "locator": "PDF p.15/20, §4.4"
+        }
+      ],
+      "geographies": [
+        "Lebanon",
+        "rural/urban"
+      ],
+      "affected_groups": [
+        "Syrian respondents",
+        "Lebanese respondents",
+        "rural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "In October-November 2025 Wave 22, reported climate-related financial loss was higher in rural and Syrian respondent groups.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBN-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-014",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-009",
+          "locator": "PDF p.15/20, §4.5/Figures 7-8"
+        }
+      ],
+      "geographies": [
+        "Lebanon"
+      ],
+      "affected_groups": [
+        "surveyed population"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "In October-November 2025 Wave 22, respondents commonly perceived climate issues as straining services and contributing to tensions.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBN-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-015",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-009",
+          "locator": "PDF pp.16-17/20, §4.5.1/Figure 8"
+        }
+      ],
+      "geographies": [
+        "Beirut",
+        "Beqaa",
+        "national"
+      ],
+      "affected_groups": [
+        "Lebanese and Syrian respondents"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "October-November 2025 Wave 22 perceptions linked climate-related tension to pre-existing group relations and job/resource competition.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBN-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-016",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-009",
+          "locator": "PDF p.17/20, §4.6"
+        }
+      ],
+      "geographies": [
+        "Lebanon"
+      ],
+      "affected_groups": [
+        "households"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "In October-November 2025 Wave 22, 65.9% reported a household coping action, most often using water wisely.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBN-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-017",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-009",
+          "locator": "PDF pp.17-18/20, §4.6"
+        }
+      ],
+      "geographies": [
+        "Lebanon"
+      ],
+      "affected_groups": [
+        "households"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "October-November 2025 Wave 22 found solar uptake largely reflected electricity-crisis necessity rather than deliberate climate adaptation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBN-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-018",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-010",
+          "locator": "PDF p.2/6, “Overview”"
+        }
+      ],
+      "geographies": [
+        "North Lebanon",
+        "specific community unnamed in executive summary"
+      ],
+      "affected_groups": [
+        "local communities",
+        "children"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Water projects may support local cohesion.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LBN-SRC-010"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "LBN-E-018",
+        "source_id": "LBN-SRC-010",
+        "url": "https://www.unicef.org/lebanon/media/8866/file/Water%20as%20a%20Tool%20for%20Defusing%20Socio%20Political%20Tension%20-%20Executive%20Summary%20EN.pdf",
+        "locator": "PDF p.2/6, “Overview”",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+      },
+      "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "LBN-SRC-010",
+        "source_url": "https://www.unicef.org/lebanon/media/8866/file/Water%20as%20a%20Tool%20for%20Defusing%20Socio%20Political%20Tension%20-%20Executive%20Summary%20EN.pdf",
+        "locator": "PDF p.2/6, “Overview”",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "LBN-E-019",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-011",
+          "locator": "PDF p.7/22, Executive Summary"
+        }
+      ],
+      "geographies": [
+        "Bcharreh-Denniyeh / Qurnat al-Sawda"
+      ],
+      "affected_groups": [
+        "local communities",
+        "farmers/pastoral users"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Local water conflict is governance-mediated, not climate-determined.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBN-SRC-011"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-020",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-012",
+          "locator": "PDF p.5/19, “Context overview”"
+        }
+      ],
+      "geographies": [
+        "Lebanon",
+        "examples include Hermel/Akkar"
+      ],
+      "affected_groups": [
+        "Lebanese",
+        "Syrians"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Non-climate political and economic drivers remain central.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "LBN-SRC-012"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-021",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-013",
+          "locator": "PDF p.54/90"
+        }
+      ],
+      "geographies": [
+        "Akkar",
+        "Bekaa"
+      ],
+      "affected_groups": [
+        "beneficiary and neighbouring communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Uneven aid/infrastructure allocation can generate grievances.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LBN-SRC-013"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-022",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-013",
+          "locator": "PDF pp.61-62/90, “M&E System/Reporting”"
+        }
+      ],
+      "geographies": [
+        "Lebanon"
+      ],
+      "affected_groups": [
+        "programme communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Response effectiveness could not be robustly measured.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LBN-SRC-013"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-101",
+          "locator": "One-based PDF p.3, situation overview."
+        }
+      ],
+      "geographies": [
+        "Lebanon"
+      ],
+      "affected_groups": [
+        "affected communities",
+        "local authorities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "At the report date, UNDP described post-war recovery as constrained by institutional capacity weakened by prolonged fiscal and economic shocks, a political vacuum, and conditions restricting external aid.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-101",
+          "locator": "One-based PDF pp.7-8, agriculture and environmental recovery findings."
+        }
+      ],
+      "geographies": [
+        "Baalbek District",
+        "Bint Jbeil District",
+        "Nabatieh District",
+        "Sour District",
+        "135 surveyed affected areas"
+      ],
+      "affected_groups": [
+        "farmers",
+        "rural communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "In the December 2024 municipal survey, 14,762 agricultural assets were reported damaged, with large counts in Baalbek/Bint Jbeil and high complete-damage shares in Nabatieh/Sour; environmental concerns were not each allocated geographically.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-102",
+          "locator": "Printed p.45, regional labour-market disparities and climate challenges"
+        }
+      ],
+      "geographies": [
+        "Bekaa",
+        "Southern Lebanon"
+      ],
+      "affected_groups": [
+        "outdoor manual workers",
+        "workers in conflict-affected areas"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Source-unspecified; the report gives an end-of-century projection but no emissions pathway.",
+      "compact_statement": "Conflict-affected Bekaa and southern Lebanon are projected to face end-century wet-bulb globe temperature increases of 2–3.5°C; without adaptation, heat would reduce labour capacity, especially for outdoor manual workers.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-102",
+          "locator": "One-based PDF pp.50-51, water infrastructure and Rmeich."
+        }
+      ],
+      "geographies": [
+        "Rmeich",
+        "southern Lebanon",
+        "Tyre District",
+        "Bint Jbeil District",
+        "Marjaayoun District"
+      ],
+      "affected_groups": [
+        "rural residents",
+        "displaced families"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2025 UN report describes attacks damaging at least 34 water facilities and affecting over 400,000 people amid pre-existing climate-related supply pressure; Rmeich disruption affected about 1,325 households, including 175 displaced families.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-102",
+          "locator": "PDF p.21/104, environmental impacts"
+        }
+      ],
+      "geographies": [
+        "Lebanon"
+      ],
+      "affected_groups": [
+        "communities dependent on natural resources"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The report says military operations damaged natural habitats and coastal ecosystems, increasing Lebanon's vulnerability to climate change and biodiversity loss.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-103",
+          "locator": "Official FAO launch page, assessment findings and recovery priorities"
+        }
+      ],
+      "geographies": [
+        "Southern Lebanon",
+        "Bekaa Valley"
+      ],
+      "affected_groups": [
+        "farmers",
+        "livestock keepers",
+        "rural communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The FAO–Ministry–CNRS-L assessment attributes 2023–2024 agricultural impacts to conflict and estimates US$118 million in damage and US$586 million in losses, with Southern Lebanon and Bekaa most affected.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LBN-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LBN-SRC-103",
+          "locator": "Official FAO launch page, recovery needs and medium-term priorities"
+        }
+      ],
+      "geographies": [
+        "Lebanon",
+        "Southern Lebanon",
+        "Bekaa Valley"
+      ],
+      "affected_groups": [
+        "farmers",
+        "livestock keepers",
+        "rural communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "FAO's April 2025 launch summary estimates US$263 million in agricultural recovery needs, including US$95 million prioritized for 2025/26; proposed farm, irrigation and natural-resource restoration is not proven delivery.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "LBN-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "LBN-E-001",
+        "LBN-E-006",
+        "LBN-E-013",
+        "LBN-E-014",
+        "LBN-E-015"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "LBN-E-001"
+        ],
+        "impact": [
+          "LBN-E-006",
+          "LBN-E-013",
+          "LBN-E-014"
+        ],
+        "mediator": [
+          "LBN-E-015"
+        ],
+        "consequence": [
+          "LBN-E-014"
+        ]
+      },
+      "geographies": [
+        "National candidate",
+        "strongest directly observed perception evidence in Beirut/Mount Lebanon and Beirut/Beqaa tension analysis"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Climate-related water stress may aggravate tension through service failure and perceived inequity, but scarcity alone is not demonstrated to cause conflict. (World Bank)",
+      "alternative_explanations": [
+        "Structural water-management deficits",
+        "seasonal rainfall concentration",
+        "insufficient storage",
+        "electricity failures",
+        "informal water markets",
+        "poverty",
+        "conflict damage and allocation decisions"
+      ],
+      "uncertainty": "No source reviewed estimates an independent causal effect of climate change on violent conflict.",
+      "potentially_out_of_scope_support_ids": [
+        "LBN-E-001",
+        "LBN-E-006",
+        "LBN-E-013",
+        "LBN-E-014",
+        "LBN-E-015"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "LBN-P-002",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "LBN-E-013",
+        "LBN-E-015",
+        "LBN-E-020"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "LBN-E-013"
+        ],
+        "impact": [
+          "LBN-E-013"
+        ],
+        "mediator": [
+          "LBN-E-013"
+        ],
+        "consequence": [
+          "LBN-E-013"
+        ]
+      },
+      "geographies": [
+        "Rural Lebanon",
+        "Bekaa/Akkar particularly relevant",
+        "no national violence inference"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Climate-sensitive livelihood losses may compound job/resource competition, but political economy and labour-market conditions remain independent drivers.",
+      "alternative_explanations": [
+        "Inflation",
+        "economic collapse",
+        "legal/work restrictions",
+        "aid reductions",
+        "political tensions and conflict"
+      ],
+      "uncertainty": "Survey respondents attribute losses to climate; causal attribution was not independently tested.",
+      "potentially_out_of_scope_support_ids": [
+        "LBN-E-013",
+        "LBN-E-015",
+        "LBN-E-020"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "LBN-P-003",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "LBN-E-003",
+        "LBN-E-007",
+        "LBN-E-008",
+        "LBN-E-009"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "LBN-E-003"
+        ],
+        "impact": [
+          "LBN-E-003"
+        ],
+        "mediator": [
+          "LBN-E-003"
+        ],
+        "consequence": [
+          "LBN-E-003"
+        ]
+      },
+      "geographies": [
+        "National",
+        "especially conflict-damaged South/Nabatiyeh and service-stressed urban areas"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "triangulated",
+      "compact_statement": "The strongest reverse pathway is that conflict and economic collapse weaken infrastructure and institutions needed to manage climate risk. (World Bank)",
+      "alternative_explanations": [
+        "Long-standing infrastructure underinvestment and governance weaknesses predate recent hostilities"
+      ],
+      "uncertainty": "Sources demonstrate damage and capacity constraints more directly than they measure resulting changes in climate vulnerability.",
+      "potentially_out_of_scope_support_ids": [
+        "LBN-E-003",
+        "LBN-E-007",
+        "LBN-E-008",
+        "LBN-E-009"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "LBN-P-004",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "LBN-E-011",
+        "LBN-E-013",
+        "LBN-E-020"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "LBN-E-011"
+        ],
+        "impact": [
+          "LBN-E-011"
+        ],
+        "mediator": [
+          "LBN-E-011"
+        ],
+        "consequence": [
+          "LBN-E-011"
+        ]
+      },
+      "geographies": [
+        "National",
+        "with rural and displacement-affected areas potentially more exposed"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Climate shocks could compound food insecurity, but the recent acute burden cannot be credibly described as climate-driven.",
+      "alternative_explanations": [
+        "The cited 2025 evidence explicitly identifies conflict",
+        "displacement and reduced assistance - not climate - as the main immediate food-insecurity drivers"
+      ],
+      "uncertainty": "No reviewed source apportions the 2025 IPC burden quantitatively to climate.",
+      "potentially_out_of_scope_support_ids": [
+        "LBN-E-011",
+        "LBN-E-013",
+        "LBN-E-020"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "LBN-P-005",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "LBN-E-018"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "LBN-E-018"
+        ],
+        "impact": [
+          "LBN-E-018"
+        ],
+        "mediator": [
+          "LBN-E-018"
+        ],
+        "consequence": [
+          "LBN-E-018"
+        ]
+      },
+      "geographies": [
+        "Local North Lebanon evidence",
+        "candidate nationally only as a programme theory"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "direct",
+      "compact_statement": "WASH projects can potentially serve as peace-supporting adaptation when infrastructure and dialogue are deliberately combined.",
+      "alternative_explanations": [
+        "Dialogue or wider political changes may have contributed independently"
+      ],
+      "uncertainty": "No counterfactual evaluation; the observed local experience does not establish general effectiveness.",
+      "potentially_out_of_scope_support_ids": [
+        "LBN-E-018"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "LBN-P-006",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "LBN-E-006",
+        "LBN-E-019"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "LBN-E-006"
+        ],
+        "impact": [
+          "LBN-E-006"
+        ],
+        "mediator": [
+          "LBN-E-006"
+        ],
+        "consequence": [
+          "LBN-E-006"
+        ]
+      },
+      "geographies": [
+        "Bcharreh-Denniyeh/Qurnat al-Sawda",
+        "other areas require independent verification"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Climate stress may amplify contested water governance, but the causal core of documented local disputes is institutional and political as well as environmental.",
+      "alternative_explanations": [
+        "Historical property disputes",
+        "sectarian politics and governance failures can generate conflict independent of climatic change"
+      ],
+      "uncertainty": "Climate's contribution to the specific Bcharreh-Denniyeh conflict is not isolated.",
+      "potentially_out_of_scope_support_ids": [
+        "LBN-E-006",
+        "LBN-E-019"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "LBN-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "LBN-E-104"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "LBN-E-104"
+        ],
+        "impact": [
+          "LBN-E-104"
+        ],
+        "mediator": [
+          "LBN-E-104"
+        ],
+        "consequence": [
+          "LBN-E-104"
+        ]
+      },
+      "geographies": [
+        "Rmeich",
+        "southern Lebanon"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "direct",
+      "compact_statement": "War-damaged water facilities in southern Lebanon compound pre-existing climate-related supply pressure and restrict households' coping capacity.",
+      "alternative_explanations": [
+        "Economic crisis, infrastructure maintenance and service governance also shape water access independently of climate or the assessed hostilities."
+      ],
+      "uncertainty": "Historical 2024-war assessment; source-stated compounding mechanism, not a measured climate-conflict interaction or current 2026 service audit.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "LBN-E-018",
+  "source_access_review": {
+    "selected_record_id": "LBN-E-018",
+    "selected_source_id": "LBN-SRC-010",
+    "url": "https://www.unicef.org/lebanon/media/8866/file/Water%20as%20a%20Tool%20for%20Defusing%20Socio%20Political%20Tension%20-%20Executive%20Summary%20EN.pdf",
+    "locator": "PDF p.2/6, “Overview”",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 709285,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      2
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+  },
+  "checks": [
+    {
+      "record_id": "LBN-E-018",
+      "source_id": "LBN-SRC-010",
+      "locator": "PDF p.2/6, “Overview”",
+      "verification_status": "verified",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "LBN-E-018: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "LBN-E-001",
+    "LBN-E-002",
+    "LBN-E-003",
+    "LBN-E-004",
+    "LBN-E-005",
+    "LBN-E-006",
+    "LBN-E-007",
+    "LBN-E-008",
+    "LBN-E-009",
+    "LBN-E-011",
+    "LBN-E-012",
+    "LBN-E-013",
+    "LBN-E-014",
+    "LBN-E-015",
+    "LBN-E-016",
+    "LBN-E-017",
+    "LBN-E-018",
+    "LBN-E-019",
+    "LBN-E-020",
+    "LBN-E-021",
+    "LBN-E-022",
+    "LBN-E-101",
+    "LBN-E-102",
+    "LBN-E-103",
+    "LBN-E-104",
+    "LBN-E-105",
+    "LBN-E-106",
+    "LBN-E-107",
+    "LBN-P-001",
+    "LBN-P-002",
+    "LBN-P-003",
+    "LBN-P-004",
+    "LBN-P-005",
+    "LBN-P-006",
+    "LBN-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

@@ -1,0 +1,1173 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "MNE",
+  "candidate_path": "countries/MNE/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 4,
+    "evidence_count": 18,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 18
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 1,
+      "access-only": 17
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "At least one known-gap statement appears inconsistent with the current pathway inventory.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "MNE-E-102",
+          "MNE-E-103",
+          "MNE-E-111",
+          "MNE-E-112",
+          "MNE-E-115",
+          "MNE-E-116",
+          "MNE-E-118"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "MNE-E-104",
+          "MNE-E-107",
+          "MNE-E-108",
+          "MNE-E-117"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MNE-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MNE-E-105",
+          "MNE-E-106",
+          "MNE-E-109",
+          "MNE-E-113",
+          "MNE-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "MNE-E-101"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "MNE-E-101",
+          "MNE-E-102",
+          "MNE-E-103",
+          "MNE-E-112",
+          "MNE-E-115",
+          "MNE-E-116",
+          "MNE-E-117",
+          "MNE-E-118"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "MNE-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [
+      {
+        "text": "Water-use conflict is a conditional planning warning, not evidence of observed intercommunal or armed violence. No source-stated conflict-to-adaptation pathway was verified.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      }
+    ],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/MNE/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "MNE-SRC-101",
+      "title": "Climate Change Adaptation Plan 2025-2035 with the Action Plan 2025-2027",
+      "organization": "Ministry of Ecology, Sustainable Development, and Northern Region Development of Montenegro",
+      "publication_date": "2025-06",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/resource/NAP_Montenegro_2025.pdf",
+      "geographic_coverage": [
+        "Montenegro",
+        "Zeta Plain",
+        "Bjelopavlici Plains",
+        "Bojana River",
+        "Lim River valley",
+        "coastal areas",
+        "remote villages"
+      ],
+      "temporal_coverage": "National adaptation plan for 2025-2035; cited observed events and social data are dated in the report, while its risk assessment also discusses projected hazards.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "MNE-E-101",
+        "MNE-E-102",
+        "MNE-E-103",
+        "MNE-E-104",
+        "MNE-E-105",
+        "MNE-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 229-page plan opened; physical pp.1-3, 35-40, 220-221 reviewed.",
+          "notes": "Direct PDF text was inspected; title page says June 2025. The government portal separately lists publication on 8 October 2025.",
+          "reuse_terms": "Plan says it may be freely used, distributed and adapted with proper citation.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "MNE-E-101",
+        "selected_source_id": "MNE-SRC-101",
+        "url": "https://unfccc.int/sites/default/files/resource/NAP_Montenegro_2025.pdf",
+        "locator": "PDF physical p.220, Appendix D, agricultural vulnerability findings on rainfall and water availability.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 212,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "MNE-SRC-102",
+      "title": "Montenegro National Drought Plan",
+      "organization": "Ministry of Sustainable Development and Tourism, Government of Montenegro, with UNCCD support",
+      "publication_date": "2020-11",
+      "publication_date_basis": "document-version",
+      "url": "https://www.unccd.int/sites/default/files/country_profile_documents/Montenegro%20national%20drought%20plan_0.pdf",
+      "geographic_coverage": [
+        "Montenegro",
+        "coastal region",
+        "northern mountain region",
+        "southern Montenegro",
+        "agricultural areas"
+      ],
+      "temporal_coverage": "Plan dated November 2020; it describes then-current monitoring and drought-management arrangements and summarizes earlier events and proposed actions.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MNE-E-107",
+        "MNE-E-108",
+        "MNE-E-109",
+        "MNE-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 100-page plan opened; physical pp.48-50 and 94-96 reviewed.",
+          "notes": "Direct PDF text was inspected; cover states November 2020.",
+          "reuse_terms": "No license terms identified in inspected pages.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MNE-SRC-103",
+      "title": "Country Climate and Development Report: Western Balkans 6. Montenegro Country Compendium",
+      "organization": "World Bank Group",
+      "publication_date": "2024-10",
+      "publication_date_basis": "document-version",
+      "url": "https://documents1.worldbank.org/curated/en/099100324121013805/pdf/P1792051dc770d0a318df41b32969f2a9ec.pdf",
+      "geographic_coverage": [
+        "Montenegro",
+        "Zeta",
+        "Bjelopavlici",
+        "Morača River",
+        "Zeta River",
+        "Skadar Lake",
+        "municipalities"
+      ],
+      "temporal_coverage": "Country compendium dated October 2024; combines historical event data, institutional assessment and modeled climate-risk scenarios.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "MNE-E-111",
+        "MNE-E-112",
+        "MNE-E-113",
+        "MNE-E-114"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 82-page country compendium opened; physical pp.9, 23, 30-31 reviewed.",
+          "notes": "Direct World Bank PDF was opened from the official Montenegro CCDR publisher page; cover states October 2024.",
+          "reuse_terms": "World Bank copyright notice permits noncommercial reproduction with attribution and any required further permissions.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MNE-SRC-104",
+      "title": "Common Country Analysis Update 2023: Montenegro",
+      "organization": "United Nations Country Team in Montenegro",
+      "publication_date": "2023",
+      "publication_date_basis": "document-version",
+      "url": "https://montenegro.un.org/en/download/155328/262487",
+      "geographic_coverage": [
+        "Montenegro",
+        "Podgorica",
+        "coastal region",
+        "Pljevlja",
+        "Mojkovac",
+        "Rožaje",
+        "Herceg Novi"
+      ],
+      "temporal_coverage": "Light-touch update; the report states its evidence and data are current as of 30 November 2023 and describes 2022-2023 events.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MNE-E-115",
+        "MNE-E-116",
+        "MNE-E-117",
+        "MNE-E-118"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 33-page Common Country Analysis opened; physical pp.3 and 9 reviewed.",
+          "notes": "Direct UN PDF was inspected; evidence cutoff is 30 November 2023.",
+          "reuse_terms": "No license terms identified in inspected pages.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "MNE-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "MNE-SRC-101",
+          "locator": "PDF physical p.220, Appendix D, agricultural vulnerability findings on rainfall and water availability."
+        }
+      ],
+      "geographies": [
+        "Zeta Plain",
+        "Bjelopavlici Plains",
+        "coastal areas"
+      ],
+      "affected_groups": [
+        "farmers",
+        "water users",
+        "tourism-dependent communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "Source-unspecified projection within the plan's 2025-2035 period.",
+      "compact_statement": "The 2025 adaptation plan identifies projected longer dry periods and reduced agricultural water availability in the Zeta and Bjelopavlici plains and coastal areas, warning that pressure on water supply could produce water-use conflicts, especially involving tourism.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check",
+        "programme_intent_and_outcome_terms_co-occur"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET; HTML visible-text extraction",
+      "verification_attempt": {
+        "selected_record_id": "MNE-E-101",
+        "selected_source_id": "MNE-SRC-101",
+        "url": "https://unfccc.int/sites/default/files/resource/NAP_Montenegro_2025.pdf",
+        "locator": "PDF physical p.220, Appendix D, agricultural vulnerability findings on rainfall and water availability.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 212,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "MNE-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MNE-SRC-101",
+          "locator": "PDF physical p.220, Appendix D, lowland flood exposure and documented prior impacts."
+        }
+      ],
+      "geographies": [
+        "Zeta Plain",
+        "Bjelopavlici Plains",
+        "Bojana River region",
+        "Lim River valley"
+      ],
+      "affected_groups": [
+        "farmers",
+        "residents of lowland areas"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-06 reports: Lowlands around Zeta, Bjelopavlici, Bojana and Lim have experienced flood damage to crops and infrastructure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MNE-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MNE-SRC-101",
+          "locator": "PDF physical p.220, Appendix D, 2022 hailstorm impacts in Zeta Plain."
+        }
+      ],
+      "geographies": [
+        "Zeta Plain"
+      ],
+      "affected_groups": [
+        "farmers",
+        "agricultural workers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-06 reports: A 2022 hailstorm damaged vineyards and orchards in Zeta Plain; Plantaze estimated losses at €8 million.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MNE-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MNE-SRC-101",
+          "locator": "PDF physical pp.39-40, section 3.7, gender/equity analysis and local disaster-relief information gaps."
+        }
+      ],
+      "geographies": [
+        "Montenegro",
+        "rural areas",
+        "remote villages"
+      ],
+      "affected_groups": [
+        "Roma women",
+        "Egyptian women",
+        "women with disabilities",
+        "unemployed women",
+        "older women"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-06 reports: The plan identifies Roma and Egyptian women, women with disabilities, unemployed women and older women as climate-vulnerable groups.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MNE-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MNE-SRC-101",
+          "locator": "PDF physical p.40, section 3.7.1, local budgets and disaster-relief unit information on vulnerable households."
+        }
+      ],
+      "geographies": [
+        "local municipalities",
+        "remote areas",
+        "Roma and Egyptian settlements"
+      ],
+      "affected_groups": [
+        "single-woman households",
+        "older people",
+        "persons with disabilities",
+        "remote households",
+        "Roma and Egyptian communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-06 reports: Municipal farm-recovery budgets are limited; local relief units lack reliable data on remote, older, disabled, single-woman and Roma/Egyptian households.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MNE-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MNE-SRC-101",
+          "locator": "PDF physical p.35, section 3.4.4, tourism-sector vulnerability conclusions; p.37, institutional-capacity summary."
+        }
+      ],
+      "geographies": [
+        "Montenegro",
+        "coastal areas",
+        "mountain areas"
+      ],
+      "affected_groups": [
+        "tourism workers",
+        "tourism-dependent communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-06 reports: The plan rates climate-adaptation capacity as basic and says coastal and mountain tourism lacks adequate operational risk and crisis plans.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MNE-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MNE-SRC-102",
+          "locator": "PDF physical p.48 (printed p.49), section D.3, drought effects on agriculture."
+        }
+      ],
+      "geographies": [
+        "coastal region",
+        "northern mountain region"
+      ],
+      "affected_groups": [
+        "agricultural producers",
+        "rural households",
+        "women working on farms"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-11 reports: The 2020 plan identifies the coastal and northern mountain regions as particularly drought-vulnerable, with risks to crop yields and farm income.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MNE-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MNE-SRC-102",
+          "locator": "PDF physical p.49 (printed p.50), section D.6, social impact of drought."
+        }
+      ],
+      "geographies": [
+        "Montenegro",
+        "rural communities"
+      ],
+      "affected_groups": [
+        "poor communities",
+        "women",
+        "youth",
+        "older people",
+        "children",
+        "persons with disabilities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-11 reports: The plan says poorer communities have less ability to respond and depend on outside support; rural women carry much food-production work.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MNE-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MNE-SRC-102",
+          "locator": "PDF physical pp.48-49 (printed pp.49-50), sections D.6 and IV, drought vulnerability and institutional arrangements."
+        }
+      ],
+      "geographies": [
+        "Montenegro"
+      ],
+      "affected_groups": [
+        "population exposed to drought",
+        "farmers",
+        "water managers"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-11 reports: The plan described drought management as inadequate in 2020, while assigning the hydrometeorological institute monitoring, forecasting and warning functions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MNE-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MNE-SRC-102",
+          "locator": "PDF physical pp.94-96 (printed pp.95-97), priority actions on drought governance, monitoring and community engagement."
+        }
+      ],
+      "geographies": [
+        "Montenegro",
+        "local communities"
+      ],
+      "affected_groups": [
+        "farmers",
+        "local communities",
+        "women"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-11 reports: The plan proposes drought authority and advisory-board roles, clearer warning communication, field reporting and civil-society links with communities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MNE-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MNE-SRC-103",
+          "locator": "PDF physical p.23 (printed p.11), section 2.1 and Table 2.2, modeled flood risk under RCP 2.6, 4.5 and 8.5."
+        }
+      ],
+      "geographies": [
+        "Montenegro"
+      ],
+      "affected_groups": [
+        "people in flood-exposed areas"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "RCP 2.6, RCP 4.5 and RCP 8.5; modeled future risk.",
+      "compact_statement": "Source dated 2024-10 reports: The report models flood losses above baseline under RCP 2.6, 4.5 and 8.5; the heat-stressor intensity rises in all three scenarios.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MNE-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MNE-SRC-103",
+          "locator": "PDF physical p.23 (printed p.11), section 2.1, historical droughts and local water-resource impacts."
+        }
+      ],
+      "geographies": [
+        "Zeta",
+        "Bjelopavlici",
+        "Morača River",
+        "Zeta River",
+        "Skadar Lake"
+      ],
+      "affected_groups": [
+        "farmers",
+        "fishing communities",
+        "electricity consumers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-10 reports: The 2011 drought affected Zeta and Bjelopavlici; 2017-2018 drought lowered Morača and Zeta river and Skadar Lake levels, harming farming, fisheries and power generation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MNE-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MNE-SRC-103",
+          "locator": "PDF physical p.30 (printed p.18), section 2.3, social-protection system and climate shocks."
+        }
+      ],
+      "geographies": [
+        "Montenegro",
+        "local municipalities"
+      ],
+      "affected_groups": [
+        "poor households",
+        "households affected by disasters",
+        "people receiving social assistance"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-10 reports: More than 30 social-protection programs cover over half the population, but climate-shock support is limited and municipal disaster aid is often ad hoc.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MNE-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MNE-SRC-103",
+          "locator": "PDF physical pp.31-32 (printed pp.19-20), section 2.4; municipal preparedness framework."
+        }
+      ],
+      "geographies": [
+        "Montenegro",
+        "municipalities"
+      ],
+      "affected_groups": [
+        "municipal residents",
+        "people exposed to natural hazards"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-10 reports: National, municipal and operational rescue plans exist, but the report says municipal preparedness planning needs strengthening.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MNE-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MNE-SRC-104",
+          "locator": "PDF physical p.9 (printed p.17), environmental-sustainability section on 2022 wildfires."
+        }
+      ],
+      "geographies": [
+        "coastal region",
+        "Podgorica municipality"
+      ],
+      "affected_groups": [
+        "coastal communities",
+        "Podgorica residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: The report says most 2022 wildfires occurred along the coast and in Podgorica municipality; Montenegro was largely spared in 2023.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MNE-E-116",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MNE-SRC-104",
+          "locator": "PDF physical p.9 (printed p.17), August 2023 extreme-heat observation in Podgorica."
+        }
+      ],
+      "geographies": [
+        "Podgorica"
+      ],
+      "affected_groups": [
+        "Podgorica residents",
+        "older people",
+        "people with chronic illness"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: In August 2023, Podgorica recorded its first 24-hour period with temperatures never below 30°C since records began.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MNE-E-117",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MNE-SRC-104",
+          "locator": "PDF physical p.9 (printed p.17), 2022 dry-season hydropower and Pljevlja thermal plant discussion."
+        }
+      ],
+      "geographies": [
+        "Montenegro",
+        "Pljevlja"
+      ],
+      "affected_groups": [
+        "electricity consumers",
+        "Pljevlja residents",
+        "industrial workers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: Dry months in 2022 reduced hydropower and nearly all power relied on the Pljevlja coal plant, a major air-pollution source.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MNE-E-118",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MNE-SRC-104",
+          "locator": "PDF physical p.9 (printed p.17), January 2023 heavy-rainfall and landslide impacts."
+        }
+      ],
+      "geographies": [
+        "Pljevlja",
+        "Mojkovac",
+        "Rožaje",
+        "Herceg Novi"
+      ],
+      "affected_groups": [
+        "road users",
+        "residents of affected towns"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: January 2023 heavy rain triggered landslides and damaged roads and bridges in Pljevlja, Mojkovac and Rožaje; a person died in Herceg Novi.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "MNE-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MNE-E-101"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MNE-E-101"
+        ],
+        "impact": [
+          "MNE-E-101"
+        ],
+        "mediator": [
+          "MNE-E-101"
+        ],
+        "consequence": [
+          "MNE-E-101"
+        ]
+      },
+      "geographies": [
+        "Zeta Plain",
+        "Bjelopavlici Plains",
+        "coastal areas"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "The 2025 plan links projected dryness and shared water demand to possible water-use disputes, not observed violence.",
+      "alternative_explanations": [
+        "Seasonal tourism demand, infrastructure and allocation decisions also affect scarcity and competition."
+      ],
+      "uncertainty": "Conditional planning risk with unspecified emissions pathway and no dispute counts, actors or violent outcome; not a conflict forecast.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "MNE-E-101",
+  "source_access_review": {
+    "selected_record_id": "MNE-E-101",
+    "selected_source_id": "MNE-SRC-101",
+    "url": "https://unfccc.int/sites/default/files/resource/NAP_Montenegro_2025.pdf",
+    "locator": "PDF physical p.220, Appendix D, agricultural vulnerability findings on rainfall and water availability.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "document-fetched",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 212,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null
+  },
+  "checks": [
+    {
+      "record_id": "MNE-E-101",
+      "source_id": "MNE-SRC-101",
+      "locator": "PDF physical p.220, Appendix D, agricultural vulnerability findings on rainfall and water availability.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET; HTML visible-text extraction",
+      "access_date": "2026-10-27",
+      "source_access_status": "document-fetched",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "MNE-E-101: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "MNE-E-101",
+    "MNE-E-102",
+    "MNE-E-103",
+    "MNE-E-104",
+    "MNE-E-105",
+    "MNE-E-106",
+    "MNE-E-107",
+    "MNE-E-108",
+    "MNE-E-109",
+    "MNE-E-110",
+    "MNE-E-111",
+    "MNE-E-112",
+    "MNE-E-113",
+    "MNE-E-114",
+    "MNE-E-115",
+    "MNE-E-116",
+    "MNE-E-117",
+    "MNE-E-118",
+    "MNE-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

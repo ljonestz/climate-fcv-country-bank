@@ -1,0 +1,1132 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "MDG",
+  "candidate_path": "countries/MDG/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 6,
+    "evidence_count": 16,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 16
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 6,
+      "access-only": 9,
+      "verified": 1
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "At least one known-gap statement appears inconsistent with the current pathway inventory.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "MDG-E-001",
+          "MDG-E-004",
+          "MDG-E-005",
+          "MDG-E-006",
+          "MDG-E-107",
+          "MDG-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "MDG-E-002",
+          "MDG-E-003",
+          "MDG-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MDG-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "MDG-E-106",
+          "MDG-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "MDG-E-101",
+          "MDG-E-102",
+          "MDG-E-103",
+          "MDG-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "MDG-E-106"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "MDG-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [
+      {
+        "text": "The bank contains no completed mediated climate-FCV pathway; this is an evidence gap, not evidence of absence.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      }
+    ],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/MDG/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "MDG-SRC-001",
+      "title": "Madagascar Country Climate and Development Report",
+      "organization": "World Bank Group",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099111824123032189/pdf/P17968518331670e51a7891150f8498211d.pdf",
+      "geographic_coverage": [
+        "Madagascar",
+        "Grand Sud",
+        "Anosy",
+        "Androy",
+        "Atsimo-Andrefana"
+      ],
+      "temporal_coverage": "Climate-development diagnostics and recent Grand Sud impacts reported in 2024",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "restricted",
+      "records_using_source": [
+        "MDG-E-001",
+        "MDG-E-002",
+        "MDG-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MDG-SRC-002",
+      "title": "Madagascar Nationally Determined Contribution 3.0",
+      "organization": "Government of Madagascar",
+      "publication_date": "2026-09-08",
+      "publication_date_basis": "submission",
+      "url": "https://unfccc.int/sites/default/files/2026-09/2026_MADAGASCAR_NDC3.0.pdf",
+      "geographic_coverage": [
+        "Madagascar",
+        "Grand Sud",
+        "cyclone-exposed areas"
+      ],
+      "temporal_coverage": "Recent disaster and displacement information and climate projections summarized in the 2026 NDC",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MDG-E-004",
+        "MDG-E-005",
+        "MDG-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MDG-SRC-101",
+      "title": "Madagascar and the Social Impacts of Drought",
+      "organization": "World Bank, Social Sustainability and Inclusion Global Practice",
+      "publication_date": "2023-03-03",
+      "publication_date_basis": "portal-publication",
+      "url": "https://blogs.worldbank.org/en/climatechange/madagascar-and-social-impacts-drought",
+      "geographic_coverage": [
+        "Southern Madagascar",
+        "Grand Sud"
+      ],
+      "temporal_coverage": "World Bank monitoring of the 2018-2022 drought and recovery period in southern Madagascar.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MDG-E-101",
+        "MDG-E-102",
+        "MDG-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full World Bank blog inspected, especially paragraphs on survey design, violence against women, cattle raiding and migration.",
+          "notes": "The author is a World Bank social development specialist; respondent perceptions are not described as administrative incident data.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MDG-SRC-103",
+      "title": "Greening the Great South of Madagascar: How Communities Are Fighting Drought and Restoring Hope",
+      "organization": "World Bank",
+      "publication_date": "2025-06-02",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.worldbank.org/en/news/feature/2025/06/02/greening-the-great-south-of-afe-madagascar-how-communities-are-fighting-drought-and-restoring-hope",
+      "geographic_coverage": [
+        "Great South",
+        "Atsimo-Andrefana",
+        "Androy",
+        "Anosy",
+        "Betroka",
+        "Ambovombe",
+        "Iritsoka",
+        "Ambazoa"
+      ],
+      "temporal_coverage": "World Bank feature on Great South climate and livelihood conditions and MIONJO results, published 2 June 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MDG-E-105",
+        "MDG-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full World Bank feature inspected, particularly regional climate/livelihood description and MIONJO scope and outputs.",
+          "notes": "Project outputs and local examples are presented by the World Bank as reported results, not independent impact estimates.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MDG-SRC-104",
+      "title": "Madagascar Advocacy Note for Humanitarian Response",
+      "organization": "Madagascar Humanitarian Country Team",
+      "publication_date": "2025-10",
+      "publication_date_basis": "document-version",
+      "url": "https://madagascar.un.org/sites/default/files/2025-10/5%20Madagascar_%20HCT%20advocacy%20note%20for%20humanitarian%20response_%20final.pdf",
+      "geographic_coverage": [
+        "Grand Sud",
+        "Grand Sud-Est",
+        "Ikongo",
+        "Amboasary-Atsimo",
+        "Madagascar"
+      ],
+      "temporal_coverage": "Humanitarian crisis overview and response planning in the October 2025 advocacy note, including shocks from late 2024 through 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MDG-E-107",
+        "MDG-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 17-page HCT Advocacy Note inspected, including PDF p.2 on overlapping shocks, food-security projections, funding reductions and field closures.",
+          "notes": "Claims retain the source's reporting dates; January 2026 projections are not described as current outcomes.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MDG-SRC-105",
+      "title": "Speed Saves Lives: What Cyclone Gezani Reveals about the Value of Rapid and Flexible Financing for Children",
+      "organization": "UNICEF Madagascar",
+      "publication_date": "2026-06-19",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.unicef.org/madagascar/en/stories/speed-saves-lives",
+      "geographic_coverage": [
+        "Madagascar east coast",
+        "Toamasina"
+      ],
+      "temporal_coverage": "UNICEF report on Cyclone Gezani's 10 February 2026 impacts and response, published 19 June 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MDG-E-110",
+        "MDG-E-111",
+        "MDG-E-112"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full UNICEF story inspected, especially paragraphs 18-42 on Gezani impacts, protection risks, preparedness and response outputs.",
+          "notes": "The story attributes reported protection risks, operational actions and service outputs; they are not independently audited here.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "MDG-E-111",
+        "selected_source_id": "MDG-SRC-105",
+        "url": "https://www.unicef.org/madagascar/en/stories/speed-saves-lives",
+        "locator": "Paragraphs 28-30, school disruption and temporary displacement sites",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 186147,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "MDG-E-111"
+      ],
+      "manual_verified_record_ids": [
+        "MDG-E-111"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "MDG-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDG-SRC-001",
+          "locator": "PDF p. 37, Grand Sud climate vulnerability and food security"
+        }
+      ],
+      "geographies": [
+        "Grand Sud",
+        "Anosy",
+        "Androy",
+        "Atsimo-Andrefana"
+      ],
+      "affected_groups": [
+        "people facing acute food insecurity",
+        "farming households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The CCDR links Grand Sud drought and cyclone flooding with crop/livelihood losses, high prices and food insecurity; over two million faced acute hunger in the 2020-2022 crisis, also involving COVID price shocks.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MDG-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDG-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDG-SRC-001",
+          "locator": "PDF p. 37, climate-development and fragility context in Grand Sud"
+        }
+      ],
+      "geographies": [
+        "Grand Sud"
+      ],
+      "affected_groups": [
+        "socially excluded communities",
+        "poor households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The CCDR says Grand Sud climate action is intertwined with exclusion, fragility, isolation and poverty.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MDG-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDG-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDG-SRC-001",
+          "locator": "PDF p. 37, drought-period household and gender impacts"
+        }
+      ],
+      "geographies": [
+        "Grand Sud"
+      ],
+      "affected_groups": [
+        "women",
+        "girls"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The CCDR reports early marriage, transactional sex and school dropout as Grand Sud drought-period concerns for women and girls.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MDG-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDG-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDG-SRC-002",
+          "locator": "PDF p. 32, drought impacts in the Grand Sud"
+        }
+      ],
+      "geographies": [
+        "Grand Sud"
+      ],
+      "affected_groups": [
+        "people in the Grand Sud",
+        "people facing acute food crisis"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "NDC reports Grand Sud droughts affected over 1.3 million people in 2015-2022; in 2024 over 1.2 million faced acute food crisis.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MDG-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDG-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDG-SRC-002",
+          "locator": "PDF p. 32, school exposure to climate hazards"
+        }
+      ],
+      "geographies": [
+        "Madagascar"
+      ],
+      "affected_groups": [
+        "students",
+        "school communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC estimates that 57 percent of schools have high cyclone exposure and 50 percent have high drought exposure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MDG-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDG-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDG-SRC-002",
+          "locator": "PDF p. 34, forced displacement following sudden climate-related events"
+        }
+      ],
+      "geographies": [
+        "Madagascar"
+      ],
+      "affected_groups": [
+        "forcibly displaced people"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC reports 285,800 people were forcibly displaced in 2022 following sudden climate-related events, including tropical cyclones and floods.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MDG-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDG-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDG-SRC-101",
+          "locator": "Paragraphs on drought monitoring and reported violence against women"
+        }
+      ],
+      "geographies": [
+        "Southern Madagascar",
+        "Grand Sud"
+      ],
+      "affected_groups": [
+        "women",
+        "girls",
+        "households"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "A March 2023 World Bank article summarizing a 480-person panel reports that 47% of respondents perceived worsening violence against women at the 2021 drought peak.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDG-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDG-SRC-101",
+          "locator": "Paragraph on communal violence, cattle raiding and livelihood stress"
+        }
+      ],
+      "geographies": [
+        "Southern Madagascar",
+        "Grand Sud"
+      ],
+      "affected_groups": [
+        "agropastoral communities",
+        "young men",
+        "cattle owners"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The same Southern Madagascar panel summary reports respondents linked drought-period hunger and poverty with opportunistic cattle raiding and other violence.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDG-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDG-SRC-101",
+          "locator": "Paragraph on migration as last-resort coping and risks faced by women migrants"
+        }
+      ],
+      "geographies": [
+        "Southern Madagascar",
+        "Grand Sud"
+      ],
+      "affected_groups": [
+        "women migrants",
+        "households with depleted coping options"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-03-03 reports: Migration intensified after other household coping options failed; women migrants faced heightened GBV and trafficking risks.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDG-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDG-SRC-103",
+          "locator": "Paragraphs describing Great South livelihood dependence, recurrent drought, flooding, winds and desertification"
+        }
+      ],
+      "geographies": [
+        "Great South",
+        "Southern Madagascar"
+      ],
+      "affected_groups": [
+        "farming households",
+        "fishing households",
+        "rural communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-06-02 reports: The feature describes Great South households reliant on farming and fishing facing repeated drought and water scarcity, followed by damaging floods, stronger southern winds, drifting sand and desertification that undermine crops and livelihoods.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDG-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDG-SRC-103",
+          "locator": "Paragraphs on MIONJO geographic coverage and restoration results"
+        }
+      ],
+      "geographies": [
+        "Atsimo-Andrefana",
+        "Androy",
+        "Anosy",
+        "235 rural communes"
+      ],
+      "affected_groups": [
+        "rural communities",
+        "farmers",
+        "women nursery workers"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-06-02 reports: By June 2025, the World Bank reported MIONJO served about 1.4 million people in 235 rural communes across Atsimo-Andrefana, Androy and Anosy; project partners had stabilized 1,500 hectares of dunes, reforested 330 hectares and established 24 nurseries.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDG-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDG-SRC-104",
+          "locator": "PDF p.2, situation overview of overlapping shocks and 22 districts"
+        }
+      ],
+      "geographies": [
+        "Grand Sud",
+        "Grand Sud-Est",
+        "22 districts"
+      ],
+      "affected_groups": [
+        "households in crisis-affected districts",
+        "farmers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-10 reports: The October 2025 HCT note says 22 Grand Sud/Grand Sud-Est districts faced drought, cyclone and locust shocks since late 2024, damaging crops and livelihoods and leaving little recovery time.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDG-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDG-SRC-104",
+          "locator": "PDF p.2, funding constraints and field-office closures"
+        }
+      ],
+      "geographies": [
+        "Madagascar",
+        "high-need districts"
+      ],
+      "affected_groups": [
+        "people in high-need districts",
+        "humanitarian-service users"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-10 reports: The HCT said about US$96 million in anticipated 2025 funding was suspended or redirected; 15 NGO field offices, mostly in high-need districts, closed, shrinking coverage.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDG-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDG-SRC-105",
+          "locator": "Paragraphs 12-20, Cyclone Gezani exposure and damage on the east coast"
+        }
+      ],
+      "geographies": [
+        "Madagascar east coast",
+        "Toamasina"
+      ],
+      "affected_groups": [
+        "children",
+        "households",
+        "students",
+        "health-service users"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNICEF's June 2026 account reports Cyclone Gezani affected over 478,000 people on the east coast and damaged homes, schools and health facilities. It distinguishes predominantly wind-driven Gezani damage from Fytia's extensive flooding.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDG-E-111",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "MDG-SRC-105",
+          "locator": "Paragraphs 28-30, school disruption and temporary displacement sites"
+        }
+      ],
+      "geographies": [
+        "Madagascar east coast",
+        "temporary displacement sites"
+      ],
+      "affected_groups": [
+        "children",
+        "displaced people",
+        "families"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-06-19 reports: The article says nearly 60,000 children had learning disrupted and 20,854 people took refuge in temporary sites after Gezani, where protection concerns intensified.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "Retain the source date and event-specific figures; describe protection concerns as reported risks, not measured incidence."
+      ],
+      "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+      "verification_attempt": {
+        "record_id": "MDG-E-111",
+        "source_id": "MDG-SRC-105",
+        "url": "https://www.unicef.org/madagascar/en/stories/speed-saves-lives",
+        "locator": "Paragraphs 28-30, school disruption and temporary displacement sites",
+        "accessed_on": "2026-10-27",
+        "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "UNICEF's June 2026 Gezani story reports 761 schools damaged, nearly 60,000 children's learning disrupted, and 20,854 people in temporary displacement sites where protection risks intensified. These are source-reported event figures."
+      },
+      "verification_note": "UNICEF's June 2026 Gezani story reports 761 schools damaged, nearly 60,000 children's learning disrupted, and 20,854 people in temporary displacement sites where protection risks intensified. These are source-reported event figures.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "MDG-SRC-105",
+        "source_url": "https://www.unicef.org/madagascar/en/stories/speed-saves-lives",
+        "locator": "Paragraphs 28-30, school disruption and temporary displacement sites",
+        "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+        "reason": "UNICEF's June 2026 Gezani story reports 761 schools damaged, nearly 60,000 children's learning disrupted, and 20,854 people in temporary displacement sites where protection risks intensified. These are source-reported event figures.",
+        "recommended_record_patch": "Retain the source date and event-specific figures; describe protection concerns as reported risks, not measured incidence.",
+        "coordinator_decision_ref": null
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "MDG-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDG-SRC-105",
+          "locator": "Paragraphs 30-42, early warning, pre-arranged financing and response outputs"
+        }
+      ],
+      "geographies": [
+        "Madagascar east coast",
+        "Toamasina"
+      ],
+      "affected_groups": [
+        "children",
+        "displaced households",
+        "affected communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-06-19 reports: UNICEF says advance forecasts, pre-positioned supplies and renewed 2026 parametric insurance supported rapid response; reported outputs included restored safe water for 15,879 people and child-friendly or psychosocial support for over 2,000 people.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "MDG-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MDG-E-110",
+        "MDG-E-111"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MDG-E-110"
+        ],
+        "impact": [
+          "MDG-E-110"
+        ],
+        "mediator": [
+          "MDG-E-111"
+        ],
+        "consequence": [
+          "MDG-E-111"
+        ]
+      },
+      "geographies": [
+        "Madagascar east coast",
+        "temporary displacement sites"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Post-Gezani displacement-site crowding and limited services heightened child violence/exploitation risk; incidence changes were not measured.",
+      "alternative_explanations": [
+        "Pre-existing inequalities, household resources and service quality also influence protection risk.",
+        "Agency reporting is not an incident-based causal evaluation."
+      ],
+      "uncertainty": "This is a source-stated post-disaster protection-risk mechanism, not proof of increased violence incidence, anthropogenic attribution of the cyclone, or a national FCV classification.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "MDG-E-111",
+  "source_access_review": {
+    "selected_record_id": "MDG-E-111",
+    "selected_source_id": "MDG-SRC-105",
+    "url": "https://www.unicef.org/madagascar/en/stories/speed-saves-lives",
+    "locator": "Paragraphs 28-30, school disruption and temporary displacement sites",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 186147,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+    "verification_note": "UNICEF's June 2026 Gezani story reports 761 schools damaged, nearly 60,000 children's learning disrupted, and 20,854 people in temporary displacement sites where protection risks intensified. These are source-reported event figures."
+  },
+  "checks": [
+    {
+      "record_id": "MDG-E-111",
+      "source_id": "MDG-SRC-105",
+      "locator": "Paragraphs 28-30, school disruption and temporary displacement sites",
+      "verification_status": "verified",
+      "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Retain the source date and event-specific figures; describe protection concerns as reported risks, not measured incidence.",
+      "coordinator_decision_ref": null
+    }
+  ],
+  "limitations": [
+    "MDG-E-111: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "MDG-E-001",
+    "MDG-E-002",
+    "MDG-E-003",
+    "MDG-E-004",
+    "MDG-E-005",
+    "MDG-E-006",
+    "MDG-E-101",
+    "MDG-E-102",
+    "MDG-E-103",
+    "MDG-E-105",
+    "MDG-E-106",
+    "MDG-E-107",
+    "MDG-E-109",
+    "MDG-E-110",
+    "MDG-E-111",
+    "MDG-E-112",
+    "MDG-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 1,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

@@ -1,0 +1,663 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "GTM",
+  "candidate_path": "countries/GTM/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 4,
+    "evidence_count": 7,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 7
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 6,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "GTM-E-101",
+          "GTM-E-102",
+          "GTM-E-107",
+          "GTM-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "GTM-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "GTM-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "GTM-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "GTM-E-101",
+          "GTM-E-102",
+          "GTM-E-103",
+          "GTM-E-106",
+          "GTM-E-107",
+          "GTM-E-108"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/GTM/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "GTM-SRC-101",
+      "title": "Bajo la sequía y la incertidumbre, son las mujeres quienes sostienen la alimentación del hogar",
+      "organization": "World Food Programme",
+      "publication_date": "2026-07-16",
+      "publication_date_basis": "publication",
+      "url": "https://es.wfp.org/historias/bajo-la-sequia-y-la-incertidumbre-son-las-mujeres-quienes-sostienen-la-alimentacion-del",
+      "geographic_coverage": [
+        "Dry Corridor",
+        "Jalapa",
+        "Uriles Pinalón"
+      ],
+      "temporal_coverage": "WFP field story published July 2026, describing recent rainfall, harvest and household food-access conditions.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GTM-E-101",
+        "GTM-E-102",
+        "GTM-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly opened WFP article, lines 153–193; claims use the opening, Uriles Pinalón account and grain-bank passages.",
+          "notes": "Qualitative field story; article date shown as 16 July 2026.",
+          "reuse_terms": "Terms not separately reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GTM-SRC-102",
+      "title": "SESAN presenta pronóstico de inseguridad alimentaria para el período 2026-2027 y acciones de respuesta",
+      "organization": "Secretariat for Food and Nutrition Security of the Presidency of Guatemala (SESAN)",
+      "publication_date": "2026-08-10",
+      "publication_date_basis": "publication",
+      "url": "https://guatemala.gob.gt/sesan-presenta-pronostico-de-inseguridad-alimentaria-para-el-periodo-2026-2027-y-acciones-de-respuesta-2/",
+      "geographic_coverage": [
+        "Guatemala",
+        "Alta Verapaz",
+        "Western Highlands",
+        "Dry Corridor",
+        "Chiquimula",
+        "Jalapa",
+        "Quiché",
+        "Huehuetenango",
+        "Suchitepéquez",
+        "Totonicapán",
+        "Chimaltenango",
+        "Retalhuleu",
+        "Jutiapa",
+        "Zacapa"
+      ],
+      "temporal_coverage": "Government IPC acute-food-insecurity forecast announced August 2026 for July 2026–February 2027.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly opened government page, lines 13–31.",
+          "notes": "Forecast publicized 10 August 2026; forecasts are kept distinct from outcomes.",
+          "reuse_terms": "Terms not separately reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GTM-SRC-103",
+      "title": "Fortalecimiento de la resiliencia de los hogares en el corredor seco de Guatemala para vivir mejor",
+      "organization": "United Nations Development Programme Guatemala",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.undp.org/es/guatemala/proyectos/fortalecimiento-de-la-resiliencia-de-los-hogares-en-el-corredor-seco-de-guatemala-para-vivir-mejor",
+      "geographic_coverage": [
+        "Dry Corridor",
+        "Chiquimula",
+        "Jalapa",
+        "Jocotán",
+        "Camotán",
+        "Olopa",
+        "San Juan Ermita",
+        "Chiquimula municipality",
+        "San Luis Jilotepeque",
+        "San Pedro Pinula"
+      ],
+      "temporal_coverage": "Joint programme runs March 2022–December 2026; page includes programme design context and planned outputs.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GTM-E-106",
+        "GTM-E-107",
+        "GTM-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly opened UNDP project profile, lines 28–78 and 105–142.",
+          "notes": "Project context includes cited 2020 FAO material; current status and intended outputs are not treated as evaluated outcomes.",
+          "reuse_terms": "Terms not separately reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GTM-SRC-104",
+      "title": "Guatemala: Acute Food Insecurity Situation for April–June 2026 and Projections for July 2026–February 2027",
+      "organization": "Integrated Food Security Phase Classification (IPC)",
+      "publication_date": "2026-08-05",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.ipcinfo.org/ipc-country-analysis/details-map/en/c/1165394/",
+      "geographic_coverage": [
+        "Guatemala"
+      ],
+      "temporal_coverage": "IPC acute food-insecurity analysis valid April 2026–February 2027, released August 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GTM-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly opened IPC analysis page, lines 48–80.",
+          "notes": "Page text read directly; linked report PDF was not inspected and no department-level claim is drawn from it.",
+          "reuse_terms": "Terms not separately reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "GTM-E-109",
+        "selected_source_id": "GTM-SRC-104",
+        "url": "https://www.ipcinfo.org/ipc-country-analysis/details-map/en/c/1165394/",
+        "locator": "IPC analysis page, key results, lines 73–75.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": 403,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "HTTP 403"
+      },
+      "audit_accessed_on": "2026-10-27"
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "GTM-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GTM-SRC-101",
+          "locator": "Article headline and opening, lines 153–155."
+        }
+      ],
+      "geographies": [
+        "Dry Corridor"
+      ],
+      "affected_groups": [
+        "women",
+        "rural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-07-16 reports: WFP reports that climate variability compounded by El Niño is reducing Dry Corridor harvests and food access, with women bearing a disproportionate household food-allocation burden.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GTM-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GTM-SRC-101",
+          "locator": "Article, lines 160–166 and 178–182."
+        }
+      ],
+      "geographies": [
+        "Uriles Pinalón",
+        "Jalapa",
+        "Dry Corridor"
+      ],
+      "affected_groups": [
+        "women farmers",
+        "Indigenous rural households",
+        "Ch’orti’ communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-07-16 reports: In Uriles Pinalón, Jalapa, a woman farmer described late, insufficient rain and poor milpa yields; WFP says women in rural Indigenous communities, including Ch’orti’-speaking areas, often reduce their own food portions for household members.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GTM-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GTM-SRC-101",
+          "locator": "Article, lines 183–192."
+        }
+      ],
+      "geographies": [
+        "Uriles Pinalón",
+        "Jalapa"
+      ],
+      "affected_groups": [
+        "women",
+        "farm households"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-07-16 reports: WFP reports installing a CERF-supported grain bank and silo in Uriles Pinalón; local women organize and manage the grain, reducing the need for households to travel to town to buy maize and beans.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GTM-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GTM-SRC-103",
+          "locator": "Project overview and coverage, lines 31–32 and 38–51."
+        }
+      ],
+      "geographies": [
+        "Chiquimula",
+        "Jalapa",
+        "Jocotán",
+        "Camotán",
+        "Olopa",
+        "San Juan Ermita",
+        "Chiquimula municipality",
+        "San Luis Jilotepeque",
+        "San Pedro Pinula",
+        "Dry Corridor"
+      ],
+      "affected_groups": [
+        "children under five",
+        "pregnant women",
+        "lactating women",
+        "rural households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The UN joint programme targets more than 7,000 households, especially children under five and pregnant or lactating women, in seven Dry Corridor municipalities across Chiquimula and Jalapa: Jocotán, Camotán, Olopa, San Juan Ermita, Chiquimula, San Luis Jilotepeque and San Pedro Pinula.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GTM-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GTM-SRC-103",
+          "locator": "Project background, lines 35–36."
+        }
+      ],
+      "geographies": [
+        "Dry Corridor",
+        "Chiquimula",
+        "Jalapa"
+      ],
+      "affected_groups": [
+        "Indigenous people",
+        "women",
+        "children",
+        "agricultural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The project profile identifies irregular rainfall, drought, floods, landslides, environmental degradation and low crop yields in its Dry Corridor context; it reports that Indigenous people, especially women and children, are disproportionately affected by poverty and social exclusion.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GTM-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GTM-SRC-103",
+          "locator": "Results, lines 74–78."
+        }
+      ],
+      "geographies": [
+        "Dry Corridor",
+        "Chiquimula",
+        "Jalapa"
+      ],
+      "affected_groups": [
+        "rural households",
+        "women",
+        "children under five"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: Planned outputs include drought-adapted food systems, community water infrastructure and watershed planning with women's participation, plus stronger central and local capacity for food and water security and gender-responsive resilience.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GTM-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "GTM-SRC-104",
+          "locator": "IPC analysis page, key results, lines 73–75."
+        }
+      ],
+      "geographies": [
+        "Guatemala"
+      ],
+      "affected_groups": [
+        "people in IPC Phase 3 or above",
+        "subsistence farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": "The IPC's 2026 forecast used a lean-season and anticipated El Niño outlook; no emissions scenario stated. The July–September period had elapsed by access date; outcomes were not verified.",
+      "compact_statement": "The August 2026 IPC publisher page reports an estimated 2.5 million people in Phase 3+ acute food insecurity for April–June 2026. This is a historical national estimate; later projections are not represented as observed outcomes.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "GTM-E-109",
+        "selected_source_id": "GTM-SRC-104",
+        "url": "https://www.ipcinfo.org/ipc-country-analysis/details-map/en/c/1165394/",
+        "locator": "IPC analysis page, key results, lines 73–75.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": 403,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "HTTP 403"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "GTM-E-109",
+  "source_access_review": {
+    "selected_record_id": "GTM-E-109",
+    "selected_source_id": "GTM-SRC-104",
+    "url": "https://www.ipcinfo.org/ipc-country-analysis/details-map/en/c/1165394/",
+    "locator": "IPC analysis page, key results, lines 73–75.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": 403,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "HTTP 403"
+  },
+  "checks": [
+    {
+      "record_id": "GTM-E-109",
+      "source_id": "GTM-SRC-104",
+      "locator": "IPC analysis page, key results, lines 73–75.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "GTM-E-109: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "GTM-E-101",
+    "GTM-E-102",
+    "GTM-E-103",
+    "GTM-E-106",
+    "GTM-E-107",
+    "GTM-E-108",
+    "GTM-E-109"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

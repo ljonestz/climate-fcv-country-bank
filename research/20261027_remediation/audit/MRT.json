@@ -1,0 +1,1260 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "MRT",
+  "candidate_path": "countries/MRT/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 6,
+    "evidence_count": 19,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 19
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 5,
+      "access-only": 14
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "At least one known-gap statement appears inconsistent with the current pathway inventory.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "MRT-E-001"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "MRT-E-002",
+          "MRT-E-107",
+          "MRT-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "MRT-E-003",
+          "MRT-E-004",
+          "MRT-E-101",
+          "MRT-E-106",
+          "MRT-E-110",
+          "MRT-E-111",
+          "MRT-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MRT-E-105",
+          "MRT-E-115"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "MRT-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "MRT-E-102",
+          "MRT-E-103",
+          "MRT-E-104",
+          "MRT-E-108",
+          "MRT-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "MRT-E-102",
+          "MRT-E-106",
+          "MRT-E-107",
+          "MRT-E-109",
+          "MRT-E-110",
+          "MRT-E-111",
+          "MRT-E-112",
+          "MRT-E-113",
+          "MRT-E-114"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "MRT-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [
+      {
+        "text": "The reviewed country sources do not establish a Mauritania-specific climate-conflict pathway; none is asserted here.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      },
+      {
+        "text": "The bank contains no completed mediated climate-FCV pathway; this is an evidence gap, not evidence of absence.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      }
+    ],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/MRT/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "MRT-SRC-001",
+      "title": "Beyond Extractives: Unlocking Mauritania’s Potential for a Sustained, Inclusive and Resilient Growth (Country Growth and Jobs Report 2025)",
+      "organization": "World Bank",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099112425051530164/pdf/P500498-af5e76a5-cddf-40d6-a83e-3673282ed694.pdf",
+      "geographic_coverage": [
+        "Mauritania"
+      ],
+      "temporal_coverage": "Observed climate and drought impacts since 1950 and 2020-2022; modeled climate impacts to 2050",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "restricted",
+      "records_using_source": [
+        "MRT-E-001",
+        "MRT-E-002",
+        "MRT-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MRT-SRC-002",
+      "title": "Country Climate and Development Report: G5 Sahel",
+      "organization": "World Bank Group",
+      "publication_date": "2022-06",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099150006302219454/pdf/P177343099ac05033082d601aa213d36631.pdf",
+      "geographic_coverage": [
+        "Mauritania",
+        "G5 Sahel region"
+      ],
+      "temporal_coverage": "Country-specific growth, climate, and poverty scenarios to 2050",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "restricted",
+      "records_using_source": [
+        "MRT-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MRT-SRC-101",
+      "title": "Climate, Peace and Security in Mauritania: Executive Summary",
+      "organization": "United Nations Department of Political and Peacebuilding Affairs (DPPA), United Nations Office for West Africa and the Sahel (UNOWAS), and Climate Security Mechanism",
+      "publication_date": "2024-09-26",
+      "publication_date_basis": "portal-publication",
+      "url": "https://dppa.dfs.un.org/sites/default/files/executive_summary_-_climate_peace_and_security_in_mauritania.pdf",
+      "geographic_coverage": [
+        "Mauritania",
+        "Hodh Chargui",
+        "Mbera camp",
+        "Mbera camp environs"
+      ],
+      "temporal_coverage": "Study based on literature and country fieldwork in 2023; executive summary published 26 September 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MRT-E-101",
+        "MRT-E-102",
+        "MRT-E-103",
+        "MRT-E-104",
+        "MRT-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "All 3 pages of the original UN executive summary; especially pp. 1-2 for methodology, pathways, and capacities.",
+          "notes": "Opened the complete executive summary PDF. Publication date cross-checked against the UN Climate Security Mechanism page; the underlying longer study was not inspected.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "MRT-E-102",
+        "selected_source_id": "MRT-SRC-101",
+        "url": "https://dppa.dfs.un.org/sites/default/files/executive_summary_-_climate_peace_and_security_in_mauritania.pdf",
+        "locator": "Executive Summary, p. 2, first two climate-peace pathways.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 190093,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "MRT-E-102"
+      ]
+    },
+    {
+      "source_id": "MRT-SRC-102",
+      "title": "Analyse du paysage climatique pour les enfants en Mauritanie (Climate Landscape Analysis for Children)",
+      "organization": "UNICEF Mauritania",
+      "publication_date": "2024",
+      "publication_date_basis": "document-version",
+      "url": "https://www.unicef.org/mauritania/media/5056/file/CLAC-rapport-Mauritanie-2025.pdf.pdf",
+      "geographic_coverage": [
+        "Mauritania",
+        "Hodh El Chargui",
+        "Gorgol",
+        "Hodh El Gharbi",
+        "Guidimakha",
+        "Tagant",
+        "Assaba"
+      ],
+      "temporal_coverage": "Climate and child-vulnerability analysis; report carries UNICEF Mauritania copyright 2024 and includes historical 2022 flood impacts.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MRT-E-106",
+        "MRT-E-107",
+        "MRT-E-108",
+        "MRT-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 80-page UNICEF report; printed pp. 15-16, 34-39 and 28-30 for child-risk mapping, drought, livelihoods, floods and protection.",
+          "notes": "Opened the original PDF and read cited passages directly. Report credits UNICEF Mauritania copyright 2024; 2022 flood-loss counts vary within the report and are not repeated here.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MRT-SRC-103",
+      "title": "Mauritania: Refugee Emergency Response (as of 30 June 2024)",
+      "organization": "United Nations High Commissioner for Refugees (UNHCR)",
+      "publication_date": "2024-08-02",
+      "publication_date_basis": "publication",
+      "url": "https://data.unhcr.org/en/documents/download/110409",
+      "geographic_coverage": [
+        "Hodh Chargui",
+        "Mbera camp",
+        "Bassikounou",
+        "Néma",
+        "Djiguenni",
+        "host villages"
+      ],
+      "temporal_coverage": "Refugee-response snapshot as of 30 June 2024; published 2 August 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MRT-E-110",
+        "MRT-E-111",
+        "MRT-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 2-page UNHCR response PDF; p. 1 for arrivals, camp population and climate vulnerability; p. 2 for out-of-camp monitoring and assistance.",
+          "notes": "Opened the original operational update. It states publication date 2 August 2024 and situation date 30 June 2024; claims remain historical.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MRT-SRC-104",
+      "title": "FAO GIEWS Country Brief: Mauritania",
+      "organization": "Food and Agriculture Organization of the United Nations (FAO), Global Information and Early Warning System",
+      "publication_date": "2025-09-09",
+      "publication_date_basis": "document-version",
+      "url": "https://www.fao.org/giews/countrybrief/country.jsp?code=MR",
+      "geographic_coverage": [
+        "Mauritania",
+        "Hodh Ech Chargui",
+        "Hodh El Gharbi",
+        "Gorgol",
+        "Guidimakha"
+      ],
+      "temporal_coverage": "GIEWS reference date 9 September 2025; includes 2025 lean-season food-security estimates and rainy-season conditions through August.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MRT-E-113",
+        "MRT-E-114",
+        "MRT-E-115"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full FAO GIEWS country page; reference date 9 September 2025, rainfall, food-security and crop-support sections.",
+          "notes": "Opened the official FAO page and read the relevant paragraphs directly; seasonal estimates describe 2025, not current conditions.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "MRT-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MRT-SRC-001",
+          "locator": "Chapter 4, section A, printed p. 59 (PDF p. 65), climate trends and drought effects."
+        }
+      ],
+      "geographies": [
+        "Mauritania"
+      ],
+      "affected_groups": [
+        "Population affected by drought"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Report estimates 1.5°C warming since the 1950s and rainfall decline from 85 mm (1950) to 63 mm (2020); June 2020-November 2022 drought affected up to one-third of people and worsened food insecurity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MRT-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MRT-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MRT-SRC-001",
+          "locator": "Chapter 4, section A, printed p. 59 (PDF p. 65), flood impacts."
+        }
+      ],
+      "geographies": [
+        "Mauritania"
+      ],
+      "affected_groups": [
+        "Rural communities",
+        "Livestock keepers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The report states that floods occur nearly once every two years, have destroyed villages and livestock, and on several occasions disrupted at least 10,000 livelihoods and caused about 10 deaths.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MRT-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MRT-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MRT-SRC-001",
+          "locator": "Chapter 4, printed pp. 26-27 and 60 (PDF pp. 33-34, 67), climate macroeconomic scenario summary and adaptation comparison."
+        }
+      ],
+      "geographies": [
+        "Mauritania"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Dry/pessimistic climate scenario; no adaptation compared with selected partial adaptation measures.",
+      "compact_statement": "World Bank modeling in the report estimates climate-related GDP losses of 9.3% by 2050 under its dry/pessimistic scenario without adaptation, compared with 5.7% with partial adaptation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MRT-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MRT-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MRT-SRC-002",
+          "locator": "Section 3.1.6, printed p. 73 (PDF p. 73), modeled poverty impact under climate scenarios."
+        }
+      ],
+      "geographies": [
+        "Mauritania"
+      ],
+      "affected_groups": [
+        "People below the poverty line"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Medium-growth baseline with dry/pessimistic climate scenario; no adaptation.",
+      "compact_statement": "The G5 CCDR projects that under medium growth and its dry/pessimistic climate scenario without adaptation, Mauritania’s poverty rate in 2050 would be 0.2 percentage points above the no-climate baseline.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MRT-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MRT-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MRT-SRC-101",
+          "locator": "Executive Summary, p. 1, opening paragraph and climate-peace pathways introduction."
+        }
+      ],
+      "geographies": [
+        "Mauritania"
+      ],
+      "affected_groups": [
+        "people experiencing poverty",
+        "women",
+        "youth"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-09-26 reports: The study identifies poverty, food insecurity, gender inequality, limited services and youth employment as peacebuilding pressures.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MRT-E-102",
+      "record_review": "manual-source-access-limited",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "MRT-SRC-101",
+          "locator": "Executive Summary, p. 2, first two climate-peace pathways."
+        }
+      ],
+      "geographies": [
+        "Mbera camp environs"
+      ],
+      "affected_groups": [
+        "Malian refugees",
+        "host communities",
+        "recent and longer-term refugees"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-09-26 reports: Outside Mbera, the study reports host-refugee grazing competition and possible water-access discord across refugee arrival cohorts.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "Replace the mutable/homepage URL with the exact Mauritania report PDF or archive and recheck; do not treat the current page as evidence."
+      ],
+      "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+      "verification_attempt": {
+        "record_id": "MRT-E-102",
+        "source_id": "MRT-SRC-101",
+        "url": "https://dppa.dfs.un.org/sites/default/files/executive_summary_-_climate_peace_and_security_in_mauritania.pdf",
+        "locator": "Executive Summary, p. 2, first two climate-peace pathways.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "manual_adjudication_completed": true,
+        "verification_note": "The URL returned current DPPA site/homepage text rather than the cited Mauritania climate-security executive summary; no matching host-refugee passage was obtained."
+      },
+      "verification_note": "The URL returned current DPPA site/homepage text rather than the cited Mauritania climate-security executive summary; no matching host-refugee passage was obtained.",
+      "manual_adjudication": {
+        "status": "unresolved",
+        "reviewed_on": "2026-10-27",
+        "source_id": "MRT-SRC-101",
+        "source_url": "https://dppa.dfs.un.org/sites/default/files/executive_summary_-_climate_peace_and_security_in_mauritania.pdf",
+        "locator": "Executive Summary, p. 2, first two climate-peace pathways.",
+        "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+        "reason": "The URL returned current DPPA site/homepage text rather than the cited Mauritania climate-security executive summary; no matching host-refugee passage was obtained.",
+        "recommended_record_patch": "Replace the mutable/homepage URL with the exact Mauritania report PDF or archive and recheck; do not treat the current page as evidence.",
+        "coordinator_decision_ref": null
+      }
+    },
+    {
+      "record_id": "MRT-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MRT-SRC-101",
+          "locator": "Executive Summary, p. 2, farmer-herder and inter-herder pathway."
+        }
+      ],
+      "geographies": [
+        "Mauritania"
+      ],
+      "affected_groups": [
+        "farmers",
+        "herders"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-09-26 reports: The study links changing rainfall and altered traditional transhumance to farmer-herder and inter-herder conflict.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MRT-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MRT-SRC-101",
+          "locator": "Executive Summary, p. 2, final pathway on gender, youth and security risk."
+        }
+      ],
+      "geographies": [
+        "Mauritania"
+      ],
+      "affected_groups": [
+        "women",
+        "youth"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-09-26 reports: Women and youth face marginalization and security risks amid livelihood disruption and displacement.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MRT-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MRT-SRC-101",
+          "locator": "Executive Summary, p. 1, methodology and coping-capacity description."
+        }
+      ],
+      "geographies": [
+        "Mauritania"
+      ],
+      "affected_groups": [
+        "local communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-09-26 reports: The study identifies communal committees and government disaster-risk-reduction and climate-policy efforts as existing coping capacities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MRT-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MRT-SRC-102",
+          "locator": "Printed p. 15 (PDF p. 14), executive-summary findings; pp. 29-30 (PDF pp. 28-29), child-risk maps."
+        }
+      ],
+      "geographies": [
+        "Hodh El Chargui",
+        "Gorgol",
+        "Hodh El Gharbi",
+        "Guidimakha",
+        "Tagant",
+        "Assaba"
+      ],
+      "affected_groups": [
+        "children",
+        "poorest households",
+        "children with limited access to basic services"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: UNICEF rates child climate exposure and vulnerability high or very high in 11 wilayas; six highest-risk are Hodh El Chargui, Gorgol, Hodh El Gharbi, Guidimakha, Tagant and Assaba; poorest, least-served children face greatest risks.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MRT-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MRT-SRC-102",
+          "locator": "Printed p. 34 (PDF p. 33), drought and water-scarcity trends."
+        }
+      ],
+      "geographies": [
+        "Hodh El Chargui"
+      ],
+      "affected_groups": [
+        "communities in Hodh El Chargui"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: UNICEF estimates about half of Hodh El Chargui communities face severe or high drought risk.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MRT-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MRT-SRC-102",
+          "locator": "Printed pp. 35-36 (PDF pp. 34-35), effects of water scarcity and drought on children."
+        }
+      ],
+      "geographies": [
+        "Mauritania"
+      ],
+      "affected_groups": [
+        "children",
+        "rural families",
+        "livestock keepers",
+        "rainfed farmers"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: UNICEF links drought and water scarcity to rainfed-crop and livestock losses, child poverty and malnutrition, rural out-migration, and possible abuse or exploitation when families send children to cities.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MRT-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MRT-SRC-102",
+          "locator": "Printed pp. 38-39 (PDF pp. 37-38), 2022 flood impacts and child protection/service disruption."
+        }
+      ],
+      "geographies": [
+        "Tagant",
+        "Assaba",
+        "Hodh El Gharbi"
+      ],
+      "affected_groups": [
+        "flood-affected households",
+        "children"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: UNICEF reports 2022 flood damage in Tagant, Assaba and Hodh El Gharbi; it warns flood displacement can expose children to violence, exploitation and trafficking.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MRT-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MRT-SRC-103",
+          "locator": "PDF p. 1, overall country situation and Mbera Camp figures; as-of date shown in report header."
+        }
+      ],
+      "geographies": [
+        "Mbera camp",
+        "Hodh Chargui"
+      ],
+      "affected_groups": [
+        "Malian refugees",
+        "women",
+        "children"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-08-02 reports: As of 30 June 2024, Mbera hosted 108,059 registered refugees; women and children were 83% of camp registrants.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MRT-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MRT-SRC-103",
+          "locator": "PDF p. 1, overall situation; PDF p. 2, out-of-camp response and Population Flow Monitoring."
+        }
+      ],
+      "geographies": [
+        "Hodh Chargui",
+        "Mbera camp",
+        "neighboring villages"
+      ],
+      "affected_groups": [
+        "Malian refugees",
+        "host communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-08-02 reports: UNHCR reports Mali's humanitarian-security crisis drove arrivals into Hodh Chargui, with camp saturation sending many to neighboring villages and straining services and natural resources in a poor, climate-shock-vulnerable region.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MRT-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MRT-SRC-103",
+          "locator": "PDF p. 2, out-of-camp response paragraphs and map showing host communes."
+        }
+      ],
+      "geographies": [
+        "Hodh Chargui",
+        "over 60 villages"
+      ],
+      "affected_groups": [
+        "refugees",
+        "host communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-08-02 reports: UNHCR reports monthly arrival monitoring in over 60 villages and an area-based response with partners and local authorities for refugees and host communities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MRT-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MRT-SRC-104",
+          "locator": "Country brief, reference date 9 September 2025, rainfall and crop conditions paragraphs."
+        }
+      ],
+      "geographies": [
+        "Hodh Ech Chargui",
+        "Hodh El Gharbi"
+      ],
+      "affected_groups": [
+        "farmers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09-09 reports: By end-August 2025, rainfall deficits persisted in Hodh Ech Chargui and Hodh El Gharbi; dry spells and floods caused localized crop losses.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MRT-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MRT-SRC-104",
+          "locator": "Country brief, reference date 9 September 2025, Hodh Ech Chargui food-security section."
+        }
+      ],
+      "geographies": [
+        "Hodh Ech Chargui",
+        "Mbera camp",
+        "localities across Hodh Ech Chargui"
+      ],
+      "affected_groups": [
+        "Malian refugees",
+        "host communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09-09 reports: For June-August 2025, FAO reports about 44,000 refugees in Hodh Ech Chargui faced acute food insecurity, including over 6,000 in Phase 4; 17% of resident Mauritanians needed aid.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MRT-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MRT-SRC-104",
+          "locator": "Country brief, reference date 9 September 2025, 2025 crop-support paragraphs."
+        }
+      ],
+      "geographies": [
+        "Mauritania"
+      ],
+      "affected_groups": [
+        "farmers"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09-09 reports: FAO reports government support for irrigation infrastructure and inputs; rainfed support includes dam and dike work, seeds and improved equipment access.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "MRT-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MRT-E-102",
+        "MRT-E-103",
+        "MRT-E-105"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MRT-E-103"
+        ],
+        "impact": [
+          "MRT-E-102",
+          "MRT-E-103"
+        ],
+        "mediator": [
+          "MRT-E-102"
+        ],
+        "consequence": [
+          "MRT-E-102",
+          "MRT-E-103"
+        ]
+      },
+      "geographies": [
+        "outside Mbera camp"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Around Mbera, climate-related resource pressure can interact with longstanding grievances and grazing/water access; tensions are conditional, not inevitable.",
+      "alternative_explanations": [
+        "Historical resentments, representation, services and insecurity in neighbouring Mali also shape pressures."
+      ],
+      "uncertainty": "Source-stated conditional pathway in an executive summary; underlying incident evidence not reviewed, not proof that climate caused armed violence.",
+      "potentially_out_of_scope_support_ids": [
+        "MRT-E-102",
+        "MRT-E-103",
+        "MRT-E-105"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "MRT-E-102",
+  "source_access_review": {
+    "selected_record_id": "MRT-E-102",
+    "selected_source_id": "MRT-SRC-101",
+    "url": "https://dppa.dfs.un.org/sites/default/files/executive_summary_-_climate_peace_and_security_in_mauritania.pdf",
+    "locator": "Executive Summary, p. 2, first two climate-peace pathways.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 190093,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+    "verification_note": "The URL returned current DPPA site/homepage text rather than the cited Mauritania climate-security executive summary; no matching host-refugee passage was obtained."
+  },
+  "checks": [
+    {
+      "record_id": "MRT-E-102",
+      "source_id": "MRT-SRC-101",
+      "locator": "Executive Summary, p. 2, first two climate-peace pathways.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Replace the mutable/homepage URL with the exact Mauritania report PDF or archive and recheck; do not treat the current page as evidence.",
+      "coordinator_decision_ref": null
+    }
+  ],
+  "limitations": [
+    "MRT-E-102: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "MRT-E-001",
+    "MRT-E-002",
+    "MRT-E-003",
+    "MRT-E-004",
+    "MRT-E-101",
+    "MRT-E-102",
+    "MRT-E-103",
+    "MRT-E-104",
+    "MRT-E-105",
+    "MRT-E-106",
+    "MRT-E-107",
+    "MRT-E-108",
+    "MRT-E-109",
+    "MRT-E-110",
+    "MRT-E-111",
+    "MRT-E-112",
+    "MRT-E-113",
+    "MRT-E-114",
+    "MRT-E-115",
+    "MRT-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 1,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

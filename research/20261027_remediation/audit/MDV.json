@@ -1,0 +1,1303 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "MDV",
+  "candidate_path": "countries/MDV/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 9,
+    "evidence_count": 19,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 19
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 7,
+      "access-only": 12
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "MDV-E-101"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "MDV-E-002",
+          "MDV-E-005",
+          "MDV-E-106",
+          "MDV-E-108",
+          "MDV-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "MDV-E-001",
+          "MDV-E-006",
+          "MDV-E-102",
+          "MDV-E-105",
+          "MDV-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MDV-E-003",
+          "MDV-E-004",
+          "MDV-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MDV-E-103",
+          "MDV-E-110",
+          "MDV-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "MDV-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "MDV-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "MDV-E-101",
+          "MDV-E-104",
+          "MDV-E-106",
+          "MDV-E-108",
+          "MDV-E-109",
+          "MDV-E-111",
+          "MDV-E-112"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/MDV/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "MDV-SRC-001",
+      "title": "Key Highlights: Maldives Country Climate and Development Report",
+      "organization": "World Bank Group",
+      "publication_date": "2024-09-17",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.worldbank.org/en/country/maldives/publication/key-highlights-maldives-country-climate-and-development-report",
+      "geographic_coverage": [
+        "Maldives"
+      ],
+      "temporal_coverage": "World Bank CCDR highlights updated 2024; includes projections to mid-century and 2100.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MDV-E-001",
+        "MDV-E-002",
+        "MDV-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MDV-SRC-002",
+      "title": "Maldives Country Environmental Analysis: Towards a More Sustainable and Resilient Blue Economy",
+      "organization": "World Bank Group",
+      "publication_date": "2024-02-06",
+      "publication_date_basis": "document-version",
+      "url": "https://www.worldbank.org/en/country/maldives/publication/maldives-country-environmental-analysis",
+      "geographic_coverage": [
+        "Maldives",
+        "island and atoll councils"
+      ],
+      "temporal_coverage": "Country Environmental Analysis published in 2024; includes current environmental analysis and prospective policy recommendations.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MDV-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MDV-SRC-003",
+      "title": "Maldives' Third Nationally Determined Contribution: National Climate Action Plan Towards Resilience and Low-Carbon Development",
+      "organization": "Ministry of Tourism and Environment, Government of Maldives",
+      "publication_date": "2025-02",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/2025-02/Maldives%E2%80%99%20Third%20Nationally%20Determined%20Contribution.pdf",
+      "geographic_coverage": [
+        "Maldives",
+        "atolls",
+        "islands"
+      ],
+      "temporal_coverage": "NDC3 submitted in February 2025; national climate assessment and action planning to 2035.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MDV-E-005",
+        "MDV-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MDV-SRC-101",
+      "title": "Common Country Analysis 2024",
+      "organization": "United Nations Resident Coordinator Office, Maldives",
+      "publication_date": "2024-11-28",
+      "publication_date_basis": "portal-publication",
+      "url": "https://maldives.un.org/en/284636-common-country-analysis-2024",
+      "geographic_coverage": [
+        "Maldives",
+        "Greater Malé",
+        "northern atolls",
+        "southern atolls",
+        "outer atolls"
+      ],
+      "temporal_coverage": "UN Country Analysis 2024, including climate projections, 2024 social context and historical island water shortages.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MDV-E-101",
+        "MDV-E-102",
+        "MDV-E-103",
+        "MDV-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 75-page October 2024 CCA inspected; cited p.30, pp.42-44 and pp.72-74.",
+          "notes": "Used CCA-specific claims only; it reports significant geographic, gender and age data gaps.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "MDV-E-104",
+        "selected_source_id": "MDV-SRC-101",
+        "url": "https://maldives.un.org/en/284636-common-country-analysis-2024",
+        "locator": "PDF pp.72-74, risk matrix on climate-induced internal migration",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 50967,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "MDV-E-104"
+      ]
+    },
+    {
+      "source_id": "MDV-SRC-102",
+      "title": "Common Country Analysis Maldives (January 2021)",
+      "organization": "United Nations Country Team, Maldives",
+      "publication_date": "2020-12-31",
+      "publication_date_basis": "portal-publication",
+      "url": "https://maldives.un.org/sites/default/files/2021-03/CCA%20Maldives%20January%202021.pdf",
+      "geographic_coverage": [
+        "Maldives",
+        "atolls",
+        "island communities"
+      ],
+      "temporal_coverage": "UN CCA prepared/endorsed in January 2021; cited climate, water and gender evidence includes earlier years.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MDV-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 126-page CCA inspected, especially printed p.60 on disaster response, water scarcity and gendered risks.",
+          "notes": "Publication page dates the report 31 December 2020; CCA itself was endorsed in January 2021. Claims are historical/conditional.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MDV-SRC-103",
+      "title": "Strengthening National and Subnational Capacity for Sustainable Disaster Risk Reduction, Climate Change Adaptation and Mitigation in Maldives",
+      "organization": "United Nations Economic and Social Commission for Asia and the Pacific (ESCAP)",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://jointsdgfund.org/sites/default/files/2024-08/04.08.2024%20Maldives%20Final%20Assessment%20Report.pdf",
+      "geographic_coverage": [
+        "Maldives",
+        "Malé City",
+        "Meemu Atoll",
+        "Kaafu Atoll",
+        "Haa Alifu Atoll",
+        "Seenu Atoll",
+        "Thoddoo",
+        "Kashidhoo"
+      ],
+      "temporal_coverage": "Climate hazard and sector exposure projections through 2060, with current risk-planning recommendations.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MDV-E-106",
+        "MDV-E-107",
+        "MDV-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 76-page ESCAP assessment inspected; cited printed pp.42 and 45-48 for exposure, disability and agriculture.",
+          "notes": "Document cover did not state a reliable publication date; filename date not used. Model and data limitations are retained.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MDV-SRC-104",
+      "title": "Disaster Statistics of Maldives 2024",
+      "organization": "National Disaster Management Authority, Government of Maldives",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://ndma.gov.mv/storage/uploads/50wN1EoA/r3dbykmg.pdf",
+      "geographic_coverage": [
+        "20 atolls",
+        "Greater Malé",
+        "Kaafu",
+        "Seenu",
+        "Laamu",
+        "islands"
+      ],
+      "temporal_coverage": "NDMA incident collection from December 2023 through December 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MDV-E-109",
+        "MDV-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 22-page Disaster Statistics of Maldives 2024 inspected, including executive summary, atoll/island tables and p.20 limitations.",
+          "notes": "Data refer to December 2023-December 2024; publication date was not stated in the accessed report.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MDV-SRC-105",
+      "title": "Enhancing Climate Resilience and Food Security Project (ECRFS Project)",
+      "organization": "Ministry of Climate Change, Environment and Energy, Government of Maldives",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://environment.gov.mv/en/projects/enhancing-climate-resilience-and-food-security-project-ecrfs-project",
+      "geographic_coverage": [
+        "Greater Malé",
+        "Haa Dhaalu Atoll",
+        "Seenu Atoll",
+        "Addu Meedhoo",
+        "Ghaazee School"
+      ],
+      "temporal_coverage": "Ongoing project, 2025-2030; page reports activities through October 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MDV-E-111",
+        "MDV-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Government project page; reviewed current project description and 26-27 Aug and 9 Sep 2026 updates.",
+          "notes": "Training is reported as completed; Addu Meedhoo forecasting pilot remained under feasibility assessment.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MDV-SRC-106",
+      "title": "CRM in Maldives: Strengthening synergies and alignment of DRR and climate action",
+      "organization": "United Nations Office for Disaster Risk Reduction (UNDRR)",
+      "publication_date": "2025-09-08",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.undrr.org/resource/case-study/crm-maldives-strengthening-synergies-and-alignment-drr-and-climate-action",
+      "geographic_coverage": [
+        "Maldives",
+        "national institutions"
+      ],
+      "temporal_coverage": "Technical assistance and capacity development completed during 2022-2024; case study published September 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MDV-E-113"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full UNDRR case page inspected, especially activities and outcome statements for 2022-2025.",
+          "notes": "Reported outcomes concern national strategies and inter-agency coordination, not measured local risk reduction.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "MDV-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDV-SRC-001",
+          "locator": "Key findings, lines on economic reliance and climate risk (accessed 2026-10-26)."
+        }
+      ],
+      "geographies": [
+        "Maldives"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "current",
+        "medium-term"
+      ],
+      "scenario": "Moderate/high emissions scenarios, per summary.",
+      "compact_statement": "Tourism and fisheries account for nearly half of Maldives GDP and employment; reef and fishery climate impacts are evident and projected to worsen by mid-century.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MDV-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDV-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDV-SRC-001",
+          "locator": "Key findings, sea-level-rise projection, lines 11-16 (accessed 2026-10-26)."
+        }
+      ],
+      "geographies": [
+        "Maldives"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "The highlights page does not specify scenarios for the sea-level or flood estimates.",
+      "compact_statement": "The summary projects 0.5–0.9 m sea-level rise by 2100; 10-year floods could damage up to 3.3% of assets (US$0.7–1.1bn).",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MDV-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDV-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDV-SRC-001",
+          "locator": "Key findings, coral reef degradation and recommendations, lines 15-24 (accessed 2026-10-26)."
+        }
+      ],
+      "geographies": [
+        "Maldives",
+        "islands"
+      ],
+      "affected_groups": [],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Coral projection assumes global warming above 2°C.",
+      "compact_statement": "The summary says nearly all shallow coral cover could be lost if global temperatures exceed 2°C and recommends island-specific planning that incorporates sea-level rise, flooding, and ocean heating.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MDV-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDV-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDV-SRC-002",
+          "locator": "CEA recommendations, institutional capacity and local council recommendations, webpage paragraphs 26-50 (accessed 2026-10-26)."
+        }
+      ],
+      "geographies": [
+        "Maldives",
+        "island and atoll councils"
+      ],
+      "affected_groups": [],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "The CEA recommends strengthening environmental agency capacity and empowering island and atoll councils to manage protected areas and participate in monitoring.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MDV-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDV-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDV-SRC-003",
+          "locator": "Climate vulnerability and national circumstances, printed pp. 5-8 (PDF pp. 4-7)."
+        }
+      ],
+      "geographies": [
+        "Maldives",
+        "islands"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC describes the country's low-lying narrow islands as exposed to sea-level rise and increasingly unpredictable rainfall and extreme weather, with risks to infrastructure, ecosystems, food and water security, and livelihoods.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MDV-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDV-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDV-SRC-003",
+          "locator": "Climate vulnerability and social inclusion discussion, printed pp. 6-8 (PDF pp. 5-7)."
+        }
+      ],
+      "geographies": [
+        "Maldives",
+        "atolls",
+        "islands"
+      ],
+      "affected_groups": [
+        "women",
+        "youth",
+        "vulnerable groups"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC identifies exposure of public utilities, health services, transport, and telecommunications and says climate action should address the needs of women, youth, and other vulnerable groups.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MDV-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDV-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDV-SRC-101",
+          "locator": "PDF pp.42-44, climate projections and local adaptation capacity gaps"
+        }
+      ],
+      "geographies": [
+        "Malé",
+        "central Maldives",
+        "Haa Alifu",
+        "Haa Dhaalu",
+        "Raa",
+        "Shaviyani",
+        "Noonu",
+        "Gaafu Alifu",
+        "Gaafu Dhaalu",
+        "Gnaviyani",
+        "Seenu"
+      ],
+      "affected_groups": [
+        "residents of named atolls",
+        "agricultural communities"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Downscaled CMIP6 to 2100; higher increases under higher emissions.",
+      "compact_statement": "Source dated 2024-11-28 reports: CMIP6 projects greatest rainfall and flood risk centrally, increases in northern atolls and declines in named southern atolls.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDV-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDV-SRC-101",
+          "locator": "PDF p.30, migrant-worker climate vulnerability"
+        }
+      ],
+      "geographies": [
+        "Maldives",
+        "migrant-worker settlements"
+      ],
+      "affected_groups": [
+        "migrant workers",
+        "women migrant workers",
+        "domestic care workers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-11-28 reports: CCA says migrant precarity and weak legal protection heighten climate-related displacement and livelihood risks.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDV-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDV-SRC-101",
+          "locator": "PDF p.44, adaptation capability and participation gaps"
+        }
+      ],
+      "geographies": [
+        "Maldives",
+        "local communities"
+      ],
+      "affected_groups": [
+        "outer-atoll communities",
+        "women",
+        "young people",
+        "children"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-11-28 reports: CCA flags local risk-data capacity, community participation and cross-sector integration gaps.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDV-E-104",
+      "record_review": "manual-source-access-limited",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "MDV-SRC-101",
+          "locator": "PDF pp.72-74, risk matrix on climate-induced internal migration"
+        }
+      ],
+      "geographies": [
+        "outer atolls",
+        "Malé",
+        "underserved settlements"
+      ],
+      "affected_groups": [
+        "internal migrants",
+        "residents of underserved settlements"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": "Risk-matrix entry; no scenario or period stated.",
+      "compact_statement": "Source dated 2024-11-28 reports: Risk matrix flags climate-induced atoll-to-Malé migration as a social-cohesion, settlement-crowding and housing/WASH risk.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "MDV-E-104",
+        "source_id": "MDV-SRC-101",
+        "url": "https://maldives.un.org/en/284636-common-country-analysis-2024",
+        "locator": "PDF pp.72-74, risk matrix on climate-induced internal migration",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "manual_adjudication_completed": true,
+        "verification_note": "The reopened URL returned a publication landing page rather than the cited PDF risk-matrix pages; claim unverified."
+      },
+      "verification_note": "The reopened URL returned a publication landing page rather than the cited PDF risk-matrix pages; claim unverified.",
+      "manual_adjudication": {
+        "status": "unresolved",
+        "reviewed_on": "2026-10-27",
+        "source_id": "MDV-SRC-101",
+        "source_url": "https://maldives.un.org/en/284636-common-country-analysis-2024",
+        "locator": "PDF pp.72-74, risk matrix on climate-induced internal migration",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The reopened URL returned a publication landing page rather than the cited PDF risk-matrix pages; claim unverified.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      }
+    },
+    {
+      "record_id": "MDV-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDV-SRC-102",
+          "locator": "Original 126-page PDF physical p.61, gendered climate and food-security risks."
+        }
+      ],
+      "geographies": [
+        "Maldives",
+        "atoll communities"
+      ],
+      "affected_groups": [
+        "women",
+        "girls",
+        "pregnant and lactating women",
+        "young children",
+        "older people"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": "Conditional risk in 2021 CCA; no climate scenario or future period stated.",
+      "compact_statement": "The January 2021 CCA discusses gendered water/hygiene burdens and cites a conditional pathway from livelihood or food stress to exploitative coping, including transactional sex.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDV-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDV-SRC-103",
+          "locator": "PDF p.42, sea-level exposure by atoll through 2060"
+        }
+      ],
+      "geographies": [
+        "Meemu Atoll",
+        "Alifu Dhaalu Atoll",
+        "Haa Alifu Atoll",
+        "Haa Dhaalu Atoll",
+        "Kaafu Atoll"
+      ],
+      "affected_groups": [
+        "atoll residents",
+        "women"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "SSP2 and SSP3 projections to 2060, as reported by ESCAP.",
+      "compact_statement": "ESCAP's exposure model estimates 47% of Meemu's population and over 30% in Alifu Dhaalu, Haa Alifu, Haa Dhaalu and Kaafu exposed under its greater-than-one-metre sea-level-rise scenarios by 2060.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDV-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDV-SRC-103",
+          "locator": "PDF pp.45-46, disability inclusion and agriculture exposure"
+        }
+      ],
+      "geographies": [
+        "Maldives",
+        "Malé",
+        "Seenu",
+        "Haa Dhaalu",
+        "Raa",
+        "Kaafu"
+      ],
+      "affected_groups": [
+        "people with disabilities",
+        "women in agriculture"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": "High-rainfall exposure under SSP3 7.0 by 2060; accessibility barrier described in the report's current assessment.",
+      "compact_statement": "ESCAP describes inaccessible warning/preparedness information for people with disabilities and models substantial future rainfall exposure.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDV-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDV-SRC-103",
+          "locator": "PDF pp.46-48, food-producing islands and future rainfall exposure"
+        }
+      ],
+      "geographies": [
+        "Thoddoo",
+        "Kashidhoo",
+        "Kaafu Atoll",
+        "Gnaviyani Atoll",
+        "Seenu Atoll",
+        "Haa Dhaalu Atoll",
+        "Raa Atoll"
+      ],
+      "affected_groups": [
+        "farmers",
+        "agricultural workers",
+        "women"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "High rainfall and SSP3 7.0 sea-level exposure through 2060.",
+      "compact_statement": "ESCAP models high-precipitation exposure for agricultural land in Kaafu and on Thoddo/Thoddoo and Kashidhoo, with low-elevation agricultural exposure in Gnaviyani, Seenu, Haa Dhaalu and Raa.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDV-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDV-SRC-104",
+          "locator": "PDF pp.2, 11-16, and 20, island hazard records and data/response limitations"
+        }
+      ],
+      "geographies": [
+        "20 atolls",
+        "Kaafu Atoll",
+        "Seenu Atoll",
+        "Laamu Atoll",
+        "Male’ City",
+        "Hulhumale’",
+        "Addu City"
+      ],
+      "affected_groups": [
+        "households",
+        "urban residents",
+        "island communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: NDMA recorded 251 mixed-hazard incidents across 20 atolls in 2024 and 1,423 flood-affected households; Kaafu, Seenu and Laamu had the most reported rainwater floods.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDV-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDV-SRC-104",
+          "locator": "PDF p.20, NDMA 2024 challenges and recommendations"
+        }
+      ],
+      "geographies": [
+        "remote islands",
+        "atoll and island level"
+      ],
+      "affected_groups": [
+        "remote-island residents",
+        "women",
+        "children",
+        "people with disabilities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: NDMA reports remote-island underreporting, limited demographic disaggregation, no systematic aid-effectiveness tracking and mostly reactive response without predefined island contingency plans.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDV-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDV-SRC-105",
+          "locator": "Government project page, 26-27 August 2026 Ghaazee School Garden update"
+        }
+      ],
+      "geographies": [
+        "Ghaazee School",
+        "Haa Dhaalu Atoll"
+      ],
+      "affected_groups": [
+        "students",
+        "school staff",
+        "local community"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: ECRFS reported practical climate-smart gardening training for 88 students and school staff at Ghaazee School in August 2026, with continued technical support planned.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDV-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDV-SRC-105",
+          "locator": "Government project page, 9 September 2026 Addu Meedhoo forecasting discussion"
+        }
+      ],
+      "geographies": [
+        "Addu Meedhoo",
+        "Seenu Atoll"
+      ],
+      "affected_groups": [
+        "farmers",
+        "agricultural households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": "Proposed pilot; feasibility and implementation were not yet established in the page.",
+      "compact_statement": "Source dated not stated reports: ECRFS and Maldives Meteorological Service discussed a localized farm-weather pilot for Addu Meedhoo, but still planned to assess feasibility and data needs.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDV-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDV-SRC-106",
+          "locator": "UNDRR case study, activities and outcomes, 2022-2025"
+        }
+      ],
+      "geographies": [
+        "Maldives"
+      ],
+      "affected_groups": [
+        "at-risk populations",
+        "local communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09-08 reports: UNDRR reports its technical support helped align the Maldives' national DRR Strategy 2024-2030 with adaptation planning and integrate hazard assessments across government agencies.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "MDV-E-104",
+  "source_access_review": {
+    "selected_record_id": "MDV-E-104",
+    "selected_source_id": "MDV-SRC-101",
+    "url": "https://maldives.un.org/en/284636-common-country-analysis-2024",
+    "locator": "PDF pp.72-74, risk matrix on climate-induced internal migration",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 50967,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The reopened URL returned a publication landing page rather than the cited PDF risk-matrix pages; claim unverified."
+  },
+  "checks": [
+    {
+      "record_id": "MDV-E-104",
+      "source_id": "MDV-SRC-101",
+      "locator": "PDF pp.72-74, risk matrix on climate-induced internal migration",
+      "verification_status": "unresolved",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "MDV-E-104: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "MDV-E-001",
+    "MDV-E-002",
+    "MDV-E-003",
+    "MDV-E-004",
+    "MDV-E-005",
+    "MDV-E-006",
+    "MDV-E-101",
+    "MDV-E-102",
+    "MDV-E-103",
+    "MDV-E-104",
+    "MDV-E-105",
+    "MDV-E-106",
+    "MDV-E-107",
+    "MDV-E-108",
+    "MDV-E-109",
+    "MDV-E-110",
+    "MDV-E-111",
+    "MDV-E-112",
+    "MDV-E-113"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

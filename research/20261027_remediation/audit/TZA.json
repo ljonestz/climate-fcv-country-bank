@@ -1,0 +1,1194 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "TZA",
+  "candidate_path": "countries/TZA/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 8,
+    "evidence_count": 18,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 18
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 7,
+      "access-only": 11
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "TZA-E-004",
+          "TZA-E-005",
+          "TZA-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "TZA-E-001",
+          "TZA-E-002",
+          "TZA-E-101",
+          "TZA-E-102"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "TZA-E-003",
+          "TZA-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "TZA-E-006",
+          "TZA-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "TZA-E-103",
+          "TZA-E-105",
+          "TZA-E-107",
+          "TZA-E-108",
+          "TZA-E-109",
+          "TZA-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "TZA-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "TZA-E-101",
+          "TZA-E-102",
+          "TZA-E-103",
+          "TZA-E-104",
+          "TZA-E-106",
+          "TZA-E-107",
+          "TZA-E-111",
+          "TZA-E-112"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/TZA/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "TZA-SRC-001",
+      "title": "United Republic of Tanzania Country Climate and Development Report: Executive Summary",
+      "organization": "World Bank Group",
+      "publication_date": "2024-11",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099121124114037812/pdf/P18018719ca6fe055196f61197ef868e127.pdf",
+      "geographic_coverage": [
+        "Tanzania",
+        "major cities",
+        "low-lying urban areas",
+        "Lake Victoria Basin"
+      ],
+      "temporal_coverage": "Current climate-risk exposure and climate-development scenarios through 2050, reported in 2024",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "restricted",
+      "records_using_source": [
+        "TZA-E-001",
+        "TZA-E-002",
+        "TZA-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TZA-SRC-002",
+      "title": "Tanzania's Nationally Determined Contribution",
+      "organization": "United Republic of Tanzania, Vice President's Office (Union and Environment)",
+      "publication_date": "2021-07-30",
+      "publication_date_basis": "submission",
+      "url": "https://unfccc.int/sites/default/files/NDC/2022-06/TANZANIA_NDC_SUBMISSION_30%20JULY%202021.pdf",
+      "geographic_coverage": [
+        "Tanzania",
+        "northeastern Tanzania",
+        "southern Tanzania",
+        "northwestern Tanzania",
+        "Lake Victoria region",
+        "coastal Tanzania"
+      ],
+      "temporal_coverage": "Observed climate through 2016 and projections through 2090 reported in the 2021 NDC",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TZA-E-004",
+        "TZA-E-005",
+        "TZA-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TZA-SRC-101",
+      "title": "Performance Audit Report on the Management of Floods",
+      "organization": "National Audit Office of Tanzania, Controller and Auditor General",
+      "publication_date": "2025-03",
+      "publication_date_basis": "publication",
+      "url": "https://www.nao.go.tz/uploads/Performance_Audit_Report_on_the_Management_of_Floods.pdf",
+      "geographic_coverage": [
+        "Tanzania",
+        "Hanang",
+        "Kinondoni",
+        "Rufiji",
+        "Kilosa",
+        "Mbeya"
+      ],
+      "temporal_coverage": "Flood-management audit covering 2020/21-2023/24; includes field observations and cited event reports from 2023-2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TZA-E-101",
+        "TZA-E-102",
+        "TZA-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 156-page national audit; methods, findings and recommendations, especially printed pp. 12-14, 37-38, 53-54 and 58-63.",
+          "notes": "Audit combines document review, interviews and field observations; selected LGAs for impact review and later budget tables use somewhat differing denominators.",
+          "reuse_terms": "No separate open licence verified; concise attributed paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TZA-SRC-102",
+      "title": "Water Sector Development Programme Phase III: Annual Water Sector Status Report 2024",
+      "organization": "United Republic of Tanzania, Ministry of Water",
+      "publication_date": "2025-03",
+      "publication_date_basis": "publication",
+      "url": "https://www.maji.go.tz/uploads/files/WATER_SECTOR_STATUS_REPORT_2024.pdf",
+      "geographic_coverage": [
+        "Tanzania",
+        "Rufiji Basin",
+        "Great Ruaha",
+        "Luwegu",
+        "Kilombero",
+        "Namtumbo"
+      ],
+      "temporal_coverage": "Water-resource, rainfall and service delivery reporting for 2024, published March 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TZA-E-104",
+        "TZA-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 82-page Ministry of Water report; printed pp. 2-3, 12-14 and 73-74.",
+          "notes": "2024 hydrological observations and annual programme constraints; no anthropogenic attribution inferred.",
+          "reuse_terms": "No separate open licence verified; concise attributed paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TZA-SRC-103",
+      "title": "Perceived existence of farmer-pastoralist conflicts in relation to climate change in Kilosa District, Tanzania",
+      "organization": "Emmanuel E. Chingonikaya and Farida Salehe; published by AkiNik Publications and hosted in the Sokoine University of Agriculture Institutional Repository",
+      "publication_date": "2021",
+      "publication_date_basis": "publication",
+      "url": "https://www.suaire.sua.ac.tz/items/cc75baca-b1c0-4995-8958-667b5edaff7e",
+      "geographic_coverage": [
+        "Kilosa District"
+      ],
+      "temporal_coverage": "2021 cross-sectional study of farmer-pastoralist relations in selected Kilosa wards and villages.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TZA-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Institutional-repository item page with publication metadata and full abstract.",
+          "notes": "Article findings are reported only to the extent stated in the repository abstract.",
+          "reuse_terms": "License terms not established; brief attributed paraphrase of abstract only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "TZA-E-106",
+        "selected_source_id": "TZA-SRC-103",
+        "url": "https://www.suaire.sua.ac.tz/items/cc75baca-b1c0-4995-8958-667b5edaff7e",
+        "locator": "Sokoine University repository abstract, methods and findings paragraphs.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "TimeoutError: The read operation timed out"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "TZA-SRC-104",
+      "title": "Local governance and climate change adaptation: evidence from Monduli and Longido districts, Tanzania",
+      "organization": "Maeda, Namwata and Kumburu; Moshi Co-operative University Institutional Repository",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://repository.mocu.ac.tz/xmlui/handle/123456789/2084",
+      "geographic_coverage": [
+        "Monduli District",
+        "Longido District"
+      ],
+      "temporal_coverage": "2025 mixed-methods study of local-authority adaptation implementation; study fieldwork dates not stated in the abstract.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TZA-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Institutional-repository record and abstract, methods/results paragraphs.",
+          "notes": "Repository page includes the abstract; the linked full article PDF timed out.",
+          "reuse_terms": "License terms not established; brief attributed paraphrase of abstract only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TZA-SRC-105",
+      "title": "Climate adaptation in Tanzania's national budgeting process: embedding flood and drought preparedness",
+      "organization": "London School of Economics Grantham Research Institute and Behavioural Adaptation for Water Security and Inclusion project partners",
+      "publication_date": "2026-08-24",
+      "publication_date_basis": "publication",
+      "url": "https://www.lse.ac.uk/granthaminstitute/wp-content/uploads/2026/08/BASIN-Insight-Brief-3_Climate-adaptation-in-Tanzanias-national-budgeting-process.pdf",
+      "geographic_coverage": [
+        "Tanzania"
+      ],
+      "temporal_coverage": "Eight-page August 2026 policy brief using 2025 interviews and national budget-cycle analysis.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TZA-E-108",
+        "TZA-E-109",
+        "TZA-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete eight-page August 2026 brief; summary and analysis on PDF pp. 1-5.",
+          "notes": "The brief distinguishes its 43 interviews from fiscal percentages attributed to other reports.",
+          "reuse_terms": "No separate open licence verified; concise attributed paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TZA-SRC-106",
+      "title": "Enhancing the Adaptive Capacity of Semi-Arid Agropastoral Communities through Local Adaptation Plans in Dodoma",
+      "organization": "IKI Small Grants programme; implemented by the Forum on Climate Change (FORUMCC)",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://iki-small-grants.de/projects/targeting-on-equitable-climate-resilient-rural-communities-through-comprehensive-local-adaptation-plans/",
+      "geographic_coverage": [
+        "Dodoma Region",
+        "Chamwino District",
+        "Mpwapwa District"
+      ],
+      "temporal_coverage": "Completed project page for July 2023-August 2025; reports district planning and engagement outputs.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TZA-E-111",
+        "TZA-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete project page, context, districts, completion status and achievements.",
+          "notes": "Grant-programme/implementer reporting; target, engagement, approved funding and completed plan outputs are distinguished.",
+          "reuse_terms": "No separate open licence verified; concise attributed paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "TZA-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TZA-SRC-001",
+          "locator": "PDF p. 8, urban flood exposure"
+        }
+      ],
+      "geographies": [
+        "Tanzania",
+        "major cities",
+        "low-lying cities"
+      ],
+      "affected_groups": [
+        "residents of unplanned settlements"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The CCDR estimates about 463 km2 of urban area is at high risk of flooding from rivers, rain and sea-level rise; many affected urban residents live in unplanned settlements without adequate drainage.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "TZA-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TZA-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TZA-SRC-001",
+          "locator": "PDF p. 8, population exposure to climate risks"
+        }
+      ],
+      "geographies": [
+        "Tanzania"
+      ],
+      "affected_groups": [
+        "vulnerable population"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The CCDR estimates 27.7 percent of Tanzania's population and 29.4 percent of its vulnerable population are exposed to at least one climate risk.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "TZA-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TZA-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TZA-SRC-001",
+          "locator": "PDF p. 8, agriculture-dependent population vulnerability"
+        }
+      ],
+      "geographies": [
+        "Tanzania"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "poor households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The CCDR says about 70 percent of Tanzania's population depends on agriculture, many as poor smallholder farmers, and is poorly positioned to manage repeated or simultaneous climate shocks.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "TZA-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TZA-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TZA-SRC-002",
+          "locator": "PDF p. 17, observed temperature and drying trends"
+        }
+      ],
+      "geographies": [
+        "northeastern Tanzania",
+        "southern Tanzania"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC reports average maximum temperatures rose over 1 degree C in 1961-2013 and drying occurred in northeastern and much of southern Tanzania during 1981-2016, affecting agriculture, water and energy.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "TZA-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TZA-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TZA-SRC-002",
+          "locator": "PDF p. 18, Future Climate for Africa projections"
+        }
+      ],
+      "geographies": [
+        "Tanzania",
+        "southern Tanzania",
+        "northwestern Tanzania",
+        "Lake Victoria region"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term",
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "The inspected summary does not specify it.",
+      "compact_statement": "NDC projects 0.8-1.8 degrees C warming by the 2040s and 1.6-5.0 degrees C by 2090; dry-season rainfall may decline, wet-season rainfall rise, with southern decline and Lake Victoria-area increase by 2030.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "TZA-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TZA-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TZA-SRC-002",
+          "locator": "PDF p. 17, adaptation targets by 2030"
+        }
+      ],
+      "geographies": [
+        "Tanzania",
+        "urban areas",
+        "rural areas"
+      ],
+      "affected_groups": [
+        "urban population",
+        "rural population"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC sets a target to raise access to clean, safe water from 2015 baselines of 86 percent in urban areas and 67.7 percent in rural areas to 100 percent by 2030.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "TZA-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TZA-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TZA-SRC-101",
+          "locator": "Printed p. 59, section 3.4.2, citing the July 2024 Hanang post-landslide restoration report."
+        }
+      ],
+      "geographies": [
+        "Hanang District, Manyara Region"
+      ],
+      "affected_groups": [
+        "households",
+        "farmers",
+        "small- and large-scale businesses"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-03 reports: The audit's cited July 2024 report says the 2023 Hanang mudslide affected 261 houses, destroyed 95, damaged 754.875 acres of farmland and disrupted 742 businesses.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TZA-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TZA-SRC-101",
+          "locator": "Printed pp. 58-63, sections 3.4.1-3.4.2 and photos 3.3(e)-(f), Kilosa site observation."
+        }
+      ],
+      "geographies": [
+        "Kilosa District",
+        "Mkondoa River area"
+      ],
+      "affected_groups": [
+        "neighboring communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-03 reports: In Kilosa, auditors observed a Standard Gauge Railway stormwater culvert without a continuous downstream channel; accumulated floodwater affected neighboring areas.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TZA-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TZA-SRC-101",
+          "locator": "Printed pp. 37-38 and 53-54, sections 3.3.1 and 3.3.7; tables 3.2 and 3.6."
+        }
+      ],
+      "geographies": [
+        "Kinondoni Municipality",
+        "Rufiji District",
+        "Kilosa District",
+        "Hanang District",
+        "Mbeya City"
+      ],
+      "affected_groups": [
+        "residents in flood-prone areas"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-03 reports: In 2024, none of five visited councils had demarcated or protected identified flood-prone areas; the audit tables show no disaster-coordination allocations in Kinondoni, Hanang, Mbeya or Kilosa, unlike Rufiji.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TZA-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TZA-SRC-102",
+          "locator": "Printed pp. 12-14, sections 3.1.1.1 and 3.1.1.3, Rufiji Basin rainfall and river-flow discussion."
+        }
+      ],
+      "geographies": [
+        "Rufiji Basin",
+        "Great Ruaha River at Msembe",
+        "Namtumbo station"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The ministry's 2024 sector report describes above-average Rufiji rainfall and high Great Ruaha flow at Msembe during the 2023–2024 season.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TZA-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TZA-SRC-102",
+          "locator": "Printed pp. 2-3 and 73-74, institutional roles and chapter 4 constraints."
+        }
+      ],
+      "geographies": [
+        "Tanzania",
+        "local water-supply schemes"
+      ],
+      "affected_groups": [
+        "rural water users"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-03 reports: The Ministry assigns local water allocation to Water User Associations and rural-scheme operation to community water organizations; it reports staff, data, storage and financing gaps in 2024.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TZA-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "TZA-SRC-103",
+          "locator": "Sokoine University repository abstract, methods and findings paragraphs."
+        }
+      ],
+      "geographies": [
+        "Kilosa District"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoralists"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2021 reports: A 2021 cross-sectional study of 120 respondents in selected Kilosa wards and villages reports farmer-pastoralist conflict over land, water and pasture and attributes resource scarcity partly to climate variability.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "TZA-E-106",
+        "selected_source_id": "TZA-SRC-103",
+        "url": "https://www.suaire.sua.ac.tz/items/cc75baca-b1c0-4995-8958-667b5edaff7e",
+        "locator": "Sokoine University repository abstract, methods and findings paragraphs.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "TimeoutError: The read operation timed out"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "TZA-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TZA-SRC-104",
+          "locator": "Repository abstract, methods and results paragraphs."
+        }
+      ],
+      "geographies": [
+        "Monduli District",
+        "Longido District"
+      ],
+      "affected_groups": [
+        "local adaptation-committee members",
+        "indigenous groups"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: A 2025 mixed-methods study across Monduli and Longido reports that responsiveness, accountability, transparency and stakeholder participation significantly influenced local adaptation implementation, with participation strongest.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TZA-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TZA-SRC-105",
+          "locator": "PDF p. 2, national adaptation budgeting context and cited preparedness budget shares."
+        }
+      ],
+      "geographies": [
+        "Tanzania"
+      ],
+      "affected_groups": [
+        "flood- and drought-exposed populations"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08-24 reports: The brief cites estimates that preparedness receives about 25% of the disaster-management budget, while the Water Ministry assigns about 6% to water-resource management versus 75% to water supply.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TZA-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TZA-SRC-105",
+          "locator": "PDF pp. 3-5, results of the 2025 interview and budget-cycle analysis."
+        }
+      ],
+      "geographies": [
+        "Tanzania"
+      ],
+      "affected_groups": [
+        "flood- and drought-exposed populations"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08-24 reports: The 43-interview study identifies reactive-response norms, budget ceilings, institutional silos, weak coordination authority and generic monitoring as mutually reinforcing reasons flood and drought preparedness is underfunded.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TZA-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TZA-SRC-105",
+          "locator": "PDF p. 5 and summary, proposed budget-cycle leverage points."
+        }
+      ],
+      "geographies": [
+        "Tanzania"
+      ],
+      "affected_groups": [],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08-24 reports: The brief recommends preparedness rules in budget guidelines, costed and coordinated ministry plans, and transparent tracking of planned and actual preparedness spending.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TZA-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TZA-SRC-106",
+          "locator": "IKI project page, initial situation and project-area description."
+        }
+      ],
+      "geographies": [
+        "Dodoma Region",
+        "Chamwino District",
+        "Mpwapwa District"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "women",
+        "youth"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The Dodoma project describes its Chamwino and Mpwapwa target communities as groundwater-dependent; unreliable rainfall affects crops and livestock and is associated with drought, flooding, erosion and limited recharge.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TZA-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TZA-SRC-106",
+          "locator": "IKI project page, completed-project status and key achievements."
+        }
+      ],
+      "geographies": [
+        "Chamwino District",
+        "Mpwapwa District"
+      ],
+      "affected_groups": [
+        "community members",
+        "smallholder farmers",
+        "women",
+        "youth"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The completed project reports community-led plans adopted by Chamwino and Mpwapwa councils, 25 adaptation actions added to 2024/25 plans and budgets, and TZS 500 million approved for implementation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "TZA-E-106",
+  "source_access_review": {
+    "selected_record_id": "TZA-E-106",
+    "selected_source_id": "TZA-SRC-103",
+    "url": "https://www.suaire.sua.ac.tz/items/cc75baca-b1c0-4995-8958-667b5edaff7e",
+    "locator": "Sokoine University repository abstract, methods and findings paragraphs.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": null,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "TimeoutError: The read operation timed out"
+  },
+  "checks": [
+    {
+      "record_id": "TZA-E-106",
+      "source_id": "TZA-SRC-103",
+      "locator": "Sokoine University repository abstract, methods and findings paragraphs.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "TZA-E-106: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "TZA-E-001",
+    "TZA-E-002",
+    "TZA-E-003",
+    "TZA-E-004",
+    "TZA-E-005",
+    "TZA-E-006",
+    "TZA-E-101",
+    "TZA-E-102",
+    "TZA-E-103",
+    "TZA-E-104",
+    "TZA-E-105",
+    "TZA-E-106",
+    "TZA-E-107",
+    "TZA-E-108",
+    "TZA-E-109",
+    "TZA-E-110",
+    "TZA-E-111",
+    "TZA-E-112"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

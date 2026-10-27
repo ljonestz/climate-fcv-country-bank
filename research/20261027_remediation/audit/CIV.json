@@ -1,0 +1,1114 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "CIV",
+  "candidate_path": "countries/CIV/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 6,
+    "evidence_count": 14,
+    "pathway_count": 2,
+    "evidence_source_reference_count": 14
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 8,
+      "access-only": 6
+    },
+    "pathway_claims": {
+      "unresolved": 2
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "CIV-E-001",
+          "CIV-E-003",
+          "CIV-E-004",
+          "CIV-E-005",
+          "CIV-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "CIV-E-006"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "CIV-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "CIV-E-002",
+          "CIV-E-007",
+          "CIV-E-101",
+          "CIV-E-102",
+          "CIV-E-103",
+          "CIV-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "CIV-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "CIV-E-102",
+          "CIV-E-103",
+          "CIV-E-104",
+          "CIV-E-105"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "CIV-P-001",
+          "CIV-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/CIV/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "CIV-SRC-001",
+      "title": "Country Climate and Development Report: Côte d’Ivoire",
+      "organization": "World Bank Group",
+      "publication_date": "2023-10",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099110523091011137/pdf/P179533045a3100290a928090650b4eca0e.pdf",
+      "geographic_coverage": [
+        "Côte d’Ivoire",
+        "Northern regions",
+        "Abidjan"
+      ],
+      "temporal_coverage": "Historical 2018 flood example; cocoa and climate projections for the 2050s",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CIV-E-001",
+        "CIV-E-002",
+        "CIV-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "CIV-SRC-002",
+      "title": "Contribution Déterminée au niveau National 3.0 de la Côte d’Ivoire",
+      "organization": "Government of Côte d’Ivoire",
+      "publication_date": "2025-10",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/2025-10/CDN%203.0%20COTE%20D%27IVOIRE.pdf",
+      "geographic_coverage": [
+        "Côte d’Ivoire",
+        "Northern and north-western regions",
+        "Coastal areas"
+      ],
+      "temporal_coverage": "Current vulnerability assessment and adaptation planning in NDC 3.0",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CIV-E-004",
+        "CIV-E-005",
+        "CIV-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "CIV-SRC-003",
+      "title": "The Climate Change and Conflict Nexus in West Africa: A New Approach for Operationally Relevant Vulnerability Assessments",
+      "organization": "World Bank Group",
+      "publication_date": "2022",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099184003162387055/pdf/P1729410b3a8dd05909a1006b5887fa5d0d.pdf",
+      "geographic_coverage": [
+        "Côte d’Ivoire"
+      ],
+      "temporal_coverage": "Qualitative case study drawing on country literature and interviews; no single projection horizon",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "open",
+      "records_using_source": [
+        "CIV-E-007"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "CIV-SRC-101",
+      "title": "Quatrième Communication Nationale de la Côte d’Ivoire au titre de la CCNUCC",
+      "organization": "Ministère de l’Environnement, du Développement Durable et de la Transition Écologique, Côte d’Ivoire",
+      "publication_date": "2026-04-01",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/resource/Rapport_QCN_Cote%20dIvoire.pdf",
+      "geographic_coverage": [
+        "Côte d'Ivoire",
+        "Northern Côte d'Ivoire",
+        "Bouaké",
+        "Loka reservoir"
+      ],
+      "temporal_coverage": "Historical water event in 2018; country and sector observations; RCP projections through 2050 and 2099.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CIV-E-101",
+        "CIV-E-102"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 180-181 and 184-185; printed pp. 158-159 and 162-163",
+          "notes": "Opened the complete 271-page official French communication; reviewed land-conflict table and water-scarcity episode.",
+          "reuse_terms": "Unknown; no reuse license verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "CIV-SRC-102",
+      "title": "Project to Strengthen the Resilience of Local Communities in the Bafing Region Made Vulnerable due to Farmer-Breeder Conflicts Exacerbated by Climate Change: Fully Developed Proposal",
+      "organization": "Interprofessional Fund for Agricultural Research and Advice (FIRCA) and Bafing Regional Council; submitted to the Adaptation Fund",
+      "publication_date": "2025",
+      "publication_date_basis": "document-version",
+      "url": "https://fifspubprd.azureedge.net/afdocuments/project/15112/Clean%20version_Full%20Proposal-LLA%20Project%20for%20Bafing%20Region-C%C3%B4te%20d%E2%80%99Ivoire.pdf",
+      "geographic_coverage": [
+        "Bafing Region",
+        "Koro",
+        "Touba",
+        "Ouaninou"
+      ],
+      "temporal_coverage": "Regional climate and livelihood context; four-year locally led adaptation project approved in 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CIV-E-103",
+        "CIV-E-104",
+        "CIV-E-105"
+      ],
+      "this_audit_verification": "access-only",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 5, 8-11 and 15-18",
+          "notes": "Downloaded the complete 140-page proposal from the Adaptation Fund's linked official attachment; web preview could not parse its application/octet-stream response.",
+          "reuse_terms": "Unknown; no reuse license verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "CIV-E-103",
+        "selected_source_id": "CIV-SRC-102",
+        "url": "https://fifspubprd.azureedge.net/afdocuments/project/15112/Clean%20version_Full%20Proposal-LLA%20Project%20for%20Bafing%20Region-C%C3%B4te%20d%E2%80%99Ivoire.pdf",
+        "locator": "PDF pp. 5, 8 and 11, Bafing climate, livelihoods and transhumance context",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/octet-stream",
+        "bytes_read": 3998975,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          5
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "CIV-E-103"
+      ]
+    },
+    {
+      "source_id": "CIV-SRC-103",
+      "title": "Northern Côte d’Ivoire Crisis Response Plan 2024",
+      "organization": "International Organization for Migration (IOM) Côte d’Ivoire",
+      "publication_date": "2024",
+      "publication_date_basis": "document-version",
+      "url": "https://crisisresponse.iom.int/sites/g/files/tmzbdl1481/files/appeal/pdf/2024_Northern_Cte_dIvoire_Crisis_Response_Plan_2024.pdf",
+      "geographic_coverage": [
+        "Northern Côte d'Ivoire",
+        "Tchologo",
+        "Folon",
+        "Bounkani",
+        "border communities"
+      ],
+      "temporal_coverage": "2024 response-plan context and proposed activities; funding page updated 2026-02-05.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CIV-E-106",
+        "CIV-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 4-7 and 13",
+          "notes": "Downloaded and reviewed the complete 15-page IOM plan; web preview returned 403, so no search excerpt was used as evidence.",
+          "reuse_terms": "Unknown; no reuse license verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "CIV-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CIV-SRC-001",
+          "locator": "Printed p. 60 (PDF p. 60), Table 1, climatic suitability levels for cocoa in the 2050s; source note cites Schroth et al. (2016)."
+        }
+      ],
+      "geographies": [
+        "Côte d’Ivoire",
+        "West African cocoa belt"
+      ],
+      "affected_groups": [
+        "Cocoa producers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "The inspected table does not specify the climate-model scenario.",
+      "compact_statement": "The CCDR’s cited projection shows land in Côte d’Ivoire rated over 50% suitable for cocoa falling by 57% in the 2050s, while lower-suitability classes expand.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "CIV-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CIV-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CIV-SRC-001",
+          "locator": "PDF p. 37 (one-based; web index P36), printed p. 9, climate-risk bullet on migration, northern insecurity and resource competition."
+        }
+      ],
+      "geographies": [
+        "Northern Côte d’Ivoire",
+        "Rural communities",
+        "Southward migration routes"
+      ],
+      "affected_groups": [
+        "Herders",
+        "Farmers",
+        "Migrants",
+        "Vulnerable rural communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "The inspected risk passage does not specify a climate scenario or numeric horizon.",
+      "compact_statement": "The CCDR says climate-related migration and more intense drought could add to north–south movement and herder–farmer competition over scarce land and water, with potential stability and recruitment implications in vulnerable rural areas.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "CIV-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CIV-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CIV-SRC-001",
+          "locator": "Printed p. 65 (PDF p. 65), urban flood-risk discussion of Abidjan and June 2018 event."
+        }
+      ],
+      "geographies": [
+        "Abidjan"
+      ],
+      "affected_groups": [
+        "Residents of informal settlements",
+        "Poor residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The CCDR reports severe flooding in Abidjan in June 2018, with more than 20 deaths, and identifies low-lying informal settlements and poorer residents among those exposed.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "CIV-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CIV-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CIV-SRC-002",
+          "locator": "PDF p. 31, health and vulnerable-population paragraphs (lines 1858–1887 in the inspected text)."
+        }
+      ],
+      "geographies": [
+        "Côte d’Ivoire"
+      ],
+      "affected_groups": [
+        "Children",
+        "Older people",
+        "People with chronic illness"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "The inspected passage does not specify a climate scenario.",
+      "compact_statement": "The NDC links heat with increased malaria risk and floods or polluted water with cholera and diarrhoea, noting particular risks for children, older people and those with chronic illness where health capacity and access are limited.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "CIV-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CIV-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CIV-SRC-002",
+          "locator": "PDF p. 31, vulnerable-population paragraph (lines 1871–1887 in the inspected text)."
+        }
+      ],
+      "geographies": [
+        "Côte d’Ivoire",
+        "Northern regions"
+      ],
+      "affected_groups": [
+        "Women",
+        "Youth",
+        "Children",
+        "Older people",
+        "People with disabilities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC reports that women hold less than 20% of land and have substantially lower access to finance, while describing women, youth, children, older people and people with disabilities as especially vulnerable to climate impacts.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "CIV-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CIV-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CIV-SRC-002",
+          "locator": "PDF p. 83, adaptation-plan passage (lines 5789–5805 in the inspected text)."
+        }
+      ],
+      "geographies": [
+        "Northern Côte d’Ivoire",
+        "Forest zones",
+        "Coastal areas"
+      ],
+      "affected_groups": [
+        "Pastoral communities",
+        "Forest communities",
+        "Coastal communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "NDC 3.0 plans northern pastoral measures, forest-zone agroforestry and coastal-erosion protection; these are not evaluated results.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "CIV-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CIV-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CIV-SRC-003",
+          "locator": "Côte d’Ivoire case study, printed p. 72 (PDF p. 70), summary of three potential climate-fragility risks."
+        }
+      ],
+      "geographies": [
+        "Côte d’Ivoire"
+      ],
+      "affected_groups": [
+        "Migrants",
+        "Communities",
+        "Herders",
+        "Farmers"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "The case-study summary does not specify a climate scenario or numeric horizon.",
+      "compact_statement": "The qualitative case study identifies possible risks from large-scale environmental migration and community tensions, insecurity in economic, health and food systems, and increased herder–farmer conflict; it says these risks can be averted.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "CIV-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CIV-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CIV-SRC-101",
+          "locator": "PDF pp. 180-181; printed pp. 158-159, Table 33 and discussion"
+        }
+      ],
+      "geographies": [
+        "Côte d'Ivoire"
+      ],
+      "affected_groups": [
+        "farmers",
+        "herders",
+        "young people",
+        "rural land users"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "RCP 4.5 and RCP 8.5 through 2050; the table labels land-conflict occurrence as increasing but gives no conflict estimate.",
+      "compact_statement": "Source dated 2026-04-01 reports: Government links rising temperature and falling rainfall to arable-land loss and greater land-conflict risk; its matrix also names farmer/herder shares, youth, population growth and migration as vulnerability factors.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CIV-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CIV-SRC-101",
+          "locator": "PDF pp. 184-185; printed pp. 162-163, water-resources vulnerability discussion"
+        }
+      ],
+      "geographies": [
+        "Northern Côte d'Ivoire",
+        "Bouaké",
+        "Loka reservoir"
+      ],
+      "affected_groups": [
+        "Bouaké residents",
+        "northern farming communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-01 reports: Lower rainfall reduced Bouaké's Loka reservoir (70% of city supply) in 2018; three weeks without piped water prompted emergency tankers and temporary migration. Northern shortages also constrained agriculture.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CIV-E-103",
+      "record_review": "manual-passage-check-incomplete",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "CIV-SRC-102",
+          "locator": "PDF pp. 5, 8 and 11, Bafing climate, livelihoods and transhumance context"
+        }
+      ],
+      "geographies": [
+        "Bafing Region",
+        "Koro",
+        "Touba",
+        "Ouaninou"
+      ],
+      "affected_groups": [
+        "farmers",
+        "local herders",
+        "transhumant pastoralists"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The Bafing proposal describes dry-season pasture/water scarcity concentrating herds and farms near residual resources, with crop damage and farmer-herder tensions across Koro, Touba and Ouaninou.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "Narrow to the climatic baseline in the extracted passage or verify the exact pages 8 and 11 before retaining the conflict mechanism."
+      ],
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+      "verification_attempt": {
+        "record_id": "CIV-E-103",
+        "source_id": "CIV-SRC-102",
+        "url": "https://fifspubprd.azureedge.net/afdocuments/project/15112/Clean%20version_Full%20Proposal-LLA%20Project%20for%20Bafing%20Region-C%C3%B4te%20d%E2%80%99Ivoire.pdf",
+        "locator": "PDF pp. 5, 8 and 11, Bafing climate, livelihoods and transhumance context",
+        "accessed_on": "2026-10-27",
+        "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+        "source_access_status": "access-only",
+        "claim_verification": "unresolved",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "manual_adjudication_completed": true,
+        "verification_note": "Only physical PDF page 5 was extracted. It supports the Bafing climatic baseline, but not the claim's dry-season resource concentration, crop damage, named communes and farmer-herder tensions on the other cited pages."
+      },
+      "verification_note": "Only physical PDF page 5 was extracted. It supports the Bafing climatic baseline, but not the claim's dry-season resource concentration, crop damage, named communes and farmer-herder tensions on the other cited pages.",
+      "manual_adjudication": {
+        "status": "unresolved",
+        "reviewed_on": "2026-10-27",
+        "source_id": "CIV-SRC-102",
+        "source_url": "https://fifspubprd.azureedge.net/afdocuments/project/15112/Clean%20version_Full%20Proposal-LLA%20Project%20for%20Bafing%20Region-C%C3%B4te%20d%E2%80%99Ivoire.pdf",
+        "locator": "PDF pp. 5, 8 and 11, Bafing climate, livelihoods and transhumance context",
+        "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+        "reason": "Only physical PDF page 5 was extracted. It supports the Bafing climatic baseline, but not the claim's dry-season resource concentration, crop damage, named communes and farmer-herder tensions on the other cited pages.",
+        "recommended_record_patch": "Narrow to the climatic baseline in the extracted passage or verify the exact pages 8 and 11 before retaining the conflict mechanism.",
+        "coordinator_decision_ref": null
+      }
+    },
+    {
+      "record_id": "CIV-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CIV-SRC-102",
+          "locator": "PDF p. 9, community gender analysis and resource access"
+        }
+      ],
+      "geographies": [
+        "Bafing Region"
+      ],
+      "affected_groups": [
+        "women",
+        "young people",
+        "local herders"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Bafing proposal consultations describe women accessing land mainly through husbands and dry-season distance barriers to water, with herders dependent on surface sources.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CIV-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CIV-SRC-102",
+          "locator": "PDF pp. 15-18, proposed pastoral adaptation and project activities"
+        }
+      ],
+      "geographies": [
+        "Bafing Region"
+      ],
+      "affected_groups": [
+        "farmers",
+        "herders",
+        "women",
+        "young people"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: Approved proposal plans water/fodder pastoral areas and community parks to reduce herd wandering and crop damage; it also supports local conflict-management mechanisms, climate-data use, and women/youth livelihood diversification.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CIV-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CIV-SRC-103",
+          "locator": "PDF p. 4, context analysis; p. 13, adaptation and disaster risk reduction"
+        }
+      ],
+      "geographies": [
+        "Northern Côte d'Ivoire"
+      ],
+      "affected_groups": [
+        "farmers",
+        "transhumant herders",
+        "host communities",
+        "displaced people"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: IOM describes northern farmer-herder competition over pasture and water; it says climate effects on agriculture push rural mobility and aggravate existing tensions and social-cohesion risks.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CIV-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CIV-SRC-103",
+          "locator": "PDF pp. 4-6 and 13, insecurity context and planned adaptation response"
+        }
+      ],
+      "geographies": [
+        "Northern Côte d'Ivoire",
+        "border communities"
+      ],
+      "affected_groups": [
+        "transhumant herders",
+        "host communities",
+        "local authorities",
+        "displaced people"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: Insecurity raises concerns about remote and cross-border travel; livestock-border restrictions made transhumant movements harder and weakened exchanges among herders, hosts and authorities. IOM proposes local adaptation capacity, community risk assessments, resilient infrastructure and flood early warning.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "CIV-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "CIV-E-002",
+        "CIV-E-007"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "CIV-E-002"
+        ],
+        "impact": [
+          "CIV-E-002"
+        ],
+        "mediator": [
+          "CIV-E-002"
+        ],
+        "consequence": [
+          "CIV-E-002",
+          "CIV-E-007"
+        ]
+      },
+      "geographies": [
+        "Northern Côte d'Ivoire",
+        "southward migration routes"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Drought-related mobility may increase resource competition and tensions.",
+      "alternative_explanations": [
+        "Historical tensions and resource governance also matter."
+      ],
+      "uncertainty": "Prospective qualitative mechanism; no measured recruitment or causal conflict effect.",
+      "potentially_out_of_scope_support_ids": [
+        "CIV-E-002",
+        "CIV-E-007"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "CIV-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "CIV-E-103",
+        "CIV-E-104",
+        "CIV-E-105"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "CIV-E-103"
+        ],
+        "impact": [
+          "CIV-E-103"
+        ],
+        "mediator": [
+          "CIV-E-103",
+          "CIV-E-104"
+        ],
+        "consequence": [
+          "CIV-E-103"
+        ]
+      },
+      "geographies": [
+        "Bafing Region",
+        "Koro",
+        "Touba",
+        "Ouaninou"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "In Bafing, seasonal resource scarcity intersects with transhumance, overlapping land use and crop damage to compound farmer-herder tensions.",
+      "alternative_explanations": [
+        "Land-use expansion, corridor access, herd management, tenure and cross-border insecurity can cause tensions independently of climatic change."
+      ],
+      "uncertainty": "Source-stated proposal/context mechanism using local studies and consultation; no representative incident sample or separate climate causal estimate.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ"
+      ],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "CIV-E-103",
+  "source_access_review": {
+    "selected_record_id": "CIV-E-103",
+    "selected_source_id": "CIV-SRC-102",
+    "url": "https://fifspubprd.azureedge.net/afdocuments/project/15112/Clean%20version_Full%20Proposal-LLA%20Project%20for%20Bafing%20Region-C%C3%B4te%20d%E2%80%99Ivoire.pdf",
+    "locator": "PDF pp. 5, 8 and 11, Bafing climate, livelihoods and transhumance context",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "access-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "bytes_read": 3998975,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      5
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+    "verification_note": "Only physical PDF page 5 was extracted. It supports the Bafing climatic baseline, but not the claim's dry-season resource concentration, crop damage, named communes and farmer-herder tensions on the other cited pages."
+  },
+  "checks": [
+    {
+      "record_id": "CIV-E-103",
+      "source_id": "CIV-SRC-102",
+      "locator": "PDF pp. 5, 8 and 11, Bafing climate, livelihoods and transhumance context",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+      "access_date": "2026-10-27",
+      "source_access_status": "access-only",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": false,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Narrow to the climatic baseline in the extracted passage or verify the exact pages 8 and 11 before retaining the conflict mechanism.",
+      "coordinator_decision_ref": null
+    }
+  ],
+  "limitations": [
+    "CIV-E-103: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "CIV-E-001",
+    "CIV-E-002",
+    "CIV-E-003",
+    "CIV-E-004",
+    "CIV-E-005",
+    "CIV-E-006",
+    "CIV-E-007",
+    "CIV-E-101",
+    "CIV-E-102",
+    "CIV-E-103",
+    "CIV-E-104",
+    "CIV-E-105",
+    "CIV-E-106",
+    "CIV-E-107",
+    "CIV-P-001",
+    "CIV-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 1,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

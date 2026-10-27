@@ -1,0 +1,1132 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "POL",
+  "candidate_path": "countries/POL/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 6,
+    "evidence_count": 18,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 18
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 17,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "POL-E-101",
+          "POL-E-102",
+          "POL-E-103",
+          "POL-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "POL-E-104",
+          "POL-E-105",
+          "POL-E-112",
+          "POL-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "POL-E-108",
+          "POL-E-109",
+          "POL-E-111",
+          "POL-E-115",
+          "POL-E-117"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "POL-E-107",
+          "POL-E-114",
+          "POL-E-116",
+          "POL-E-118"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "POL-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "POL-E-105",
+          "POL-E-106",
+          "POL-E-107",
+          "POL-E-108",
+          "POL-E-109",
+          "POL-E-110",
+          "POL-E-111",
+          "POL-E-113",
+          "POL-E-115"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/POL/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "POL-SRC-101",
+      "title": "Raporty klimatyczne dla Polski (Climate reports for Poland)",
+      "organization": "Institute of Meteorology and Water Management – National Research Institute (IMGW-PIB)",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://imgw.pl/en/edukacja/raporty-klimatyczne-dla-polski/",
+      "geographic_coverage": [
+        "Poland"
+      ],
+      "temporal_coverage": "National observations for 2025 compared with the 1991–2020 normal.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "POL-E-101"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "blocked",
+          "locator": "Linked Klimat Polski 2025 PDF",
+          "notes": "The direct publisher PDF fetch exceeded the available content limit; evidence is limited to the IMGW-PIB landing-page summary.",
+          "reuse_terms": "Not assessed for the inaccessible PDF.",
+          "recorded_in_intake": true
+        },
+        {
+          "access_method": "official-excerpt",
+          "locator": "Klimat Polski 2025 report-entry summary",
+          "notes": "Publisher landing-page text was directly opened and read; only its own national summary is used, not uninspected PDF details.",
+          "reuse_terms": "Not stated on the inspected page.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "POL-SRC-102",
+      "title": "Zmiana klimatu w Polsce. Fakty, liczby, skutki",
+      "organization": "Ministry of Climate and Environment of Poland",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.gov.pl/web/klimat/odpornosc-zmiana-klimatu-fakty-liczby-skutki",
+      "geographic_coverage": [
+        "Poland",
+        "Europe"
+      ],
+      "temporal_coverage": "Temperature trend since 1951; March 2026 conditions; water-availability and European drought statistics reported for recent years including 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "POL-E-102",
+        "POL-E-103",
+        "POL-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Sections Polska. Kraj ocieplający się szybciej niż globalna średnia; Marzec 2026 roku – trzeci najcieplejszy i najsuchszy od 1951 roku; Zasoby wodne Polski",
+          "notes": "Full publisher webpage body was opened and read; underlying IMGW, IOŚ-PIB and Copernicus source materials were not separately inspected.",
+          "reuse_terms": "Page footer states CC BY-SA 4.0 for text, excluding audiovisual material.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "POL-SRC-103",
+      "title": "Susza w Wielkopolsce. Partnerstwo regionalne",
+      "organization": "Ministry of Climate and Environment of Poland",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.gov.pl/web/klimat/odpornosc-susza-w-wielkopolsce",
+      "geographic_coverage": [
+        "Wielkopolska Voivodeship",
+        "Poznań",
+        "Powidz Landscape Park",
+        "Ślesiński Canal",
+        "Gniezno Lakeland",
+        "Warcica river basin"
+      ],
+      "temporal_coverage": "Regional water-balance trends described since the beginning of the 21st century; partnership letter signed 2 April 2026; projects reported as in implementation.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "POL-E-105",
+        "POL-E-106",
+        "POL-E-107",
+        "POL-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Sections Sytuacja regionu; Partnerstwo regionalne; Co zakłada porozumienie; Konkretne projekty w realizacji",
+          "notes": "Full Ministry webpage body was opened and read in Polish; project statements are attributed to the Ministry.",
+          "reuse_terms": "Gov.pl text is published under CC BY-SA 4.0 unless stated otherwise.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "POL-SRC-104",
+      "title": "Urban Overheating & Adaptation Measures: An Analysis at EU, National, and Local Level",
+      "organization": "World Bank",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099062524063514821/pdf/P5006821d3e407019180b01e8375e134497.pdf",
+      "geographic_coverage": [
+        "Poland",
+        "Bydgoszcz",
+        "Gdańsk",
+        "Katowice"
+      ],
+      "temporal_coverage": "Polish city adaptation-project implementation and reported measures mainly cover 2001–2019; report published in 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "POL-E-109",
+        "POL-E-110",
+        "POL-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "129-page PDF; one-based PDF pp. 26–28, Poland case study: Bydgoszcz, Gdańsk and Katowice (printed pp. 22–24)",
+          "notes": "Publisher-hosted report PDF was opened; cited Polish city case passages were read directly. Report cites and summarizes municipal project information; source plans were not independently inspected.",
+          "reuse_terms": "No license statement identified in inspected report pages; only short paraphrases used.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "POL-SRC-105",
+      "title": "Prime Minister: We will spare no expense rebuilding flooded areas",
+      "organization": "Chancellery of the Prime Minister of Poland",
+      "publication_date": "2024-09-21",
+      "publication_date_basis": "publication",
+      "url": "https://www.gov.pl/web/primeminister/prime-minister-we-will-spare-no-expense-rebuilding-flooded-areas",
+      "geographic_coverage": [
+        "Poland",
+        "Lower Silesian Voivodeship",
+        "flood-affected settlements under a state of natural disaster"
+      ],
+      "temporal_coverage": "Preliminary flood-impact and evacuation figures presented at a government briefing on 21 September 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "POL-E-112",
+        "POL-E-113",
+        "POL-E-114"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Sections Losses caused by the disaster and rebuilding programme",
+          "notes": "Full Chancellery webpage body was opened and read; the government explicitly labels its damage figures as preliminary.",
+          "reuse_terms": "No page-specific license statement identified in the inspected body.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "POL-E-112",
+        "selected_source_id": "POL-SRC-105",
+        "url": "https://www.gov.pl/web/primeminister/prime-minister-we-will-spare-no-expense-rebuilding-flooded-areas",
+        "locator": "Section Losses caused by the disaster, paragraphs reporting the 21 September 2024 briefing",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)>"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "POL-SRC-106",
+      "title": "Wsparcie samorządów w działaniach na rzecz adaptacji do zmiany klimatu",
+      "organization": "Ministry of Climate and Environment of Poland",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.gov.pl/web/klimat/odpornosc-adaptacja-strategia-i-dzialania",
+      "geographic_coverage": [
+        "Eastern Poland macroregion",
+        "Podkarpackie Voivodeship",
+        "Lubelskie Voivodeship",
+        "Świętokrzyskie Voivodeship",
+        "Podlaskie Voivodeship",
+        "Warmian-Masurian Voivodeship",
+        "part of Mazowieckie Voivodeship"
+      ],
+      "temporal_coverage": "Eastern Poland municipal support project under the 2021–2027 EU programme; city adaptation plans due by 2 January 2028.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "POL-E-115",
+        "POL-E-116",
+        "POL-E-117",
+        "POL-E-118"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Sections Projekt Wsparcie działań adaptacyjnych dla Polski Wschodniej; Dlaczego Polska Wschodnia?; Główne działania; Rezultaty; Nowe obowiązki samorządów",
+          "notes": "Full Ministry webpage body was opened and read in Polish; intended outcomes are distinguished from delivered results.",
+          "reuse_terms": "Page footer states CC BY-SA 4.0 for text, excluding audiovisual material.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "POL-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "POL-SRC-101",
+          "locator": "Official summary beneath the Klimat Polski 2025 report entry"
+        }
+      ],
+      "geographies": [
+        "Poland"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: IMGW-PIB reports Poland's 2025 mean air temperature at 9.5°C, 0.8°C above the 1991–2020 normal, and annual precipitation at 89.3% of the long-term norm, classifying 2025 as dry.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "POL-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "POL-SRC-102",
+          "locator": "Section Polska. Kraj ocieplający się szybciej niż globalna średnia"
+        }
+      ],
+      "geographies": [
+        "Poland"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The Ministry states that Poland's mean annual temperature rose about 2°C since 1951, at roughly twice the global-average rate.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "POL-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "POL-SRC-102",
+          "locator": "Section Polska. Kraj ocieplający się szybciej niż globalna średnia"
+        }
+      ],
+      "geographies": [
+        "Poland"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The Ministry identifies March 2026 as Poland's third-warmest and third-driest March since 1951: 6.4°C mean temperature, 3.3°C above normal, and 29% of normal precipitation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "POL-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "POL-SRC-102",
+          "locator": "Section Susza staje się problemem strukturalnym"
+        }
+      ],
+      "geographies": [
+        "Poland",
+        "Europe"
+      ],
+      "affected_groups": [
+        "Poland's population"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The Ministry reports annual water availability of 1,600 m³ per person in Poland, versus 4,500 m³ for Europe.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "POL-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "POL-SRC-103",
+          "locator": "Section Sytuacja regionu"
+        }
+      ],
+      "geographies": [
+        "Wielkopolska Voivodeship"
+      ],
+      "affected_groups": [
+        "rural communities",
+        "farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The Ministry identifies Wielkopolska among Poland's most drought-affected regions, citing low rainfall, hydrology, intensive farming, low forest cover and a water balance worsening since the early 2000 s.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "POL-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "POL-SRC-103",
+          "locator": "Section Sytuacja regionu"
+        }
+      ],
+      "geographies": [
+        "Wielkopolska Voivodeship"
+      ],
+      "affected_groups": [
+        "rural communities",
+        "farmers"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The Ministry says rising temperatures, long dry spells and snowless winters worsen Wielkopolska's water balance; open-pit mining and intensive farming further deepen drought problems.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "POL-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "POL-SRC-103",
+          "locator": "Sections Partnerstwo regionalne and Co zakłada porozumienie"
+        }
+      ],
+      "geographies": [
+        "Wielkopolska Voivodeship",
+        "Poznań"
+      ],
+      "affected_groups": [
+        "regional communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: On 2 April 2026, the Ministry and regional partners signed a water-retention and water-security letter, joining administration, science and public bodies around catchment-scale planning.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "POL-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "POL-SRC-103",
+          "locator": "Section Konkretne projekty w realizacji"
+        }
+      ],
+      "geographies": [
+        "Powidz Landscape Park",
+        "Ślesiński Canal",
+        "Gniezno Lakeland",
+        "Warcica river basin",
+        "Wielkopolska Voivodeship"
+      ],
+      "affected_groups": [
+        "regional communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The Ministry lists lake protection in Powidz Landscape Park, Ślesiński Canal modernization, Gniezno Lakeland water-resource restoration and hydrological restoration in the Warcica basin as in implementation.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "POL-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "POL-SRC-104",
+          "locator": "One-based PDF p. 26, Poland case study, Urban adaptation measures selected for the Polish cities, Bydgoszcz: Rain is profit"
+        }
+      ],
+      "geographies": [
+        "Bydgoszcz"
+      ],
+      "affected_groups": [
+        "urban residents"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: Bydgoszcz's project began in 2017: 14 km new and about 90 km renovated storm sewers, six reservoirs and 22 treatment plants; target capture was about 37,000 m³.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "POL-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "POL-SRC-104",
+          "locator": "One-based PDF pp. 27–28, Poland case study, Gdańsk: drainage system"
+        }
+      ],
+      "geographies": [
+        "Gdańsk"
+      ],
+      "affected_groups": [
+        "urban residents"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: Gdańsk invested PLN 380m in drainage and flood infrastructure during 2001–2015; storage rose over fivefold, while losses in two heavy-rain events fell from PLN 130m (2001) to PLN 10m (2016).",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "POL-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "POL-SRC-104",
+          "locator": "One-based PDF pp. 27–28, Poland case study, Katowice: Black to Green project"
+        }
+      ],
+      "geographies": [
+        "Katowice",
+        "Katowice Culture Zone",
+        "Bogucki Park"
+      ],
+      "affected_groups": [
+        "urban residents"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: The report describes Katowice's post-industrial adaptation features, including a green roof and planted public spaces; Bogucki Park's revitalization included a planned underground rainwater reservoir.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "POL-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "POL-SRC-105",
+          "locator": "Section Losses caused by the disaster, paragraphs reporting the 21 September 2024 briefing"
+        }
+      ],
+      "geographies": [
+        "Poland",
+        "flood-affected settlements under a state of natural disaster"
+      ],
+      "affected_groups": [
+        "residents of affected settlements",
+        "directly flood-affected residents",
+        "evacuees"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-09-21 reports: At the 21 September briefing, the government reported 749 settlements under disaster state, 2.39 million residents in affected areas, 57,000 directly flood-affected residents and more than 6,544 evacuees.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "POL-E-112",
+        "selected_source_id": "POL-SRC-105",
+        "url": "https://www.gov.pl/web/primeminister/prime-minister-we-will-spare-no-expense-rebuilding-flooded-areas",
+        "locator": "Section Losses caused by the disaster, paragraphs reporting the 21 September 2024 briefing",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)>"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "POL-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "POL-SRC-105",
+          "locator": "Section Losses caused by the disaster, preliminary building-damage figures"
+        }
+      ],
+      "geographies": [
+        "Poland",
+        "Lower Silesian Voivodeship"
+      ],
+      "affected_groups": [
+        "households",
+        "farmers",
+        "school communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-09-21 reports: Preliminary reports counted 11,502 damaged residential buildings, 6,033 farm buildings and 724 public buildings; Lower Silesia alone reported damage to 54 schools.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "POL-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "POL-SRC-105",
+          "locator": "Opening paragraph on damage estimates and the rebuilding programme"
+        }
+      ],
+      "geographies": [
+        "Poland",
+        "south-western Poland"
+      ],
+      "affected_groups": [],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-09-21 reports: The Prime Minister said the 2024 disaster showed a need for new flood-control infrastructure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "POL-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "POL-SRC-106",
+          "locator": "Sections Kogo obejmie wsparcie and Projekt Wsparcie działań adaptacyjnych dla Polski Wschodniej"
+        }
+      ],
+      "geographies": [
+        "Eastern Poland macroregion",
+        "Podkarpackie Voivodeship",
+        "Lubelskie Voivodeship",
+        "Świętokrzyskie Voivodeship",
+        "Podlaskie Voivodeship",
+        "Warmian-Masurian Voivodeship",
+        "part of Mazowieckie Voivodeship"
+      ],
+      "affected_groups": [
+        "residents of medium-sized cities",
+        "spa municipalities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The project targets medium cities and spa municipalities in Podkarpackie, Lubelskie, Świętokrzyskie, Podlaskie, Warmian-Masurian and part of Mazowieckie.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "POL-E-116",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "POL-SRC-106",
+          "locator": "Section Dlaczego Polska Wschodnia?"
+        }
+      ],
+      "geographies": [
+        "Eastern Poland macroregion"
+      ],
+      "affected_groups": [
+        "municipal administrations",
+        "residents of medium-sized cities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The Ministry says 58 of 75 medium Eastern Polish cities (>15,000 residents) are losing functions and municipalities have limited planning staff.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "POL-E-117",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "POL-SRC-106",
+          "locator": "Sections Główne działania, Rezultaty and Finansowanie"
+        }
+      ],
+      "geographies": [
+        "Eastern Poland macroregion"
+      ],
+      "affected_groups": [
+        "municipal administrations",
+        "residents"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: A PLN 6.27m project, including PLN 5.33m EU funds, plans municipal training, advice and peer exchange for adaptation plans.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "POL-E-118",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "POL-SRC-106",
+          "locator": "Section Nowe obowiązki samorządów"
+        }
+      ],
+      "geographies": [
+        "Poland"
+      ],
+      "affected_groups": [
+        "residents of cities with at least 20,000 people",
+        "municipal administrations"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The Ministry webpage describes a statutory adaptation-plan deadline of 2 January 2028 for cities of at least 20,000 residents; it does not assess compliance.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "POL-E-112",
+  "source_access_review": {
+    "selected_record_id": "POL-E-112",
+    "selected_source_id": "POL-SRC-105",
+    "url": "https://www.gov.pl/web/primeminister/prime-minister-we-will-spare-no-expense-rebuilding-flooded-areas",
+    "locator": "Section Losses caused by the disaster, paragraphs reporting the 21 September 2024 briefing",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": null,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)>"
+  },
+  "checks": [
+    {
+      "record_id": "POL-E-112",
+      "source_id": "POL-SRC-105",
+      "locator": "Section Losses caused by the disaster, paragraphs reporting the 21 September 2024 briefing",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "POL-E-112: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "POL-E-101",
+    "POL-E-102",
+    "POL-E-103",
+    "POL-E-104",
+    "POL-E-105",
+    "POL-E-106",
+    "POL-E-107",
+    "POL-E-108",
+    "POL-E-109",
+    "POL-E-110",
+    "POL-E-111",
+    "POL-E-112",
+    "POL-E-113",
+    "POL-E-114",
+    "POL-E-115",
+    "POL-E-116",
+    "POL-E-117",
+    "POL-E-118"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

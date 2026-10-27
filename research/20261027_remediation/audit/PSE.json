@@ -1,0 +1,2501 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "PSE",
+  "candidate_path": "countries/PSE/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 15,
+    "evidence_count": 35,
+    "pathway_count": 7,
+    "evidence_source_reference_count": 42
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 28,
+      "access-only": 7
+    },
+    "pathway_claims": {
+      "unresolved": 7
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "PSE-E-001",
+          "PSE-E-003",
+          "PSE-E-004",
+          "PSE-E-101"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "PSE-E-002",
+          "PSE-E-005"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "PSE-E-006",
+          "PSE-E-013",
+          "PSE-E-022",
+          "PSE-E-023",
+          "PSE-E-026",
+          "PSE-E-102"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "PSE-E-016",
+          "PSE-E-024",
+          "PSE-E-025",
+          "PSE-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "PSE-E-007",
+          "PSE-E-008"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "PSE-E-009",
+          "PSE-E-011",
+          "PSE-E-012",
+          "PSE-E-018",
+          "PSE-E-103",
+          "PSE-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "PSE-E-019",
+          "PSE-E-021",
+          "PSE-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "PSE-E-010",
+          "PSE-E-015",
+          "PSE-E-017",
+          "PSE-E-027",
+          "PSE-E-028",
+          "PSE-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "PSE-E-014",
+          "PSE-E-020"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "PSE-E-101",
+          "PSE-E-102",
+          "PSE-E-103",
+          "PSE-E-104",
+          "PSE-E-105",
+          "PSE-E-106"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "PSE-P-001",
+          "PSE-P-002",
+          "PSE-P-003",
+          "PSE-P-004",
+          "PSE-P-005",
+          "PSE-P-006",
+          "PSE-P-008"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/PSE/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "PSE-SRC-001",
+      "title": "*West Bank and Gaza Country Climate and Development Report*",
+      "organization": "World Bank Group",
+      "publication_date": "2023-09",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099112823094030933/pdf/P179452029863f0e80a902031b18e72860c.pdf",
+      "geographic_coverage": [
+        "West Bank and Gaza with city/subregional analysis"
+      ],
+      "temporal_coverage": "Historical climate through 2020; projections to 2055/2090; socioeconomic evidence mainly pre-2023",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "open",
+      "records_using_source": [
+        "PSE-E-001",
+        "PSE-E-002",
+        "PSE-E-003",
+        "PSE-E-004",
+        "PSE-E-005",
+        "PSE-E-006",
+        "PSE-E-011",
+        "PSE-E-027",
+        "PSE-E-028"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "PSE-E-027",
+        "selected_source_id": "PSE-SRC-001",
+        "url": "https://documents1.worldbank.org/curated/en/099112823094030933/pdf/P179452029863f0e80a902031b18e72860c.pdf",
+        "locator": "PDF pp.32–33/84 (printed pp.10–11), section 2.1",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "PSE-SRC-002",
+      "title": "*The State of Palestine’s First Nationally Determined Contributions - Updated Submission*",
+      "organization": "State of Palestine / UNFCCC repository",
+      "publication_date": "2021",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/NDC/2022-06/Updated%20NDC_%20State%20of%20Palestine_2021_FINAL.pdf",
+      "geographic_coverage": [
+        "West Bank and Gaza"
+      ],
+      "temporal_coverage": "Planning horizon primarily 2021-2040",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PSE-E-007",
+        "PSE-E-008",
+        "PSE-E-009",
+        "PSE-E-010",
+        "PSE-E-027"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PSE-SRC-003",
+      "title": "*Conflict and social vulnerability to climate change: lessons from Gaza*",
+      "organization": "Mason, Zeitoun & el Sheikh; *Climate and Development*",
+      "publication_date": "2011",
+      "publication_date_basis": "publication",
+      "url": "https://www.researchgate.net/publication/233033830_Conflict_and_social_vulnerability_to_climate_change_Lessons_from_Gaza",
+      "geographic_coverage": [
+        "Gaza Strip; stakeholder evidence centred on Gaza City"
+      ],
+      "temporal_coverage": "Consultations Dec 2008-Aug 2009",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PSE-E-015",
+        "PSE-E-016",
+        "PSE-E-028"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PSE-SRC-004",
+      "title": "*Compounding Vulnerability: Impacts of Climate Change on Palestinians in Gaza and the West Bank*",
+      "organization": "Mason, Zeitoun & Mimi; *Journal of Palestine Studies*",
+      "publication_date": "2012",
+      "publication_date_basis": "publication",
+      "url": "https://ciaotest.cc.columbia.edu/journals/jps/v41i3/f_0025590_20938.pdf",
+      "geographic_coverage": [
+        "Gaza and selected West Bank localities"
+      ],
+      "temporal_coverage": "Mainly evidence assembled around 2008-2011",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "PSE-E-017"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PSE-SRC-005",
+      "title": "*The political economy of water and sanitation in Palestine’s Gaza Strip: A scoping review*",
+      "organization": "Fayad, Barrington & Zaqout; PLOS Water",
+      "publication_date": "2025-12-01",
+      "publication_date_basis": "publication",
+      "url": "https://journals.plos.org/water/article?id=10.1371/journal.pwat.0000418",
+      "geographic_coverage": [
+        "Gaza Strip"
+      ],
+      "temporal_coverage": "Literature spanning roughly two decades",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "open",
+      "records_using_source": [
+        "PSE-E-018",
+        "PSE-E-028"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PSE-SRC-006",
+      "title": "*ICR Review: Water Supply & Sewage System Improvement (P101289)*",
+      "organization": "World Bank Independent Evaluation Group",
+      "publication_date": "2018",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/144301535682594540/pdf/West-Bank-and-Gaza-Water-Supply-Sewage-System-Improvement.pdf",
+      "geographic_coverage": [
+        "Gaza Strip"
+      ],
+      "temporal_coverage": "Project period through 2017, including 2014 conflict",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PSE-E-019",
+        "PSE-E-020",
+        "PSE-E-021"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PSE-SRC-007",
+      "title": "*Rapid Damage and Needs Assessment - Gaza Strip, April 2026*",
+      "organization": "World Bank, United Nations and European Union",
+      "publication_date": "2026-04-20",
+      "publication_date_basis": "publication",
+      "url": "https://www.un.org/unispal/document/report-gaza-strip-rapid-damage-20apr26/",
+      "geographic_coverage": [
+        "Gaza Strip"
+      ],
+      "temporal_coverage": "Conflict impacts Oct 2023-Oct 2025",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PSE-E-022",
+        "PSE-E-027"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PSE-SRC-008",
+      "title": "*Economic Update on the West Bank and Gaza*",
+      "organization": "World Bank",
+      "publication_date": "2026-05-19",
+      "publication_date_basis": "publication",
+      "url": "https://thedocs.worldbank.org/en/doc/caf69bb9db6d729c6b35254c5815df9a-0280012026/original/Palestinian-Economic-Monitor-5-19-26web.pdf",
+      "geographic_coverage": [
+        "West Bank and Gaza, separately where data permit"
+      ],
+      "temporal_coverage": "Information through end-Apr 2026; principal economic data through 2025/Q1 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PSE-E-012",
+        "PSE-E-013",
+        "PSE-E-014",
+        "PSE-E-027",
+        "PSE-E-028"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PSE-SRC-009",
+      "title": "*Humanitarian Situation Report - 23 July 2026*",
+      "organization": "UN OCHA, occupied Palestinian territory",
+      "publication_date": "2026-07-25",
+      "publication_date_basis": "publication",
+      "url": "https://www.ochaopt.org/content/humanitarian-situation-report-23-july-2026",
+      "geographic_coverage": [
+        "Gaza and West Bank; detailed West Bank localities"
+      ],
+      "temporal_coverage": "West Bank reporting primarily 14-20 Jul 2026; cumulative indicators",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PSE-E-025",
+        "PSE-E-027"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PSE-SRC-010",
+      "title": "*Humanitarian Situation Update - Analysis of the Response to the Needs of Children at Mid-year 2026*",
+      "organization": "UNICEF State of Palestine",
+      "publication_date": "2026-07",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/sop/reports/humanitarian-situation-update-analysis-response-needs-children-mid-year-2026",
+      "geographic_coverage": [
+        "Gaza Strip"
+      ],
+      "temporal_coverage": "Through 17 Jul 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PSE-E-023"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PSE-SRC-011",
+      "title": "*Gaza Strip: Acute Food Insecurity Situation for 16 April-30 June 2026 and Projection for 1 July-31 December 2026*",
+      "organization": "Integrated Food Security Phase Classification",
+      "publication_date": "2026-07-23",
+      "publication_date_basis": "publication",
+      "url": "https://www.ipcinfo.org/ipc-country-analysis/details-map/en/c/1165303/",
+      "geographic_coverage": [
+        "All five Gaza governorates"
+      ],
+      "temporal_coverage": "16 Apr-31 Dec 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PSE-E-024"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PSE-SRC-012",
+      "title": "*UNICEF in the State of Palestine Humanitarian Situation Update - The West Bank*",
+      "organization": "UNICEF State of Palestine",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/sop/reports/unicef-state-palestine-humanitarian-situation-update-west-bank",
+      "geographic_coverage": [
+        "West Bank including East Jerusalem; Area C/Jordan Valley emphasis"
+      ],
+      "temporal_coverage": "Through 30 Apr 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PSE-E-026"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PSE-SRC-101",
+      "title": "Crop Mapping in Palestine for Winter and Spring Seasons 2023–24",
+      "organization": "Applied Research Institute–Jerusalem, Food and Agriculture Organization, Palestinian Ministry of Agriculture, and Palestinian Water Authority",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.fao.org/in-action/remote-sensing-for-water-productivity/country-activities/palestine/crop-mapping-2023-24/",
+      "geographic_coverage": [
+        "Jericho Governorate",
+        "Jordan Valley",
+        "West Bank"
+      ],
+      "temporal_coverage": "Jericho winter 2023–2024 and spring 2024 crop mapping and field surveys.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PSE-E-101",
+        "PSE-E-102",
+        "PSE-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Opened the full crop-mapping webpage, including methodology, local findings, caveats and recommendations.",
+          "notes": "The introduction mentions 2025, but the page title and field survey/image dates specify winter 2023–2024 and spring 2024; inconsistent climatic values elsewhere were not combined.",
+          "reuse_terms": "Terms not reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PSE-SRC-102",
+      "title": "Humanitarian Situation Update #314: West Bank",
+      "organization": "United Nations Office for the Coordination of Humanitarian Affairs, occupied Palestinian territory",
+      "publication_date": "2025-08-14",
+      "publication_date_basis": "publication",
+      "url": "https://www.ochaopt.org/content/humanitarian-situation-update-314-west-bank",
+      "geographic_coverage": [
+        "West Bank",
+        "Hebron Governorate",
+        "northern Jordan Valley",
+        "Umm al Kheir"
+      ],
+      "temporal_coverage": "Humanitarian and water-access conditions reported through 14 August 2025, with some water analysis from early 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PSE-E-104",
+        "PSE-E-105",
+        "PSE-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Opened the complete OCHA situation-update webpage; claims use water analysis and the Umm al Kheir incident.",
+          "notes": "Published 14 August 2025; retained as a dated operational record, not a current 2026 estimate.",
+          "reuse_terms": "Terms not reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PSE-SRC-103",
+      "title": "Enhancing Adaptation Planning and Adoption of Climate Resilient Agriculture in Palestine",
+      "organization": "Food and Agriculture Organization of the United Nations",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.fao.org/gcf/projects-map/project-detail/enhancing-adaptation-planning-and-adoption-of-climate-resilient-agriculture-in-palestine/en",
+      "geographic_coverage": [
+        "West Bank",
+        "Palestine"
+      ],
+      "temporal_coverage": "Project page lists a period from 25 August 2020 through 24 August 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PSE-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Opened FAO's project page showing objectives, partners and 2020–2025 dates.",
+          "notes": "Only stated objectives were extracted; no completed result is claimed.",
+          "reuse_terms": "Terms not reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "PSE-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-001",
+          "locator": "PDF p.26/84 (printed p.4), section 1.2.1"
+        }
+      ],
+      "geographies": [
+        "West Bank and Gaza"
+      ],
+      "affected_groups": [
+        "population-wide"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Historical warming of ~1°C.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-001",
+          "locator": "PDF p.26/84 (printed p.4), section 1.2.1"
+        }
+      ],
+      "geographies": [
+        "West Bank",
+        "especially northwest"
+      ],
+      "affected_groups": [
+        "households",
+        "farmers",
+        "urban residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2023 CCDR reports volatile rainfall and modelled West Bank flood exposure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-001",
+          "locator": "PDF pp.26–27/84 (printed pp.4–5), section 1.2.1"
+        }
+      ],
+      "geographies": [
+        "West Bank and Gaza"
+      ],
+      "affected_groups": [
+        "population-wide"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "2055/2090; SSP scenarios",
+      "compact_statement": "CCDR projects roughly +2°C by 2055 and +3°C by 2090, with scenario uncertainty.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-001",
+          "locator": "PDF p.27/84 (printed p.5), section 1.2.1, city precipitation and aquifer paragraphs"
+        }
+      ],
+      "geographies": [
+        "Gaza cities",
+        "West Bank cities/aquifers"
+      ],
+      "affected_groups": [
+        "water users",
+        "farmers"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "CCDR future SSP1/SSP2/SSP3 discussion in its 2055/2090 projection context; no separate date is stated for the city rainfall or recharge sensitivity figures.",
+      "compact_statement": "Rainfall/recharge changes are scenario-sensitive.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-001",
+          "locator": "PDF p.27/84 (printed p.5), section 1.2.2 and Figure 3"
+        }
+      ],
+      "geographies": [
+        "Gaza",
+        "eastern West Bank"
+      ],
+      "affected_groups": [
+        "households",
+        "farmers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "CCDR section 1.2.2 future-risk discussion; Figure 3 does not state a separate projection date.",
+      "compact_statement": "Gaza water risk and eastern WB flood risk differ.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-001",
+          "locator": "PDF pp.27–28/84 (printed pp.5–6), section 1.2.2"
+        }
+      ],
+      "geographies": [
+        "West Bank and Gaza"
+      ],
+      "affected_groups": [
+        "outdoor workers",
+        "elderly",
+        "children",
+        "people with cardiovascular disease"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "Mid-century; hot-day example under SSP3",
+      "compact_statement": "Mid-century heat projections identify outdoor workers, older people, young children and cardiovascular patients as vulnerable.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-002",
+          "locator": "PDF pp.10–11/55 (printed pp.10–11), sections 5 and 5.1"
+        }
+      ],
+      "geographies": [
+        "West Bank and Gaza"
+      ],
+      "affected_groups": [
+        "population-wide"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2021 NDC documented adaptation planning, not completed outcomes.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-008",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-002",
+          "locator": "PDF pp.15–16/55 (printed pp.15–16), Water and Coastal/marine"
+        }
+      ],
+      "geographies": [
+        "West Bank and Gaza"
+      ],
+      "affected_groups": [
+        "water users"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2021 NDC set conditional water targets; completion is unverified.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-009",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-002",
+          "locator": "PDF pp.33–34/55 (printed pp.33–34), section 9.3 and Table 4"
+        }
+      ],
+      "geographies": [
+        "West Bank and Gaza"
+      ],
+      "affected_groups": [
+        "population-wide"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2021 NDC costed planned actions through 2040; this is not a current financing-gap measurement.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-010",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-002",
+          "locator": "PDF p.10/55 (printed p.10), section 5"
+        }
+      ],
+      "geographies": [
+        "Area C",
+        "Gaza"
+      ],
+      "affected_groups": [
+        "households",
+        "producers",
+        "institutions"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2021 NDC attributes reduced adaptive capacity to restrictions, especially in Area C and Gaza.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-011",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-001",
+          "locator": "PDF pp.32–33/84 (printed pp.10–11), section 2.1"
+        }
+      ],
+      "geographies": [
+        "West Bank and Gaza"
+      ],
+      "affected_groups": [
+        "public-service users"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The pre-October-2023 CCDR documented staffing, coordination and climate-fiscal screening gaps.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-012",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-008",
+          "locator": "PDF p.8/32 (printed p.2), Executive Summary"
+        }
+      ],
+      "geographies": [
+        "principally West Bank/PA system"
+      ],
+      "affected_groups": [
+        "service users",
+        "public employees"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The May 2026 economic update described fiscal crisis containment after revenue suspension.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-013",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-008",
+          "locator": "PDF p.8/32 (printed p.2), Executive Summary electricity paragraph"
+        }
+      ],
+      "geographies": [
+        "Gaza Strip"
+      ],
+      "affected_groups": [
+        "residents and service providers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "In the May 2026 update, Gaza's damaged electricity system left one 4 MW desalination feeder operational.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-014",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-008",
+          "locator": "PDF p.8/32 (printed p.2), Executive Summary electricity paragraph"
+        }
+      ],
+      "geographies": [
+        "West Bank"
+      ],
+      "affected_groups": [
+        "electricity users"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The May 2026 report links a 2019–2025 decline in West Bank import reliance to solar expansion.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-015",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-003",
+          "locator": "Published article pp.287–290, methodology and vulnerability pathways; author-uploaded continuous full text"
+        }
+      ],
+      "geographies": [
+        "Gaza Strip"
+      ],
+      "affected_groups": [
+        "households",
+        "farmers"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Gaza City consultations in 2008–2009 mapped conflict-compounded water and food vulnerability.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-016",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-003",
+          "locator": "Published article pp.291–294, section 4; author-uploaded continuous full text"
+        }
+      ],
+      "geographies": [
+        "Gaza Strip"
+      ],
+      "affected_groups": [
+        "households and producers"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2011 study described short-term enforced coping, not verified present-day adaptation capacity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-017",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-004",
+          "locator": "Published article pp.47–48 (Columbia-hosted PDF pp.10–11/16), West Bank discussion"
+        }
+      ],
+      "geographies": [
+        "selected West Bank localities"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoral/rural households"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2012 study documented locality-specific West Bank restrictions on coping and adaptation.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-018",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-005",
+          "locator": "Abstract and Results, scoping-review synthesis"
+        }
+      ],
+      "geographies": [
+        "Gaza Strip"
+      ],
+      "affected_groups": [
+        "water users"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "A 2025 scoping review synthesizes political-economy constraints on Gaza WASH services.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-019",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-006",
+          "locator": "PDF pp.6–7/18, section 4; p.11/18, outcome rating"
+        }
+      ],
+      "geographies": [
+        "Gaza Strip"
+      ],
+      "affected_groups": [
+        "water/sanitation users"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2018 IEG review found historical service improvements but only marginal water-quality gains.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check",
+        "programme_intent_and_outcome_terms_co-occur"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-020",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-006",
+          "locator": "PDF p.11/18, risk to development outcome; p.14/18, M&E utilization; p.16/18, lesson 2"
+        }
+      ],
+      "geographies": [
+        "Gaza Strip"
+      ],
+      "affected_groups": [
+        "service users"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2018 IEG review documented adaptive project management after 2014 conflict, with very high sustainability risk.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-021",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-006",
+          "locator": "PDF p.12/18, supervision; pp.14–15/18, fiduciary and unintended effects; pp.15–17/18, ICR-quality findings"
+        }
+      ],
+      "geographies": [
+        "Gaza Strip"
+      ],
+      "affected_groups": [
+        "project beneficiaries"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2018 IEG review records supervision limits, misprocurement and modest ICR quality.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-022",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-007",
+          "locator": "Official UN executive-summary extract: Key Findings, Damages and Losses, and Macroeconomic Impact; https://www.un.org/unispal/document/report-gaza-strip-rapid-damage-20apr26/"
+        }
+      ],
+      "geographies": [
+        "Gaza Strip"
+      ],
+      "affected_groups": [
+        "displaced and resident population"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "The April 2026 RDNA estimates extensive conflict damage and future recovery needs, not climate damage.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-023",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-010",
+          "locator": "Webpage Highlights, WASH bullets; reporting period 17 July 2026"
+        }
+      ],
+      "geographies": [
+        "Gaza Strip"
+      ],
+      "affected_groups": [
+        "children",
+        "displaced households",
+        "families"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNICEF's July 2026 update estimated severe water insecurity and WASH damage in Gaza.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-010"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-024",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-011",
+          "locator": "Key results, released 23 July 2026: 16 April–30 June classification and 1 July–31 December projection"
+        }
+      ],
+      "geographies": [
+        "all five Gaza governorates"
+      ],
+      "affected_groups": [
+        "food-insecure households",
+        "children"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "historical",
+        "near-term"
+      ],
+      "scenario": "Apr-Dec 2026",
+      "compact_statement": "IPC's 23 July 2026 analysis classified April–June outcomes and projected July–December food insecurity; assistance-related improvement is attributed by IPC.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-011"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-025",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-009",
+          "locator": "West Bank / Access to Water, 23 July report"
+        }
+      ],
+      "geographies": [
+        "Area C",
+        "Ramallah",
+        "Tubas",
+        "Jerusalem",
+        "Hebron",
+        "Bethlehem",
+        "Nablus",
+        "Jericho and other locations"
+      ],
+      "affected_groups": [
+        "Bedouin and herding communities"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "OCHA's July 2026 report describes water-infrastructure damage and trucking dependence in West Bank herding communities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-026",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-012",
+          "locator": "Webpage Highlights; reporting period 30 April 2026"
+        }
+      ],
+      "geographies": [
+        "West Bank",
+        "especially Area C/Jordan Valley"
+      ],
+      "affected_groups": [
+        "children",
+        "rural/herding communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNICEF's 30 April 2026 reporting highlights Area C/Jordan Valley service constraints.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-012"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-027",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-001",
+          "locator": "PDF pp.32–33/84 (printed pp.10–11), section 2.1"
+        },
+        {
+          "source_id": "PSE-SRC-002",
+          "locator": "PDF p.10/55 (printed p.10), section 5"
+        },
+        {
+          "source_id": "PSE-SRC-007",
+          "locator": "Official UN executive-summary extract: Key Findings, Damages and Losses, and Macroeconomic Impact; https://www.un.org/unispal/document/report-gaza-strip-rapid-damage-20apr26/"
+        },
+        {
+          "source_id": "PSE-SRC-008",
+          "locator": "PDF p.8/32 (printed p.2), Executive Summary"
+        },
+        {
+          "source_id": "PSE-SRC-009",
+          "locator": "West Bank / Access to Water, 23 July report"
+        }
+      ],
+      "geographies": [
+        "Gaza and West Bank"
+      ],
+      "affected_groups": [
+        "vulnerable households and public institutions"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "historical",
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Dated 2026 conflict/service reports imply constraints on climate-plan implementation; the effect is not quantified.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check",
+        "programme_intent_and_outcome_terms_co-occur"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-001",
+        "PSE-SRC-002",
+        "PSE-SRC-007",
+        "PSE-SRC-008",
+        "PSE-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "PSE-E-027",
+        "selected_source_id": "PSE-SRC-001",
+        "url": "https://documents1.worldbank.org/curated/en/099112823094030933/pdf/P179452029863f0e80a902031b18e72860c.pdf",
+        "locator": "PDF pp.32–33/84 (printed pp.10–11), section 2.1",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "PSE-E-028",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-001",
+          "locator": "PDF pp.26–28/84 (printed pp.4–6), section 1.2"
+        },
+        {
+          "source_id": "PSE-SRC-003",
+          "locator": "Published article pp.287–290, methodology and vulnerability pathways; author-uploaded continuous full text"
+        },
+        {
+          "source_id": "PSE-SRC-005",
+          "locator": "Abstract and Results, scoping-review synthesis"
+        },
+        {
+          "source_id": "PSE-SRC-008",
+          "locator": "PDF p.8/32 (printed p.2), Executive Summary"
+        }
+      ],
+      "geographies": [
+        "Gaza and West Bank",
+        "differently"
+      ],
+      "affected_groups": [
+        "water users",
+        "farmers",
+        "outdoor workers",
+        "displaced people"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Projected climate pressures may compound fragility through service and livelihood pathways; no climate-caused violence is demonstrated.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "PSE-SRC-001",
+        "PSE-SRC-003",
+        "PSE-SRC-005",
+        "PSE-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-101",
+          "locator": "Main findings, climate and environmental challenges; page lines 145–151."
+        }
+      ],
+      "geographies": [
+        "Jericho Governorate"
+      ],
+      "affected_groups": [
+        "farmers"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "FAO's Jericho crop-mapping page describes warmer and more evaporative conditions affecting crop calendars and water management; internally inconsistent temperature ranges and survey years prevent retaining precise anomaly figures.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-101",
+          "locator": "Main findings, 'Who farms where'; page lines 131–144."
+        }
+      ],
+      "geographies": [
+        "Jericho Governorate",
+        "Jordan Valley"
+      ],
+      "affected_groups": [
+        "Palestinian farmers",
+        "Israeli settlers cultivating land"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The Jericho mapping says Palestinian farmers had limited water access constraining crop choices, while Israeli settlers had greater water and technology access.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-101",
+          "locator": "Introduction and study objectives; page lines 24–32."
+        }
+      ],
+      "geographies": [
+        "Jericho Governorate"
+      ],
+      "affected_groups": [
+        "Palestinian farmers",
+        "field survey teams"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: Movement and transport restrictions linked to the security situation constrained field access and sampling; ARIJ adapted sampling and used satellite analysis to validate and extend observations.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-102",
+          "locator": "Key highlights and Water Sanitation and Hygiene Cluster analysis; webpage paragraphs dated 14 August 2025."
+        }
+      ],
+      "geographies": [
+        "West Bank",
+        "Hebron Governorate",
+        "northern Jordan Valley",
+        "Area C"
+      ],
+      "affected_groups": [
+        "Palestinian communities",
+        "water-trucking-dependent households"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-08-14 reports: OCHA reports heatwaves and low rainfall alongside pipeline reductions, permit limits, infrastructure demolitions and settler violence in West Bank water shortages; 52 communities faced access obstacles and 73 relied on trucking without official networks.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-102",
+          "locator": "Umm al Kheir incident; webpage paragraph dated 5 August 2025."
+        }
+      ],
+      "geographies": [
+        "Umm al Kheir",
+        "Hebron Governorate"
+      ],
+      "affected_groups": [
+        "200 residents",
+        "108 children",
+        "Bedouin community"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-08-14 reports: After settlers repeatedly disconnected Umm al Kheir's main water line, 200 residents, including 108 children, lacked running water and relied on water trucking.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-102",
+          "locator": "Water response in Umm al Kheir and other communities; webpage paragraph dated 14 August 2025."
+        }
+      ],
+      "geographies": [
+        "West Bank",
+        "Hebron Governorate",
+        "Umm al Kheir"
+      ],
+      "affected_groups": [
+        "water-insecure communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-08-14 reports: The WASH Cluster and Palestinian Water Authority used water trucking, mobile tanks and maintenance kits, which partly alleviated shortages, while communities continued requesting water.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PSE-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PSE-SRC-103",
+          "locator": "Project objective and stated period; webpage lines 21–34."
+        }
+      ],
+      "geographies": [
+        "West Bank",
+        "Palestine"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "farmer associations"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: FAO's 2020–2025 project proposed stronger climate-resilient agriculture coordination, real-time agro-weather information for smallholders and two test plots with farmer associations.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "PSE-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "PSE-E-003",
+        "PSE-E-004",
+        "PSE-E-006",
+        "PSE-E-011",
+        "PSE-E-018",
+        "PSE-E-028"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "PSE-E-003",
+          "PSE-E-004"
+        ],
+        "impact": [
+          "PSE-E-006"
+        ],
+        "mediator": [
+          "PSE-E-011",
+          "PSE-E-018"
+        ],
+        "consequence": [
+          "PSE-E-028"
+        ]
+      },
+      "geographies": [
+        "Gaza and West Bank",
+        "with different exposure and institutional contexts"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Heat and drought may increase water/food stress, but FCV consequences depend on access, infrastructure, institutions and markets rather than following automatically from climate.",
+      "alternative_explanations": [
+        "Groundwater over-extraction",
+        "allocation and access",
+        "conflict damage",
+        "poverty",
+        "commodity prices",
+        "agricultural policy and infrastructure performance"
+      ],
+      "uncertainty": "Contemporary climate-to-FCV causal outcomes have not been quantified.",
+      "potentially_out_of_scope_support_ids": [
+        "PSE-E-003",
+        "PSE-E-004",
+        "PSE-E-006",
+        "PSE-E-011",
+        "PSE-E-018"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "PSE-P-002",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "PSE-E-003",
+        "PSE-E-002",
+        "PSE-E-005",
+        "PSE-E-011",
+        "PSE-E-022",
+        "PSE-E-023",
+        "PSE-E-028"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "PSE-E-002",
+          "PSE-E-003"
+        ],
+        "impact": [
+          "PSE-E-005"
+        ],
+        "mediator": [
+          "PSE-E-011",
+          "PSE-E-022",
+          "PSE-E-023"
+        ],
+        "consequence": [
+          "PSE-E-028"
+        ]
+      },
+      "geographies": [
+        "West Bank",
+        "especially northwest/eastern and urban locations identified by the CCDR",
+        "Gaza requires a new post-destruction flood-exposure assessment"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Flood hazard may become more damaging when infrastructure and delivery capacity are impaired, but current conflict damage should not itself be classified as climate impact.",
+      "alternative_explanations": [
+        "Urban planning",
+        "drainage maintenance",
+        "debris",
+        "conflict damage and settlement patterns can independently determine flood losses"
+      ],
+      "uncertainty": "Gaza’s post-2023 asset/exposure geography invalidates many pre-conflict assumptions.",
+      "potentially_out_of_scope_support_ids": [
+        "PSE-E-003",
+        "PSE-E-005",
+        "PSE-E-011",
+        "PSE-E-022",
+        "PSE-E-023",
+        "PSE-E-028"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "PSE-P-003",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "PSE-E-004",
+        "PSE-E-008",
+        "PSE-E-013",
+        "PSE-E-018",
+        "PSE-E-022",
+        "PSE-E-023",
+        "PSE-E-027"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "PSE-E-004"
+        ],
+        "impact": [
+          "PSE-E-004"
+        ],
+        "mediator": [
+          "PSE-E-013",
+          "PSE-E-018",
+          "PSE-E-022"
+        ],
+        "consequence": [
+          "PSE-E-023",
+          "PSE-E-027"
+        ]
+      },
+      "geographies": [
+        "Gaza Strip/coastal aquifer"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Gaza’s water vulnerability is a compound system problem; climate can add pressure, but current scarcity and contamination cannot be attributed to climate alone.",
+      "alternative_explanations": [
+        "Existing salinity",
+        "groundwater over-pumping",
+        "wastewater contamination",
+        "infrastructure destruction and power shortage can independently produce water-quality problems"
+      ],
+      "uncertainty": "No post-2023 study located isolates the incremental climate contribution to present Gaza water insecurity. The coastal/recharge component is supported by the revised CCDR record E004; the additional climate contribution to the dated humanitarian snapshot remains inferred.",
+      "potentially_out_of_scope_support_ids": [
+        "PSE-E-004",
+        "PSE-E-008",
+        "PSE-E-013",
+        "PSE-E-018",
+        "PSE-E-022",
+        "PSE-E-023",
+        "PSE-E-027"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "PSE-P-004",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "PSE-E-003",
+        "PSE-E-005",
+        "PSE-E-013",
+        "PSE-E-022",
+        "PSE-E-023",
+        "PSE-E-027"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "PSE-E-003",
+          "PSE-E-005"
+        ],
+        "impact": [
+          "PSE-E-003",
+          "PSE-E-005"
+        ],
+        "mediator": [
+          "PSE-E-013",
+          "PSE-E-022",
+          "PSE-E-023"
+        ],
+        "consequence": [
+          "PSE-E-027"
+        ]
+      },
+      "geographies": [
+        "Gaza Strip"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Inspected 2026 Gaza reports support a prospective FCV-to-climate mechanism: conflict impairs systems needed to cope with future hazards.",
+      "alternative_explanations": [
+        "Even without conflict",
+        "pre-existing water scarcity",
+        "poverty",
+        "infrastructure deficits and institutional constraints limited adaptation"
+      ],
+      "uncertainty": "The magnitude of lost climate-adaptation capacity has not been independently quantified.",
+      "potentially_out_of_scope_support_ids": [
+        "PSE-E-003",
+        "PSE-E-005",
+        "PSE-E-027"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "PSE-P-005",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "PSE-E-003",
+        "PSE-E-004",
+        "PSE-E-017",
+        "PSE-E-025",
+        "PSE-E-026",
+        "PSE-E-027"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "PSE-E-003"
+        ],
+        "impact": [
+          "PSE-E-004"
+        ],
+        "mediator": [
+          "PSE-E-025",
+          "PSE-E-026"
+        ],
+        "consequence": [
+          "PSE-E-027"
+        ]
+      },
+      "geographies": [
+        "Area C",
+        "Jordan Valley",
+        "Masafer Yatta and other documented communities",
+        "not all West Bank"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Damage and access restrictions can lower drought-coping capacity for specific West Bank herding communities even where climate was not the cause of the original water disruption.",
+      "alternative_explanations": [
+        "Structural aridity",
+        "local network condition",
+        "household income and groundwater availability"
+      ],
+      "uncertainty": "Current OCHA/UNICEF incidents do not themselves involve a measured drought shock, so the compound pathway remains prospective.",
+      "potentially_out_of_scope_support_ids": [
+        "PSE-E-003",
+        "PSE-E-004",
+        "PSE-E-017",
+        "PSE-E-026",
+        "PSE-E-027"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "PSE-P-006",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "PSE-E-003",
+        "PSE-E-004",
+        "PSE-E-006",
+        "PSE-E-009",
+        "PSE-E-011",
+        "PSE-E-012",
+        "PSE-E-027"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "PSE-E-003"
+        ],
+        "impact": [
+          "PSE-E-004",
+          "PSE-E-006"
+        ],
+        "mediator": [
+          "PSE-E-011",
+          "PSE-E-012"
+        ],
+        "consequence": [
+          "PSE-E-027"
+        ]
+      },
+      "geographies": [
+        "Principally PA-administered West Bank institutions",
+        "implications for wider Palestinian climate planning"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Severe fiscal stress plausibly crowds out long-term climate investment, but the size of that effect is not yet quantified.",
+      "alternative_explanations": [
+        "Long-standing administrative capacity problems",
+        "donor priorities and incomplete project preparation may also delay climate action"
+      ],
+      "uncertainty": "No current climate-budget expenditure tracing was located.",
+      "potentially_out_of_scope_support_ids": [
+        "PSE-E-003",
+        "PSE-E-004",
+        "PSE-E-006",
+        "PSE-E-009",
+        "PSE-E-011",
+        "PSE-E-012",
+        "PSE-E-027"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "PSE-P-008",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "PSE-E-003",
+        "PSE-E-004",
+        "PSE-E-024",
+        "PSE-E-028"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "PSE-E-003",
+          "PSE-E-004"
+        ],
+        "impact": [
+          "PSE-E-003"
+        ],
+        "mediator": [
+          "PSE-E-024"
+        ],
+        "consequence": [
+          "PSE-E-028"
+        ]
+      },
+      "geographies": [
+        "Gaza Strip"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "IPC's July 2026 analysis attributes food-security improvement to assistance; any buffering of future climate shocks remains an inference, not an evaluated outcome.",
+      "alternative_explanations": [
+        "Ceasefire conditions",
+        "commercial flows",
+        "prices and household income also affect food security"
+      ],
+      "uncertainty": "IPC attribution is evidence synthesis, not experimental evaluation; climate-buffering effectiveness was not evaluated.",
+      "potentially_out_of_scope_support_ids": [
+        "PSE-E-003",
+        "PSE-E-004",
+        "PSE-E-024",
+        "PSE-E-028"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "PSE-E-027",
+  "source_access_review": {
+    "selected_record_id": "PSE-E-027",
+    "selected_source_id": "PSE-SRC-001",
+    "url": "https://documents1.worldbank.org/curated/en/099112823094030933/pdf/P179452029863f0e80a902031b18e72860c.pdf",
+    "locator": "PDF pp.32–33/84 (printed pp.10–11), section 2.1",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": null,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+  },
+  "checks": [
+    {
+      "record_id": "PSE-E-027",
+      "source_id": "PSE-SRC-001",
+      "locator": "PDF pp.32–33/84 (printed pp.10–11), section 2.1",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "PSE-E-027: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "PSE-E-001",
+    "PSE-E-002",
+    "PSE-E-003",
+    "PSE-E-004",
+    "PSE-E-005",
+    "PSE-E-006",
+    "PSE-E-007",
+    "PSE-E-008",
+    "PSE-E-009",
+    "PSE-E-010",
+    "PSE-E-011",
+    "PSE-E-012",
+    "PSE-E-013",
+    "PSE-E-014",
+    "PSE-E-015",
+    "PSE-E-016",
+    "PSE-E-017",
+    "PSE-E-018",
+    "PSE-E-019",
+    "PSE-E-020",
+    "PSE-E-021",
+    "PSE-E-022",
+    "PSE-E-023",
+    "PSE-E-024",
+    "PSE-E-025",
+    "PSE-E-026",
+    "PSE-E-027",
+    "PSE-E-028",
+    "PSE-E-101",
+    "PSE-E-102",
+    "PSE-E-103",
+    "PSE-E-104",
+    "PSE-E-105",
+    "PSE-E-106",
+    "PSE-E-107",
+    "PSE-P-001",
+    "PSE-P-002",
+    "PSE-P-003",
+    "PSE-P-004",
+    "PSE-P-005",
+    "PSE-P-006",
+    "PSE-P-008"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

@@ -1,0 +1,1229 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "PAN",
+  "candidate_path": "countries/PAN/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 6,
+    "evidence_count": 19,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 19
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 18,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "PAN-E-108",
+          "PAN-E-119"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "PAN-E-120"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "PAN-E-104",
+          "PAN-E-109",
+          "PAN-E-110",
+          "PAN-E-111",
+          "PAN-E-113",
+          "PAN-E-114",
+          "PAN-E-116",
+          "PAN-E-117"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "PAN-E-101",
+          "PAN-E-102"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "PAN-E-103",
+          "PAN-E-106",
+          "PAN-E-115",
+          "PAN-E-118"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "PAN-E-105",
+          "PAN-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "PAN-E-101",
+          "PAN-E-102",
+          "PAN-E-103",
+          "PAN-E-104",
+          "PAN-E-105",
+          "PAN-E-106",
+          "PAN-E-107",
+          "PAN-E-110",
+          "PAN-E-113",
+          "PAN-E-114",
+          "PAN-E-115",
+          "PAN-E-116",
+          "PAN-E-117",
+          "PAN-E-120"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/PAN/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "PAN-SRC-101",
+      "title": "Adaptación y Resiliencia",
+      "organization": "Dirección de Cambio Climático, Ministerio de Ambiente de Panamá",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://dcc.miambiente.gob.pa/adaptacion-y-resiliencia/",
+      "geographic_coverage": [
+        "Panama",
+        "Las Palmas district",
+        "Chame district",
+        "Kusapín district",
+        "Ngäbe-Buglé comarca",
+        "Chiriquí Viejo basin",
+        "Santa María basin"
+      ],
+      "temporal_coverage": "Official page describing local adaptation projects and climate-adaptation water programming; project dates are not consistently stated.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PAN-E-101",
+        "PAN-E-102",
+        "PAN-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Relevant substantive page sections read directly.",
+          "notes": "Official/public body text directly reviewed; source-specific vintage and attribution limits retained.",
+          "reuse_terms": "Unknown; metadata only; original paraphrases used.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PAN-SRC-102",
+      "title": "Programa de Adaptación al Cambio Climático a través del Manejo Integrado de los Recursos Hídricos presenta resultados impactantes en cuencas priorizadas",
+      "organization": "Dirección de Cambio Climático, Ministerio de Ambiente de Panamá",
+      "publication_date": "2023-06-27",
+      "publication_date_basis": "publication",
+      "url": "https://dcc.miambiente.gob.pa/programa-de-adaptacion-al-cambio-climatico-a-traves-del-manejo-integrado-de-los-recursos-hidricos-presenta-resultados-impactantes-en-cuencas-priorizadas/",
+      "geographic_coverage": [
+        "Chiriquí Viejo basin",
+        "Santa María basin",
+        "Chiriquí",
+        "Veraguas",
+        "Herrera",
+        "Coclé",
+        "Los Santos"
+      ],
+      "temporal_coverage": "Programme results published in June 2023.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PAN-E-104",
+        "PAN-E-105",
+        "PAN-E-106",
+        "PAN-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Relevant substantive page sections read directly.",
+          "notes": "Official/public body text directly reviewed; source-specific vintage and attribution limits retained.",
+          "reuse_terms": "Unknown; metadata only; original paraphrases used.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PAN-SRC-103",
+      "title": "Panama: National Case Study",
+      "organization": "Food and Agriculture Organization of the United Nations",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.fao.org/in-action/drought-portal/preparedness/vulnerability-and-impact-assessment/national-case-studies/panama/en",
+      "geographic_coverage": [
+        "Panama",
+        "Arco Seco",
+        "Veraguense savanna",
+        "Cerro Punta",
+        "Ngäbe-Buglé comarca",
+        "Panama Canal Hydrographic Basin",
+        "Guna Yala comarca",
+        "Emberá-Wounaan comarca"
+      ],
+      "temporal_coverage": "Historical drought record and social/service indicators with vintages mainly from 2013 and 2021–2023.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PAN-E-108",
+        "PAN-E-109",
+        "PAN-E-110",
+        "PAN-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Relevant substantive page sections read directly.",
+          "notes": "Official/public body text directly reviewed; source-specific vintage and attribution limits retained.",
+          "reuse_terms": "Unknown; metadata only; original paraphrases used.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PAN-SRC-104",
+      "title": "Agua y el Canal",
+      "organization": "Autoridad del Canal de Panamá",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://pancanal.com/agua/",
+      "geographic_coverage": [
+        "Panama Canal Hydrographic Basin",
+        "Panama City",
+        "San Miguelito",
+        "Arraiján",
+        "La Chorrera",
+        "Colón",
+        "Río Indio"
+      ],
+      "temporal_coverage": "Live water-management page with 2023 drought facts and planning information current at October 2026 access.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PAN-E-113",
+        "PAN-E-114",
+        "PAN-E-115"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Relevant substantive page sections read directly.",
+          "notes": "Official/public body text directly reviewed; source-specific vintage and attribution limits retained.",
+          "reuse_terms": "Unknown; metadata only; original paraphrases used.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PAN-SRC-105",
+      "title": "Parlamentarios británicos visitan la comunidad de Gardi Sugdub en la comarca Guna Yala",
+      "organization": "Ministerio de Ambiente de Panamá",
+      "publication_date": "2024-01-24",
+      "publication_date_basis": "publication",
+      "url": "https://miambiente.gob.pa/parlamentarios-britanicos-visitan-la-comunidad-de-gardi-sugdub-en-la-comarca-guna-yala/",
+      "geographic_coverage": [
+        "Gardi Sugdub",
+        "Guna Yala comarca",
+        "Isberyala"
+      ],
+      "temporal_coverage": "Official account of a January 2024 visit and then-planned relocation to Isberyala.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PAN-E-116",
+        "PAN-E-117"
+      ],
+      "this_audit_verification": "access-only",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Relevant substantive page sections read directly.",
+          "notes": "Official/public body text directly reviewed; source-specific vintage and attribution limits retained.",
+          "reuse_terms": "Unknown; metadata only; original paraphrases used.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "PAN-E-116",
+        "selected_source_id": "PAN-SRC-105",
+        "url": "https://miambiente.gob.pa/parlamentarios-britanicos-visitan-la-comunidad-de-gardi-sugdub-en-la-comarca-guna-yala/",
+        "locator": "Main text paragraphs beginning ‘En los últimos meses’ and ‘MiAMBIENTE destaca’.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 147202,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "PAN-E-116"
+      ]
+    },
+    {
+      "source_id": "PAN-SRC-106",
+      "title": "Fenómeno de El Niño – SINAPROC",
+      "organization": "Sistema Nacional de Protección Civil, Panamá",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.sinaproc.gob.pa/fenomeno-de-el-nino-sinaproc/",
+      "geographic_coverage": [
+        "Panama",
+        "Pacific slope",
+        "Caribbean slope",
+        "Bocas del Toro",
+        "11 unnamed hydrographic basins"
+      ],
+      "temporal_coverage": "2026 El Niño alert, emergency declaration and July–December 2026 outlook as stated on the live page.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PAN-E-118",
+        "PAN-E-119",
+        "PAN-E-120"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Relevant substantive page sections read directly.",
+          "notes": "Official/public body text directly reviewed; source-specific vintage and attribution limits retained.",
+          "reuse_terms": "Unknown; metadata only; original paraphrases used.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "PAN-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAN-SRC-101",
+          "locator": "Section ‘Fortalecimiento de capacidades a municipios vulnerables’; paragraphs beginning ‘Descripción’ and ‘Actualmente se ha desarrollado la metodología’."
+        }
+      ],
+      "geographies": [
+        "Las Palmas district, Veraguas",
+        "Chame district, Panamá Oeste",
+        "corregimientos within both districts"
+      ],
+      "affected_groups": [
+        "communities in poverty",
+        "municipal residents"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: MiAmbiente reports a vulnerability-index method and two capacity workshops completed with the initially selected municipalities, including Las Palmas (Veraguas) and Chame (Panamá Oeste); maps are intended to distinguish corregimientos and inform local planning.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAN-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAN-SRC-101",
+          "locator": "Kusapín project section, ‘Objetivo’ and listed ‘Resultados’."
+        }
+      ],
+      "geographies": [
+        "Kusapín district",
+        "Ngäbe-Buglé comarca"
+      ],
+      "affected_groups": [
+        "local communities",
+        "women",
+        "traditional authorities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The ministry describes a Kusapín, Ngäbe-Buglé pilot involving local, government and traditional authorities and proposing gender-aware vulnerability mapping, participatory land-use planning, climate-risk management and local planner training.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAN-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAN-SRC-101",
+          "locator": "Water-programme section, paragraphs beginning ‘Para hacer esto’ and ‘En paralelo’."
+        }
+      ],
+      "geographies": [
+        "Chiriquí Viejo basin",
+        "Santa María basin"
+      ],
+      "affected_groups": [
+        "water users",
+        "communities in both basins"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The programme says climate-informed water-right decisions aim to strengthen governance in two basins selected partly due to existing water-user conflicts.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAN-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAN-SRC-102",
+          "locator": "Opening results paragraphs beginning ‘El programa…’ and ‘Panamá cuenta…’."
+        }
+      ],
+      "geographies": [
+        "Chiriquí Viejo basin",
+        "Santa María basin"
+      ],
+      "affected_groups": [
+        "programme beneficiaries",
+        "community participants",
+        "farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-06-27 reports: MiAmbiente reports over 116,000 direct and indirect beneficiaries across the climate-vulnerable Chiriquí Viejo and Santa María basins; consultations raised crop-loss, extreme-event and drinking-water quantity and quality concerns.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAN-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAN-SRC-102",
+          "locator": "Results obtained, Result 1, paragraph beginning ‘El programa implementó’."
+        }
+      ],
+      "geographies": [
+        "Chiriquí Viejo basin",
+        "Santa María basin"
+      ],
+      "affected_groups": [
+        "farmers",
+        "livestock producers"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-06-27 reports: The ministry reports adaptation practices on 120 farms covering 600 hectares of silvopastoral systems, 226 hectares of agroforestry and 50 rainwater-harvesting systems, including in Santa María basin.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAN-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAN-SRC-102",
+          "locator": "Results obtained, Result 2, paragraphs beginning ‘El programa desarrolló’ and ‘Se elaboró’."
+        }
+      ],
+      "geographies": [
+        "Chiriquí Viejo basin",
+        "Santa María basin"
+      ],
+      "affected_groups": [
+        "water users",
+        "farmers"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-06-27 reports: The programme reports eight climate-resilient water-management instruments, including vulnerability studies, adaptation plans, hydrological balances and environmental flows, plus soil-climate zoning for 12 priority crops.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAN-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAN-SRC-102",
+          "locator": "Results obtained, Result 3, paragraphs beginning ‘Se fortaleció’ and ‘Se implementaron’."
+        }
+      ],
+      "geographies": [
+        "Chiriquí",
+        "Herrera",
+        "Veraguas",
+        "Coclé",
+        "Los Santos",
+        "Chiriquí Viejo basin",
+        "Santa María basin"
+      ],
+      "affected_groups": [
+        "producers",
+        "communities exposed to floods"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-06-27 reports: The programme reports over 40 agrometeorological and hydrological stations, two flood early-warning systems in priority basins and advice for over 6,000 producers across five regions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAN-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAN-SRC-103",
+          "locator": "Historical Drought, paragraphs 1–2."
+        }
+      ],
+      "geographies": [
+        "Arco Seco",
+        "Veraguense savanna",
+        "Cerro Punta",
+        "Ngäbe-Buglé comarca",
+        "Panama Canal Hydrographic Basin"
+      ],
+      "affected_groups": [
+        "drought-exposed communities",
+        "farmers"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: FAO names Arco Seco, Veraguense savanna, Cerro Punta and Ngäbe-Buglé as drought-affected; 2019 was severe and 2023–24 rainfall was 43% below average.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAN-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAN-SRC-103",
+          "locator": "Drought Impact Pathway paragraph."
+        }
+      ],
+      "geographies": [
+        "Panama",
+        "Panama Canal Hydrographic Basin"
+      ],
+      "affected_groups": [
+        "subsistence farmers",
+        "water-service users"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: FAO says drought threatens subsistence farmers’ food security and drinking/sanitation water, while low Canal levels disrupt maritime operations and revenue.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAN-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAN-SRC-103",
+          "locator": "Social indicators, bullets on rural poverty and Indigenous comarcas."
+        }
+      ],
+      "geographies": [
+        "rural Panama",
+        "Guna Yala comarca",
+        "Emberá-Wounaan comarca",
+        "Ngäbe-Buglé comarca"
+      ],
+      "affected_groups": [
+        "rural residents",
+        "Indigenous peoples"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: FAO reports rural poverty at 29.3% (2022) and 32.3% (2023); 76% of Indigenous people live rurally, and three Indigenous comarcas had the highest 2021 poverty indicators.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAN-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAN-SRC-103",
+          "locator": "Infrastructural indicators, bullets on rural water and sanitation."
+        }
+      ],
+      "geographies": [
+        "rural Panama",
+        "Panama"
+      ],
+      "affected_groups": [
+        "rural residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: In 2022, basic water access was 86.1% rural versus 94.6% nationally; sanitation was 66.4% versus 85.9%.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAN-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAN-SRC-104",
+          "locator": "Water page paragraph beginning ‘Vale la pena recordar que 2023’."
+        }
+      ],
+      "geographies": [
+        "Panama Canal Hydrographic Basin"
+      ],
+      "affected_groups": [
+        "Canal users",
+        "water-service users"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The Canal Authority says 2023 was the third-driest year in the Canal basin, with about 30% rainfall deficit; it cut daily transits from July because it could not store over half the water needed for the 2024 dry season.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAN-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAN-SRC-104",
+          "locator": "Water page paragraphs beginning ‘Frente a los desafíos’ and ‘En la Cuenca del Canal’."
+        }
+      ],
+      "geographies": [
+        "Panama Canal Hydrographic Basin",
+        "Panama City",
+        "San Miguelito",
+        "Arraiján",
+        "La Chorrera",
+        "Colón"
+      ],
+      "affected_groups": [
+        "more than half of national population",
+        "urban residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The Authority says Canal reservoirs supply water to over half of Panama’s population, including Panama City, San Miguelito, Arraiján, La Chorrera and Colón, and support Canal operations and other economic uses.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAN-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAN-SRC-104",
+          "locator": "Water page paragraphs beginning ‘Asimismo, se mantienen las medidas’ and ‘Al mismo tiempo, avanza’."
+        }
+      ],
+      "geographies": [
+        "Río Indio",
+        "Panama Canal Hydrographic Basin"
+      ],
+      "affected_groups": [
+        "communities in potentially affected areas",
+        "water users"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The Canal Authority page describes December 2025 water-saving arrangements for the 2026 dry season and a planned Río Indio lake requiring community participation and respect for residents' rights.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAN-E-116",
+      "record_review": "manual-passage-check-incomplete",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "PAN-SRC-105",
+          "locator": "Main text paragraphs beginning ‘En los últimos meses’ and ‘MiAMBIENTE destaca’."
+        }
+      ],
+      "geographies": [
+        "Gardi Sugdub",
+        "Guna Yala comarca",
+        "Isberyala"
+      ],
+      "affected_groups": [
+        "Guna residents of Gardi Sugdub",
+        "relocating households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-01-24 reports: MiAmbiente linked sea-level rise at Gardi Sugdub, Guna Yala, to an impending mainland relocation to Isberyala and called it climate displacement; its January 2024 report does not document completion.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "PAN-E-116",
+        "source_id": "PAN-SRC-105",
+        "url": "https://miambiente.gob.pa/parlamentarios-britanicos-visitan-la-comunidad-de-gardi-sugdub-en-la-comarca-guna-yala/",
+        "locator": "Main text paragraphs beginning ‘En los últimos meses’ and ‘MiAMBIENTE destaca’.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "access-only",
+        "claim_verification": "unresolved",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "manual_adjudication_completed": true,
+        "verification_note": "The inspected text supports impending Gardi Sugdub relocation but ends before the named mainland site and full official attribution."
+      },
+      "verification_note": "The inspected text supports impending Gardi Sugdub relocation but ends before the named mainland site and full official attribution.",
+      "manual_adjudication": {
+        "status": "unresolved",
+        "reviewed_on": "2026-10-27",
+        "source_id": "PAN-SRC-105",
+        "source_url": "https://miambiente.gob.pa/parlamentarios-britanicos-visitan-la-comunidad-de-gardi-sugdub-en-la-comarca-guna-yala/",
+        "locator": "Main text paragraphs beginning ‘En los últimos meses’ and ‘MiAMBIENTE destaca’.",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The inspected text supports impending Gardi Sugdub relocation but ends before the named mainland site and full official attribution.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      }
+    },
+    {
+      "record_id": "PAN-E-117",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAN-SRC-105",
+          "locator": "Main text paragraph beginning ‘El Grupo Interparlamentario Británico participó’."
+        }
+      ],
+      "geographies": [
+        "Gardi Sugdub",
+        "Isberyala",
+        "Guna Yala comarca"
+      ],
+      "affected_groups": [
+        "Guna households preparing to relocate",
+        "Sáhilas"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-01-24 reports: At a January 2024 Guna Congress meeting, Sáhilas described basic needs for new Isberyala, including water, health services and household furniture.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAN-E-118",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAN-SRC-106",
+          "locator": "Page paragraphs beginning ‘El 26 de agosto de 2026’ and ‘El Sistema Nacional de Protección Civil’."
+        }
+      ],
+      "geographies": [
+        "Panama"
+      ],
+      "affected_groups": [
+        "communities exposed to drought and heavy rain"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: Government declared a national emergency on 26 August 2026 for El Niño-related conditions after a May alert; SINAPROC describes monitoring, interagency coordination and public-preparedness functions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAN-E-119",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAN-SRC-106",
+          "locator": "Page paragraphs beginning ‘De acuerdo con la información presentada’ and ‘No obstante’."
+        }
+      ],
+      "geographies": [
+        "Panama",
+        "Pacific slope",
+        "Caribbean slope"
+      ],
+      "affected_groups": [
+        "communities in forecast-affected zones"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "Official July–December 2026 rainfall outlook cites deficits up to 55% in some zones; forecast model and scenario are not stated.",
+      "compact_statement": "Source dated not stated reports: SINAPROC reports forecast predominant rainfall deficits nationwide from July through December 2026, potentially reaching 55% in some zones, while noting contrasting rainfall and flood risks on the Caribbean slope.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PAN-E-120",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PAN-SRC-106",
+          "locator": "Page paragraphs beginning ‘Actualmente, el IMHPA reporta’ and ‘En contraste’."
+        }
+      ],
+      "geographies": [
+        "11 unnamed hydrographic basins",
+        "Bocas del Toro"
+      ],
+      "affected_groups": [
+        "residents in water-stressed basins",
+        "communities in vulnerable areas of Bocas del Toro"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The SINAPROC 2026 page reports 11 unnamed basins under water stress and contrasting heavy rainfall in Bocas del Toro, warning of possible flood/landslide conditions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "PAN-E-116",
+  "source_access_review": {
+    "selected_record_id": "PAN-E-116",
+    "selected_source_id": "PAN-SRC-105",
+    "url": "https://miambiente.gob.pa/parlamentarios-britanicos-visitan-la-comunidad-de-gardi-sugdub-en-la-comarca-guna-yala/",
+    "locator": "Main text paragraphs beginning ‘En los últimos meses’ and ‘MiAMBIENTE destaca’.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "access-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 147202,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The inspected text supports impending Gardi Sugdub relocation but ends before the named mainland site and full official attribution."
+  },
+  "checks": [
+    {
+      "record_id": "PAN-E-116",
+      "source_id": "PAN-SRC-105",
+      "locator": "Main text paragraphs beginning ‘En los últimos meses’ and ‘MiAMBIENTE destaca’.",
+      "verification_status": "unresolved",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "access-only",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": false,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "PAN-E-116: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "PAN-E-101",
+    "PAN-E-102",
+    "PAN-E-103",
+    "PAN-E-104",
+    "PAN-E-105",
+    "PAN-E-106",
+    "PAN-E-107",
+    "PAN-E-108",
+    "PAN-E-109",
+    "PAN-E-110",
+    "PAN-E-111",
+    "PAN-E-113",
+    "PAN-E-114",
+    "PAN-E-115",
+    "PAN-E-116",
+    "PAN-E-117",
+    "PAN-E-118",
+    "PAN-E-119",
+    "PAN-E-120"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

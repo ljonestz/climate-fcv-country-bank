@@ -1,0 +1,1164 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "GMB",
+  "candidate_path": "countries/GMB/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 6,
+    "evidence_count": 18,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 18
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 7,
+      "access-only": 11
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "GMB-E-003",
+          "GMB-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "GMB-E-002",
+          "GMB-E-005",
+          "GMB-E-101",
+          "GMB-E-107",
+          "GMB-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "GMB-E-004",
+          "GMB-E-006",
+          "GMB-E-007",
+          "GMB-E-105",
+          "GMB-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "GMB-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "GMB-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "GMB-E-102",
+          "GMB-E-104",
+          "GMB-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "GMB-E-001"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "GMB-E-101",
+          "GMB-E-107",
+          "GMB-E-108",
+          "GMB-E-109"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "GMB-P-001"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/GMB/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "GMB-SRC-001",
+      "title": "The Gambia Country Climate and Development Report",
+      "organization": "World Bank Group",
+      "publication_date": "2026-05",
+      "publication_date_basis": "document-version",
+      "url": "https://documents1.worldbank.org/curated/en/099050426073051331/pdf/P508299-2323c0c5-c2bd-4c9a-979f-542df33f6f51.pdf",
+      "geographic_coverage": [
+        "The Gambia",
+        "coastal areas",
+        "Greater Banjul",
+        "rural areas"
+      ],
+      "temporal_coverage": "Historical climate and agricultural trends; modelled poverty effects to 2050; climate scenarios through the second half of the century",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GMB-E-001",
+        "GMB-E-002",
+        "GMB-E-003",
+        "GMB-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "GMB-E-001",
+        "selected_source_id": "GMB-SRC-001",
+        "url": "https://documents1.worldbank.org/curated/en/099050426073051331/pdf/P508299-2323c0c5-c2bd-4c9a-979f-542df33f6f51.pdf",
+        "locator": "Chapter on climate and fragility, printed p. 37 (PDF p. 53), discussion of climate shocks, resource scarcity, and conflict drivers.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "GMB-SRC-002",
+      "title": "The Gambia Floods Rapid Needs Assessment Report",
+      "organization": "United Nations Office for the Coordination of Humanitarian Affairs (OCHA), with UNDAC and national counterparts",
+      "publication_date": "2023-01-24",
+      "publication_date_basis": "publication",
+      "url": "https://gambia.un.org/sites/default/files/2023-01/UNDAC-Gambia_Floods-RNAR-ENG-Web.pdf",
+      "geographic_coverage": [
+        "Greater Banjul",
+        "North Bank Region",
+        "Central River Region",
+        "Upper River Region"
+      ],
+      "temporal_coverage": "Floods of July–August 2022; assessment published January 2023",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GMB-E-005",
+        "GMB-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GMB-SRC-003",
+      "title": "The Gambia Second Nationally Determined Contribution",
+      "organization": "Government of The Gambia",
+      "publication_date": "2021",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/NDC/2022-06/Second%20NDC%20of%20The%20Republic%20of%20The%20Gambia-16-12-2021.pdf",
+      "geographic_coverage": [
+        "The Gambia",
+        "coastal and mangrove areas"
+      ],
+      "temporal_coverage": "National climate vulnerability and policy document; dated 2021",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GMB-E-007"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GMB-SRC-101",
+      "title": "National Disaster Risk Management Policy 2024–2033",
+      "organization": "National Disaster Management Agency, The Gambia",
+      "publication_date": "2023-11",
+      "publication_date_basis": "document-version",
+      "url": "https://policies.gov.gm/d/1bfdfaf7-38da-11f1-b086-029254d29bb1",
+      "geographic_coverage": [
+        "The Gambia",
+        "Greater Banjul Area",
+        "West Coast Region",
+        "North Bank Region",
+        "eight regions",
+        "56 districts"
+      ],
+      "temporal_coverage": "Disaster impacts and implementation review through 2022; policy period 2024–2033",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GMB-E-101",
+        "GMB-E-102",
+        "GMB-E-103",
+        "GMB-E-104",
+        "GMB-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 10–11 and 29–30",
+          "notes": "Opened and read the public 50-page policy, including disaster context and historical implementation review.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GMB-SRC-102",
+      "title": "The Gambia National Climate Hazard Assessment: Technical Report",
+      "organization": "Global Center on Adaptation, with World Bank and Government of The Gambia collaboration",
+      "publication_date": "2026-03-15",
+      "publication_date_basis": "publication",
+      "url": "https://gca.org/wp-content/uploads/2026/03/Technical-Report-01-The-Gambia-National-Climate-Hazard-Assessment.pdf",
+      "geographic_coverage": [
+        "The Gambia",
+        "Northeastern region",
+        "Greater Banjul Area",
+        "Tanbi Wetland",
+        "Mansa Konko",
+        "Kuntaur",
+        "Janjanbureh",
+        "Basse",
+        "Brikama"
+      ],
+      "temporal_coverage": "Observed reference conditions and modeled climate/flood hazards through 2100, with focus on 2050",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GMB-E-106",
+        "GMB-E-107",
+        "GMB-E-108",
+        "GMB-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 8, 11 and 27",
+          "notes": "Opened the 84-page report and read methods, heat projections and named coastal and river flood passages.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GMB-SRC-103",
+      "title": "The Gambia: Climate Policy Diagnostic, High-Level Summary Technical Assistance Report",
+      "organization": "International Monetary Fund, Fiscal Affairs Department",
+      "publication_date": "2024-07",
+      "publication_date_basis": "document-version",
+      "url": "https://www.imf.org/-/media/Files/Publications/HLS/2024/English/HLSEA2024032.ashx",
+      "geographic_coverage": [
+        "The Gambia",
+        "coastal areas"
+      ],
+      "temporal_coverage": "National climate-policy and institutional diagnostic, 2024",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GMB-E-110",
+        "GMB-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF p. 3",
+          "notes": "Opened and read the IMF's four-page published high-level summary, including adaptation and water-migration passages.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "GMB-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "GMB-SRC-001",
+          "locator": "Chapter on climate and fragility, printed p. 37 (PDF p. 53), discussion of climate shocks, resource scarcity, and conflict drivers."
+        }
+      ],
+      "geographies": [
+        "The Gambia",
+        "agricultural and resource-dependent areas"
+      ],
+      "affected_groups": [
+        "People dependent on agriculture and natural resources"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term",
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "No scenario or date specified.",
+      "compact_statement": "CCDR warns agricultural shocks may worsen hunger and resource scarcity, heightening conflict risk; weak tenure, dispute resolution and climate capacity compound it.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "GMB-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "GMB-E-001",
+        "selected_source_id": "GMB-SRC-001",
+        "url": "https://documents1.worldbank.org/curated/en/099050426073051331/pdf/P508299-2323c0c5-c2bd-4c9a-979f-542df33f6f51.pdf",
+        "locator": "Chapter on climate and fragility, printed p. 37 (PDF p. 53), discussion of climate shocks, resource scarcity, and conflict drivers.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "GMB-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GMB-SRC-001",
+          "locator": "Executive summary, printed p. 15 (PDF p. 32), coastal exposure and agricultural trend paragraphs."
+        }
+      ],
+      "geographies": [
+        "The Gambia",
+        "coastal areas"
+      ],
+      "affected_groups": [
+        "Coastal population",
+        "Agricultural producers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Coastal zones with over 60% of the population face sea-level rise, erosion, and salt intrusion; yields declined an estimated 1.2% annually since 2010 amid erratic rain and drought.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "GMB-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GMB-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GMB-SRC-001",
+          "locator": "Climate scenario discussion, printed p. 20 (PDF p. 37), precipitation projections."
+        }
+      ],
+      "geographies": [
+        "The Gambia"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "SSP5-8.5; later-century. Report also compares SSP2-4.5.",
+      "compact_statement": "SSP5-8.5 projects more severe or prolonged rainy-season dry spells in the second half of the century; rainfall projections are highly variable.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "GMB-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GMB-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GMB-SRC-001",
+          "locator": "Poverty-impact modelling, printed p. 71 (PDF p. 88), 2050 results by climate scenario and adaptation case."
+        }
+      ],
+      "geographies": [
+        "The Gambia"
+      ],
+      "affected_groups": [
+        "People below the poverty line"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Dry/hot and wet/warm cases, with/without adaptation; SSP label unstated here.",
+      "compact_statement": "By 2050, modelled poverty rises 1.2 points (dry/hot) or 0.6 (wet/warm) without adaptation, versus 0.4 or 0.2 points with the stated adaptation pathway.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "GMB-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GMB-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GMB-SRC-002",
+          "locator": "Executive summary, PDF p. 2, affected and displaced population estimates for the July–August 2022 floods."
+        }
+      ],
+      "geographies": [
+        "Greater Banjul",
+        "North Bank Region",
+        "Central River Region",
+        "Upper River Region"
+      ],
+      "affected_groups": [
+        "Flood-affected residents",
+        "Displaced people"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The rapid assessment estimated that the 2022 floods affected 50,378 people and displaced 7,404 across Greater Banjul, North Bank, Central River, and Upper River regions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "GMB-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GMB-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GMB-SRC-002",
+          "locator": "Executive summary, PDF p. 3, water and sanitation consequences and rural vulnerability."
+        }
+      ],
+      "geographies": [
+        "Greater Banjul",
+        "Rural areas"
+      ],
+      "affected_groups": [
+        "Rural communities",
+        "Flood-affected residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The assessment reports that floods breached water and sewage systems and contaminated water bodies. Greater Banjul had the largest number affected, while rural communities were described as more vulnerable.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "GMB-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GMB-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GMB-SRC-003",
+          "locator": "Climate vulnerability description, printed p. 6 (PDF p. 5), paragraph on economic vulnerability and coastal ecosystems."
+        }
+      ],
+      "geographies": [
+        "The Gambia",
+        "coastal and mangrove areas"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "current",
+        "medium-term"
+      ],
+      "scenario": "The cited qualitative passage does not specify a climate scenario or dated projection.",
+      "compact_statement": "The NDC describes the economy as vulnerable to drought and changes in annual rainfall, and notes that rising temperatures and saltwater intrusion threaten mangroves and increase flood susceptibility.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "GMB-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GMB-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GMB-SRC-101",
+          "locator": "PDF p. 10, disaster and vulnerability context"
+        }
+      ],
+      "geographies": [
+        "West Coast Region",
+        "Greater Banjul Area"
+      ],
+      "affected_groups": [
+        "people in Greater Banjul Area"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-11 reports: For the 2022 extreme-rain event, parts of West Coast Region received 276 mm in 20 hours; policy cites a separate World Bank estimate of 80,000 affected in Greater Banjul.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GMB-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GMB-SRC-101",
+          "locator": "PDF p. 29, review of the 2008 disaster-risk policy"
+        }
+      ],
+      "geographies": [
+        "The Gambia",
+        "eight regions",
+        "56 districts"
+      ],
+      "affected_groups": [
+        "communities exposed to disasters"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-11 reports: All eight regions had disaster committees; committees in 56 districts were partly functional, and community committees remained difficult to establish.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GMB-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GMB-SRC-101",
+          "locator": "PDF p. 30, institutional performance and implementation challenges"
+        }
+      ],
+      "geographies": [
+        "The Gambia",
+        "regional and decentralized offices"
+      ],
+      "affected_groups": [
+        "disaster-affected communities"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-11 reports: NDMA cites funding, regional logistics/storage, supply pre-positioning, and staffing constraints, often only two decentralized staff.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GMB-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GMB-SRC-101",
+          "locator": "PDF p. 30, institutional performance and implementation challenges"
+        }
+      ],
+      "geographies": [
+        "communities receiving disaster assistance"
+      ],
+      "affected_groups": [
+        "beneficiaries of cash assistance"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-11 reports: Unequal agency cash-transfer amounts in one community can create tension and suspicion.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GMB-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GMB-SRC-101",
+          "locator": "PDF p. 11, impacts of hazards and key challenges"
+        }
+      ],
+      "geographies": [
+        "peripheral regions",
+        "low-lying urban areas"
+      ],
+      "affected_groups": [
+        "displaced people"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-11 reports: The policy says peripheral drought and desertification drive displacement toward low-lying urban areas.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GMB-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GMB-SRC-102",
+          "locator": "PDF p. 8, executive summary"
+        }
+      ],
+      "geographies": [
+        "inland areas",
+        "northeastern region"
+      ],
+      "affected_groups": [
+        "people in inland and northeastern areas"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "2050 RCP4.5; historical baseline.",
+      "compact_statement": "Source dated 2026-03-15 reports: By 2050 under moderate emissions, inland historical 25-year extreme-heat events are projected every two years; northeast days above 40°C more than double.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GMB-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GMB-SRC-102",
+          "locator": "PDF p. 11, executive summary on fluvial flooding"
+        }
+      ],
+      "geographies": [
+        "Mansa Konko",
+        "Kuntaur",
+        "Janjanbureh"
+      ],
+      "affected_groups": [
+        "people and infrastructure in river floodplains"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03-15 reports: Middle-river floodplains around Mansa Konko, Kuntaur and Janjanbureh have the assessment's highest fluvial hazard.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GMB-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GMB-SRC-102",
+          "locator": "PDF p. 27, coastal-flood baseline analysis"
+        }
+      ],
+      "geographies": [
+        "Tanbi Wetland",
+        "Banjul"
+      ],
+      "affected_groups": [
+        "low-lying coastal communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": "Modeled baseline coastal flood event with a 10-year return period.",
+      "compact_statement": "Source dated 2026-03-15 reports: Current modeled coastal flooding inundates low-lying Tanbi Wetland west of Banjul; the report says its mangroves attenuate flooding inland.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GMB-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GMB-SRC-102",
+          "locator": "PDF p. 27, coastal-flood scenario comparison"
+        }
+      ],
+      "geographies": [
+        "Banjul",
+        "Brikama"
+      ],
+      "affected_groups": [
+        "residents of coastal areas"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "2050, SSP5-8.5, 100-year coastal-flood event.",
+      "compact_statement": "Source dated 2026-03-15 reports: Under future extreme coastal-flood scenarios, Banjul and Brikama show substantial increases in modeled flood depth compared with current conditions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GMB-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GMB-SRC-103",
+          "locator": "PDF p. 3, climate adaptation policy"
+        }
+      ],
+      "geographies": [
+        "coastal areas"
+      ],
+      "affected_groups": [
+        "coastal communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-07 reports: IMF reports that coastal resilience is constrained by an unclear institutional framework, absent land-use policy, and limited technical and institutional capacity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GMB-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GMB-SRC-103",
+          "locator": "PDF p. 3, climate adaptation policy"
+        }
+      ],
+      "geographies": [
+        "The Gambia"
+      ],
+      "affected_groups": [
+        "people facing water insecurity"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-07 reports: IMF states that water insecurity increases pressure for internal migration, which in turn increases deforestation through agricultural expansion and charcoal demand.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "GMB-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "GMB-E-001"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "GMB-E-001"
+        ],
+        "impact": [
+          "GMB-E-001"
+        ],
+        "mediator": [
+          "GMB-E-001"
+        ],
+        "consequence": [
+          "GMB-E-001"
+        ]
+      },
+      "geographies": [
+        "The Gambia"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Climate livelihood shocks may compound weak land governance and conflict risk.",
+      "alternative_explanations": [
+        "Land-governance weaknesses independently influence disputes."
+      ],
+      "uncertainty": "Report-level risk statement, not quantified conflict attribution.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "GMB-E-001",
+  "source_access_review": {
+    "selected_record_id": "GMB-E-001",
+    "selected_source_id": "GMB-SRC-001",
+    "url": "https://documents1.worldbank.org/curated/en/099050426073051331/pdf/P508299-2323c0c5-c2bd-4c9a-979f-542df33f6f51.pdf",
+    "locator": "Chapter on climate and fragility, printed p. 37 (PDF p. 53), discussion of climate shocks, resource scarcity, and conflict drivers.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": null,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+  },
+  "checks": [
+    {
+      "record_id": "GMB-E-001",
+      "source_id": "GMB-SRC-001",
+      "locator": "Chapter on climate and fragility, printed p. 37 (PDF p. 53), discussion of climate shocks, resource scarcity, and conflict drivers.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "GMB-E-001: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "GMB-E-001",
+    "GMB-E-002",
+    "GMB-E-003",
+    "GMB-E-004",
+    "GMB-E-005",
+    "GMB-E-006",
+    "GMB-E-007",
+    "GMB-E-101",
+    "GMB-E-102",
+    "GMB-E-103",
+    "GMB-E-104",
+    "GMB-E-105",
+    "GMB-E-106",
+    "GMB-E-107",
+    "GMB-E-108",
+    "GMB-E-109",
+    "GMB-E-110",
+    "GMB-E-111",
+    "GMB-P-001"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

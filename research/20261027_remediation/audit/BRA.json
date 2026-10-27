@@ -1,0 +1,1132 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "BRA",
+  "candidate_path": "countries/BRA/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 5,
+    "evidence_count": 15,
+    "pathway_count": 2,
+    "evidence_source_reference_count": 15
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 14,
+      "verified": 1
+    },
+    "pathway_claims": {
+      "unresolved": 2
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "BRA-E-104",
+          "BRA-E-105",
+          "BRA-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "BRA-E-101",
+          "BRA-E-102",
+          "BRA-E-106",
+          "BRA-E-112",
+          "BRA-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BRA-E-103",
+          "BRA-E-107",
+          "BRA-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "BRA-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "BRA-E-110",
+          "BRA-E-111",
+          "BRA-E-115"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "BRA-E-104",
+          "BRA-E-108",
+          "BRA-E-109",
+          "BRA-E-111",
+          "BRA-E-113",
+          "BRA-E-114",
+          "BRA-E-115"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "BRA-P-101",
+          "BRA-P-102"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/BRA/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "BRA-SRC-101",
+      "title": "Brazil Country Climate and Development Report: Executive Summary",
+      "organization": "World Bank Group",
+      "publication_date": "2023",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099050123155514156/pdf/P176158013e4df0630b34e0155acb2cc6e7.pdf",
+      "geographic_coverage": [
+        "Brazil",
+        "Amazon biome",
+        "Cerrado biome",
+        "urban settlements"
+      ],
+      "temporal_coverage": "Current climate-risk diagnostic, historical loss estimates and modeled poverty impacts through 2030.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BRA-E-101",
+        "BRA-E-102",
+        "BRA-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 14-page executive summary reviewed, especially pp. 3-7.",
+          "notes": "The full CCDR download was blocked; claims are limited to the complete accessible executive summary.",
+          "reuse_terms": "Copyright and reuse terms not fully inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BRA-SRC-102",
+      "title": "Severe droughts reduce river navigability and isolate communities in the Brazilian Amazon",
+      "organization": "Communications Earth & Environment; authors from Universidade Federal de Minas Gerais and partner research institutions",
+      "publication_date": "2024-07-12",
+      "publication_date_basis": "publication",
+      "url": "https://www.nature.com/articles/s43247-024-01530-4.pdf",
+      "geographic_coverage": [
+        "Brazilian Amazon",
+        "Amazonas",
+        "Acre",
+        "Pará",
+        "Roraima",
+        "Rondônia",
+        "Amapá",
+        "Mato Grosso"
+      ],
+      "temporal_coverage": "Settlement datasets dated 2020-2021; reported drought impacts from 2000-2020; hydrological series assessed through 2021.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BRA-E-104",
+        "BRA-E-105",
+        "BRA-E-106",
+        "BRA-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 12-page paper reviewed, especially pp. 2-7 and methods pp. 8-9.",
+          "notes": "Publisher PDF and HTML body were accessible; settlement screening and media-coding limits retained.",
+          "reuse_terms": "Open-access page inspected; specific reuse terms not confirmed, so license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BRA-SRC-103",
+      "title": "Climate-related Crisis in the Amazon Region: Flash Update No. 1, Reporting Period August-September 2024",
+      "organization": "UNICEF Latin America and Caribbean Regional Office",
+      "publication_date": "2024-09-30",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/media/163156/file/LACR-Flash-Update-Climate-Related-Crisis-in-the-Amazon-Region-30-September-2024.pdf",
+      "geographic_coverage": [
+        "Brazilian Amazon",
+        "Amazonas",
+        "Acre",
+        "Rondônia",
+        "Alto Solimões",
+        "Indigenous and riverside communities"
+      ],
+      "temporal_coverage": "Situation and response snapshot for August-September 2024, with near-term risks and planned UNICEF actions.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BRA-E-108",
+        "BRA-E-109",
+        "BRA-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete seven-page flash update reviewed, especially Brazil p. 2 and response pp. 2-5.",
+          "notes": "Population figures and response actions are tied to the dated update and its cited agencies.",
+          "reuse_terms": "Reuse terms not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BRA-SRC-104",
+      "title": "Impact of drought in the Brazilian Amazon and 2025 outlook",
+      "organization": "ACAPS",
+      "publication_date": "2025-01-28",
+      "publication_date_basis": "publication",
+      "url": "https://www.acaps.org/fileadmin/Data_Product/Main_media/20250128_ACAPS_BRAZIL_-_Impact_of_Drought_in_the_Brazilian_Amazon_and_2025_Outlook_.pdf",
+      "geographic_coverage": [
+        "Brazilian Amazon",
+        "northwest Brazil",
+        "Acre",
+        "Amazonas",
+        "Mato Grosso",
+        "Pará",
+        "Rondônia"
+      ],
+      "temporal_coverage": "Secondary review of the 2023-2024 drought and humanitarian access conditions, with outlook for 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BRA-E-111",
+        "BRA-E-112"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete seven-page thematic report reviewed, especially p. 1 and limitations p. 2.",
+          "notes": "Armed-group and protection passages are ACAPS secondary synthesis, not independent incident verification.",
+          "reuse_terms": "Reuse terms not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "BRA-E-111",
+        "selected_source_id": "BRA-SRC-104",
+        "url": "https://www.acaps.org/fileadmin/Data_Product/Main_media/20250128_ACAPS_BRAZIL_-_Impact_of_Drought_in_the_Brazilian_Amazon_and_2025_Outlook_.pdf",
+        "locator": "One-based PDF p. 1, crisis overview and access conditions",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 1016047,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          1
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "BRA-E-111"
+      ],
+      "manual_verified_record_ids": [
+        "BRA-E-111"
+      ]
+    },
+    {
+      "source_id": "BRA-SRC-105",
+      "title": "Impacts of the Floods in Rio Grande do Sul: Observations and Recommendations for the Guarantee of Economic, Social, Cultural, and Environmental Rights",
+      "organization": "Inter-American Commission on Human Rights, Special Rapporteurship on Economic, Social, Cultural and Environmental Rights (REDESCA)",
+      "publication_date": "2025-03-31",
+      "publication_date_basis": "publication",
+      "url": "https://www.oas.org/en/iachr/reports/pdfs/2025/informe_redesca_brasil_en.pdf",
+      "geographic_coverage": [
+        "Rio Grande do Sul",
+        "Porto Alegre",
+        "Canoas",
+        "affected Indigenous and quilombola communities"
+      ],
+      "temporal_coverage": "Mission conducted December 2-6, 2024, documenting impacts and response to the April-May 2024 floods.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BRA-E-113",
+        "BRA-E-114",
+        "BRA-E-115"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 59-page REDESCA report reviewed, especially pp. 24-25 and 44-47.",
+          "notes": "Report is based on a December 2024 working visit and approved March 31, 2025.",
+          "reuse_terms": "Reuse terms not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "BRA-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRA-SRC-101",
+          "locator": "One-based PDF pp. 3-4, climate impacts and poverty pathways"
+        }
+      ],
+      "geographies": [
+        "Brazil",
+        "Amazon biome",
+        "Cerrado biome",
+        "urban settlements"
+      ],
+      "affected_groups": [
+        "urban poor",
+        "residents of informal settlements"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: The World Bank reports reduced water availability and longer droughts; urban-poor residents, especially in informal settlements, are particularly vulnerable to extreme-weather losses.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRA-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRA-SRC-101",
+          "locator": "One-based PDF p. 4, modeled extreme-poverty pathway"
+        }
+      ],
+      "geographies": [
+        "Brazil"
+      ],
+      "affected_groups": [
+        "people at risk of extreme poverty"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "The executive summary gives a range across development pathways but does not specify an SSP or RCP scenario.",
+      "compact_statement": "Source dated 2023 reports: Climate shocks could place 800,000-3 million more people in extreme poverty by 2030, depending on Brazil's development pathway.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRA-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRA-SRC-101",
+          "locator": "One-based PDF p. 7, adaptive social protection"
+        }
+      ],
+      "geographies": [
+        "Brazil"
+      ],
+      "affected_groups": [
+        "families and communities exposed to climate shocks"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: The World Bank says Brazil's adaptive social protection system has scalability and timeliness constraints; it recommends climate-risk data in the social registry.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRA-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRA-SRC-102",
+          "locator": "One-based PDF p. 2, Fig. 1 and settlement-isolation screening"
+        }
+      ],
+      "geographies": [
+        "Brazilian Amazon",
+        "Amazonas",
+        "Acre",
+        "Pará",
+        "Roraima",
+        "Rondônia",
+        "Amapá",
+        "Mato Grosso"
+      ],
+      "affected_groups": [
+        "remote rural settlements",
+        "Indigenous villages"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-07-12 reports: A drought-isolation screen identified 1,850 non-Indigenous localities, 1,495 in Amazonas; 755 of 1,359 screened Indigenous villages were also there.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRA-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRA-SRC-102",
+          "locator": "One-based PDF p. 4, hydrological analysis and Fig. 4"
+        }
+      ],
+      "geographies": [
+        "Brazilian Amazon",
+        "Amazon basin"
+      ],
+      "affected_groups": [
+        "riverine communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-07-12 reports: Across 90 river gauges, 2005, 2010 and 2016 had low-water periods about 36.8 days above the 2000-2021 median.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRA-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRA-SRC-102",
+          "locator": "One-based PDF pp. 1-2 and 6, abstract, Fig. 6 and impacts discussion"
+        }
+      ],
+      "geographies": [
+        "Brazilian Amazon",
+        "Amazonas",
+        "Acre",
+        "Purus",
+        "Negro",
+        "Solimões"
+      ],
+      "affected_groups": [
+        "rural riverine communities",
+        "Indigenous communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-07-12 reports: Low rivers disrupt navigation and isolate rural communities, restricting access to food, fuel, medicine, health care and education.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRA-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRA-SRC-102",
+          "locator": "One-based PDF p. 7, drought-related environmental governance and services"
+        }
+      ],
+      "geographies": [
+        "Brazilian Amazon"
+      ],
+      "affected_groups": [
+        "riverine communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-07-12 reports: One media account reported that low-water navigation constraints hindered environmental enforcement against deforestation, hunting and illegal logging.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRA-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRA-SRC-103",
+          "locator": "One-based PDF pp. 1-2, highlights and Brazil needs assessment"
+        }
+      ],
+      "geographies": [
+        "Amazonas"
+      ],
+      "affected_groups": [
+        "Indigenous communities",
+        "riverside communities",
+        "children and adolescents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "A September 2024 UNICEF update relays 745,000 drought-affected people in Amazonas, including 330,000 people, of whom 115,000 were children, in 2,200 Indigenous and riverside communities isolated or at risk of isolation. These are dated and distinct exposure estimates.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRA-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRA-SRC-103",
+          "locator": "One-based PDF p. 2, Brazil needs assessment and response actions"
+        }
+      ],
+      "geographies": [
+        "Amazonas",
+        "Madeira",
+        "Juruá",
+        "Purus",
+        "Alto Solimões"
+      ],
+      "affected_groups": [
+        "drought-affected families",
+        "remote communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-09-30 reports: The update relays that Amazonas declared emergencies in 62 municipalities and distributed food, water purifiers, tanks and medical supplies.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRA-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRA-SRC-103",
+          "locator": "One-based PDF pp. 1 and 3, highlights and expected evolution"
+        }
+      ],
+      "geographies": [
+        "Brazilian Amazon",
+        "Amazonas",
+        "Acre"
+      ],
+      "affected_groups": [
+        "children and adolescents",
+        "Indigenous and riverside families"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "historical",
+        "near-term"
+      ],
+      "scenario": "Conditional on the crisis persisting; the flash update does not quantify likelihood or resulting incidents.",
+      "compact_statement": "In September 2024, UNICEF warned that persistent drought and fires could increase child separation, violence and exploitation risks, including through family movement. This is a conditional warning from that crisis, not a 2026 forecast or incident count.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRA-E-111",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "BRA-SRC-104",
+          "locator": "One-based PDF p. 1, crisis overview and access conditions"
+        }
+      ],
+      "geographies": [
+        "northwest Brazil",
+        "Amazonas",
+        "Brazilian Amazon"
+      ],
+      "affected_groups": [
+        "remote communities",
+        "Indigenous communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-01-28 reports: ACAPS says armed groups exploiting resources, recruiting communities or forcing displacement aggravate drought-affected access, especially in Amazonas.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "Retain as ACAPS's secondary reporting with source-period limits; do not state that drought caused armed-group violence."
+      ],
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+      "verification_attempt": {
+        "record_id": "BRA-E-111",
+        "source_id": "BRA-SRC-104",
+        "url": "https://www.acaps.org/fileadmin/Data_Product/Main_media/20250128_ACAPS_BRAZIL_-_Impact_of_Drought_in_the_Brazilian_Amazon_and_2025_Outlook_.pdf",
+        "locator": "One-based PDF p. 1, crisis overview and access conditions",
+        "accessed_on": "2026-10-27",
+        "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "ACAPS's January 2025 secondary review reports armed-group exploitation, recruitment and forced displacement worsening access/basic needs in drought-affected Amazon communities, especially in Amazonas; it relies on dated secondary sources."
+      },
+      "verification_note": "ACAPS's January 2025 secondary review reports armed-group exploitation, recruitment and forced displacement worsening access/basic needs in drought-affected Amazon communities, especially in Amazonas; it relies on dated secondary sources.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "BRA-SRC-104",
+        "source_url": "https://www.acaps.org/fileadmin/Data_Product/Main_media/20250128_ACAPS_BRAZIL_-_Impact_of_Drought_in_the_Brazilian_Amazon_and_2025_Outlook_.pdf",
+        "locator": "One-based PDF p. 1, crisis overview and access conditions",
+        "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+        "reason": "ACAPS's January 2025 secondary review reports armed-group exploitation, recruitment and forced displacement worsening access/basic needs in drought-affected Amazon communities, especially in Amazonas; it relies on dated secondary sources.",
+        "recommended_record_patch": "Retain as ACAPS's secondary reporting with source-period limits; do not state that drought caused armed-group violence.",
+        "coordinator_decision_ref": null
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "BRA-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRA-SRC-104",
+          "locator": "One-based PDF p. 1, access risks and affected groups"
+        }
+      ],
+      "geographies": [
+        "northwest Brazil",
+        "Amazonas"
+      ],
+      "affected_groups": [
+        "women",
+        "remote communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-01-28 reports: ACAPS says river isolation heightens exposure to trafficking, forced labour and abuse; women bear added burdens when drought reduces crops or livestock.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRA-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRA-SRC-105",
+          "locator": "One-based PDF pp. 44-45, paragraphs 160-164"
+        }
+      ],
+      "geographies": [
+        "Rio Grande do Sul"
+      ],
+      "affected_groups": [
+        "quilombola communities",
+        "Indigenous communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-03-31 reports: In Rio Grande do Sul, 88% of quilombola communities were flood-affected; 84 Indigenous communities and about 16,691 people also faced disrupted services and subsistence.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRA-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRA-SRC-105",
+          "locator": "One-based PDF pp. 24-25, paragraphs 66-70"
+        }
+      ],
+      "geographies": [
+        "Rio Grande do Sul",
+        "Porto Alegre"
+      ],
+      "affected_groups": [
+        "residents of exposed areas",
+        "informal-settlement residents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-03-31 reports: The Commission reports incomplete river monitoring and Porto Alegre flood-defense failures, with maintenance and design weaknesses limiting warnings, evacuation and protection.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BRA-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BRA-SRC-105",
+          "locator": "PDF physical pp.47-48, paragraphs 174-179: shelter privacy/security, reported sexual and gender-based violence and protection measures."
+        }
+      ],
+      "geographies": [
+        "Porto Alegre",
+        "Rio Grande do Sul"
+      ],
+      "affected_groups": [
+        "women",
+        "girls",
+        "children"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The rights mission on the 2024 Rio Grande do Sul floods describes inadequate divisions, privacy and security in emergency shelters and records reports of sexual and gender-based violence, including in Porto Alegre. It recommends specific protection protocols; these reports are not shelter-wide prevalence estimates.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "BRA-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "BRA-E-115"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "BRA-E-115"
+        ],
+        "impact": [
+          "BRA-E-115"
+        ],
+        "mediator": [
+          "BRA-E-115"
+        ],
+        "consequence": [
+          "BRA-E-115"
+        ]
+      },
+      "geographies": [
+        "Rio Grande do Sul",
+        "Porto Alegre"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Flood displacement into inadequately protected shelters was associated with reported sexual and gender-based violence in the 2024 response.",
+      "alternative_explanations": [
+        "Pre-existing gender inequality and violence, shelter arrangements and reporting access also affect harm and recorded cases."
+      ],
+      "uncertainty": "Mission-reported cases and risk mechanisms, not prevalence, a counterfactual causal estimate or anthropogenic event attribution.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    },
+    {
+      "record_id": "BRA-P-102",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "BRA-E-106",
+        "BRA-E-111",
+        "BRA-E-112"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "BRA-E-106",
+          "BRA-E-111"
+        ],
+        "impact": [
+          "BRA-E-106",
+          "BRA-E-111"
+        ],
+        "mediator": [
+          "BRA-E-111"
+        ],
+        "consequence": [
+          "BRA-E-111",
+          "BRA-E-112"
+        ]
+      },
+      "geographies": [
+        "Brazilian Amazon",
+        "Amazonas",
+        "northwest Brazil"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "direct",
+      "compact_statement": "ACAPS describes insecurity compounding drought-related isolation and humanitarian access constraints, not drought causing armed conflict.",
+      "alternative_explanations": [
+        "Remoteness, transport infrastructure, service coverage and enforcement limitations also shape access."
+      ],
+      "uncertainty": "ACAPS secondary qualitative synthesis; armed-group citations were not independently rechecked. No claim that drought created armed groups or that a quantified interaction effect was estimated.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "BRA-E-111",
+  "source_access_review": {
+    "selected_record_id": "BRA-E-111",
+    "selected_source_id": "BRA-SRC-104",
+    "url": "https://www.acaps.org/fileadmin/Data_Product/Main_media/20250128_ACAPS_BRAZIL_-_Impact_of_Drought_in_the_Brazilian_Amazon_and_2025_Outlook_.pdf",
+    "locator": "One-based PDF p. 1, crisis overview and access conditions",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 1016047,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      1
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+    "verification_note": "ACAPS's January 2025 secondary review reports armed-group exploitation, recruitment and forced displacement worsening access/basic needs in drought-affected Amazon communities, especially in Amazonas; it relies on dated secondary sources."
+  },
+  "checks": [
+    {
+      "record_id": "BRA-E-111",
+      "source_id": "BRA-SRC-104",
+      "locator": "One-based PDF p. 1, crisis overview and access conditions",
+      "verification_status": "verified",
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Retain as ACAPS's secondary reporting with source-period limits; do not state that drought caused armed-group violence.",
+      "coordinator_decision_ref": null
+    }
+  ],
+  "limitations": [
+    "BRA-E-111: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "BRA-E-101",
+    "BRA-E-102",
+    "BRA-E-103",
+    "BRA-E-104",
+    "BRA-E-105",
+    "BRA-E-106",
+    "BRA-E-107",
+    "BRA-E-108",
+    "BRA-E-109",
+    "BRA-E-110",
+    "BRA-E-111",
+    "BRA-E-112",
+    "BRA-E-113",
+    "BRA-E-114",
+    "BRA-E-115",
+    "BRA-P-101",
+    "BRA-P-102"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 1,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

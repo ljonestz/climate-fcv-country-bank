@@ -1,0 +1,1226 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "RWA",
+  "candidate_path": "countries/RWA/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 7,
+    "evidence_count": 19,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 19
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 7,
+      "access-only": 11,
+      "verified": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "RWA-E-001",
+          "RWA-E-002",
+          "RWA-E-004"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "RWA-E-003",
+          "RWA-E-005",
+          "RWA-E-006",
+          "RWA-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "RWA-E-007",
+          "RWA-E-101",
+          "RWA-E-102",
+          "RWA-E-104",
+          "RWA-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "RWA-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "RWA-E-105",
+          "RWA-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "RWA-E-106",
+          "RWA-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "RWA-E-109",
+          "RWA-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "RWA-E-104",
+          "RWA-E-105",
+          "RWA-E-106",
+          "RWA-E-107",
+          "RWA-E-108",
+          "RWA-E-109",
+          "RWA-E-112"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/RWA/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "RWA-SRC-001",
+      "title": "Rwanda's 2035 Nationally Determined Contribution (NDC 3.0)",
+      "organization": "Government of Rwanda",
+      "publication_date": "2025-12-08",
+      "publication_date_basis": "submission",
+      "url": "https://unfccc.int/sites/default/files/2025-12/Rwanda%20NDC3.0%20Final.pdf",
+      "geographic_coverage": [
+        "Rwanda",
+        "Northern Province",
+        "Western Province",
+        "Eastern Province",
+        "South-Eastern lowlands",
+        "Nile-Congo divide"
+      ],
+      "temporal_coverage": "Historical climate/disaster information and projections through 2050 reported in 2025",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "RWA-E-001",
+        "RWA-E-002",
+        "RWA-E-003",
+        "RWA-E-004",
+        "RWA-E-005",
+        "RWA-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "RWA-SRC-002",
+      "title": "Country Climate and Development Report: Rwanda - Technical Appendix",
+      "organization": "World Bank Group",
+      "publication_date": "2022-09",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099645409262212286/pdf/P1769550e6109e0d50a4250e1f168d1ae38.pdf",
+      "geographic_coverage": [
+        "Rwanda"
+      ],
+      "temporal_coverage": "Modeled crop and macroeconomic impacts under climate scenarios through 2050 and 2100",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "restricted",
+      "records_using_source": [
+        "RWA-E-007"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "RWA-SRC-101",
+      "title": "Assessing Community Vulnerability to Landslide and Flood in Northwestern Rwanda",
+      "organization": "International Journal of Disaster Risk Reduction; UCLouvain repository",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://research.dial.uclouvain.be/entities/publication/929370cc-6270-49a8-9894-c62eb3cee3ef",
+      "geographic_coverage": [
+        "Northwestern Rwanda",
+        "50 sampled cells"
+      ],
+      "temporal_coverage": "Household survey conducted May-July 2023; article published 2025.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "RWA-E-101",
+        "RWA-E-102",
+        "RWA-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Repository abstract, paragraphs 1-2.",
+          "notes": "The abstract and methods/results summary were read. Its open-access PDF link returned HTTP 502, so no full-text claims were extracted.",
+          "reuse_terms": "No reuse terms inspected; status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "RWA-SRC-102",
+      "title": "Climate vulnerability in Rwanda",
+      "organization": "Tearfund",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://learn.tearfund.org/en/resources/research-report/climate-vulnerability-in-rwanda",
+      "geographic_coverage": [
+        "Huye District",
+        "Gisagara District",
+        "Southern Province"
+      ],
+      "temporal_coverage": "District assessment published in 2026; the publisher page describes change over the previous five years without specifying those years.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "RWA-E-104",
+        "RWA-E-105",
+        "RWA-E-106",
+        "RWA-E-107"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Publisher report summary paragraphs on district vulnerability, adoption barriers, policy implementation, and local restoration.",
+          "notes": "Detailed summary read; the linked PDF download returned a cache miss, so the full report was not inspected.",
+          "reuse_terms": "No reuse terms inspected; status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "RWA-E-104",
+        "selected_source_id": "RWA-SRC-102",
+        "url": "https://learn.tearfund.org/en/resources/research-report/climate-vulnerability-in-rwanda",
+        "locator": "Publisher page, 'Climate vulnerability in Rwanda' summary, paragraph reporting the Huye and Gisagara index values.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 207436,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "RWA-E-104"
+      ],
+      "manual_verified_record_ids": [
+        "RWA-E-104"
+      ]
+    },
+    {
+      "source_id": "RWA-SRC-103",
+      "title": "Rwanda NDC Deep Dive: Advancing Financial Innovation to Scale up Climate Action (P172153), Implementation Completion and Results Report",
+      "organization": "World Bank",
+      "publication_date": "2024-06-24",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099062524171044559/pdf/P172153193b87a0e180eb19403ed3fc9a0.pdf",
+      "geographic_coverage": [
+        "Volcanoes Region",
+        "Burera District",
+        "Nyabihu District",
+        "Rubavu District",
+        "Musanze District",
+        "Gicumbi District"
+      ],
+      "temporal_coverage": "Implementation and results of the NDC Deep Dive project through 2024.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "RWA-E-108",
+        "RWA-E-109",
+        "RWA-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 47-page Implementation Completion and Results Report.",
+          "notes": "Relevant report sections on the Volcanoes Region, the Gicumbi Community Adaptation Fund, and the weather-information system were inspected.",
+          "reuse_terms": "No reuse terms inspected; status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "RWA-SRC-104",
+      "title": "Rwanda Emergency Connectivity Restoration Project (RECOR): Environmental and Social Management Framework (Draft)",
+      "organization": "Rwanda Transport Development Agency",
+      "publication_date": "2024-12",
+      "publication_date_basis": "document-version",
+      "url": "https://documents1.worldbank.org/curated/en/099050625121596001/pdf/P504023-1ae9b4f9-d7d6-426f-a7d7-efab803d014d.pdf",
+      "geographic_coverage": [
+        "Rwanda",
+        "Eastern Province",
+        "Western Province",
+        "Northern Province",
+        "Southern Province",
+        "20 districts"
+      ],
+      "temporal_coverage": "Draft project framework dated December 2024; includes May 2023 disaster impacts and planned reconstruction measures.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "RWA-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 251-page draft ESMF; especially Executive Summary and section 4.4.1.",
+          "notes": "The source was read for its road-disaster baseline, named project districts, and climate/displacement/conflict context statement.",
+          "reuse_terms": "No reuse terms inspected; status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "RWA-SRC-105",
+      "title": "World Bank Steps Up Support to Increase Rwanda's Resilience to Natural Disasters",
+      "organization": "World Bank",
+      "publication_date": "2025-09-30",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2025/09/30/world-bank-steps-up-support-to-increase-rwanda-s-resilience-to-natural-disasters",
+      "geographic_coverage": [
+        "Rwanda"
+      ],
+      "temporal_coverage": "Board approval announcement dated 2025-09-30.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "RWA-E-113"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Press release, paragraphs describing the approved operation and its three pillars.",
+          "notes": "The complete substantive press-release text was inspected; its statements are treated as approval and intent, not delivered outcomes.",
+          "reuse_terms": "No reuse terms inspected; status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "RWA-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RWA-SRC-001",
+          "locator": "PDF p. 31, section 2.1, observed temperature and rainfall changes"
+        }
+      ],
+      "geographies": [
+        "Rwanda",
+        "Northern Province",
+        "Western Province"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "NDC reports about 1.4°C warming since 1970; rainy seasons shortened and intensified, especially in north and west.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "RWA-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RWA-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RWA-SRC-001",
+          "locator": "PDF p. 32, projected national temperature change"
+        }
+      ],
+      "geographies": [
+        "Rwanda"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "RCP4.5 and RCP8.5",
+      "compact_statement": "By around 2050, mean annual temperature is projected 1.5-2.5 degrees C above recent levels under RCP4.5/RCP8.5.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "RWA-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RWA-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RWA-SRC-001",
+          "locator": "PDF p. 115, Box 1, May 2023 flood and landslide impacts"
+        }
+      ],
+      "geographies": [
+        "Rwanda",
+        "Nile-Congo divide"
+      ],
+      "affected_groups": [
+        "people in affected areas"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Heavy rain triggered May 2023 floods and landslides, causing 131 deaths and over 110 injuries along the Nile-Congo divide.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "RWA-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RWA-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RWA-SRC-001",
+          "locator": "PDF p. 115, 2024 East Africa rainfall attribution summary"
+        }
+      ],
+      "geographies": [
+        "East Africa",
+        "Rwanda"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "A cited study says 2024 East African rains/floods were twice as likely and 5% more intense due to human climate influence.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "RWA-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RWA-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RWA-SRC-001",
+          "locator": "PDF p. 116, housing damage and temporary accommodation from extreme events"
+        }
+      ],
+      "geographies": [
+        "Rwanda"
+      ],
+      "affected_groups": [
+        "people moved to temporary accommodation",
+        "households with damaged homes"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "NDC reports 58,760 homes damaged/destroyed by extreme weather in 2016-24; 18,000 people moved to temporary shelter in 2023.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "RWA-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RWA-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RWA-SRC-001",
+          "locator": "PDF p. 32, drought exposure in eastern and south-eastern lowland districts"
+        }
+      ],
+      "geographies": [
+        "Nyagatare",
+        "Kayonza",
+        "Kirehe",
+        "Bugesera"
+      ],
+      "affected_groups": [
+        "farmers",
+        "rural households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "NDC identifies Nyagatare, Kayonza, Kirehe and Bugesera as dry lowlands with frequent rainfall deficits.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "RWA-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RWA-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RWA-SRC-002",
+          "locator": "PDF p. 40, crop-yield analysis under wetter and drier RCP8.5 models"
+        }
+      ],
+      "geographies": [
+        "Rwanda"
+      ],
+      "affected_groups": [
+        "crop-producing households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "RCP8.5 wet (GFDL-ESM2M) and dry (MIROC-ESM-CHEM) climate models",
+      "compact_statement": "The modeled yield functions show crop-specific responses; although wetter conditions often yield net gains, the appendix identifies drier conditions as Rwanda's greatest crop risk.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "RWA-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RWA-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RWA-SRC-101",
+          "locator": "Repository abstract, paragraphs 1-2, survey design and vulnerability components."
+        }
+      ],
+      "geographies": [
+        "Northwestern Rwanda",
+        "50 sampled cells"
+      ],
+      "affected_groups": [
+        "surveyed households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "A 904-household survey across 50 northwestern cells found vulnerability varied across landslide, flood, and combined-hazard settings; location and living conditions, demographic traits, education and economic status, household structure, and prior disaster experience were contributing dimensions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RWA-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RWA-SRC-101",
+          "locator": "Repository abstract, paragraph 2, Contextualized Vulnerability Index results."
+        }
+      ],
+      "geographies": [
+        "Western part of the study area",
+        "25 higher-vulnerability cells"
+      ],
+      "affected_groups": [
+        "communities in sampled cells"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The contextualized index identified 25 higher-vulnerability cells, mainly in landslide-prone areas and concentrated in the western study area; the authors call for localized, hazard-specific mitigation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RWA-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RWA-SRC-101",
+          "locator": "Repository abstract, paragraph 2, vulnerability component results."
+        }
+      ],
+      "geographies": [
+        "50 sampled cells in northwestern Rwanda"
+      ],
+      "affected_groups": [
+        "surveyed households"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Land and property ownership reduced vulnerability in the study's component analysis, while the other four identified components were associated with increased vulnerability.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RWA-E-104",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "RWA-SRC-102",
+          "locator": "Publisher page, 'Climate vulnerability in Rwanda' summary, paragraph reporting the Huye and Gisagara index values."
+        }
+      ],
+      "geographies": [
+        "Huye District",
+        "Gisagara District"
+      ],
+      "affected_groups": [
+        "district communities",
+        "smallholder farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Tearfund reports that Huye's vulnerability index declined to 0.556 over the previous five years as adaptive capacity strengthened, while Gisagara's index rose to 0.626.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "RWA-E-104",
+        "source_id": "RWA-SRC-102",
+        "url": "https://learn.tearfund.org/en/resources/research-report/climate-vulnerability-in-rwanda",
+        "locator": "Publisher page, 'Climate vulnerability in Rwanda' summary, paragraph reporting the Huye and Gisagara index values.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+      },
+      "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "RWA-SRC-102",
+        "source_url": "https://learn.tearfund.org/en/resources/research-report/climate-vulnerability-in-rwanda",
+        "locator": "Publisher page, 'Climate vulnerability in Rwanda' summary, paragraph reporting the Huye and Gisagara index values.",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "RWA-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RWA-SRC-102",
+          "locator": "Publisher page, 'Climate vulnerability in Rwanda' summary, paragraph on smallholder adoption barriers."
+        }
+      ],
+      "geographies": [
+        "Huye District",
+        "Gisagara District"
+      ],
+      "affected_groups": [
+        "smallholder farmers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Smallholder farmers were willing to adopt agroforestry and terracing, but limited training, quality inputs, and finance impeded uptake.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RWA-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RWA-SRC-102",
+          "locator": "Publisher page, 'Climate vulnerability in Rwanda' summary, paragraph on policy implementation findings."
+        }
+      ],
+      "geographies": [
+        "Huye District",
+        "Gisagara District",
+        "Rwanda"
+      ],
+      "affected_groups": [
+        "most vulnerable communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The review found national climate strategies relevant to local communities and associated with positive changes, but identified coordination and targeted-support gaps affecting the most vulnerable communities.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RWA-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RWA-SRC-102",
+          "locator": "Publisher page, 'Climate vulnerability in Rwanda' summary, locally led restoration program description."
+        }
+      ],
+      "geographies": [
+        "Huye District",
+        "Gisagara District",
+        "Southern Province"
+      ],
+      "affected_groups": [
+        "women",
+        "local communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Tearfund described capacity-building for locally led restoration, especially with women, to strengthen community participation in environmental decisions and local monitoring and management skills.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RWA-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RWA-SRC-103",
+          "locator": "One-based PDF p.12, paragraph12(i), Flood Risk Management and Community Resilience in the Volcanoes Region Flagship Project."
+        }
+      ],
+      "geographies": [
+        "Volcanoes Region",
+        "Burera District",
+        "Nyabihu District",
+        "Rubavu District",
+        "Musanze District"
+      ],
+      "affected_groups": [
+        "residents",
+        "farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The completion report identifies Burera, Nyabihu, Rubavu and Musanze in the Volcanoes Region as highly climate-vulnerable; it associates major floods with landslides, erosion, crop losses and infrastructure damage.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RWA-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RWA-SRC-103",
+          "locator": "One-based PDF p.19, paragraph29, Community Adaptation Fund pilot in Gicumbi."
+        }
+      ],
+      "geographies": [
+        "Gicumbi District"
+      ],
+      "affected_groups": [
+        "cooperative members",
+        "women",
+        "rural communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2022-2023 Gicumbi Community Adaptation Fund pilot supported 2,324 people, including 47.7 percent women, in 25 cooperatives with training and funding; 192 more people in 64 cooperatives received business-planning training.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RWA-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RWA-SRC-103",
+          "locator": "One-based PDF p.18, paragraph25 and footnote9, Crop Insurance and Weather & Climate Database Systems."
+        }
+      ],
+      "geographies": [
+        "A few locations in Rwanda; locations not specified"
+      ],
+      "affected_groups": [
+        "farmers",
+        "crop insurers"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "A crop-insurance and weather-information database was piloted in a few locations, but the completion report's author could not verify its use, effectiveness, pilot count, or scaling timeline.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RWA-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RWA-SRC-104",
+          "locator": "PDF p.2 (printed p.i), Executive Summary; PDF p.5 (printed p.iv), prioritized districts."
+        }
+      ],
+      "geographies": [
+        "Gicumbi District",
+        "Musanze District",
+        "Gakenke District",
+        "Burera District",
+        "Rusizi District",
+        "Nyamasheke District",
+        "Karongi District",
+        "Rutsiro District",
+        "Nyabihu District",
+        "Ngororero District",
+        "Rubavu District",
+        "Nyamagabe District",
+        "Nyaruguru District",
+        "Huye District",
+        "Nyanza District",
+        "Ruhango District",
+        "Muhanga District",
+        "Kamonyi District",
+        "Bugesera District",
+        "Ngoma District"
+      ],
+      "affected_groups": [
+        "road users",
+        "farmers",
+        "local communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The framework cites 74 percent of district roads as landslide-exposed and lists flood- and landslide-damaged road and bridge sites in 20 districts across all four provinces after the May 2023 rains.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RWA-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RWA-SRC-105",
+          "locator": "World Bank press release, paragraphs beginning 'The World Bank Board' and 'The $141 million operation'."
+        }
+      ],
+      "geographies": [
+        "Rwanda"
+      ],
+      "affected_groups": [
+        "communities exposed to disasters"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "In September 2025 the World Bank approved a $141 million disaster-risk financing operation organized around risk information and coordination, built-environment resilience, and natural-resource management.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "RWA-E-104",
+  "source_access_review": {
+    "selected_record_id": "RWA-E-104",
+    "selected_source_id": "RWA-SRC-102",
+    "url": "https://learn.tearfund.org/en/resources/research-report/climate-vulnerability-in-rwanda",
+    "locator": "Publisher page, 'Climate vulnerability in Rwanda' summary, paragraph reporting the Huye and Gisagara index values.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 207436,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+  },
+  "checks": [
+    {
+      "record_id": "RWA-E-104",
+      "source_id": "RWA-SRC-102",
+      "locator": "Publisher page, 'Climate vulnerability in Rwanda' summary, paragraph reporting the Huye and Gisagara index values.",
+      "verification_status": "verified",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "RWA-E-104: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "RWA-E-001",
+    "RWA-E-002",
+    "RWA-E-003",
+    "RWA-E-004",
+    "RWA-E-005",
+    "RWA-E-006",
+    "RWA-E-007",
+    "RWA-E-101",
+    "RWA-E-102",
+    "RWA-E-103",
+    "RWA-E-104",
+    "RWA-E-105",
+    "RWA-E-106",
+    "RWA-E-107",
+    "RWA-E-108",
+    "RWA-E-109",
+    "RWA-E-110",
+    "RWA-E-112",
+    "RWA-E-113"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

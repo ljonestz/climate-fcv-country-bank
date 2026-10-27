@@ -25,6 +25,10 @@ def test_build_keeps_drafts_and_is_not_a_runtime_release(tmp_path):
     assert bundle['countries']['BDI']['status'] == 'draft'
     assert bundle['countries']['BDI']['reviewer'] is None
     assert bundle['countries']['BDI']['review_due'] is None
+    profile = json.loads((DRAFT / 'profile.json').read_text(encoding='utf-8'))
+    assert bundle['country_profiles']['BDI'] == {
+        'coverage': profile['coverage'], 'known_gaps': profile['known_gaps']
+    }
     assert all(r['review_status'] == 'draft' and r['review_date'] is None
                for r in bundle['evidence_records'])
     assert json.loads(output.read_text(encoding='utf-8')) == bundle

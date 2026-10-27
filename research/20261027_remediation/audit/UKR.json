@@ -1,0 +1,2059 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "UKR",
+  "candidate_path": "countries/UKR/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 16,
+    "evidence_count": 25,
+    "pathway_count": 6,
+    "evidence_source_reference_count": 31
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 16,
+      "access-only": 9
+    },
+    "pathway_claims": {
+      "unresolved": 6
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "UKR-E-001",
+          "UKR-E-002",
+          "UKR-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "UKR-E-003",
+          "UKR-E-005",
+          "UKR-E-010",
+          "UKR-E-013"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "UKR-E-006",
+          "UKR-E-102",
+          "UKR-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "UKR-E-008",
+          "UKR-E-009",
+          "UKR-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "UKR-E-016",
+          "UKR-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "UKR-E-004",
+          "UKR-E-101",
+          "UKR-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "UKR-E-014",
+          "UKR-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "UKR-E-007",
+          "UKR-E-011",
+          "UKR-E-012",
+          "UKR-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "UKR-E-015"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "UKR-E-101",
+          "UKR-E-102",
+          "UKR-E-103",
+          "UKR-E-104",
+          "UKR-E-105"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "UKR-P-001",
+          "UKR-P-002",
+          "UKR-P-003",
+          "UKR-P-004",
+          "UKR-P-005",
+          "UKR-P-006"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/UKR/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "UKR-SRC-001",
+      "title": "Ukraine: Building Climate Resilience in Agriculture and Forestry",
+      "organization": "World Bank Group",
+      "publication_date": "2022-01",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/893671643276478711/pdf/Ukraine-Building-Climate-Resilience-in-Agriculture-and-Forestry.pdf",
+      "geographic_coverage": [
+        "Ukraine",
+        "oblasts and agroclimatic zones"
+      ],
+      "temporal_coverage": "Observations mainly from the 1980s onward and RCP projections through 2100.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "UKR-E-001",
+        "UKR-E-002"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "UKR-SRC-002",
+      "title": "Ukraine's Climate Change Adaptation Communication to UNFCCC",
+      "organization": "Government of Ukraine and United Nations Framework Convention on Climate Change",
+      "publication_date": "2024-05-27",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/2025-05/Ukraine%201st%20Adaptation%20Communication.pdf",
+      "geographic_coverage": [
+        "Ukraine, national and sectoral with some subnational references"
+      ],
+      "temporal_coverage": "Historical evidence and policy status mainly through 2023-2024, with projections to 2100.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "UKR-E-002",
+        "UKR-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "UKR-SRC-003",
+      "title": "Ukraine Fifth Rapid Damage and Needs Assessment: February 2022-December 2025",
+      "organization": "Government of Ukraine, World Bank Group, European Commission and United Nations",
+      "publication_date": "2026-02-23",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-04/ukraine-fifth_rapid_damage_and_needs_assessment.pdf.pdf",
+      "geographic_coverage": [
+        "Ukraine, with sector, oblast and hromada detail where available"
+      ],
+      "temporal_coverage": "Damage through 31 December 2025, losses with an 18-month projection, and needs for 2026-2035.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "UKR-E-005",
+        "UKR-E-006",
+        "UKR-E-011",
+        "UKR-E-013"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "UKR-SRC-004",
+      "title": "Status of Environment and Climate in Ukraine: Assessing the Impact of War and Implications for Reconstruction",
+      "organization": "European Commission Joint Research Centre",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://publications.jrc.ec.europa.eu/repository/bitstream/JRC141480/JRC141480_01.pdf",
+      "geographic_coverage": [
+        "Ukraine, with mapped subnational and ecosystem evidence"
+      ],
+      "temporal_coverage": "Pre-war baseline through approximately 2024-2025.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "open",
+      "records_using_source": [
+        "UKR-E-011",
+        "UKR-E-012",
+        "UKR-E-016"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "UKR-SRC-005",
+      "title": "Attacks against Ukraine's Energy Infrastructure and Update on the Human Rights Situation in Ukraine, 1 December 2025-31 May 2026",
+      "organization": "Office of the United Nations High Commissioner for Human Rights",
+      "publication_date": "2026-06-29",
+      "publication_date_basis": "publication",
+      "url": "https://ukraine.ohchr.org/sites/default/files/2026-06/2026-06-29%20PR44.pdf",
+      "geographic_coverage": [
+        "Government-controlled Ukraine and selected affected cities and facilities"
+      ],
+      "temporal_coverage": "1 December 2025 through 31 May 2026.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "UKR-E-007",
+        "UKR-E-008"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "UKR-E-007",
+        "selected_source_id": "UKR-SRC-005",
+        "url": "https://ukraine.ohchr.org/sites/default/files/2026-06/2026-06-29%20PR44.pdf",
+        "locator": "p. 5 (report p. 1) and pp. 11-12 (report pp. 7-8), energy and household service impacts",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 2852853,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "UKR-SRC-006",
+      "title": "Rapid Environmental Assessment of Kakhovka Dam Breach, Ukraine, 2023",
+      "organization": "United Nations Environment Programme and UNEP-DHI",
+      "publication_date": "2023-10",
+      "publication_date_basis": "publication",
+      "url": "https://unepdhi.org/wp-content/uploads/sites/2/2023/11/UNEP_Kakhovka_Dam_Breach_Ukraine_Assessment.pdf",
+      "geographic_coverage": [
+        "Lower Dnipro, Kakhovka reservoir, downstream and irrigation-dependent areas"
+      ],
+      "temporal_coverage": "June-October 2023 with longer-term risk discussion.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "open",
+      "records_using_source": [
+        "UKR-E-010",
+        "UKR-E-016"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "UKR-SRC-007",
+      "title": "Impact of the Russia-Ukraine Armed Conflict on Water Resources and Water Infrastructure",
+      "organization": "Shumilova et al., Nature Sustainability",
+      "publication_date": "2023-03-02",
+      "publication_date_basis": "publication",
+      "url": "https://www.nature.com/articles/s41893-023-01068-x",
+      "geographic_coverage": [
+        "Ukraine, concentrated in eastern and southern incident evidence"
+      ],
+      "temporal_coverage": "Mainly the first three months after 24 February 2022.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "UKR-E-009"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "UKR-SRC-008",
+      "title": "Rebuilding Ukraine by Reinforcing Regional and Municipal Governance",
+      "organization": "Organisation for Economic Co-operation and Development",
+      "publication_date": "2022-12",
+      "publication_date_basis": "publication",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/12/rebuilding-ukraine-by-reinforcing-regional-and-municipal-governance_63099658/63a6b479-en.pdf",
+      "geographic_coverage": [
+        "Ukraine, regional, rayon and municipal"
+      ],
+      "temporal_coverage": "Primarily pre-February 2022 capacity evidence interpreted for recovery.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "UKR-E-013"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "UKR-SRC-009",
+      "title": "Final Evaluation of Mykolaiv Recovered",
+      "organization": "United Nations Development Programme Evaluation Resource Centre / external evaluation team",
+      "publication_date": "2026-02",
+      "publication_date_basis": "publication",
+      "url": "https://erc.undp.org/evaluation/documents/download/25307",
+      "geographic_coverage": [
+        "Mykolaiv Oblast and participating municipalities and institutions"
+      ],
+      "temporal_coverage": "Project from July 2023 through December 2025; evaluation October 2025-February 2026.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "UKR-E-014",
+        "UKR-E-015"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "UKR-SRC-010",
+      "title": "Ukraine: Reframing the Narrative of Climate, Environmental Degradation and Conflict",
+      "organization": "adelphi / Weathering Risk / International Rescue Committee",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://weatheringrisk.org/sites/default/files/document/Ukraine_Reframing_the_Narrative_of_Climate_Environmental_Degradation_and_Conflict.pdf",
+      "geographic_coverage": [
+        "Ukraine, with southern, eastern and community examples"
+      ],
+      "temporal_coverage": "Primarily 2022-2024 with pre-war climate baseline.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "UKR-E-012"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "UKR-SRC-011",
+      "title": "Priorities for Agricultural Support in Ukraine",
+      "organization": "World Bank Group",
+      "publication_date": "2024-05-03",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099062524074615884/pdf/P1801981319afe091b8b71b33b7a901d4e.pdf",
+      "geographic_coverage": [
+        "Ukraine, national and agroecological with east-central hotspots"
+      ],
+      "temporal_coverage": "War context through 2024 with climate scenarios at 1.5 and 3 degrees Celsius warming.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "UKR-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "UKR-SRC-012",
+      "title": "Policy Brief: State Strategy on Internal Displacement",
+      "organization": "United Nations High Commissioner for Refugees Ukraine",
+      "publication_date": "2026-07",
+      "publication_date_basis": "publication",
+      "url": "https://data.unhcr.org/en/documents/download/123144",
+      "geographic_coverage": [
+        "Ukraine, national, regional and community implementation"
+      ],
+      "temporal_coverage": "Strategy period 2026-2030.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "UKR-E-013"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "UKR-SRC-101",
+      "title": "Southern Bug River: water security and climate changes perspectives for post-war city of Mykolaiv, Ukraine",
+      "organization": "Snizhko et al., Frontiers in Water",
+      "publication_date": "2024-10-02",
+      "publication_date_basis": "publication",
+      "url": "https://www.frontiersin.org/journals/water/articles/10.3389/frwa.2024.1447378/full",
+      "geographic_coverage": [
+        "Mykolaiv",
+        "Southern Bug River",
+        "Nova Odesa",
+        "Dnipro-Mykolaiv water-supply system"
+      ],
+      "temporal_coverage": "Water-supply disruption from April 2022; water-quality conditions reported in the study; hydrological projections for near-future 2021–2050 and far-future 2051–2080.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "UKR-E-101",
+        "UKR-E-102",
+        "UKR-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full article including sections 1–4, hydrological methods, local supply conditions and scenario results.",
+          "notes": "Publisher article body was read directly; future estimates are reported only with the specified SSP and horizon.",
+          "reuse_terms": "No separate licence checked; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "UKR-SRC-102",
+      "title": "Water quality in the Dnipro–Donbas canal (Ukraine) under conditions of war and climate change",
+      "organization": "Onopriienko et al., Discover Water",
+      "publication_date": "2026-04-25",
+      "publication_date_basis": "publication",
+      "url": "https://link.springer.com/article/10.1007/s43832-026-00387-2",
+      "geographic_coverage": [
+        "Dnipro–Donbas Main Canal",
+        "Dnipropetrovsk Region",
+        "Donetsk Region",
+        "Poltava Region",
+        "Kharkiv Region",
+        "Kamianske Reservoir",
+        "Krasnopavlivka Reservoir"
+      ],
+      "temporal_coverage": "Monitoring observations from 2015–2024; discussion of post-2023 infrastructure changes; author projection to 2050.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "UKR-E-104",
+        "UKR-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full article, including abstract, study area, monitoring methods, results and conclusions.",
+          "notes": "Publisher article body was directly read; limited seasonal sampling and the authors' dual-pressure wording are retained.",
+          "reuse_terms": "No separate licence checked; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "UKR-SRC-103",
+      "title": "UNDP Ukraine Annual Report 2025: Resilient Recovery and Inclusive Development",
+      "organization": "United Nations Development Programme, Ukraine",
+      "publication_date": "2026-04-22",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-04/undp-ukraine-annual-report-2025-eng_1.pdf",
+      "geographic_coverage": [
+        "Ukraine",
+        "22 cities participating in municipal solar-energy contracts"
+      ],
+      "temporal_coverage": "UNDP-reported programme activities and results during 2025; report published 22 April 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "UKR-E-106",
+        "UKR-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 16-page annual report; printed pp. 10–13, mine action, energy support and municipal solar sections.",
+          "notes": "Complete official PDF read directly; reported implementation outputs are attributed to UNDP.",
+          "reuse_terms": "No separate licence checked; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "UKR-SRC-104",
+      "title": "Розподілена генерація в Україні: як децентралізовані рішення допомагають тримати тепло та водопостачання в умовах війни",
+      "organization": "Ministry for Communities and Territories Development of Ukraine",
+      "publication_date": "2026-01-04",
+      "publication_date_basis": "portal-publication",
+      "url": "https://mininfra.gov.ua/news/rozpodilena-heneratsiia-v-ukraini-iak-detsentralizovani-rishennia-dopomahaiut-trymaty-teplo-ta-vodopostachannia-v-umovakh-viiny",
+      "geographic_coverage": [
+        "Ukraine",
+        "frontline oblasts",
+        "municipal heat and water systems"
+      ],
+      "temporal_coverage": "Government-reported commissioning and support through 4 January 2026; includes 2025 implementation figures and 2026 plans.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "UKR-E-108",
+        "UKR-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full Ukrainian-language ministry news page, including 2025 commissioning and frontline-oblast support paragraphs.",
+          "notes": "Official page body was directly read; translated figures distinguish commissioned capacity, capability statements and planned additions.",
+          "reuse_terms": "No separate reuse terms checked; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "UKR-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-001",
+          "locator": "pp. 15 and 31, executive summary climate paragraph and Table 1"
+        }
+      ],
+      "geographies": [
+        "Ukraine"
+      ],
+      "affected_groups": [
+        "outdoor workers",
+        "farmers",
+        "urban residents"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "historical",
+        "long-term"
+      ],
+      "scenario": "RCP4.5 and RCP8.5 through 2081-2100",
+      "compact_statement": "Observed and projected warming raises Ukraine's heat baseline.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "UKR-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UKR-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-002",
+          "locator": "pp. 3 and 16, executive summary and precipitation and hazard paragraphs"
+        },
+        {
+          "source_id": "UKR-SRC-001",
+          "locator": "pp. 16-17, executive summary regional and seasonal projections"
+        }
+      ],
+      "geographies": [
+        "southern Ukraine",
+        "central Ukraine",
+        "northern Ukraine",
+        "western Ukraine"
+      ],
+      "affected_groups": [
+        "farmers",
+        "urban residents",
+        "forest communities"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "current",
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "Multiple RCP pathways",
+      "compact_statement": "Heat, drought, flood, wildfire, and seasonal pressures vary geographically.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "UKR-SRC-001",
+        "UKR-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UKR-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-011",
+          "locator": "p. 16, Box 3, green-water-scarcity estimates"
+        }
+      ],
+      "geographies": [
+        "Ukraine",
+        "east-central Ukraine"
+      ],
+      "affected_groups": [
+        "rainfed farmers",
+        "agricultural workers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "1.5 and 3 degrees Celsius warming levels",
+      "compact_statement": "Warming can substantially expand rainfed-cropland water exposure.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "UKR-SRC-011"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UKR-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-002",
+          "locator": "PDF pp. 31-33 (printed pp. 26-28), section 3.3 and \"Means of Adaptation Implementation and Support Needs\""
+        }
+      ],
+      "geographies": [
+        "Ukraine"
+      ],
+      "affected_groups": [
+        "users of local public services"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Data, staffing, coordination, appraisal, and monitoring constrain adaptation delivery.",
+      "concerns": [],
+      "screening_cues": [
+        "programme_intent_and_outcome_terms_co-occur"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "UKR-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UKR-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-003",
+          "locator": "pp. 6-7, definitions and overview table"
+        }
+      ],
+      "geographies": [
+        "Ukraine",
+        "frontline areas",
+        "occupied areas with data gaps"
+      ],
+      "affected_groups": [
+        "residents of war-affected areas",
+        "displaced people",
+        "service users"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current",
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "War destruction has altered the systems and assets underlying climate exposure and recovery.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "UKR-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UKR-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-003",
+          "locator": "p. 35 (report p. 33), Irrigation and Water Resources chapter"
+        }
+      ],
+      "geographies": [
+        "southern Ukraine",
+        "eastern Ukraine"
+      ],
+      "affected_groups": [
+        "irrigated farmers",
+        "women farmers",
+        "female-headed households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "War-related irrigation loss sharply reduced production in affected systems.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "UKR-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UKR-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-005",
+          "locator": "p. 5 (report p. 1) and pp. 11-12 (report pp. 7-8), energy and household service impacts"
+        }
+      ],
+      "geographies": [
+        "government-controlled Ukraine",
+        "documented urban cases"
+      ],
+      "affected_groups": [
+        "older people",
+        "persons with disabilities",
+        "children",
+        "low-income residents"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Attacks converted severe cold exposure into multisystem service failure.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "UKR-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+      "verification_attempt": {
+        "selected_record_id": "UKR-E-007",
+        "selected_source_id": "UKR-SRC-005",
+        "url": "https://ukraine.ohchr.org/sites/default/files/2026-06/2026-06-29%20PR44.pdf",
+        "locator": "p. 5 (report p. 1) and pp. 11-12 (report pp. 7-8), energy and household service impacts",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 2852853,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "UKR-E-008",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-005",
+          "locator": "pp. 11-12 (report pp. 7-8), household and service-impact sections"
+        }
+      ],
+      "geographies": [
+        "government-controlled cities"
+      ],
+      "affected_groups": [
+        "older people",
+        "persons with disabilities",
+        "high-rise residents"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Emergency coping reduced but did not equalize outage impacts.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "UKR-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UKR-E-009",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-007",
+          "locator": "Results section, 'Impacts on water resources and infrastructure' and geographic-results paragraphs"
+        }
+      ],
+      "geographies": [
+        "Donetsk",
+        "Luhansk",
+        "other reported Ukrainian settlements"
+      ],
+      "affected_groups": [
+        "residents of conflict-affected settlements"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Hostilities rapidly disrupted water systems and reduced coping capacity.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "UKR-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UKR-E-010",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-006",
+          "locator": "p. 10 (report p. ix) and p. 88 (report p. 74), impact summary and long-term effects"
+        }
+      ],
+      "geographies": [
+        "Lower Dnipro",
+        "former Kakhovka reservoir"
+      ],
+      "affected_groups": [
+        "evacuated residents",
+        "farmers",
+        "fishing communities",
+        "downstream settlements"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current",
+        "long-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Kakhovka caused simultaneous inundation and desiccation as a conflict-related infrastructure disaster.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "UKR-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UKR-E-011",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-003",
+          "locator": "p. 44 (report p. 42), Environment chapter"
+        },
+        {
+          "source_id": "UKR-SRC-004",
+          "locator": "PDF pp. 42-50, chapters 5-6 on forest cover/fire and soil degradation/contamination"
+        }
+      ],
+      "geographies": [
+        "frontline areas",
+        "formerly occupied areas",
+        "contaminated areas"
+      ],
+      "affected_groups": [
+        "farmers",
+        "rural households",
+        "returnees",
+        "forestry workers"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current",
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict-related environmental degradation may erode foundations of climate resilience.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "UKR-SRC-003",
+        "UKR-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UKR-E-012",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-004",
+          "locator": "pp. 37-44, forest-fire spatial analysis and climate-risk sections"
+        },
+        {
+          "source_id": "UKR-SRC-010",
+          "locator": "pp. 2-8 and 16, climate-environment-conflict framing and causal cautions"
+        }
+      ],
+      "geographies": [
+        "eastern Ukraine",
+        "southern Ukraine",
+        "combat-affected forests"
+      ],
+      "affected_groups": [
+        "firefighters",
+        "forest communities",
+        "land managers"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current",
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Climate fire weather and conflict constraints can compound wildfire risk.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "UKR-SRC-004",
+        "UKR-SRC-010"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UKR-E-013",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-003",
+          "locator": "pp. 14-15 and 66-67, displacement and service-demand evidence"
+        },
+        {
+          "source_id": "UKR-SRC-008",
+          "locator": "p. 285 (report p. 283), municipal staffing survey"
+        },
+        {
+          "source_id": "UKR-SRC-012",
+          "locator": "pp. 1-3, IDP strategy targets, responsibilities, and implementation timing"
+        }
+      ],
+      "geographies": [
+        "frontline municipalities",
+        "host municipalities",
+        "return areas",
+        "Ukraine"
+      ],
+      "affected_groups": [
+        "internally displaced people",
+        "returnees",
+        "host communities",
+        "rural residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Displacement and uneven municipal capacity create differentiated local vulnerability.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "UKR-SRC-003",
+        "UKR-SRC-008",
+        "UKR-SRC-012"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UKR-E-014",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-009",
+          "locator": "pp. 3-6 and 10, executive findings, conclusions, and recommendations"
+        }
+      ],
+      "geographies": [
+        "Mykolaiv Oblast"
+      ],
+      "affected_groups": [
+        "local residents",
+        "internally displaced people",
+        "persons with disabilities",
+        "older people",
+        "small grantees"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Independent evaluation found recovery gains and environmental, inclusion, and transaction-cost trade-offs.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "UKR-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UKR-E-015",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-009",
+          "locator": "pp. 3 and 6, executive summary and conclusions on services, recovery offices, capacity, and sustainability"
+        }
+      ],
+      "geographies": [
+        "Mykolaiv Oblast"
+      ],
+      "affected_groups": [
+        "local residents",
+        "internally displaced people",
+        "service users"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Area-based recovery created selected local resilience and coordination capacity.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "UKR-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UKR-E-016",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-004",
+          "locator": "p. 6 and local-governance section, Covenant of Mayors participation and plan counts"
+        },
+        {
+          "source_id": "UKR-SRC-006",
+          "locator": "p. 85 (report p. 71), reconstruction recommendations"
+        }
+      ],
+      "geographies": [
+        "participating municipalities",
+        "Lower Dnipro",
+        "southern irrigation systems"
+      ],
+      "affected_groups": [
+        "municipal residents",
+        "farmers",
+        "water users",
+        "downstream communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current",
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Municipal planning participation and climate-informed reconstruction recommendations indicate potential adaptive capacity, not implementation outcomes.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "UKR-SRC-004",
+        "UKR-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UKR-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-101",
+          "locator": "Section 1, paragraph describing the April 2022 damage to the Dnipro–Mykolaiv pipeline."
+        }
+      ],
+      "geographies": [
+        "Mykolaiv",
+        "Dnipro–Mykolaiv pipeline"
+      ],
+      "affected_groups": [
+        "Mykolaiv residents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-10-02 reports: Military operations destroyed Mykolaiv’s Dnipro intake on 12 April 2022, cutting drinking water to the city’s roughly 470,000 residents.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UKR-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-101",
+          "locator": "Section 2.1, paragraphs on alternative wells and water delivery to remote parts of Mykolaiv."
+        }
+      ],
+      "geographies": [
+        "Mykolaiv",
+        "remote parts of Mykolaiv"
+      ],
+      "affected_groups": [
+        "residents of remote urban areas"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-10-02 reports: By 2024, remote-area wells yielded 5,000–10,000 m³/day against pre-war demand of at least 80,000; reported quality exceeded drinking-water limits and water was trucked daily.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UKR-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-101",
+          "locator": "Sections 2.3.1–2.3.2 and 3, modeled flow results for the proposed Southern Bug supply."
+        }
+      ],
+      "geographies": [
+        "Southern Bug River",
+        "Nova Odesa",
+        "Mykolaiv"
+      ],
+      "affected_groups": [
+        "Mykolaiv water users"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "SSP5-8.5; far-future 2051–2080, as specified by the authors.",
+      "compact_statement": "For Mykolaiv's proposed Southern Bug alternative, the study models water-supply plus minimum environmental-flow requirements reaching 40–79% of flow in May–October 2051–2080 under SSP5-8.5.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UKR-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-102",
+          "locator": "Abstract and section 2.1, study-area description after the 2023 Kakhovka destruction."
+        }
+      ],
+      "geographies": [
+        "Dnipro–Donbas Main Canal",
+        "steppe zone of Ukraine"
+      ],
+      "affected_groups": [
+        "canal-dependent communities",
+        "farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-25 reports: The study says the 2023 Kakhovka destruction increased the Dnipro–Donbas canal’s importance as a water and food-security route for Ukraine’s steppe zone.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UKR-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-102",
+          "locator": "Abstract and section 5, conclusions on monitoring results and combined pressures."
+        }
+      ],
+      "geographies": [
+        "Dnipro–Donbas Main Canal"
+      ],
+      "affected_groups": [
+        "canal-dependent farmers",
+        "water users"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-25 reports: From 2015–2024, up to one-quarter of sampled canal water during low-flow periods was classed as only limited-suitability irrigation water; the authors attribute salinity changes to low flows, evaporation and combined climate and infrastructure pressures.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UKR-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-103",
+          "locator": "Printed p. 12, energy-services results and municipal solar contracts."
+        }
+      ],
+      "geographies": [
+        "Ukraine",
+        "22 participating cities"
+      ],
+      "affected_groups": [
+        "residents served by participating facilities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-22 reports: UNDP reports 30 municipal ESCO solar contracts across 22 cities, totalling 5.1 MW and intended to serve 541,000 people; it says these installations eased pressure on damaged grids and helped maintain services during attacks and outages.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UKR-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-103",
+          "locator": "Printed p. 12, energy recovery results paragraph."
+        }
+      ],
+      "geographies": [
+        "Ukraine"
+      ],
+      "affected_groups": [
+        "people reliant on supported energy services"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-22 reports: UNDP reports energy equipment support that restored or maintained services for more than 6.6 million people; it also says attacks delayed commissioning of several units.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UKR-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-104",
+          "locator": "Paragraphs on distributed generation commissioned and municipal heat/water operation."
+        }
+      ],
+      "geographies": [
+        "Ukraine",
+        "municipal heat and water systems"
+      ],
+      "affected_groups": [
+        "municipal residents",
+        "utility users"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-01-04 reports: The ministry reported that more than 570 MW of new public-sector distributed-generation capacity had been commissioned by January 2026; it says modular boilers and co-generation can operate near users when large facilities are damaged or de-energized.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "UKR-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "UKR-SRC-104",
+          "locator": "Paragraph on 2025 support for frontline oblasts."
+        }
+      ],
+      "geographies": [
+        "frontline oblasts of Ukraine"
+      ],
+      "affected_groups": [
+        "residents of frontline oblasts",
+        "utility users"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-01-04 reports: The ministry says UAH 665 million was allocated in 2025 to frontline oblasts for fuel supporting municipal and critical-infrastructure operation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "UKR-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "UKR-E-001",
+        "UKR-E-002",
+        "UKR-E-003",
+        "UKR-E-005",
+        "UKR-E-006",
+        "UKR-E-011"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "UKR-E-001",
+          "UKR-E-002",
+          "UKR-E-003"
+        ],
+        "impact": [
+          "UKR-E-003",
+          "UKR-E-006"
+        ],
+        "mediator": [
+          "UKR-E-005",
+          "UKR-E-006",
+          "UKR-E-011"
+        ],
+        "consequence": [
+          "UKR-E-003",
+          "UKR-E-011"
+        ]
+      },
+      "geographies": [
+        "southern Ukraine",
+        "eastern Ukraine",
+        "east-central Ukraine"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Heat and drought may deepen agricultural losses where war has damaged irrigation, assets, access, logistics, and adaptive capacity.",
+      "alternative_explanations": [
+        "Military damage, occupation, mines, input prices, trade disruption, farm policy, and labour shortages can reduce production without a climate shock."
+      ],
+      "uncertainty": "Climate exposure and war damage are separately documented, but their joint contribution to observed production is not estimated.",
+      "potentially_out_of_scope_support_ids": [
+        "UKR-E-001",
+        "UKR-E-005",
+        "UKR-E-011"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "UKR-P-002",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "UKR-E-001",
+        "UKR-E-002",
+        "UKR-E-005",
+        "UKR-E-007",
+        "UKR-E-008"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "UKR-E-001",
+          "UKR-E-002",
+          "UKR-E-007"
+        ],
+        "impact": [
+          "UKR-E-007",
+          "UKR-E-008"
+        ],
+        "mediator": [
+          "UKR-E-005",
+          "UKR-E-007",
+          "UKR-E-008"
+        ],
+        "consequence": [
+          "UKR-E-007",
+          "UKR-E-008"
+        ]
+      },
+      "geographies": [
+        "government-controlled Ukraine",
+        "documented affected cities"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "direct",
+      "compact_statement": "War-damaged energy systems can convert severe weather into cascading and unequal heating, water, health, and education failures.",
+      "alternative_explanations": [
+        "Infrastructure age, maintenance, poverty, and centralized design can create outages and unequal service access without warfare or climate change."
+      ],
+      "uncertainty": "The observed cold-war interaction is direct, but cold is not attributed to climate change and future heat interactions are inferential.",
+      "potentially_out_of_scope_support_ids": [
+        "UKR-E-001",
+        "UKR-E-002",
+        "UKR-E-005",
+        "UKR-E-008"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "UKR-P-003",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "UKR-E-002",
+        "UKR-E-006",
+        "UKR-E-009",
+        "UKR-E-010",
+        "UKR-E-011",
+        "UKR-E-016"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "UKR-E-002"
+        ],
+        "impact": [
+          "UKR-E-006",
+          "UKR-E-009",
+          "UKR-E-010"
+        ],
+        "mediator": [
+          "UKR-E-006",
+          "UKR-E-009",
+          "UKR-E-010",
+          "UKR-E-011"
+        ],
+        "consequence": [
+          "UKR-E-011",
+          "UKR-E-016"
+        ]
+      },
+      "geographies": [
+        "Lower Dnipro",
+        "southern Ukraine",
+        "eastern Ukraine",
+        "irrigation-dependent areas"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "War damage to water and irrigation systems can magnify drought and flood vulnerability by reducing flexibility, access, monitoring, and ecosystem functions.",
+      "alternative_explanations": [
+        "Pre-war infrastructure condition, water policy, abstraction, land use, and ordinary hydrological variability also determine water-system performance."
+      ],
+      "uncertainty": "War impacts on water, irrigation and hydrology are observed, while the additional effect on future climate losses, ecosystem functions and reconstruction alternatives remains unquantified and partly recommendation-based.",
+      "potentially_out_of_scope_support_ids": [
+        "UKR-E-009",
+        "UKR-E-011"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "UKR-P-004",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "UKR-E-002",
+        "UKR-E-011",
+        "UKR-E-012"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "UKR-E-002",
+          "UKR-E-012"
+        ],
+        "impact": [
+          "UKR-E-011",
+          "UKR-E-012"
+        ],
+        "mediator": [
+          "UKR-E-011",
+          "UKR-E-012"
+        ],
+        "consequence": [
+          "UKR-E-012"
+        ]
+      },
+      "geographies": [
+        "eastern Ukraine",
+        "southern Ukraine",
+        "combat-affected forests"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Climate fire weather and warfare can compound wildfire risk through added ignition, explosive contamination, restricted access, and weakened suppression.",
+      "alternative_explanations": [
+        "Land management, agricultural burning, accidental ignition, fuel accumulation, and ordinary weather variability shape fire outcomes."
+      ],
+      "uncertainty": "Component mechanisms and spatial overlap are supported, but event-by-event attribution to climate or warfare is absent.",
+      "potentially_out_of_scope_support_ids": [
+        "UKR-E-011"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "UKR-P-005",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "UKR-E-001",
+        "UKR-E-002",
+        "UKR-E-004",
+        "UKR-E-005",
+        "UKR-E-013"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "UKR-E-001",
+          "UKR-E-002"
+        ],
+        "impact": [
+          "UKR-E-005",
+          "UKR-E-013"
+        ],
+        "mediator": [
+          "UKR-E-004",
+          "UKR-E-013"
+        ],
+        "consequence": [
+          "UKR-E-013"
+        ]
+      },
+      "geographies": [
+        "frontline municipalities",
+        "host municipalities",
+        "return areas",
+        "rural municipalities"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "War displacement and uneven municipal capacity can make climate exposure, service pressure, and recovery highly unequal across places and groups.",
+      "alternative_explanations": [
+        "Pre-war territorial inequality, decentralization design, fiscal policy, economic geography, and demographic change affect municipal capacity independently."
+      ],
+      "uncertainty": "Population and capacity differences are documented but not causally linked to climate outcomes across municipalities.",
+      "potentially_out_of_scope_support_ids": [
+        "UKR-E-001",
+        "UKR-E-002",
+        "UKR-E-004",
+        "UKR-E-005"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "UKR-P-006",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "UKR-E-004",
+        "UKR-E-014",
+        "UKR-E-015",
+        "UKR-E-016"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "UKR-E-016"
+        ],
+        "impact": [
+          "UKR-E-014",
+          "UKR-E-016"
+        ],
+        "mediator": [
+          "UKR-E-004",
+          "UKR-E-014",
+          "UKR-E-015"
+        ],
+        "consequence": [
+          "UKR-E-014",
+          "UKR-E-015",
+          "UKR-E-016"
+        ]
+      },
+      "geographies": [
+        "Ukraine",
+        "Mykolaiv Oblast",
+        "Lower Dnipro",
+        "participating municipalities"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Climate-informed, inclusive recovery can reduce lock-in, while fragmented or rushed investment may reproduce vulnerability, exclusion, and mistrust.",
+      "alternative_explanations": [
+        "Security conditions, donor requirements, macroeconomic constraints, legal reform, and ordinary project-management quality shape recovery outcomes."
+      ],
+      "uncertainty": "Local evaluation and formal planning evidence do not establish national climate-resilience or peace effects.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "UKR-E-007",
+  "source_access_review": {
+    "selected_record_id": "UKR-E-007",
+    "selected_source_id": "UKR-SRC-005",
+    "url": "https://ukraine.ohchr.org/sites/default/files/2026-06/2026-06-29%20PR44.pdf",
+    "locator": "p. 5 (report p. 1) and pp. 11-12 (report pp. 7-8), energy and household service impacts",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "document-fetched",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 2852853,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null
+  },
+  "checks": [
+    {
+      "record_id": "UKR-E-007",
+      "source_id": "UKR-SRC-005",
+      "locator": "p. 5 (report p. 1) and pp. 11-12 (report pp. 7-8), energy and household service impacts",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+      "access_date": "2026-10-27",
+      "source_access_status": "document-fetched",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "UKR-E-007: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "UKR-E-001",
+    "UKR-E-002",
+    "UKR-E-003",
+    "UKR-E-004",
+    "UKR-E-005",
+    "UKR-E-006",
+    "UKR-E-007",
+    "UKR-E-008",
+    "UKR-E-009",
+    "UKR-E-010",
+    "UKR-E-011",
+    "UKR-E-012",
+    "UKR-E-013",
+    "UKR-E-014",
+    "UKR-E-015",
+    "UKR-E-016",
+    "UKR-E-101",
+    "UKR-E-102",
+    "UKR-E-103",
+    "UKR-E-104",
+    "UKR-E-105",
+    "UKR-E-106",
+    "UKR-E-107",
+    "UKR-E-108",
+    "UKR-E-109",
+    "UKR-P-001",
+    "UKR-P-002",
+    "UKR-P-003",
+    "UKR-P-004",
+    "UKR-P-005",
+    "UKR-P-006"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

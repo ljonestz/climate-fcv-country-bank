@@ -1,0 +1,861 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "BLR",
+  "candidate_path": "countries/BLR/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 5,
+    "evidence_count": 11,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 11
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 10,
+      "verified": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "BLR-E-104",
+          "BLR-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "BLR-E-106",
+          "BLR-E-107",
+          "BLR-E-109",
+          "BLR-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BLR-E-110",
+          "BLR-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BLR-E-102",
+          "BLR-E-103",
+          "BLR-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "BLR-E-104",
+          "BLR-E-105",
+          "BLR-E-106",
+          "BLR-E-109",
+          "BLR-E-110",
+          "BLR-E-111",
+          "BLR-E-112"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/BLR/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "BLR-SRC-101",
+      "title": "Report on the technical review of the eighth national communication and the fifth biennial report of Belarus",
+      "organization": "United Nations Framework Convention on Climate Change expert review team",
+      "publication_date": "2024-02-07",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/resource/idr8_trr5_BLR.pdf",
+      "geographic_coverage": [
+        "Belarus"
+      ],
+      "temporal_coverage": "Reviews Belarus's NC8 and BR5 submissions for 2022; expert review held in October 2023.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BLR-E-102",
+        "BLR-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "One-based PDF pp. 19–20, 31 and 34",
+          "notes": "Read the vulnerability/adaptation table, policy summary and review findings on hydrometeorological data exchange.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BLR-SRC-102",
+      "title": "Towards Water Security in Belarus: A Synthesis Report",
+      "organization": "Organisation for Economic Co-operation and Development",
+      "publication_date": "2020-12-18",
+      "publication_date_basis": "publication",
+      "url": "https://www.oecd.org/en/publications/towards-water-security-in-belarus_488183c4-en/full-report/component-5.html",
+      "geographic_coverage": [
+        "Belarus",
+        "Gomel oblast",
+        "Minsk oblast",
+        "Kopyl rayon",
+        "Grodno oblast",
+        "Brest oblast",
+        "Pripyat river basin"
+      ],
+      "temporal_coverage": "Historical river records through 2015; local water-system data mainly from 2018–2019; selected projections through 2035.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BLR-E-104",
+        "BLR-E-105",
+        "BLR-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Sections 2.1.1, 2.2.3 and 2.2.4",
+          "notes": "Opened the full English report and read the cited historical hydrology, Gomel projection and Kopyl access passages.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BLR-SRC-103",
+      "title": "Climate Change and Security in Eastern Europe: Regional Assessment",
+      "organization": "Environment and Security Initiative (OSCE, UNDP, UN Environment, UNECE and REC)",
+      "publication_date": "2017-11-09",
+      "publication_date_basis": "publication",
+      "url": "https://www.osce.org/sites/default/files/f/documents/8/1/355496.pdf",
+      "geographic_coverage": [
+        "Belarus",
+        "Polesie",
+        "Polesie State Radioecological Reserve",
+        "Chornobyl exclusion zone",
+        "Pripyat river basin"
+      ],
+      "temporal_coverage": "Regional assessment based on desk review and consultations in 2014 and 2016; published 2017.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BLR-E-107",
+        "BLR-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "One-based PDF p. 34, section 6.1.3; cover and methodology sections also reviewed",
+          "notes": "Opened the full 51-page regional assessment; reviewed its Polesie/Chornobyl hotspot and consultation methodology.",
+          "reuse_terms": "Not inspected; report states views are those of authors and may not represent partner organizations.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BLR-SRC-104",
+      "title": "Peatland rehabilitation as a response to drought and sand storms in Belarus: Experience of UN Convention to Combat Desertification",
+      "organization": "United Nations Convention to Combat Desertification",
+      "publication_date": "2020",
+      "publication_date_basis": "publication",
+      "url": "https://www.unccd.int/resources/unccd-library/peatland-rehabilitation-response-drought-and-sand-storms-belarus-experience",
+      "geographic_coverage": [
+        "Belarus",
+        "Gomel region",
+        "Mogilev region",
+        "Polesie"
+      ],
+      "temporal_coverage": "Reports local climate and land conditions and peatland activities from 2017–2020, with later project targets as announced in 2020.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BLR-E-109",
+        "BLR-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full article, local drought impacts and Greening Drylands Partnership sections",
+          "notes": "Opened and read the complete UNCCD library article, including Homiel and Mogilev project details.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BLR-SRC-105",
+      "title": "Adapting to the Unpredictable: Belarusian Farmers Navigate the Consequences of Climate Change",
+      "organization": "United Nations Development Programme in Belarus",
+      "publication_date": "2024-09-10",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/belarus/stories/adapting-unpredictable-belarusian-farmers-navigate-consequences-climate-change",
+      "geographic_coverage": [
+        "Belarus",
+        "Brahin district",
+        "Belarusian Polesie"
+      ],
+      "temporal_coverage": "Country climate context and a Brahin district farm case, published in 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BLR-E-111",
+        "BLR-E-112"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full story, Brahin farm case and project description",
+          "notes": "Opened and read the complete UNDP story; claims are limited to the named farm and farmers' reported experience.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "BLR-E-111",
+        "selected_source_id": "BLR-SRC-105",
+        "url": "https://www.undp.org/belarus/stories/adapting-unpredictable-belarusian-farmers-navigate-consequences-climate-change",
+        "locator": "UNDP story, Brahin district farm case, paragraphs on climate impacts",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 121637,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "BLR-E-111"
+      ],
+      "manual_verified_record_ids": [
+        "BLR-E-111"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "BLR-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLR-SRC-101",
+          "locator": "One-based PDF p. 19, paragraph 68"
+        }
+      ],
+      "geographies": [
+        "Belarus"
+      ],
+      "affected_groups": [
+        "national population",
+        "farmers",
+        "forest-dependent communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-02-07 reports: NC8 reported adopted agriculture, forestry and water adaptation strategies and health-preparedness measures; it said a national adaptation plan was planned for 2024.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLR-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLR-SRC-101",
+          "locator": "One-based PDF p. 31, Table I.5, finding on international exchange of climatic data"
+        }
+      ],
+      "geographies": [
+        "Belarus",
+        "neighbouring countries"
+      ],
+      "affected_groups": [
+        "communities reliant on hazard information"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-02-07 reports: During review, Belarus said its hydrometeorological network is updated annually but sanctions pressure had ended some bilateral agreements with neighbours for exchanging hydrometeorological information.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLR-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLR-SRC-102",
+          "locator": "Section 2.1.1, paragraphs on historical seasonal runoff changes"
+        }
+      ],
+      "geographies": [
+        "Belarus",
+        "Grodno oblast",
+        "Brest oblast"
+      ],
+      "affected_groups": [
+        "river-basin communities",
+        "farmers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-12-18 reports: OECD reports earlier spring runoff nationwide since the 1980 s; cited records show maximum spring runoff fell 43% on average between 1877–1965 and 1966–2005, with Grodno more affected than Brest oblast.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLR-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLR-SRC-102",
+          "locator": "Section 2.2.3, Gomel oblast"
+        }
+      ],
+      "geographies": [
+        "Gomel oblast",
+        "Pripyat river basin"
+      ],
+      "affected_groups": [
+        "farmers",
+        "agricultural districts"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "The OECD report gives a 2035 projection but does not specify the emissions pathway.",
+      "compact_statement": "Source dated 2020-12-18 reports: OECD reports that Pripyat runoff during Gomel's growing season could decline by up to 25% by 2035, partly due to climate-linked precipitation decline, intensifying seasonal water stress for agriculture.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLR-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLR-SRC-102",
+          "locator": "Section 2.2.4, Kopyl rayon, Minsk oblast"
+        }
+      ],
+      "geographies": [
+        "Kopyl rayon",
+        "Minsk oblast"
+      ],
+      "affected_groups": [
+        "rural residents",
+        "small settlements"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-12-18 reports: In Kopyl rayon, OECD reports centralized water access for 98% of Kopyl town residents but 27% across rural settlements; many small communities rely on shallow wells with limited routine water-quality checks.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLR-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLR-SRC-103",
+          "locator": "One-based PDF p. 34, section 6.1.3, Polesie and Chornobyl"
+        }
+      ],
+      "geographies": [
+        "southern Belarus",
+        "Polesie",
+        "Polesie State Radioecological Reserve",
+        "Chornobyl exclusion zone"
+      ],
+      "affected_groups": [
+        "rural communities",
+        "forest-dependent households",
+        "residents of contaminated areas"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term",
+        "long-term"
+      ],
+      "scenario": "The hotspot assessment describes risk pathways; no emissions scenario is specified.",
+      "compact_statement": "Source dated 2017-11-09 reports: The regional assessment identifies southern Belarusian Polesie, including the Polesie State Radioecological Reserve, as a climate-security hotspot where drought and flood risks threaten livelihoods, health and local economic security.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLR-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLR-SRC-103",
+          "locator": "One-based PDF p. 34, section 6.1.3, paragraphs on Chornobyl contamination and monitoring"
+        }
+      ],
+      "geographies": [
+        "Polesie",
+        "Polesie State Radioecological Reserve",
+        "Chornobyl exclusion zone"
+      ],
+      "affected_groups": [
+        "residents of contaminated areas",
+        "downstream communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term",
+        "long-term"
+      ],
+      "scenario": "The assessment identifies conditional spread pathways without a quantified emissions scenario.",
+      "compact_statement": "Source dated 2017-11-09 reports: The assessment says irregular monitoring in the most contaminated areas undermines timely warnings and prevention as floods, drought, dust and fires could spread Chornobyl radionuclides across Polesie.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLR-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLR-SRC-104",
+          "locator": "Article paragraphs on Homiel region's April 2020 drought and radioactive zone"
+        }
+      ],
+      "geographies": [
+        "Homiel region",
+        "southern Belarus"
+      ],
+      "affected_groups": [
+        "farmers",
+        "rural communities",
+        "residents of contaminated areas"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020 reports: The UNCCD article reports 7.9 mm of rain in Homiel during the April 2020 planting season, 19% of normal, and says roughly 45% of the region lies in the Chornobyl-contaminated zone, making peat fires a public-health concern.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLR-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLR-SRC-104",
+          "locator": "Article paragraphs on Greening Drylands Partnership implementation and second phase"
+        }
+      ],
+      "geographies": [
+        "Mogilev region",
+        "Homiel region"
+      ],
+      "affected_groups": [
+        "local communities",
+        "rural residents"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020 reports: UNCCD reports about 1,000 ha of degraded peatland rewetted in Mogilev region in 2018–2019 with local-authority, forestry and community partnership; its 2020 Homiel phase targeted at least 2,000 ha and improved fire monitoring and early warning.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check",
+        "programme_intent_and_outcome_terms_co-occur"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLR-E-111",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "BLR-SRC-105",
+          "locator": "UNDP story, Brahin district farm case, paragraphs on climate impacts"
+        }
+      ],
+      "geographies": [
+        "Brahin district",
+        "Belarusian Polesie"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "farm workers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-09-10 reports: Farmers interviewed in Brahin district report near-annual heatwaves causing drought, water shortages and crop failures; late May or June frosts require protective crop covering and add costs.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "BLR-E-111",
+        "source_id": "BLR-SRC-105",
+        "url": "https://www.undp.org/belarus/stories/adapting-unpredictable-belarusian-farmers-navigate-consequences-climate-change",
+        "locator": "UNDP story, Brahin district farm case, paragraphs on climate impacts",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+      },
+      "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "BLR-SRC-105",
+        "source_url": "https://www.undp.org/belarus/stories/adapting-unpredictable-belarusian-farmers-navigate-consequences-climate-change",
+        "locator": "UNDP story, Brahin district farm case, paragraphs on climate impacts",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "BLR-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLR-SRC-105",
+          "locator": "UNDP story, Brahin district farm case, paragraphs on adaptation and project support"
+        }
+      ],
+      "geographies": [
+        "Brahin district"
+      ],
+      "affected_groups": [
+        "women farmers",
+        "smallholder farmers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-09-10 reports: Three sisters running a Brahin farm diversified and rotated crops, shifted grains toward drought-resilient winter cereals, and used an EU–UNDP-supported greenhouse with ventilation, heating and watering systems.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "BLR-E-111",
+  "source_access_review": {
+    "selected_record_id": "BLR-E-111",
+    "selected_source_id": "BLR-SRC-105",
+    "url": "https://www.undp.org/belarus/stories/adapting-unpredictable-belarusian-farmers-navigate-consequences-climate-change",
+    "locator": "UNDP story, Brahin district farm case, paragraphs on climate impacts",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 121637,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+  },
+  "checks": [
+    {
+      "record_id": "BLR-E-111",
+      "source_id": "BLR-SRC-105",
+      "locator": "UNDP story, Brahin district farm case, paragraphs on climate impacts",
+      "verification_status": "verified",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "BLR-E-111: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "BLR-E-102",
+    "BLR-E-103",
+    "BLR-E-104",
+    "BLR-E-105",
+    "BLR-E-106",
+    "BLR-E-107",
+    "BLR-E-108",
+    "BLR-E-109",
+    "BLR-E-110",
+    "BLR-E-111",
+    "BLR-E-112"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

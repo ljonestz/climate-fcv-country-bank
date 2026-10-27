@@ -1,0 +1,932 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "FSM",
+  "candidate_path": "countries/FSM/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 5,
+    "evidence_count": 14,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 14
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 6,
+      "access-only": 8
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "FSM-E-001",
+          "FSM-E-005",
+          "FSM-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "FSM-E-002",
+          "FSM-E-101",
+          "FSM-E-102",
+          "FSM-E-105",
+          "FSM-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "FSM-E-003"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "FSM-E-004",
+          "FSM-E-103",
+          "FSM-E-104",
+          "FSM-E-108",
+          "FSM-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "FSM-E-102",
+          "FSM-E-103",
+          "FSM-E-105",
+          "FSM-E-106",
+          "FSM-E-107"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/FSM/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "FSM-SRC-001",
+      "title": "Roads across Federated States of Micronesia set for climate-resilient upgrade",
+      "organization": "World Bank",
+      "publication_date": "2022-03-27",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2022/03/27/roads-across-federated-states-of-micronesia-set-for-climate-resilient-upgrade",
+      "geographic_coverage": [
+        "Micronesia"
+      ],
+      "temporal_coverage": "2022 project approval and road exposure",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "FSM-E-001",
+        "FSM-E-002",
+        "FSM-E-003",
+        "FSM-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "FSM-SRC-002",
+      "title": "Understanding risk is key to growth and jobs in Pacific cities",
+      "organization": "World Bank",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://blogs.worldbank.org/en/sustainablecities/understanding-risk-is-key-to-growth-and-jobs-in-pacific-cities",
+      "geographic_coverage": [
+        "Micronesia"
+      ],
+      "temporal_coverage": "Undated city-risk assessment synopsis",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "FSM-E-005"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "FSM-SRC-101",
+      "title": "The Federated States of Micronesia Nationally Determined Contribution 3.0",
+      "organization": "Government of the Federated States of Micronesia",
+      "publication_date": "2025-09",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/2025-09/FSM%20NDC%203.0.pdf",
+      "geographic_coverage": [
+        "Federated States of Micronesia",
+        "Yap",
+        "Chuuk",
+        "Pohnpei",
+        "Kosrae",
+        "Weno Island"
+      ],
+      "temporal_coverage": "National climate and adaptation assessment published September 2025; includes 2024 population and water-service information.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "FSM-E-101",
+        "FSM-E-102",
+        "FSM-E-103",
+        "FSM-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 68-page PDF; checked national circumstances, land tenure, water and adaptation sections (PDF pp. 15–20, 39–40).",
+          "notes": "Published September 2025; the government NDC reports planned measures as commitments, not evaluated outcomes.",
+          "reuse_terms": "No separate reuse terms verified; original paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "FSM-SRC-102",
+      "title": "Climate Change in the Federated States of Micronesia: Food and Water Security, Climate Risk Management, and Adaptive Strategies—Report of Findings 2010",
+      "organization": "University of Hawaiʻi Sea Grant College Program, Center for Island Climate Adaptation and Policy, with the U.S. Geological Survey",
+      "publication_date": "2010",
+      "publication_date_basis": "publication",
+      "url": "https://opd.gov.mp/library/smart-safe-growth/climate-change-in-the-federated-states-of-micronesia-food-and-water-security-climate-risk-management-and-adaptive-strategies/fletcher-and-richmond-2010-climate-change-in-fsm-report-of-findings.pdf",
+      "geographic_coverage": [
+        "Pohnpei",
+        "Chuuk",
+        "Yap",
+        "Kosrae",
+        "Nukuoro",
+        "Pingelap",
+        "Mokil"
+      ],
+      "temporal_coverage": "Three-week field assessment in April 2009, including retrospective accounts of 2002 and 2007–2008 hazards.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "FSM-E-105",
+        "FSM-E-106",
+        "FSM-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 32-page PDF; checked methodology and Pohnpei, Chuuk and Yap state findings (PDF pp. 5, 25–26).",
+          "notes": "The report describes three weeks of April 2009 field assessment and 2002/2007–2008 hazard events.",
+          "reuse_terms": "No separate reuse terms verified; original paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "FSM-SRC-103",
+      "title": "Federated States of Micronesia: 2026 Article IV Consultation—Press Release; Staff Report; and Statement by the Executive Director for Federated States of Micronesia",
+      "organization": "International Monetary Fund, Asia and Pacific Department",
+      "publication_date": "2026-05-05",
+      "publication_date_basis": "publication",
+      "url": "https://www.imf.org/-/media/files/publications/cr/2026/english/1fsmea2026001-source-pdf.pdf",
+      "geographic_coverage": [
+        "Federated States of Micronesia",
+        "Pohnpei",
+        "Chuuk",
+        "Yap",
+        "Kosrae"
+      ],
+      "temporal_coverage": "2026 Article IV consultation; climate-risk assessment, governance and fragility analysis, and adaptation discussion.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "FSM-E-108",
+        "FSM-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Official IMF publisher-indexed excerpts from ¶8, ¶28, Annex I §§A–B, and Annex IV climate-risk row.",
+          "notes": "Search-indexed official passages were inspected; opening the full eLibrary body did not provide full-text access. Claims are limited to those excerpts.",
+          "reuse_terms": "No separate reuse terms verified; original paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "FSM-E-108",
+        "selected_source_id": "FSM-SRC-103",
+        "url": "https://www.imf.org/-/media/files/publications/cr/2026/english/1fsmea2026001-source-pdf.pdf",
+        "locator": "Physical PDF p.49, Annex IV climate-change risk row.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": 403,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "HTTP 403"
+      },
+      "audit_accessed_on": "2026-10-27"
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "FSM-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FSM-SRC-001",
+          "locator": "Coastal road risks"
+        }
+      ],
+      "geographies": [
+        "Micronesia"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Coastal secondary roads face storm, flood and rising-sea risks that threaten access to schools, health facilities and markets.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "FSM-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FSM-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FSM-SRC-001",
+          "locator": "Isolated communities"
+        }
+      ],
+      "geographies": [
+        "Micronesia"
+      ],
+      "affected_groups": [
+        "isolated communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Isolated communities' reliance on secondary roads makes service and market access particularly sensitive to road disruption.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "FSM-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FSM-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FSM-SRC-001",
+          "locator": "SCORE design"
+        }
+      ],
+      "geographies": [
+        "Chuuk",
+        "Kosrae",
+        "Pohnpei",
+        "Yap"
+      ],
+      "affected_groups": [],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "SCORE proposes road upgrades across all four states alongside asset management, emergency-response capacity and road safety.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "FSM-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FSM-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FSM-SRC-001",
+          "locator": "Inclusive access"
+        }
+      ],
+      "geographies": [
+        "Micronesia"
+      ],
+      "affected_groups": [
+        "women",
+        "persons with disabilities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The design includes disability access and women's representation; these commitments are not measured distributional outcomes.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "FSM-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FSM-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FSM-SRC-002",
+          "locator": "Kolonia city example"
+        }
+      ],
+      "geographies": [
+        "Kolonia"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Kolonia's coastal transport and economic assets face flood, sea-level and typhoon exposure.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "FSM-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FSM-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FSM-SRC-101",
+          "locator": "Physical PDF p.16, climate impact discussion following demographic profile."
+        }
+      ],
+      "geographies": [
+        "Federated States of Micronesia",
+        "coastal and atoll communities"
+      ],
+      "affected_groups": [
+        "coastal and atoll communities",
+        "farming and fishing households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09 reports: NDC says coastal and atoll communities 1–2 m above sea level face sea-level rise, drought, erosion and stronger storms; shocks are eroding assets and farm/fishing livelihoods.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FSM-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FSM-SRC-101",
+          "locator": "Physical PDF p.40, water section."
+        }
+      ],
+      "geographies": [
+        "low-lying islands",
+        "Yap",
+        "western Chuuk",
+        "Weno Island",
+        "Pohnpei"
+      ],
+      "affected_groups": [
+        "residents of low-lying islands",
+        "Weno households",
+        "Pohnpei residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "FSM's 2025 NDC identifies drought risk in Yap/western Chuuk and reports limited Chuuk utility water coverage, with Weno the only supplied island, versus much broader Pohnpei utility reach.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FSM-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FSM-SRC-101",
+          "locator": "PDF pp. 17 and 20, §§4.5–4.6, Governance and Land Ownership"
+        }
+      ],
+      "geographies": [
+        "Federated States of Micronesia",
+        "Yap",
+        "Chuuk"
+      ],
+      "affected_groups": [
+        "landowning families and clans",
+        "communities requiring adaptation or relocation"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09 reports: State governments manage land, coast, health, education, water and roads. Yap includes traditional leaders in government; the NDC says tenure matters for adaptation/relocation and can hinder infrastructure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FSM-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FSM-SRC-101",
+          "locator": "Physical PDF p.37, opening adaptation section."
+        }
+      ],
+      "geographies": [
+        "Federated States of Micronesia"
+      ],
+      "affected_groups": [
+        "communities and ecosystems targeted by adaptation policies"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2025 NDC reports financing for only a quarter of identified ecosystem-based adaptation needs and insufficient technical capacity, limiting implementation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FSM-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FSM-SRC-102",
+          "locator": "Printed p.22, physical PDF p.26, Pohnpei State findings."
+        }
+      ],
+      "geographies": [
+        "Pohnpei",
+        "Pingelap",
+        "Mokil",
+        "Ant",
+        "Pakin",
+        "Ngatik",
+        "Nukuoro",
+        "Kapingamarangi"
+      ],
+      "affected_groups": [
+        "outer-atoll communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2010 reports: The field report says Pohnpei’s outer atoll islets Pingelap, Mokil, Ant, Pakin, Ngatik, Nukuoro and Kapingamarangi suffered extreme hardship during 2007–08 marine inundation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FSM-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FSM-SRC-102",
+          "locator": "Printed p.22, physical PDF p.26, Chuuk State findings."
+        }
+      ],
+      "geographies": [
+        "Chuuk",
+        "Chuuk business district"
+      ],
+      "affected_groups": [
+        "Chuuk residents",
+        "coastal road users"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2010 reports: In Chuuk, Tropical Storm Chataan’s 2002 heavy rain caused over 30 landslides and 47 deaths. The report describes poor roads and unpotable drinking water; high tides and runoff filled potholes on the coastal business-district road.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FSM-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FSM-SRC-102",
+          "locator": "Printed p.23, physical PDF p.27, Yap State findings."
+        }
+      ],
+      "geographies": [
+        "Yap",
+        "Colonia harbor"
+      ],
+      "affected_groups": [
+        "Yap residents",
+        "coastal households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2010 reports: In Yap, 2007–08 surges damaged coastal infrastructure, food and housing; the report says main-island water remained nonpotable and harbor protections were only 30–60 cm above high tide.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FSM-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "FSM-SRC-103",
+          "locator": "Physical PDF p.49, Annex IV climate-change risk row."
+        }
+      ],
+      "geographies": [
+        "Federated States of Micronesia"
+      ],
+      "affected_groups": [
+        "households affected by climate disasters"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The IMF's 2026 risk matrix identifies potential infrastructure, food-security and reconstruction burdens from climate shocks; these are staff-assessed risks, not measured local effects.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "FSM-E-108",
+        "selected_source_id": "FSM-SRC-103",
+        "url": "https://www.imf.org/-/media/files/publications/cr/2026/english/1fsmea2026001-source-pdf.pdf",
+        "locator": "Physical PDF p.49, Annex IV climate-change risk row.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": 403,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "HTTP 403"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "FSM-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FSM-SRC-103",
+          "locator": "Physical PDF p.19, paragraph 28; physical PDF pp.39–40, Annex I fragility/coordination discussion."
+        }
+      ],
+      "geographies": [
+        "Federated States of Micronesia",
+        "Pohnpei",
+        "Chuuk",
+        "Yap",
+        "Kosrae"
+      ],
+      "affected_groups": [
+        "communities targeted by climate adaptation"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-05-05 reports: IMF says adaptation progress is constrained by limited institutional capacity, fragmented interagency coordination, and weak climate-risk integration in fiscal and infrastructure planning; it also identifies political fragmentation and administrative capacity as fragility drivers.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "FSM-E-108",
+  "source_access_review": {
+    "selected_record_id": "FSM-E-108",
+    "selected_source_id": "FSM-SRC-103",
+    "url": "https://www.imf.org/-/media/files/publications/cr/2026/english/1fsmea2026001-source-pdf.pdf",
+    "locator": "Physical PDF p.49, Annex IV climate-change risk row.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": 403,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "HTTP 403"
+  },
+  "checks": [
+    {
+      "record_id": "FSM-E-108",
+      "source_id": "FSM-SRC-103",
+      "locator": "Physical PDF p.49, Annex IV climate-change risk row.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "FSM-E-108: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "FSM-E-001",
+    "FSM-E-002",
+    "FSM-E-003",
+    "FSM-E-004",
+    "FSM-E-005",
+    "FSM-E-101",
+    "FSM-E-102",
+    "FSM-E-103",
+    "FSM-E-104",
+    "FSM-E-105",
+    "FSM-E-106",
+    "FSM-E-107",
+    "FSM-E-108",
+    "FSM-E-109"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

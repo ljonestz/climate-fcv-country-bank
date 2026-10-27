@@ -1,0 +1,892 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "KIR",
+  "candidate_path": "countries/KIR/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 6,
+    "evidence_count": 13,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 13
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 7,
+      "access-only": 6
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "KIR-E-004"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "KIR-E-001",
+          "KIR-E-101"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "KIR-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "KIR-E-002",
+          "KIR-E-006",
+          "KIR-E-106",
+          "KIR-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "KIR-E-005",
+          "KIR-E-105",
+          "KIR-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "KIR-E-003"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "KIR-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "KIR-E-103",
+          "KIR-E-105"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/KIR/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "KIR-SRC-001",
+      "title": "US$20m climate adaptation support for Kiribati's outer islands",
+      "organization": "World Bank",
+      "publication_date": "2022-05-15",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2022/05/15/20m-climate-adaption-support-for-kiribati-s-outer-islands",
+      "geographic_coverage": [
+        "Kiribati"
+      ],
+      "temporal_coverage": "2022 approval and earlier adaptation outputs",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "KIR-E-001",
+        "KIR-E-002",
+        "KIR-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "KIR-SRC-002",
+      "title": "Kiribati: A nation on the frontline of climate change",
+      "organization": "UN Multi-Partner Trust Fund Office",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://mptf.undp.org/news/kiribati-nation-frontline-climate-change",
+      "geographic_coverage": [
+        "Kiribati"
+      ],
+      "temporal_coverage": "Undated climate and observation-capacity synopsis",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "KIR-E-004",
+        "KIR-E-005",
+        "KIR-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "KIR-SRC-101",
+      "title": "Kiribati Natural Disasters and Climate Change Survey Report 2023–2024",
+      "organization": "Kiribati National Statistics Office and Pacific Community",
+      "publication_date": "2025-06",
+      "publication_date_basis": "document-version",
+      "url": "https://mfed.gov.ki/sites/default/files/2025-06/KI%20Natural%20Disaster%20and%20CC%20report.pdf",
+      "geographic_coverage": [
+        "Kiribati, national household survey"
+      ],
+      "temporal_coverage": "Household impacts during 2023–2024; HIES survey period.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "restricted",
+      "records_using_source": [
+        "KIR-E-101"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 30-page PDF; methods and results, printed pp. vi, 7–17, 19–21",
+          "notes": "Inspected full draft report; cover identifies June 2025 and KNSO/SPC authorship.",
+          "reuse_terms": "Partial scientific/educational/research reproduction authorized with attribution; no long text copied.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "KIR-SRC-102",
+      "title": "Third National Communication of the Republic of Kiribati to the UNFCCC",
+      "organization": "Government of the Republic of Kiribati, Ministry of Environment, Lands and Agricultural Development",
+      "publication_date": "2025-03",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/resource/KIRIBATI%20FINAL%20REPORT%20FOR%20TNC_April_2025.pdf",
+      "geographic_coverage": [
+        "South Tarawa",
+        "Banaba",
+        "Tabakea",
+        "Kiribati national"
+      ],
+      "temporal_coverage": "National circumstances and impacts through the report's March 2025 version; some drought history is retrospective.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "KIR-E-103",
+        "KIR-E-104",
+        "KIR-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 154-page PDF; printed pp. 99–100, Tables 4.5–4.6",
+          "notes": "Inspected complete communication; PDF is draft-marked although foreword says Cabinet approved submission.",
+          "reuse_terms": "Copyright reserved; paraphrased only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "KIR-E-104",
+        "selected_source_id": "KIR-SRC-102",
+        "url": "https://unfccc.int/sites/default/files/resource/KIRIBATI%20FINAL%20REPORT%20FOR%20TNC_April_2025.pdf",
+        "locator": "Printed p.99 (one-based PDF p.125), Table4.5.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 212,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "KIR-SRC-103",
+      "title": "Enhancing a Whole-of-Islands Approach to Strengthen Community Resilience to Climate and Disaster Risks in Kiribati",
+      "organization": "United Nations Development Programme",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.undp.org/pacific/projects/enhancing-whole-islands-approach-strengthen-community-resilience-climate-and-disaster-risks-kiribati",
+      "geographic_coverage": [
+        "Five pilot islands, not named on the consulted page"
+      ],
+      "temporal_coverage": "Project listed as ongoing, October 2019–July 2030.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "KIR-E-106",
+        "KIR-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Project summary, components and Impact fields",
+          "notes": "Inspected complete project page; status ongoing and end date July 2030.",
+          "reuse_terms": "No reuse terms reviewed; paraphrased only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "KIR-SRC-104",
+      "title": "Early Warning and Early Action in Kiribati",
+      "organization": "United Nations Office for Disaster Risk Reduction, Sub-Regional Office for the Pacific",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://www.undrr.org/publication/documents-and-publications/early-warning-and-early-action-kiribati",
+      "geographic_coverage": [
+        "Remote and outer-island communities, Kiribati"
+      ],
+      "temporal_coverage": "Publication page describes current early-warning initiatives in 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "KIR-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Official publication-page summary, paragraphs 6–7",
+          "notes": "Inspected official summary; four-page PDF download was not readable in the web reader, so no claim relies on unseen PDF text.",
+          "reuse_terms": "No reuse terms reviewed; paraphrased only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "KIR-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KIR-SRC-001",
+          "locator": "Outer-island exposure and service access"
+        }
+      ],
+      "geographies": [
+        "outer islands",
+        "South Tarawa"
+      ],
+      "affected_groups": [
+        "remote island communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Remote outer islands have limited government services and climate-adapted infrastructure; their access constraints differ from densely populated South Tarawa.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "KIR-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KIR-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KIR-SRC-001",
+          "locator": "Project interventions and councils"
+        }
+      ],
+      "geographies": [
+        "outer islands"
+      ],
+      "affected_groups": [],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Planned investments combine freshwater, drainage, coastal protection and public-building maintenance with island-council participation and universal access.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "KIR-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KIR-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KIR-SRC-001",
+          "locator": "Earlier adaptation programme"
+        }
+      ],
+      "geographies": [
+        "Kiribati"
+      ],
+      "affected_groups": [],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The announcement reports improved water sources under the preceding adaptation phase, without an independent evaluation of sustained service quality.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "KIR-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KIR-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KIR-SRC-002",
+          "locator": "Water and atoll vulnerability"
+        }
+      ],
+      "geographies": [
+        "Kiribati"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Low atoll terrain, drought and groundwater salinization threaten drinking water and agriculture.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "KIR-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KIR-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KIR-SRC-002",
+          "locator": "Observation and information gaps"
+        }
+      ],
+      "geographies": [
+        "Kiribati"
+      ],
+      "affected_groups": [],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The feature identifies observation infrastructure, financing and reliable local climate information as constraints on anticipatory decisions.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "KIR-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KIR-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KIR-SRC-002",
+          "locator": "SOFF support"
+        }
+      ],
+      "geographies": [
+        "Kiribati"
+      ],
+      "affected_groups": [],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "SOFF support aims to strengthen weather observations and forecasting capacity; anticipated benefits are not demonstrated household outcomes.",
+      "concerns": [],
+      "screening_cues": [
+        "programme_intent_and_outcome_terms_co-occur"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "KIR-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KIR-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KIR-SRC-101",
+          "locator": "Printed p. vi, key results; printed pp. 8–9, Table 5"
+        }
+      ],
+      "geographies": [
+        "Kiribati national survey"
+      ],
+      "affected_groups": [
+        "surveyed households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Kiribati's draft June 2025 report of the 2023-2024 household survey estimates about one quarter of households affected by natural disasters, most often strong winds; no island-level breakdown is established.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KIR-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KIR-SRC-102",
+          "locator": "Printed p.100 (one-based PDF p.126), Table4.6."
+        }
+      ],
+      "geographies": [
+        "South Tarawa",
+        "Banaba"
+      ],
+      "affected_groups": [
+        "households dependent on groundwater",
+        "island communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The draft-marked March 2025 NC3 describes historical severe freshwater shortage and well salinity in South Tarawa and Banaba during droughts; it separately mentions temporary abandonment of unspecified islands.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KIR-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "KIR-SRC-102",
+          "locator": "Printed p.99 (one-based PDF p.125), Table4.5."
+        }
+      ],
+      "geographies": [
+        "Kiribati coastal communities; South Tarawa and outer islands are named in the surrounding table"
+      ],
+      "affected_groups": [
+        "private landowners",
+        "government",
+        "coastal communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Source-unspecified; relocation horizon is not stated.",
+      "compact_statement": "The NC3 identifies potential landowner–landowner disputes and land-demarcation conflict with government if private buildings or public infrastructure must be relocated amid climate-related coastal impacts.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET; HTML visible-text extraction",
+      "verification_attempt": {
+        "selected_record_id": "KIR-E-104",
+        "selected_source_id": "KIR-SRC-102",
+        "url": "https://unfccc.int/sites/default/files/resource/KIRIBATI%20FINAL%20REPORT%20FOR%20TNC_April_2025.pdf",
+        "locator": "Printed p.99 (one-based PDF p.125), Table4.5.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 212,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "KIR-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KIR-SRC-102",
+          "locator": "Printed pp.99-100 (one-based PDF pp.125-126), Table4.6."
+        }
+      ],
+      "geographies": [
+        "South Tarawa",
+        "Banaba",
+        "Tabakea"
+      ],
+      "affected_groups": [
+        "affected communities",
+        "private landowners",
+        "water-service users"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The draft-marked March 2025 NC3 describes water-reserve declarations on private land generating tensions, disputes and vandalism; encroachment is separately noted in South Tarawa, Banaba and Tabakea.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KIR-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KIR-SRC-103",
+          "locator": "Project summary and Impact fields; project date and status"
+        }
+      ],
+      "geographies": [
+        "Five pilot islands, unnamed on the page"
+      ],
+      "affected_groups": [
+        "17,500 target beneficiaries",
+        "women",
+        "pilot-island communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "UNDP lists an ongoing whole-of-islands programme targeting five pilot islands and 17,500 people (49% women), with planned island-level climate-resilient planning and water, food-security and infrastructure measures.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KIR-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KIR-SRC-103",
+          "locator": "Project summary, barriers and four components"
+        }
+      ],
+      "geographies": [
+        "Kiribati national; five pilot islands, unnamed"
+      ],
+      "affected_groups": [
+        "outer-island communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "UNDP identifies institutional and technical barriers to adaptation and lists stronger policies, island-level planning, knowledge and communication as programme components.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KIR-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KIR-SRC-104",
+          "locator": "Official publication-page summary, paragraphs on remote islands and approaches"
+        }
+      ],
+      "geographies": [
+        "Remote and outer-island communities, Kiribati"
+      ],
+      "affected_groups": [
+        "remote-island communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNDRR's 2025 publisher summary describes satellite connectivity and drought anticipatory action as early-warning approaches for remote islands; it does not measure island coverage or effectiveness.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "KIR-E-104",
+  "source_access_review": {
+    "selected_record_id": "KIR-E-104",
+    "selected_source_id": "KIR-SRC-102",
+    "url": "https://unfccc.int/sites/default/files/resource/KIRIBATI%20FINAL%20REPORT%20FOR%20TNC_April_2025.pdf",
+    "locator": "Printed p.99 (one-based PDF p.125), Table4.5.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "document-fetched",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 212,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null
+  },
+  "checks": [
+    {
+      "record_id": "KIR-E-104",
+      "source_id": "KIR-SRC-102",
+      "locator": "Printed p.99 (one-based PDF p.125), Table4.5.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET; HTML visible-text extraction",
+      "access_date": "2026-10-27",
+      "source_access_status": "document-fetched",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "KIR-E-104: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "KIR-E-001",
+    "KIR-E-002",
+    "KIR-E-003",
+    "KIR-E-004",
+    "KIR-E-005",
+    "KIR-E-006",
+    "KIR-E-101",
+    "KIR-E-103",
+    "KIR-E-104",
+    "KIR-E-105",
+    "KIR-E-106",
+    "KIR-E-107",
+    "KIR-E-108"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

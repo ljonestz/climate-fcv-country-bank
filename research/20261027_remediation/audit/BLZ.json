@@ -1,0 +1,1289 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "BLZ",
+  "candidate_path": "countries/BLZ/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 7,
+    "evidence_count": 21,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 21
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 8,
+      "access-only": 13
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "BLZ-E-106",
+          "BLZ-E-113",
+          "BLZ-E-115"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "BLZ-E-001",
+          "BLZ-E-003",
+          "BLZ-E-005",
+          "BLZ-E-101",
+          "BLZ-E-102",
+          "BLZ-E-103",
+          "BLZ-E-107",
+          "BLZ-E-108",
+          "BLZ-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BLZ-E-007"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BLZ-E-006"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BLZ-E-104",
+          "BLZ-E-109",
+          "BLZ-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "BLZ-E-002",
+          "BLZ-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "BLZ-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BLZ-E-004"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "BLZ-E-101",
+          "BLZ-E-102",
+          "BLZ-E-103",
+          "BLZ-E-106",
+          "BLZ-E-107",
+          "BLZ-E-108",
+          "BLZ-E-109",
+          "BLZ-E-110",
+          "BLZ-E-112",
+          "BLZ-E-113",
+          "BLZ-E-114",
+          "BLZ-E-115"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/BLZ/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "BLZ-SRC-001",
+      "title": "Belize prepares for current and future emergencies",
+      "organization": "World Bank",
+      "publication_date": "2023-05-18",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/results/2023/05/18/belize-prepares-for-current-and-future-emergencies",
+      "geographic_coverage": [
+        "Belize"
+      ],
+      "temporal_coverage": "Reported 2014-2021 project activities and 2019 drought.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BLZ-E-001",
+        "BLZ-E-002"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BLZ-SRC-002",
+      "title": "Belize's wildfires: Indigenous leadership for climate resilience",
+      "organization": "World Bank",
+      "publication_date": "2024-08-09",
+      "publication_date_basis": "publication",
+      "url": "https://blogs.worldbank.org/en/climatechange/belize-s-wildfires--indigenous-leadership-for-climate-resilience",
+      "geographic_coverage": [
+        "Belize",
+        "Toledo District",
+        "Southern Belize"
+      ],
+      "temporal_coverage": "May 2024 wildfires and subsequent community response.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BLZ-E-003",
+        "BLZ-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BLZ-SRC-003",
+      "title": "Resilience and conservation in a changing climate: The case of Belize",
+      "organization": "World Bank",
+      "publication_date": "2021-03-24",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/feature/2021/03/24/resilience-and-conservation-in-a-changing-climate-the-case-of-belize",
+      "geographic_coverage": [
+        "Belize",
+        "Belize barrier reef",
+        "Sarteneja"
+      ],
+      "temporal_coverage": "Marine conservation and adaptation activities reported in 2021.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BLZ-E-005",
+        "BLZ-E-006",
+        "BLZ-E-007"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BLZ-SRC-101",
+      "title": "Climate Risk Profile: Belize",
+      "organization": "International Institute for Sustainable Development",
+      "publication_date": "2025-04",
+      "publication_date_basis": "document-version",
+      "url": "https://www.iisd.org/system/files/2025-04/belize-climate-risk-profile.pdf",
+      "geographic_coverage": [
+        "Maya Forest Corridor",
+        "Glover's Reef Marine Reserve",
+        "South Water Caye Marine Reserve",
+        "Belize City",
+        "Sarteneja",
+        "Dangriga",
+        "Hopkins",
+        "Seine Bight",
+        "Placencia",
+        "Riversdale",
+        "Hattieville",
+        "Mahogany Heights"
+      ],
+      "temporal_coverage": "2025 profile; mixed historical observations, projections and community assessment findings.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BLZ-E-101",
+        "BLZ-E-102",
+        "BLZ-E-103",
+        "BLZ-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Printed pp. 8, 16-19 and 26",
+          "notes": "Full 32-page report text inspected, including community coverage, rankings, conflict and governance passages.",
+          "reuse_terms": "Unknown; copyright notice inspected, but reuse permission for derived summaries not verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BLZ-SRC-102",
+      "title": "CORVI: Measuring Multidimensional Climate Risks in Belize City, Belize",
+      "organization": "Stimson Center",
+      "publication_date": "2024-12",
+      "publication_date_basis": "document-version",
+      "url": "https://www.stimson.org/wp-content/uploads/2025/01/CORVI-Belize-Report.pdf",
+      "geographic_coverage": [
+        "Belize City",
+        "Faber's Road Extension",
+        "Krooman Lagoon",
+        "London Bridges",
+        "Hattieville",
+        "surrounding Belize City communities"
+      ],
+      "temporal_coverage": "Assessment published January 2025; includes expert views and data collected through December 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BLZ-E-106",
+        "BLZ-E-107",
+        "BLZ-E-108",
+        "BLZ-E-109",
+        "BLZ-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Printed pp. 4-5, 18, 27 and 31",
+          "notes": "Full 56-page report text inspected; expert ratings and cited local examples are retained as assessment findings.",
+          "reuse_terms": "Unknown; no reuse license verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BLZ-SRC-103",
+      "title": "United Nations Belize Common Country Analysis 2021",
+      "organization": "United Nations Belize, Office of the Resident Coordinator",
+      "publication_date": "2021",
+      "publication_date_basis": "publication",
+      "url": "https://belize.un.org/en/download/82592/150296",
+      "geographic_coverage": [
+        "Belize",
+        "Toledo District",
+        "Corozal District",
+        "Belize District",
+        "Cayo District"
+      ],
+      "temporal_coverage": "2021 country analysis; underlying indicators and events span multiple source periods.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "BLZ-E-111",
+        "BLZ-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Printed pp. 44, 66-67 and risk-assessment methodology",
+          "notes": "Full 146-page UN CCA inspected; climate mobility program and Toledo context are reported for the 2021 analysis period.",
+          "reuse_terms": "Unknown; report requests permission for reproducing material.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BLZ-SRC-104",
+      "title": "Belize Second National Communication to the Conference of the Parties of the United Nations Framework Convention on Climate Change",
+      "organization": "Government of Belize, Ministry of Natural Resources and the Environment",
+      "publication_date": "2012-05",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/resource/docs/natc/blznc2.pdf",
+      "geographic_coverage": [
+        "Northern Belize",
+        "Central Belize",
+        "Southern Belize",
+        "Belize River",
+        "Belize City",
+        "Dangriga",
+        "North Stann Creek Watershed"
+      ],
+      "temporal_coverage": "Prepared 2009 and edited through May 2012; includes projections for 2028, 2050 and 2100 and regional water assessments.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BLZ-E-113",
+        "BLZ-E-114",
+        "BLZ-E-115"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Printed pp. 48 and 106-107, regional water projections and Water Resources section",
+          "notes": "Full 173-page National Communication inspected; date retained as the May 2012 document version, with older modeling and monitoring noted.",
+          "reuse_terms": "Unknown; no specific reuse license verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "BLZ-E-114",
+        "selected_source_id": "BLZ-SRC-104",
+        "url": "https://unfccc.int/resource/docs/natc/blznc2.pdf",
+        "locator": "Printed pp. 106-107, Water Resources",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 212,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27"
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "BLZ-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLZ-SRC-001",
+          "locator": "Challenge paragraph on flood events and 2019 drought"
+        }
+      ],
+      "geographies": [
+        "Belize"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Flooding disrupts Belize's roads and access to urban centres; the 2019 drought damaged farming, livestock and fisheries livelihoods.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BLZ-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLZ-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLZ-SRC-001",
+          "locator": "Results bullets on farming households and spatial data infrastructure"
+        }
+      ],
+      "geographies": [
+        "Belize"
+      ],
+      "affected_groups": [],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The project reported support for climate-smart agriculture and strengthened risk-information systems across public agencies.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "BLZ-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLZ-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLZ-SRC-002",
+          "locator": "Paragraph beginning Moreover, the country, and Maya leader testimony"
+        }
+      ],
+      "geographies": [
+        "Southern Belize",
+        "Toledo District"
+      ],
+      "affected_groups": [
+        "Maya communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "May 2024 wildfires damaged Maya forests and farms in southern Belize, threatening food and cash-income sources.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BLZ-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLZ-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLZ-SRC-002",
+          "locator": "Response and fire-management paragraphs"
+        }
+      ],
+      "geographies": [
+        "Southern Belize"
+      ],
+      "affected_groups": [
+        "Maya communities"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Maya communities organized relief and replanting; the account emphasizes customary governance, local training and Indigenous knowledge in fire management.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "BLZ-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLZ-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLZ-SRC-003",
+          "locator": "Opening body paragraphs on reef and mangrove services"
+        }
+      ],
+      "geographies": [
+        "Belize barrier reef",
+        "Belize coast"
+      ],
+      "affected_groups": [
+        "fishing communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Belize's reef and mangroves support fisheries, tourism and coastal protection; bleaching and reduced fish catch affect coastal livelihoods.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "BLZ-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLZ-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLZ-SRC-003",
+          "locator": "Marine protected area and livelihood training paragraphs"
+        }
+      ],
+      "geographies": [
+        "Belize coast"
+      ],
+      "affected_groups": [
+        "fishing communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Marine adaptation combined ecosystem protection with alternative-livelihood training to reduce dependence on fishing.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "BLZ-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLZ-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLZ-SRC-003",
+          "locator": "Sarteneja fisherman example"
+        }
+      ],
+      "geographies": [
+        "Sarteneja"
+      ],
+      "affected_groups": [
+        "fishing households"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "In Sarteneja, vocational training helped a fishing family pursue tourism-related work alongside seasonal fishing restrictions.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "BLZ-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLZ-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLZ-SRC-101",
+          "locator": "Printed p. 8, section 4.0"
+        }
+      ],
+      "geographies": [
+        "Belize City",
+        "Sarteneja",
+        "Dangriga",
+        "Hopkins",
+        "Seine Bight",
+        "Placencia",
+        "Riversdale"
+      ],
+      "affected_groups": [
+        "coastal communities",
+        "Garifuna people",
+        "fishers",
+        "tourism workers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The April 2025 CAPA profile describes fishing, processing and tourism dependence in seven selected marine communities, with fishing's cultural importance in Hopkins and Seine Bight.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLZ-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLZ-SRC-101",
+          "locator": "Printed pp. 18-19, Tables 4-5"
+        }
+      ],
+      "geographies": [
+        "Placencia",
+        "Sarteneja",
+        "Hattieville",
+        "Mahogany Heights"
+      ],
+      "affected_groups": [
+        "coastal communities",
+        "terrestrial communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Among the CAPA assessment's selected sites, Placencia/Sarteneja rank highest among seven marine communities and Hattieville/Mahogany Heights among 12 terrestrial communities; this is not a national ranking.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLZ-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLZ-SRC-101",
+          "locator": "Printed p. 16, Box 3"
+        }
+      ],
+      "geographies": [
+        "Maya Forest Corridor"
+      ],
+      "affected_groups": [
+        "rural residents",
+        "farmers",
+        "livestock owners",
+        "jaguars"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "In the Maya Forest Corridor, the profile links climate-related biodiversity loss and jaguar habitat destruction to more farm/community encounters and residents killing jaguars to protect livestock.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLZ-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLZ-SRC-101",
+          "locator": "Printed p. 26, section 5.3"
+        }
+      ],
+      "geographies": [
+        "selected CAPA communities"
+      ],
+      "affected_groups": [
+        "women",
+        "youth",
+        "Garifuna people"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The April 2025 CAPA profile describes underrepresentation of women, youth and Indigenous Garifuna in adaptation/resource governance; local inputs are reportedly not fully considered.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLZ-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLZ-SRC-102",
+          "locator": "Printed pp. 4-5, Cluster 1"
+        }
+      ],
+      "geographies": [
+        "Belize City",
+        "Belize River delta"
+      ],
+      "affected_groups": [
+        "Belize City residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Low-lying Belize City is exposed to storm-surge, river and rainfall flooding; experts rated extreme-weather impacts the assessment's highest risk.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLZ-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLZ-SRC-102",
+          "locator": "Printed p. 18, Cluster 1"
+        }
+      ],
+      "geographies": [
+        "Faber's Road Extension",
+        "Krooman Lagoon",
+        "London Bridges",
+        "southern Belize City"
+      ],
+      "affected_groups": [
+        "low-income residents",
+        "informal settlement residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Faber's Road Extension is a low-income flood-susceptible area; Krooman Lagoon and London Bridges show expansion threatening coastal ecosystems.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLZ-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLZ-SRC-102",
+          "locator": "One-based PDF pp.6/19, development pressures and ecosystem loss."
+        }
+      ],
+      "geographies": [
+        "Belize City"
+      ],
+      "affected_groups": [
+        "domestic migrants",
+        "international migrants",
+        "informal settlement residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The December 2024 CORVI assessment describes urban expansion—including tourism, residential development and some informal housing—clearing protective wetlands/mangroves and increasing Belize City flood vulnerability.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLZ-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLZ-SRC-102",
+          "locator": "Printed p. 31, Challenges to Resilience Planning and Action"
+        }
+      ],
+      "geographies": [
+        "Belize City"
+      ],
+      "affected_groups": [
+        "flood-prone residents",
+        "low-income residents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Belize City's funding dependence and central approval requirements can delay local projects; residents in flood-prone areas often lack electricity, sewerage and clean water.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLZ-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLZ-SRC-102",
+          "locator": "Printed p. 5, Cluster 1"
+        }
+      ],
+      "geographies": [
+        "Belize City"
+      ],
+      "affected_groups": [
+        "Belize City residents"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The report states that Belize City governments had installed flood-pumping stations and constructed canals to drain floodwaters.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLZ-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLZ-SRC-103",
+          "locator": "Printed p. 44, Environment and Climate Change Analysis"
+        }
+      ],
+      "geographies": [
+        "Belize"
+      ],
+      "affected_groups": [
+        "climate-affected households",
+        "internal migrants",
+        "displaced people"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2021 UN CCA describes an IOM-supported capacity project concerning internal climate-related migration/displacement, not movement counts or evaluated results.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLZ-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLZ-SRC-103",
+          "locator": "Printed pp. 66-67, Social Exclusion Analysis"
+        }
+      ],
+      "geographies": [
+        "Toledo District"
+      ],
+      "affected_groups": [
+        "Maya people",
+        "Garinagu",
+        "rural households",
+        "children"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2021 UN CCA identifies high poverty and exclusion in Toledo and discusses Maya customary land rights and consultation duties; these are dated social/tenure conditions, not a current legal assessment.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLZ-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLZ-SRC-104",
+          "locator": "Printed pp. 106-107, Water Resources; Box 5"
+        }
+      ],
+      "geographies": [
+        "Northern Belize",
+        "Belize District",
+        "Cayo District",
+        "Southern Belize"
+      ],
+      "affected_groups": [
+        "water users",
+        "farmers",
+        "urban residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "IS92e; GCM/MAGICC with 2.5°C sensitivity.",
+      "compact_statement": "The assessment projects lower groundwater recharge in northern Belize, where rice, papaya and sugar use water intensively; central districts face similar pressure, but the water-rich south less.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BLZ-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "BLZ-SRC-104",
+          "locator": "Printed pp. 106-107, Water Resources"
+        }
+      ],
+      "geographies": [
+        "Northern Belize",
+        "Central Belize",
+        "Belize District",
+        "Cayo District"
+      ],
+      "affected_groups": [
+        "water users",
+        "farmers",
+        "urban residents"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "IS92e; GCM/MAGICC with 2.5°C sensitivity; no year stated in passage.",
+      "compact_statement": "The report says climate-linked runoff decline, pollution and urbanization may degrade water quality, increase competition and produce water conflicts.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET; HTML visible-text extraction",
+      "verification_attempt": {
+        "selected_record_id": "BLZ-E-114",
+        "selected_source_id": "BLZ-SRC-104",
+        "url": "https://unfccc.int/resource/docs/natc/blznc2.pdf",
+        "locator": "Printed pp. 106-107, Water Resources",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 212,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "BLZ-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BLZ-SRC-104",
+          "locator": "Printed p. 107, Water Resources"
+        }
+      ],
+      "geographies": [
+        "Belize River",
+        "Philip Goldson International Airport",
+        "Double Run",
+        "Belize City"
+      ],
+      "affected_groups": [
+        "Belize City water users"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The communication edited in May 2012 reports earlier saltwater intrusion upstream on the Belize River near the Double Run intake, with treatment/quality implications; present conditions are unknown.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "BLZ-E-114",
+  "source_access_review": {
+    "selected_record_id": "BLZ-E-114",
+    "selected_source_id": "BLZ-SRC-104",
+    "url": "https://unfccc.int/resource/docs/natc/blznc2.pdf",
+    "locator": "Printed pp. 106-107, Water Resources",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "document-fetched",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 212,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null
+  },
+  "checks": [
+    {
+      "record_id": "BLZ-E-114",
+      "source_id": "BLZ-SRC-104",
+      "locator": "Printed pp. 106-107, Water Resources",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET; HTML visible-text extraction",
+      "access_date": "2026-10-27",
+      "source_access_status": "document-fetched",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "BLZ-E-114: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "BLZ-E-001",
+    "BLZ-E-002",
+    "BLZ-E-003",
+    "BLZ-E-004",
+    "BLZ-E-005",
+    "BLZ-E-006",
+    "BLZ-E-007",
+    "BLZ-E-101",
+    "BLZ-E-102",
+    "BLZ-E-103",
+    "BLZ-E-104",
+    "BLZ-E-106",
+    "BLZ-E-107",
+    "BLZ-E-108",
+    "BLZ-E-109",
+    "BLZ-E-110",
+    "BLZ-E-111",
+    "BLZ-E-112",
+    "BLZ-E-113",
+    "BLZ-E-114",
+    "BLZ-E-115"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

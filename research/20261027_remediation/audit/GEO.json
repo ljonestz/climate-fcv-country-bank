@@ -1,0 +1,1081 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "GEO",
+  "candidate_path": "countries/GEO/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 5,
+    "evidence_count": 14,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 14
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 13,
+      "verified": 1
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "At least one known-gap statement appears inconsistent with the current pathway inventory.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "GEO-E-101",
+          "GEO-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "GEO-E-102",
+          "GEO-E-103",
+          "GEO-E-104",
+          "GEO-E-105",
+          "GEO-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "GEO-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "GEO-E-106",
+          "GEO-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "GEO-E-112",
+          "GEO-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "GEO-E-108",
+          "GEO-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "GEO-E-101",
+          "GEO-E-102",
+          "GEO-E-103",
+          "GEO-E-104",
+          "GEO-E-107",
+          "GEO-E-110",
+          "GEO-E-111",
+          "GEO-E-112",
+          "GEO-E-114"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "GEO-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [
+      {
+        "text": "The water-use conflict projection names no tested institutional mediator or observed local dispute; no complete pathway is inferred from that warning.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      }
+    ],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/GEO/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "GEO-SRC-101",
+      "title": "Country Climate and Development Report: Georgia",
+      "organization": "World Bank Group",
+      "publication_date": "2025-11",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099111125071073156/pdf/P501005-0512bde7-313c-4b6c-9ea7-6ecff83b43d7.pdf",
+      "geographic_coverage": [
+        "Georgia",
+        "Shovi",
+        "Racha",
+        "Kakheti",
+        "Imereti",
+        "Mtskheta-Mtianeti",
+        "Samegrelo-Zemo Svaneti"
+      ],
+      "temporal_coverage": "Historical hazard impacts and current exposure; scenario-based climate and poverty projections to 2030 and 2050.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "GEO-E-101",
+        "GEO-E-102",
+        "GEO-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF physical pp.23-24, 70.",
+          "notes": "Opened the official full PDF and cited passages on hazard losses, exposed groups and modeled regional poverty impacts.",
+          "reuse_terms": "World Bank copyright; attribution and any additional permissions required for reuse.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GEO-SRC-102",
+      "title": "A People-Centered Approach to Inclusive Growth, Sustainability and Human Development in Georgia: Country Analysis Summary Report 2025",
+      "organization": "United Nations Country Team in Georgia",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://georgia.un.org/ka/download/193260/303003",
+      "geographic_coverage": [
+        "Georgia",
+        "Abkhazia administrative boundary line",
+        "South Ossetia administrative boundary line",
+        "Georgia highlands",
+        "rural Georgia"
+      ],
+      "temporal_coverage": "Country analysis published in 2025; summarizes current development, climate and conflict vulnerabilities and institutional status.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GEO-E-104",
+        "GEO-E-105",
+        "GEO-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF physical pp.9 and 30.",
+          "notes": "Opened the official complete 48-page report; reviewed climate/conflict framing, highland vulnerability and disaster-response capacity.",
+          "reuse_terms": "Reuse terms not stated on inspected report pages.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GEO-SRC-103",
+      "title": "South Caucasus Climate Impact Profile",
+      "organization": "adelphi research; authored by Sam Geldin (Climatepedia)",
+      "publication_date": "2025-12",
+      "publication_date_basis": "publication",
+      "url": "https://weatheringrisk.org/sites/default/files/document/South_Caucasus_Climate_Impact_Profile.pdf",
+      "geographic_coverage": [
+        "South Caucasus",
+        "Georgia",
+        "Kvemo Kartli",
+        "Kakheti",
+        "Kolkheti Plain",
+        "Kura-Aras Basin",
+        "Inguri River",
+        "Lower Rioni River",
+        "western Georgia",
+        "Abkhazia",
+        "South Ossetia"
+      ],
+      "temporal_coverage": "Observed regional climate and displacement context; near-term 2020-2039 and medium-term 2040-2059 scenarios.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "GEO-E-107",
+        "GEO-E-108",
+        "GEO-E-109"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF physical pp.4-6.",
+          "notes": "Opened the full regional PDF; cover states CC BY-ND 4.0 for text, with photographs and graphics excluded.",
+          "reuse_terms": "CC BY-ND 4.0 for text; attribution required; photographs and graphics excluded.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "GEO-E-109",
+        "selected_source_id": "GEO-SRC-103",
+        "url": "https://weatheringrisk.org/sites/default/files/document/South_Caucasus_Climate_Impact_Profile.pdf",
+        "locator": "PDF physical p.6.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 4413242,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          6
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "GEO-E-109"
+      ],
+      "manual_verified_record_ids": [
+        "GEO-E-109"
+      ]
+    },
+    {
+      "source_id": "GEO-SRC-104",
+      "title": "Reducing the Risk of Climate-Driven Disasters in Georgia",
+      "organization": "United Nations Development Programme and Government of Georgia",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.undp.org/georgia/projects/climate-change-disasters",
+      "geographic_coverage": [
+        "Georgia",
+        "Kakheti",
+        "Shida Kartli",
+        "Kintrishi River Basin",
+        "Natanebi River Basin",
+        "Supsa River Basin",
+        "Akhmeta",
+        "Gori",
+        "Kobuleti",
+        "Lagodekhi",
+        "Signagi",
+        "Telavi"
+      ],
+      "temporal_coverage": "Ongoing programme listed for December 2018-January 2028; page reports implementation outputs and status as accessed on 2026-10-27.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GEO-E-110",
+        "GEO-E-111",
+        "GEO-E-112",
+        "GEO-E-113"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Official page sections “Overview” and “Results So Far.”",
+          "notes": "Opened the publisher page and read the results body directly; no update/publication date is stated on the page.",
+          "reuse_terms": "Reuse terms not stated on inspected page.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GEO-SRC-105",
+      "title": "Impacts of Climate Change on Georgia’s Coastal Zone: Vulnerability Assessment and Adaptation Options",
+      "organization": "World Bank",
+      "publication_date": "2020-11",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/669221606810590559/pdf/Impacts-of-Climate-Change-on-Georgia-s-Coastal-Zone-Vulnerability-Assessment-and-Adaptation-Options.pdf",
+      "geographic_coverage": [
+        "Georgian Black Sea coast",
+        "Poti",
+        "Batumi",
+        "Kolkheti lowlands",
+        "Rioni River",
+        "Khobistskali River",
+        "Adjara"
+      ],
+      "temporal_coverage": "2020 coastal vulnerability study; includes observed 2017 degradation estimates and projections based mainly on 2015 climate models.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "GEO-E-114"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF physical pp.8-9 and 29-30.",
+          "notes": "Opened the official full PDF and reviewed methodology, limitations and Poti/Kolkheti flood and sediment passages.",
+          "reuse_terms": "World Bank copyright; noncommercial reproduction requires attribution.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "GEO-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GEO-SRC-101",
+          "locator": "PDF physical pp.23-24."
+        }
+      ],
+      "geographies": [
+        "Georgia",
+        "Shovi",
+        "Racha"
+      ],
+      "affected_groups": [
+        "residents",
+        "people displaced by landslides"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-11 reports: The CCDR records over 152 deaths and US$1.2 billion in losses from hazards over decades; landslides led to dozens of villages abandoned or displaced in 40 years. Shovi’s 2023 debris flow in Racha killed at least 32 and affected over 200.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GEO-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GEO-SRC-101",
+          "locator": "PDF physical p.24."
+        }
+      ],
+      "geographies": [
+        "Georgia",
+        "Kakheti"
+      ],
+      "affected_groups": [
+        "people in poverty",
+        "hazard-exposed population"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-11 reports: Among 100-year-flood-exposed people, 12% are poor and 77% have multiple vulnerabilities; among drought-exposed people, 12.1% are poor and 80% have multiple vulnerabilities. Kakheti is most drought-exposed; 91% there face other vulnerabilities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GEO-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GEO-SRC-101",
+          "locator": "PDF physical p.70."
+        }
+      ],
+      "geographies": [
+        "Imereti",
+        "Mtskheta-Mtianeti",
+        "Samegrelo-Zemo Svaneti",
+        "Kakheti"
+      ],
+      "affected_groups": [
+        "lower-income households",
+        "rural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "Dry/hot scenario versus SPS, 2030.",
+      "compact_statement": "The 2025 CCDR models higher food-price-related poverty under a dry/hot scenario than under stated policies, with particularly adverse consumption effects in Imereti, Mtskheta-Mtianeti, Samegrelo-Zemo Svaneti and Kakheti. These are scenario results, not observed poverty changes.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GEO-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GEO-SRC-102",
+          "locator": "PDF physical p.9."
+        }
+      ],
+      "geographies": [
+        "Georgia",
+        "Abkhazia administrative boundary line",
+        "South Ossetia administrative boundary line"
+      ],
+      "affected_groups": [
+        "forcibly displaced people",
+        "people outside government control",
+        "communities near administrative boundary lines"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: The UN analysis places spatial, social, political (including unresolved conflict) and environmental (including climate) factors among intersecting sources of vulnerability. Conflict disproportionately affects forcibly displaced people, residents outside government control and communities near Abkhazia/South Ossetia ABLs.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GEO-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GEO-SRC-102",
+          "locator": "PDF physical p.30."
+        }
+      ],
+      "geographies": [
+        "Georgia highlands",
+        "mountain communities"
+      ],
+      "affected_groups": [
+        "small-scale farmers",
+        "older women"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: Isolated mountain communities have limited development and inadequate infrastructure; older women in small-scale agriculture are particularly climate-vulnerable.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GEO-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GEO-SRC-102",
+          "locator": "PDF physical p.30."
+        }
+      ],
+      "geographies": [
+        "Georgia",
+        "rural Georgia"
+      ],
+      "affected_groups": [
+        "agricultural households",
+        "people affected by disasters"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: Monitoring, mapping, climate forecasting and early warnings have improved, but agricultural warnings and insurance remain weak; emergency social protection roles are unclear, with limited capacity to add beneficiaries or use municipalities as first responders.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GEO-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GEO-SRC-103",
+          "locator": "PDF physical pp.4-5."
+        }
+      ],
+      "geographies": [
+        "Kvemo Kartli",
+        "Kakheti",
+        "Black Sea coast",
+        "Kolkheti Plain",
+        "mountainous Georgia"
+      ],
+      "affected_groups": [
+        "people in high-risk areas"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "Medium-term 2040-2059; SSP1-2.6 and SSP3-7.0.",
+      "compact_statement": "Source dated 2025-12 reports: By mid-century, heat risk covers Kvemo Kartli, Kakheti and the coast under SSP1-2.6, expanding across Kolkheti Plain under SSP3-7.0; mountainous areas face more days above 25°C under SSP3-7.0.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GEO-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GEO-SRC-103",
+          "locator": "PDF physical p.5."
+        }
+      ],
+      "geographies": [
+        "Kura-Aras Basin"
+      ],
+      "affected_groups": [
+        "communities and water users in the Kura-Aras Basin"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "SSP3-7.0, medium-term 2040-2059.",
+      "compact_statement": "Source dated 2025-12 reports: SSP3-7.0 projects less summer rain in the Kura-Aras Basin by mid-century, raising water-shortage and hydrological-drought risks that could prompt water-use conflict.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GEO-E-109",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "GEO-SRC-103",
+          "locator": "PDF physical p.6."
+        }
+      ],
+      "geographies": [
+        "Georgia",
+        "Inguri River",
+        "Lower Rioni River",
+        "western Georgia",
+        "Abkhazia",
+        "South Ossetia"
+      ],
+      "affected_groups": [
+        "internally displaced people",
+        "conflict-affected households"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12 reports: Climate impacts compound displacement linked to episodic conflict and violence. IDPs face inadequate housing, limited services and livelihoods, plus heightened flood, drought and resource risks; much of Georgia is listed among areas with many IDPs.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "Retain explicitly as a regional South Caucasus profile; do not imply the general climate-risk passage is mapped specifically within Georgia."
+      ],
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+      "verification_attempt": {
+        "record_id": "GEO-E-109",
+        "source_id": "GEO-SRC-103",
+        "url": "https://weatheringrisk.org/sites/default/files/document/South_Caucasus_Climate_Impact_Profile.pdf",
+        "locator": "PDF physical p.6.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The cited regional South Caucasus profile states climate impacts compound conflict-related displacement, describes flood/drought/resource risks to displaced households, and lists much of Georgia among areas with many IDPs. The risk description is regional, not a Georgia subnational hazard estimate."
+      },
+      "verification_note": "The cited regional South Caucasus profile states climate impacts compound conflict-related displacement, describes flood/drought/resource risks to displaced households, and lists much of Georgia among areas with many IDPs. The risk description is regional, not a Georgia subnational hazard estimate.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "GEO-SRC-103",
+        "source_url": "https://weatheringrisk.org/sites/default/files/document/South_Caucasus_Climate_Impact_Profile.pdf",
+        "locator": "PDF physical p.6.",
+        "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+        "reason": "The cited regional South Caucasus profile states climate impacts compound conflict-related displacement, describes flood/drought/resource risks to displaced households, and lists much of Georgia among areas with many IDPs. The risk description is regional, not a Georgia subnational hazard estimate.",
+        "recommended_record_patch": "Retain explicitly as a regional South Caucasus profile; do not imply the general climate-risk passage is mapped specifically within Georgia.",
+        "coordinator_decision_ref": null
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "GEO-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GEO-SRC-104",
+          "locator": "Official programme page, “Results So Far,” station, agricultural climate service and landslide-monitoring entries."
+        }
+      ],
+      "geographies": [
+        "Georgia",
+        "Kakheti",
+        "Shida Kartli"
+      ],
+      "affected_groups": [
+        "farmers",
+        "people in landslide-prone locations"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: UNDP reports 150/154 planned weather stations in place; GECSA serves over 1,000 users in Kakheti and Shida Kartli, and landslide monitors are installed at 11 sites.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GEO-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GEO-SRC-104",
+          "locator": "Official programme page, “Results So Far,” hazard maps, vulnerability assessment, multi-hazard information and forecasting entries."
+        }
+      ],
+      "geographies": [
+        "Alazani River Basin",
+        "Chorokhi-Acharistskhali River Basin",
+        "Enguri River Basin",
+        "Iori River Basin",
+        "Khrami-Ktsia River Basin",
+        "Kintrishi River Basin",
+        "Khobistskali River Basin",
+        "Mtkvari River Basin",
+        "Natanebi River Basin",
+        "Rioni River Basin",
+        "Supsa River Basin"
+      ],
+      "affected_groups": [
+        "river basin communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: UNDP reports maps for seven hazards, vulnerability assessments and forecasting across 11 basins; the Emergency Management Service holds risk data, but public access awaits a protocol.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GEO-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GEO-SRC-104",
+          "locator": "Official programme page, “Results So Far,” municipal emergency plans and community-based climate risk management entries."
+        }
+      ],
+      "geographies": [
+        "Akhmeta",
+        "Gori",
+        "Kobuleti",
+        "Lagodekhi",
+        "Signagi",
+        "Telavi",
+        "Kintrishi River Basin",
+        "Natanebi River Basin",
+        "Supsa River Basin",
+        "western Georgia"
+      ],
+      "affected_groups": [
+        "vulnerable communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: Emergency plans were adopted in six of 11 municipalities: Akhmeta, Gori, Kobuleti, Lagodekhi, Signagi and Telavi. Community plans cover 45 vulnerable western communities; measures are underway in 15 across Kintrishi, Natanebi and Supsa.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GEO-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GEO-SRC-104",
+          "locator": "Official programme page, “Results So Far,” flood-protection infrastructure entry."
+        }
+      ],
+      "geographies": [
+        "Georgia"
+      ],
+      "affected_groups": [
+        "communities in flood-prone areas"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: Flood protection was finalized at 12 of 15 sites; the largest GCF-funded site remains under construction.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GEO-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GEO-SRC-105",
+          "locator": "PDF physical p.29, printed p.22."
+        }
+      ],
+      "geographies": [
+        "Poti",
+        "Kolkheti lowlands",
+        "Khobistskali River",
+        "Rioni River"
+      ],
+      "affected_groups": [
+        "coastal residents",
+        "port users"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-11 reports: The 2020 assessment says historic wetland drainage worsens lowland flood risk and is linked to coastal erosion, particularly around Poti; dams and port works also disrupt sediment delivery, including from Khobistskali, contributing to erosion and sediment accumulation at Poti port.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "GEO-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "GEO-E-109"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "GEO-E-109"
+        ],
+        "impact": [
+          "GEO-E-109"
+        ],
+        "mediator": [
+          "GEO-E-109"
+        ],
+        "consequence": [
+          "GEO-E-109"
+        ]
+      },
+      "geographies": [
+        "Georgia"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "direct",
+      "compact_statement": "Conflict-related displacement and inadequate housing/services can magnify climate-hazard vulnerability in Georgia; no climate-caused conflict claim.",
+      "alternative_explanations": [
+        "Poverty, building quality and hazard exposure also shape losses independently of displacement.",
+        "Regional synthesis is not a matched local comparison."
+      ],
+      "uncertainty": "Source-stated vulnerability mechanism, not causal identification; do not assign uniform exposure to all IDPs or named conflict territories.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "GEO-E-109",
+  "source_access_review": {
+    "selected_record_id": "GEO-E-109",
+    "selected_source_id": "GEO-SRC-103",
+    "url": "https://weatheringrisk.org/sites/default/files/document/South_Caucasus_Climate_Impact_Profile.pdf",
+    "locator": "PDF physical p.6.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 4413242,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      6
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+    "verification_note": "The cited regional South Caucasus profile states climate impacts compound conflict-related displacement, describes flood/drought/resource risks to displaced households, and lists much of Georgia among areas with many IDPs. The risk description is regional, not a Georgia subnational hazard estimate."
+  },
+  "checks": [
+    {
+      "record_id": "GEO-E-109",
+      "source_id": "GEO-SRC-103",
+      "locator": "PDF physical p.6.",
+      "verification_status": "verified",
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Retain explicitly as a regional South Caucasus profile; do not imply the general climate-risk passage is mapped specifically within Georgia.",
+      "coordinator_decision_ref": null
+    }
+  ],
+  "limitations": [
+    "GEO-E-109: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "GEO-E-101",
+    "GEO-E-102",
+    "GEO-E-103",
+    "GEO-E-104",
+    "GEO-E-105",
+    "GEO-E-106",
+    "GEO-E-107",
+    "GEO-E-108",
+    "GEO-E-109",
+    "GEO-E-110",
+    "GEO-E-111",
+    "GEO-E-112",
+    "GEO-E-113",
+    "GEO-E-114",
+    "GEO-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 1,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

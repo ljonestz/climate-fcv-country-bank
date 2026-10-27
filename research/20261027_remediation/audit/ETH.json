@@ -1,0 +1,2215 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "ETH",
+  "candidate_path": "countries/ETH/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 18,
+    "evidence_count": 30,
+    "pathway_count": 7,
+    "evidence_source_reference_count": 31
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 19,
+      "access-only": 11
+    },
+    "pathway_claims": {
+      "unresolved": 7
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "ETH-E-001",
+          "ETH-E-002",
+          "ETH-E-003",
+          "ETH-E-004"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "ETH-E-005",
+          "ETH-E-007"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "ETH-E-006",
+          "ETH-E-010",
+          "ETH-E-101",
+          "ETH-E-102",
+          "ETH-E-104",
+          "ETH-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "ETH-E-016",
+          "ETH-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "ETH-E-013",
+          "ETH-E-022"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "ETH-E-009",
+          "ETH-E-014",
+          "ETH-E-015",
+          "ETH-E-108",
+          "ETH-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "ETH-E-017",
+          "ETH-E-109",
+          "ETH-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "ETH-E-011",
+          "ETH-E-012",
+          "ETH-E-103",
+          "ETH-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "ETH-E-020",
+          "ETH-E-021"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "ETH-E-102",
+          "ETH-E-104",
+          "ETH-E-105",
+          "ETH-E-106",
+          "ETH-E-107",
+          "ETH-E-108",
+          "ETH-E-109",
+          "ETH-E-110",
+          "ETH-E-111"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "ETH-P-001",
+          "ETH-P-002",
+          "ETH-P-003",
+          "ETH-P-004",
+          "ETH-P-005",
+          "ETH-P-006",
+          "ETH-P-007"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/ETH/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "ETH-SRC-001",
+      "title": "Updated Nationally Determined Contribution",
+      "organization": "Government of Ethiopia / UNFCCC",
+      "publication_date": "2021",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/NDC/2022-06/Ethiopia%27s%20updated%20NDC%20JULY%202021%20Submission_.pdf",
+      "geographic_coverage": [
+        "National; some regional differentiation"
+      ],
+      "temporal_coverage": "Baselines mainly historical/2018; targets to 2030",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ETH-E-001",
+        "ETH-E-002",
+        "ETH-E-013"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ETH-SRC-002",
+      "title": "National Adaptation Plan (NAP) - Ethiopia 2019",
+      "organization": "Government of Ethiopia",
+      "publication_date": "2019",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/resource/NAP_Ethiopia_2019.pdf",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "2019-2030",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ETH-SRC-003",
+      "title": "Ethiopia’s NAP Implementation Roadmap",
+      "organization": "Environment, Forest and Climate Change Commission",
+      "publication_date": "2020",
+      "publication_date_basis": "publication",
+      "url": "https://napglobalnetwork.org/wp-content/uploads/2020/08/napgn-en-2020-Ethiopia-climate-resilient-green-economy-nap-roadmap.pdf",
+      "geographic_coverage": [
+        "National, sectoral"
+      ],
+      "temporal_coverage": "2019-2030",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ETH-SRC-004",
+      "title": "Stocktake of Climate Change Adaptation Interventions in Ethiopia",
+      "organization": "Ministry of Planning and Development",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://napglobalnetwork.org/wp-content/uploads/2025/04/ethiopia-stocktake-climate-change-adaptation-last-final.pdf",
+      "geographic_coverage": [
+        "National, sectoral"
+      ],
+      "temporal_coverage": "Primarily implementation since 2021",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ETH-E-014",
+        "ETH-E-017"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ETH-SRC-005",
+      "title": "Ethiopia Country Climate and Development Report",
+      "organization": "World Bank",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099022224202134449/pdf/P17952512670c208619205179e2783cefc5.pdf",
+      "geographic_coverage": [
+        "National with regional/woreda examples"
+      ],
+      "temporal_coverage": "Historical to 2023; modeled futures to 2100",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ETH-E-003",
+        "ETH-E-004",
+        "ETH-E-005",
+        "ETH-E-006",
+        "ETH-E-007",
+        "ETH-E-010",
+        "ETH-E-011",
+        "ETH-E-015",
+        "ETH-E-016"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "ETH-E-010",
+        "selected_source_id": "ETH-SRC-005",
+        "url": "https://documents1.worldbank.org/curated/en/099022224202134449/pdf/P17952512670c208619205179e2783cefc5.pdf",
+        "locator": "PDF p.25. (World Bank2)",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "ETH-SRC-006",
+      "title": "Climate-Fragility Risk Brief: Ethiopia",
+      "organization": "Climate Security Expert Network / adelphi",
+      "publication_date": "2019",
+      "publication_date_basis": "publication",
+      "url": "https://climate-diplomacy.org/sites/default/files/2021-01/CSEN%20Climate%20Fragility%20Risk%20Brief%20-%20Ethiopia.pdf",
+      "geographic_coverage": [
+        "National with regional scenarios"
+      ],
+      "temporal_coverage": "Primarily pre-2019",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ETH-SRC-007",
+      "title": "Is climate a risk multiplier in Ethiopia?",
+      "organization": "WFP / CGIAR",
+      "publication_date": "2021",
+      "publication_date_basis": "publication",
+      "url": "https://www.wfp.org/publications/climate-risk-multiplier-ethiopia",
+      "geographic_coverage": [
+        "National/woreda"
+      ],
+      "temporal_coverage": "Historical observational data",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ETH-E-011"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ETH-SRC-008",
+      "title": "The World Food Programme’s Contribution to Improving the Prospects for Peace in Ethiopia",
+      "organization": "SIPRI / WFP",
+      "publication_date": "2022",
+      "publication_date_basis": "publication",
+      "url": "https://www.sipri.org/sites/default/files/2022-04/wfp_country_report_ethiopia_0.pdf",
+      "geographic_coverage": [
+        "Mainly Somali Region"
+      ],
+      "temporal_coverage": "Interviews chiefly 2021",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ETH-E-012",
+        "ETH-E-020",
+        "ETH-E-021"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ETH-SRC-009",
+      "title": "Ethiopia emergency",
+      "organization": "WFP",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.wfp.org/emergencies/ethiopia-emergency",
+      "geographic_coverage": [
+        "National with regional references"
+      ],
+      "temporal_coverage": "2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ETH-E-009"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ETH-SRC-010",
+      "title": "WFP warns of rising hunger and malnutrition in Ethiopia as humanitarian needs outpace resources",
+      "organization": "WFP",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://www.wfp.org/news/wfp-warns-rising-hunger-and-malnutrition-ethiopia-humanitarian-needs-outpace-resources",
+      "geographic_coverage": [
+        "National with regional evidence"
+      ],
+      "temporal_coverage": "2025",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ETH-SRC-011",
+      "title": "Investing in Data - Helping Ethiopia put in place systems to track disaster loss and damage",
+      "organization": "UNDP Ethiopia",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/ethiopia/blog/investing-data-helping-ethiopia-put-place-systems-track-disaster-loss-and-damage",
+      "geographic_coverage": [
+        "National/federal-regional"
+      ],
+      "temporal_coverage": "2024",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ETH-SRC-012",
+      "title": "World Bank Scales Up Efforts to Boost the Resilience of 3 Million Ethiopians Living in Drought Prone Lowlands",
+      "organization": "World Bank",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2024/03/29/world-bank-scales-up-efforts-to-boost-the-resilience-of-3-million-afe-ethiopians-living-in-drought-prone-lowlands",
+      "geographic_coverage": [
+        "Drought-prone lowlands"
+      ],
+      "temporal_coverage": "Forward-looking",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ETH-SRC-013",
+      "title": "The World Bank Group in Ethiopia, Fiscal Years 2013-23",
+      "organization": "Independent Evaluation Group",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://ieg.worldbankgroup.org/evaluations/world-bank-group-ethiopia-fiscal-years-2013-23",
+      "geographic_coverage": [
+        "National; project/subnational evidence"
+      ],
+      "temporal_coverage": "FY2013-FY2023",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ETH-SRC-014",
+      "title": "WFP supports Ethiopia to build resilient food systems in Somali Region with solar-powered irrigation scheme",
+      "organization": "WFP",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.wfp.org/news/wfp-supports-ethiopia-build-resilient-food-systems-somali-region-solar-powered-irrigation",
+      "geographic_coverage": [
+        "Somali Region"
+      ],
+      "temporal_coverage": "Through Apr. 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ETH-E-022"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ETH-SRC-101",
+      "title": "Children displaced in a changing climate: Preventing and minimizing risk of displacement and preparing for climate mobility in Eastern and Southern Africa",
+      "organization": "UNICEF, in partnership with the Internal Displacement Monitoring Centre and Immigration, Refugees and Citizenship Canada",
+      "publication_date": "2025-09",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/esa/media/16146/file/UNICEF-Children-displaced-in-a-changing-climate-ESA-2025.pdf",
+      "geographic_coverage": [
+        "Ethiopia",
+        "Afar Region",
+        "Somali Region",
+        "Oromia Region",
+        "Amhara Region",
+        "Tigray Region"
+      ],
+      "temporal_coverage": "Historical displacement estimates for 2017–2023 and Ethiopia protection-system analysis published in September 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ETH-E-101",
+        "ETH-E-102",
+        "ETH-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 35-page report; checked methods, displacement/conflict analysis and Ethiopia section, printed pp. 12 and 23–25.",
+          "notes": "Read the PDF text including the methods caveats, Ethiopia regional estimates, and conflict/protection discussion.",
+          "reuse_terms": "No reuse license verified; paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ETH-SRC-102",
+      "title": "Nothing to put in your mouth: Seeking durable solutions to drought displacement in Ethiopia",
+      "organization": "Internal Displacement Monitoring Centre",
+      "publication_date": "2019-12",
+      "publication_date_basis": "publication",
+      "url": "https://api.internal-displacement.org/sites/default/files/publications/documents/201912-ethiopia-slow-onset.pdf",
+      "geographic_coverage": [
+        "Somali Region",
+        "Doolo Zone",
+        "Gafow IDP camp",
+        "Koracle IDP camp",
+        "Warder woreda"
+      ],
+      "temporal_coverage": "Fieldwork in Somali Region in July 2019; includes displacement associated with the 2015–2017 drought and 2019 conditions.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ETH-E-104",
+        "ETH-E-105",
+        "ETH-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 44-page report; checked printed pp. 5–10, including summary, study methods and Doolo/Warder findings.",
+          "notes": "Read the field-method caveats, displacement estimates, local livestock impacts, aid conditions and durable-solutions discussion.",
+          "reuse_terms": "No reuse license verified; paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ETH-SRC-103",
+      "title": "The Dynamics of (Agro) Pastoral Conflicts in Eastern Ethiopia",
+      "organization": "Ethiopian Journal of the Social Sciences and Humanities, Addis Ababa University",
+      "publication_date": "2015-06",
+      "publication_date_basis": "publication",
+      "url": "https://ejol.aau.edu.et/index.php/EJOSSAH/article/view/6275",
+      "geographic_coverage": [
+        "Meiso-Mullu district, Shinile Zone, Somali Region",
+        "Meiso district, West Hararghe Zone, Oromia Region",
+        "Amibara district, Zone 3, Afar Region",
+        "six kebeles"
+      ],
+      "temporal_coverage": "Fieldwork from February 2013 to November 2014; published in Volume 11, Number 1, June 2015.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ETH-E-107",
+        "ETH-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Publisher issue page and public author-uploaded full article; checked journal pp. 30–35, 39–48 and 51–52.",
+          "notes": "Read full text via author-upload on ResearchGate. The journal issue is June 2015 although migrated OJS metadata displays 2023-01-26.",
+          "reuse_terms": "No reuse license verified; paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ETH-SRC-104",
+      "title": "Ethiopia, Endline Evaluation of Satellite Index Insurance for Pastoralists (SIIPE)",
+      "organization": "World Food Programme Ethiopia Country Office",
+      "publication_date": "2024-11-20",
+      "publication_date_basis": "publication",
+      "url": "https://www.wfp.org/publications/ethiopia-endline-evaluation-satellite-index-insurance-pastoralists-siipe",
+      "geographic_coverage": [
+        "Somali Region",
+        "11 woredas (names not given on the accessible page)"
+      ],
+      "temporal_coverage": "SIIPE programme period 2019–2022; programme reach and evaluation findings summarized by WFP in November 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ETH-E-109",
+        "ETH-E-110",
+        "ETH-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Full WFP evaluation landing-page text, publication date and methods, programme reach, findings and recommendations.",
+          "notes": "The page’s PDF download triggered a JavaScript bot-verification challenge; claims are limited to the detailed WFP-published summary visible on the landing page.",
+          "reuse_terms": "No reuse license verified; paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "ETH-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-001",
+          "locator": "PDF p.10, §2.1."
+        }
+      ],
+      "geographies": [
+        "Ethiopia"
+      ],
+      "affected_groups": [
+        "population-wide"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "~1°C observed warming since 1960s.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "ETH-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-001",
+          "locator": "PDF p.10, §2.1."
+        }
+      ],
+      "geographies": [
+        "Ethiopia"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoralists"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Rainfall variability is large and spatially uneven.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "ETH-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-005",
+          "locator": "PDF p.27, §1.2.2/Fig.1.2A. (World Bank2)"
+        }
+      ],
+      "geographies": [
+        "Afar"
+      ],
+      "affected_groups": [
+        "pastoral/urban populations"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "future CMIP6 scenarios",
+      "compact_statement": "Afar faces large projected heat-day increase.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "ETH-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-005",
+          "locator": "PDF p.27, §1.2.2. (World Bank2)"
+        }
+      ],
+      "geographies": [
+        "Ethiopia"
+      ],
+      "affected_groups": [
+        "exposed households"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "CMIP6 future",
+      "compact_statement": "Flood intensity risk rises; dry-day change is spatially uneven.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "ETH-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-005",
+          "locator": "PDF p.26, §1.2.1. (World Bank2)"
+        }
+      ],
+      "geographies": [
+        "Ethiopia"
+      ],
+      "affected_groups": [
+        "exposed population"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Large recurring drought/flood exposure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "ETH-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-005",
+          "locator": "PDF p.46, §3.1. (World Bank2)"
+        }
+      ],
+      "geographies": [
+        "pastoral lowlands"
+      ],
+      "affected_groups": [
+        "pastoralists"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Tenure insecurity can amplify pastoral climate vulnerability.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "ETH-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-005",
+          "locator": "PDF p.46. (World Bank2)"
+        }
+      ],
+      "geographies": [
+        "Ethiopian cities"
+      ],
+      "affected_groups": [
+        "urban poor",
+        "displaced people"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Informality concentrates urban hazard/service vulnerability.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "ETH-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-009",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-009",
+          "locator": "webpage “Ethiopia,” paragraph following headline indicators. (World Food Programme8)"
+        }
+      ],
+      "geographies": [
+        "Amhara"
+      ],
+      "affected_groups": [
+        "assistance recipients"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict constrains humanitarian delivery.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "ETH-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-010",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-005",
+          "locator": "PDF p.25. (World Bank2)"
+        }
+      ],
+      "geographies": [
+        "pastoral/agropastoral areas"
+      ],
+      "affected_groups": [
+        "pastoral/agropastoral households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict exposure is associated with sharply higher food poverty.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "ETH-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "ETH-E-010",
+        "selected_source_id": "ETH-SRC-005",
+        "url": "https://documents1.worldbank.org/curated/en/099022224202134449/pdf/P17952512670c208619205179e2783cefc5.pdf",
+        "locator": "PDF p.25. (World Bank2)",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "ETH-E-011",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-005",
+          "locator": "p.27, citing Pacillo et al."
+        },
+        {
+          "source_id": "ETH-SRC-007",
+          "locator": "publication page. (World Food Programme1)"
+        }
+      ],
+      "geographies": [
+        "Ethiopia"
+      ],
+      "affected_groups": [
+        "households"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Heat-food insecurity-conflict link is correlational.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "ETH-SRC-005",
+        "ETH-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-012",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-008",
+          "locator": "PDF p.8 and pp.20-21. (SIPRI7)"
+        }
+      ],
+      "geographies": [
+        "Somali Region"
+      ],
+      "affected_groups": [
+        "pastoralists/agropastoralists"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Drought-related mobility can mediate local resource conflict.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "ETH-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-013",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-001",
+          "locator": "PDF p.8 and adaptation chapter."
+        }
+      ],
+      "geographies": [
+        "Ethiopia"
+      ],
+      "affected_groups": [
+        "multiple groups"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "National adaptation architecture has 40 targeted interventions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "ETH-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-014",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-004",
+          "locator": "PDF p.10, §2.1."
+        }
+      ],
+      "geographies": [
+        "Ethiopia"
+      ],
+      "affected_groups": [],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Most sampled adaptation indicators lacked tracking.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "ETH-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-015",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-005",
+          "locator": "PDF p.37, §2.4.2. (World Bank2)"
+        }
+      ],
+      "geographies": [
+        "Ethiopia"
+      ],
+      "affected_groups": [
+        "local populations"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Local climate implementation capacity is weak.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "ETH-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-016",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-005",
+          "locator": "PDF p.36, §2.4.2. (World Bank2)"
+        }
+      ],
+      "geographies": [
+        "Ethiopia"
+      ],
+      "affected_groups": [
+        "exposed communities"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Early-warning capacity exists across government levels.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "ETH-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-017",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-004",
+          "locator": "PDF p.10, §2.1."
+        }
+      ],
+      "geographies": [
+        "Ethiopia"
+      ],
+      "affected_groups": [],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Adaptation implementation evidence is incomplete and uneven.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "ETH-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-020",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-008",
+          "locator": "PDF pp.24-28. (SIPRI7)"
+        }
+      ],
+      "geographies": [
+        "Somali Region"
+      ],
+      "affected_groups": [
+        "pastoral/agropastoral households"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Insurance may support peace through reduced distress mobility, but evidence is mixed.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "ETH-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-021",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-008",
+          "locator": "PDF pp.33-37. (SIPRI7)"
+        }
+      ],
+      "geographies": [
+        "Somali Region"
+      ],
+      "affected_groups": [
+        "beneficiaries/non-beneficiaries"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Poor targeting transparency can create programme-related tension.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "ETH-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-022",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-014",
+          "locator": "webpage paragraphs under headline. (World Food Programme12)"
+        }
+      ],
+      "geographies": [
+        "Somali Region"
+      ],
+      "affected_groups": [
+        "pastoral/agropastoral families"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Recent lowland programme has substantial stated reach.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "ETH-SRC-014"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-101",
+          "locator": "PDF pp. 23–25, Ethiopia country analysis"
+        }
+      ],
+      "geographies": [
+        "Ethiopia"
+      ],
+      "affected_groups": [
+        "children",
+        "displaced households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09 reports: UNICEF–IDMC estimate 1.6 million weather-related child-displacement events in Ethiopia in 2017–2023; 522,000 were drought-linked, peaking at 324,000 in 2022.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-101",
+          "locator": "PDF p. 24, Ethiopia country analysis and data summary"
+        }
+      ],
+      "geographies": [
+        "Afar Region",
+        "Somali Region",
+        "Oromia Region"
+      ],
+      "affected_groups": [
+        "children",
+        "pastoralist households",
+        "conflict-affected communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNICEF–IDMC's September 2025 synthesis describes seasonal Awash flooding in low-lying Afar and Somali communities and substantial drought displacement in conflict-affected Somali and Oromia; it does not apportion the contributions of conflict and weather.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-101",
+          "locator": "Printed p.11 (physical PDF p.13), Ethiopia sentence under displacement, conflict and insecurity."
+        }
+      ],
+      "geographies": [
+        "Ethiopia"
+      ],
+      "affected_groups": [
+        "children",
+        "displaced children"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNICEF's 2025 Ethiopia discussion links conflict-disrupted livelihoods and services to greater drought/flood vulnerability and child exploitation risks; this is a national synthesis, not regional incidence or causal estimation.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-102",
+          "locator": "Printed pp. 5–7, summary, displacement context and methodology"
+        }
+      ],
+      "geographies": [
+        "Somali Region",
+        "Ethiopia"
+      ],
+      "affected_groups": [
+        "pastoralist households",
+        "internally displaced people"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2019-12 reports: IDMC reported nearly 56,000 drought-affected households still displaced in Somali Region; 36,000 people were displaced in a drought context nationally in January–June 2019, mainly there.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-102",
+          "locator": "Printed pp. 8–10, drought effects and pastoralist vulnerability in Doolo Zone"
+        }
+      ],
+      "geographies": [
+        "Doolo Zone",
+        "Gafow IDP camp",
+        "Koracle IDP camp",
+        "Warder woreda"
+      ],
+      "affected_groups": [
+        "pastoralists",
+        "internally displaced households",
+        "women and children"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2019-12 reports: In Gafow and Koracle, key informants estimated households lost up to 80% of livestock in the 2015–2017 drought; herds and milk fell as families sought clean water and aid in peri-urban Warder.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-102",
+          "locator": "Printed pp. 5–6 and 9–10, humanitarian response and conditions in Doolo and Warder"
+        }
+      ],
+      "geographies": [
+        "Doolo Zone",
+        "Warder woreda",
+        "Somali Region"
+      ],
+      "affected_groups": [
+        "drought-displaced pastoralists",
+        "host communities"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2019-12 reports: IDMC found Doolo drought-displaced households faced food insecurity and poor water access, while aid shrank as intercommunal conflicts took priority; host communities also lacked services.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-103",
+          "locator": "Journal pp. 39–42, methods and ranked factors encouraging rival communities to instigate conflict"
+        }
+      ],
+      "geographies": [
+        "Meiso-Mullu district, Shinile Zone, Somali Region",
+        "Meiso district, West Hararghe Zone, Oromia Region",
+        "Amibara district, Zone 3, Afar Region"
+      ],
+      "affected_groups": [
+        "Afar pastoralists",
+        "Issa-Somali pastoralists",
+        "Ittu-Oromo pastoralists",
+        "agro-pastoralists"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2015-06 reports: In the 128-household study across Meiso-Mullu, Meiso and Amibara, respondents ranked recurrent drought first among conflict-instigating factors because it reduced water, pasture and crop availability.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-103",
+          "locator": "Journal pp. 30–35 and 47–48, institutional and political dimensions of resource conflict"
+        }
+      ],
+      "geographies": [
+        "eastern Ethiopia",
+        "Somali Region",
+        "Oromia Region",
+        "Afar Region"
+      ],
+      "affected_groups": [
+        "pastoralist communities",
+        "agro-pastoralist communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2015-06 reports: The study describes weak customary institutions, contested regional boundaries and selected officials’ interests as factors shaping resource violence; federal military interventions were often temporary rather than lasting solutions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-104",
+          "locator": "WFP evaluation page, programme description and reach summary"
+        }
+      ],
+      "geographies": [
+        "Somali Region",
+        "11 woredas (not named on the accessible page)"
+      ],
+      "affected_groups": [
+        "pastoralist households",
+        "marginalized and underrepresented groups"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-11-20 reports: WFP reports that SIIPE expanded from three to 11 Somali Region woredas and reached over 28,000 households by 2021 through subsidized drought livestock insurance, public works and financial-literacy training.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-104",
+          "locator": "WFP evaluation page, impact findings and conclusions"
+        }
+      ],
+      "geographies": [
+        "Somali Region"
+      ],
+      "affected_groups": [
+        "SIIPE beneficiary households",
+        "women participants"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-11-20 reports: WFP’s summarized evaluation found improved insurance knowledge, financial-service engagement, livestock spending on water, veterinary care and forage, and food security, but no gains in incomes, assets or dietary diversity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ETH-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ETH-SRC-104",
+          "locator": "WFP evaluation page, effectiveness, scale and sustainability findings"
+        }
+      ],
+      "geographies": [
+        "Somali Region"
+      ],
+      "affected_groups": [
+        "pastoralist households",
+        "women participants"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-11-20 reports: WFP reports complex enrolment, delayed or inadequate payouts, unreliable satellite data, low awareness, capacity gaps, unaffordable premiums and budget shortfalls constrained SIIPE effectiveness and sustainability.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "ETH-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "ETH-E-011"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "ETH-E-011"
+        ],
+        "impact": [
+          "ETH-E-011"
+        ],
+        "mediator": [
+          "ETH-E-011"
+        ],
+        "consequence": [
+          "ETH-E-011"
+        ]
+      },
+      "geographies": [
+        "Woreda-level Ethiopia"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Extreme heat may raise conflict risk through food insecurity, but available Ethiopia evidence is correlational rather than proof that heat causes conflict. (World Food Programme1)",
+      "alternative_explanations": [
+        "Pre-existing insecurity",
+        "poverty",
+        "inflation",
+        "governance",
+        "political mobilization",
+        "land disputes"
+      ],
+      "uncertainty": "Causal direction and omitted-variable effects remain material.",
+      "potentially_out_of_scope_support_ids": [
+        "ETH-E-011"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "ETH-P-002",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "ETH-E-012",
+        "ETH-E-020"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "ETH-E-012"
+        ],
+        "impact": [
+          "ETH-E-012"
+        ],
+        "mediator": [
+          "ETH-E-012"
+        ],
+        "consequence": [
+          "ETH-E-012"
+        ]
+      },
+      "geographies": [
+        "Somali Region case-study communities"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Drought can affect local conflict risk through mobility and governed access to pasture/water; it is not an automatic conflict trigger. (SIPRI7)",
+      "alternative_explanations": [
+        "Administrative boundaries",
+        "ethnic/political relations",
+        "historic disputes",
+        "livestock raiding",
+        "weapons and governance"
+      ],
+      "uncertainty": "Strongly location-dependent.",
+      "potentially_out_of_scope_support_ids": [
+        "ETH-E-012",
+        "ETH-E-020"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "ETH-P-003",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "ETH-E-004",
+        "ETH-E-007"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "ETH-E-004"
+        ],
+        "impact": [
+          "ETH-E-004"
+        ],
+        "mediator": [
+          "ETH-E-004"
+        ],
+        "consequence": [
+          "ETH-E-004"
+        ]
+      },
+      "geographies": [
+        "Flood-prone urban/rural locations"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Flood impacts may interact with displacement and service deficits, but a conflict consequence remains inferential. (World Bank2)",
+      "alternative_explanations": [
+        "Drainage/infrastructure deficiencies",
+        "land administration",
+        "settlement policy",
+        "poverty"
+      ],
+      "uncertainty": "No verified source here demonstrates a national flood -> violence causal effect.",
+      "potentially_out_of_scope_support_ids": [
+        "ETH-E-004",
+        "ETH-E-007"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "ETH-P-004",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "ETH-E-010"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "ETH-E-010"
+        ],
+        "impact": [
+          "ETH-E-010"
+        ],
+        "mediator": [
+          "ETH-E-010"
+        ],
+        "consequence": [
+          "ETH-E-010"
+        ]
+      },
+      "geographies": [
+        "Pastoral/agropastoral survey areas"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Conflict-associated food poverty plausibly reduces household climate-coping capacity, but the complete adaptation chain has not been directly evaluated. (World Bank2)",
+      "alternative_explanations": [
+        "Inflation",
+        "pre-existing poverty",
+        "market access"
+      ],
+      "uncertainty": "Direct effect on specific adaptation outcomes was not measured.",
+      "potentially_out_of_scope_support_ids": [
+        "ETH-E-010"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "ETH-P-005",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "ETH-E-004",
+        "ETH-E-009"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "ETH-E-004"
+        ],
+        "impact": [
+          "ETH-E-009"
+        ],
+        "mediator": [
+          "ETH-E-009"
+        ],
+        "consequence": [
+          "ETH-E-009"
+        ]
+      },
+      "geographies": [
+        "Particularly Amhara in current WFP reporting"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Flood exposure and insecurity-related operating constraints are separately documented; their joint effect on humanitarian or resilience outcomes is not quantified. (World Food Programme8)",
+      "alternative_explanations": [
+        "Funding shortages",
+        "logistics",
+        "commodity prices",
+        "administrative capacity"
+      ],
+      "uncertainty": "Flood risk and insecurity-related delivery costs are separately documented; their joint effect is not estimated.",
+      "potentially_out_of_scope_support_ids": [
+        "ETH-E-004",
+        "ETH-E-009"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "ETH-P-006",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "ETH-E-006",
+        "ETH-E-012"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "ETH-E-006"
+        ],
+        "impact": [
+          "ETH-E-006"
+        ],
+        "mediator": [
+          "ETH-E-006"
+        ],
+        "consequence": [
+          "ETH-E-006"
+        ]
+      },
+      "geographies": [
+        "Pastoral lowlands"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Institutions governing land and seasonal access can mediate whether climate stress becomes a livelihood or fragility problem. (World Bank2)",
+      "alternative_explanations": [
+        "Commercial investment",
+        "administrative boundaries",
+        "political relations",
+        "demographic/market changes"
+      ],
+      "uncertainty": "National incidence is not quantified.",
+      "potentially_out_of_scope_support_ids": [
+        "ETH-E-006",
+        "ETH-E-012"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "ETH-P-007",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "ETH-E-020",
+        "ETH-E-021"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "ETH-E-020"
+        ],
+        "impact": [
+          "ETH-E-020"
+        ],
+        "mediator": [
+          "ETH-E-020"
+        ],
+        "consequence": [
+          "ETH-E-020"
+        ]
+      },
+      "geographies": [
+        "Somali Region"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Insurance has a plausible peace-supporting pathway, but evidence is mixed and programme targeting can generate its own tensions. (SIPRI7)",
+      "alternative_explanations": [
+        "Severity of drought",
+        "existing relations",
+        "pasture availability",
+        "programme scale"
+      ],
+      "uncertainty": "Severe drought still generated migration; peace effect not rigorously estimated.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ"
+      ],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "ETH-E-010",
+  "source_access_review": {
+    "selected_record_id": "ETH-E-010",
+    "selected_source_id": "ETH-SRC-005",
+    "url": "https://documents1.worldbank.org/curated/en/099022224202134449/pdf/P17952512670c208619205179e2783cefc5.pdf",
+    "locator": "PDF p.25. (World Bank2)",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": null,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+  },
+  "checks": [
+    {
+      "record_id": "ETH-E-010",
+      "source_id": "ETH-SRC-005",
+      "locator": "PDF p.25. (World Bank2)",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "ETH-E-010: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "ETH-E-001",
+    "ETH-E-002",
+    "ETH-E-003",
+    "ETH-E-004",
+    "ETH-E-005",
+    "ETH-E-006",
+    "ETH-E-007",
+    "ETH-E-009",
+    "ETH-E-010",
+    "ETH-E-011",
+    "ETH-E-012",
+    "ETH-E-013",
+    "ETH-E-014",
+    "ETH-E-015",
+    "ETH-E-016",
+    "ETH-E-017",
+    "ETH-E-020",
+    "ETH-E-021",
+    "ETH-E-022",
+    "ETH-E-101",
+    "ETH-E-102",
+    "ETH-E-103",
+    "ETH-E-104",
+    "ETH-E-105",
+    "ETH-E-106",
+    "ETH-E-107",
+    "ETH-E-108",
+    "ETH-E-109",
+    "ETH-E-110",
+    "ETH-E-111",
+    "ETH-P-001",
+    "ETH-P-002",
+    "ETH-P-003",
+    "ETH-P-004",
+    "ETH-P-005",
+    "ETH-P-006",
+    "ETH-P-007"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

@@ -1,0 +1,901 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "CHN",
+  "candidate_path": "countries/CHN/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 4,
+    "evidence_count": 13,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 13
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 12,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "CHN-E-105",
+          "CHN-E-109",
+          "CHN-E-110",
+          "CHN-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "CHN-E-101",
+          "CHN-E-102",
+          "CHN-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "CHN-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "CHN-E-106",
+          "CHN-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "CHN-E-112",
+          "CHN-E-113",
+          "CHN-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "CHN-E-101",
+          "CHN-E-102",
+          "CHN-E-103",
+          "CHN-E-105",
+          "CHN-E-107",
+          "CHN-E-110",
+          "CHN-E-111",
+          "CHN-E-112",
+          "CHN-E-113",
+          "CHN-E-114"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/CHN/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "CHN-SRC-101",
+      "title": "The People's Republic of China Third National Communication on Climate Change",
+      "organization": "People's Republic of China; submitted to the UNFCCC",
+      "publication_date": "2018-12",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/resource/China%203NC_English_0.pdf",
+      "geographic_coverage": [
+        "China",
+        "Loess Plateau",
+        "central-eastern Inner Mongolia",
+        "southeastern Gansu",
+        "Haihe River basin",
+        "Huaihe River basin",
+        "Yellow River basin",
+        "Song-Liao River basins",
+        "Qinghai-Tibetan Plateau",
+        "Tibet"
+      ],
+      "temporal_coverage": "Government-approved communication dated December 2018; observed climate and sector trends and future scenarios, generally updated through 2015.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CHN-E-101",
+        "CHN-E-102",
+        "CHN-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 75–85 and 91–92, agriculture, grassland, water, cryosphere and health-vulnerability sections",
+          "notes": "Opened the 280-page UNFCCC-hosted report and inspected cited passages. Foreword says the report was State-Council approved; PDF labels English text an unofficial translation.",
+          "reuse_terms": "Not separately inspected; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "CHN-SRC-102",
+      "title": "Progress Report on China's Climate Change Adaptation (2024) / 中国适应气候变化进展报告（2024）",
+      "organization": "Ministry of Ecology and Environment of the People's Republic of China",
+      "publication_date": "2025-06",
+      "publication_date_basis": "document-version",
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk06/202506/W020250624798282455900.pdf",
+      "geographic_coverage": [
+        "China",
+        "Qinghai-Tibetan Plateau",
+        "Yellow River basin",
+        "Yangtze-Huaihe area",
+        "North China",
+        "Chinese provinces",
+        "Xinjiang Production and Construction Corps"
+      ],
+      "temporal_coverage": "Official 33-page review of climate conditions and adaptation activities in 2024; includes implementation status through February 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CHN-E-105",
+        "CHN-E-106",
+        "CHN-E-107",
+        "CHN-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 6–11 and 20–21, climate conditions, early warning and regional adaptation",
+          "notes": "Opened the official 33-page Ministry report; inspected the dated report and referenced sections on observed conditions and regional measures.",
+          "reuse_terms": "Not separately inspected; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "CHN-SRC-103",
+      "title": "2024 national situation of natural disasters",
+      "organization": "National Commission for Disaster Prevention, Reduction and Relief Office and Ministry of Emergency Management of China",
+      "publication_date": "2025-01-17",
+      "publication_date_basis": "publication",
+      "url": "https://www.mem.gov.cn/xw/yjglbgzdt/202501/t20250117_516032.shtml",
+      "geographic_coverage": [
+        "China",
+        "Shaanxi Province",
+        "Shangluo",
+        "Baoji",
+        "Hunan Province",
+        "Chenzhou",
+        "Hengyang",
+        "Hainan Province",
+        "Guangdong Province",
+        "Guangxi",
+        "Yunnan Province"
+      ],
+      "temporal_coverage": "Calendar-year 2024 disaster impacts reported by local emergency-management departments and reviewed by national agencies.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CHN-E-109",
+        "CHN-E-110",
+        "CHN-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "HTML paragraphs 51, 56 and 59, annual totals, flood and typhoon impacts",
+          "notes": "Opened the full official Ministry page and inspected the calendar-year 2024 impact summary and event-level paragraphs.",
+          "reuse_terms": "Not separately inspected; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "CHN-SRC-104",
+      "title": "MEM publishes typical cases of successful disaster avoidance in 2024 / 应急管理部公布2024年度全国成功避险避灾典型案例",
+      "organization": "Ministry of Emergency Management of China",
+      "publication_date": "2025-06-06",
+      "publication_date_basis": "publication",
+      "url": "https://www.mem.gov.cn/xw/yjglbgzdt/202506/t20250606_542098.shtml",
+      "geographic_coverage": [
+        "China",
+        "Qinglong County, Guizhou",
+        "Huanggang, Hubei",
+        "Pinggu District, Beijing",
+        "Huang Songyu Township, Beijing",
+        "Tawa Village, Beijing"
+      ],
+      "temporal_coverage": "National ministry's selected 2024 disaster-avoidance cases, published 6 June 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CHN-E-112",
+        "CHN-E-113",
+        "CHN-E-114"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "HTML paragraphs 91–107 and 166–169, Guizhou, Hubei and Beijing selected cases",
+          "notes": "Opened the full Ministry page; inspected its description of case-selection and named local response sequences.",
+          "reuse_terms": "Not separately inspected; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "CHN-E-112",
+        "selected_source_id": "CHN-SRC-104",
+        "url": "https://www.mem.gov.cn/xw/yjglbgzdt/202506/t20250606_542098.shtml",
+        "locator": "HTML paragraphs 91–94, Qinglong County landslide case",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)>"
+      },
+      "audit_accessed_on": "2026-10-27"
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "CHN-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CHN-SRC-101",
+          "locator": "Printed p.76 (PDF physical p.81), section 2.1.1(4), agricultural vulnerability."
+        }
+      ],
+      "geographies": [
+        "Loess Plateau"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2018-12 reports: The communication identifies the Loess Plateau as China's most agriculturally vulnerable area; observed yield reductions affected one crop type on 90% and two types on 55% of its arable land.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CHN-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CHN-SRC-101",
+          "locator": "Printed p.82 (PDF physical p.87), section 2.3.1(2), grasslands."
+        }
+      ],
+      "geographies": [
+        "central-eastern Inner Mongolia",
+        "southeastern Gansu"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2018-12 reports: Warming and drying reduced northern-grassland forage yield and capacity, most in central-eastern Inner Mongolia and southeastern Gansu.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CHN-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CHN-SRC-101",
+          "locator": "Printed pp.80-81, section 2.2.3 and Figure 3-13; basin water vulnerability."
+        }
+      ],
+      "geographies": [
+        "Haihe River basin",
+        "Yellow River basin",
+        "Huaihe River basin",
+        "Song-Liao River basins"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "Medium greenhouse-gas concentration scenario; comparison period 2021–2050 versus 1961–1990.",
+      "compact_statement": "Source dated 2018-12 reports: By mid-century, water vulnerability is projected to intensify in Haihe, Yellow, Huaihe and Song-Liao basins under combined climate change and rising demand.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CHN-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CHN-SRC-102",
+          "locator": "Printed pp.6-7 (PDF physical pp.5-6), 2024 climate conditions."
+        }
+      ],
+      "geographies": [
+        "China",
+        "Yangtze-Huaihe area",
+        "North China"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-06 reports: MEE reports 2024 national precipitation 9% above the 1991–2020 norm; Yangtze-Huaihe Meiyu rainfall exceeded normal by over 50%, and North China rainy-season precipitation by 83%.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CHN-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CHN-SRC-102",
+          "locator": "Printed pp.10-11 (PDF physical pp.9-10), integrated disaster prevention."
+        }
+      ],
+      "geographies": [
+        "China",
+        "provincial, county, township and village levels"
+      ],
+      "affected_groups": [
+        "households in hazard areas"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-06 reports: In 2024, China added 9,944 geological-hazard warning stations; six administrative levels logged 600,000 risk reports and helped move over 10,000 households and 30,000 people before danger.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CHN-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CHN-SRC-102",
+          "locator": "Printed p.22 (PDF physical p.21), regional adaptation actions."
+        }
+      ],
+      "geographies": [
+        "Qinghai-Tibetan Plateau",
+        "Yellow River basin"
+      ],
+      "affected_groups": [],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The ministry's 2024 progress report describes Qinghai-Tibetan Plateau coordination and research and reports 333.8 hectares of additional greening around Yellow River-area rivers, canals, lakes and reservoirs. These are government-reported activities, not independently evaluated resilience outcomes.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CHN-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CHN-SRC-102",
+          "locator": "Printed pp.19 and 22 (PDF physical pp.18 and 21), city pilots and provincial adaptation plans."
+        }
+      ],
+      "geographies": [
+        "China",
+        "30 provinces",
+        "Xinjiang Production and Construction Corps",
+        "39 pilot cities"
+      ],
+      "affected_groups": [
+        "urban residents",
+        "provincial and local governments"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The June 2025 ministry report records adaptation plans in 30 provinces and the Xinjiang Production and Construction Corps by February 2025, and a 2024 list of 39 climate-adaptive city pilots. Counts do not establish implementation quality or reduced losses.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check",
+        "programme_intent_and_outcome_terms_co-occur"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CHN-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CHN-SRC-103",
+          "locator": "HTML paragraph 51, 2024 national disaster totals"
+        }
+      ],
+      "geographies": [
+        "China"
+      ],
+      "affected_groups": [
+        "disaster-affected residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-01-17 reports: Local emergency departments reported 94.13 million person-times affected by disasters in 2024, 856 deaths or missing, and 3.645 million emergency relocations nationwide.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CHN-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CHN-SRC-103",
+          "locator": "HTML paragraph 56, 2024 flood and geological-disaster impacts"
+        }
+      ],
+      "geographies": [
+        "Shaanxi Province",
+        "Shangluo",
+        "Baoji",
+        "Hunan Province",
+        "Chenzhou",
+        "Hengyang"
+      ],
+      "affected_groups": [
+        "flood-affected residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2024 disaster bulletin reports national flood/geological-disaster person-time impacts and emergency relocations, with deadly July events in Shaanxi's Shangluo/Baoji and Hunan's Chenzhou/Hengyang. Administrative counts are not unique-person prevalence or climate-attributable losses.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CHN-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CHN-SRC-103",
+          "locator": "HTML paragraph 59, Typhoon Yagi impacts"
+        }
+      ],
+      "geographies": [
+        "Hainan Province",
+        "Guangdong Province",
+        "Guangxi",
+        "Yunnan Province"
+      ],
+      "affected_groups": [
+        "typhoon-affected residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-01-17 reports: Super Typhoon Yagi affected Hainan, Guangdong, Guangxi and Yunnan in September 2024, causing four deaths and 189,000 collapsed or damaged houses, with reported direct losses of 72.03 billion yuan.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CHN-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "CHN-SRC-104",
+          "locator": "HTML paragraphs 91–94, Qinglong County landslide case"
+        }
+      ],
+      "geographies": [
+        "Tunshang Village",
+        "Zima Township",
+        "Qinglong County",
+        "Qianxinan Prefecture",
+        "Guizhou Province"
+      ],
+      "affected_groups": [
+        "residents in landslide-risk areas"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-06-06 reports: In Tunshang Village, Zima Township, Qinglong County, Guizhou, warning and joint inspections led to 180 people moving from a landslide-risk area; 53 houses were damaged, with no deaths.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "CHN-E-112",
+        "selected_source_id": "CHN-SRC-104",
+        "url": "https://www.mem.gov.cn/xw/yjglbgzdt/202506/t20250606_542098.shtml",
+        "locator": "HTML paragraphs 91–94, Qinglong County landslide case",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)>"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "CHN-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CHN-SRC-104",
+          "locator": "HTML paragraphs 104–107, Hubei flood and levee-seepage case"
+        }
+      ],
+      "geographies": [
+        "Yangjiawan Village",
+        "Taodian Township",
+        "Huangzhou District",
+        "Huanggang",
+        "Hubei Province"
+      ],
+      "affected_groups": [
+        "downstream residents",
+        "farmers"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The ministry's selected Yangjiawan/Huangzhou case describes detection of levee seepage and emergency control works. Its estimates of people and farmland protected are reported counterfactual exposure estimates, not independently measured avoided losses.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CHN-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CHN-SRC-104",
+          "locator": "HTML paragraphs 166–169, Beijing Pinggu District evacuation case"
+        }
+      ],
+      "geographies": [
+        "Pinggu District",
+        "Huang Songyu Township",
+        "Tawa Village",
+        "Beijing"
+      ],
+      "affected_groups": [
+        "older people",
+        "people with illness or disability",
+        "non-local residents"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-06-06 reports: Before August 2024 storms, Pinggu District responders checked households including older, infirm, disabled and non-local residents in Tawa Village; 257 people were relocated from flood and landslide risk.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "CHN-E-112",
+  "source_access_review": {
+    "selected_record_id": "CHN-E-112",
+    "selected_source_id": "CHN-SRC-104",
+    "url": "https://www.mem.gov.cn/xw/yjglbgzdt/202506/t20250606_542098.shtml",
+    "locator": "HTML paragraphs 91–94, Qinglong County landslide case",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": null,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)>"
+  },
+  "checks": [
+    {
+      "record_id": "CHN-E-112",
+      "source_id": "CHN-SRC-104",
+      "locator": "HTML paragraphs 91–94, Qinglong County landslide case",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "CHN-E-112: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "CHN-E-101",
+    "CHN-E-102",
+    "CHN-E-103",
+    "CHN-E-105",
+    "CHN-E-106",
+    "CHN-E-107",
+    "CHN-E-108",
+    "CHN-E-109",
+    "CHN-E-110",
+    "CHN-E-111",
+    "CHN-E-112",
+    "CHN-E-113",
+    "CHN-E-114"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

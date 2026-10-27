@@ -1,0 +1,1423 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "SLB",
+  "candidate_path": "countries/SLB/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 8,
+    "evidence_count": 21,
+    "pathway_count": 2,
+    "evidence_source_reference_count": 21
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 8,
+      "access-only": 13
+    },
+    "pathway_claims": {
+      "unresolved": 2
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "At least one known-gap statement appears inconsistent with the current pathway inventory.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "SLB-E-101"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "SLB-E-001",
+          "SLB-E-105",
+          "SLB-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SLB-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SLB-E-004",
+          "SLB-E-108",
+          "SLB-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "SLB-E-102",
+          "SLB-E-103",
+          "SLB-E-104",
+          "SLB-E-111",
+          "SLB-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "SLB-E-002",
+          "SLB-E-006",
+          "SLB-E-109",
+          "SLB-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SLB-E-003",
+          "SLB-E-005",
+          "SLB-E-007",
+          "SLB-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "SLB-E-101",
+          "SLB-E-102",
+          "SLB-E-104",
+          "SLB-E-105",
+          "SLB-E-106",
+          "SLB-E-107",
+          "SLB-E-108",
+          "SLB-E-109",
+          "SLB-E-111",
+          "SLB-E-112",
+          "SLB-E-113"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "SLB-P-001",
+          "SLB-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [
+      {
+        "text": "No source located in the targeted searches showed insecurity or organized violence interrupting a named climate-adaptation delivery operation; no such reverse pathway is inferred from historical unrest.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      }
+    ],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/SLB/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "SLB-SRC-001",
+      "title": "Social Dimensions of Climate Change in Solomon Islands",
+      "organization": "World Bank",
+      "publication_date": "2023-03-30",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/brief/2023/03/30/social-dimensions-of-climate-change-in-solomon-islands",
+      "geographic_coverage": [
+        "Solomon Islands"
+      ],
+      "temporal_coverage": "2022 research summarized in 2023",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SLB-E-001",
+        "SLB-E-002",
+        "SLB-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SLB-SRC-002",
+      "title": "Inclusive Governance of Natural Resources",
+      "organization": "UNDP",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.undp.org/pacific/projects/inclusive-governance-natural-resources",
+      "geographic_coverage": [
+        "Solomon Islands"
+      ],
+      "temporal_coverage": "Undated programme design",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SLB-E-004",
+        "SLB-E-005"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SLB-SRC-003",
+      "title": "Climate change, conflict and peacebuilding in Solomon Islands",
+      "organization": "Conciliation Resources / Toda Peace Institute",
+      "publication_date": "2019-03",
+      "publication_date_basis": "publication",
+      "url": "https://www.c-r.org/learning-hub/climate-change-conflict-and-peacebuilding-solomon-islands",
+      "geographic_coverage": [
+        "Solomon Islands"
+      ],
+      "temporal_coverage": "March 2019; day not stated",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SLB-E-006",
+        "SLB-E-007"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SLB-SRC-101",
+      "title": "Implementation Completion and Results Report: Community Resilience to Climate and Disaster Risk Project (P112613)",
+      "organization": "World Bank",
+      "publication_date": "2020-10-26",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/552741604948511868/pdf/Solomon-Islands-Community-Resilience-to-Climate-and-Disaster-Risk-Project.pdf",
+      "geographic_coverage": [
+        "Solomon Islands",
+        "Guadalcanal Province",
+        "Central Province",
+        "Malaita Province",
+        "Temotu Province",
+        "Rennell and Bellona Province",
+        "Tulagi"
+      ],
+      "temporal_coverage": "CRISP implementation 2014-2020; report dated 2020-10-26.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SLB-E-101",
+        "SLB-E-102",
+        "SLB-E-103",
+        "SLB-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Implementation Completion and Results Report; relevant sections and annexes cited claim-by-claim.",
+          "notes": "Complete 92-page report text was accessible and read. The report states the beneficiary survey was not representative and ICR site visits to Temotu and Rennell and Bellona were not possible.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SLB-SRC-102",
+      "title": "Community-based adaptation to climate change in villages of Western Province, Solomon Islands",
+      "organization": "Marine Pollution Bulletin; Britt Basel, Gillian Goby and Johanna Johnson; hosted by SPREP",
+      "publication_date": "2020",
+      "publication_date_basis": "publication",
+      "url": "https://library.sprep.org/sites/default/files/CBA_ClimateChange_WesternProvinceSols.pdf",
+      "geographic_coverage": [
+        "Baniata village",
+        "Lokuru district",
+        "Rendova Island",
+        "Western Province",
+        "Gatokae Island"
+      ],
+      "temporal_coverage": "Community fieldwork and adaptation workshops in 2017; article published in 2020.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SLB-E-105",
+        "SLB-E-106",
+        "SLB-E-107",
+        "SLB-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 9-page article; methods, Section 1.1, Sections 3.1-3.2, Discussion and study limitations.",
+          "notes": "Full article text was accessible from the SPREP library. Authors identify Baniata and Lokuru as purposively selected communities with existing leadership, interest and conservation relationships.",
+          "reuse_terms": "Article copyright is held by Elsevier; no open reuse license was verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SLB-SRC-103",
+      "title": "Climate-related disasters and temperature extremes are not associated with conflict risk in Pacific Island countries",
+      "organization": "Environment and Security; Tobias Ide, Ore Koren and Luke Derrick",
+      "publication_date": "2026-01-22",
+      "publication_date_basis": "publication",
+      "url": "https://doi.org/10.1177/27538796251408642",
+      "geographic_coverage": [
+        "Solomon Islands",
+        "Fiji",
+        "Vanuatu",
+        "Honiara"
+      ],
+      "temporal_coverage": "Geocoded conflict and climate-event dataset for 2012-2020; article first published online 2026-01-22.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "SLB-E-109",
+        "SLB-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full SAGE open-access article, including abstract, theoretical background, methods, results, discussion, limitations and rights statement.",
+          "notes": "Full text was accessible. Its reported Honiara event is drawn from the study's localized media-based event dataset; article states aggregate null findings and inference limits.",
+          "reuse_terms": "Creative Commons Attribution 4.0, as stated in the article rights section.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "SLB-E-109",
+        "selected_source_id": "SLB-SRC-103",
+        "url": "https://doi.org/10.1177/27538796251408642",
+        "locator": "Section 2, 'Theoretical background', Honiara flood-displacement example; Section 3, methods, event ID 28 description.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "SLB-SRC-104",
+      "title": "Community-Led Climate Adaptation Projects Strengthen Resilience Across Solomon Islands",
+      "organization": "United Nations Development Programme, Pacific Office",
+      "publication_date": "2026-08-25",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/pacific/press-releases/community-led-climate-adaptation-projects-strengthen-resilience-across-solomon-islands",
+      "geographic_coverage": [
+        "West Kwarae, Malaita Province",
+        "South Malaita",
+        "West Are'are, Malaita Province",
+        "Afio Primary School",
+        "Marau Sound, East Guadalcanal"
+      ],
+      "temporal_coverage": "Community-Based Adaptation Phase III investments 2022-2026; closing workshop in June 2026; page dated 2026-08-25.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SLB-E-111",
+        "SLB-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Official page paragraphs dated 2026-08-25 describing Phase III, named project locations, reported outputs and lessons.",
+          "notes": "Full public UNDP page was read; it is a completion announcement rather than an independent evaluation.",
+          "reuse_terms": "No reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SLB-SRC-105",
+      "title": "Solomon Islands Advances National Climate Adaptation Planning",
+      "organization": "Solomon Islands Government, My SIG Services Portal",
+      "publication_date": "2026-10-20",
+      "publication_date_basis": "publication",
+      "url": "https://solomons.gov.sb/solomon-islands-advances-national-climate-adaptation-planning/",
+      "geographic_coverage": [
+        "Solomon Islands",
+        "Western Province",
+        "Choiseul Province",
+        "Isabel Province",
+        "Makira Province",
+        "all nine provinces"
+      ],
+      "temporal_coverage": "NAP formulation workshop held 2026-10-20; CRVA and SIIVA assessment processes reported as current in October 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SLB-E-113",
+        "SLB-E-114"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Government announcement dated 2026-10-20, paragraphs describing the NAP workshop, CRVA, SIIVA and inclusion priorities.",
+          "notes": "Full government page was read. It summarizes the scope of the CRVA and SIIVA but does not link their underlying reports.",
+          "reuse_terms": "No reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "SLB-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLB-SRC-001",
+          "locator": "Local Insights, Karaina and Tuwo examples"
+        }
+      ],
+      "geographies": [
+        "Karaina",
+        "Honiara",
+        "Tuwo"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Karaina residents described coastal land loss; Tuwo households used preserved breadfruit as a buffer against drought and cyclone disruption.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SLB-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLB-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLB-SRC-001",
+          "locator": "Local Responses, migration and land access"
+        }
+      ],
+      "geographies": [
+        "Solomon Islands"
+      ],
+      "affected_groups": [
+        "relocating communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The research links environmental pressures with existing inequalities and mobility; limited relocation land can generate conflict even when kinship networks assist movers.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SLB-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLB-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLB-SRC-001",
+          "locator": "Key findings on inclusive adaptation"
+        }
+      ],
+      "geographies": [
+        "Solomon Islands"
+      ],
+      "affected_groups": [
+        "women",
+        "older people",
+        "persons with disabilities"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The findings recommend local leadership, traditional knowledge and inclusive planning for women, older people and persons with disabilities.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SLB-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLB-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLB-SRC-002",
+          "locator": "Project rationale and land governance"
+        }
+      ],
+      "geographies": [
+        "Solomon Islands"
+      ],
+      "affected_groups": [],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNDP identifies deficient legal frameworks, private interests and exclusion from land decisions as potential conflict drivers.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SLB-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLB-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLB-SRC-002",
+          "locator": "Project objectives"
+        }
+      ],
+      "geographies": [
+        "Solomon Islands"
+      ],
+      "affected_groups": [
+        "women",
+        "youth"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The programme proposes customary-tenure reforms and women's and youth participation in natural-resource decisions.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SLB-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLB-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLB-SRC-003",
+          "locator": "Three potential climate-related conflict issues"
+        }
+      ],
+      "geographies": [
+        "Solomon Islands"
+      ],
+      "affected_groups": [],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The paper cautions against direct climate-conflict links while identifying potential tensions around relocation, place-based identity and externally designed adaptation.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SLB-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLB-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLB-SRC-003",
+          "locator": "Conflict-sensitive adaptation recommendation"
+        }
+      ],
+      "geographies": [
+        "Solomon Islands"
+      ],
+      "affected_groups": [],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "It recommends adaptation grounded in local worldviews and power relations, avoiding interventions that undermine community capacities.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SLB-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLB-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLB-SRC-101",
+          "locator": "Printed p. 27, section 'Factors Outside the Control of Government', para. 94."
+        }
+      ],
+      "geographies": [
+        "Central Province",
+        "Rennell and Bellona Province",
+        "Temotu Province"
+      ],
+      "affected_groups": [
+        "rural communities",
+        "schoolchildren"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-10-26 reports: The 2015-16 El Niño drought affected Central, Rennell and Bellona, and Temotu; schools closed and communities prioritized water projects.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLB-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLB-SRC-101",
+          "locator": "Printed p. 14, para. 38 and Table 3 discussion."
+        }
+      ],
+      "geographies": [
+        "Malaita Province",
+        "Rennell and Bellona Province",
+        "Central Province"
+      ],
+      "affected_groups": [
+        "rural communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-10-26 reports: Over 80 percent of CRISP subprojects involved water, mainly rainwater harvesting; dry-season shortages made it a priority in Malaita, Rennell and Central.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLB-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLB-SRC-101",
+          "locator": "Printed p. 16, para. 47."
+        }
+      ],
+      "geographies": [
+        "CRISP target communities across five provinces"
+      ],
+      "affected_groups": [
+        "rural communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-10-26 reports: Sixty-three of 65 communities completed their highest-ranked climate-risk investment with PMU support; two completed their next priority because of cost constraints.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLB-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLB-SRC-101",
+          "locator": "Printed p. 14, para. 40; printed p. 57, para. 16; Annex 8, printed p. 88."
+        }
+      ],
+      "geographies": [
+        "Tulagi, Central Province"
+      ],
+      "affected_groups": [
+        "Tulagi residents",
+        "road users"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-10-26 reports: Tulagi's 260-metre shoreline works protected the road and foreshore trees during Tropical Cyclone Harold in April 2020.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLB-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLB-SRC-102",
+          "locator": "Section 1.1, 'Overview: Rendova Island, Western Province, Solomon Islands.'"
+        }
+      ],
+      "geographies": [
+        "Baniata village",
+        "Lokuru district",
+        "Rendova Island",
+        "Western Province"
+      ],
+      "affected_groups": [
+        "Baniata households",
+        "Lokuru households",
+        "subsistence farmers",
+        "coastal fishers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020 reports: Baniata had 533 residents and eight-community Lokuru had 1,065; households relied on gardens, fisheries, forest nuts and groundwater for food and livelihoods.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLB-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLB-SRC-102",
+          "locator": "Section 3.1, 'Vulnerability assessment results – Baniata & Lokuru', Table 1."
+        }
+      ],
+      "geographies": [
+        "Baniata village",
+        "Lokuru district",
+        "Rendova Island"
+      ],
+      "affected_groups": [
+        "local households",
+        "farmers",
+        "fishers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020 reports: Both sites identified gardens, reefs and fish, water, rivers, shorelines and low-lying infrastructure as vulnerable; factors included hazard exposure, high dependence and weak resource management.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLB-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLB-SRC-102",
+          "locator": "Methods; sections 3.2, 'Community adaptation priorities', and 4, 'Discussion'."
+        }
+      ],
+      "geographies": [
+        "Baniata village",
+        "Lokuru district",
+        "Rendova Island"
+      ],
+      "affected_groups": [
+        "women",
+        "men",
+        "youth",
+        "local communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020 reports: Workshops used local coordinators and women's and men's groups; priorities included leadership, health, farming, livelihood diversification, resource management and youth capacity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLB-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLB-SRC-102",
+          "locator": "Section 3.2.5, 'Natural resource management'."
+        }
+      ],
+      "geographies": [
+        "Baniata village",
+        "Lokuru district",
+        "Rendova Island"
+      ],
+      "affected_groups": [
+        "local communities",
+        "small-scale fishers"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020 reports: Participants said cultural change and weaker local governance reduced use of traditional tabu areas; they proposed a community marine protected area and fisheries rules.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check",
+        "programme_intent_and_outcome_terms_co-occur"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLB-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "SLB-SRC-103",
+          "locator": "Section 2, 'Theoretical background', Honiara flood-displacement example; Section 3, methods, event ID 28 description."
+        }
+      ],
+      "geographies": [
+        "Honiara informal settlement",
+        "Solomon Islands"
+      ],
+      "affected_groups": [
+        "people displaced by floods",
+        "informal-settlement residents"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-01-22 reports: The authors describe an event in which people displaced by April 2014 floods to a Honiara informal settlement protested and rioted on 16 May, perceiving the government rehabilitation package as inadequate for their disaster losses.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "SLB-E-109",
+        "selected_source_id": "SLB-SRC-103",
+        "url": "https://doi.org/10.1177/27538796251408642",
+        "locator": "Section 2, 'Theoretical background', Honiara flood-displacement example; Section 3, methods, event ID 28 description.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "SLB-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLB-SRC-103",
+          "locator": "Section 4, 'Results'; Section 5, 'Discussion'."
+        }
+      ],
+      "geographies": [
+        "Solomon Islands",
+        "Fiji",
+        "Vanuatu"
+      ],
+      "affected_groups": [
+        "local social groups"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-01-22 reports: Across its Fiji, Solomon Islands and Vanuatu panel, the study found no statistically significant association between climate-related disasters or temperature extremes and social-conflict risk, including models separating protests and riots.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLB-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLB-SRC-104",
+          "locator": "Article paragraphs on the programme's community outputs: West Kwarae, South Malaita, West Are'are and Afio Primary School."
+        }
+      ],
+      "geographies": [
+        "West Kwarae, Malaita Province",
+        "South Malaita",
+        "West Are'are, Malaita Province",
+        "Afio Primary School"
+      ],
+      "affected_groups": [
+        "rural communities",
+        "farmers",
+        "school students"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08-25 reports: UNDP reports an expanded agroforestry nursery in West Kwarae, mangrove rehabilitation and a community centre in South Malaita, reforestation in West Are'are, and land restoration improving student access at Afio Primary School.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLB-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLB-SRC-104",
+          "locator": "Article paragraph on the Marau Sound community project and paragraph on collective participation."
+        }
+      ],
+      "geographies": [
+        "Marau Sound",
+        "East Guadalcanal"
+      ],
+      "affected_groups": [
+        "Marau Sound residents",
+        "Wahere community"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08-25 reports: UNDP reports that the Wahere Community Association built a seawall at Marau Sound, East Guadalcanal, to protect homes, infrastructure and livelihoods from coastal erosion and rising sea levels.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLB-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLB-SRC-105",
+          "locator": "Government announcement paragraphs on the CRVA, SIIVA, and the NAP formulation process."
+        }
+      ],
+      "geographies": [
+        "all nine provinces",
+        "Isabel Province",
+        "Makira Province"
+      ],
+      "affected_groups": [
+        "provincial communities",
+        "local residents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-10-20 reports: The government reports that the NAP was under formulation in October 2026, drawing on a 12-sector CRVA with consultations in all nine provinces and SIIVA assessments in Isabel and Makira focused on daily climate and livelihood effects.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SLB-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SLB-SRC-105",
+          "locator": "Government announcement paragraphs on locally appropriate adaptation, customary land and participation in the NAP process."
+        }
+      ],
+      "geographies": [
+        "Solomon Islands",
+        "all nine provinces"
+      ],
+      "affected_groups": [
+        "women",
+        "young people",
+        "older people",
+        "persons with disabilities",
+        "customary landholders"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "In October 2026, officials stated that NAP design should respect customary land and include women, youth, older people and persons with disabilities; participation and equitable effects were not verified.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "SLB-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SLB-E-001",
+        "SLB-E-002",
+        "SLB-E-004",
+        "SLB-E-006"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SLB-E-001",
+          "SLB-E-002"
+        ],
+        "impact": [
+          "SLB-E-002"
+        ],
+        "mediator": [
+          "SLB-E-002",
+          "SLB-E-004"
+        ],
+        "consequence": [
+          "SLB-E-002",
+          "SLB-E-006"
+        ]
+      },
+      "geographies": [
+        "Solomon Islands",
+        "Karaina",
+        "Honiara",
+        "Tuwo",
+        "Langalanga"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Climate pressures can interact with relocation land constraints and exclusion to create tensions; kinship networks and inclusive local decisions can support adaptation.",
+      "alternative_explanations": [
+        "Education, employment and family connections also drive mobility.",
+        "Land exclusion, external project design and existing governance disputes can cause tension independently of climate."
+      ],
+      "uncertainty": "Conditional synthesis of selected-site research and contextual peacebuilding analysis, not a nationwide causal estimate. Source-specific examples do not establish that each mechanism occurs in every named site.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    },
+    {
+      "record_id": "SLB-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SLB-E-109",
+        "SLB-E-110"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SLB-E-109"
+        ],
+        "impact": [
+          "SLB-E-109"
+        ],
+        "mediator": [
+          "SLB-E-109"
+        ],
+        "consequence": [
+          "SLB-E-109"
+        ]
+      },
+      "geographies": [
+        "Honiara informal settlement"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "One Honiara 2014 case links flood displacement, perceived inadequate rehabilitation and a protest-turned-riot; aggregate study findings do not establish a general disaster-conflict effect.",
+      "alternative_explanations": [
+        "Disaster-recovery governance and existing political grievances may shape protest independently of the flood. The aggregate study reports a null association."
+      ],
+      "uncertainty": "Media-coded historical example, not an event-attribution study or quantified mechanism. Do not generalize across settlements, provinces or future disasters.",
+      "potentially_out_of_scope_support_ids": [
+        "SLB-E-110"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "SLB-E-109",
+  "source_access_review": {
+    "selected_record_id": "SLB-E-109",
+    "selected_source_id": "SLB-SRC-103",
+    "url": "https://doi.org/10.1177/27538796251408642",
+    "locator": "Section 2, 'Theoretical background', Honiara flood-displacement example; Section 3, methods, event ID 28 description.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": null,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "URLError: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+  },
+  "checks": [
+    {
+      "record_id": "SLB-E-109",
+      "source_id": "SLB-SRC-103",
+      "locator": "Section 2, 'Theoretical background', Honiara flood-displacement example; Section 3, methods, event ID 28 description.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "SLB-E-109: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "SLB-E-001",
+    "SLB-E-002",
+    "SLB-E-003",
+    "SLB-E-004",
+    "SLB-E-005",
+    "SLB-E-006",
+    "SLB-E-007",
+    "SLB-E-101",
+    "SLB-E-102",
+    "SLB-E-103",
+    "SLB-E-104",
+    "SLB-E-105",
+    "SLB-E-106",
+    "SLB-E-107",
+    "SLB-E-108",
+    "SLB-E-109",
+    "SLB-E-110",
+    "SLB-E-111",
+    "SLB-E-112",
+    "SLB-E-113",
+    "SLB-E-114",
+    "SLB-P-001",
+    "SLB-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

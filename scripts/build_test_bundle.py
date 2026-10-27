@@ -38,7 +38,7 @@ def build_test_bundle(country_dirs, *, generated_at: str, test_expires_on: str,
     _validate_release_output_path(output, directories, candidate=True)
     if not directories:
         raise ValueError('explicit country directories required')
-    countries, sources, evidence, pathways = {}, {}, [], []
+    countries, country_profiles, sources, evidence, pathways = {}, {}, {}, [], []
     for directory in sorted(directories):
         errors = validate_country_directory(directory, require_profile=True,
                                              schema_version='1.1.0')
@@ -62,6 +62,10 @@ def build_test_bundle(country_dirs, *, generated_at: str, test_expires_on: str,
             'name': review['country_name'], 'aliases': sorted(review['country_aliases']),
             'selection_aliases': deepcopy(profile['selection_aliases']),
         }
+        country_profiles[iso3] = {
+            'coverage': deepcopy(profile['coverage']),
+            'known_gaps': deepcopy(profile['known_gaps']),
+        }
         referenced = {ref['source_id'] for r in data['evidence'] for ref in r['source_refs']}
         for source in data['sources']:
             if source['source_id'] in referenced:
@@ -78,6 +82,7 @@ def build_test_bundle(country_dirs, *, generated_at: str, test_expires_on: str,
         'artifact_kind': 'unapproved-country-bank-test', 'schema_version': '1.1.0',
         'candidate': True, 'content_version': content_version, 'generated_at': generated_at,
         'test_expires_on': test_expires_on, 'countries': dict(sorted(countries.items())),
+        'country_profiles': dict(sorted(country_profiles.items())),
         'sources': source_rows, 'evidence_records': sorted(evidence, key=lambda r: r['evidence_id']),
         'pathways': sorted(pathways, key=lambda r: r['pathway_id']),
         'source_manifest_checksum': checksum,

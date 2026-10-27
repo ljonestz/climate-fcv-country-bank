@@ -1,0 +1,1153 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "SEN",
+  "candidate_path": "countries/SEN/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 7,
+    "evidence_count": 16,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 16
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 7,
+      "access-only": 9
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "SEN-E-005",
+          "SEN-E-006"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "SEN-E-003"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "SEN-E-001",
+          "SEN-E-004",
+          "SEN-E-101",
+          "SEN-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SEN-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SEN-E-106",
+          "SEN-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SEN-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "SEN-E-002",
+          "SEN-E-103",
+          "SEN-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "SEN-E-102"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SEN-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "SEN-E-101",
+          "SEN-E-102",
+          "SEN-E-103",
+          "SEN-E-104",
+          "SEN-E-106",
+          "SEN-E-107",
+          "SEN-E-108",
+          "SEN-E-109",
+          "SEN-E-110"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "SEN-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/SEN/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "SEN-SRC-001",
+      "title": "Senegal Country Climate and Development Report: Executive Summary",
+      "organization": "World Bank Group",
+      "publication_date": "2024-10",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099110524125512140/pdf/P180943-0b6700c3-4078-4bde-8fc0-1f923c1f4c86.pdf",
+      "geographic_coverage": [
+        "Senegal",
+        "Dakar",
+        "Coastal areas",
+        "Rural areas"
+      ],
+      "temporal_coverage": "Observed socioeconomic vulnerability and modeled climate impacts through 2050",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "restricted",
+      "records_using_source": [
+        "SEN-E-001",
+        "SEN-E-002",
+        "SEN-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SEN-SRC-002",
+      "title": "Diagnostic sur le Financement des Risques Climatiques et de Catastrophes au Sénégal",
+      "organization": "World Bank",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099032425123512723/pdf/P176613-876120d9-6b87-441d-95ce-04f82f60c465.pdf",
+      "geographic_coverage": [
+        "Senegal",
+        "Saint-Louis",
+        "Northern Senegal",
+        "Dakar",
+        "Thiès",
+        "Diourbel"
+      ],
+      "temporal_coverage": "Historical hazard impacts and forward climate-risk analysis in the 2024 diagnostic",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "restricted",
+      "records_using_source": [
+        "SEN-E-004",
+        "SEN-E-005"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SEN-SRC-003",
+      "title": "Contribution Déterminée au Niveau National du Sénégal: Document approuvé – décembre 2020",
+      "organization": "Republic of Senegal; submitted to the UNFCCC",
+      "publication_date": "2020-12",
+      "publication_date_basis": "submission",
+      "url": "https://unfccc.int/sites/default/files/NDC/2022-06/CDNSenegal%20approuv%C3%A9e-pdf-.pdf",
+      "geographic_coverage": [
+        "Senegal",
+        "Saint-Louis",
+        "Matam",
+        "Tambacounda",
+        "Louga"
+      ],
+      "temporal_coverage": "Government NDC climate-risk projections and adaptation commitments through 2030",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SEN-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SEN-SRC-101",
+      "title": "Don't blame it on ethnicity: The role of group identities and climate risks in farmer-herder relations in Senegal",
+      "organization": "Journal of Peace Research; Wageningen University & Research",
+      "publication_date": "2025-11-06",
+      "publication_date_basis": "publication",
+      "url": "https://doi.org/10.1177/00223433251361301",
+      "geographic_coverage": [
+        "Senegalese Groundnut Basin",
+        "Ferlo Desert silvopastoral zone in Louga Region",
+        "Two study municipalities, not named"
+      ],
+      "temporal_coverage": "Field data collected October-November 2022; article published November 2025.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SEN-E-101",
+        "SEN-E-102"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Publisher-indexed article abstract, introduction, methods, case description, results and discussion headings.",
+          "notes": "Article passages were available through the publisher's indexed record. Direct publisher access redirected to an inaccessible CDN; the WUR repository URL returned 403. The abstract reports 332 participants while Methods reports 337.",
+          "reuse_terms": "No reuse terms verified; status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "SEN-E-102",
+        "selected_source_id": "SEN-SRC-101",
+        "url": "https://doi.org/10.1177/00223433251361301",
+        "locator": "Article Abstract; Results sections on out-group cooperation and collective risk; Discussion.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "SEN-SRC-102",
+      "title": "Senegal, Evaluation of Green Climate Fund Project: 2020-2024",
+      "organization": "World Food Programme",
+      "publication_date": "2025-07-03",
+      "publication_date_basis": "publication",
+      "url": "https://www.wfp.org/publications/senegal-evaluation-green-climate-fund-project-2020-2024",
+      "geographic_coverage": [
+        "Kolda Region",
+        "Tambacounda Region",
+        "Kaffrine Region",
+        "Fatick Region",
+        "Kaolack Region"
+      ],
+      "temporal_coverage": "R4 project implementation 2020-01-14 to 2024-10-14; evaluation conducted July 2024-February 2025.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SEN-E-103",
+        "SEN-E-104",
+        "SEN-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Publisher page, project description, reach and key evaluation findings.",
+          "notes": "Substantive publisher summary was read; it reports evaluation dates, target regions, reach, findings and recommendations.",
+          "reuse_terms": "No reuse terms verified; status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SEN-SRC-103",
+      "title": "Strengthening adaptive and socio-economic capacities of women and youth in the village of Mbam through the Integrated Resilience Garden approach",
+      "organization": "Food and Agriculture Organization of the United Nations (FAO), SAGA 2",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.fao.org/in-action/saga/countries/project-detail/strengthening-adaptive-and-socio-economic-capacities-of-women-and-youth/en",
+      "geographic_coverage": [
+        "Mbam village",
+        "Oudalaye commune",
+        "Matam Region"
+      ],
+      "temporal_coverage": "Project page lists start date 2024-09-06 and end date 2026-05-31, while still displaying status as active.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SEN-E-106",
+        "SEN-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Project page objective, intervention area, dates, and listed activities.",
+          "notes": "The full public page was read. Its displayed active status conflicts with the stated end date of 31 May 2026, so no completion is inferred.",
+          "reuse_terms": "FAO page reuse terms not assessed; status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SEN-SRC-104",
+      "title": "Challenges to food security in a changing environment: a community-based participatory research study in Casamance, Senegal (West Africa)",
+      "organization": "Frontiers in Public Health",
+      "publication_date": "2026-03-31",
+      "publication_date_basis": "publication",
+      "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1774424/full",
+      "geographic_coverage": [
+        "Basse-Casamance Region",
+        "13 communities across approximately 1,100 square kilometres",
+        "Ziguinchor"
+      ],
+      "temporal_coverage": "Study field period not stated in the article; published 2026-03-31.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "open",
+      "records_using_source": [
+        "SEN-E-108",
+        "SEN-E-109",
+        "SEN-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full article, abstract, methods, results, discussion, limitations and copyright statement.",
+          "notes": "Full public article text was read; the publisher confirms a Creative Commons Attribution license.",
+          "reuse_terms": "Creative Commons Attribution (CC BY), as stated in the article copyright section.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "SEN-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SEN-SRC-001",
+          "locator": "Executive Summary, printed p. 1 (PDF p. 4), modeled cost of inaction."
+        }
+      ],
+      "geographies": [
+        "Senegal"
+      ],
+      "affected_groups": [
+        "People vulnerable to poverty"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term",
+        "long-term"
+      ],
+      "scenario": "No adaptation; SSP/RCP unstated here.",
+      "compact_statement": "Summary models no-adaptation annual losses at 3-4% GDP by 2030 and 9.4% by 2050; over two million people could fall into poverty by mid-century.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SEN-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SEN-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SEN-SRC-001",
+          "locator": "Executive Summary, printed p. 1 (PDF p. 4), adaptation scenario results."
+        }
+      ],
+      "geographies": [
+        "Senegal"
+      ],
+      "affected_groups": [
+        "People vulnerable to climate-induced poverty"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "Selected adaptation versus no action; assumptions unstated.",
+      "compact_statement": "Selected-sector adaptation could add about 2% GDP by 2030 and reduce climate-induced poverty by 45% versus no action.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SEN-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SEN-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SEN-SRC-001",
+          "locator": "Executive Summary, printed p. 2 (PDF p. 6), coastal exposure."
+        }
+      ],
+      "geographies": [
+        "Senegal",
+        "Dakar"
+      ],
+      "affected_groups": [
+        "Population in exposed coastal areas"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Scenario not specified here.",
+      "compact_statement": "Half of Senegal's population and two-thirds of GDP face sea-level exposure; Dakar's population at coastal-flood risk is projected to rise 20-30% by 2050.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SEN-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SEN-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SEN-SRC-002",
+          "locator": "Section 3.2.2, printed p. 20 (PDF p. 21), historical drought impacts on agriculture and food security."
+        }
+      ],
+      "geographies": [
+        "Senegal"
+      ],
+      "affected_groups": [
+        "Farmers",
+        "Rural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The diagnostic reports that the 2002 drought reduced agricultural production by about 35% and the 2011 drought by 20%; estimated production losses across 12 major crops during 1980–2020 totaled FCFA 852 billion, averaging 3.9% of agricultural GDP annually.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SEN-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SEN-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SEN-SRC-002",
+          "locator": "Section 3.7, printed p. 28 (PDF p. 29), forward climate-risk analysis."
+        }
+      ],
+      "geographies": [
+        "Northern Senegal",
+        "Saint-Louis"
+      ],
+      "affected_groups": [
+        "Rural communities"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term",
+        "long-term"
+      ],
+      "scenario": "Climate projections for northern drought; cited CCDR GDP range varies by warming assumption and assumes no adaptation.",
+      "compact_statement": "The diagnostic says northern Senegal is projected to experience more frequent extreme droughts, particularly in Saint-Louis; its cited CCDR scenarios estimate annual GDP losses of 3.6–4% by 2030 and 7–9.4% by 2050 without adaptation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SEN-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SEN-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SEN-SRC-003",
+          "locator": "Section I, printed p. 3 (PDF p. 3), observed impacts and climate-risk projections."
+        }
+      ],
+      "geographies": [
+        "Senegal",
+        "Saint-Louis",
+        "Matam",
+        "Tambacounda",
+        "Louga"
+      ],
+      "affected_groups": [
+        "People whose livelihoods depend on natural resources"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "NDC low-warming scenario for wet extremes; drought-frequency scenario is not further labeled in the cited summary.",
+      "compact_statement": "Senegal’s NDC reports declining rainfall, rising mean temperature, sea-level rise, and disruptions to cultivable land, water, and fisheries; it identifies northern regions, especially Saint-Louis, as facing a 20–30% increase in extreme-drought frequency, and identifies more wet extremes in Matam, Tambacounda, and Louga under its low-warming scenario.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SEN-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SEN-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SEN-SRC-101",
+          "locator": "Article section 'The case of farmers and herders in Senegal.'"
+        }
+      ],
+      "geographies": [
+        "Senegalese Groundnut Basin",
+        "Ferlo Desert",
+        "Louga Region",
+        "Two study municipalities, not named"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "agro-pastoralists",
+        "transhumant herders"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The study compared Groundnut Basin farmers with Ferlo/Louga agro-pastoralists, linked by seasonal southward herd migration; Ferlo has a long dry season and contested pasture.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SEN-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "SEN-SRC-101",
+          "locator": "Article Abstract; Results sections on out-group cooperation and collective risk; Discussion."
+        }
+      ],
+      "geographies": [
+        "Senegalese Groundnut Basin",
+        "Ferlo/Louga silvopastoral zone"
+      ],
+      "affected_groups": [
+        "farmers",
+        "local herders",
+        "transhumant herders"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": "Collective-risk treatment was a climate-risk analogue, not a modeled scenario.",
+      "compact_statement": "Out-group priming reduced cooperation, especially among farmers; focus groups linked distrust to stereotypes of mobile herders. The collective-risk treatment widened the in-group/out-group cooperation gap.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "SEN-E-102",
+        "selected_source_id": "SEN-SRC-101",
+        "url": "https://doi.org/10.1177/00223433251361301",
+        "locator": "Article Abstract; Results sections on out-group cooperation and collective risk; Discussion.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "SEN-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SEN-SRC-102",
+          "locator": "Publisher summary, project description and reach; paragraphs on evaluation findings."
+        }
+      ],
+      "geographies": [
+        "Kolda Region",
+        "Tambacounda Region",
+        "Kaffrine Region",
+        "Fatick Region",
+        "Kaolack Region"
+      ],
+      "affected_groups": [
+        "food-insecure smallholder farmers",
+        "rural households"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The R4 initiative targeted 405,000 people across Kolda, Tambacounda, Kaffrine, Fatick and Kaolack through adaptation assets, agricultural insurance, savings/income support and government risk management; reported reach was 438,291.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SEN-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SEN-SRC-102",
+          "locator": "Publisher summary, key evaluation findings under Efficiency and Impact & Innovation."
+        }
+      ],
+      "geographies": [
+        "Kolda Region",
+        "Tambacounda Region",
+        "Kaffrine Region",
+        "Fatick Region",
+        "Kaolack Region"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "rural households"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The evaluation summary reports gains in food security, savings, insurance uptake, social cohesion, economic resilience and natural-resource management, while transfer delays, weak monitoring and staff turnover hindered delivery.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SEN-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SEN-SRC-102",
+          "locator": "Publisher summary, Gender & Inclusion and Sustainability findings."
+        }
+      ],
+      "geographies": [
+        "Five R4 target regions in Senegal"
+      ],
+      "affected_groups": [
+        "women",
+        "youth",
+        "persons with disabilities",
+        "smallholder farmers"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Women were active in savings groups but had limited access to unsubsidized insurance; youth and people with disabilities were under-targeted, and community structures had weak government anchoring and insurance literacy.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SEN-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SEN-SRC-103",
+          "locator": "Project page, objective/goal and area of intervention; activity 1."
+        }
+      ],
+      "geographies": [
+        "Mbam village",
+        "Oudalaye commune",
+        "Matam Region"
+      ],
+      "affected_groups": [
+        "women",
+        "youth",
+        "local community"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "FAO lists a community-led garden in Mbam, Oudalaye commune, Matam Region, intended to strengthen food security, climate resilience and livelihoods for women and youth; the page lists over 200 participants and local-authority involvement.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SEN-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SEN-SRC-103",
+          "locator": "Project page, activities 2-5."
+        }
+      ],
+      "geographies": [
+        "Mbam village",
+        "Oudalaye commune",
+        "Matam Region"
+      ],
+      "affected_groups": [
+        "women",
+        "youth",
+        "agri-entrepreneurs"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Listed activities include three hectares for horticulture and agroforestry, water supply and farm inputs, climate-adaptation training, and an incubator for ten agri-entrepreneurs with an income platform for women and youth.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SEN-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SEN-SRC-104",
+          "locator": "Abstract; Results, Participant characteristics and Table 2."
+        }
+      ],
+      "geographies": [
+        "Basse-Casamance Region",
+        "13 study communities",
+        "Ziguinchor"
+      ],
+      "affected_groups": [
+        "agricultural households",
+        "women farmers",
+        "rural communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "In 13 Basse-Casamance communities, 234 agricultural interviewees reported environmental and rainfall change alongside widespread food-access difficulties; these are selected respondents' experiences, not national prevalence or climate attribution.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SEN-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SEN-SRC-104",
+          "locator": "Introduction subsection 'Casamance, changing environment, and food security background'; Results, Table 2 and Theme 5 'Abandonment of the land.'"
+        }
+      ],
+      "geographies": [
+        "Basse-Casamance Region",
+        "13 study communities"
+      ],
+      "affected_groups": [
+        "displaced people",
+        "farmers",
+        "rural households"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Casamance participants reported conflict and displacement affecting food security; qualitative findings describe landmines, fear and displacement restricting cultivated land while environmental pressures affect food systems.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SEN-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SEN-SRC-104",
+          "locator": "Abstract; Results, Theme 6 'Community-proposed solutions'; Discussion, 'Resilience and local food systems.'"
+        }
+      ],
+      "geographies": [
+        "Basse-Casamance Region",
+        "13 study communities"
+      ],
+      "affected_groups": [
+        "women farmers",
+        "smallholder farmers",
+        "local communities"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Participants proposed reforestation, sustainable farming and stronger environmental agencies; authors highlight women's roles in horticulture, seed management and local food-system resilience.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "SEN-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SEN-E-108",
+        "SEN-E-109",
+        "SEN-E-110"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SEN-E-108"
+        ],
+        "impact": [
+          "SEN-E-108"
+        ],
+        "mediator": [
+          "SEN-E-109"
+        ],
+        "consequence": [
+          "SEN-E-109"
+        ]
+      },
+      "geographies": [
+        "Basse-Casamance",
+        "Ziguinchor and selected surrounding communities"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "In selected Casamance communities, mines and displacement restrict farming under environmental stress; a conditional reverse-FCV vulnerability mechanism, not climate-caused violence.",
+      "alternative_explanations": [
+        "Poverty, markets, salinization, deforestation and labor constraints can affect food access independently of conflict-climate interaction."
+      ],
+      "uncertainty": "One purposive cross-sectional study combines respondent perceptions with historical context. It does not estimate a climate-conflict interaction, current mine prevalence or a national effect.",
+      "potentially_out_of_scope_support_ids": [
+        "SEN-E-108",
+        "SEN-E-109",
+        "SEN-E-110"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "SEN-E-102",
+  "source_access_review": {
+    "selected_record_id": "SEN-E-102",
+    "selected_source_id": "SEN-SRC-101",
+    "url": "https://doi.org/10.1177/00223433251361301",
+    "locator": "Article Abstract; Results sections on out-group cooperation and collective risk; Discussion.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": null,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "URLError: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+  },
+  "checks": [
+    {
+      "record_id": "SEN-E-102",
+      "source_id": "SEN-SRC-101",
+      "locator": "Article Abstract; Results sections on out-group cooperation and collective risk; Discussion.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "SEN-E-102: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "SEN-E-001",
+    "SEN-E-002",
+    "SEN-E-003",
+    "SEN-E-004",
+    "SEN-E-005",
+    "SEN-E-006",
+    "SEN-E-101",
+    "SEN-E-102",
+    "SEN-E-103",
+    "SEN-E-104",
+    "SEN-E-105",
+    "SEN-E-106",
+    "SEN-E-107",
+    "SEN-E-108",
+    "SEN-E-109",
+    "SEN-E-110",
+    "SEN-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}
