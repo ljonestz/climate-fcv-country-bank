@@ -137,10 +137,74 @@
       ]
     }
   ],
-  "pathways": [],
+  "pathways": [
+    {
+      "pathway_id": "MDG-P-101",
+      "iso3": "MDG",
+      "climate_pressure": "Extreme winds associated with Cyclone Gezani in February 2026.",
+      "documented_impact": "Housing and service damage displaced people into temporary sites.",
+      "fcv_mediator": "Crowding and limited services in displacement sites weakened children's protective environment.",
+      "possible_consequence": "UNICEF reports heightened risks of violence and exploitation, not measured post-cyclone incident rates.",
+      "geographies": [
+        "Madagascar east coast",
+        "temporary displacement sites"
+      ],
+      "affected_groups": [
+        "children",
+        "displaced families"
+      ],
+      "sectors": [
+        "shelter",
+        "protection",
+        "WASH",
+        "disaster response"
+      ],
+      "systems_assets_resources": [
+        "temporary shelters",
+        "basic services",
+        "protection referrals"
+      ],
+      "institutions": [
+        "UNICEF",
+        "government and humanitarian partners"
+      ],
+      "supporting_evidence_ids": [
+        "MDG-E-110",
+        "MDG-E-111"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MDG-E-110"
+        ],
+        "impact": [
+          "MDG-E-110"
+        ],
+        "mediator": [
+          "MDG-E-111"
+        ],
+        "consequence": [
+          "MDG-E-111"
+        ]
+      },
+      "evidence_strength": "direct",
+      "alternative_explanations": [
+        "Pre-existing inequalities, household resources and service quality also influence protection risk.",
+        "Agency reporting is not an incident-based causal evaluation."
+      ],
+      "uncertainty": "This is a source-stated post-disaster protection-risk mechanism, not proof of increased violence incidence, anthropogenic attribution of the cyclone, or a national FCV classification.",
+      "resilience_factors": [
+        "Accessible shelters, privacy, lighting, sanitation and functioning protection referrals can address the reported risk factors; effectiveness is not evaluated."
+      ],
+      "compact_statement": "Post-Gezani displacement-site crowding and limited services heightened child violence/exploitation risk; incidence changes were not measured.",
+      "interaction_direction": "climate-to-fcv",
+      "review_status": "draft",
+      "review_date": null
+    }
+  ],
   "gaps": [
     "The panel summary supports source-stated livelihood-stress/violence mechanisms but not a causal effect estimate. Protection concerns after Gezani are not incident counts.",
-    "The humanitarian note attributes field-office closures to funding cuts; this is not evidence of conflict preventing a named climate intervention."
+    "The humanitarian note attributes field-office closures to funding cuts; this is not evidence of conflict preventing a named climate intervention.",
+    "Protection pathway records a reported risk mechanism, not verified violence incidence or attribution of the cyclone to climate change."
   ],
   "executive_assessment": [
     {
@@ -161,6 +225,16 @@
         "MDG-E-112"
       ],
       "pathway_ids": []
+    },
+    {
+      "text": "Post-Gezani displacement-site crowding and limited services heightened child violence/exploitation risk; incidence changes were not measured.",
+      "evidence_ids": [
+        "MDG-E-110",
+        "MDG-E-111"
+      ],
+      "pathway_ids": [
+        "MDG-P-101"
+      ]
     }
   ],
   "coordinator_source_checks": [
@@ -181,7 +255,7 @@
     },
     {
       "source_id": "MDG-SRC-105",
-      "result": "Primary publisher passage inspected; scope retained in claim decisions.",
+      "result": "Coordinator directly checked the UNICEF article, including its temporary-site crowding and child-protection risk account; no incident-rate inference.",
       "url": "https://www.unicef.org/madagascar/en/stories/speed-saves-lives"
     }
   ]

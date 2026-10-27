@@ -4,6 +4,7 @@
 
 - Southern Madagascar's panel evidence links drought-period livelihood stress with perceived violence and last-resort migration, subject to perception and attribution limits. [MDG-E-101, MDG-E-102, MDG-E-103]
 - Named southern regions have reported restoration outputs; east-coast cyclone evidence adds differentiated service and protection vulnerabilities, with agency outputs distinguished from impact. [MDG-E-106, MDG-E-110, MDG-E-111, MDG-E-112]
+- Post-Gezani displacement-site crowding and limited services heightened child violence/exploitation risk; incidence changes were not measured. [MDG-E-110, MDG-E-111, MDG-P-101]
 
 ## Evidence coverage and critical gaps
 
@@ -19,7 +20,7 @@
 | evidence-class | direct-climate-fcv | partial | MDG-E-101, MDG-E-102, MDG-E-103, MDG-E-111 | Selected source-supported evidence only; not comprehensive. |
 | evidence-class | resilience-peace-capacity | gap |  | No dedicated record assembled; absence of evidence is not absence of risk. |
 | geography | new named subnational examples | partial | MDG-E-106 | Named places only; generic rural/coastal zones excluded. No complete local risk ranking. |
-| pathway | mediated climate-FCV links | gap |  | No complete supported chain assembled; do not infer one from co-occurrence. |
+| pathway | mediated climate-FCV links | partial | MDG-P-101 | Conditional mechanisms, not national causal estimates. |
 
 Critical remaining gaps:
 - The NDC's 2026 figures are summarized in French, and the opened Grand Sud CCDR passage does not isolate climate's contribution to violence; no country-specific causal estimate of climate effects on conflict was opened. []
@@ -35,6 +36,7 @@ Critical remaining gaps:
 - MIONJO feature and UNICEF cyclone story are agency-reported results; no independent project impact evaluation was reviewed for the reported outputs. []
 - The panel summary supports source-stated livelihood-stress/violence mechanisms but not a causal effect estimate. Protection concerns after Gezani are not incident counts. []
 - The humanitarian note attributes field-office closures to funding cuts; this is not evidence of conflict preventing a named climate intervention. []
+- Protection pathway records a reported risk mechanism, not verified violence incidence or attribution of the cyclone to climate change. []
 - Draft extension: human source review and approval remain pending. Lending eligibility is not an FCV classification. []
 
 ## Climate pressures and exposure
@@ -63,6 +65,13 @@ Critical remaining gaps:
 
 ## Climate-FCV pathways
 
+- Post-Gezani displacement-site crowding and limited services heightened child violence/exploitation risk; incidence changes were not measured. [MDG-P-101; MDG-E-110, MDG-E-111]
+  - Documented impact: Housing and service damage displaced people into temporary sites.
+  - FCV mediator: Crowding and limited services in displacement sites weakened children's protective environment.
+  - Possible consequence: UNICEF reports heightened risks of violence and exploitation, not measured post-cyclone incident rates.
+  - Link evidence: {'pressure': ['MDG-E-110'], 'impact': ['MDG-E-110'], 'mediator': ['MDG-E-111'], 'consequence': ['MDG-E-111']}
+  - Alternative explanations: ['Pre-existing inequalities, household resources and service quality also influence protection risk.', 'Agency reporting is not an incident-based causal evaluation.']
+  - Uncertainty: This is a source-stated post-disaster protection-risk mechanism, not proof of increased violence incidence, anthropogenic attribution of the cyclone, or a national FCV classification.
 
 ## Resilience and peace-supporting capacities
 

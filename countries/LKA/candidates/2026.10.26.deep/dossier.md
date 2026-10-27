@@ -4,6 +4,7 @@
 
 - The assessment distinguishes post-conflict Mullaitivu and Batticaloa livelihood sensitivities and district-specific inclusive adaptation recommendations. [LKA-E-101, LKA-E-102]
 - Land grievances, perceived allocation inequity and flood-related protection risks are source-stated mechanisms, with January 2026 shelter evidence; none is a national causal estimate. [LKA-E-103, LKA-E-104, LKA-E-105, LKA-E-108]
+- Post-Ditwah shelter conditions and protection-service gaps heightened GBV risk; incidence changes were not measured. [LKA-E-108, LKA-E-109, LKA-P-101]
 
 ## Evidence coverage and critical gaps
 
@@ -19,7 +20,7 @@
 | evidence-class | direct-climate-fcv | partial | LKA-E-103, LKA-E-104, LKA-E-108 | Selected source-supported evidence only; not comprehensive. |
 | evidence-class | resilience-peace-capacity | partial | LKA-E-102, LKA-E-106 | Selected source-supported evidence only; not comprehensive. |
 | geography | new named subnational examples | partial | LKA-E-101, LKA-E-102, LKA-E-103, LKA-E-104, LKA-E-105, LKA-E-106, LKA-E-107, LKA-E-109 | Named places only; generic rural/coastal zones excluded. No complete local risk ranking. |
-| pathway | mediated climate-FCV links | gap |  | No complete supported chain assembled; do not infer one from co-occurrence. |
+| pathway | mediated climate-FCV links | partial | LKA-P-101 | Conditional mechanisms, not national causal estimates. |
 
 Critical remaining gaps:
 - No inspected Sri Lanka source explicitly links climate hazards to conflict or violence; no climate-FCV pathway is asserted. []
@@ -32,6 +33,7 @@ Critical remaining gaps:
 - No reviewed source evaluates whether insecurity prevented delivery of a named climate-adaptation intervention; the Cabinet resilience framework remains a proposal/approval rather than evaluated implementation. []
 - Main independently downloaded the original 117-page assessment and read pp.15 and 106; the intake's indexed-only access limitation for those passages is superseded. []
 - Speech examples provide qualitative local mechanisms, not prevalence or causal effect estimates. Proposed inclusive adaptation and reported preparedness must not be represented as proven peace outcomes. []
+- Protection pathway records a reported risk mechanism, not verified violence incidence or attribution of the cyclone to climate change. []
 - Draft extension: human source review and approval remain pending. Lending eligibility is not an FCV classification. []
 
 ## Climate pressures and exposure
@@ -61,6 +63,13 @@ Critical remaining gaps:
 
 ## Climate-FCV pathways
 
+- Post-Ditwah shelter conditions and protection-service gaps heightened GBV risk; incidence changes were not measured. [LKA-P-101; LKA-E-108, LKA-E-109]
+  - Documented impact: Displacement and damaged access routes increased dependence on temporary shelters and disrupted assistance.
+  - FCV mediator: Crowding, insufficient lighting and privacy, shared sanitation and gaps in accessible protection services raised exposure to harm.
+  - Possible consequence: Heightened gender-based violence risk reported by UNFPA; no measured cyclone-attributable incidence.
+  - Link evidence: {'pressure': ['LKA-E-108'], 'impact': ['LKA-E-108'], 'mediator': ['LKA-E-108', 'LKA-E-109'], 'consequence': ['LKA-E-108']}
+  - Alternative explanations: ['Pre-existing inequalities, household resources and service quality also influence protection risk.', 'Agency reporting is not an incident-based causal evaluation.']
+  - Uncertainty: This is a source-stated post-disaster protection-risk mechanism, not proof of increased violence incidence, anthropogenic attribution of the cyclone, or a national FCV classification.
 
 ## Resilience and peace-supporting capacities
 
