@@ -46,12 +46,51 @@ def read(path):
 
 def test_prior_snapshots_code_approvals_and_current_release_are_unchanged():
     freeze = read(ROOT / 'reviews/20261026_global-depth-baseline-freeze.json')
+    activation_path = ROOT / 'reviews/20261027_global-production-approval-manifest.json'
     assert freeze['baseline_commit'] == '97dec8a6c5f94f3cc2c8df6e73f9aac51bbfa643'
     assert freeze['algorithm'] == 'sha256-utf8-lf'
     assert len(freeze['files']) == 878
-    for relative, expected in freeze['files'].items():
-        actual = hashlib.sha256((ROOT / relative).read_text(encoding='utf-8').encode()).hexdigest()
-        assert actual == expected, relative
+    assert activation_path.is_file(), 'qualified activation manifest is missing'
+    activation = read(activation_path)
+    replacements = activation['frozen_replacements']
+    allowed = {
+        'releases/current/runtime.json',
+        'climate_bank/release.py',
+        'climate_bank/validation.py',
+        'schemas/runtime-release.schema.json',
+        'tests/test_release.py',
+        'tests/test_global_depth_integrity.py',
+        'tests/test_approved_october_release.py',
+        'tests/test_ida_expansion.py',
+    }
+    assert set(replacements) <= allowed
+
+    changed_live = set()
+    for relative, old_hash in freeze['files'].items():
+        live_hash = hashlib.sha256(
+            (ROOT / relative).read_text(encoding='utf-8').encode('utf-8')
+        ).hexdigest()
+        if live_hash != old_hash:
+            changed_live.add(relative)
+        if relative not in replacements:
+            assert live_hash == old_hash, relative
+            continue
+
+        entry = replacements[relative]
+        assert set(entry) == {
+            'archive_path', 'old_sha256_utf8_lf', 'new_sha256_utf8_lf'
+        }, relative
+        assert entry['old_sha256_utf8_lf'] == old_hash, relative
+        archived = ROOT / entry['archive_path']
+        archived_hash = hashlib.sha256(
+            archived.read_text(encoding='utf-8').encode('utf-8')
+        ).hexdigest()
+        assert archived_hash == old_hash, relative
+        assert live_hash == entry['new_sha256_utf8_lf'], relative
+        assert live_hash != old_hash, relative
+
+    assert changed_live == set(replacements)
+    assert 'releases/current/runtime.json' in replacements
 
 
 @pytest.mark.parametrize('directory', sorted((ROOT / 'countries').glob(f'*/candidates/{VERSION}')),

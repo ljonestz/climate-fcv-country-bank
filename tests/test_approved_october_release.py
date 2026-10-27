@@ -12,6 +12,8 @@ from climate_bank.release import promote_release
 ROOT = Path(__file__).resolve().parents[1]
 VERSION = "2026.10.26"
 COUNTRIES = set("AFG BFA CAF CMR COD ETH HTI IRN IRQ LBN LBY MLI MMR MOZ NER NGA PNG PSE SDN SOM SSD SYR UKR YEM".split())
+CURRENT = "releases/current/runtime.json"
+ACTIVATION_MANIFEST = "reviews/20261027_global-production-approval-manifest.json"
 
 
 def read_json(path):
@@ -26,8 +28,26 @@ def test_approved_release_preserves_reviewed_content_and_rebuilds(tmp_path):
     assert manifest["approved_on"] == "2026-10-26"
     assert manifest["reviewed_commit"] == "79fbe8abde57633120f37b8b0212c6eb7c9531ea"
     assert len(manifest["candidate_files"]) == len(manifest["approved_files"]) == 144
+    activation_path = ROOT / ACTIVATION_MANIFEST
+    assert activation_path.is_file(), "Global activation manifest is missing"
+    activation = read_json(activation_path)
+    runtime_replacement = activation["frozen_replacements"][CURRENT]
+    old_runtime_digest = manifest["release_files"][CURRENT]
+    assert runtime_replacement["old_sha256_utf8_lf"] == old_runtime_digest
+    archived_runtime = ROOT / runtime_replacement["archive_path"]
+    archived_digest = hashlib.sha256(
+        archived_runtime.read_text(encoding="utf-8").encode("utf-8")
+    ).hexdigest()
+    assert archived_digest == old_runtime_digest
+    current_digest = hashlib.sha256(
+        (ROOT / CURRENT).read_text(encoding="utf-8").encode("utf-8")
+    ).hexdigest()
+    assert current_digest == runtime_replacement["new_sha256_utf8_lf"]
+
     for group in ("candidate_files", "approved_files", "release_files"):
         for name, digest in manifest[group].items():
+            if group == "release_files" and name == CURRENT:
+                continue
             payload = (ROOT / name).read_text(encoding="utf-8").encode("utf-8")
             assert hashlib.sha256(payload).hexdigest() == digest, name
 
@@ -55,7 +75,7 @@ def test_approved_release_preserves_reviewed_content_and_rebuilds(tmp_path):
         assert actual == expected, iso
         assert (approved / "dossier.md").read_text(encoding="utf-8") == build_dossier(approved)
 
-    runtime = read_json(ROOT / "releases/current/runtime.json")
+    runtime = read_json(archived_runtime)
     assert runtime["schema_version"] == "1.1.0" and runtime["candidate"] is False
     assert runtime["content_version"] == "2026.10.26.approved-country-bank"
     assert set(runtime["countries"]) == COUNTRIES

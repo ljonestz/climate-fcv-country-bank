@@ -553,6 +553,47 @@ def validate_runtime_release(value: Any) -> list[str]:
         for evidence_id, record in evidence_index.items()
     }
     country_codes = {iso3 for iso3 in countries if isinstance(iso3, str)}
+    country_profiles = value.get("country_profiles")
+    if isinstance(country_profiles, dict):
+        profile_codes = {
+            iso3 for iso3 in country_profiles if isinstance(iso3, str)
+        }
+        if profile_codes != country_codes:
+            missing = sorted(country_codes - profile_codes)
+            extra = sorted(profile_codes - country_codes)
+            errors.append(
+                "runtime release: country_profiles keys must exactly match "
+                f"countries (missing={missing}, extra={extra})"
+            )
+        evidence_by_country: dict[str, set[str]] = {}
+        pathway_by_country: dict[str, set[str]] = {}
+        for record in evidence:
+            if isinstance(record, dict):
+                iso3 = record.get("iso3")
+                record_id = record.get("evidence_id")
+                if isinstance(iso3, str) and isinstance(record_id, str):
+                    evidence_by_country.setdefault(iso3, set()).add(record_id)
+        for record in pathways:
+            if isinstance(record, dict):
+                iso3 = record.get("iso3")
+                record_id = record.get("pathway_id")
+                if isinstance(iso3, str) and isinstance(record_id, str):
+                    pathway_by_country.setdefault(iso3, set()).add(record_id)
+        for iso3, profile in country_profiles.items():
+            if not isinstance(iso3, str):
+                continue
+            for message in _profile_reference_errors(
+                profile,
+                evidence_by_country.get(iso3, set()),
+                pathway_by_country.get(iso3, set()),
+            ):
+                errors.append(
+                    message.replace(
+                        "profile.json:",
+                        f"runtime release: country_profiles.{iso3}",
+                        1,
+                    )
+                )
 
     for record in evidence:
         if not isinstance(record, dict):

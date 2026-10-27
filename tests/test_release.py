@@ -1153,3 +1153,56 @@ def test_candidate_current_guard_does_not_overmatch_unrelated_components(
 
     assert output_path.is_file()
     assert release["candidate"] is True
+
+
+def test_promoted_country_profiles_are_opt_in_and_preserve_exact_profile_rows(
+    tmp_path: Path,
+) -> None:
+    country_dir = candidate_country(
+        tmp_path / "countries", status="approved"
+    )
+    source_profile = _read(country_dir / "profile.json")
+    generated_at = "2026-08-01T00:00:00Z"
+
+    legacy = promote_release(
+        [country_dir],
+        generated_at=generated_at,
+        content_version="2026.08.profile-opt-in-test",
+        current_dir=tmp_path / "legacy",
+    )
+    profiled = promote_release(
+        [country_dir],
+        generated_at=generated_at,
+        content_version="2026.08.profile-opt-in-test",
+        current_dir=tmp_path / "profiled",
+        include_country_profiles=True,
+    )
+
+    assert "country_profiles" not in legacy
+    assert profiled["country_profiles"] == {
+        "SSD": {
+            "coverage": source_profile["coverage"],
+            "known_gaps": source_profile["known_gaps"],
+        }
+    }
+    assert validate_runtime_release(profiled) == []
+
+
+def test_runtime_country_profile_keys_must_match_country_keys(
+    tmp_path: Path,
+) -> None:
+    country_dir = candidate_country(
+        tmp_path / "countries", status="approved"
+    )
+    release = promote_release(
+        [country_dir],
+        generated_at="2026-08-01T00:00:00Z",
+        content_version="2026.08.profile-key-test",
+        current_dir=tmp_path / "current",
+        include_country_profiles=True,
+    )
+    release["country_profiles"]["COD"] = {"coverage": [], "known_gaps": []}
+
+    errors = validate_runtime_release(release)
+
+    assert any("country_profiles keys must exactly match countries" in error for error in errors)

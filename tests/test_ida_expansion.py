@@ -66,9 +66,23 @@ def test_existing_bank_and_releases_remain_frozen():
     assert manifest_path.is_file(), "Baseline freeze is not recorded"
     manifest = read_json(manifest_path)
     assert manifest["base_commit"] == ROSTER["bank_base"]
+    activation = read_json(
+        ROOT / "reviews/20261027_global-production-approval-manifest.json"
+    )
+    replacements = activation["frozen_replacements"]
     for name, digest in manifest["preserved_files"].items():
-        payload = (ROOT / name).read_text(encoding="utf-8").encode("utf-8")
-        assert hashlib.sha256(payload).hexdigest() == digest, name
+        live = (ROOT / name).read_text(encoding="utf-8").encode("utf-8")
+        live_hash = hashlib.sha256(live).hexdigest()
+        if name not in replacements:
+            assert live_hash == digest, name
+            continue
+
+        replacement = replacements[name]
+        assert replacement["old_sha256_utf8_lf"] == digest, name
+        archived = ROOT / replacement["archive_path"]
+        archived_payload = archived.read_text(encoding="utf-8").encode("utf-8")
+        assert hashlib.sha256(archived_payload).hexdigest() == digest, name
+        assert live_hash == replacement["new_sha256_utf8_lf"], name
 
 
 def test_approval_manifest_binds_every_country_file_without_authorizing_release():

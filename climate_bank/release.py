@@ -385,10 +385,13 @@ def _construct_release(
     schema_version: str,
     content_version: str,
     candidate: bool | None,
+    include_country_profiles: bool = False,
 ) -> dict[str, Any]:
     generated = _parse_generated_at(generated_at)
     if schema_version not in {SCHEMA_VERSION, CANDIDATE_SCHEMA_VERSION}:
         raise ValueError(f"unsupported schema_version {schema_version}")
+    if include_country_profiles and schema_version != CANDIDATE_SCHEMA_VERSION:
+        raise ValueError("country_profiles require schema_version 1.1.0")
     if not isinstance(content_version, str) or not content_version.strip():
         raise ValueError("content_version must be a non-empty string")
 
@@ -404,6 +407,7 @@ def _construct_release(
     sources_by_id: dict[str, dict[str, Any]] = {}
     evidence_records: list[dict[str, Any]] = []
     pathway_records: list[dict[str, Any]] = []
+    country_profiles: dict[str, dict[str, Any]] = {}
 
     for country_dir, review, sources, evidence, pathways, profile in sorted(
         inputs, key=lambda item: item[1]["iso3"]
@@ -432,6 +436,11 @@ def _construct_release(
             summary["selection_aliases"] = deepcopy(
                 profile["selection_aliases"]
             )
+            if include_country_profiles:
+                country_profiles[iso3] = {
+                    "coverage": deepcopy(profile["coverage"]),
+                    "known_gaps": deepcopy(profile["known_gaps"]),
+                }
         countries[iso3] = summary
 
         referenced_source_ids = {
@@ -479,6 +488,8 @@ def _construct_release(
     }
     if schema_version == CANDIDATE_SCHEMA_VERSION:
         release["candidate"] = bool(candidate)
+    if include_country_profiles:
+        release["country_profiles"] = country_profiles
 
     errors = validate_runtime_release(release)
     if errors:
@@ -495,6 +506,7 @@ def build_release(
     schema_version: str = SCHEMA_VERSION,
     content_version: str = CONTENT_VERSION,
     output_path: Path | None = None,
+    include_country_profiles: bool = False,
 ) -> dict[str, Any]:
     """Build a legacy 1.0 release or an explicit schema 1.1 candidate."""
     materialized_country_dirs = tuple(Path(path) for path in country_dirs)
@@ -518,6 +530,7 @@ def build_release(
             schema_version=schema_version,
             content_version=content_version,
             candidate=True,
+            include_country_profiles=include_country_profiles,
         )
         write_canonical_json(candidate_output, release)
         return release
@@ -535,6 +548,7 @@ def build_release(
         schema_version=schema_version,
         content_version=content_version,
         candidate=None,
+        include_country_profiles=include_country_profiles,
     )
     if legacy_output is not None:
         write_canonical_json(legacy_output, release)
@@ -547,8 +561,9 @@ def promote_release(
     generated_at: str,
     content_version: str,
     current_dir: Path,
+    include_country_profiles: bool = False,
 ) -> dict[str, Any]:
-    """Promote only fully approved schema 1.1 inputs without changing statuses."""
+    """Promote approved schema 1.1 inputs without changing their statuses."""
     materialized_country_dirs = tuple(Path(path) for path in country_dirs)
     output_path = Path(current_dir) / "runtime.json"
     _validate_release_output_path(
@@ -562,6 +577,7 @@ def promote_release(
         schema_version=CANDIDATE_SCHEMA_VERSION,
         content_version=content_version,
         candidate=False,
+        include_country_profiles=include_country_profiles,
     )
     write_canonical_json(output_path, release)
     return release
