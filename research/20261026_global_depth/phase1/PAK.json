@@ -1,0 +1,317 @@
+{
+  "iso3": "PAK",
+  "country_name": "Pakistan",
+  "sources": [
+    {
+      "source_id": "PAK-SRC-101",
+      "title": "Balochistan Climate Change Policy",
+      "organization": "Government of Balochistan and UNDP Pakistan",
+      "publication_date": "2024-11-19",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2025-07/bccp_04072025-1.pdf",
+      "repository_file": null,
+      "source_type": "government-report",
+      "analytical_roles": ["physical-baseline", "vulnerability-capacity"],
+      "country_codes": ["PAK"],
+      "geographic_coverage": ["Balochistan", "Koh-e-Sulaiman Range"],
+      "temporal_coverage": "Provincial climate risks and 2022 flood/fire impacts discussed in a 2024 policy.",
+      "accessed_on": "2026-10-27",
+      "methodology": "Provincial policy developed with consultations across districts and sectoral planning.",
+      "limitations": "Policy synthesis, not an independent impact evaluation; recommendations are not evaluated capacity.",
+      "license_status": "unknown",
+      "checksum": null
+    },
+    {
+      "source_id": "PAK-SRC-102",
+      "title": "Health Emergency Situation Report: Monsoon Floods, 25 July 2025",
+      "organization": "World Health Organization, Regional Office for the Eastern Mediterranean",
+      "publication_date": "2025-07-25",
+      "publication_date_basis": "publication",
+      "url": "https://www.emro.who.int/images/stories/pakistan/Health-Emergency-Situation-Report-Monsoon-Floods-25-July-2025.pdf",
+      "repository_file": null,
+      "source_type": "un-report",
+      "analytical_roles": ["physical-baseline", "vulnerability-capacity"],
+      "country_codes": ["PAK"],
+      "geographic_coverage": ["Punjab", "Khyber Pakhtunkhwa", "Sindh", "Balochistan", "Pakistan"],
+      "temporal_coverage": "Monsoon and flash-flood impacts and health response reported as of 25 July 2025.",
+      "accessed_on": "2026-10-27",
+      "methodology": "Operational snapshot drawing on NDMA totals, PMD forecasts and health-sector reporting.",
+      "limitations": "Single-date situation update; early impact and response figures are not final outcome estimates.",
+      "license_status": "unknown",
+      "checksum": null
+    },
+    {
+      "source_id": "PAK-SRC-103",
+      "title": "Pakistan: Acute Food Insecurity Analysis, December 2025–September 2026",
+      "organization": "Integrated Food Security Phase Classification (IPC) Analysis Unit, Pakistan",
+      "publication_date": "2026-02-18",
+      "publication_date_basis": "publication",
+      "url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Pakistan_Acute_Food_Insecurity_Dec2025_Sept2026_Report.pdf",
+      "repository_file": null,
+      "source_type": "other-report",
+      "analytical_roles": ["direct-climate-fcv", "vulnerability-capacity"],
+      "country_codes": ["PAK"],
+      "geographic_coverage": ["45 rural districts in Balochistan", "45 rural districts in Sindh", "45 rural districts in Khyber Pakhtunkhwa", "Musakhel", "Zhob", "Kachi", "Tank", "Torghar"],
+      "temporal_coverage": "Analysis covers observed acute food insecurity in December 2025–March 2026; its April–September 2026 projection period had elapsed by this extraction.",
+      "accessed_on": "2026-10-27",
+      "methodology": "Current-period classification used a household Food Security and Livelihood Assessment from September–November 2025 and secondary sources.",
+      "limitations": "45 districts were covered, fewer than the previous 68; this finding is historical.",
+      "license_status": "unknown",
+      "checksum": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "PAK-C-101",
+      "source_id": "PAK-SRC-101",
+      "locator": "Foreword, PDF pp. 3–4.",
+      "paraphrase": "The policy says declining groundwater, recurring drought and heatwaves erode agriculture and displace vulnerable, resource-dependent rural communities, increasing poverty in Balochistan.",
+      "kind": "sensitivity",
+      "basis": "observed",
+      "time_horizons": ["historical"],
+      "scenario": null,
+      "geographies": ["Balochistan"],
+      "administrative_level": "state",
+      "hazards": ["groundwater decline", "drought", "heatwaves"],
+      "sectors": ["agriculture", "poverty", "rural livelihoods"],
+      "affected_groups": ["vulnerable rural communities", "resource-dependent households"],
+      "systems": ["groundwater", "agricultural productivity", "rural livelihoods"],
+      "institutions": ["Government of Balochistan"],
+      "limitations": "Provincial policy framing; it does not quantify these pathways by district.",
+      "access_method": "full-text",
+      "subnational_specificity": "named-admin",
+      "source_stated_fcv_link": "The foreword explicitly links climate shocks with displacement and rising poverty."
+    },
+    {
+      "claim_id": "PAK-C-102",
+      "source_id": "PAK-SRC-101",
+      "locator": "Foreword, PDF p. 4.",
+      "paraphrase": "The policy reports that rain-induced floods displaced over 1.3 million people in Balochistan in 2022; women, youth and vulnerable communities face disproportionate climate-related food and health risks.",
+      "kind": "sensitivity",
+      "basis": "observed",
+      "time_horizons": ["historical"],
+      "scenario": null,
+      "geographies": ["Balochistan"],
+      "administrative_level": "state",
+      "hazards": ["rain-induced floods", "climate shocks"],
+      "sectors": ["displacement", "food security", "health"],
+      "affected_groups": ["women", "youth", "vulnerable communities", "displaced people"],
+      "systems": ["settlements", "food security", "health services"],
+      "institutions": ["Government of Balochistan"],
+      "limitations": "The policy gives a province-wide 2022 displacement figure without district breakdown.",
+      "access_method": "full-text",
+      "subnational_specificity": "named-admin",
+      "source_stated_fcv_link": "It connects the floods to displacement and climate shocks to unequal food and health risks."
+    },
+    {
+      "claim_id": "PAK-C-103",
+      "source_id": "PAK-SRC-101",
+      "locator": "Health-sector analysis, PDF p. 31.",
+      "paraphrase": "The policy says climate disasters combined with social norms obstruct women's access to healthcare, including transport, supplies, skilled staff and information.",
+      "kind": "sensitivity",
+      "basis": "observed",
+      "time_horizons": ["historical"],
+      "scenario": null,
+      "geographies": ["Balochistan"],
+      "administrative_level": "state",
+      "hazards": ["climate disasters"],
+      "sectors": ["health", "transport"],
+      "affected_groups": ["women"],
+      "systems": ["healthcare access", "health supplies", "health information"],
+      "institutions": ["Government of Balochistan"],
+      "limitations": "The passage describes provincial barriers but does not quantify service access by district.",
+      "access_method": "full-text",
+      "subnational_specificity": "named-admin",
+      "source_stated_fcv_link": "The policy identifies social norms as compounding climate-related healthcare barriers."
+    },
+    {
+      "claim_id": "PAK-C-104",
+      "source_id": "PAK-SRC-102",
+      "locator": "Situation overview, PDF p. 1.",
+      "paraphrase": "As of 25 July 2025, NDMA reported 266 deaths and 628 injuries from heavy rain and flash floods since 26 June; reported deaths included 144 in Punjab, 63 in Khyber Pakhtunkhwa, 25 in Sindh and 16 in Balochistan.",
+      "kind": "exposure",
+      "basis": "observed",
+      "time_horizons": ["historical"],
+      "scenario": null,
+      "geographies": ["Punjab", "Khyber Pakhtunkhwa", "Sindh", "Balochistan"],
+      "administrative_level": "state",
+      "hazards": ["heavy rain", "flash floods"],
+      "sectors": ["health", "disaster response"],
+      "affected_groups": ["children", "women", "men", "flood-affected people"],
+      "systems": ["population", "health services"],
+      "institutions": ["National Disaster Management Authority", "Pakistan Meteorological Department"],
+      "limitations": "Dated situation totals during an ongoing monsoon season; not a final event tally.",
+      "access_method": "full-text",
+      "subnational_specificity": "named-admin",
+      "source_stated_fcv_link": null
+    },
+    {
+      "claim_id": "PAK-C-105",
+      "source_id": "PAK-SRC-102",
+      "locator": "Response overview, PDF pp. 2–3.",
+      "paraphrase": "By 25 July 2025, health contingency plans and high-risk district control rooms were activated, medical supplies prepositioned, and partner mobile units had served over 3,000 people in Rawalpindi, Chakwal, Attock, Sargodha, Sohbatpur and Usta Muhammad.",
+      "kind": "response-performance",
+      "basis": "observed",
+      "time_horizons": ["historical"],
+      "scenario": null,
+      "geographies": ["Rawalpindi District", "Chakwal District", "Attock District", "Sargodha District", "Sohbatpur", "Usta Muhammad"],
+      "administrative_level": "administrative-area",
+      "hazards": ["monsoon floods", "heavy rain"],
+      "sectors": ["health", "emergency response"],
+      "affected_groups": ["flood-affected people", "women", "children", "older people", "people with disabilities"],
+      "systems": ["health contingency plans", "district control rooms", "medical supplies", "mobile health services"],
+      "institutions": ["WHO", "provincial health departments", "Indus Hospital & Health Network"],
+      "limitations": "The report gives operational outputs, not independent outcome or coverage evaluation.",
+      "access_method": "full-text",
+      "subnational_specificity": "named-admin",
+      "source_stated_fcv_link": null
+    },
+    {
+      "claim_id": "PAK-C-106",
+      "source_id": "PAK-SRC-103",
+      "locator": "Summary and classification, PDF pp. 1–2.",
+      "paraphrase": "IPC classified 7.5 million people (21%) in 45 rural districts of Balochistan, Sindh and Khyber Pakhtunkhwa in Phase 3 or worse for December 2025–March 2026, citing residual monsoon floods, prolonged drought and localized insecurity as drivers.",
+      "kind": "sensitivity",
+      "basis": "observed",
+      "time_horizons": ["historical"],
+      "scenario": null,
+      "geographies": ["Balochistan", "Sindh", "Khyber Pakhtunkhwa", "Musakhel", "Zhob", "Kachi", "Tank", "Torghar"],
+      "administrative_level": "administrative-area",
+      "hazards": ["residual monsoon floods", "prolonged drought", "dry spells", "localized insecurity"],
+      "sectors": ["food security", "agriculture", "pastoral livelihoods"],
+      "affected_groups": ["people classified in IPC Phase 3 or worse"],
+      "systems": ["crop and livestock production", "agricultural livelihoods", "food access"],
+      "institutions": ["IPC Analysis Unit, Pakistan"],
+      "limitations": "Assessment-period finding; coverage was 45 districts, fewer than the prior analysis.",
+      "access_method": "full-text",
+      "subnational_specificity": "named-admin",
+      "source_stated_fcv_link": "IPC identifies insecurity alongside climate shocks as a driver of acute food insecurity."
+    },
+    {
+      "claim_id": "PAK-C-107",
+      "source_id": "PAK-SRC-103",
+      "locator": "Drivers and district findings, PDF pp. 2 and 6.",
+      "paraphrase": "IPC identifies localized insecurity as a main food-insecurity driver in Kachi and Tank, disrupting livelihoods, markets, services and income.",
+      "kind": "sensitivity",
+      "basis": "observed",
+      "time_horizons": ["historical"],
+      "scenario": null,
+      "geographies": ["Kachi District", "Tank District"],
+      "administrative_level": "administrative-area",
+      "hazards": ["localized insecurity"],
+      "sectors": ["food security", "agriculture", "markets", "services"],
+      "affected_groups": ["food-insecure households", "agricultural and pastoral livelihood groups"],
+      "systems": ["livelihoods", "markets", "services", "household income"],
+      "institutions": ["IPC Analysis Unit, Pakistan"],
+      "limitations": "The report describes insecurity as a food-insecurity driver, not as caused by climate hazards.",
+      "access_method": "full-text",
+      "subnational_specificity": "named-admin",
+      "source_stated_fcv_link": "It states insecurity disrupts local livelihoods and markets and contributes to food insecurity."
+    },
+    {
+      "claim_id": "PAK-C-108",
+      "source_id": "PAK-SRC-103",
+      "locator": "Household livelihood findings, PDF pp. 7–8.",
+      "paraphrase": "The household assessment associated drought with income declines of 30% in Balochistan, 14% in Sindh and 9% in Khyber Pakhtunkhwa; respondents also reported water scarcity and reduced crop or livestock production.",
+      "kind": "sensitivity",
+      "basis": "observed",
+      "time_horizons": ["historical"],
+      "scenario": null,
+      "geographies": ["Balochistan", "Sindh", "Khyber Pakhtunkhwa"],
+      "administrative_level": "state",
+      "hazards": ["drought", "water scarcity"],
+      "sectors": ["agriculture", "livestock", "food security"],
+      "affected_groups": ["surveyed households"],
+      "systems": ["household income", "crop production", "livestock production", "water access"],
+      "institutions": ["IPC Analysis Unit, Pakistan"],
+      "limitations": "Survey-based assessment-period findings; the report does not establish future losses.",
+      "access_method": "full-text",
+      "subnational_specificity": "named-admin",
+      "source_stated_fcv_link": null
+    }
+  ],
+  "access_audit": [
+    {
+      "source_id": "PAK-SRC-101",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2025-07/bccp_04072025-1.pdf",
+      "access_method": "full-text",
+      "locator": "Opened the original 90-page policy PDF; claims use foreword and health-sector analysis, PDF pp. 3–4 and 31.",
+      "notes": "Official UNDP landing page identifies publication date 19 November 2024; publication date was not inferred from the PDF URL.",
+      "reuse_terms": "Terms not reviewed; concise paraphrases only."
+    },
+    {
+      "source_id": "PAK-SRC-102",
+      "url": "https://www.emro.who.int/images/stories/pakistan/Health-Emergency-Situation-Report-Monsoon-Floods-25-July-2025.pdf",
+      "access_method": "full-text",
+      "locator": "Opened the original four-page situation report; claims use PDF pp. 1–3.",
+      "notes": "Report dated 25 July 2025; as-of status and planned versus completed actions were retained.",
+      "reuse_terms": "Terms not reviewed; concise paraphrases only."
+    },
+    {
+      "source_id": "PAK-SRC-103",
+      "url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Pakistan_Acute_Food_Insecurity_Dec2025_Sept2026_Report.pdf",
+      "access_method": "full-text",
+      "locator": "Opened the original 24-page analysis; claims use PDF pp. 1–2, 6–8, and methodology p. 22.",
+      "notes": "The report's April–September 2026 projection period had elapsed at access; claims use only the observed December 2025–March 2026 analysis.",
+      "reuse_terms": "Terms not reviewed; concise paraphrases only."
+    },
+    {
+      "source_id": null,
+      "url": "https://www.unhcr.org/sites/default/files/2025-11/unhcr-fds-hlr-pakistan.pdf",
+      "access_method": "blocked",
+      "locator": "Direct UNHCR PDF request returned HTTP 429; alternate ecoi mirror timed out.",
+      "notes": "A directly opened Joint Data Center publisher summary was not used as a claim source; climate-specific PDF findings were excluded and search-result snippets were not used.",
+      "reuse_terms": "Not reviewed; no claims derived."
+    }
+  ],
+  "search_audit": [
+    {
+      "query": "Pakistan 2025 floods monsoon districts situation report NDMA PDMA official PDF 2025",
+      "purpose": "subnational-vulnerability",
+      "outcome": "Opened WHO's dated operational report and Balochistan's provincial climate policy; retained only dated, source-supported district or provincial findings.",
+      "urls": [
+        "https://www.emro.who.int/images/stories/pakistan/Health-Emergency-Situation-Report-Monsoon-Floods-25-July-2025.pdf",
+        "https://www.undp.org/sites/g/files/zskgke326/files/2025-07/bccp_04072025-1.pdf"
+      ]
+    },
+    {
+      "query": "Pakistan climate conflict displacement Balochistan Khyber Pakhtunkhwa climate security official UN report 2024 2025",
+      "purpose": "fcv-mediators",
+      "outcome": "IPC directly names localized insecurity alongside drought and flood shocks in acute food insecurity; no climate-causes-armed-conflict link was established.",
+      "urls": [
+        "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Pakistan_Acute_Food_Insecurity_Dec2025_Sept2026_Report.pdf",
+        "https://www.undp.org/sites/g/files/zskgke326/files/2025-07/bccp_04072025-1.pdf"
+      ]
+    },
+    {
+      "query": "Pakistan climate floods conflict violence displacement affected communities access security official report 2024 2025",
+      "purpose": "reverse-fcv",
+      "outcome": "IPC reports insecurity disrupting markets, livelihoods and services in Kachi and Tank; searches did not establish a climate driver of that insecurity.",
+      "urls": [
+        "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Pakistan_Acute_Food_Insecurity_Dec2025_Sept2026_Report.pdf"
+      ]
+    },
+    {
+      "query": "Pakistan flood resilience capacity early warning adaptation local districts official UN report 2024 2025",
+      "purpose": "resilience-capacity",
+      "outcome": "WHO reports activated health contingency plans, control rooms, prepositioned supplies and named mobile-clinic deployments; these are operational outputs, not outcome evaluations.",
+      "urls": [
+        "https://www.emro.who.int/images/stories/pakistan/Health-Emergency-Situation-Report-Monsoon-Floods-25-July-2025.pdf"
+      ]
+    },
+    {
+      "query": "Pakistan forced displacement survey 2024 Afghan refugees Khyber Pakhtunkhwa Balochistan UNHCR",
+      "purpose": "fcv-mediators",
+      "outcome": "UNHCR PDF was blocked (HTTP 429) and alternate mirror timed out; search-result text was excluded, so no refugee climate finding is claimed.",
+      "urls": [
+        "https://www.unhcr.org/sites/default/files/2025-11/unhcr-fds-hlr-pakistan.pdf"
+      ]
+    }
+  ],
+  "gaps": [
+    "The accessed sources establish climate-related displacement, health and livelihood vulnerability, and localized insecurity as a separate food-insecurity driver; they do not establish that climate hazards caused armed conflict.",
+    "Balochistan policy findings are provincial and do not quantify district differences; WHO's July 2025 report is an early operational snapshot, not a final impact assessment.",
+    "IPC findings refer to its December 2025–March 2026 assessment period and cover 45 rural districts, fewer than its prior analysis; they are not current October 2026 estimates.",
+    "UNHCR's original Forced Displacement Survey PDF returned HTTP 429 and its alternate mirror timed out; no claims were taken from search snippets or the opened publisher summary."
+  ]
+}

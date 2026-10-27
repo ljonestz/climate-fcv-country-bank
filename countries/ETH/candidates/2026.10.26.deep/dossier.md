@@ -1,0 +1,212 @@
+# Ethiopia Climate-FCV Evidence Dossier
+
+## Executive assessment
+
+- Named examples cover Awash lowlands and Doolo/Warder pastoral displacement; historical observations must not be presented as current caseloads. [ETH-E-102, ETH-E-104, ETH-E-105]
+- Eastern Ethiopia respondents perceived drought-related resource pressure within a political and institutional conflict setting; the study does not identify a drought causal effect. [ETH-E-107, ETH-E-108]
+- Insurance evaluation findings are mixed, including no demonstrated income, asset or dietary-diversity gains in the publisher summary. [ETH-E-109, ETH-E-110, ETH-E-111]
+
+## Evidence coverage and critical gaps
+
+| Dimension | Value | Status | Supporting record IDs | Gap note |
+|---|---|---|---|---|
+| evidence-class | climate-pressure | partial | ETH-E-001, ETH-E-002, ETH-E-003, ETH-E-004 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | exposure | partial | ETH-E-005, ETH-E-007 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | sensitivity | partial | ETH-E-006, ETH-E-010, ETH-E-101, ETH-E-102, ETH-E-104, ETH-E-105 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | coping-capacity | partial | ETH-E-016, ETH-E-106 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | adaptive-capacity | partial | ETH-E-013, ETH-E-022 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | institutional-capacity | partial | ETH-E-009, ETH-E-014, ETH-E-015, ETH-E-108, ETH-E-111 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | response-performance | partial | ETH-E-017, ETH-E-109, ETH-E-110 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | direct-climate-fcv | partial | ETH-E-011, ETH-E-012, ETH-E-103, ETH-E-107 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | resilience-peace-capacity | partial | ETH-E-020, ETH-E-021 | Selected source-supported evidence only; not comprehensive. |
+| geography | new named subnational examples | partial | ETH-E-102, ETH-E-104, ETH-E-105, ETH-E-106, ETH-E-107, ETH-E-108, ETH-E-109, ETH-E-110, ETH-E-111 | Named places only; generic rural/coastal zones excluded. No complete local risk ranking. |
+| pathway | mediated climate-FCV links | partial | ETH-P-001, ETH-P-002, ETH-P-003, ETH-P-004, ETH-P-005, ETH-P-006, ETH-P-007 | Conditional mechanisms, not national causal estimates. |
+
+Critical remaining gaps:
+- Climate projections: Temperature projections are robust relative to precipitation, but subregional precipitation, drought-duration and highland ecosystem projections have significant model/spatial uncertainty. (World Bank2) []
+- Causal Climate-FCV evidence: The available national evidence is mainly observational association and expert synthesis; the most specific mobility-conflict evidence is local to Somali Region. (World Food Programme1) []
+- FCV -> adaptation: Conflict clearly constrains household welfare and humanitarian operations, but few studies quantify how conflict changes adaptation project performance, maintenance, climate-information use or resilience outcomes. (World Bank2) []
+- Geographic coverage: Accessible evidence is uneven across conflict-affected locations and pastoral areas; rigorous local evidence should not be generalized to regions not studied. []
+- Differentiated vulnerability: Gender is prominent in policy documents, yet the 2025 stocktake identifies implementation/tracking shortcomings; robust outcome data disaggregated by gender and other intersecting vulnerabilities remain limited. []
+- Evaluation: Recent lowland resilience, irrigation, humanitarian and data-system investments mainly have output or programme-theory evidence, not independent impact estimates. (World Food Programme12) []
+- SIPRI identifies programme-targeting tensions and possible unintended effects, but systematic monitoring of such effects is uncommon. []
+- Monitoring: Nearly two-thirds of the NDC adaptation indicators examined in the 2025 stocktake were untracked, materially limiting assessment of national adaptation progress. []
+- Current WFP operational reporting is valuable for access and delivery conditions but is not a substitute for representative household, displacement or service-delivery surveys. []
+- *None are wholly unsupported, but direct-climate-fcv and resilience-peace-capacity are only partially covered because much of the evidence is correlational, qualitative and geographically restricted. FCV-to-adaptation outcome evidence is also substantially thinner than evidence showing general FCV constraints on welfare and humanitarian delivery. []
+- The UNICEF–IDMC counts are historical estimates of displacement events rather than unique children; further research on Ethiopia-specific climate-conflict dynamics and long-term child outcomes is needed. []
+- IDMC’s 2019 interview sample was purposive and camp-based, not representative; evidence is dated and does not establish current humanitarian conditions. []
+- The 2013–2014 pastoral-conflict study is localized and perception-based; it does not isolate drought’s causal contribution or establish current institutional capacity. []
+- WFP’s public evaluation landing-page summary was accessible, but its linked report PDF was blocked by a bot-verification challenge; no detailed result tables or full evaluation methods were inspected. []
+- Historical local studies are not a current conflict map; the 2013–2014 eastern Ethiopia sample was deliberately located in severe drought/conflict areas. []
+- WFP evaluation findings are accessible only as the publisher's substantive summary, not the full estimation tables; positive and null findings are both retained. []
+- Draft extension: human source review and approval remain pending. Lending eligibility is not an FCV classification. []
+
+## Climate pressures and exposure
+
+- ~1°C observed warming since 1960s. [ETH-E-001]
+- Rainfall variability is large and spatially uneven. [ETH-E-002]
+- Afar faces large projected heat-day increase. [ETH-E-003]
+- Flood intensity risk rises; dry-day change is spatially uneven. [ETH-E-004]
+- Large recurring drought/flood exposure. [ETH-E-005]
+- Informality concentrates urban hazard/service vulnerability. [ETH-E-007]
+
+## Differentiated vulnerability
+
+- Tenure insecurity can amplify pastoral climate vulnerability. [ETH-E-006]
+- Conflict exposure is associated with sharply higher food poverty. [ETH-E-010]
+- Source dated 2025-09 reports: UNICEF–IDMC estimate 1.6 million weather-related child-displacement events in Ethiopia in 2017–2023; 522,000 were drought-linked, peaking at 324,000 in 2022. [ETH-E-101]
+- UNICEF–IDMC's September 2025 synthesis describes seasonal Awash flooding in low-lying Afar and Somali communities and substantial drought displacement in conflict-affected Somali and Oromia; it does not apportion the contributions of conflict and weather. [ETH-E-102]
+- Source dated 2019-12 reports: IDMC reported nearly 56,000 drought-affected households still displaced in Somali Region; 36,000 people were displaced in a drought context nationally in January–June 2019, mainly there. [ETH-E-104]
+- Source dated 2019-12 reports: In Gafow and Koracle, key informants estimated households lost up to 80% of livestock in the 2015–2017 drought; herds and milk fell as families sought clean water and aid in peri-urban Warder. [ETH-E-105]
+
+## Coping and adaptive capacity
+
+- National adaptation architecture has 40 targeted interventions. [ETH-E-013]
+- Early-warning capacity exists across government levels. [ETH-E-016]
+- Recent lowland programme has substantial stated reach. [ETH-E-022]
+- Source dated 2019-12 reports: IDMC found Doolo drought-displaced households faced food insecurity and poor water access, while aid shrank as intercommunal conflicts took priority; host communities also lacked services. [ETH-E-106]
+
+## Institutions and delivery systems
+
+- Conflict constrains humanitarian delivery. [ETH-E-009]
+- Most sampled adaptation indicators lacked tracking. [ETH-E-014]
+- Local climate implementation capacity is weak. [ETH-E-015]
+- Adaptation implementation evidence is incomplete and uneven. [ETH-E-017]
+- Source dated 2015-06 reports: The study describes weak customary institutions, contested regional boundaries and selected officials’ interests as factors shaping resource violence; federal military interventions were often temporary rather than lasting solutions. [ETH-E-108]
+- Source dated 2024-11-20 reports: WFP reports that SIIPE expanded from three to 11 Somali Region woredas and reached over 28,000 households by 2021 through subsidized drought livestock insurance, public works and financial-literacy training. [ETH-E-109]
+- Source dated 2024-11-20 reports: WFP’s summarized evaluation found improved insurance knowledge, financial-service engagement, livestock spending on water, veterinary care and forage, and food security, but no gains in incomes, assets or dietary diversity. [ETH-E-110]
+- Source dated 2024-11-20 reports: WFP reports complex enrolment, delayed or inadequate payouts, unreliable satellite data, low awareness, capacity gaps, unaffordable premiums and budget shortfalls constrained SIIPE effectiveness and sustainability. [ETH-E-111]
+
+## Climate-FCV pathways
+
+- Extreme heat may raise conflict risk through food insecurity, but available Ethiopia evidence is correlational rather than proof that heat causes conflict. (World Food Programme1) [ETH-P-001; ETH-E-011]
+  - Documented impact: Higher heat exposure is associated with more food-insecure households.
+  - FCV mediator: Household food insecurity and livelihood stress.
+  - Possible consequence: Where other political, economic and security conditions are adverse, food insecurity may contribute to greater conflict risk.
+  - Link evidence: {'pressure': ['ETH-E-011'], 'impact': ['ETH-E-011'], 'mediator': ['ETH-E-011'], 'consequence': ['ETH-E-011']}
+  - Alternative explanations: ['Pre-existing insecurity', 'poverty', 'inflation', 'governance', 'political mobilization', 'land disputes']
+  - Uncertainty: Causal direction and omitted-variable effects remain material.
+- Drought can affect local conflict risk through mobility and governed access to pasture/water; it is not an automatic conflict trigger. (SIPRI7) [ETH-P-002; ETH-E-012, ETH-E-020]
+  - Documented impact: Pastoralists adjust mobility and other coping strategies.
+  - FCV mediator: Competition over common water and pasture.
+  - Possible consequence: Increased probability of local intercommunal tension or conflict in some Somali Region settings.
+  - Link evidence: {'pressure': ['ETH-E-012'], 'impact': ['ETH-E-012'], 'mediator': ['ETH-E-012'], 'consequence': ['ETH-E-012']}
+  - Alternative explanations: ['Administrative boundaries', 'ethnic/political relations', 'historic disputes', 'livestock raiding', 'weapons and governance']
+  - Uncertainty: Strongly location-dependent.
+- Flood impacts may interact with displacement and service deficits, but a conflict consequence remains inferential. (World Bank2) [ETH-P-003; ETH-E-004, ETH-E-007]
+  - Documented impact: Infrastructure, crops, livelihoods and settlements are exposed to flood damage.
+  - FCV mediator: Displacement, service congestion, lost assets and unequal recovery.
+  - Possible consequence: In fragile or poorly governed settings, these stresses could exacerbate grievances or reduce social cohesion.
+  - Link evidence: {'pressure': ['ETH-E-004'], 'impact': ['ETH-E-004'], 'mediator': ['ETH-E-004'], 'consequence': ['ETH-E-004']}
+  - Alternative explanations: ['Drainage/infrastructure deficiencies', 'land administration', 'settlement policy', 'poverty']
+  - Uncertainty: No verified source here demonstrates a national flood -> violence causal effect.
+- Conflict-associated food poverty plausibly reduces household climate-coping capacity, but the complete adaptation chain has not been directly evaluated. (World Bank2) [ETH-P-004; ETH-E-010]
+  - Documented impact: Conflict exposure is associated with materially higher food poverty in surveyed pastoral/agropastoral communities.
+  - FCV mediator: Violence, market disruption and household asset/income loss.
+  - Possible consequence: Households affected by conflict may have fewer resources with which to cope with subsequent climate shocks.
+  - Link evidence: {'pressure': ['ETH-E-010'], 'impact': ['ETH-E-010'], 'mediator': ['ETH-E-010'], 'consequence': ['ETH-E-010']}
+  - Alternative explanations: ['Inflation', 'pre-existing poverty', 'market access']
+  - Uncertainty: Direct effect on specific adaptation outcomes was not measured.
+- Flood exposure and insecurity-related operating constraints are separately documented; their joint effect on humanitarian or resilience outcomes is not quantified. (World Food Programme8) [ETH-P-005; ETH-E-004, ETH-E-009]
+  - Documented impact: Insecurity creates risks and raises WFP operating costs.
+  - FCV mediator: Access restrictions, insecurity and increased delivery costs.
+  - Possible consequence: Assistance, recovery and resilience services may reach fewer people, arrive later or cost more.
+  - Link evidence: {'pressure': ['ETH-E-004'], 'impact': ['ETH-E-009'], 'mediator': ['ETH-E-009'], 'consequence': ['ETH-E-009']}
+  - Alternative explanations: ['Funding shortages', 'logistics', 'commodity prices', 'administrative capacity']
+  - Uncertainty: Flood risk and insecurity-related delivery costs are separately documented; their joint effect is not estimated.
+- Institutions governing land and seasonal access can mediate whether climate stress becomes a livelihood or fragility problem. (World Bank2) [ETH-P-006; ETH-E-006, ETH-E-012]
+  - Documented impact: Pastoral dry-season grazing and water access are important to livelihood continuity.
+  - FCV mediator: Unrecognized communal tenure, expropriation/displacement risk and contested access.
+  - Possible consequence: Poorly governed land change may heighten livelihood vulnerability and potentially aggravate local fragility.
+  - Link evidence: {'pressure': ['ETH-E-006'], 'impact': ['ETH-E-006'], 'mediator': ['ETH-E-006'], 'consequence': ['ETH-E-006']}
+  - Alternative explanations: ['Commercial investment', 'administrative boundaries', 'political relations', 'demographic/market changes']
+  - Uncertainty: National incidence is not quantified.
+- Insurance has a plausible peace-supporting pathway, but evidence is mixed and programme targeting can generate its own tensions. (SIPRI7) [ETH-P-007; ETH-E-020, ETH-E-021]
+  - Documented impact: Drought insurance/cash can help households maintain livestock or meet needs.
+  - FCV mediator: Reduced need for drought-driven mobility and competition.
+  - Possible consequence: Intercommunal conflict risk may fall where mobility-related resource competition is a relevant conflict mechanism.
+  - Link evidence: {'pressure': ['ETH-E-020'], 'impact': ['ETH-E-020'], 'mediator': ['ETH-E-020'], 'consequence': ['ETH-E-020']}
+  - Alternative explanations: ['Severity of drought', 'existing relations', 'pasture availability', 'programme scale']
+  - Uncertainty: Severe drought still generated migration; peace effect not rigorously estimated.
+
+## Resilience and peace-supporting capacities
+
+- Heat-food insecurity-conflict link is correlational. [ETH-E-011]
+- Drought-related mobility can mediate local resource conflict. [ETH-E-012]
+- Insurance may support peace through reduced distress mobility, but evidence is mixed. [ETH-E-020]
+- Poor targeting transparency can create programme-related tension. [ETH-E-021]
+- UNICEF's 2025 Ethiopia discussion links conflict-disrupted livelihoods and services to greater drought/flood vulnerability and child exploitation risks; this is a national synthesis, not regional incidence or causal estimation. [ETH-E-103]
+- Source dated 2015-06 reports: In the 128-household study across Meiso-Mullu, Meiso and Amibara, respondents ranked recurrent drought first among conflict-instigating factors because it reduced water, pasture and crop availability. [ETH-E-107]
+
+## Geographic and livelihood-system differentiation
+
+- UNICEF–IDMC's September 2025 synthesis describes seasonal Awash flooding in low-lying Afar and Somali communities and substantial drought displacement in conflict-affected Somali and Oromia; it does not apportion the contributions of conflict and weather. [ETH-E-102]
+- Source dated 2019-12 reports: IDMC reported nearly 56,000 drought-affected households still displaced in Somali Region; 36,000 people were displaced in a drought context nationally in January–June 2019, mainly there. [ETH-E-104]
+- Source dated 2019-12 reports: In Gafow and Koracle, key informants estimated households lost up to 80% of livestock in the 2015–2017 drought; herds and milk fell as families sought clean water and aid in peri-urban Warder. [ETH-E-105]
+- Source dated 2019-12 reports: IDMC found Doolo drought-displaced households faced food insecurity and poor water access, while aid shrank as intercommunal conflicts took priority; host communities also lacked services. [ETH-E-106]
+- Source dated 2015-06 reports: In the 128-household study across Meiso-Mullu, Meiso and Amibara, respondents ranked recurrent drought first among conflict-instigating factors because it reduced water, pasture and crop availability. [ETH-E-107]
+- Source dated 2015-06 reports: The study describes weak customary institutions, contested regional boundaries and selected officials’ interests as factors shaping resource violence; federal military interventions were often temporary rather than lasting solutions. [ETH-E-108]
+- Source dated 2024-11-20 reports: WFP reports that SIIPE expanded from three to 11 Somali Region woredas and reached over 28,000 households by 2021 through subsidized drought livestock insurance, public works and financial-literacy training. [ETH-E-109]
+- Source dated 2024-11-20 reports: WFP’s summarized evaluation found improved insurance knowledge, financial-service engagement, livestock spending on water, veterinary care and forage, and food security, but no gains in incomes, assets or dietary diversity. [ETH-E-110]
+- Source dated 2024-11-20 reports: WFP reports complex enrolment, delayed or inadequate payouts, unreliable satellite data, low awareness, capacity gaps, unaffordable premiums and budget shortfalls constrained SIIPE effectiveness and sustainability. [ETH-E-111]
+
+## Implications by project type
+
+- Hazard, infrastructure, and basic-service projects: ETH-E-002, ETH-E-003, ETH-E-004, ETH-E-006, ETH-E-007, ETH-E-012, ETH-E-013, ETH-E-102, ETH-E-103, ETH-E-105, ETH-E-106, ETH-E-107
+- Livelihood and natural-resource projects: ETH-E-002, ETH-E-003, ETH-E-004, ETH-E-005, ETH-E-013, ETH-E-022, ETH-E-102, ETH-E-103, ETH-E-105, ETH-E-107, ETH-E-109, ETH-E-110, ETH-E-111
+- Social-protection, governance, and institution-building projects: no dedicated records
+- Humanitarian, displacement, and peace-supporting projects: no dedicated records
+
+## Technical evidence register
+
+| Evidence ID | Class | Status | Level | Raw statement | Uncertainty | Source and exact locator |
+|---|---|---|---|---|---|---|
+| ETH-E-001 | climate-pressure | observed / draft | national | Ethiopia’s national mean temperature increased by about 1°C since the 1960s. | Government synthesis; national average masks spatial differences. | ETH-SRC-001 (PDF p.10, §2.1.) |
+| ETH-E-002 | climate-pressure | observed / draft | national | Annual rainfall is highly variable; the NDC gives annual variation around mean rainfall of about 25%, reaching 50% in some areas. | Metric is NDC synthesis; local trends differ. | ETH-SRC-001 (PDF p.10, §2.1.) |
+| ETH-E-003 | climate-pressure | projected / draft | administrative-area | Under CMIP6 projections used by the CCDR, extreme heat rises most in hotter northern/eastern Ethiopia, with about 40 additional extreme-heat days projected in Afar. | Magnitude depends on model/scenario/horizon definitions. | ETH-SRC-005 (PDF p.27, §1.2.2/Fig.1.2A. (World Bank2)) |
+| ETH-E-004 | climate-pressure | projected / draft | national | Heavy-rainfall intensity is projected to rise, increasing flood risk, while consecutive dry days may rise slightly mainly in drier zones. | Mean precipitation direction remains uncertain. | ETH-SRC-005 (PDF p.27, §1.2.2. (World Bank2)) |
+| ETH-E-005 | exposure | observed / draft | national | Average annual exposure is estimated at about 5 million people for drought and 0.25 million for flooding. | Estimates derive from referenced hazard datasets, not contemporaneous census exposure. | ETH-SRC-005 (PDF p.26, §1.2.1. (World Bank2)) |
+| ETH-E-006 | sensitivity | inferred / draft | national | Pastoralists’ communal land-use rights in lowlands remain weakly recognized and largely unregistered, which can jeopardize access to dry-season grazing and water and increase climate vulnerability. | Mechanism is analytically plausible and explicitly stated by CCDR; extent varies locally. | ETH-SRC-005 (PDF p.46, §3.1. (World Bank2)) |
+| ETH-E-007 | exposure | observed / draft | site | Informal settlements are estimated to cover 74% of urban areas, and vulnerable residents in flood-runoff/wetland/hazard locations face elevated climate-event and service-access risks. | 74% estimate comes from cited secondary source; not uniform across cities. | ETH-SRC-005 (PDF p.46. (World Bank2)) |
+| ETH-E-009 | institutional-capacity | observed / draft | administrative-area | Insecurity in Amhara creates direct risks for WFP/partners and raises operating costs. | Supports delivery constraint, not a quantified adaptation-effect size. | ETH-SRC-009 (webpage “Ethiopia,” paragraph following headline indicators. (World Food Programme8)) |
+| ETH-E-010 | sensitivity | observed / draft | national | A World Bank survey in pastoral/agropastoral communities found each day with a violent conflict event associated with >12% higher food poverty. | Observational association; underlying study cited as a World Bank assessment/project concept. | ETH-SRC-005 (PDF p.25. (World Bank2)) |
+| ETH-E-011 | direct-climate-fcv | observed / draft | not-applicable | Climate-risk research reproduced by the CCDR finds an association between extreme-heat exposure, food insecurity and subsequent conflict risk at woreda level. | Original detailed study file not fully fetched; association does not establish causality. | ETH-SRC-005 (p.27, citing Pacillo et al.); ETH-SRC-007 (publication page. (World Food Programme1)) |
+| ETH-E-012 | direct-climate-fcv | observed / draft | national | In Somali Region case-study sites, drought coping through changing pastoral mobility has produced competition over water/pasture and intercommunal conflict in some instances. | Local qualitative finding; not nationally generalizable and drought is not sole conflict driver. | ETH-SRC-008 (PDF p.8 and pp.20-21. (SIPRI7)) |
+| ETH-E-013 | adaptive-capacity | observed / draft | national | The NDC prioritized 40 adaptation interventions with a 2018 baseline and 2030 targets/indicators. | Policy commitments are not evidence of realized outcomes. | ETH-SRC-001 (PDF p.8 and adaptation chapter.) |
+| ETH-E-014 | institutional-capacity | observed / draft | national | The 2025 government stocktake found that 31 of 41 NDC adaptation indicators - nearly 66% - had not been tracked. | Government stocktake; absence of tracking does not mean absence of implementation. | ETH-SRC-004 (PDF p.10, §2.1.) |
+| ETH-E-015 | institutional-capacity | observed / draft | administrative-area | Regional and woreda strategic capacity for climate action is assessed as very low, with limited finance and insufficiently assigned subnational roles. | National-level synthesis; capability varies between jurisdictions. | ETH-SRC-005 (PDF p.37, §2.4.2. (World Bank2)) |
+| ETH-E-016 | coping-capacity | observed / draft | not-applicable | Ethiopia has functional climate-related early-warning systems managed from woreda upward. | “Functional” does not establish universal coverage, forecast skill or effective last-mile response. | ETH-SRC-005 (PDF p.36, §2.4.2. (World Bank2)) |
+| ETH-E-017 | response-performance | observed / draft | national | The 2025 stocktake found implementation and tracking varied substantially between ministries, with few interventions progressing as planned and the status of most interventions unknown. | Government self-stocktake rather than independent evaluation. | ETH-SRC-004 (PDF p.10, §2.1.) |
+| ETH-E-020 | resilience-peace-capacity | inferred / draft | national | SIPRI found mixed evidence that SIIPE drought insurance could reduce drought-driven mobility and thereby lower intercommunal conflict risk. | Theory of change not consistently realized; severe drought still drove movement. | ETH-SRC-008 (PDF pp.24-28. (SIPRI7)) |
+| ETH-E-021 | resilience-peace-capacity | inferred / draft | national | SIPRI found that programme targeting/exclusion could generate resentment and recommended clearer criteria, feedback channels and conflict analysis. | Respondents also reported settings without beneficiary/non-beneficiary tension; effect is conditional. | ETH-SRC-008 (PDF pp.33-37. (SIPRI7)) |
+| ETH-E-022 | adaptive-capacity | observed / draft | national | WFP reports that IFTIIN supports 17,000 pastoral/agropastoral families across multiple Somali Region woredas through solar irrigation and related resilience measures. | Beneficiary reach and outputs are programme reporting, not independent impact estimates. | ETH-SRC-014 (webpage paragraphs under headline. (World Food Programme12)) |
+| ETH-E-101 | sensitivity | observed / draft | national | Source dated 2025-09 reports: UNICEF–IDMC estimate 1.6 million weather-related child-displacement events in Ethiopia in 2017–2023; 522,000 were drought-linked, peaking at 324,000 in 2022. | Events are not unique-child counts. | ETH-SRC-101 (PDF pp. 23–25, Ethiopia country analysis) |
+| ETH-E-102 | sensitivity | observed / draft | administrative-area | UNICEF–IDMC's September 2025 synthesis describes seasonal Awash flooding in low-lying Afar and Somali communities and substantial drought displacement in conflict-affected Somali and Oromia; it does not apportion the contributions of conflict and weather. | This regional synthesis does not quantify climate and conflict contributions. | ETH-SRC-101 (PDF p. 24, Ethiopia country analysis and data summary) |
+| ETH-E-103 | direct-climate-fcv | observed / draft | administrative-area | UNICEF's 2025 Ethiopia discussion links conflict-disrupted livelihoods and services to greater drought/flood vulnerability and child exploitation risks; this is a national synthesis, not regional incidence or causal estimation. | The explicit Ethiopia statement is in printed p.11 (physical p.13); named regions in the country section do not locate recruitment or GBV incidents. | ETH-SRC-101 (Printed p.11 (physical PDF p.13), Ethiopia sentence under displacement, conflict and insecurity.) |
+| ETH-E-104 | sensitivity | observed / draft | administrative-area | Source dated 2019-12 reports: IDMC reported nearly 56,000 drought-affected households still displaced in Somali Region; 36,000 people were displaced in a drought context nationally in January–June 2019, mainly there. | Historical estimates; drought, adaptive migration, poverty and forced displacement are difficult to distinguish. | ETH-SRC-102 (Printed pp. 5–7, summary, displacement context and methodology) |
+| ETH-E-105 | sensitivity | observed / draft | site | Source dated 2019-12 reports: In Gafow and Koracle, key informants estimated households lost up to 80% of livestock in the 2015–2017 drought; herds and milk fell as families sought clean water and aid in peri-urban Warder. | Livestock-loss figure is a key-informant estimate, not a regional census. | ETH-SRC-102 (Printed pp. 8–10, drought effects and pastoralist vulnerability in Doolo Zone) |
+| ETH-E-106 | coping-capacity | observed / draft | administrative-area | Source dated 2019-12 reports: IDMC found Doolo drought-displaced households faced food insecurity and poor water access, while aid shrank as intercommunal conflicts took priority; host communities also lacked services. | Findings describe the 2019 context, not current aid levels. | ETH-SRC-102 (Printed pp. 5–6 and 9–10, humanitarian response and conditions in Doolo and Warder) |
+| ETH-E-107 | direct-climate-fcv | observed / draft | administrative-area | Source dated 2015-06 reports: In the 128-household study across Meiso-Mullu, Meiso and Amibara, respondents ranked recurrent drought first among conflict-instigating factors because it reduced water, pasture and crop availability. | Kebeles were purposively selected for drought and conflict severity; rankings are perceptions, not causal estimates. | ETH-SRC-103 (Journal pp. 39–42, methods and ranked factors encouraging rival communities to instigate conflict) |
+| ETH-E-108 | institutional-capacity | observed / draft | administrative-area | Source dated 2015-06 reports: The study describes weak customary institutions, contested regional boundaries and selected officials’ interests as factors shaping resource violence; federal military interventions were often temporary rather than lasting solutions. | The article reports a small historical study and does not assess subsequent institutional changes. | ETH-SRC-103 (Journal pp. 30–35 and 47–48, institutional and political dimensions of resource conflict) |
+| ETH-E-109 | response-performance | observed / draft | administrative-area | Source dated 2024-11-20 reports: WFP reports that SIIPE expanded from three to 11 Somali Region woredas and reached over 28,000 households by 2021 through subsidized drought livestock insurance, public works and financial-literacy training. | Region-level programme reach; the 11 woredas are not named in the accessible summary. Delivery is not an effectiveness estimate. | ETH-SRC-104 (WFP evaluation page, programme description and reach summary) |
+| ETH-E-110 | response-performance | observed / draft | administrative-area | Source dated 2024-11-20 reports: WFP’s summarized evaluation found improved insurance knowledge, financial-service engagement, livestock spending on water, veterinary care and forage, and food security, but no gains in incomes, assets or dietary diversity. | These mixed evaluation findings are taken from WFP’s summary page; full estimation details were not accessible. | ETH-SRC-104 (WFP evaluation page, impact findings and conclusions) |
+| ETH-E-111 | institutional-capacity | observed / draft | administrative-area | Source dated 2024-11-20 reports: WFP reports complex enrolment, delayed or inadequate payouts, unreliable satellite data, low awareness, capacity gaps, unaffordable premiums and budget shortfalls constrained SIIPE effectiveness and sustainability. | WFP notes gender analysis was constrained by missing disaggregated data and some benefits faded after payouts ended. | ETH-SRC-104 (WFP evaluation page, effectiveness, scale and sustainability findings) |
+
+## Bibliography and review decision
+
+- Government of Ethiopia / UNFCCC. Updated Nationally Determined Contribution. 2021 (date basis: publication). https://unfccc.int/sites/default/files/NDC/2022-06/Ethiopia%27s%20updated%20NDC%20JULY%202021%20Submission_.pdf [ETH-SRC-001] Methodology: Government review, modelling and stakeholder process; 40 adaptation interventions Limitations: Government policy/source; several underlying vulnerability statistics are older.
+- Ministry of Planning and Development. Stocktake of Climate Change Adaptation Interventions in Ethiopia. 2025 (date basis: publication). https://napglobalnetwork.org/wp-content/uploads/2025/04/ethiopia-stocktake-climate-change-adaptation-last-final.pdf [ETH-SRC-004] Methodology: Focus groups, structured questionnaires to line ministries, desk review and secondary statistics Limitations: Primarily qualitative and government-led; many adaptation indicators themselves lack data.
+- World Bank. Ethiopia Country Climate and Development Report. 2024 (date basis: publication). https://documents1.worldbank.org/curated/en/099022224202134449/pdf/P17952512670c208619205179e2783cefc5.pdf [ETH-SRC-005] Methodology: CMIP6 ensemble, economic/sector modelling, surveys, administrative and literature synthesis Limitations: Explicitly does not model future climate-fragility interaction; some conflict evidence comes from underlying/forthcoming analyses. (World Bank2)
+- WFP / CGIAR. Is climate a risk multiplier in Ethiopia?. 2021 (date basis: publication). https://www.wfp.org/publications/climate-risk-multiplier-ethiopia [ETH-SRC-007] Methodology: Empirical study of climate, food-security and conflict relationships Limitations: Detailed downloadable study could not be fully fetched here; numerical results retained only where reproduced with locator in the CCDR. (World Food Programme1)
+- SIPRI / WFP. The World Food Programme’s Contribution to Improving the Prospects for Peace in Ethiopia. 2022 (date basis: publication). https://www.sipri.org/sites/default/files/2022-04/wfp_country_report_ethiopia_0.pdf [ETH-SRC-008] Methodology: Literature review; remote KIIs; in-person beneficiary/non-beneficiary interviews and focus groups Limitations: Local case; mixed evidence; cannot be generalized nationally. (SIPRI7)
+- WFP. Ethiopia emergency. 2026 (date basis: publication). https://www.wfp.org/emergencies/ethiopia-emergency [ETH-SRC-009] Methodology: WFP operational/humanitarian monitoring Limitations: Agency operational reporting; needs and planned reach are not evaluation results. (World Food Programme8) Publisher passage access failed during the 26 October 2026 review; no snippet was used as verification.
+- WFP. WFP supports Ethiopia to build resilient food systems in Somali Region with solar-powered irrigation scheme. 2026 (date basis: publication). https://www.wfp.org/news/wfp-supports-ethiopia-build-resilient-food-systems-somali-region-solar-powered-irrigation [ETH-SRC-014] Methodology: Programme administrative/output reporting Limitations: WFP self-report; production/output figures are not independently evaluated impact estimates. (World Food Programme12)
+- UNICEF, in partnership with the Internal Displacement Monitoring Centre and Immigration, Refugees and Citizenship Canada. Children displaced in a changing climate: Preventing and minimizing risk of displacement and preparing for climate mobility in Eastern and Southern Africa. 2025-09 (date basis: publication). https://www.unicef.org/esa/media/16146/file/UNICEF-Children-displaced-in-a-changing-climate-ESA-2025.pdf [ETH-SRC-101] Methodology: UNICEF–IDMC combine recorded 2017–2023 disaster displacements with georeferenced child-population proxies. Limitations: Counts are conservative displacement events, not unique children; Ethiopia-specific climate-conflict and long-term outcome research is limited.
+- Internal Displacement Monitoring Centre. Nothing to put in your mouth: Seeking durable solutions to drought displacement in Ethiopia. 2019-12 (date basis: publication). https://api.internal-displacement.org/sites/default/files/publications/documents/201912-ethiopia-slow-onset.pdf [ETH-SRC-102] Methodology: 219 purposive interviews and qualitative fieldwork in Doolo camps in July 2019. Limitations: Camp sample is not representative; forced displacement is hard to distinguish from adaptive migration, and estimates omit some people remaining in place.
+- Ethiopian Journal of the Social Sciences and Humanities, Addis Ababa University. The Dynamics of (Agro) Pastoral Conflicts in Eastern Ethiopia. 2015-06 (date basis: publication). https://ejol.aau.edu.et/index.php/EJOSSAH/article/view/6275 [ETH-SRC-103] Methodology: Mixed qualitative and quantitative study with a 128-household survey, interviews, focus groups and observations in three selected districts. Limitations: Kebeles were selected for drought and conflict severity; findings reflect a small, purposively located study and respondents’ perceptions, not causal estimates.
+- World Food Programme Ethiopia Country Office. Ethiopia, Endline Evaluation of Satellite Index Insurance for Pastoralists (SIIPE). 2024-11-20 (date basis: publication). https://www.wfp.org/publications/ethiopia-endline-evaluation-satellite-index-insurance-pastoralists-siipe [ETH-SRC-104] Methodology: WFP describes a decentralized mixed-method evaluation combining quasi-experimental quantitative analysis with qualitative interviews and data. Limitations: Only WFP’s evaluation landing-page summary was accessible; it gives limited estimation detail and reports missing gender-disaggregated data.
+
+Review status: draft
+Reviewer: None
+Reviewed on: None
+Decision notes: Unapproved depth extension. Prior snapshots and inherited evidence deadlines are preserved. Coordinator decisions are not designated human approval.

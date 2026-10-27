@@ -1,0 +1,137 @@
+{
+  "iso3": "CAF",
+  "coordinator": "Codex source and analytical adjudication; not human approval",
+  "human_approval": false,
+  "extraction_sha256_utf8_lf": "b39e7c27f6b3404e48a7e5528a0eea08834a383ba6a96e59a667e701c8d78857",
+  "country_aliases": [],
+  "claim_decisions": [
+    {
+      "claim_id": "CAF-C-101",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "The2024 CCDR estimates above-national-average drought exposure in Equateur, Yade and Oubangui and flood exposure for about one-third of Bangui residents; these are exposure estimates, not realized losses.",
+      "time_horizons": [
+        "historical"
+      ],
+      "locator": "One-based PDF p.77, Figure4.2d discussion."
+    },
+    {
+      "claim_id": "CAF-C-102",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "The2024 CCDR analyzes flood exposure in Bangui, Bambari, Birao and Berberati across2020/2050/2100scenarios;60%of flood-exposed Bangui buildings are described as informal housing.",
+      "locator": "One-based PDF pp.58-59, urban flood exposure and footnote61.",
+      "uncertainty": "The60%denominator is flood-exposed buildings, not all buildings. Exposure and scenario analysis, not observed future damages."
+    },
+    {
+      "claim_id": "CAF-C-103",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "climate-to-fcv",
+      "confidence": "low",
+      "statement": "The2024 CCDR describes a conditional national chain from climate extremes and lower yields to land/water competition and higher conflict/displacement risk.",
+      "time_horizons": [
+        "historical"
+      ],
+      "locator": "One-based PDF p.46, climate-fragility feedback discussion.",
+      "uncertainty": "Analytical national risk framing, not measured climate-caused violence or local effect size."
+    },
+    {
+      "claim_id": "CAF-C-104",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "Source dated 2024-10-24 reports: CCDR options include climate-resilient pastoral systems, corridor oversight, water points and local committees able to arbitrate farmer-herder disputes.",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "uncertainty": "Recommended pastoral adaptation and dispute-management capacities, not evaluated delivery or reduced violence."
+    },
+    {
+      "claim_id": "CAF-C-105",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "Source dated 2026-03-04 reports: June-November 2025 flooding damaged homes, schools, health facilities and livelihoods and drove displacement in flood-prone areas; the report does not name affected flood locations.",
+      "time_horizons": [
+        "historical"
+      ]
+    },
+    {
+      "claim_id": "CAF-C-106",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "UNICEF's2025report describes attacks in broad south-eastern/north-eastern areas, continued north-western violence and61humanitarian base closures; access was further limited by insecurity.",
+      "time_horizons": [
+        "historical"
+      ],
+      "subnational_specificity": "generic-zone",
+      "uncertainty": "Broad geographic directions are not named administrative hotspots; closures also reflect funding/context and are not all attributed to insecurity or climate-response operations."
+    },
+    {
+      "claim_id": "CAF-C-107",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "UNICEF reports2025water access for23,539people,95water-point committees and So Fini responses to six shocks; these are operational outputs, not measured durable resilience.",
+      "time_horizons": [
+        "historical"
+      ]
+    }
+  ],
+  "pathways": [],
+  "gaps": [
+    "Broad security directions do not count as named subnational findings.",
+    "The urban informal-housing share applies to flood-exposed buildings; current exposure and future scenarios are not realized flood losses.",
+    "Coordinator normalized an invalid intake administrative-level enum ('region') to 'administrative-area'; broad security directions still do not count as named local findings."
+  ],
+  "executive_assessment": [
+    {
+      "text": "Equateur/Yade/Oubangui drought exposure and Bangui informal housing provide differentiated vulnerability, with four-city flood modeling rather than observed future outcomes.",
+      "evidence_ids": [
+        "CAF-E-101",
+        "CAF-E-102"
+      ],
+      "pathway_ids": []
+    },
+    {
+      "text": "National resource-competition risk and proposed pastoral dispute mechanisms remain analytical/design evidence;2025humanitarian constraints and WASH outputs do not quantify adaptation delivery or impact.",
+      "evidence_ids": [
+        "CAF-E-103",
+        "CAF-E-104",
+        "CAF-E-106",
+        "CAF-E-107"
+      ],
+      "pathway_ids": []
+    }
+  ],
+  "coordinator_source_checks": [
+    {
+      "source_id": "CAF-SRC-101",
+      "result": "Primary publisher passage inspected; scope retained in claim decisions.",
+      "url": "https://documents1.worldbank.org/curated/en/099102324105563456/pdf/P500853136f49a0d318a611d76348ad0f20.pdf"
+    },
+    {
+      "source_id": "CAF-SRC-102",
+      "result": "Primary publisher passage inspected; scope retained in claim decisions.",
+      "url": "https://www.unicef.org/media/179156/file/Central-African-Republic-Humanitarian-Situation-Report-No.2-%28End-of-Year%29-31-December-2025.pdf.pdf"
+    }
+  ]
+}

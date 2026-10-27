@@ -1,0 +1,115 @@
+{
+  "iso3": "NER",
+  "coordinator": "Codex source and analytical adjudication; not human approval",
+  "human_approval": false,
+  "extraction_sha256_utf8_lf": "c314a1a5b37a252bd7554a91ae9775f6d2517ded8898c6b8f9ef1a4c11da5857",
+  "country_aliases": [],
+  "claim_decisions": [
+    {
+      "claim_id": "NER-C-101",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "Source dated 2026-02-08 reports: Report links 2025 violence and climate shocks to 459,585 displaced people; 60% were children.",
+      "time_horizons": [
+        "historical"
+      ],
+      "evidence_class": "sensitivity",
+      "uncertainty": "Aggregate internally displaced people reported in the 2025 snapshot; the contributions of violence and weather and stock/flow conventions are not separated."
+    },
+    {
+      "claim_id": "NER-C-102",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "Source dated 2026-02-08 reports: 2025 global acute malnutrition was 17.1% in Diffa; parts of Maradi and Zinder were critical.",
+      "time_horizons": [
+        "historical"
+      ]
+    },
+    {
+      "claim_id": "NER-C-103",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "Source dated 2026-02-08 reports: Floods affected 77,506 households, destroying 60,388 homes; 316 classrooms sheltered families, disrupting 26,235 students.",
+      "time_horizons": [
+        "historical"
+      ]
+    },
+    {
+      "claim_id": "NER-C-104",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "Source dated 2026-02-08 reports: Seven Diffa communes updated contingency plans; 50 monitors trained, two simulations held and seven sites prepared.",
+      "time_horizons": [
+        "historical"
+      ]
+    },
+    {
+      "claim_id": "NER-C-105",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "Source dated 2026-02-08 reports: After the 2022 drought, cash paid 26,977 households in 17 municipalities across five regions four CFAF 45,000 cycles.",
+      "time_horizons": [
+        "historical"
+      ]
+    },
+    {
+      "claim_id": "NER-C-106",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "fcv-to-climate",
+      "confidence": "medium",
+      "statement": "UNICEF's 2025 report records 77,028 of 80,000 planned social-registry registrations across five municipalities, with the shortfall linked to insecurity in northern Bagaroua; registration is not equivalent to cash receipt.",
+      "time_horizons": [
+        "historical"
+      ],
+      "evidence_class": "institutional-capacity",
+      "uncertainty": "This registration activity is described in parallel with drought-response system strengthening, not as proof that the same 26,977 prior drought-transfer households were missed."
+    }
+  ],
+  "pathways": [],
+  "gaps": [
+    "The Bagaroua registration constraint concerns access to the social registry; it must not be merged with the earlier drought cash programme's beneficiary count.",
+    "All new findings describe 2025 conditions and reported outputs; no causal effectiveness evaluation or verified October 2026 caseload is supplied."
+  ],
+  "executive_assessment": [
+    {
+      "text": "Local additions identify nutrition concerns in Diffa/Maradi/Zinder and preparedness outputs in Diffa, rather than a new nationwide local-risk ranking.",
+      "evidence_ids": [
+        "NER-E-102",
+        "NER-E-104"
+      ],
+      "pathway_ids": []
+    },
+    {
+      "text": "Insecurity constrained northern Bagaroua social-registry access, while drought-related transfer outputs are separately documented; registration and actual payments are not interchangeable.",
+      "evidence_ids": [
+        "NER-E-105",
+        "NER-E-106"
+      ],
+      "pathway_ids": []
+    }
+  ],
+  "coordinator_source_checks": [
+    {
+      "source_id": "NER-SRC-101",
+      "result": "Primary publisher passage inspected; scope retained in claim decisions.",
+      "url": "https://www.unicef.org/media/178781/file/Niger-Humanitarian-Situation-Report-No.3%28End-of-Year%29-31%20December-2025.pdf.pdf"
+    }
+  ]
+}

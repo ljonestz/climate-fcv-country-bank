@@ -1,0 +1,148 @@
+{
+  "iso3": "AFG",
+  "coordinator": "Codex source and analytical adjudication; not human approval",
+  "human_approval": false,
+  "extraction_sha256_utf8_lf": "ab8898bc88f16e6c7bdaf4e57f9fa35625e76f2beaced42194122a831f3fbef8",
+  "country_aliases": [],
+  "claim_decisions": [
+    {
+      "claim_id": "AFG-C-101",
+      "decision": "include",
+      "reason": "Bounded source-supported finding; vintage, proposal status and causal limits retained.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "low",
+      "time_horizons": [
+        "historical"
+      ],
+      "statement": "SIPRI/NUPI's April 2026 synthesis describes agricultural drought, low coping capacity and socioeconomic fragility across broad central, northern and northwestern zones; it does not provide provincial estimates."
+    },
+    {
+      "claim_id": "AFG-C-102",
+      "decision": "include",
+      "reason": "Bounded source-supported finding; vintage, proposal status and causal limits retained.",
+      "refresh_tier": "structural",
+      "interaction_direction": "fcv-to-climate",
+      "confidence": "low",
+      "time_horizons": [
+        "historical"
+      ],
+      "statement": "SIPRI/NUPI's April 2026 synthesis links conflict-driven deforestation with greater flash-flood exposure in broad eastern, northern and western zones.",
+      "uncertainty": "Secondary synthesis; the size of the conflict or forest-loss contribution is not quantified."
+    },
+    {
+      "claim_id": "AFG-C-103",
+      "decision": "include",
+      "reason": "Bounded source-supported finding; vintage, proposal status and causal limits retained.",
+      "refresh_tier": "structural",
+      "interaction_direction": "climate-to-fcv",
+      "confidence": "low",
+      "time_horizons": [
+        "historical"
+      ],
+      "statement": "SIPRI/NUPI's April 2026 synthesis describes a conditional mechanism: resource pressure can intensify land and water disputes, with de facto-authority involvement complicating farmer-herder relations.",
+      "uncertainty": "A source-stated mechanism, not an event-level causal estimate; climate is rarely the main conflict driver."
+    },
+    {
+      "claim_id": "AFG-C-104",
+      "decision": "include",
+      "reason": "Bounded source-supported finding; vintage, proposal status and causal limits retained.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "low",
+      "time_horizons": [
+        "historical"
+      ],
+      "statement": "SIPRI/NUPI reports 675,500 climate-related cross-border migrants in April-December 2025, particularly from Faryab, Ghor, Badghis and Balkh.",
+      "uncertainty": "This is the fact sheet's secondary report of a mobility estimate; the underlying IOM estimate was not independently verified. It is not anthropogenic climate attribution or a 2026 count."
+    },
+    {
+      "claim_id": "AFG-C-105",
+      "decision": "include",
+      "reason": "Bounded source-supported finding; vintage, proposal status and causal limits retained.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "low",
+      "time_horizons": [
+        "historical"
+      ],
+      "statement": "The April 2026 SIPRI/NUPI synthesis describes displacement as a last resort where weak physical, financial and social capital and limited public support restrict adaptation."
+    },
+    {
+      "claim_id": "AFG-C-106",
+      "decision": "include",
+      "reason": "Bounded source-supported finding; vintage, proposal status and causal limits retained.",
+      "refresh_tier": "current",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "time_horizons": [
+        "near-term"
+      ]
+    },
+    {
+      "claim_id": "AFG-C-107",
+      "decision": "include",
+      "reason": "Bounded source-supported finding; vintage, proposal status and causal limits retained.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "time_horizons": [
+        "historical"
+      ]
+    },
+    {
+      "claim_id": "AFG-C-108",
+      "decision": "include",
+      "reason": "Bounded source-supported finding; vintage, proposal status and causal limits retained.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "low",
+      "time_horizons": [
+        "historical"
+      ],
+      "uncertainty": "Publisher-summary result for FAO-supported households in 2023-2024 only; sampling, comparison and causal-attribution details were unavailable. Not a national resilience trend."
+    }
+  ],
+  "pathways": [],
+  "gaps": [
+    "The SIPRI fact sheet is a secondary synthesis, including its 2025 migration estimate; no independent verification of the underlying mobility dataset was completed.",
+    "Provincial food-access forecasts and localized July 2026 flood losses are kept separate from causal climate-conflict claims."
+  ],
+  "executive_assessment": [
+    {
+      "text": "Named provincial food-access constraints and July 2026 flood losses add local vulnerability detail, but the seasonal outlook is not a climate-model forecast.",
+      "evidence_ids": [
+        "AFG-E-106",
+        "AFG-E-107"
+      ],
+      "pathway_ids": []
+    },
+    {
+      "text": "Conflict-linked forest loss and weak capital/support are described adaptation constraints. Reported FAO-supported household gains are historical and do not establish national or causal effects.",
+      "evidence_ids": [
+        "AFG-E-102",
+        "AFG-E-105",
+        "AFG-E-108"
+      ],
+      "pathway_ids": []
+    }
+  ],
+  "coordinator_source_checks": [
+    {
+      "source_id": "AFG-SRC-101",
+      "result": "Original source passage checked; restrictions and limitations recorded in intake and decisions.",
+      "url": "https://www.sipri.org/sites/default/files/2026-03/sipri-nupi_fact_sheet_afghanistan.pdf"
+    },
+    {
+      "source_id": "AFG-SRC-102",
+      "result": "Original source passage checked; restrictions and limitations recorded in intake and decisions.",
+      "url": "https://fews.net/asia/afghanistan/key-message-update/july-2026"
+    },
+    {
+      "source_id": "AFG-SRC-103",
+      "result": "Original source passage checked; restrictions and limitations recorded in intake and decisions.",
+      "url": "https://www.fao.org/agrifood-economics/publications/detail/en/c/1743624/"
+    }
+  ],
+  "source_overrides": {}
+}

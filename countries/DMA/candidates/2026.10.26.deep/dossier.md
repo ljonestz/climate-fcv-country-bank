@@ -1,0 +1,137 @@
+# Dominica Climate-FCV Evidence Dossier
+
+## Executive assessment
+
+- Kalinago livelihood dependence and named April 2026 impact sites deepen local vulnerabilities; the 2017 shelter snapshot remains historical. [DMA-E-101, DMA-E-102, DMA-E-108, DMA-E-111, DMA-E-112]
+- Post-Maria unrest is a bounded historical disaster-security mechanism. Water/monitoring outputs and Kalinago inputs add capacity without proving durable protection or cohesion. [DMA-E-103, DMA-E-104, DMA-E-105, DMA-E-106, DMA-E-109, DMA-E-110]
+
+## Evidence coverage and critical gaps
+
+| Dimension | Value | Status | Supporting record IDs | Gap note |
+|---|---|---|---|---|
+| evidence-class | climate-pressure | gap |  | No dedicated record assembled; absence of evidence is not absence of risk. |
+| evidence-class | exposure | partial | DMA-E-001 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | sensitivity | partial | DMA-E-003, DMA-E-101, DMA-E-102, DMA-E-108 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | coping-capacity | gap |  | No dedicated record assembled; absence of evidence is not absence of risk. |
+| evidence-class | adaptive-capacity | partial | DMA-E-002, DMA-E-004, DMA-E-005, DMA-E-107 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | institutional-capacity | partial | DMA-E-006, DMA-E-104, DMA-E-105 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | response-performance | partial | DMA-E-106, DMA-E-110, DMA-E-111, DMA-E-112 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | direct-climate-fcv | partial | DMA-E-103 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | resilience-peace-capacity | partial | DMA-E-109 | Selected source-supported evidence only; not comprehensive. |
+| geography | new named subnational examples | partial | DMA-E-101, DMA-E-107, DMA-E-108, DMA-E-109, DMA-E-110, DMA-E-111, DMA-E-112 | Named places only; generic rural/coastal zones excluded. No complete local risk ranking. |
+| pathway | mediated climate-FCV links | partial | DMA-P-101 | Conditional mechanisms, not national causal estimates. |
+
+Critical remaining gaps:
+- No countrywide causal estimate of climate impacts on conflict or violence is established by these sources. []
+- Full subnational coverage and independently evaluated long-term response effectiveness remain gaps. []
+- Direct climate-to-conflict evidence and independent evaluations of Kalinago resilience programmes were not established. []
+- Draft collection pending human source review and approval. IDA eligibility is not an FCV classification. []
+- National and selected local examples do not establish district-level coverage or causal attribution. []
+- The bank contains no completed mediated climate-FCV pathway; this is an evidence gap, not evidence of absence. []
+- No inspected source attributes armed conflict or sustained political violence in Dominica to climate hazards. The government strategy does report limited post-Maria looting and social unrest, without characterizing it as armed conflict. []
+- The first Biennial Transparency Report PDF was returned as a timeout and the Green Climate Fund adaptation-planning page as access denied; neither was used for claims. The UN human-security country assessment PDF was also inaccessible and not used. []
+- The UNDP project document cites older poverty context and presents social cohesion and resilience gains as prospective; these are not evaluated outcomes. []
+- No source inspected documents actual conflict or insecurity blocking climate-adaptation delivery; political instability appears only as a prospective project risk, while immediate recovery constraints are documented separately. []
+- Main verified the government's IMF-hosted strategy passage. The document is a February 2021 version, not an undated current security assessment. []
+- Collector reports full UNDP project-document inspection; coordinator reopening of its blob endpoint failed. Older poverty context and prospective communal-land/cohesion risks require human source checking. []
+- Draft extension: human source review and approval remain pending. Lending eligibility is not an FCV classification. []
+
+## Climate pressures and exposure
+
+- Hurricane Maria in 2017 severely damaged Dominica's infrastructure and economy, prompting a resilience-oriented reconstruction programme. [DMA-E-001]
+
+## Differentiated vulnerability
+
+- In the Kalinago Territory, climate hazards, forest degradation and livelihood vulnerability motivate integrated agriculture, watershed and Indigenous tourism support. [DMA-E-003]
+- Source dated 2017-11-15 reports: The PDNA reports about 500 artisans in the Kalinago Territory; around 98% had workspaces damaged or destroyed, and some also lost craft stock. Craft sales were a major Indigenous-community income source. [DMA-E-101]
+- Source dated 2017-11-15 reports: As of 8 November 2017, 1,862 people remained in 63 shelters after Maria; 32% were reported among the most vulnerable, including older people, single female-headed households and people with chronic illness. [DMA-E-102]
+- Source dated 2025-07-31 reports: The project document describes eight Kalinago hamlets under communal land governance; it cites a 2015 poverty assessment finding 50% of residents poor and notes reliance on agriculture and forest products vulnerable to ecosystem degradation and climate hazards. [DMA-E-108]
+
+## Coping and adaptive capacity
+
+- UNDP's recovery work includes gender-responsive planning, social protection and livelihood assessment for Kalinago communities. [DMA-E-002]
+- The Kalinago project proposes greenhouse production, community forest management and eco-tourism to diversify local livelihoods. [DMA-E-004]
+- IICA's Kalinago initiative prioritizes climate-resilient farming, soil and water management, and producer business skills. [DMA-E-005]
+- Source dated 2023-09-26 reports: DVRP’s 31-km East Coast Road works include slope/landslide stabilization, flood mitigation and bridge/culvert works; the route carries farm produce and connects the Kalinago community to services and tourist sites. [DMA-E-107]
+
+## Institutions and delivery systems
+
+- The IICA project includes community consultation and participation by women, youth and vulnerable producers in resilience planning. [DMA-E-006]
+- Source dated not stated reports: The strategy says damaged feeder roads isolated some communities and missing population, socioeconomic and location data limited response targeting; needs handled through direct requests to Cabinet and Finance created inefficiencies and possible duplicate benefits. [DMA-E-104]
+- Source dated 2023-09-26 reports: DVRP expanded hydromet monitoring from two airports to 44 stations, gauges and water-level sensors islandwide. In November 2022 the network measured 500 mm of rain in the Southeast over two days. [DMA-E-105]
+- Source dated 2023-09-26 reports: Eight western-coast tanks built in 2020 serve 20 communities and 11,000 people, adding over 1 million litres of storage; water-system sections and access roads were also upgraded after Maria. [DMA-E-106]
+- Source dated 2026-08-15 reports: UNDP reports 36 Kalinago Territory households received seedlings, fruit trees, tools, tarpaulins, water-storage equipment and climate-smart agriculture training through SCR-K; delivery was coordinated with the Kalinago Council and IsraAID Dominica. [DMA-E-110]
+- Source dated 2026-05-01 reports: After a trough caused flooding and landslides, the government reported impacts in Antrizzle, Atkinson, the Kalinago Territory and Castle Bruce, including low-pressure water service, blocked farm access and crop/livestock losses; water and road restoration and farm inputs were under way. [DMA-E-111]
+- Source dated 2026-05-01 reports: Rapid assessments identified 22 affected households comprising 64 people in Atkinson and Antrizzle; food packages were distributed with DEXIA and the Red Cross, and psychosocial support was provided. [DMA-E-112]
+
+## Climate-FCV pathways
+
+- The government reports limited looting/unrest after Maria amid severe disruption, with property-protection gaps complicating recovery. [DMA-P-101; DMA-E-102, DMA-E-103, DMA-E-104]
+  - Documented impact: Severe post-disaster disruption of livelihoods and basic services.
+  - FCV mediator: Extreme social conditions and inadequate protection of property during recovery.
+  - Possible consequence: Government strategy reports episodes of looting/unrest and business recovery delays; not sustained armed conflict.
+  - Link evidence: {'pressure': ['DMA-E-102', 'DMA-E-103'], 'impact': ['DMA-E-102', 'DMA-E-104'], 'mediator': ['DMA-E-103'], 'consequence': ['DMA-E-103']}
+  - Alternative explanations: ['Response logistics, data gaps, institutional capacity and pre-existing vulnerability also affected recovery.']
+  - Uncertainty: Single historical government's account, not measured causal attribution, anthropogenic event attribution or a current FCV classification.
+
+## Resilience and peace-supporting capacities
+
+- Source dated not stated reports: The government strategy says extreme social conditions after Hurricane Maria triggered episodes of looting and social unrest; authorities declared a curfew and deployed security forces, while insufficient property protection slowed recovery businesses. [DMA-E-103]
+- Source dated 2025-07-31 reports: The project identifies communal-land compensation contention and political instability as risks; it plans a Council-controlled greenhouse site and community-led activities, with stronger Kalinago social cohesion an intended long-term outcome. [DMA-E-109]
+
+## Geographic and livelihood-system differentiation
+
+- Source dated 2017-11-15 reports: The PDNA reports about 500 artisans in the Kalinago Territory; around 98% had workspaces damaged or destroyed, and some also lost craft stock. Craft sales were a major Indigenous-community income source. [DMA-E-101]
+- Source dated 2023-09-26 reports: DVRP’s 31-km East Coast Road works include slope/landslide stabilization, flood mitigation and bridge/culvert works; the route carries farm produce and connects the Kalinago community to services and tourist sites. [DMA-E-107]
+- Source dated 2025-07-31 reports: The project document describes eight Kalinago hamlets under communal land governance; it cites a 2015 poverty assessment finding 50% of residents poor and notes reliance on agriculture and forest products vulnerable to ecosystem degradation and climate hazards. [DMA-E-108]
+- Source dated 2025-07-31 reports: The project identifies communal-land compensation contention and political instability as risks; it plans a Council-controlled greenhouse site and community-led activities, with stronger Kalinago social cohesion an intended long-term outcome. [DMA-E-109]
+- Source dated 2026-08-15 reports: UNDP reports 36 Kalinago Territory households received seedlings, fruit trees, tools, tarpaulins, water-storage equipment and climate-smart agriculture training through SCR-K; delivery was coordinated with the Kalinago Council and IsraAID Dominica. [DMA-E-110]
+- Source dated 2026-05-01 reports: After a trough caused flooding and landslides, the government reported impacts in Antrizzle, Atkinson, the Kalinago Territory and Castle Bruce, including low-pressure water service, blocked farm access and crop/livestock losses; water and road restoration and farm inputs were under way. [DMA-E-111]
+- Source dated 2026-05-01 reports: Rapid assessments identified 22 affected households comprising 64 people in Atkinson and Antrizzle; food packages were distributed with DEXIA and the Red Cross, and psychosocial support was provided. [DMA-E-112]
+
+## Implications by project type
+
+- Hazard, infrastructure, and basic-service projects: DMA-E-104, DMA-E-106, DMA-E-107, DMA-E-108, DMA-E-111
+- Livelihood and natural-resource projects: DMA-E-003, DMA-E-005, DMA-E-101, DMA-E-107, DMA-E-108, DMA-E-109, DMA-E-110, DMA-E-111
+- Social-protection, governance, and institution-building projects: no dedicated records
+- Humanitarian, displacement, and peace-supporting projects: no dedicated records
+
+## Technical evidence register
+
+| Evidence ID | Class | Status | Level | Raw statement | Uncertainty | Source and exact locator |
+|---|---|---|---|---|---|---|
+| DMA-E-001 | exposure | observed / draft | national | Hurricane Maria in 2017 severely damaged Dominica's infrastructure and economy, prompting a resilience-oriented reconstruction programme. | Historical programme descriptions; current institutional status and independent outcomes not verified. | DMA-SRC-001 (Overview, Hurricane Maria paragraph) |
+| DMA-E-002 | adaptive-capacity | observed / draft | national | UNDP's recovery work includes gender-responsive planning, social protection and livelihood assessment for Kalinago communities. | Reported programme focus, not measured vulnerability reduction. | DMA-SRC-001 (Main Initiatives, gender and livelihood assessment paragraphs) |
+| DMA-E-003 | sensitivity | observed / draft | administrative-area | In the Kalinago Territory, climate hazards, forest degradation and livelihood vulnerability motivate integrated agriculture, watershed and Indigenous tourism support. | Project intentions and reported updates are not evaluated outcomes. | DMA-SRC-002 (Background paragraphs) |
+| DMA-E-004 | adaptive-capacity | observed / draft | administrative-area | The Kalinago project proposes greenhouse production, community forest management and eco-tourism to diversify local livelihoods. | Expected results only; no impact evaluation inspected. | DMA-SRC-002 (Expected Results1-3) |
+| DMA-E-005 | adaptive-capacity | observed / draft | administrative-area | IICA's Kalinago initiative prioritizes climate-resilient farming, soil and water management, and producer business skills. | Time-bound technical cooperation design, not evidence of completed training. | DMA-SRC-003 (Description and General Objective) |
+| DMA-E-006 | institutional-capacity | observed / draft | administrative-area | The IICA project includes community consultation and participation by women, youth and vulnerable producers in resilience planning. | Participation is intended in project design; achieved inclusion not established. | DMA-SRC-003 (Specific Objectives4 and Expected Results) |
+| DMA-E-101 | sensitivity | observed / draft | administrative-area | Source dated 2017-11-15 reports: The PDNA reports about 500 artisans in the Kalinago Territory; around 98% had workspaces damaged or destroyed, and some also lost craft stock. Craft sales were a major Indigenous-community income source. | PDNA damage estimate from the immediate recovery period; it does not measure longer-term livelihood recovery. | DMA-SRC-101 (PDF pp. 87–88 (printed), Cultural Industries section) |
+| DMA-E-102 | sensitivity | observed / draft | national | Source dated 2017-11-15 reports: As of 8 November 2017, 1,862 people remained in 63 shelters after Maria; 32% were reported among the most vulnerable, including older people, single female-headed households and people with chronic illness. | November 2017 shelter snapshot and differentiated needs, not a current displacement count or proof of conflict. | DMA-SRC-101 (PDF pp. 28–29 (printed), Human and Social Impact and shelter table) |
+| DMA-E-103 | direct-climate-fcv | observed / draft | national | Source dated not stated reports: The government strategy says extreme social conditions after Hurricane Maria triggered episodes of looting and social unrest; authorities declared a curfew and deployed security forces, while insufficient property protection slowed recovery businesses. | Government's historical post-Maria account of limited looting/unrest and recovery disruption; not sustained armed conflict, a national violence trend or anthropogenic attribution. | DMA-SRC-102 (PDF p. 17, paragraph 35, post-disaster social resilience) |
+| DMA-E-104 | institutional-capacity | observed / draft | national | Source dated not stated reports: The strategy says damaged feeder roads isolated some communities and missing population, socioeconomic and location data limited response targeting; needs handled through direct requests to Cabinet and Finance created inefficiencies and possible duplicate benefits. | The strategy describes emergency-response constraints after Maria; it does not attribute them to conflict or insecurity. | DMA-SRC-102 (PDF p. 17, paragraphs 33–34, post-disaster preparedness and recovery) |
+| DMA-E-105 | institutional-capacity | observed / draft | administrative-area | Source dated 2023-09-26 reports: DVRP expanded hydromet monitoring from two airports to 44 stations, gauges and water-level sensors islandwide. In November 2022 the network measured 500 mm of rain in the Southeast over two days. | Project reporting; data-system output, not forecast accuracy or avoided losses. | DMA-SRC-103 (WB feature section on disaster-risk data systems, paragraphs on hydromet monitoring) |
+| DMA-E-106 | response-performance | observed / draft | administrative-area | Source dated 2023-09-26 reports: Eight western-coast tanks built in 2020 serve 20 communities and 11,000 people, adding over 1 million litres of storage; water-system sections and access roads were also upgraded after Maria. | Reported construction and reach; later service continuity was not independently assessed. | DMA-SRC-103 (WB feature paragraphs on western-coast water tanks, printed article section 2) |
+| DMA-E-107 | adaptive-capacity | projected / draft | site | Source dated 2023-09-26 reports: DVRP’s 31-km East Coast Road works include slope/landslide stabilization, flood mitigation and bridge/culvert works; the route carries farm produce and connects the Kalinago community to services and tourist sites. | Planned benefits, not measured outcomes. | DMA-SRC-103 (WB feature paragraphs on East Coast Road and access to Indigenous communities) |
+| DMA-E-108 | sensitivity | observed / draft | administrative-area | Source dated 2025-07-31 reports: The project document describes eight Kalinago hamlets under communal land governance; it cites a 2015 poverty assessment finding 50% of residents poor and notes reliance on agriculture and forest products vulnerable to ecosystem degradation and climate hazards. | The 50% poverty statistic is cited from a 2015 government assessment, not re-estimated in this project document. | DMA-SRC-104 (PDF pp. 3–5, Kalinago Territory context and vulnerability analysis) |
+| DMA-E-109 | resilience-peace-capacity | projected / draft | administrative-area | Source dated 2025-07-31 reports: The project identifies communal-land compensation contention and political instability as risks; it plans a Council-controlled greenhouse site and community-led activities, with stronger Kalinago social cohesion an intended long-term outcome. | Prospective tenure/implementation risks and intended cohesion in a project design, not observed violence or evaluated peace outcomes. | DMA-SRC-104 (PDF pp. 5, 8 and 11, prior project land-tenure issue, community participation and theory of change) |
+| DMA-E-110 | response-performance | observed / draft | site | Source dated 2026-08-15 reports: UNDP reports 36 Kalinago Territory households received seedlings, fruit trees, tools, tarpaulins, water-storage equipment and climate-smart agriculture training through SCR-K; delivery was coordinated with the Kalinago Council and IsraAID Dominica. | Implementer reports early outputs; further supplies were pending and longer-term food-security effects were not assessed. | DMA-SRC-105 (UNDP release paragraphs 2–6, 36 households and backyard-gardening support, August 2026) |
+| DMA-E-111 | response-performance | observed / draft | site | Source dated 2026-05-01 reports: After a trough caused flooding and landslides, the government reported impacts in Antrizzle, Atkinson, the Kalinago Territory and Castle Bruce, including low-pressure water service, blocked farm access and crop/livestock losses; water and road restoration and farm inputs were under way. | Early government operational account of the April 2026 trough; impacts and restoration were not independently evaluated. | DMA-SRC-106 (Government update paragraphs 5–11, 26 April 2026 trough impacts and recovery actions) |
+| DMA-E-112 | response-performance | observed / draft | site | Source dated 2026-05-01 reports: Rapid assessments identified 22 affected households comprising 64 people in Atkinson and Antrizzle; food packages were distributed with DEXIA and the Red Cross, and psychosocial support was provided. | Government rapid-assessment and relief figures are preliminary and cover only the named communities in this update. | DMA-SRC-106 (Government update paragraphs 9–10, rapid household assessment and social relief in Atkinson and Antrizzle) |
+
+## Bibliography and review decision
+
+- UNDP. Dominica. publication date not stated (date basis: not-stated). https://www.undp.org/barbados/dominica [DMA-SRC-001] Methodology: Country programme account. Limitations: Historical programme descriptions; current institutional status and independent outcomes not verified.
+- UNDP. Strengthening community resilience within Kalinago Territory. publication date not stated (date basis: not-stated). https://www.undp.org/barbados/projects/strengthening-community-resilience-within-kalinago-territory [DMA-SRC-002] Methodology: Project rationale and expected results. Limitations: Project intentions and reported updates are not evaluated outcomes.
+- Inter-American Institute for Cooperation on Agriculture. Strengthening community resilience in the Kalinago Territory in Dominica. publication date not stated (date basis: not-stated). https://apps.iica.int/DashboardProyectos/programas/Detalle?CRON=5681&SCRON=00 [DMA-SRC-003] Methodology: Implementer project description and objectives. Limitations: No publication date stated; proposed training and food-security gains are not completed outcomes.
+- Government of the Commonwealth of Dominica, with technical support from GFDRR, UNDP, EU, UN, OECS and World Bank Group. Post-Disaster Needs Assessment: Hurricane Maria, September 18, 2017. 2017-11-15 (date basis: document-version). https://www.gfdrr.org/sites/default/files/publication/dominica-pdna-maria.pdf [DMA-SRC-101] Methodology: Government-led multisector post-disaster assessment of physical, economic, social and sector effects and recovery needs. Limitations: Immediate 2017 recovery estimates; reported damage and projections are not a later recovery evaluation.
+- Government of Dominica; published by the International Monetary Fund. Dominica: Disaster Resilience Strategy. 2021-02 (date basis: document-version). https://www.imf.org/-/media/files/publications/cr/2021/english/1dmaea2021001.pdf [DMA-SRC-102] Methodology: Government strategy prepared with stakeholder and development-partner consultation and hosted by IMF. Limitations: The strategy summarizes reported post-disaster conditions; it is not a causal study of violence or insecurity.
+- World Bank Group. Dominica’s Journey to Become the World’s First Climate Resilient Country. 2023-09-26 (date basis: publication). https://www.worldbank.org/en/news/feature/2023/09/26/dominica-s-journey-to-become-the-world-s-first-climate-resilient-country [DMA-SRC-103] Methodology: World Bank project feature summarizing reported disaster-risk-reduction outputs and infrastructure works. Limitations: The feature reports project outputs and works in progress, not an independent outcome evaluation.
+- United Nations Development Programme and Government of the Commonwealth of Dominica. Strengthening Community Resilience within Kalinago Territory, Project Document. 2025-07-31 (date basis: document-version). https://undpngddlsprod01.blob.core.windows.net/pdc/01004631-PPMSCR-K%20Signed%20Prodoc%201.pdf [DMA-SRC-104] Methodology: UNDP project document sets out a local situation analysis, implementation risks, theory of change and planned activities. Limitations: Some poverty and livelihood context cites older sources; intended outputs and social-cohesion outcomes are not measured results.
+- United Nations Development Programme. Kalinago Families Receive Tools and Training to Strengthen Food Security and Resilience. 2026-08-15 (date basis: publication). https://www.undp.org/barbados/press-releases/kalinago-families-receive-tools-and-training-strengthen-food-security-and-resilience [DMA-SRC-105] Methodology: UNDP press release describes project activities, delivered inputs and participating households. Limitations: Implementer reporting of early project outputs; no independent assessment of sustained food-security or resilience outcomes.
+- Government of the Commonwealth of Dominica, Office of the Prime Minister. Update: Government of Dominica Response to Trough System – April 30. 2026-05-01 (date basis: publication). https://pressroomopm.gov.dm/update-government-of-dominica-response-to-trough-system/ [DMA-SRC-106] Methodology: Government response update based on field visits, rapid household assessments and reports from responsible agencies. Limitations: An early operational update; damage, assistance and restoration figures were provisional and evolving.
+
+Review status: draft
+Reviewer: None
+Reviewed on: None
+Decision notes: Unapproved depth extension. Prior snapshots and inherited evidence deadlines are preserved. Coordinator decisions are not designated human approval.

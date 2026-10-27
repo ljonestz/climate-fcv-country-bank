@@ -1,0 +1,48 @@
+{
+  "iso3": "LSO",
+  "base_dir": "countries/LSO/candidates/2026.10.26",
+  "claim_evidence_mapping": {
+    "LSO-C-104": "LSO-E-104",
+    "LSO-C-105": "LSO-E-105",
+    "LSO-C-106": "LSO-E-106",
+    "LSO-C-107": "LSO-E-107",
+    "LSO-C-108": "LSO-E-108",
+    "LSO-C-109": "LSO-E-109"
+  },
+  "source_id_mapping": {
+    "LSO-SRC-101": "LSO-SRC-101",
+    "LSO-SRC-102": "LSO-SRC-102",
+    "LSO-SRC-103": "LSO-SRC-103",
+    "LSO-SRC-104": "LSO-SRC-104"
+  },
+  "new_evidence_ids": [
+    "LSO-E-104",
+    "LSO-E-105",
+    "LSO-E-106",
+    "LSO-E-107",
+    "LSO-E-108",
+    "LSO-E-109"
+  ],
+  "new_named_local_evidence_ids": [
+    "LSO-E-106",
+    "LSO-E-107",
+    "LSO-E-109"
+  ],
+  "excluded_claims": [
+    {
+      "claim_id": "LSO-C-101",
+      "decision": "exclude",
+      "reason": "Original IPC PDF did not open; search-indexed passages alone are not eligible evidence."
+    },
+    {
+      "claim_id": "LSO-C-102",
+      "decision": "exclude",
+      "reason": "Indexed-only and expired projection; no verified realization."
+    },
+    {
+      "claim_id": "LSO-C-103",
+      "decision": "exclude",
+      "reason": "Indexed-only source; do not reproduce unverified drivers."
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "iso3": "LBN",
+  "coordinator": "Codex source and analytical adjudication; not human approval",
+  "human_approval": false,
+  "extraction_sha256_utf8_lf": "8d17819abf139a47dda80bf6be73efbcd86ee592e065499b96294c5dcfdd9190",
+  "country_aliases": [],
+  "claim_decisions": [
+    {
+      "claim_id": "LBN-C-101",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "time_horizons": [
+        "historical"
+      ],
+      "locator": "One-based PDF p.3, situation overview."
+    },
+    {
+      "claim_id": "LBN-C-102",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "time_horizons": [
+        "historical"
+      ],
+      "statement": "In the December 2024 municipal survey, 14,762 agricultural assets were reported damaged, with large counts in Baalbek/Bint Jbeil and high complete-damage shares in Nabatieh/Sour; environmental concerns were not each allocated geographically.",
+      "locator": "One-based PDF pp.7-8, agriculture and environmental recovery findings."
+    },
+    {
+      "claim_id": "LBN-C-103",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "low",
+      "time_horizons": [
+        "long-term"
+      ],
+      "uncertainty": "Regional end-century projection; emissions scenario and baseline were not specified in the inspected passage. Not a district prediction or 2026 condition."
+    },
+    {
+      "claim_id": "LBN-C-104",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "fcv-to-climate",
+      "confidence": "medium",
+      "time_horizons": [
+        "historical"
+      ],
+      "geographies": [
+        "Rmeich",
+        "southern Lebanon",
+        "Tyre District",
+        "Bint Jbeil District",
+        "Marjaayoun District"
+      ],
+      "statement": "The 2025 UN report describes attacks damaging at least 34 water facilities and affecting over 400,000 people amid pre-existing climate-related supply pressure; Rmeich disruption affected about 1,325 households, including 175 displaced families.",
+      "locator": "One-based PDF pp.50-51, water infrastructure and Rmeich.",
+      "uncertainty": "Damage inspection was incomplete. Climate-driven losses are not disaggregated by locality; the source's Rmeich district label is not adopted as verified geography."
+    },
+    {
+      "claim_id": "LBN-C-105",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "fcv-to-climate",
+      "confidence": "medium",
+      "time_horizons": [
+        "historical"
+      ]
+    },
+    {
+      "claim_id": "LBN-C-106",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "low",
+      "time_horizons": [
+        "historical"
+      ]
+    },
+    {
+      "claim_id": "LBN-C-107",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "low",
+      "time_horizons": [
+        "historical",
+        "near-term"
+      ],
+      "statement": "FAO's April 2025 launch summary estimates US$263 million in agricultural recovery needs, including US$95 million prioritized for 2025/26; proposed farm, irrigation and natural-resource restoration is not proven delivery."
+    }
+  ],
+  "pathways": [
+    {
+      "pathway_id": "LBN-P-101",
+      "iso3": "LBN",
+      "climate_pressure": "Pre-existing climate-related water-supply pressure described by the 2025 UN assessment.",
+      "documented_impact": "Attacks damaged water facilities and disrupted household supply, including a named Rmeich case.",
+      "fcv_mediator": "War-related infrastructure destruction and restricted inspection compound already strained water provision.",
+      "possible_consequence": "Reduced household and service capacity to manage water stress, without attributing the conflict or site-specific water losses to climate.",
+      "geographies": [
+        "Rmeich",
+        "southern Lebanon"
+      ],
+      "affected_groups": [
+        "resident households",
+        "displaced families",
+        "water-service users"
+      ],
+      "sectors": [
+        "water",
+        "basic services"
+      ],
+      "systems_assets_resources": [
+        "pumping stations",
+        "water transmission",
+        "household water supply"
+      ],
+      "institutions": [
+        "water-service providers"
+      ],
+      "supporting_evidence_ids": [
+        "LBN-E-104"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "LBN-E-104"
+        ],
+        "impact": [
+          "LBN-E-104"
+        ],
+        "mediator": [
+          "LBN-E-104"
+        ],
+        "consequence": [
+          "LBN-E-104"
+        ]
+      },
+      "evidence_strength": "direct",
+      "alternative_explanations": [
+        "Economic crisis, infrastructure maintenance and service governance also shape water access independently of climate or the assessed hostilities."
+      ],
+      "uncertainty": "Historical 2024-war assessment; source-stated compounding mechanism, not a measured climate-conflict interaction or current 2026 service audit.",
+      "resilience_factors": [
+        "Proposed irrigation and farm recovery are needs and priorities, not evidence of restored capacity."
+      ],
+      "compact_statement": "War-damaged water facilities in southern Lebanon compound pre-existing climate-related supply pressure and restrict households' coping capacity.",
+      "interaction_direction": "fcv-to-climate",
+      "review_status": "draft",
+      "review_date": null
+    }
+  ],
+  "gaps": [
+    "The new reports assess 2023-2024 hostilities and 2024-2025 recovery, not current October 2026 damage or service conditions.",
+    "The UN water passage places Rmeich in Tyre; this potentially inconsistent district label was not accepted as a verified site-to-district mapping."
+  ],
+  "executive_assessment": [
+    {
+      "text": "Named agricultural damage and Rmeich water disruption show historical conflict-related losses that intersect with existing climate stress; municipal sampling and inspection gaps limit coverage.",
+      "evidence_ids": [
+        "LBN-E-102",
+        "LBN-E-104",
+        "LBN-E-106"
+      ],
+      "pathway_ids": [
+        "LBN-P-101"
+      ]
+    },
+    {
+      "text": "War-related ecosystem damage and institutional weakness constrain resilience; heat projections and recovery needs remain scenario-limited or unevaluated.",
+      "evidence_ids": [
+        "LBN-E-101",
+        "LBN-E-103",
+        "LBN-E-105",
+        "LBN-E-107"
+      ],
+      "pathway_ids": []
+    }
+  ],
+  "coordinator_source_checks": [
+    {
+      "source_id": "LBN-SRC-101",
+      "result": "Primary publisher passage inspected; scope retained in claim decisions.",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2025-01/rapid_impact_assessment_report_of_union_of_mun_jan21.pdf"
+    },
+    {
+      "source_id": "LBN-SRC-102",
+      "result": "Primary publisher passage inspected; scope retained in claim decisions.",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2025-08/2500251e-socioeconomic-impacts-lebanon-2024-war-web-report-jul30.pdf"
+    },
+    {
+      "source_id": "LBN-SRC-103",
+      "result": "Primary publisher passage inspected; scope retained in claim decisions.",
+      "url": "https://www.fao.org/neareast/news/details/fao-and-ministry-of-agriculture-launch-the-lebanon-agricultural-damage-and-loss-assessment-report"
+    }
+  ],
+  "source_overrides": {
+    "LBN-SRC-101": {
+      "publication_date": "2025-01",
+      "publication_date_basis": "document-version"
+    }
+  }
+}

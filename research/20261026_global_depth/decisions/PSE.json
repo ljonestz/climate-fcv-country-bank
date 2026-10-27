@@ -1,0 +1,150 @@
+{
+  "iso3": "PSE",
+  "coordinator": "Codex source and analytical adjudication; not human approval",
+  "human_approval": false,
+  "extraction_sha256_utf8_lf": "fd71b08a1a1f584d114a100eba50c40c4d9fa0f6861a84ff59818fd8bc322325",
+  "country_aliases": [
+    "West Bank and Gaza",
+    "Palestine",
+    "Palestinian Territories"
+  ],
+  "claim_decisions": [
+    {
+      "claim_id": "PSE-C-101",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "FAO's Jericho crop-mapping page describes warmer and more evaporative conditions affecting crop calendars and water management; internally inconsistent temperature ranges and survey years prevent retaining precise anomaly figures.",
+      "time_horizons": [
+        "historical"
+      ],
+      "uncertainty": "Rolling page with inconsistent 2023/24 and 2025 survey references and temperature ranges; quantitative anomalies are not reconciled or treated as verified."
+    },
+    {
+      "claim_id": "PSE-C-102",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "Source dated not stated reports: The Jericho mapping says Palestinian farmers had limited water access constraining crop choices, while Israeli settlers had greater water and technology access.",
+      "time_horizons": [
+        "historical"
+      ]
+    },
+    {
+      "claim_id": "PSE-C-103",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "fcv-to-climate",
+      "confidence": "medium",
+      "statement": "Source dated not stated reports: Movement and transport restrictions linked to the security situation constrained field access and sampling; ARIJ adapted sampling and used satellite analysis to validate and extend observations.",
+      "time_horizons": [
+        "historical"
+      ],
+      "evidence_class": "institutional-capacity",
+      "uncertainty": "Restrictions affected this adaptation-relevant information exercise; the team reports completing surveys without delay after methodological adjustments, so failed implementation is not inferred."
+    },
+    {
+      "claim_id": "PSE-C-104",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "fcv-to-climate",
+      "confidence": "medium",
+      "statement": "Source dated 2025-08-14 reports: OCHA reports heatwaves and low rainfall alongside pipeline reductions, permit limits, infrastructure demolitions and settler violence in West Bank water shortages; 52 communities faced access obstacles and 73 relied on trucking without official networks.",
+      "time_horizons": [
+        "historical"
+      ]
+    },
+    {
+      "claim_id": "PSE-C-105",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "fcv-to-climate",
+      "confidence": "medium",
+      "statement": "Source dated 2025-08-14 reports: After settlers repeatedly disconnected Umm al Kheir's main water line, 200 residents, including 108 children, lacked running water and relied on water trucking.",
+      "time_horizons": [
+        "historical"
+      ],
+      "evidence_class": "coping-capacity",
+      "uncertainty": "A dated August 2025 water-infrastructure attack and reported household reliance on trucking; no later restoration status or climate cause of the attack is established."
+    },
+    {
+      "claim_id": "PSE-C-106",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "Source dated 2025-08-14 reports: The WASH Cluster and Palestinian Water Authority used water trucking, mobile tanks and maintenance kits, which partly alleviated shortages, while communities continued requesting water.",
+      "time_horizons": [
+        "historical"
+      ]
+    },
+    {
+      "claim_id": "PSE-C-107",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "low",
+      "statement": "Source dated not stated reports: FAO's 2020–2025 project proposed stronger climate-resilient agriculture coordination, real-time agro-weather information for smallholders and two test plots with farmer associations.",
+      "time_horizons": [
+        "historical"
+      ]
+    }
+  ],
+  "pathways": [],
+  "gaps": [
+    "FAO’s internal date/temperature inconsistencies are retained as a quality warning, with disputed numeric anomalies omitted. The mapping access constraint must not be overstated as project failure."
+  ],
+  "executive_assessment": [
+    {
+      "text": "Jericho adds crop/water-access and restricted fieldwork detail, with explicit data-quality caveats; the numerical temperature anomalies are not accepted.",
+      "evidence_ids": [
+        "PSE-E-101",
+        "PSE-E-102",
+        "PSE-E-103"
+      ],
+      "pathway_ids": []
+    },
+    {
+      "text": "OCHA's August 2025 water-stress account explicitly combines heat/low rainfall with infrastructure, permit and violence constraints, including Umm al Kheir.",
+      "evidence_ids": [
+        "PSE-E-104",
+        "PSE-E-105",
+        "PSE-E-106"
+      ],
+      "pathway_ids": []
+    },
+    {
+      "text": "The FAO adaptation page describes objectives for a period ending in 2025, not proof of delivered outcomes.",
+      "evidence_ids": [
+        "PSE-E-107"
+      ],
+      "pathway_ids": []
+    }
+  ],
+  "coordinator_source_checks": [
+    {
+      "source_id": "PSE-SRC-101",
+      "result": "Collector reports original passage inspected; coordinator reviewed extraction scope and claim limits. Human source approval remains pending.",
+      "url": "https://www.fao.org/in-action/remote-sensing-for-water-productivity/country-activities/palestine/crop-mapping-2023-24/"
+    },
+    {
+      "source_id": "PSE-SRC-102",
+      "result": "Collector reports original passage inspected; coordinator reviewed extraction scope and claim limits. Human source approval remains pending.",
+      "url": "https://www.ochaopt.org/content/humanitarian-situation-update-314-west-bank"
+    },
+    {
+      "source_id": "PSE-SRC-103",
+      "result": "Collector reports original passage inspected; coordinator reviewed extraction scope and claim limits. Human source approval remains pending.",
+      "url": "https://www.fao.org/gcf/projects-map/project-detail/enhancing-adaptation-planning-and-adoption-of-climate-resilient-agriculture-in-palestine/en"
+    }
+  ]
+}

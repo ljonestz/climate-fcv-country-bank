@@ -1,0 +1,131 @@
+# Sierra Leone Climate-FCV Evidence Dossier
+
+## Executive assessment
+
+- Freetown wards and Western Area sites add local flood/landslide exposure, while district health-system and drought findings rely on dated inputs and projections. [SLE-E-101, SLE-E-102, SLE-E-103, SLE-E-104]
+- Conflict-era migration adds historical Freetown water pressure. Border peacebuilding and WFP summaries identify capacity and sustainability issues without establishing climate-caused violence or independent causal resilience gains. [SLE-E-108, SLE-E-109, SLE-E-110, SLE-E-111]
+
+## Evidence coverage and critical gaps
+
+| Dimension | Value | Status | Supporting record IDs | Gap note |
+|---|---|---|---|---|
+| evidence-class | climate-pressure | partial | SLE-E-001 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | exposure | partial | SLE-E-004, SLE-E-101, SLE-E-104, SLE-E-105 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | sensitivity | partial | SLE-E-002, SLE-E-003, SLE-E-102, SLE-E-107 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | coping-capacity | partial | SLE-E-108 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | adaptive-capacity | partial | SLE-E-103 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | institutional-capacity | partial | SLE-E-106, SLE-E-111 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | response-performance | partial | SLE-E-110 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | direct-climate-fcv | partial | SLE-E-005, SLE-E-006 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | resilience-peace-capacity | partial | SLE-E-109 | Selected source-supported evidence only; not comprehensive. |
+| geography | new named subnational examples | partial | SLE-E-101, SLE-E-102, SLE-E-103, SLE-E-104, SLE-E-105, SLE-E-108 | Named places only; generic rural/coastal zones excluded. No complete local risk ranking. |
+| pathway | mediated climate-FCV links | partial | SLE-P-001 | Conditional mechanisms, not national causal estimates. |
+
+Critical remaining gaps:
+- Sierra Leone's direct-climate-FCV material is qualitative NDC risk framing; no measured causal effect or localized conflict-climate dataset was inspected. []
+- The CCDR notes substantial rainfall projection uncertainty; its poverty results are scenario-dependent rather than forecasts of observed outcomes. []
+- Draft collection pending human source review and approval. IDA eligibility is not an FCV classification. []
+- National and selected local examples do not establish district-level coverage or causal attribution. []
+- The subnational climate-health and facility evidence uses dated inputs, including 2017 facility exposure and 2016 workforce tables; current district-level monitoring was not located. []
+- No accessible source found in the targeted searches documenting organized violence or insecurity halting a named climate-adaptation operation. Absence of such evidence in these searches is not evidence that disruption never occurs. []
+- The UN CCA describes conflict-era rural migration and climate-related water stress in Freetown but does not estimate a causal relationship between climate change and conflict. []
+- The 2026 farmer-herder study's full journal paper and the detailed WFP evaluation PDF were inaccessible; claims are limited to fully read publisher/institution summaries. []
+- The WFP evaluation webpage date conflicts with its stated fieldwork period; the underlying report date and detailed evaluation evidence could not be independently reconciled. []
+- The climate-health PDF has2023copyright while its filename labels2024; an exact publication year is left unnormalized. []
+- WFP's displayed2023page date predates its stated2023-2024fieldwork; its findings remain summary-only with unresolved report dating. []
+- Draft extension: human source review and approval remain pending. Lending eligibility is not an FCV classification. []
+
+## Climate pressures and exposure
+
+- Prolonged dry spells and intense heavy rainfall are projected, but rainfall direction and magnitude remain uncertain; mean precipitation was 2,653.4 mm in 1991-2020. [SLE-E-001]
+- 372,000 children (11% of students) faced school-flood exposure; 10% of schools flooded repeatedly, and Bonthe had the highest district exposure and vulnerability. [SLE-E-004]
+- The climate-health assessment maps Freetown flood-risk channels and identifies Lumley, Juba, Susan's Bay and Regent as highest flood-fatality-risk wards; estimates use older modeling inputs, not current annual casualties. [SLE-E-101]
+- Source dated 2024 reports: The government risk profile identifies Leicester, Regent, Granville Brook, Cline Town, Moa Wharf, Hill Court Road, Kissy Brook, Dwarzark and Charlotte in Western Area as landslide-prone under steep slopes and wet-season heavy rain. [SLE-E-104]
+- Source dated 2024 reports: The strategy reports that 2015 and 2017 floods and landslides affected nearly 20,000 people and killed 1,141; 2017 Freetown events caused estimated damages of US$16.8 million and losses of US$14.9 million. [SLE-E-105]
+
+## Differentiated vulnerability
+
+- Without adaptation, rural poverty is projected to rise 6.5-6.9 percentage points by 2050 under hot/dry or wet/warm scenarios, versus about 1.5 points in urban areas. [SLE-E-002]
+- Climate change could erase Port Loko's poverty gains by about 12 points by 2050 under either case; Kambia and Bonthe also face wet/warm impacts. [SLE-E-003]
+- Source dated 2024 reports: For the 2050s, Koinadugu, Kono and Kailahun are projected to be the districts most vulnerable to drought, although the assessment estimates low countrywide likelihood of severe drought. [SLE-E-102]
+- Source dated 2023 reports: The CCA describes recurrent seasonal and coastal floods inundating fields, roads and homes and contaminating water; severe drought dries streams and swamps relied on by rural poor households. [SLE-E-107]
+
+## Coping and adaptive capacity
+
+- Source dated 2024 reports: A 2017 hazard system identified 81 of 1,317 health facilities at flood-inundation risk; Kailahun and Bombali had none, while Koinadugu had low reported health-worker density. [SLE-E-103]
+- The2023 CCA describes conflict-era and subsequent migration adding pressure to Freetown water resources, alongside separate rainfall-related flow reductions. [SLE-E-108]
+
+## Institutions and delivery systems
+
+- Source dated 2024 reports: The strategy assigns disaster management from district and chiefdom committees through NDMA, gives local councils Level One response roles, and sets priorities for shock-responsive social protection and disaster financing. [SLE-E-106]
+- Source dated 2023-08-02 reports: WFP's public summary reports that Food for Assets and Integrated Village Solutions improved participation, financial inclusion and agricultural practices; it also reports improved food security and income generation among programme communities. [SLE-E-110]
+- Source dated 2023-08-02 reports: WFP's summary identifies irrigation maintenance, delayed inputs, land tenure and limited savings-group coverage as sustainability constraints and recommends stronger inclusion, local capacity, environmental management and resilience monitoring. [SLE-E-111]
+
+## Climate-FCV pathways
+
+- Changed pastoral movement may increase farm-resource disputes. [SLE-P-001; SLE-E-006]
+  - Documented impact: Changed grazing movements.
+  - FCV mediator: Farm encroachment and resource competition.
+  - Possible consequence: Potential violent disputes.
+  - Link evidence: {'pressure': ['SLE-E-006'], 'impact': ['SLE-E-006'], 'mediator': ['SLE-E-006'], 'consequence': ['SLE-E-006']}
+  - Alternative explanations: ['Tenure arrangements and pre-existing disputes also shape risk.']
+  - Uncertainty: NDC prospective risk framing, not observed countrywide attribution.
+
+## Resilience and peace-supporting capacities
+
+- Sierra Leone’s NDC states that, in its post-conflict context, climate-related livelihood insecurity, resource competition, and migration can act as threat multipliers that heighten social-unrest or renewed-conflict risks, especially for youth and marginalized groups. [SLE-E-005]
+- The NDC describes a risk in which drought and erratic rainfall may push herders beyond traditional grazing areas onto farmland, potentially triggering violent disputes over shrinking resources; its stated priorities include integrated land-use planning, formal land rights, migration corridors, and local mediation involving traditional leaders, youth, and women. [SLE-E-006]
+- The2026 research-institute summary reports agricultural benefits, perceived conflict reduction and only suggestive subgroup conflict evidence for a Sierra Leone-Guinea border peacebuilding project that included climate-adapted livelihoods. [SLE-E-109]
+
+## Geographic and livelihood-system differentiation
+
+- The climate-health assessment maps Freetown flood-risk channels and identifies Lumley, Juba, Susan's Bay and Regent as highest flood-fatality-risk wards; estimates use older modeling inputs, not current annual casualties. [SLE-E-101]
+- Source dated 2024 reports: For the 2050s, Koinadugu, Kono and Kailahun are projected to be the districts most vulnerable to drought, although the assessment estimates low countrywide likelihood of severe drought. [SLE-E-102]
+- Source dated 2024 reports: A 2017 hazard system identified 81 of 1,317 health facilities at flood-inundation risk; Kailahun and Bombali had none, while Koinadugu had low reported health-worker density. [SLE-E-103]
+- Source dated 2024 reports: The government risk profile identifies Leicester, Regent, Granville Brook, Cline Town, Moa Wharf, Hill Court Road, Kissy Brook, Dwarzark and Charlotte in Western Area as landslide-prone under steep slopes and wet-season heavy rain. [SLE-E-104]
+- Source dated 2024 reports: The strategy reports that 2015 and 2017 floods and landslides affected nearly 20,000 people and killed 1,141; 2017 Freetown events caused estimated damages of US$16.8 million and losses of US$14.9 million. [SLE-E-105]
+- The2023 CCA describes conflict-era and subsequent migration adding pressure to Freetown water resources, alongside separate rainfall-related flow reductions. [SLE-E-108]
+
+## Implications by project type
+
+- Hazard, infrastructure, and basic-service projects: SLE-E-004, SLE-E-102, SLE-E-103, SLE-E-104
+- Livelihood and natural-resource projects: SLE-E-005, SLE-E-006, SLE-E-102, SLE-E-105, SLE-E-107, SLE-E-109, SLE-E-110, SLE-E-111
+- Social-protection, governance, and institution-building projects: no dedicated records
+- Humanitarian, displacement, and peace-supporting projects: SLE-E-109
+
+## Technical evidence register
+
+| Evidence ID | Class | Status | Level | Raw statement | Uncertainty | Source and exact locator |
+|---|---|---|---|---|---|---|
+| SLE-E-001 | climate-pressure | projected / draft | national | Prolonged dry spells and intense heavy rainfall are projected, but rainfall direction and magnitude remain uncertain; mean precipitation was 2,653.4 mm in 1991-2020. | Projections vary across models, seasons, and regions. | SLE-SRC-001 (Executive Summary, printed p. xii (PDF p. 14), climate-risk projections; chapter 1, printed p. 18 (PDF p. 22), rainfall baseline and uncertainty.) |
+| SLE-E-002 | sensitivity | projected / draft | national | Without adaptation, rural poverty is projected to rise 6.5-6.9 percentage points by 2050 under hot/dry or wet/warm scenarios, versus about 1.5 points in urban areas. | Changes are relative to baseline, not absolute poverty rates. | SLE-SRC-001 (Section 3.3, printed p. 30 (PDF p. 46), poverty impacts by climate scenario.) |
+| SLE-E-003 | sensitivity | projected / draft | administrative-area | Climate change could erase Port Loko's poverty gains by about 12 points by 2050 under either case; Kambia and Bonthe also face wet/warm impacts. | Port Loko change is relative to poverty-reduction baseline. | SLE-SRC-001 (Section 3.3, printed p. 31 (PDF p. 47), district poverty results.) |
+| SLE-E-004 | exposure | observed / draft | administrative-area | 372,000 children (11% of students) faced school-flood exposure; 10% of schools flooded repeatedly, and Bonthe had the highest district exposure and vulnerability. | Observed school floods are not attributed to climate change. | SLE-SRC-001 (Section 4.2, printed p. 79 (PDF p. 80), flood exposure of schools.) |
+| SLE-E-005 | direct-climate-fcv | projected / draft | national | Sierra Leone’s NDC states that, in its post-conflict context, climate-related livelihood insecurity, resource competition, and migration can act as threat multipliers that heighten social-unrest or renewed-conflict risks, especially for youth and marginalized groups. | This is an NDC risk statement, not quantified causal evidence or a local conflict-event assessment. | SLE-SRC-002 (Section 3.2.2, printed p. 28 (PDF p. 136), conflict-sensitive climate risks.) |
+| SLE-E-006 | direct-climate-fcv | projected / draft | national | The NDC describes a risk in which drought and erratic rainfall may push herders beyond traditional grazing areas onto farmland, potentially triggering violent disputes over shrinking resources; its stated priorities include integrated land-use planning, formal land rights, migration corridors, and local mediation involving traditional leaders, youth, and women. | The NDC frames a potential mechanism and proposed measures; it does not establish this as an observed countrywide pathway. | SLE-SRC-002 (Section 3.2.2 and Table 50, printed p. 28 (PDF pp. 136-137), pastoralist-farmer risk pathway and response priorities.) |
+| SLE-E-101 | exposure | observed / draft | administrative-area | The climate-health assessment maps Freetown flood-risk channels and identifies Lumley, Juba, Susan's Bay and Regent as highest flood-fatality-risk wards; estimates use older modeling inputs, not current annual casualties. | These are modeled risk estimates, not observed annual casualties or ward-level climate attribution. | SLE-SRC-101 (Printed p.12 (one-based PDF p.24), paragraph23 and Figure6 discussion.) |
+| SLE-E-102 | sensitivity | projected / draft | administrative-area | Source dated 2024 reports: For the 2050s, Koinadugu, Kono and Kailahun are projected to be the districts most vulnerable to drought, although the assessment estimates low countrywide likelihood of severe drought. | 2050s model ranking with sparse surveillance; not observed outcomes or a current district ranking. | SLE-SRC-101 (Printed p. 15, para. 27 and Figure 8 discussion.) |
+| SLE-E-103 | adaptive-capacity | observed / draft | administrative-area | Source dated 2024 reports: A 2017 hazard system identified 81 of 1,317 health facilities at flood-inundation risk; Kailahun and Bombali had none, while Koinadugu had low reported health-worker density. | Facility exposure is based on 2017 mapping and workforce inputs are older; neither is a current district census. | SLE-SRC-101 (Printed p. 59, para. 90; printed p. 41, Table 6.) |
+| SLE-E-104 | exposure | observed / draft | administrative-area | Source dated 2024 reports: The government risk profile identifies Leicester, Regent, Granville Brook, Cline Town, Moa Wharf, Hill Court Road, Kissy Brook, Dwarzark and Charlotte in Western Area as landslide-prone under steep slopes and wet-season heavy rain. | The cited profile reports susceptibility and hazard locations, not a current site-by-site exposure count or climate attribution. | SLE-SRC-102 (PDF pp. 10-11 (one-based), Table 1 and following risk-assessment discussion.) |
+| SLE-E-105 | exposure | observed / draft | administrative-area | Source dated 2024 reports: The strategy reports that 2015 and 2017 floods and landslides affected nearly 20,000 people and killed 1,141; 2017 Freetown events caused estimated damages of US$16.8 million and losses of US$14.9 million. | The strategy aggregates disaster records and does not attribute these events to anthropogenic climate change. | SLE-SRC-102 (Printed p. 13, Section 2.1 and Figure 3 discussion.) |
+| SLE-E-106 | institutional-capacity | observed / draft | national | Source dated 2024 reports: The strategy assigns disaster management from district and chiefdom committees through NDMA, gives local councils Level One response roles, and sets priorities for shock-responsive social protection and disaster financing. | The strategy documents planned mandates and priorities; it does not establish operational readiness or completed results. | SLE-SRC-102 (Printed p. 19, Operational Framework; printed p. 25, Strategic Priorities.) |
+| SLE-E-107 | sensitivity | observed / draft | national | Source dated 2023 reports: The CCA describes recurrent seasonal and coastal floods inundating fields, roads and homes and contaminating water; severe drought dries streams and swamps relied on by rural poor households. | This is a national synthesis; it does not quantify affected households or identify local hotspots in these passages. | SLE-SRC-103 (Printed pp. 117-119, Annex 2, sections 'Disaster Preparedness and Management' and 'Water Resources'.) |
+| SLE-E-108 | coping-capacity | observed / draft | administrative-area | The2023 CCA describes conflict-era and subsequent migration adding pressure to Freetown water resources, alongside separate rainfall-related flow reductions. | No claim that climate caused the migration or conflict; no isolated interaction effect is estimated. | SLE-SRC-103 (Printed pp. 118-119, Annex 2, 'Water Resources'.) |
+| SLE-E-109 | resilience-peace-capacity | observed / draft | cross-border | The2026 research-institute summary reports agricultural benefits, perceived conflict reduction and only suggestive subgroup conflict evidence for a Sierra Leone-Guinea border peacebuilding project that included climate-adapted livelihoods. | Full article unavailable; no effect sizes or robust subgroup assessment inspected, and no claim that climate caused the original disputes. | SLE-SRC-104 (Accessible ISDC article summary and publication details.) |
+| SLE-E-110 | response-performance | observed / draft | national | Source dated 2023-08-02 reports: WFP's public summary reports that Food for Assets and Integrated Village Solutions improved participation, financial inclusion and agricultural practices; it also reports improved food security and income generation among programme communities. | The online summary provides no district-level results or sample detail; underlying evaluation PDF could not be opened. | SLE-SRC-105 (Evaluation page, 'Key evaluation findings'.) |
+| SLE-E-111 | institutional-capacity | observed / draft | national | Source dated 2023-08-02 reports: WFP's summary identifies irrigation maintenance, delayed inputs, land tenure and limited savings-group coverage as sustainability constraints and recommends stronger inclusion, local capacity, environmental management and resilience monitoring. | These are summarized evaluation findings and recommendations, not district-specific performance estimates. | SLE-SRC-105 (Evaluation page, 'Key evaluation findings' and 'Key recommendations'.) |
+
+## Bibliography and review decision
+
+- World Bank Group. Sierra Leone Country Climate and Development Report. 2025-06 (date basis: publication). https://documents1.worldbank.org/curated/en/099061025134515861/pdf/P180420-3b8a8f03-2cbc-4a24-a58e-700ecde830be.pdf [SLE-SRC-001] Methodology: CCDR combines climate scenarios and household-linked poverty modeling. Limitations: Rainfall projections are uncertain; poverty results depend on growth and adaptation assumptions.
+- Republic of Sierra Leone; submitted to the UNFCCC. NDC 3.0 of the Republic of Sierra Leone. 2025-10 (date basis: publication). https://unfccc.int/sites/default/files/2025-12/Sierra%20Leone%20NDC%203.0.pdf [SLE-SRC-002] Methodology: Government NDC presents a qualitative conflict-sensitive climate-risk framework and adaptation measures. Limitations: The conflict-risk discussion is a policy framing and illustrative mechanism, not a quantified causal or local empirical assessment.
+- World Bank Group and Climate Investment Funds, with Sierra Leone Ministry of Health and Sanitation. Climate and Health Vulnerability Assessment: Sierra Leone. publication date not stated (date basis: not-stated). https://www.atachcommunity.com/fileadmin/uploads/atach/Documents/Country_documents/Sierra_Leone_VA_Report_2024.pdf [SLE-SRC-101] Methodology: Assessment combines CRU observations, CMIP5 projections, and health/climate data. Limitations: PDF copyright2023 differs from filename2024; exact publication year unresolved. Dated health/admin inputs and limited drought surveillance constrain present-day interpretation.
+- Government of Sierra Leone, Ministry of Finance. Disaster Risk Financing Strategy and Implementation Plan 2024-2029. 2024 (date basis: publication). https://mof.gov.sl/wp-content/uploads/2024/03/SL_DRFS-FINAL-_compressed.pdf [SLE-SRC-102] Methodology: Government strategy compiles NDMA hazard calendars, prior risk assessments and historical disaster-loss data. Limitations: Records are uneven; mapped hazards and losses are not climate-attribution estimates.
+- United Nations Country Team in Sierra Leone. Sierra Leone Common Country Analysis 2023. 2023 (date basis: publication). https://sierraleone.un.org/sites/default/files/2024-05/UNCT%20CCA%202023.pdf [SLE-SRC-103] Methodology: UN Country Team multi-sector synthesis of country context, sector data, policy materials and climate-risk information. Limitations: The analysis calls for better geographically and sex/age-disaggregated data; its climate annex is largely national and does not estimate local conflict effects.
+- International Security and Development Center; Thissen et al.. Multilateral peacebuilding in practice: addressing farmer-herder disputes along the border of Sierra Leone and Guinea. 2026 (date basis: publication). https://isdc.org/publications/multilateral-peacebuilding-in-practice-addressing-farmer-herder-disputes-along-the-border-of-sierra-leone-and-guinea/ [SLE-SRC-104] Methodology: The accessible research summary reports satellite imagery, a household survey and qualitative interviews. Limitations: Only the institute's article summary was accessible; detailed sample, effect sizes and subgroup results could not be checked in the full paper.
+- World Food Programme. Sierra Leone, Asset creation and livelihood: evaluation. 2023-08-02 (date basis: portal-publication). https://www.wfp.org/publications/sierra-leone-asset-creation-and-livelihood-evaluation [SLE-SRC-105] Methodology: WFP publication page provides a summary of a decentralized evaluation of asset creation and livelihood activities. Limitations: The page date predates its stated evaluation end date; only the online summary was accessible, with no district disaggregation or underlying sample details.
+
+Review status: draft
+Reviewer: None
+Reviewed on: None
+Decision notes: Unapproved depth extension. Prior snapshots and inherited evidence deadlines are preserved. Coordinator decisions are not designated human approval.

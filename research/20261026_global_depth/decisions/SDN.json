@@ -1,0 +1,202 @@
+{
+  "iso3": "SDN",
+  "coordinator": "Codex source and analytical adjudication; not human approval",
+  "human_approval": false,
+  "extraction_sha256_utf8_lf": "7bfcdbc41014037f3794ffba45964e57dc65c702aa171ecd82e1e2c9491a9736",
+  "country_aliases": [],
+  "claim_decisions": [
+    {
+      "claim_id": "SDN-C-101",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "time_horizons": [
+        "historical"
+      ]
+    },
+    {
+      "claim_id": "SDN-C-102",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "climate-to-fcv",
+      "confidence": "low",
+      "time_horizons": [
+        "historical"
+      ],
+      "statement": "NUPI's May2022 synthesis describes resource competition and intercommunal tensions in West Darfur, mediated by political interests, exclusion, land use and regional conflict; it does not offer a direct climate-conflict causal estimate."
+    },
+    {
+      "claim_id": "SDN-C-103",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "time_horizons": [
+        "near-term"
+      ],
+      "statement": "UNDP's2020-2027 project page proposes water yards, sand dams and hafirs and describes reduced resource competition as an intended benefit, not an independently evaluated peace effect."
+    },
+    {
+      "claim_id": "SDN-C-104",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "current",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "FAO's24September2026 brief reports seasonal rainfall roughly20%below average in Sennar and30%in Gedaref, with agricultural-stress monitoring indicating severe drought on up to55%and70%of cropland, respectively."
+    },
+    {
+      "claim_id": "SDN-C-105",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "current",
+      "interaction_direction": "fcv-to-climate",
+      "confidence": "medium"
+    },
+    {
+      "claim_id": "SDN-C-106",
+      "decision": "exclude",
+      "reason": "The June-September2026 famine-risk scenario window has ended. Retained in research only, not as a current or upcoming classification."
+    },
+    {
+      "claim_id": "SDN-C-107",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "current",
+      "interaction_direction": "fcv-to-climate",
+      "confidence": "low",
+      "evidence_class": "coping-capacity",
+      "statement": "The2026 UNDP-ITC consultation report describes large productivity losses and unsafe harvesting in conflict-affected Darfur/Kordofan, with climate variability adding yield pressure.",
+      "uncertainty": "Nonrepresentative stakeholder consultations, some remote; neither percentages nor separate climate/conflict contributions are representative causal estimates.",
+      "locator": "Printed p.xiv (one-based PDF p.16), Analysis Highlights."
+    },
+    {
+      "claim_id": "SDN-C-108",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "current",
+      "interaction_direction": "fcv-to-climate",
+      "confidence": "low",
+      "statement": "The2026 UNDP-ITC report describes conflict and displacement restricting pastoral routes and water points, pushing livestock onto cropland and aggravating farmer-pastoralist tensions in Darfur/Kordofan.",
+      "locator": "Printed p.71 (one-based PDF p.90), livestock constraints.",
+      "uncertainty": "Source synthesis/consultations, not quantified incident rates or proof climate caused initial violence."
+    }
+  ],
+  "pathways": [
+    {
+      "pathway_id": "SDN-P-101",
+      "iso3": "SDN",
+      "climate_pressure": "Drought, floods and erratic rainfall described as additional yield pressures in the2026 agri-food report.",
+      "documented_impact": "Agricultural losses coexist with unsafe harvest access and disrupted pastoral livelihoods in conflict-affected areas.",
+      "fcv_mediator": "Insecurity, displacement, restricted routes/water points and weakened customary institutions narrow access to land, water and inputs.",
+      "possible_consequence": "These constraints can reduce the ability of farmers and pastoralists to absorb weather-related livelihood shocks and can aggravate existing resource tensions.",
+      "geographies": [
+        "Darfur states",
+        "Kordofan states"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoralists",
+        "displaced households"
+      ],
+      "sectors": [
+        "agriculture",
+        "pastoralism",
+        "water"
+      ],
+      "systems_assets_resources": [
+        "harvest access",
+        "grazing routes",
+        "water points",
+        "cropland"
+      ],
+      "institutions": [
+        "customary resource-management systems"
+      ],
+      "supporting_evidence_ids": [
+        "SDN-E-107",
+        "SDN-E-108"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SDN-E-107"
+        ],
+        "impact": [
+          "SDN-E-107"
+        ],
+        "mediator": [
+          "SDN-E-107",
+          "SDN-E-108"
+        ],
+        "consequence": [
+          "SDN-E-107",
+          "SDN-E-108"
+        ]
+      },
+      "evidence_strength": "analytical-inference",
+      "alternative_explanations": [
+        "Input prices, finance, markets, land governance and conflict itself can reduce production and intensify tensions independently of weather."
+      ],
+      "uncertainty": "Conditional reverse interaction from a consultation-based2026report; separate effects and named climate-adaptation delivery impacts are not measured.",
+      "resilience_factors": [
+        "Customary management capacities are described as eroded, not absent everywhere; proposed water/community measures are not evaluated results."
+      ],
+      "compact_statement": "In Darfur/Kordofan, insecurity and restricted land/water access narrow weather-shock coping options and can aggravate resource tensions.",
+      "interaction_direction": "fcv-to-climate",
+      "review_status": "draft",
+      "review_date": null
+    }
+  ],
+  "gaps": [
+    "The May2022 synthesis predates the current war and is not used to explain its onset.",
+    "The expired June-September2026 worst-case famine-risk scenario was excluded from operational evidence.",
+    "The livestock-route passage is printed p.71/one-basedPDFp.90, not the intake's printed p.72."
+  ],
+  "executive_assessment": [
+    {
+      "text": "Sennar/Gedaref seasonal crop stress is differentiated from Darfur/Kordofan insecurity and resource-access constraints; neither is treated as proof that climate caused the war.",
+      "evidence_ids": [
+        "SDN-E-104",
+        "SDN-E-105",
+        "SDN-E-107",
+        "SDN-E-108"
+      ],
+      "pathway_ids": [
+        "SDN-P-101"
+      ]
+    },
+    {
+      "text": "Water infrastructure and community governance are proposed capacities, with inconsistent project-page coverage and no independent peace-effect evaluation.",
+      "evidence_ids": [
+        "SDN-E-103"
+      ],
+      "pathway_ids": []
+    }
+  ],
+  "coordinator_source_checks": [
+    {
+      "source_id": "SDN-SRC-101",
+      "result": "Primary publisher passage inspected; scope retained in claim decisions.",
+      "url": "https://www.nupi.no/en/news/climate-peace-and-security-fact-sheet-sudan"
+    },
+    {
+      "source_id": "SDN-SRC-102",
+      "result": "Primary publisher passage inspected; scope retained in claim decisions.",
+      "url": "https://www.undp.org/sudan/projects/building-resilience-face-climate-change-within-traditional-rain-fed-agricultural-and-pastoral-systems-sudan"
+    },
+    {
+      "source_id": "SDN-SRC-103",
+      "result": "Primary publisher passage inspected; scope retained in claim decisions.",
+      "url": "https://www.fao.org/giews/countrybrief/country.jsp?code=SDN&lang=en"
+    },
+    {
+      "source_id": "SDN-SRC-104",
+      "result": "Primary publisher passage inspected; scope retained in claim decisions.",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-07/undp_sudan_samra.pdf"
+    }
+  ]
+}

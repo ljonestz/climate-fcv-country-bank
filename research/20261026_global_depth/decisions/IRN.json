@@ -1,0 +1,181 @@
+{
+  "iso3": "IRN",
+  "coordinator": "Codex source and analytical adjudication; not human approval",
+  "human_approval": false,
+  "extraction_sha256_utf8_lf": "da6e08407aa739293532c63e247d28c7c16cf5e538e6f95fc98d733a8e6e4caa",
+  "claim_decisions": [
+    {
+      "claim_id": "IRN-C-101",
+      "decision": "exclude",
+      "reason": "Canonical publisher HTML and original PDF both return403 for coordinator. Indexed summary/staging text does not meet the agreed inspected-primary-passage standard; other accessible original sources retain relevant context.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "time_horizons": [
+        "historical"
+      ]
+    },
+    {
+      "claim_id": "IRN-C-103",
+      "decision": "exclude",
+      "reason": "Canonical publisher HTML and original PDF both return403 for coordinator. Indexed summary/staging text does not meet the agreed inspected-primary-passage standard; other accessible original sources retain relevant context.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "low",
+      "time_horizons": [
+        "historical"
+      ]
+    },
+    {
+      "claim_id": "IRN-C-105",
+      "decision": "include",
+      "reason": "Bounded source-attributed finding; no causal extrapolation or claim of current conditions beyond source date.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "time_horizons": [
+        "historical"
+      ],
+      "uncertainty": "Author-attributed qualitative policy interpretation, not an isolated climate effect. Allocation, abstraction and governance can cause water stress independently of climate; conditions are dated to the2024article."
+    },
+    {
+      "claim_id": "IRN-C-106",
+      "decision": "include",
+      "reason": "Bounded source-attributed finding; no causal extrapolation or claim of current conditions beyond source date.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "time_horizons": [
+        "historical"
+      ],
+      "statement": "The2024 article reports tanker dependence in over200villages of Chaharmahal and Bakhtiari and salinity-related water and date-palm losses in Khuzestan, drawing on cited historical sources.",
+      "locator": "Article subsection 'The dams of Chahar Mahal and Bakhtiari and Khuzestan', paragraphs on tanker supply and Gotvand/Karun salinity."
+    },
+    {
+      "claim_id": "IRN-C-107",
+      "decision": "include",
+      "reason": "Bounded source-attributed finding; no causal extrapolation or claim of current conditions beyond source date.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "time_horizons": [
+        "historical"
+      ],
+      "uncertainty": "Author-attributed qualitative policy interpretation, not an isolated climate effect. Allocation, abstraction and governance can cause water stress independently of climate; conditions are dated to the2024article."
+    },
+    {
+      "claim_id": "IRN-C-108",
+      "decision": "include",
+      "reason": "Bounded source-attributed finding; no causal extrapolation or claim of current conditions beyond source date.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "time_horizons": [
+        "historical"
+      ],
+      "locator": "Section3.3 Comparative overview: drought impacts & political responses in Isfahan and Hamadan; preceding comparison paragraph."
+    },
+    {
+      "claim_id": "IRN-C-109",
+      "decision": "include",
+      "reason": "Bounded source-attributed finding; no causal extrapolation or claim of current conditions beyond source date.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "time_horizons": [
+        "historical"
+      ]
+    },
+    {
+      "claim_id": "IRN-C-110",
+      "decision": "include",
+      "reason": "Bounded source-attributed finding; no causal extrapolation or claim of current conditions beyond source date.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "time_horizons": [
+        "historical"
+      ],
+      "statement": "For2008–2018, the Khuzestan study identifies groundwater decline in eastern/northeastern aquifers and drawdown up to33metres around Dezful and Andimeshk."
+    },
+    {
+      "claim_id": "IRN-C-111",
+      "decision": "include",
+      "reason": "Bounded source-attributed finding; no causal extrapolation or claim of current conditions beyond source date.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "time_horizons": [
+        "historical"
+      ],
+      "subnational_specificity": "generic-zone"
+    }
+  ],
+  "source_overrides": {
+    "IRN-SRC-104": {
+      "methodology": "Groundwater-level and hydrochemical analysis of204exploration wells and70piezometric wells across19aquifers; observed data2008–2018."
+    }
+  },
+  "pathways": [],
+  "gaps": [
+    "Two Crisis Group claims were withheld because no primary publisher passage could be opened; the search/staging access history remains in the intake audit.",
+    "New hydrogeological observations cover2008–2018 and policy studies2024–2025; they do not establish2026conditions.",
+    "No additional complete climate-attributed pathway was inferred from water-allocation disputes: abstraction, governance and climate pressures are not interchangeable."
+  ],
+  "coordinator_source_checks": [
+    {
+      "source_id": "IRN-SRC-101",
+      "result": "Withheld: publisher HTML/PDF403",
+      "notes": "No reliance on indexed/staging full report text."
+    },
+    {
+      "source_id": "IRN-SRC-102",
+      "result": "Full original article passages read",
+      "locators": [
+        "Abstract",
+        "Methodology",
+        "The dams of Chahar Mahal and Bakhtiari and Khuzestan"
+      ],
+      "notes": "Interpretive claims attributed; historical supply examples not current2026facts."
+    },
+    {
+      "source_id": "IRN-SRC-103",
+      "result": "Full original article passages read",
+      "locators": [
+        "Abstract",
+        "Section3.3",
+        "Discussion"
+      ],
+      "notes": "Different province responses refute a deterministic drought-protest interpretation."
+    },
+    {
+      "source_id": "IRN-SRC-104",
+      "result": "Original publisher article passages read",
+      "locators": [
+        "Abstract",
+        "Groundwater drawdown mapping"
+      ],
+      "notes": "Historical well data; exploration, not pumping wells."
+    }
+  ],
+  "superseded_gap_notes": {},
+  "executive_assessment": [
+    {
+      "text": "New evidence differentiates donor-basin water injustice and supply stress in Khuzestan and Chaharmahal and Bakhtiari from drought-related political responses in Isfahan and Hamedan. Water policy and climate effects are not disentangled.",
+      "evidence_ids": [
+        "IRN-E-105",
+        "IRN-E-106",
+        "IRN-E-108"
+      ],
+      "pathway_ids": []
+    },
+    {
+      "text": "Khuzestan aquifer observations add named local water-system vulnerabilities around Dezful and Andimeshk, but the measurements end in2018. They must not be presented as a current household-access assessment.",
+      "evidence_ids": [
+        "IRN-E-110",
+        "IRN-E-111"
+      ],
+      "pathway_ids": []
+    }
+  ]
+}

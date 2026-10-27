@@ -1,0 +1,118 @@
+{
+  "iso3": "COD",
+  "coordinator": "Codex source and analytical adjudication; not human approval",
+  "human_approval": false,
+  "extraction_sha256_utf8_lf": "89afbd0c0cb1afa68d1b62e834c2a0511620bac4aadec54f51b6a07f589a99d1",
+  "country_aliases": [
+    "DRC",
+    "Democratic Republic of the Congo",
+    "Democratic Republic of Congo",
+    "Congo, Democratic Republic of",
+    "Congo, Dem. Rep."
+  ],
+  "claim_decisions": [
+    {
+      "claim_id": "COD-C-101",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "Source dated 2025-06-02 reports: UNICEF reports flooding in Kasaba village, Fizi Territory, South Kivu, reportedly killed 62 people, including 47 children; it sent Red Cross Tanganyika to assess and identify response.",
+      "time_horizons": [
+        "historical"
+      ]
+    },
+    {
+      "claim_id": "COD-C-102",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "Source dated 2025-06-02 reports: UNICEF reports that fighting in Kalehe, Walungu, Fizi and Mwenga displaced civilians in South Kivu; ADF attacks in Fungula and Bapere, Lubero Territory, killed more than 20 people.",
+      "time_horizons": [
+        "historical"
+      ]
+    },
+    {
+      "claim_id": "COD-C-103",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "Source dated 2025-06-02 reports: UNICEF says IDP returns extended cholera into areas with poor WASH infrastructure, complicating response; its UNiRR reached 5,352 households with WASH and shelter kits and provided free primary care in four health zones.",
+      "time_horizons": [
+        "historical"
+      ],
+      "uncertainty": "Historical UNICEF response/WASH reports; return-related disease spread is not attributed to climate, and agency outputs are not impact evaluations."
+    },
+    {
+      "claim_id": "COD-C-104",
+      "decision": "exclude",
+      "reason": "Unresolved June–October rainfall forecast without named local resolution or realized losses; do not turn into observed October conditions."
+    },
+    {
+      "claim_id": "COD-C-105",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "The 24 June 2026 FAO brief attributes reduced planting area to conflict-related field-access constraints and displacement in eastern provinces. Its separate rainfall forecast does not establish an interaction effect.",
+      "time_horizons": [
+        "historical"
+      ],
+      "evidence_class": "coping-capacity",
+      "uncertainty": "Source-stated agricultural access barrier, not a quantified effect on a named adaptation project or attribution of conflict to weather."
+    },
+    {
+      "claim_id": "COD-C-106",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "Source dated 2026-06-24 reports: FAO reports supporting 55,500 crisis-affected families in North Kivu, South Kivu, Ituri and Tanganyika with a USD 10 million allocation, seeds, tools, livelihood inputs and cash assistance.",
+      "time_horizons": [
+        "historical"
+      ]
+    }
+  ],
+  "pathways": [],
+  "gaps": [
+    "Main directly inspected both primary sources. Reduced field access is conflict-related; the brief's rainfall outlook is not an observed crop-loss finding. The Kasaba flood is not attributed to anthropogenic climate change."
+  ],
+  "executive_assessment": [
+    {
+      "text": "The May 2025 Kasaba flood and South Kivu conflict displacement illustrate different local vulnerabilities, without attributing armed attacks to weather.",
+      "evidence_ids": [
+        "COD-E-101",
+        "COD-E-102"
+      ],
+      "pathway_ids": []
+    },
+    {
+      "text": "Poor WASH in return areas and conflict-restricted farming complicate coping; reported kits and agricultural assistance are outputs, not durable adaptation impacts.",
+      "evidence_ids": [
+        "COD-E-103",
+        "COD-E-105",
+        "COD-E-106"
+      ],
+      "pathway_ids": []
+    }
+  ],
+  "coordinator_source_checks": [
+    {
+      "source_id": "COD-SRC-101",
+      "result": "Primary publisher passage inspected; scope retained in claim decisions.",
+      "url": "https://www.unicef.org/media/171616/file/DRC-Humanitarian-SitRep-Upsurge-in-Conflict-15-May-2025.pdf"
+    },
+    {
+      "source_id": "COD-SRC-102",
+      "result": "Primary publisher passage inspected; scope retained in claim decisions.",
+      "url": "https://cb.apps.fao.org/country.jsp?code=COD&lang=en"
+    }
+  ]
+}

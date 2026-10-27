@@ -1,0 +1,216 @@
+{
+  "iso3": "BEN",
+  "coordinator": "Codex source and analytical adjudication; not human approval",
+  "human_approval": false,
+  "extraction_sha256_utf8_lf": "f45a59316e921992a14868d02acc3b9fa0b38a7302f748b26a09bd276884afd8",
+  "country_aliases": [],
+  "claim_decisions": [
+    {
+      "claim_id": "BEN-C-101",
+      "decision": "include",
+      "reason": "Bounded source-supported finding; vintage, proposal status and causal limits retained.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "time_horizons": [
+        "historical",
+        "current"
+      ]
+    },
+    {
+      "claim_id": "BEN-C-102",
+      "decision": "include",
+      "reason": "Bounded source-supported finding; vintage, proposal status and causal limits retained.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "time_horizons": [
+        "historical",
+        "current"
+      ]
+    },
+    {
+      "claim_id": "BEN-C-103",
+      "decision": "include",
+      "reason": "Bounded source-supported finding; vintage, proposal status and causal limits retained.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "time_horizons": [
+        "historical",
+        "current"
+      ]
+    },
+    {
+      "claim_id": "BEN-C-104",
+      "decision": "include",
+      "reason": "Bounded source-supported finding; vintage, proposal status and causal limits retained.",
+      "refresh_tier": "current",
+      "interaction_direction": "fcv-to-climate",
+      "confidence": "medium",
+      "time_horizons": [
+        "historical"
+      ]
+    },
+    {
+      "claim_id": "BEN-C-105",
+      "decision": "include",
+      "reason": "Bounded source-supported finding; vintage, proposal status and causal limits retained.",
+      "refresh_tier": "current",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "time_horizons": [
+        "historical"
+      ],
+      "evidence_class": "coping-capacity",
+      "statement": "FEWS NET's June 2026 context report describes northern farmer-pastoralist conflicts damaging crops and livestock and restricting farming and pastoral mobility.",
+      "uncertainty": "The report does not establish climate as a cause of these incidents. This is a conflict-related livelihood constraint."
+    },
+    {
+      "claim_id": "BEN-C-106",
+      "decision": "include",
+      "reason": "Bounded source-supported finding; vintage, proposal status and causal limits retained.",
+      "refresh_tier": "structural",
+      "interaction_direction": "climate-to-fcv",
+      "confidence": "low",
+      "time_horizons": [
+        "historical"
+      ],
+      "statement": "The February 2025 World Bank project document describes a possible northern mechanism: climate shocks, scarcity and land degradation may alter transhumance and intensify farmer-herder or other tensions.",
+      "uncertainty": "Source-attributed project-context mechanism; no incident-level causal measurement or prediction."
+    },
+    {
+      "claim_id": "BEN-C-107",
+      "decision": "include",
+      "reason": "Bounded source-supported finding; vintage, proposal status and causal limits retained.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "time_horizons": [
+        "historical"
+      ],
+      "statement": "The February 2025 appraisal describes attacks in Matéri and Kérou in Atakora, and Karimama and Banikoara in Alibori, causing school closures and southward movements that pressure host communities."
+    },
+    {
+      "claim_id": "BEN-C-108",
+      "decision": "include",
+      "reason": "Bounded source-supported finding; vintage, proposal status and causal limits retained.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "time_horizons": [
+        "historical"
+      ],
+      "statement": "The February 2025 project document proposes climate-screened water/services infrastructure, livelihood support and participatory planning for refugee and host communities in targeted northern areas.",
+      "uncertainty": "Design intentions at appraisal, not evidence of implementation or adaptation outcomes."
+    },
+    {
+      "claim_id": "BEN-C-109",
+      "decision": "exclude",
+      "reason": "Assessment coverage and sample size alone do not establish vulnerability or adaptive capacity; no results were accessible."
+    }
+  ],
+  "pathways": [
+    {
+      "pathway_id": "BEN-P-101",
+      "iso3": "BEN",
+      "climate_pressure": "Northern drought, dry spells and water scarcity described in the country context.",
+      "documented_impact": "Reduced crops and pasture can change the resources available to farming and pastoral livelihoods.",
+      "fcv_mediator": "Altered transhumance and competition over scarce or degraded land and water interact with pre-existing farmer-herder tensions.",
+      "possible_consequence": "The project document warns of heightened local tensions; it does not attribute particular incidents or armed-group activity to climate.",
+      "geographies": [
+        "northern Benin"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoralists"
+      ],
+      "sectors": [
+        "agriculture",
+        "livestock",
+        "water"
+      ],
+      "systems_assets_resources": [
+        "pasture",
+        "farmland",
+        "water resources",
+        "transhumance routes"
+      ],
+      "institutions": [],
+      "supporting_evidence_ids": [
+        "BEN-E-102",
+        "BEN-E-105",
+        "BEN-E-106"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "BEN-E-102",
+          "BEN-E-106"
+        ],
+        "impact": [
+          "BEN-E-102"
+        ],
+        "mediator": [
+          "BEN-E-106"
+        ],
+        "consequence": [
+          "BEN-E-106"
+        ]
+      },
+      "evidence_strength": "analytical-inference",
+      "alternative_explanations": [
+        "Land governance, mobility restrictions and insecurity can cause livelihood losses and tensions independently of climate."
+      ],
+      "uncertainty": "Conditional contextual mechanism combining FEWS NET and appraisal narrative; not a localized incident study, causal estimate or prediction. Named attack sites are not treated as climate-conflict cases.",
+      "resilience_factors": [
+        "Proposed participatory refugee/host support is a design response, not an evaluated peace outcome."
+      ],
+      "compact_statement": "In northern Benin, climate-related resource stress may alter transhumance and compound farmer-herder tensions, mediated by land and mobility conditions.",
+      "interaction_direction": "climate-to-fcv",
+      "review_status": "draft",
+      "review_date": null
+    }
+  ],
+  "gaps": [
+    "The new northern climate-resource-tension link is a conditional appraisal narrative, not evidence that climate caused a particular violent event.",
+    "FAO's five-commune SHARP+ assessment coverage is retained only in the research intake; inaccessible findings are not used as adaptive-capacity evidence."
+  ],
+  "executive_assessment": [
+    {
+      "text": "Local vulnerability differs between northern agropastoral systems and flood-exposed Ouémé/coastal systems; broad zones are not presented as commune-level rankings.",
+      "evidence_ids": [
+        "BEN-E-101",
+        "BEN-E-102",
+        "BEN-E-103"
+      ],
+      "pathway_ids": []
+    },
+    {
+      "text": "Alibori/Atakora insecurity restricts farm, market and mobility access. Named attack examples are dated to the 2025 appraisal, while proposed refugee/host support remains unevaluated.",
+      "evidence_ids": [
+        "BEN-E-104",
+        "BEN-E-107",
+        "BEN-E-108"
+      ],
+      "pathway_ids": []
+    }
+  ],
+  "coordinator_source_checks": [
+    {
+      "source_id": "BEN-SRC-101",
+      "result": "Original source passage checked; restrictions and limitations recorded in intake and decisions.",
+      "url": "https://fews.net/west-africa/benin/special-report/june-2026"
+    },
+    {
+      "source_id": "BEN-SRC-102",
+      "result": "Original source passage checked; restrictions and limitations recorded in intake and decisions.",
+      "url": "https://documents1.worldbank.org/curated/en/099020525102033812/pdf/P175043-6a1ab824-8beb-453b-8dc5-d895574a3a98.pdf"
+    },
+    {
+      "source_id": "BEN-SRC-103",
+      "result": "Original source passage checked; restrictions and limitations recorded in intake and decisions.",
+      "url": "https://www.fao.org/family-farming/detail/en/c/1742309/"
+    }
+  ],
+  "source_overrides": {}
+}
