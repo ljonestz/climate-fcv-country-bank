@@ -26,6 +26,12 @@ It binds the candidate and approved files, runtime, prior freeze, and the exact
 archive path and old/new hash for every changed frozen file. All other files in
 the 878-file baseline remain bound to their original hashes.
 
+The 26 October IDA approval manifest remains an unchanged historical snapshot.
+The activation manifest binds `tests/test_ida_expansion.py` as a frozen
+replacement by recording its original archived hash and current verifier hash.
+The regression test checks that chain and continues to require the original
+hash for every other file in the IDA manifest.
+
 ## Scope and review limits
 
 The runtime contains 146 countries, 1,045 referenced sources, 2,643 evidence
