@@ -1,0 +1,1335 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "BIH",
+  "candidate_path": "countries/BIH/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 5,
+    "evidence_count": 19,
+    "pathway_count": 2,
+    "evidence_source_reference_count": 19
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 18,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 2
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "BIH-E-101"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "BIH-E-102",
+          "BIH-E-103",
+          "BIH-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "BIH-E-105",
+          "BIH-E-113",
+          "BIH-E-114",
+          "BIH-E-117",
+          "BIH-E-119"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BIH-E-110",
+          "BIH-E-111",
+          "BIH-E-115"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BIH-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BIH-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "BIH-E-108",
+          "BIH-E-120"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "BIH-E-106",
+          "BIH-E-107",
+          "BIH-E-118"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "BIH-E-101",
+          "BIH-E-102",
+          "BIH-E-105",
+          "BIH-E-106",
+          "BIH-E-107",
+          "BIH-E-109",
+          "BIH-E-110",
+          "BIH-E-111",
+          "BIH-E-112",
+          "BIH-E-113",
+          "BIH-E-114",
+          "BIH-E-115",
+          "BIH-E-117",
+          "BIH-E-119"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "BIH-P-101",
+          "BIH-P-102"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/BIH/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "BIH-SRC-101",
+      "title": "Bosnia and Herzegovina National Adaptation Plan – NAP with proposed measures",
+      "organization": "Ministry of Foreign Trade and Economic Relations of Bosnia and Herzegovina, with UNDP and entity ministries",
+      "publication_date": "2021-09",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/resource/NAP-Bosnia-and-Herzegovina%20.pdf",
+      "geographic_coverage": [
+        "Bosnia and Herzegovina",
+        "Trebinje",
+        "Zenica",
+        "Laktaši",
+        "Sanski Most",
+        "Sava River Basin",
+        "Central Posavina",
+        "Odžačka Posavina",
+        "Semberija"
+      ],
+      "temporal_coverage": "Observed climate analysis through 2018, historical hazards, and projections through the end of the 21st century.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BIH-E-101",
+        "BIH-E-102",
+        "BIH-E-103",
+        "BIH-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "One-based PDF pp. 12–16, 34–41; cover and methodology reviewed",
+          "notes": "Opened the complete public 168-page NAP and inspected climate trends, local floods, modeled streamflows and institutional review.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BIH-SRC-102",
+      "title": "Bosnia and Herzegovina Floods, 2014: Recovery Needs Assessment",
+      "organization": "Government of Bosnia and Herzegovina with the European Union, United Nations and World Bank",
+      "publication_date": "2014-06-30",
+      "publication_date_basis": "publication",
+      "url": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@ed_emp/documents/publication/wcms_397687.pdf",
+      "geographic_coverage": [
+        "Bosnia and Herzegovina",
+        "Federation of Bosnia and Herzegovina",
+        "Republika Srpska",
+        "Brčko District",
+        "Posavina",
+        "Brčko",
+        "Sava River Basin"
+      ],
+      "temporal_coverage": "Assesses the 14–19 May 2014 floods and recovery needs identified by June 2014.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BIH-E-105",
+        "BIH-E-106",
+        "BIH-E-107",
+        "BIH-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "One-based PDF pp. 13–15 and 128, 253–255; executive-summary methodology and mine-action passages",
+          "notes": "Opened the complete public 302-page assessment and read the affected-population, hazard/war-remnant interaction and recovery passages.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "BIH-E-106",
+        "selected_source_id": "BIH-SRC-102",
+        "url": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@ed_emp/documents/publication/wcms_397687.pdf",
+        "locator": "One-based PDF pp. 15 and 253, Executive Summary and mine-action assessment",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "metadata-only",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": null,
+        "declared_bytes": 8892291,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "source exceeds the in-memory size cap"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "BIH-SRC-103",
+      "title": "Bosnia and Herzegovina Disaster Resilience Scorecard Assessment and Public Health Scorecard Addendum Analysis: Gaps, Challenges and Recommendations",
+      "organization": "United Nations Office for Disaster Risk Reduction",
+      "publication_date": "2022-11",
+      "publication_date_basis": "document-version",
+      "url": "https://bosniaherzegovina.un.org/sites/default/files/2024-03/undrr-mcr2030-bosnia-and-herzegovina-disaster-resilience-scorecard-2.pdf",
+      "geographic_coverage": [
+        "Bihać",
+        "Bijeljina",
+        "Gradačac",
+        "Olovo",
+        "Central Bosnia Canton",
+        "Busovača",
+        "Jajce",
+        "Kiseljak",
+        "Travnik",
+        "Vitez"
+      ],
+      "temporal_coverage": "Reports local scorecards and DRR activities during 2021–2022.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BIH-E-109",
+        "BIH-E-110",
+        "BIH-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF cover/printed pp. ii–vi; one-based PDF pp. 6, 11–13 and 17–18 for platforms and municipal scorecards",
+          "notes": "Opened the complete public 40-page report; reviewed methodology and the cited municipal self-assessment passages.",
+          "reuse_terms": "PDF says it may be freely quoted with acknowledgment; license_status left unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BIH-SRC-104",
+      "title": "INFORM Subnational Risk Index for Bosnia and Herzegovina: Findings on natural hazard exposure, vulnerability and coping capacities, and recommendations for disaster risk management",
+      "organization": "United Nations University Institute for Environment and Human Security, guided by the European Commission Joint Research Centre INFORM methodology",
+      "publication_date": "2026-06",
+      "publication_date_basis": "publication",
+      "url": "https://drmkc.jrc.ec.europa.eu/inform-index/Portals/0/InfoRM/2026/Subnationals/GIP03504%20UNU-VIE%20BiH%20INFORM%20final_web.pdf",
+      "geographic_coverage": [
+        "All 143 Bosnia and Herzegovina municipalities",
+        "Brod",
+        "Bihać",
+        "Konjic",
+        "Mostar",
+        "Jablanica",
+        "Trnovo (Republika Srpska)",
+        "Foča",
+        "Bosansko Grahovo",
+        "Livno",
+        "Kupres"
+      ],
+      "temporal_coverage": "Municipal index published June 2026; includes historical disaster and war-legacy indicators.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BIH-E-112",
+        "BIH-E-113",
+        "BIH-E-114",
+        "BIH-E-115"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "One-based PDF pp. 3–13; methodology, exposure hotspots, vulnerability, coping-capacity and risk findings",
+          "notes": "Opened the complete public 27-page June 2026 municipal risk-index report.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BIH-SRC-105",
+      "title": "Bosnia and Herzegovina Floods Response – Multi-Cluster Initial Rapid Assessment",
+      "organization": "United Nations in Bosnia and Herzegovina, coordinated by the International Organization for Migration",
+      "publication_date": "2024-11-21",
+      "publication_date_basis": "portal-publication",
+      "url": "https://bosniaherzegovina.un.org/en/download/173733/284103",
+      "geographic_coverage": [
+        "Jablanica",
+        "Konjic",
+        "Fojnica",
+        "Kiseljak",
+        "Kreševo",
+        "Mostar",
+        "flood-affected areas of Herzegovina"
+      ],
+      "temporal_coverage": "Rapid assessment of the 4 October 2024 storm, based on interviews conducted 2–6 November 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BIH-E-117",
+        "BIH-E-118",
+        "BIH-E-119",
+        "BIH-E-120"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "One-based PDF pp. 1–8 and 19–20; Jablanica profile, gender analysis, response and methodology/limitations",
+          "notes": "Opened the complete public 21-page rapid assessment and checked its key-informant sample, scope and limitations.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "BIH-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BIH-SRC-101",
+          "locator": "One-based PDF pp. 14–16, climate trends and locations repeatedly hit by extremes"
+        }
+      ],
+      "geographies": [
+        "Trebinje",
+        "Zenica",
+        "Laktaši",
+        "Sanski Most",
+        "Bosnia and Herzegovina"
+      ],
+      "affected_groups": [
+        "residents of repeatedly affected towns",
+        "farmers"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2021-09 reports: The NAP reports 1961–2018 warming (annual 0.4–1.2°C; growing-season up to 1.4°C), rising heavy-rainfall share and variability; it names Trebinje, Zenica, Laktaši and Sanski Most among repeatedly affected towns.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BIH-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BIH-SRC-101",
+          "locator": "One-based PDF p. 34, recent floods in the Sava Basin"
+        }
+      ],
+      "geographies": [
+        "Central Posavina",
+        "Odžačka Posavina",
+        "Semberija",
+        "Sava River Basin"
+      ],
+      "affected_groups": [
+        "residents",
+        "farmers",
+        "road users"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2021-09 reports: Record May 2014 rain plus snowmelt broke Sava embankments and flooded Central Posavina, Odžačka Posavina and Semberija; later heavy rain caused repeat flooding and landslides.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BIH-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BIH-SRC-101",
+          "locator": "One-based PDF p. 41, modeled future peak streamflows"
+        }
+      ],
+      "geographies": [
+        "BiH tributaries of the Sava River Basin"
+      ],
+      "affected_groups": [
+        "river-basin communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "RCP8.5; upper-quartile 100-year daily-rainfall value; end of the 21st century.",
+      "compact_statement": "Source dated 2021-09 reports: Under RCP8.5, upper-quartile 100-year daily rainfall implies at least 23% higher end-century 100-year peak flows across modeled BiH Sava tributaries.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BIH-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BIH-SRC-101",
+          "locator": "One-based PDF pp. 12–13, legislative and spatial-planning review"
+        }
+      ],
+      "geographies": [
+        "Federation of Bosnia and Herzegovina",
+        "Republika Srpska",
+        "Brčko District",
+        "Bosnia and Herzegovina"
+      ],
+      "affected_groups": [
+        "municipal populations",
+        "climate-sensitive sectors"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2021-09 reports: In 2021, the NAP found climate law and spatial planning insufficient; environmental powers lay with the entities and Brčko, and existing plans had not integrated climate change.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BIH-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BIH-SRC-102",
+          "locator": "One-based PDF pp. 13–14, Executive Summary: event and affected population"
+        }
+      ],
+      "geographies": [
+        "Federation of Bosnia and Herzegovina",
+        "Republika Srpska",
+        "Brčko District",
+        "81 affected municipalities"
+      ],
+      "affected_groups": [
+        "displaced households",
+        "shelter residents",
+        "farmers",
+        "small businesses"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2014-06-30 reports: After the May 2014 floods, 81 municipalities suffered impacts; about 90,000 people were displaced and more than 40,000 sheltered or stayed with relatives.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BIH-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "BIH-SRC-102",
+          "locator": "One-based PDF pp. 15 and 253, Executive Summary and mine-action assessment"
+        }
+      ],
+      "geographies": [
+        "Posavina",
+        "Brčko District",
+        "flood-affected suspected hazardous areas"
+      ],
+      "affected_groups": [
+        "residents near suspected hazardous areas",
+        "farmers",
+        "land workers",
+        "reconstruction workers"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2014-06-30 reports: Floods and landslides shifted mines/UXO from marked or suspected areas; 51 of 3,000 reported landslides were in suspected hazardous areas, and 105 km² was flagged as potentially contaminated.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "BIH-E-106",
+        "selected_source_id": "BIH-SRC-102",
+        "url": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@ed_emp/documents/publication/wcms_397687.pdf",
+        "locator": "One-based PDF pp. 15 and 253, Executive Summary and mine-action assessment",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "metadata-only",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": null,
+        "declared_bytes": 8892291,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "source exceeds the in-memory size cap"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "BIH-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BIH-SRC-102",
+          "locator": "Physical PDF pp.253-254, printed pp.241-242, mine-action recovery plan."
+        }
+      ],
+      "geographies": [
+        "Posavina",
+        "Brčko District",
+        "flood-affected areas"
+      ],
+      "affected_groups": [
+        "residents",
+        "farmers",
+        "land workers",
+        "construction workers"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2014-06-30 reports: Residents in Posavina and Brčko reported mines/UXO near homes; repair and reconstruction in unsafe areas were restricted pending survey and clearance, leaving farmers and workers at risk.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BIH-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BIH-SRC-102",
+          "locator": "One-based PDF p. 128, post-flood security response"
+        }
+      ],
+      "geographies": [
+        "Bosnia and Herzegovina",
+        "flood-affected areas"
+      ],
+      "affected_groups": [
+        "flood-affected residents",
+        "response personnel"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2014-06-30 reports: The RNA reports that Civil Protection and BHMAC response located and destroyed more than 10,000 mines, UXO and weapons, with no recorded casualties.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BIH-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BIH-SRC-103",
+          "locator": "One-based PDF pp. 4–6, 2021 city-level DRR platforms and measures"
+        }
+      ],
+      "geographies": [
+        "Bihać",
+        "Bijeljina",
+        "Gradačac"
+      ],
+      "affected_groups": [
+        "children",
+        "families",
+        "socially vulnerable groups",
+        "local residents"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-11 reports: Bihać, Bijeljina and Gradačac established local DRR platforms, adopted aligned strategies and risk assessments, and reported engineering measures and shock-responsive social-protection plans.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BIH-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BIH-SRC-103",
+          "locator": "One-based PDF pp. 11–13, Busovača scorecard findings"
+        }
+      ],
+      "geographies": [
+        "Busovača",
+        "Central Bosnia Canton"
+      ],
+      "affected_groups": [
+        "poorest households",
+        "socially vulnerable groups",
+        "local businesses"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-11 reports: Busovača's scorecard names floods as its main hazard; it reports no training for poorest groups, recent business continuity plans in only 20–40% of firms, and warning reach of about half the population.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BIH-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BIH-SRC-103",
+          "locator": "One-based PDF pp. 17–18, Jajce scorecard findings"
+        }
+      ],
+      "geographies": [
+        "Jajce",
+        "Central Bosnia Canton"
+      ],
+      "affected_groups": [
+        "poorest households",
+        "socially vulnerable groups",
+        "local businesses"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-11 reports: Jajce reports an outdated risk assessment, no training for poorest groups, continuity plans in under 20% of firms and warning reach below half the population.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BIH-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BIH-SRC-104",
+          "locator": "One-based PDF pp. 8–9, hazard exposure hotspots and Konjic population"
+        }
+      ],
+      "geographies": [
+        "Brod",
+        "Bihać",
+        "Konjic",
+        "Mostar",
+        "Neretva River Basin"
+      ],
+      "affected_groups": [
+        "residents of river-side settlements",
+        "residents of landslide-prone areas"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-06 reports: INFORM ranks Brod (7.5) and Bihać (7.3) highest for exposure; Neretva municipalities Konjic and Mostar face flood/landslide risks, and about 12,000 people in Konjic live in landslide-prone areas.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BIH-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BIH-SRC-104",
+          "locator": "One-based PDF pp. 8–9, Jablanica 2024 event and index score"
+        }
+      ],
+      "geographies": [
+        "Jablanica"
+      ],
+      "affected_groups": [
+        "Jablanica residents",
+        "households in landslide areas"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-06 reports: The report records a 2024 Jablanica landslide that buried buildings and killed 19 people, although its municipal hazard-exposure score was moderate.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BIH-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BIH-SRC-104",
+          "locator": "One-based PDF pp. 10–11, vulnerability and disaster recovery drivers"
+        }
+      ],
+      "geographies": [
+        "Trnovo (Republika Srpska)",
+        "Foča",
+        "Republika Srpska"
+      ],
+      "affected_groups": [
+        "unemployed residents",
+        "social-benefit-dependent households",
+        "disaster-affected households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-06 reports: Trnovo (RS) and Foča score 7.4 for vulnerability with unemployment above 20%; the report links job scarcity partly to war-damaged economies and says benefit dependence hampers post-disaster recovery.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BIH-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BIH-SRC-104",
+          "locator": "One-based PDF pp. 12–13, local coping-capacity drivers"
+        }
+      ],
+      "geographies": [
+        "Bosansko Grahovo",
+        "Livno",
+        "Kupres (Federation of Bosnia and Herzegovina)",
+        "Kupres (Republika Srpska – Blagaj)"
+      ],
+      "affected_groups": [
+        "rural residents",
+        "dispersed communities",
+        "people needing evacuation or aid"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-06 reports: Bosansko Grahovo, Livno and Kupres score poorly on coping capacity; Bosansko Grahovo's road density is under one-seventh the national average, constraining evacuation and aid access.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BIH-E-117",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BIH-SRC-105",
+          "locator": "One-based PDF pp. 2 and 7–8, overview and Jablanica profile"
+        }
+      ],
+      "geographies": [
+        "Jablanica",
+        "affected remote communities in Herzegovina"
+      ],
+      "affected_groups": [
+        "Jablanica residents",
+        "evacuated people",
+        "remote communities",
+        "agriculture-dependent households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-11-21 reports: The rapid assessment says road and bridge damage restricted movement from remote areas and slowed recovery; in Jablanica it counted 483 affected people and 188 evacuees across interviewed flood-hit locations.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BIH-E-118",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BIH-SRC-105",
+          "locator": "Physical PDF p.6, gender perspective overview."
+        }
+      ],
+      "geographies": [
+        "flood-affected areas of Bosnia and Herzegovina",
+        "remote areas"
+      ],
+      "affected_groups": [
+        "women",
+        "girls",
+        "GBV survivors",
+        "displaced households"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "historical",
+        "near-term"
+      ],
+      "scenario": "Conditional post-flood humanitarian risk; no incidence estimate or time window is stated.",
+      "compact_statement": "Source dated 2024-11-21 reports: The report warns GBV could rise after flood-related livelihood loss, overcrowding and distress; disrupted services may also hinder survivor reporting.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BIH-E-119",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BIH-SRC-105",
+          "locator": "One-based PDF pp. 5–6, gender and social-protection needs"
+        }
+      ],
+      "geographies": [
+        "remote areas",
+        "Jablanica",
+        "Konjic",
+        "Kiseljak"
+      ],
+      "affected_groups": [
+        "women",
+        "girls",
+        "displaced people",
+        "rural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-11-21 reports: The assessment calls for mobile maternal, reproductive and psychological care for women and girls in remote areas; it names social-care staffing shortages in Jablanica, Konjic and Kiseljak.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BIH-E-120",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BIH-SRC-105",
+          "locator": "One-based PDF pp. 3–4, support during the first four weeks"
+        }
+      ],
+      "geographies": [
+        "six flood-affected municipalities in Herzegovina"
+      ],
+      "affected_groups": [
+        "displaced people",
+        "flood-affected households",
+        "remote communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-11-21 reports: Responders reported aid across six affected municipalities; civil protection, governments, UN/NGOs, businesses and community groups coordinated food, water, medicine, cash and repair kits.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "BIH-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "BIH-E-106",
+        "BIH-E-107",
+        "BIH-E-108"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "BIH-E-106"
+        ],
+        "impact": [
+          "BIH-E-106"
+        ],
+        "mediator": [
+          "BIH-E-106",
+          "BIH-E-107"
+        ],
+        "consequence": [
+          "BIH-E-107"
+        ]
+      },
+      "geographies": [
+        "Posavina",
+        "Brčko District",
+        "flood-affected suspected hazardous areas"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "direct",
+      "compact_statement": "Floods mobilized conflict-era mines/UXO, making recovery access contingent on professional survey and clearance in affected areas.",
+      "alternative_explanations": [
+        "Direct flood damage and general reconstruction capacity also affect recovery.",
+        "Potential contamination estimates require professional verification."
+      ],
+      "uncertainty": "Historical source-stated interaction and planned safety restrictions, not a current contamination map, clearance instruction or causal estimate of recovery delay.",
+      "potentially_out_of_scope_support_ids": [
+        "BIH-E-108"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "BIH-P-102",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "BIH-E-118",
+        "BIH-E-119"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "BIH-E-118"
+        ],
+        "impact": [
+          "BIH-E-118"
+        ],
+        "mediator": [
+          "BIH-E-118",
+          "BIH-E-119"
+        ],
+        "consequence": [
+          "BIH-E-118"
+        ]
+      },
+      "geographies": [
+        "flood-affected areas of Bosnia and Herzegovina"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "The 2024 flood assessment anticipated GBV risks through livelihood loss, crowding and disrupted protection services; no incidence increase was verified.",
+      "alternative_explanations": [
+        "Pre-existing protection gaps, reporting access and household conditions affect risk independently.",
+        "Anticipation draws partly on other crises, not incident data from this event."
+      ],
+      "uncertainty": "Historical anticipated risk, not verified harm, a current forecast or a nationally representative local assessment.",
+      "potentially_out_of_scope_support_ids": [
+        "BIH-E-119"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "BIH-E-106",
+  "source_access_review": {
+    "selected_record_id": "BIH-E-106",
+    "selected_source_id": "BIH-SRC-102",
+    "url": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@ed_emp/documents/publication/wcms_397687.pdf",
+    "locator": "One-based PDF pp. 15 and 253, Executive Summary and mine-action assessment",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "metadata-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": null,
+    "declared_bytes": 8892291,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "source exceeds the in-memory size cap"
+  },
+  "checks": [
+    {
+      "record_id": "BIH-E-106",
+      "source_id": "BIH-SRC-102",
+      "locator": "One-based PDF pp. 15 and 253, Executive Summary and mine-action assessment",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "metadata-only",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "BIH-E-106: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "BIH-E-101",
+    "BIH-E-102",
+    "BIH-E-103",
+    "BIH-E-104",
+    "BIH-E-105",
+    "BIH-E-106",
+    "BIH-E-107",
+    "BIH-E-108",
+    "BIH-E-109",
+    "BIH-E-110",
+    "BIH-E-111",
+    "BIH-E-112",
+    "BIH-E-113",
+    "BIH-E-114",
+    "BIH-E-115",
+    "BIH-E-117",
+    "BIH-E-118",
+    "BIH-E-119",
+    "BIH-E-120",
+    "BIH-P-101",
+    "BIH-P-102"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

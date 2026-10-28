@@ -1,0 +1,974 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "PER",
+  "candidate_path": "countries/PER/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 5,
+    "evidence_count": 14,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 14
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 13,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "PER-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "PER-E-101",
+          "PER-E-107",
+          "PER-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "PER-E-102",
+          "PER-E-105",
+          "PER-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "PER-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "PER-E-103",
+          "PER-E-110",
+          "PER-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "PER-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "PER-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "PER-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "PER-E-101",
+          "PER-E-105",
+          "PER-E-106",
+          "PER-E-107",
+          "PER-E-110",
+          "PER-E-111",
+          "PER-E-112",
+          "PER-E-113",
+          "PER-E-114"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/PER/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "PER-SRC-101",
+      "title": "Peru Country Climate and Development Report",
+      "organization": "World Bank Group",
+      "publication_date": "2022-11",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099220512062228587/pdf/P1771370b3ea6109108b4403bb881f18f1d.pdf",
+      "geographic_coverage": [
+        "Peru",
+        "Costa",
+        "Sierra",
+        "Selva",
+        "regional, provincial and district governments"
+      ],
+      "temporal_coverage": "Historical indicators through 2019; climate and development projections to 2050 and 2100",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "restricted",
+      "records_using_source": [
+        "PER-E-101",
+        "PER-E-102",
+        "PER-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "80-page publisher PDF; cited printed pp. 8, 10 and 18.",
+          "notes": "Direct World Bank PDF opened and cited passages inspected.",
+          "reuse_terms": "Copyright permits noncommercial reproduction with full attribution and required third-party permissions.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PER-SRC-102",
+      "title": "Peru: Strategic Actions Toward Water Security",
+      "organization": "World Bank",
+      "publication_date": "2023",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099060623153520241/pdf/P1736360229c810820982e0e2287df37745.pdf",
+      "geographic_coverage": [
+        "Peru river basins",
+        "Rimac Basin and Lima",
+        "Sierra and Alta Selva",
+        "northern coast"
+      ],
+      "temporal_coverage": "Diagnostic studies conducted 2019–2021; model projections for 2030 and 2050",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "restricted",
+      "records_using_source": [
+        "PER-E-104",
+        "PER-E-105",
+        "PER-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "83-page publisher PDF; cited printed pp. 11, 24–26.",
+          "notes": "Direct World Bank PDF opened; cited water-balance, basin and irrigation passages inspected.",
+          "reuse_terms": "Copyright permits noncommercial reproduction with full attribution.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PER-SRC-103",
+      "title": "Plan Multisectorial ante Lluvias Intensas y Peligros Asociados 2025–2027",
+      "organization": "Presidencia del Consejo de Ministros (PCM), with CENEPRED",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://sigrid.cenepred.gob.pe/sigridv3/storage/biblioteca/18525_plan-multisectorial-ante-lluvias-intensas-y-peligros-asociados-2025-2027.pdf",
+      "geographic_coverage": [
+        "Peru; district risk scenarios and multisector interventions"
+      ],
+      "temporal_coverage": "Plan period 2025–2027; susceptibility analysis draws on historical El Niño/La Niña episodes and records through April 2024",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PER-E-107",
+        "PER-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "153-page government PDF; cited printed pp. 16, 25, Annex 4 and 71.",
+          "notes": "Direct official PDF opened; scenario, risk totals, named district annex and intervention target inspected.",
+          "reuse_terms": "No reuse license verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PER-SRC-104",
+      "title": "Informe N.º 12-2025-OGASA: Conflictos socioambientales, diciembre 2025",
+      "organization": "Ministerio del Ambiente (MINAM), Oficina General de Asuntos Socio-Ambientales (OGASA)",
+      "publication_date": "2025-12",
+      "publication_date_basis": "publication",
+      "url": "https://sinia.minam.gob.pe/sites/default/files/archivos/public/docs/Informe%20OGASA-DIC2025.pdf",
+      "geographic_coverage": [
+        "Peru; named socio-environmental cases in Puno and other regions"
+      ],
+      "temporal_coverage": "December 2025 monthly monitoring; annual alert totals through December 2025",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PER-E-109",
+        "PER-E-110",
+        "PER-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "33-page official PDF; cited printed pp. 1–2, 9 and 26.",
+          "notes": "Direct MINAM/SINIA PDF opened; December case and commitment passages inspected.",
+          "reuse_terms": "Access is unrestricted on SINIA metadata; no copyright license verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PER-SRC-105",
+      "title": "Follow the Water: Emerging Issues of Climate Change and Conflict in Peru",
+      "organization": "Foundation for Environmental Security and Sustainability (FESS), prepared for USAID Office of Conflict Management and Mitigation",
+      "publication_date": "2012-06",
+      "publication_date_basis": "publication",
+      "url": "https://climateandsecurity.org/wp-content/uploads/2024/11/pnaec328.pdf",
+      "geographic_coverage": [
+        "Lima",
+        "Santa River Basin and Huaraz, Ancash",
+        "highland Arequipa"
+      ],
+      "temporal_coverage": "Field research in 2011–2012; published June 2012",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PER-E-112",
+        "PER-E-113",
+        "PER-E-114"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "82-page PDF; cited printed pp. 34, 40 and 42–43.",
+          "notes": "Complete publisher-hosted discussion paper opened; cited interview and field passages inspected, including p. 2 disclaimer that it is not an official USAID document.",
+          "reuse_terms": "No reuse license verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "PER-E-113",
+        "selected_source_id": "PER-SRC-105",
+        "url": "https://climateandsecurity.org/wp-content/uploads/2024/11/pnaec328.pdf",
+        "locator": "Printed p. 34, ‘Harmonizing Economic Development and Environmental Protection,’ MINAM interview account.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 860515,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27"
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "PER-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PER-SRC-101",
+          "locator": "Printed p. 8, section 1.1.1, ‘Geography, climate, and socioeconomics.’"
+        }
+      ],
+      "geographies": [
+        "Costa",
+        "Sierra"
+      ],
+      "affected_groups": [
+        "agricultural workers",
+        "fisheries workers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-11 reports: The report associates El Niño with more flooding on the Costa and drought in the Sierra; agriculture and fisheries’ large employment and export shares add exposure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PER-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PER-SRC-101",
+          "locator": "Printed p. 10, socioeconomic vulnerability discussion."
+        }
+      ],
+      "geographies": [
+        "Peru"
+      ],
+      "affected_groups": [
+        "informal workers",
+        "people with limited basic services"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-11 reports: The report says informality, inequality and low safe-water/sanitation access increase climate welfare vulnerability; 73% of employed people had informal jobs in 2019, with worker poverty rates over four times formal peers.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PER-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PER-SRC-101",
+          "locator": "Printed p. 18, subnational disaster-risk-management discussion."
+        }
+      ],
+      "geographies": [
+        "Peru; regional, provincial and district levels"
+      ],
+      "affected_groups": [
+        "populations in disaster-affected areas"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-11 reports: The report describes weak national–regional coordination and limited subnational DRM participation; only 13 regions, 28 provinces and 39 districts had prevention plans, while central authorities led the 2017 El Niño emergency outside the DRM framework.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PER-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PER-SRC-102",
+          "locator": "Printed pp. 24–25, Box 4.1, water-balance assessment and Map B4.1.1."
+        }
+      ],
+      "geographies": [
+        "Peru river basins"
+      ],
+      "affected_groups": [
+        "basin water users"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "The report labels the additional-basin map RCP8.5 for 2030 and describes broader model projections for 2030 and 2050.",
+      "compact_statement": "Source dated 2023 reports: The diagnostic’s approximately 5-km water-balance model found deficits in 72 of 231 basins; six additional basins could enter deficit under its RCP8.5 projection.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PER-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PER-SRC-102",
+          "locator": "Printed pp. 24 and 26, Rimac Basin and northern-coast water-stress discussion."
+        }
+      ],
+      "geographies": [
+        "Rimac Basin",
+        "Lima",
+        "northern coast"
+      ],
+      "affected_groups": [
+        "Lima residents",
+        "farmers on the northern coast"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: The report identifies the Rimac Basin as the sharpest deficit: Lima’s 11 million residents rely on Atlantic-region transfers for several months yearly; north-coast irrigated agriculture is also threatened by scarcity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PER-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PER-SRC-102",
+          "locator": "Printed p. 11, irrigation coverage and regional poverty discussion."
+        }
+      ],
+      "geographies": [
+        "Sierra",
+        "Alta Selva",
+        "Costa"
+      ],
+      "affected_groups": [
+        "rural residents",
+        "farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: In Sierra and Alta Selva, where half of rural residents are poor, only about 20% of cultivated land is irrigated, leaving farming exposed to rainfall shifts; most Costa agricultural land is irrigated.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PER-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PER-SRC-103",
+          "locator": "Printed p. 25 and Annex 4, flood-risk scenario and very-high-risk district list."
+        }
+      ],
+      "geographies": [
+        "Tumbes",
+        "Piura",
+        "Lambayeque",
+        "La Libertad",
+        "Áncash",
+        "Ica",
+        "Cajamarca",
+        "San Martín",
+        "Pasco",
+        "Junín",
+        "Ayacucho",
+        "Loreto",
+        "Belén",
+        "Catacaos",
+        "Tambogrande"
+      ],
+      "affected_groups": [
+        "residents of very-high-risk districts"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "Potential January–March rainfall anomalies associated with historical El Niño and La Niña episodes; a risk scenario, not a dated event forecast or climate-change projection.",
+      "compact_statement": "Source dated 2025 reports: Under possible summer El Niño/La Niña rainfall anomalies, the plan rates 78 districts across 12 departments very high flood risk, covering 2.396 million people; Annex 4 names Belén and Piura districts including Catacaos and Tambogrande.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PER-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PER-SRC-103",
+          "locator": "Printed p. 71, Intervention Sheet 31, community early-warning systems."
+        }
+      ],
+      "geographies": [
+        "Peru; priority high- and very-high-risk areas"
+      ],
+      "affected_groups": [
+        "communities in prioritized risk areas"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": "Plan target for 2025–2027; the document states an intended intervention, not achieved coverage.",
+      "compact_statement": "Source dated 2025 reports: For 2025–2027, the plan assigns INDECI technical assistance to reactivate or optimize 43 community early-warning systems and strengthen 122 others for intense-rain hazards.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PER-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PER-SRC-104",
+          "locator": "Printed pp. 1–2, executive summary, December 2025 case and commitment totals."
+        }
+      ],
+      "geographies": [
+        "Peru"
+      ],
+      "affected_groups": [
+        "communities represented in monitored cases"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12 reports: MINAM prioritized 39 cases, OEFA 23 and SERNANP 14; MINAM reported 342 of 379 commitments across 35 cases complete, 25 in process, 12 pending, and 100 alerts issued during 2025.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PER-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PER-SRC-104",
+          "locator": "Printed p. 9, Alert Report 095-2025-OGASA-MINAM, dated 11 December 2025."
+        }
+      ],
+      "geographies": [
+        "Ocuviri",
+        "Vila Vila",
+        "Hatun Ayllu basin",
+        "Puno"
+      ],
+      "affected_groups": [
+        "local residents",
+        "local authorities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12 reports: Authorities and residents of Ocuviri and Vila Vila, Puno, demanded environmental remediation of the Hatun Ayllu basin and a plenary session involving ministers and other senior officials.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PER-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PER-SRC-104",
+          "locator": "Printed p. 26, case 29, Llallimayo basin status through 18 December 2025."
+        }
+      ],
+      "geographies": [
+        "Llallimayo basin",
+        "Ayaviri",
+        "Cupi",
+        "Llalli",
+        "Umachiri",
+        "Melgar",
+        "Puno"
+      ],
+      "affected_groups": [
+        "local residents",
+        "water-resource defense group",
+        "local authorities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12 reports: The Llallimayo case covers Ayaviri, Cupi, Llalli and Umachiri in Melgar, Puno; an environmental-recovery worktable expired in December 2025 after a 2020 rights action was suspended, and local actors sought a replacement development table.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PER-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PER-SRC-105",
+          "locator": "Printed p. 40, Santa River Basin field findings, Huaraz and surrounding areas."
+        }
+      ],
+      "geographies": [
+        "Santa River Basin",
+        "Huaraz",
+        "Cordillera Blanca",
+        "Huascarán National Park",
+        "Ancash"
+      ],
+      "affected_groups": [
+        "low-income settlers",
+        "illegal miners",
+        "highland residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2012-06 reports: Huascarán Park’s head said glacier retreat, warming and erratic rain were weakening Cordillera Blanca wetlands’ and pastures’ water regulation; low-income settlers and illegal miners were entering sensitive highlands exposed to glacial-lake outbursts.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PER-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "PER-SRC-105",
+          "locator": "Printed p. 34, ‘Harmonizing Economic Development and Environmental Protection,’ MINAM interview account."
+        }
+      ],
+      "geographies": [
+        "Andean highlands"
+      ],
+      "affected_groups": [
+        "potato and corn cultivators",
+        "alpaca herders"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "Qualitative 2012 outlook; no quantified scenario.",
+      "compact_statement": "Source dated 2012-06 reports: An interviewed MINAM director said warming-related crop and herder shifts may intensify Andean resource competition.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+      "verification_attempt": {
+        "selected_record_id": "PER-E-113",
+        "selected_source_id": "PER-SRC-105",
+        "url": "https://climateandsecurity.org/wp-content/uploads/2024/11/pnaec328.pdf",
+        "locator": "Printed p. 34, ‘Harmonizing Economic Development and Environmental Protection,’ MINAM interview account.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 860515,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "PER-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PER-SRC-105",
+          "locator": "Printed pp. 42–43, Canrey Chico community account, Recuay, Ancash."
+        }
+      ],
+      "geographies": [
+        "Canrey Chico",
+        "Recuay",
+        "Ancash"
+      ],
+      "affected_groups": [
+        "Canrey Chico community leaders and residents"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2012-06 reports: Canrey Chico leaders said two decades of learning, a water group and improved farming raised pasture quality and reduced conflict; they reported declining a mining proposal.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "PER-E-113",
+  "source_access_review": {
+    "selected_record_id": "PER-E-113",
+    "selected_source_id": "PER-SRC-105",
+    "url": "https://climateandsecurity.org/wp-content/uploads/2024/11/pnaec328.pdf",
+    "locator": "Printed p. 34, ‘Harmonizing Economic Development and Environmental Protection,’ MINAM interview account.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "document-fetched",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 860515,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null
+  },
+  "checks": [
+    {
+      "record_id": "PER-E-113",
+      "source_id": "PER-SRC-105",
+      "locator": "Printed p. 34, ‘Harmonizing Economic Development and Environmental Protection,’ MINAM interview account.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+      "access_date": "2026-10-27",
+      "source_access_status": "document-fetched",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "PER-E-113: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "PER-E-101",
+    "PER-E-102",
+    "PER-E-103",
+    "PER-E-104",
+    "PER-E-105",
+    "PER-E-106",
+    "PER-E-107",
+    "PER-E-108",
+    "PER-E-109",
+    "PER-E-110",
+    "PER-E-111",
+    "PER-E-112",
+    "PER-E-113",
+    "PER-E-114"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

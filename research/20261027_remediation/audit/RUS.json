@@ -1,0 +1,1049 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "RUS",
+  "candidate_path": "countries/RUS/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 6,
+    "evidence_count": 16,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 16
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 15,
+      "verified": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "RUS-E-101",
+          "RUS-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "RUS-E-102",
+          "RUS-E-110",
+          "RUS-E-115",
+          "RUS-E-116"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "RUS-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "RUS-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "RUS-E-104",
+          "RUS-E-107",
+          "RUS-E-108",
+          "RUS-E-111",
+          "RUS-E-112",
+          "RUS-E-113",
+          "RUS-E-117"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "RUS-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "RUS-E-101",
+          "RUS-E-102",
+          "RUS-E-103",
+          "RUS-E-109",
+          "RUS-E-112"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/RUS/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "RUS-SRC-101",
+      "title": "Доклад об особенностях климата на территории Российской Федерации за 2024 год",
+      "organization": "Federal Service for Hydrometeorology and Environmental Monitoring (Roshydromet)",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://www.meteorf.gov.ru/upload/pdf_download/%D0%94%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%BE%D0%B1%20%D0%BE%D1%81%D0%BE%D0%B1%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8F%D1%85%20%D0%BA%D0%BB%D0%B8%D0%BC%D0%B0%D1%82%D0%B0%20%D0%BD%D0%B0%20%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8%20%D0%A0%D0%A4%20%D0%B7%D0%B0%202024%20%D0%B3%D0%BE%D0%B4.pdf",
+      "geographic_coverage": [
+        "Russian Federation",
+        "Nadym district",
+        "Southern Federal District",
+        "North Caucasus Federal District"
+      ],
+      "temporal_coverage": "Climate monitoring for 2024; permafrost active-layer trends for 2005–2024; crop precipitation anomalies relative to 1991–2020.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "RUS-E-101",
+        "RUS-E-102"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 139-page Roshydromet report; permafrost section 7 and agrometeorological section 8 inspected.",
+          "notes": "Directly read cited passages in the official publisher PDF, including monitoring limitations and the 1991–2020 crop-weather baseline.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "RUS-SRC-102",
+      "title": "State Report on the Protection of the Population and Territories of the Russian Federation from Natural and Technogenic Emergencies in 2024",
+      "organization": "Ministry of the Russian Federation for Civil Defence, Emergencies and Elimination of Consequences of Natural Disasters (EMERCOM)",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://mchs.gov.ru/uploads/document/2025-05-30/de7fb2c0ea6561054f6b74e2db4cb150.pdf",
+      "geographic_coverage": [
+        "Russian Federation",
+        "Republic of Sakha (Yakutia)"
+      ],
+      "temporal_coverage": "Emergency preparedness, disaster response and impacts recorded in 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "RUS-E-103",
+        "RUS-E-104",
+        "RUS-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 272-page 2024 State Report; forest-fire incident and preparedness/monitoring passages inspected.",
+          "notes": "Directly read the official EMERCOM PDF sections supporting the Yakutia fire and 2024 flood-readiness/monitoring figures.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "RUS-SRC-103",
+      "title": "Second Nationally Determined Contribution of the Russian Federation as part of the implementation of the Paris Agreement",
+      "organization": "Government of the Russian Federation",
+      "publication_date": "2025-09",
+      "publication_date_basis": "submission",
+      "url": "https://unfccc.int/sites/default/files/2025-09/RF_second_NDC.pdf",
+      "geographic_coverage": [
+        "Russian Federation",
+        "Russian Arctic zone",
+        "Moscow"
+      ],
+      "temporal_coverage": "Government submission in 2025; includes warming observations since the mid-1970s and adaptation arrangements through 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "RUS-E-106",
+        "RUS-E-107",
+        "RUS-E-108",
+        "RUS-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 44-page Second NDC; national circumstances, adaptation-planning and Moscow practice sections inspected.",
+          "notes": "Directly read the government submission hosted by UNFCCC; historical plan dates and self-reported status are retained.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "RUS-SRC-104",
+      "title": "Heuristic relative assessment of climate risks in Russian regions",
+      "organization": "Higher School of Economics; article published in Science of the Total Environment",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://publications.hse.ru/en/articles/999273777",
+      "geographic_coverage": [
+        "Russian regions",
+        "southwest Russia",
+        "northeast Russia",
+        "southeast Russia"
+      ],
+      "temporal_coverage": "Current exposure and vulnerability indicators with climate-hazard projections to mid-century under multiple SSP scenarios.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "RUS-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Publisher article page, complete English abstract on risk framework, five risk domains, relative regional pattern and data limitations.",
+          "notes": "Read the publisher page abstract directly; the full journal article was not inspected.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "RUS-SRC-105",
+      "title": "Adapting to what? Regional climate policy in Russia",
+      "organization": "Fridtjof Nansen Institute; article published in Energy Policy",
+      "publication_date": "2026-04-17",
+      "publication_date_basis": "publication",
+      "url": "https://www.fni.no/publications/adapting-to-what-regional-climate-policy-in-russia",
+      "geographic_coverage": [
+        "Russian Federation",
+        "eight Russian regions",
+        "Yamal-Nenets Autonomous Okrug"
+      ],
+      "temporal_coverage": "Regional adaptation policies analyzed in an article published online 17 April 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "RUS-E-111",
+        "RUS-E-112",
+        "RUS-E-113"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "FNI publisher page abstract on regional policies, Yamal-Nenets, risks/measures and war/sanctions context.",
+          "notes": "Used only the publisher's abstract summary; direct page rendering required JavaScript and the full article was not inspected.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "RUS-E-113",
+        "selected_source_id": "RUS-SRC-105",
+        "url": "https://www.fni.no/publications/adapting-to-what-regional-climate-policy-in-russia",
+        "locator": "FNI publication page, opening abstract paragraph on war, sanctions and climate-policy drivers.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 84449,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "RUS-E-113"
+      ],
+      "manual_verified_record_ids": [
+        "RUS-E-113"
+      ]
+    },
+    {
+      "source_id": "RUS-SRC-106",
+      "title": "Climate risks",
+      "organization": "Bank of Russia",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.cbr.ru/eng/finstab/Climate_risks/",
+      "geographic_coverage": [
+        "Russian Federation",
+        "Russian regions"
+      ],
+      "temporal_coverage": "Bank of Russia climate-risk analysis, stress tests and financial-institution survey reported through 2024; one modeled horizon is 2030–2040.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "RUS-E-115",
+        "RUS-E-116",
+        "RUS-E-117"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Bank of Russia page sections on regional climate risks, transition stress testing and the 2024 financial-institution survey.",
+          "notes": "Directly read the official web-page body; underlying stress-test and survey reports were not reviewed.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "RUS-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RUS-SRC-101",
+          "locator": "PDF p. 55, section 7 on permafrost active-layer thickness in Western Siberia."
+        }
+      ],
+      "geographies": [
+        "Nadym district",
+        "Western Siberia"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: For two monitored sites in Nadym district, Roshydromet reports positive active-layer-thickness trends of 58 and 45 cm per decade over 2005–2024.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RUS-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RUS-SRC-101",
+          "locator": "PDF p. 58, Table 8.2 and discussion of 2024 moisture conditions for spring cereals."
+        }
+      ],
+      "geographies": [
+        "Southern Federal District",
+        "North Caucasus Federal District"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: Spring-cereal growing-season precipitation in 2024 was 36% below its 1991–2020 normal in the Southern District and 30% below in the North Caucasus; local soil drought was possible in both during June–August.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RUS-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RUS-SRC-102",
+          "locator": "PDF p. 145, section describing the May 2024 forest fire in the Republic of Sakha (Yakutia)."
+        }
+      ],
+      "geographies": [
+        "Republic of Sakha (Yakutia)"
+      ],
+      "affected_groups": [],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: EMERCOM records May 2024 natural fires over more than 44,271 ha in Yakutia; 2,728 emergency-system personnel and 187 equipment units were mobilized.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RUS-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RUS-SRC-102",
+          "locator": "PDF p. 159, 2024 checks of regional readiness for the flood-prone period."
+        }
+      ],
+      "geographies": [
+        "Russian Federation"
+      ],
+      "affected_groups": [],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: Before the 2024 flood season, 48 federal subjects were rated ready and 37 limitedly ready; EMERCOM says the checks prompted revisions to federal and regional emergency plans.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RUS-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RUS-SRC-102",
+          "locator": "PDF p. 159, monitoring and operational groups during the 2024 flood-prone period."
+        }
+      ],
+      "geographies": [
+        "Russian Federation"
+      ],
+      "affected_groups": [],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: During active flood conditions in 2024, 2,499 operational groups were deployed more than 11,100 times, with satellite monitoring received up to seven times daily.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RUS-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RUS-SRC-103",
+          "locator": "PDF p. 5, National Circumstances, reported surface-temperature trends."
+        }
+      ],
+      "geographies": [
+        "Russian Federation",
+        "Russian Arctic zone"
+      ],
+      "affected_groups": [
+        "residents of the Arctic zone"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09 reports: The 2025 submission reports mean annual temperature rising 0.5°C per decade nationally since the mid-1970 s and 0.70°C per decade in the Arctic zone, 3.7 times the global rate.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RUS-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RUS-SRC-103",
+          "locator": "PDF pp. 17–18, adaptation planning system and second-stage action plan."
+        }
+      ],
+      "geographies": [
+        "Russian Federation"
+      ],
+      "affected_groups": [
+        "regional authorities",
+        "sectoral institutions"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09 reports: The submission says first-stage planning ended in 2022; its second-stage plan through 2025 was underway, and regional plus ten sector plans were approved.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RUS-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RUS-SRC-103",
+          "locator": "PDF p. 18, stated tasks of the regional and sectoral adaptation plans."
+        }
+      ],
+      "geographies": [
+        "Russian North"
+      ],
+      "affected_groups": [
+        "Indigenous peoples of the North"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09 reports: Plan tasks include reducing climate risks to the traditional livelihoods of Indigenous peoples of the North.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RUS-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RUS-SRC-103",
+          "locator": "PDF pp. 18–19, Moscow urban adaptation practices."
+        }
+      ],
+      "geographies": [
+        "Moscow"
+      ],
+      "affected_groups": [
+        "Moscow residents",
+        "urban infrastructure users"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09 reports: The submission reports Moscow prioritizing electricity, heating and gas-network upgrades, alongside planting wind- and frost-resistant trees and increasing irrigation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RUS-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RUS-SRC-104",
+          "locator": "Publisher article page, English abstract, relative regional climate-risk findings."
+        }
+      ],
+      "geographies": [
+        "southwest Russia",
+        "northeast Russia",
+        "southeast Russia"
+      ],
+      "affected_groups": [
+        "urban populations",
+        "agricultural producers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "current",
+        "medium-term"
+      ],
+      "scenario": "Exposure and vulnerability indicators use current conditions; hazard indicators project to mid-century under multiple SSP scenarios, whose variants are not specified in the abstract.",
+      "compact_statement": "Source dated 2025 reports: The abstract's regional ranking places heat and agricultural water stress in southwest Russia, permafrost and fire risks in the northeast, and flood risk in the southeast.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RUS-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RUS-SRC-105",
+          "locator": "FNI publication page, publisher abstract, findings on regional adaptation policy."
+        }
+      ],
+      "geographies": [
+        "Russian regions"
+      ],
+      "affected_groups": [
+        "regional authorities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-17 reports: The abstract says regional adaptation is often used for modernization, not led by climate policy; mitigation tasks also appear in adaptation plans.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RUS-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RUS-SRC-105",
+          "locator": "FNI publication page, publisher abstract, Yamal-Nenets case description."
+        }
+      ],
+      "geographies": [
+        "Yamal-Nenets Autonomous Okrug"
+      ],
+      "affected_groups": [
+        "residents of Yamal-Nenets Autonomous Okrug"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-17 reports: In Yamal-Nenets, adaptation is implemented mainly through sectoral plans embedded in infrastructure, civil protection and resource-management programmes.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RUS-E-113",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "RUS-SRC-105",
+          "locator": "FNI publication page, opening abstract paragraph on war, sanctions and climate-policy drivers."
+        }
+      ],
+      "geographies": [
+        "Russian Federation"
+      ],
+      "affected_groups": [
+        "federal and regional policy institutions"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-17 reports: The abstract links war and sanctions to a climate-policy setting where domestic politics, not international climate diplomacy, determines Russia's response.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "RUS-E-113",
+        "source_id": "RUS-SRC-105",
+        "url": "https://www.fni.no/publications/adapting-to-what-regional-climate-policy-in-russia",
+        "locator": "FNI publication page, opening abstract paragraph on war, sanctions and climate-policy drivers.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+      },
+      "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "RUS-SRC-105",
+        "source_url": "https://www.fni.no/publications/adapting-to-what-regional-climate-policy-in-russia",
+        "locator": "FNI publication page, opening abstract paragraph on war, sanctions and climate-policy drivers.",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "RUS-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RUS-SRC-106",
+          "locator": "Bank of Russia page, introductory section on physical and transition climate risks."
+        }
+      ],
+      "geographies": [
+        "Russian regions",
+        "Russian Federation"
+      ],
+      "affected_groups": [
+        "Russian companies",
+        "financial institutions"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The Bank says some Russian regions are already experiencing more frequent droughts, floods and other hazards, while export exposure creates transition risks for companies and financial stability.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RUS-E-116",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RUS-SRC-106",
+          "locator": "Bank of Russia page, section on its 2023 transition-risk stress test."
+        }
+      ],
+      "geographies": [
+        "Russian Federation"
+      ],
+      "affected_groups": [
+        "companies",
+        "financial institutions"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "Declining demand for carbon-intensive products; the official page does not state scenario magnitudes. Estimates assume no adaptation measures.",
+      "compact_statement": "Source dated not stated reports: A 2023 stress test modeled falling demand for carbon-intensive products; without adaptation, mining, quarrying and metallurgy companies could see weaker financial performance in 2030–2040, creating systemic risk.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "RUS-E-117",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "RUS-SRC-106",
+          "locator": "Bank of Russia page, section on 2024 survey of financial institutions."
+        }
+      ],
+      "geographies": [
+        "Russian Federation"
+      ],
+      "affected_groups": [
+        "financial institutions",
+        "their clients"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: In its 2024 survey, most financial institutions said they factor climate risks into decisions but had not yet adopted more active risk-management approaches.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "RUS-E-113",
+  "source_access_review": {
+    "selected_record_id": "RUS-E-113",
+    "selected_source_id": "RUS-SRC-105",
+    "url": "https://www.fni.no/publications/adapting-to-what-regional-climate-policy-in-russia",
+    "locator": "FNI publication page, opening abstract paragraph on war, sanctions and climate-policy drivers.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 84449,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+  },
+  "checks": [
+    {
+      "record_id": "RUS-E-113",
+      "source_id": "RUS-SRC-105",
+      "locator": "FNI publication page, opening abstract paragraph on war, sanctions and climate-policy drivers.",
+      "verification_status": "verified",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "RUS-E-113: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "RUS-E-101",
+    "RUS-E-102",
+    "RUS-E-103",
+    "RUS-E-104",
+    "RUS-E-105",
+    "RUS-E-106",
+    "RUS-E-107",
+    "RUS-E-108",
+    "RUS-E-109",
+    "RUS-E-110",
+    "RUS-E-111",
+    "RUS-E-112",
+    "RUS-E-113",
+    "RUS-E-115",
+    "RUS-E-116",
+    "RUS-E-117"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

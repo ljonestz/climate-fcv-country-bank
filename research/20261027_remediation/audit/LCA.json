@@ -1,0 +1,962 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "LCA",
+  "candidate_path": "countries/LCA/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 7,
+    "evidence_count": 13,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 13
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 6,
+      "access-only": 6,
+      "verified": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "LCA-E-001"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "LCA-E-003",
+          "LCA-E-005",
+          "LCA-E-101",
+          "LCA-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "LCA-E-002",
+          "LCA-E-006",
+          "LCA-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "LCA-E-004",
+          "LCA-E-102",
+          "LCA-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "LCA-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "LCA-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "LCA-E-101",
+          "LCA-E-102",
+          "LCA-E-103",
+          "LCA-E-104"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/LCA/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "LCA-SRC-001",
+      "title": "World Bank support to reduce flooding in Saint Lucia",
+      "organization": "World Bank",
+      "publication_date": "2025-09-30",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2025/10/07/world-bank-support-to-reduce-flooding-in-saint-lucia",
+      "geographic_coverage": [
+        "Saint Lucia",
+        "Castries",
+        "Anse La Raye"
+      ],
+      "temporal_coverage": "Project announcement dated30September2025, updated7October2025.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LCA-E-001",
+        "LCA-E-002"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LCA-SRC-002",
+      "title": "Saint Lucia to strengthen resilience with World Bank support",
+      "organization": "World Bank",
+      "publication_date": "2025-04-10",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2025/04/10/saint-lucia-to-strengthen-resilience-with-world-bank-support",
+      "geographic_coverage": [
+        "Saint Lucia"
+      ],
+      "temporal_coverage": "April2025 hazard and financing diagnosis.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LCA-E-003",
+        "LCA-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LCA-SRC-003",
+      "title": "Universal adaptive social protection",
+      "organization": "UNDP",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.undp.org/barbados/projects/universal-adaptive-social-protection",
+      "geographic_coverage": [
+        "Saint Lucia"
+      ],
+      "temporal_coverage": "Programme and Saint Lucia vulnerability analysis using2016 household survey.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LCA-E-005",
+        "LCA-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LCA-SRC-101",
+      "title": "Climate Change Adaptation Planning for Castries, Saint Lucia",
+      "organization": "World Bank; ICF GHK, King's College London and Grupo Laera",
+      "publication_date": "2013",
+      "publication_date_basis": "document-version",
+      "url": "https://www.worldbank.org/content/dam/Worldbank/document/LAC/Climate%20Change%20Adaptation%20Planning%20for%20Castries_FINAL.pdf",
+      "geographic_coverage": [
+        "Castries",
+        "Castries East",
+        "Castries North",
+        "Castries Central"
+      ],
+      "temporal_coverage": "Castries hazard and adaptive-capacity assessment; many settlement and household indicators date from 2010-2012.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LCA-E-101",
+        "LCA-E-102"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 156-page PDF; settlement vulnerability and institutional risk governance passages inspected.",
+          "notes": "Inspected local hazard assessment, household vulnerability and institutional capacity sections.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LCA-SRC-102",
+      "title": "Saint Lucia: Flood Event of December 24-25, 2013 - Joint Rapid Damage and Needs Assessment",
+      "organization": "Government of Saint Lucia and World Bank, with GFDRR and European Union support",
+      "publication_date": "2014-03",
+      "publication_date_basis": "document-version",
+      "url": "https://www.gfdrr.org/sites/default/files/publication/pda-2014-saint-lucia_0.pdf",
+      "geographic_coverage": [
+        "Saint Lucia",
+        "Anse La Raye",
+        "Canaries",
+        "Soufriere",
+        "Micoud",
+        "Choiseul",
+        "Vieux Fort",
+        "Castries",
+        "Bexon"
+      ],
+      "temporal_coverage": "Assessment of the 24-25 December 2013 flood; report issued March 2014.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LCA-E-103",
+        "LCA-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 66-page government-World Bank assessment; event, poverty, displacement, water-system and response passages inspected.",
+          "notes": "Report labels some housing loss and relocation needs as incomplete; findings remain historical.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LCA-SRC-103",
+      "title": "Disaster risk reduction in Saint Lucia: Situational analysis 2022",
+      "organization": "United Nations Office for Disaster Risk Reduction (UNDRR)",
+      "publication_date": "2022",
+      "publication_date_basis": "document-version",
+      "url": "https://www.preventionweb.net/publication/disaster-risk-reduction-saint-lucia-situational-analysis-2022",
+      "geographic_coverage": [
+        "Saint Lucia"
+      ],
+      "temporal_coverage": "National situational analysis published in 2022.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LCA-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Official UNDRR publication summary, findings on governance, civil unrest and data gaps.",
+          "notes": "Linked 76-page PDF was not inspected; no report-text claims beyond the official summary are made.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "LCA-SRC-104",
+      "title": "UN and Eastern Caribbean Partners Convene to Strengthen Prevention of Youth Crime and Violence",
+      "organization": "United Nations Barbados and Eastern Caribbean Multi-Country Office",
+      "publication_date": "2026-05-01",
+      "publication_date_basis": "portal-publication",
+      "url": "https://easterncaribbean.un.org/en/314847-un-and-eastern-caribbean-partners-convene-strengthen-prevention-youth-crime-and-violence",
+      "geographic_coverage": [
+        "Eastern Caribbean",
+        "Saint Lucia"
+      ],
+      "temporal_coverage": "Regional consultation on a proposed youth crime and violence programme, 1 May 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "LCA-E-106",
+        "LCA-E-107"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full UN article, 1 May 2026, programme rationale, mediators and design-stage status.",
+          "notes": "Regional article names Saint Lucia as a participating country but does not provide national crime prevalence.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "LCA-E-106",
+        "selected_source_id": "LCA-SRC-104",
+        "url": "https://easterncaribbean.un.org/en/314847-un-and-eastern-caribbean-partners-convene-strengthen-prevention-youth-crime-and-violence",
+        "locator": "UN article, consultation rationale and regional youth-crime mediators",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 63880,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "LCA-E-106"
+      ],
+      "manual_verified_record_ids": [
+        "LCA-E-106"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "LCA-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LCA-SRC-001",
+          "locator": "Flood-risk diagnosis paragraphs"
+        }
+      ],
+      "geographies": [
+        "Castries",
+        "Anse La Raye"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Castries and Anse La Raye face flood risks linked to steep terrain, coastal settlement and exposed infrastructure.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LCA-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LCA-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LCA-SRC-001",
+          "locator": "Infrastructure and capacity investment paragraphs"
+        }
+      ],
+      "geographies": [
+        "Castries",
+        "Anse La Raye"
+      ],
+      "affected_groups": [],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The2025 urban flood project planned drainage, river restoration, early warning and community coordination in Castries and Anse La Raye.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LCA-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LCA-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LCA-SRC-002",
+          "locator": "Hazard and fiscal-risk paragraphs"
+        }
+      ],
+      "geographies": [
+        "Saint Lucia"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Saint Lucia's coastal concentration exposes people and economic activity to storms, flooding and drought while placing pressure on public finances.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LCA-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LCA-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LCA-SRC-002",
+          "locator": "Reform paragraphs on financial readiness"
+        }
+      ],
+      "geographies": [
+        "Saint Lucia"
+      ],
+      "affected_groups": [],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Saint Lucia adopted a disaster-risk financing strategy and public-asset management measures to strengthen preparedness.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LCA-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LCA-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LCA-SRC-003",
+          "locator": "Saint Lucia gender and climate vulnerability analysis synopsis"
+        }
+      ],
+      "geographies": [
+        "Saint Lucia"
+      ],
+      "affected_groups": [
+        "women",
+        "poor households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The Saint Lucia analysis links unequal climate vulnerability to poverty, food insecurity and access to essential services, with disproportionate risks for women.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LCA-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LCA-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LCA-SRC-003",
+          "locator": "UNDP activities3-4 and programme description"
+        }
+      ],
+      "geographies": [
+        "Saint Lucia"
+      ],
+      "affected_groups": [
+        "women",
+        "vulnerable households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The programme proposes gender-responsive vulnerability analysis and integrated social protection linked to disaster preparedness.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "LCA-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LCA-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LCA-SRC-101",
+          "locator": "2013 report, physical PDF p.74, printed p.57, named hillside settlements; historical 2010–2012 indicators."
+        }
+      ],
+      "geographies": [
+        "Black Mallet",
+        "Maynard Hill",
+        "Entrepot",
+        "Bocage",
+        "Pavee",
+        "Bois Patat",
+        "Morne Dudon",
+        "La Pansee",
+        "Castries"
+      ],
+      "affected_groups": [
+        "low-income households",
+        "residents of unplanned settlements"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2013 reports: The Castries assessment identifies Black Mallet, Maynard Hill, Entrepot, Bocage and Pavee in Castries East, Bois Patat and Morne Dudon in Castries North, and La Pansee in Castries Central as poor, unplanned hillside settlements exposed to landslides.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LCA-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LCA-SRC-101",
+          "locator": "PDF pp.86 and 93-94, institutional risk governance assessment"
+        }
+      ],
+      "geographies": [
+        "Castries",
+        "Saint Lucia"
+      ],
+      "affected_groups": [
+        "Castries residents",
+        "local institutions"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2013 reports: The assessment describes Castries risk governance as reactive, with risk identification, reduction and adaptive governance weak and most investment focused on emergency response and short-term recovery.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LCA-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LCA-SRC-102",
+          "locator": "Original 66-page assessment, executive summary and social-impact discussion; printed pp.5–6, physical pp.19–20."
+        }
+      ],
+      "geographies": [
+        "Anse La Raye",
+        "Canaries",
+        "Soufriere",
+        "Micoud",
+        "Choiseul",
+        "Vieux Fort",
+        "Castries",
+        "Bexon"
+      ],
+      "affected_groups": [
+        "displaced households",
+        "poor households",
+        "children"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The March 2014 assessment reports that the December 2013 trough heavily affected Anse La Raye, Canaries, Soufriere, Micoud, Choiseul and Vieux Fort. More than 550 people were evacuated to shelters or other refuges, with poverty affecting vulnerability.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LCA-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LCA-SRC-102",
+          "locator": "Original PDF physical p.20, printed p.6, water and transport disruption."
+        }
+      ],
+      "geographies": [
+        "Saint Lucia",
+        "Canaries",
+        "Anse La Raye"
+      ],
+      "affected_groups": [
+        "water users",
+        "flood-affected communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2013 trough damaged roads, bridges, John Compton Dam's water system and distribution pipes; some communities lacked piped water for up to ten days.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LCA-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LCA-SRC-103",
+          "locator": "Official report summary, findings on institutional framework, hazards and data"
+        }
+      ],
+      "geographies": [
+        "Saint Lucia"
+      ],
+      "affected_groups": [
+        "communities exposed to disasters",
+        "people affected by civil unrest"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022 reports: UNDRR's 2022 summary says Saint Lucia's DRR framework includes NEMO, a multi-sectoral advisory council and a Hazard Mitigation Council; it also flags limited disaggregated data and lists civil unrest among the country's hazards.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "LCA-E-106",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "LCA-SRC-104",
+          "locator": "UN article, consultation rationale and regional youth-crime mediators"
+        }
+      ],
+      "geographies": [
+        "Eastern Caribbean",
+        "Saint Lucia"
+      ],
+      "affected_groups": [
+        "adolescents and young people",
+        "boys and young men"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-05-01 reports: A 2026 UN consultation included Saint Lucia among countries shaping a regional response to youth crime and violence. The article says regional youth risks are linked to structural inequality, socioeconomic exclusion, weak protective environments and unmet psychosocial needs, especially for boys and young men.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "LCA-E-106",
+        "source_id": "LCA-SRC-104",
+        "url": "https://easterncaribbean.un.org/en/314847-un-and-eastern-caribbean-partners-convene-strengthen-prevention-youth-crime-and-violence",
+        "locator": "UN article, consultation rationale and regional youth-crime mediators",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+      },
+      "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "LCA-SRC-104",
+        "source_url": "https://easterncaribbean.un.org/en/314847-un-and-eastern-caribbean-partners-convene-strengthen-prevention-youth-crime-and-violence",
+        "locator": "UN article, consultation rationale and regional youth-crime mediators",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "LCA-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "LCA-SRC-104",
+          "locator": "UN article, Joint Programme approach and next steps"
+        }
+      ],
+      "geographies": [
+        "Eastern Caribbean",
+        "Saint Lucia"
+      ],
+      "affected_groups": [
+        "adolescents and young people aged 10-29"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-05-01 reports: The proposed regional programme targets ages 10-29 with public-health and socio-ecological prevention, youth participation and gender-responsive interventions; in May 2026 stakeholders were still validating its design and governance arrangements.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "LCA-E-106",
+  "source_access_review": {
+    "selected_record_id": "LCA-E-106",
+    "selected_source_id": "LCA-SRC-104",
+    "url": "https://easterncaribbean.un.org/en/314847-un-and-eastern-caribbean-partners-convene-strengthen-prevention-youth-crime-and-violence",
+    "locator": "UN article, consultation rationale and regional youth-crime mediators",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 63880,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+  },
+  "checks": [
+    {
+      "record_id": "LCA-E-106",
+      "source_id": "LCA-SRC-104",
+      "locator": "UN article, consultation rationale and regional youth-crime mediators",
+      "verification_status": "verified",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "LCA-E-106: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "LCA-E-001",
+    "LCA-E-002",
+    "LCA-E-003",
+    "LCA-E-004",
+    "LCA-E-005",
+    "LCA-E-006",
+    "LCA-E-101",
+    "LCA-E-102",
+    "LCA-E-103",
+    "LCA-E-104",
+    "LCA-E-105",
+    "LCA-E-106",
+    "LCA-E-107"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

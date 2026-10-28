@@ -1,0 +1,1543 @@
+{
+  "version": "2026.10.27.remediated",
+  "countries": {
+    "TCD": {
+      "source_updates": {
+        "TCD-SRC-002": {
+          "license_status": "unknown",
+          "accessed_on": "2026-10-27",
+          "limitations": "Physical PDF page 4 permits noncommercial reproduction with attribution; no unrestricted open licence is asserted. Report-level mechanisms are not measured local causal effects."
+        }
+      },
+      "evidence_updates": {
+        "TCD-E-006": {
+          "statement": "The April 2023 update asserts that floods compound displacement and conflict challenges; this is report-level context, not demonstrated local causality.",
+          "compact_statement": "The April 2023 update asserts that floods compound displacement and conflict challenges; this is report-level context, not demonstrated local causality.",
+          "source_refs": [
+            {
+              "source_id": "TCD-SRC-002",
+              "locator": "Physical PDF pages 14-15 (printed xii-xiii), executive summary; physical page 35 (printed 19), compound displacement risks."
+            }
+          ],
+          "time_horizons": [
+            "historical"
+          ],
+          "uncertainty": "Direct reporting of a source assertion, not an event-specific causal estimate. The assertion concerns the April 2023 report period and does not establish current local conflict effects."
+        }
+      },
+      "add_evidence": [
+        {
+          "evidence_id": "TCD-E-109",
+          "iso3": "TCD",
+          "statement": "The April 2023 update reports that refugees and conflict-displaced people often settle in floodplains, facing repeat displacement, service shortages and barriers to local trade.",
+          "compact_statement": "The April 2023 update reports that refugees and conflict-displaced people often settle in floodplains, facing repeat displacement, service shortages and barriers to local trade.",
+          "evidence_status": "observed",
+          "analytical_role": "direct-climate-fcv",
+          "evidence_class": "direct-climate-fcv",
+          "administrative_level": "national",
+          "ecological_level": null,
+          "refresh_tier": "structural",
+          "review_due": "2027-10-27",
+          "hazard_tags": [
+            "flooding"
+          ],
+          "impact_tags": [
+            "repeat displacement"
+          ],
+          "geographies": [
+            "Chad floodplains"
+          ],
+          "affected_groups": [
+            "refugees",
+            "conflict-displaced people"
+          ],
+          "sectors": [
+            "settlements",
+            "livelihoods",
+            "basic services"
+          ],
+          "systems_assets_resources": [
+            "housing",
+            "services",
+            "local trade"
+          ],
+          "institutions": [],
+          "mediator_tags": [
+            "constrained settlement options",
+            "access barriers"
+          ],
+          "interaction_direction": "fcv-to-climate",
+          "time_horizons": [
+            "historical"
+          ],
+          "scenario": null,
+          "source_refs": [
+            {
+              "source_id": "TCD-SRC-002",
+              "locator": "Physical PDF page 35, printed page 19, paragraph beginning Chad is in a fragile and conflict-affected situation."
+            }
+          ],
+          "confidence": "medium",
+          "uncertainty": "Report-level vulnerability mechanism; no named settlement, measured causal effect or obstruction of a particular adaptation project is established. Displaced people are affected groups, not security threats.",
+          "review_status": "draft",
+          "review_date": null
+        },
+        {
+          "evidence_id": "TCD-E-110",
+          "iso3": "TCD",
+          "statement": "FAO's 7 September 2026 brief relays an estimate of 3.18 million people, 17% of the analysed population, in CH Phase 3 or above during June-August 2026.",
+          "compact_statement": "FAO's 7 September 2026 brief relays an estimate of 3.18 million people, 17% of the analysed population, in CH Phase 3 or above during June-August 2026.",
+          "evidence_status": "observed",
+          "analytical_role": "vulnerability-capacity",
+          "evidence_class": "sensitivity",
+          "administrative_level": "national",
+          "ecological_level": null,
+          "refresh_tier": "current",
+          "review_due": "2027-01-25",
+          "hazard_tags": [
+            "rainfall variability"
+          ],
+          "impact_tags": [
+            "acute food insecurity"
+          ],
+          "geographies": [
+            "Chad"
+          ],
+          "affected_groups": [
+            "population analysed by Cadre Harmonise"
+          ],
+          "sectors": [
+            "food security"
+          ],
+          "systems_assets_resources": [
+            "food access"
+          ],
+          "institutions": [
+            "FAO",
+            "Cadre Harmonise"
+          ],
+          "mediator_tags": [],
+          "interaction_direction": "contextual",
+          "time_horizons": [
+            "historical"
+          ],
+          "scenario": null,
+          "source_refs": [
+            {
+              "source_id": "TCD-SRC-101",
+              "locator": "7 September 2026 brief, About 3.18 million people estimated to face severe acute food insecurity during 2026 lean season, first paragraph."
+            }
+          ],
+          "confidence": "medium",
+          "uncertainty": "Dated Cadre Harmonise estimate relayed by FAO, not a census or an October 2026 prevalence claim; denominator is the analysed population. Climate alone is not identified as the cause.",
+          "review_status": "draft",
+          "review_date": null
+        }
+      ],
+      "add_pathways": [
+        {
+          "pathway_id": "TCD-P-101",
+          "iso3": "TCD",
+          "climate_pressure": "Flood exposure in settlement floodplains.",
+          "documented_impact": "Conflict-displaced people and refugees face flood risk and possible repeat displacement.",
+          "fcv_mediator": "Displacement, service shortages and social or legal barriers constrain safe settlement and livelihood options.",
+          "possible_consequence": "Constrained options can deepen flood vulnerability; this is a reported mechanism, not a measured local climate-conflict effect.",
+          "geographies": [
+            "Chad floodplains"
+          ],
+          "affected_groups": [
+            "refugees",
+            "conflict-displaced people"
+          ],
+          "sectors": [
+            "settlements",
+            "livelihoods",
+            "basic services"
+          ],
+          "systems_assets_resources": [
+            "housing",
+            "services",
+            "local trade"
+          ],
+          "institutions": [],
+          "supporting_evidence_ids": [
+            "TCD-E-109"
+          ],
+          "link_evidence": {
+            "pressure": [
+              "TCD-E-109"
+            ],
+            "impact": [
+              "TCD-E-109"
+            ],
+            "mediator": [
+              "TCD-E-109"
+            ],
+            "consequence": [
+              "TCD-E-109"
+            ]
+          },
+          "evidence_strength": "direct",
+          "alternative_explanations": [
+            "Poverty, land availability, urban planning and flood protection also shape exposure."
+          ],
+          "uncertainty": "April 2023 source assertion at national floodplain scale; no named-site causal estimate or specific adaptation-project obstruction. Displacement is vulnerability, not a threat attributed to refugees.",
+          "resilience_factors": [
+            "Safer settlement, inclusive services and livelihood access are operational implications to assess, not evaluated outcomes."
+          ],
+          "compact_statement": "Chad's April 2023 update reports displacement into floodplains and constrained services and livelihoods, increasing flood vulnerability; local applicability remains unverified.",
+          "interaction_direction": "fcv-to-climate",
+          "review_status": "draft",
+          "review_date": null
+        }
+      ],
+      "add_gaps": [
+        "The floodplain displacement mechanism is documented at report level. Eastern Chad, Lac and N'Djamena require separate project-location verification; evidence from one does not establish another's mechanism."
+      ],
+      "decisions": [
+        {
+          "record_ids": [
+            "TCD-E-006",
+            "TCD-E-109",
+            "TCD-P-101",
+            "TCD-SRC-002"
+          ],
+          "reason": "Retain direct-climate-fcv class and role for explicit reporting, while qualifying report-level assertion. Reject blanket hazard-only interpretation and unsupported measured-local-causality interpretation. Correct locator and restricted reuse label without asserting an unrestricted open licence.",
+          "source_url": "https://documents1.worldbank.org/curated/en/099070623113040139/pdf/P179299084fd380990a9b10385fd104b6d4.pdf",
+          "locator": "Physical PDF pages 4, 14-15 and 35 (printed ii, xii-xiii and 19).",
+          "verification_method": "Reopened official PDF readable text, inspected attribution terms and displacement passage.",
+          "accessed_on": "2026-10-27"
+        },
+        {
+          "record_ids": [
+            "TCD-E-101",
+            "TCD-E-102",
+            "TCD-E-110"
+          ],
+          "reason": "Verified dated crop and food-security statements. Keep lean-season period and analysed-population denominator. No unsupported eastern-Chad climate-caused conflict claim added.",
+          "source_url": "https://www.fao.org/giews/countrybrief/country.jsp?code=TCD",
+          "locator": "Reference date 7 September 2026; crop production and food security sections.",
+          "verification_method": "Reopened full official HTML brief.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "PNG": {
+      "evidence_updates": {
+        "PNG-E-103": {
+          "source_refs": [
+            {
+              "source_id": "PNG-SRC-101",
+              "locator": "Physical PDF page 17, printed spread 29-30, Output 2 Climate Action: 12 disaster-prone areas and 12 projects."
+            }
+          ]
+        },
+        "PNG-E-104": {
+          "source_refs": [
+            {
+              "source_id": "PNG-SRC-101",
+              "locator": "Physical PDF page 17, printed spread 29-30, BRCC paragraph: 24 communities, nine grant communities, over 16,000 people will benefit."
+            }
+          ]
+        },
+        "PNG-E-105": {
+          "statement": "UNDP's HJP2 design describes inter-group violence, displacement and sorcery accusation-related violence (SARV) alongside climate vulnerability in Hela, Southern Highlands, Enga and Western Highlands.",
+          "compact_statement": "UNDP's HJP2 design describes inter-group violence, displacement and sorcery accusation-related violence (SARV) alongside climate vulnerability in Hela, Southern Highlands, Enga and Western Highlands.",
+          "uncertainty": "Co-occurring setting-level risks, not proof of climate-caused violence or insecurity-delayed climate recovery. SARV is the abbreviation for sorcery accusation-related violence, not a separate violence category."
+        },
+        "PNG-E-006": {
+          "statement": "IOM's 2015 assessment describes customary tenure, receiving-land agreements, host consent and compensation as constraints on relocation in source-specific PNG examples, including Carteret.",
+          "compact_statement": "IOM's 2015 assessment describes customary tenure, receiving-land agreements, host consent and compensation as constraints on relocation in source-specific PNG examples, including Carteret.",
+          "time_horizons": [
+            "historical"
+          ],
+          "source_refs": [
+            {
+              "source_id": "PNG-SRC-004",
+              "locator": "Physical PDF page 32 (printed32) relocation and tenure; pages36-38 Carteret host/land agreements; physical pages65-66 land-use planning."
+            },
+            {
+              "source_id": "PNG-SRC-009",
+              "locator": "Land/customary tenure and internal mobility section; supplementary reference not independently rechecked in this remediation."
+            }
+          ],
+          "uncertainty": "Historical, source-specific arrangements do not establish current legal rules or identical tenure constraints everywhere. Carteret relocation is multicausal; host consent and inclusion can support feasible relocation."
+        },
+        "PNG-E-008": {
+          "statement": "At one Port Moresby-area site, IDMC's 2022 survey found mixed flood and insecurity displacement reasons and interruptions to schooling; later school attendance improved, while access to services remained uneven.",
+          "compact_statement": "At one Port Moresby-area site, IDMC's 2022 survey found mixed flood and insecurity displacement reasons and interruptions to schooling; later school attendance improved, while access to services remained uneven.",
+          "source_refs": [
+            {
+              "source_id": "PNG-SRC-011",
+              "locator": "Physical PDF pages7-8 (printed12-15): sample of150 displaced/152 non-displaced respondents, mixed reasons, education and service access."
+            }
+          ],
+          "uncertainty": "One-site survey of 150 displaced and 152 non-displaced respondents, not national or Carteret evidence. Displacement-time interruptions coexist with improved subsequent attendance and mixed welfare findings."
+        }
+      },
+      "add_gaps": [
+        "PNG-E-101 to PNG-E-108 remain legitimate standalone capacity, context or bounded impact records. No record from Idauwi/Paipali in Hela is attached to the Carteret relocation pathway. HJP2 design is not evidence of joint climate/peace outcomes."
+      ],
+      "decisions": [
+        {
+          "record_ids": [
+            "PNG-E-101",
+            "PNG-E-102",
+            "PNG-E-103",
+            "PNG-E-104"
+          ],
+          "reason": "Retain training and centres as reported capacity outputs; retain verified 12 areas/12 projects and 24 communities/nine grants/over 16,000 expected beneficiaries. No forced pathway linkage or blanket illustrative relabelling.",
+          "source_url": "https://mptf.undp.org/sites/default/files/documents/2025-05/2024_un_in_papua_new_guinea_annual_results_report.pdf",
+          "locator": "Physical PDF pages 9 and 17; page 17 printed spread 29-30.",
+          "verification_method": "Reopened readable original UN PDF text; no visual screenshot verification claimed.",
+          "accessed_on": "2026-10-27"
+        },
+        {
+          "record_ids": [
+            "PNG-E-105",
+            "PNG-E-106"
+          ],
+          "reason": "Retain risk context and intended programme response as standalone evidence; distinguish SARV/inter-group violence and do not infer recovery delays or achieved peace effects.",
+          "source_url": "https://www.undp.org/papua-new-guinea/projects/united-nations-highlands-joint-programme-phase-2",
+          "locator": "Project summary, expected outcomes and January 2026-April 2028 duration.",
+          "verification_method": "Reopened full official project HTML.",
+          "accessed_on": "2026-10-27"
+        },
+        {
+          "record_ids": [
+            "PNG-E-107",
+            "PNG-E-108"
+          ],
+          "reason": "Retain bounded Western Province impact context; 60 villages, one care centre, approximately 55,000 people confirmed in official summary. Not village-level caseload or national inference.",
+          "source_url": "https://recovery.preventionweb.net/publication/documents-and-publications/flooding-western-province-post-disaster-needs-assessment",
+          "locator": "Publisher summary paragraphs 1-2.",
+          "verification_method": "Reopened full publisher HTML summary only, not underlying assessment PDF.",
+          "accessed_on": "2026-10-27"
+        },
+        {
+          "record_ids": [
+            "PNG-P-003",
+            "PNG-E-008"
+          ],
+          "reason": "Remove Port Moresby survey from Carteret/coastal pathway support and link slots; retain its legitimate standalone urban-site role. National multi-hazard evidence is contextual, not proof of Carteret causation. Do not attach Hela programme outputs.",
+          "source_url": "https://api.internal-displacement.org/sites/default/files/publications/documents/221129_IDMC_CountryBriefing_PapuaNewGuinea.pdf",
+          "locator": "Inherited source locator pp.7-8, local survey; geography mismatch visible in canonical records.",
+          "verification_method": "Coordinator inspected full inherited evidence and pathway fields; separate original-source access attempt recorded; not new source-level certification.",
+          "accessed_on": "2026-10-27"
+        },
+        {
+          "record_ids": [
+            "PNG-E-005",
+            "PNG-E-006",
+            "PNG-E-008"
+          ],
+          "reason": "Reopened inherited source passages. Retain distinct geological/weather hazards, historic source-specific tenure constraints and one-site survey limits; add subsequent schooling improvement as countervailing evidence and correct physical locators.",
+          "source_url": "https://papuanewguinea.un.org/en/download/4849/24387",
+          "locator": "IOM2015 physicalpages32,36-38,65-66; IDMC2022 physicalpages4 and7-8 via sourcePNG-SRC-011.",
+          "verification_method": "Coordinator reopened readable original IOM and IDMC PDFs and inspected referenced passages, sample and reuse terms.",
+          "accessed_on": "2026-10-27"
+        }
+      ],
+      "pathway_updates": {
+        "PNG-P-003": {
+          "supporting_evidence_ids": [
+            "PNG-E-005",
+            "PNG-E-006"
+          ],
+          "link_evidence": {
+            "pressure": [
+              "PNG-E-005",
+              "PNG-E-006"
+            ],
+            "impact": [
+              "PNG-E-006"
+            ],
+            "mediator": [
+              "PNG-E-006"
+            ],
+            "consequence": [
+              "PNG-E-006"
+            ]
+          },
+          "uncertainty": "Carteret evidence is multicausal and source-specific; national multi-hazard displacement is context only. The Port Moresby single-site survey (PNG-E-008) is retained standalone, not used as Carteret/coastal relocation evidence."
+        }
+      }
+    },
+    "TUV": {
+      "evidence_updates": {
+        "TUV-E-103": {
+          "statement": "Tuvalu's 2025 NAP, summarizing SSP2-4.5 and SSP5-8.5 modeling, projects that current 50-year coastal floods may recur every 1-5 years by 2060 in Funafuti, Nui, Nukufetau and Vaitupu.",
+          "compact_statement": "Tuvalu's 2025 NAP, summarizing SSP2-4.5 and SSP5-8.5 modeling, projects that current 50-year coastal floods may recur every 1-5 years by 2060 in Funafuti, Nui, Nukufetau and Vaitupu."
+        },
+        "TUV-E-104": {
+          "uncertainty": "Preliminary/provisional 2022 risk assessment predates the treaty's 28 August 2024 entry into force. Mobility can also create opportunities; not measured migration/conflict incidence or inevitable destabilization."
+        },
+        "TUV-E-105": {
+          "uncertainty": "Preliminary/provisional 2022 recommendation predates the treaty's 28 August 2024 entry into force; not observed aid-related violence or implemented monitoring."
+        }
+      },
+      "add_sources": [
+        {
+          "source_id": "TUV-SRC-104",
+          "title": "Treaty text Falepili Union",
+          "organization": "Governments of Tuvalu and Australia; Australian Department of Foreign Affairs and Trade",
+          "publication_date": "2023-11-09",
+          "publication_date_basis": "document-version",
+          "url": "https://www.dfat.gov.au/geo/tuvalu/australia-tuvalu-falepili-union-treaty/treaty-text-falepili-union",
+          "repository_file": null,
+          "source_type": "government-report",
+          "analytical_roles": [
+            "vulnerability-capacity"
+          ],
+          "country_codes": [
+            "TUV"
+          ],
+          "geographic_coverage": [
+            "Tuvalu",
+            "Australia"
+          ],
+          "temporal_coverage": "Treaty signed 9 November 2023; entered into force 28 August 2024, as confirmed by DFAT's treaty overview.",
+          "accessed_on": "2026-10-27",
+          "methodology": "Bilateral treaty obligations, articles 2 and 3.",
+          "limitations": "Legal arrangements, not evaluated adaptation outcomes; no universal recognition claim.",
+          "license_status": "unknown",
+          "checksum": null
+        },
+        {
+          "source_id": "TUV-SRC-105",
+          "title": "Australia-Tuvalu Falepili Union treaty",
+          "organization": "Australian Department of Foreign Affairs and Trade",
+          "publication_date": null,
+          "publication_date_basis": "not-stated",
+          "url": "https://www.dfat.gov.au/geo/tuvalu/australia-tuvalu-falepili-union-treaty",
+          "repository_file": null,
+          "source_type": "web-page",
+          "analytical_roles": [
+            "vulnerability-capacity"
+          ],
+          "country_codes": [
+            "TUV"
+          ],
+          "geographic_coverage": [
+            "Tuvalu",
+            "Australia"
+          ],
+          "temporal_coverage": "Treaty chronology and mobility pathway as accessed on 27 October 2026.",
+          "accessed_on": "2026-10-27",
+          "methodology": "Official treaty and mobility overview.",
+          "limitations": "Administrative overview, not an impact evaluation.",
+          "license_status": "unknown",
+          "checksum": null
+        }
+      ],
+      "add_evidence": [
+        {
+          "evidence_id": "TUV-E-108",
+          "iso3": "TUV",
+          "statement": "Falepili Treaty articles 2-3 recognize continuing Tuvaluan statehood despite sea-level rise, support remaining at home and establish a bilateral mobility pathway to live, study and work in Australia.",
+          "compact_statement": "Falepili Treaty articles 2-3 recognize continuing Tuvaluan statehood despite sea-level rise, support remaining at home and establish a bilateral mobility pathway to live, study and work in Australia.",
+          "evidence_status": "observed",
+          "analytical_role": "vulnerability-capacity",
+          "evidence_class": "institutional-capacity",
+          "administrative_level": "cross-border",
+          "ecological_level": null,
+          "refresh_tier": "structural",
+          "review_due": "2027-10-27",
+          "hazard_tags": [
+            "sea-level rise"
+          ],
+          "impact_tags": [
+            "habitability",
+            "institutional continuity"
+          ],
+          "geographies": [
+            "Tuvalu",
+            "Australia"
+          ],
+          "affected_groups": [
+            "Tuvaluan citizens",
+            "people choosing to stay",
+            "prospective voluntary migrants"
+          ],
+          "sectors": [
+            "governance",
+            "mobility",
+            "adaptation"
+          ],
+          "systems_assets_resources": [
+            "state continuity",
+            "mobility rights",
+            "cultural identity"
+          ],
+          "institutions": [
+            "Government of Tuvalu",
+            "Government of Australia"
+          ],
+          "mediator_tags": [
+            "rights",
+            "bilateral cooperation"
+          ],
+          "interaction_direction": "contextual",
+          "time_horizons": [
+            "current"
+          ],
+          "scenario": null,
+          "source_refs": [
+            {
+              "source_id": "TUV-SRC-104",
+              "locator": "Articles 2(2)-(3) and 3."
+            },
+            {
+              "source_id": "TUV-SRC-105",
+              "locator": "Opening chronology and Falepili Mobility Pathway section; signed 9 November 2023, in force 28 August 2024."
+            }
+          ],
+          "confidence": "high",
+          "uncertainty": "Observed legal arrangement and voluntary bilateral options, not achieved resilience/peace outcomes, forced relocation, inevitable state extinction or universal recognition of sovereignty. Operational access and distribution need project-specific assessment.",
+          "review_status": "draft",
+          "review_date": null
+        },
+        {
+          "evidence_id": "TUV-E-109",
+          "iso3": "TUV",
+          "statement": "The preliminary 2022 Tuvalu risk profile identifies sea-level threats to territory, identity and maritime baselines; its assessment predates Falepili's 2024 entry into force.",
+          "compact_statement": "The preliminary 2022 Tuvalu risk profile identifies sea-level threats to territory, identity and maritime baselines; its assessment predates Falepili's 2024 entry into force.",
+          "evidence_status": "observed",
+          "analytical_role": "vulnerability-capacity",
+          "evidence_class": "sensitivity",
+          "administrative_level": "national",
+          "ecological_level": null,
+          "refresh_tier": "structural",
+          "review_due": "2027-10-27",
+          "hazard_tags": [
+            "sea-level rise",
+            "coastal erosion"
+          ],
+          "impact_tags": [
+            "identity",
+            "territorial continuity"
+          ],
+          "geographies": [
+            "Tuvalu"
+          ],
+          "affected_groups": [
+            "Tuvaluan communities"
+          ],
+          "sectors": [
+            "governance",
+            "human security"
+          ],
+          "systems_assets_resources": [
+            "territory",
+            "maritime baselines",
+            "cultural identity"
+          ],
+          "institutions": [
+            "Government of Tuvalu",
+            "regional institutions"
+          ],
+          "mediator_tags": [
+            "regional cooperation"
+          ],
+          "interaction_direction": "contextual",
+          "time_horizons": [
+            "historical"
+          ],
+          "scenario": null,
+          "source_refs": [
+            {
+              "source_id": "TUV-SRC-102",
+              "locator": "Physical PDF page 4, printed spread 6-7, Territorial Integrity and Regional Cooperation; provisional notice physical page 5."
+            }
+          ],
+          "confidence": "low",
+          "uncertainty": "Preliminary/provisional risk assessment; not a prediction of state extinction or armed conflict. Read alongside subsequent treaty recognition and voluntary mobility arrangements, not as current legal status.",
+          "review_status": "draft",
+          "review_date": null
+        }
+      ],
+      "add_gaps": [
+        "Non-violent human-security and institutional continuity concerns require rights-based mobility, service continuity and inclusive planning. Treaty existence does not demonstrate equitable access or adaptation effectiveness; no official fragility classification is inferred."
+      ],
+      "decisions": [
+        {
+          "record_ids": [
+            "TUV-E-103"
+          ],
+          "reason": "Restore scenario and named-island/horizon qualifiers in canonical and compact wording, not provenance alone.",
+          "source_url": "https://unfccc.int/sites/default/files/resource/NAP_Tuvalu_2025.pdf",
+          "locator": "Section 4.2.4 physical/printed pages 24-25; section 3.1 page 18 and page 55 confirm mobility context.",
+          "verification_method": "Reopened official PDF readable text.",
+          "accessed_on": "2026-10-27"
+        },
+        {
+          "record_ids": [
+            "TUV-E-108"
+          ],
+          "reason": "Add non-violent governance and voluntary mobility capacity; no achieved resilience or forced relocation claim.",
+          "source_url": "https://www.dfat.gov.au/geo/tuvalu/australia-tuvalu-falepili-union-treaty/treaty-text-falepili-union",
+          "locator": "Articles 2-3; chronology corroborated by official DFAT overview.",
+          "verification_method": "Reopened treaty articles and full official overview HTML.",
+          "accessed_on": "2026-10-27"
+        },
+        {
+          "record_ids": [
+            "TUV-E-104",
+            "TUV-E-105",
+            "TUV-E-109"
+          ],
+          "reason": "Retain preliminary 2022 historical risk framing with correct physical page and post-treaty qualification; reject inevitable state-loss interpretation.",
+          "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2022-11/climate-security-risk-assessment-tuvalu-profile.pdf",
+          "locator": "Physical PDF page 4 printed spread 6-7; provisional notice physical page 5.",
+          "verification_method": "Reopened UNDP PDF readable text; compared subsequent official treaty.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "VEN": {
+      "evidence_updates": {
+        "VEN-E-102": {
+          "statement": "An unverified user-uploaded mirror attributed to MINEC (2025) reports: High-vulnerability agricultural lands include Monagas, Miranda, Aragua, Carabobo, Cojedes, Portuguesa, Lara, Barinas, Táchira and Mérida.",
+          "compact_statement": "An unverified user-uploaded mirror attributed to MINEC (2025) reports: High-vulnerability agricultural lands include Monagas, Miranda, Aragua, Carabobo, Cojedes, Portuguesa, Lara, Barinas, Táchira and Mérida.",
+          "uncertainty": "Risk classes are modelled, not observed losses. Official-original authenticity and exact model assumptions remain unresolved; provisional mirror context only.",
+          "confidence": "low"
+        },
+        "VEN-E-103": {
+          "statement": "An unverified user-uploaded mirror attributed to MINEC (2025) reports: Projected rainfall and heat anomalies affect Indigenous communities in Gran Sabana, Gran Guajira, Perijá, eastern Amazonas and Orinoco Delta.",
+          "compact_statement": "An unverified user-uploaded mirror attributed to MINEC (2025) reports: Projected rainfall and heat anomalies affect Indigenous communities in Gran Sabana, Gran Guajira, Perijá, eastern Amazonas and Orinoco Delta.",
+          "uncertainty": "No household impact estimates. Official-original authenticity and exact model assumptions remain unresolved; provisional mirror context only.",
+          "confidence": "low"
+        }
+      },
+      "add_gaps": [
+        "Official-host Venezuela climate reports were located, but full documents exceeded the web reader size limit and the direct NDC download returned HTML. No official-original authentication of the user-uploaded mirror is claimed. VEN-E-101 to VEN-E-103 remain low-confidence provisional mirror claims."
+      ],
+      "decisions": [
+        {
+          "record_ids": [
+            "VEN-E-101",
+            "VEN-E-102",
+            "VEN-E-103"
+          ],
+          "reason": "Keep low-confidence claims explicitly attributed to the unverified mirror; search results locating official documents do not authenticate their content or the mirror. No primary-text verification or violence pathway inferred.",
+          "source_url": "https://unfccc.int/sites/default/files/resource/BTR%202024%20crt_NC3.pdf",
+          "locator": "Official-host file located; web reader rejected 96,535,500-byte content. NDC direct fetch yielded HTML, not a usable PDF.",
+          "verification_method": "Official-source search and failed full-document access; claim verification unresolved.",
+          "accessed_on": "2026-10-27"
+        },
+        {
+          "record_ids": [
+            "VEN-E-108"
+          ],
+          "claim_verification": "unresolved-limited",
+          "reason": "The selected window is chiefly references/footnotes rather than paragraphs154-155; geographic/relocation claims remain unverified.",
+          "source_url": "https://www.oas.org/en/iachr/docs/annual/2025/Chapters/IA2025_4B_VEN_EN.pdf",
+          "locator": "PDF physical p.40 (printed p.847), paragraphs 154–155.",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "VNM": {
+      "evidence_updates": {
+        "VNM-E-103": {
+          "uncertainty": "Most migrants cite work; climate often acts indirectly, and only 58% of migrant-sending households receive remittances. Geographic names follow the cited study/event boundaries; Vietnam reorganized provincial units in 2025. These are historical footprints, not a current administrative crosswalk."
+        },
+        "VNM-E-105": {
+          "uncertainty": "School-based perceptions, not measured hazard exposure. Geographic names follow the cited study/event boundaries; Vietnam reorganized provincial units in 2025. These are historical footprints, not a current administrative crosswalk."
+        },
+        "VNM-E-106": {
+          "uncertainty": "Self-reported survey results; not independently measured losses. Geographic names follow the cited study/event boundaries; Vietnam reorganized provincial units in 2025. These are historical footprints, not a current administrative crosswalk."
+        },
+        "VNM-E-107": {
+          "uncertainty": "Consultation testimony, not a representative estimate of migration or dropout. Geographic names follow the cited study/event boundaries; Vietnam reorganized provincial units in 2025. These are historical footprints, not a current administrative crosswalk."
+        },
+        "VNM-E-108": {
+          "uncertainty": "Policy review and student research cover three Mekong Delta provinces. Geographic names follow the cited study/event boundaries; Vietnam reorganized provincial units in 2025. These are historical footprints, not a current administrative crosswalk."
+        },
+        "VNM-E-112": {
+          "uncertainty": "Agency case study describes response outputs, not independently measured outcomes. Geographic names follow the cited study/event boundaries; Vietnam reorganized provincial units in 2025. These are historical footprints, not a current administrative crosswalk."
+        },
+        "VNM-E-113": {
+          "uncertainty": "Poverty and ethnic-population percentages concern the wider pre-disaster region, not all households in Cao Bang, Yen Bai and Lao Cai. Geographic names follow the cited study/event boundaries; Vietnam reorganized provincial units in 2025. These are historical footprints, not a current administrative crosswalk."
+        },
+        "VNM-E-114": {
+          "uncertainty": "The plan identifies increased risk; it does not report trafficking incidents caused by Yagi. Geographic names follow the cited study/event boundaries; Vietnam reorganized provincial units in 2025. These are historical footprints, not a current administrative crosswalk."
+        }
+      },
+      "add_gaps": [
+        "Vietnam National Assembly Resolution 202/2025/QH15, adopted 12 June 2025, reorganized provincial units. Historical survey/event names are retained for source fidelity; current project locations need a verified boundary crosswalk. Reopened government notice: https://baochinhphu.vn/nghi-quyet-cua-quoc-hoi-ve-sap-xep-don-vi-hanh-chinh-cap-tinh-102250612191145158.htm"
+      ],
+      "decisions": [
+        {
+          "record_ids": [
+            "VNM-E-103",
+            "VNM-E-105",
+            "VNM-E-106",
+            "VNM-E-107",
+            "VNM-E-108",
+            "VNM-E-112",
+            "VNM-E-113",
+            "VNM-E-114"
+          ],
+          "reason": "Preserve historical study/event geography, qualifying 2025 administrative reorganization rather than silently remapping populations, caseloads or source footprints to new boundaries.",
+          "source_url": "https://baochinhphu.vn/nghi-quyet-cua-quoc-hoi-ve-sap-xep-don-vi-hanh-chinh-cap-tinh-102250612191145158.htm",
+          "locator": "Government notice of Resolution 202/2025/QH15, 12 June 2025; opening and provincial merger list.",
+          "verification_method": "Reopened full official government notice; this verifies administrative context only, not dependent climate claims.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "SOM": {
+      "source_updates": {
+        "SOM-SRC-005": {
+          "license_status": "unknown",
+          "limitations": "Educational/nonprofit reproduction permitted with acknowledgement; written permission required for resale or other commercial use. No unrestricted open licence asserted."
+        }
+      },
+      "evidence_updates": {
+        "SOM-E-009": {
+          "time_horizons": [
+            "historical",
+            "near-term"
+          ],
+          "uncertainty": "Projection can change as rainfall, prices, conflict and assistance evolve. April-June 2026 forecast period has passed; no observed October 2026 classification or caseload is established. Near-term denotes the horizon at forecast issuance, not a new forecast from October."
+        },
+        "SOM-E-011": {
+          "time_horizons": [
+            "historical",
+            "near-term"
+          ],
+          "uncertainty": "Must not be restated as an observed famine. April-June 2026 forecast period has passed; no observed October 2026 classification or caseload is established. Near-term denotes the horizon at forecast issuance, not a new forecast from October."
+        },
+        "SOM-E-010": {
+          "uncertainty": "Not a climate-attributable malnutrition estimate. Dated projection for the full 2026 year; not an observed October caseload or evidence that all expected cases occurred."
+        },
+        "SOM-E-013": {
+          "source_refs": [
+            {
+              "source_id": "SOM-SRC-005",
+              "locator": "One-based physical PDF page 40, section 3.3; Executive Summary physical pages 4-6."
+            }
+          ],
+          "time_horizons": [
+            "historical"
+          ]
+        },
+        "SOM-E-018": {
+          "time_horizons": [
+            "historical"
+          ]
+        },
+        "SOM-E-107": {
+          "statement": "At the BRCiS 2026 endline, 52.1% of 526 surveyed cooperative members (95% CI 39.0-65.1%) reported conflict or insecurity preventing meeting attendance; this is not a share of all households.",
+          "compact_statement": "At the BRCiS 2026 endline, 52.1% of 526 surveyed cooperative members (95% CI 39.0-65.1%) reported conflict or insecurity preventing meeting attendance; this is not a share of all households.",
+          "uncertainty": "Survey-weighted cooperative-member subgroup in programme sites; non-counterfactual endline, not a national prevalence or causal estimate."
+        },
+        "SOM-E-106": {
+          "uncertainty": "Qualitative named-community findings. The adjacent 30% market-travel statistic is programme-subgroup-wide, not assigned to these two communities; non-counterfactual programme endline."
+        }
+      },
+      "add_gaps": [
+        "The April-June 2026 IPC scenarios are historical forecasts, not current October conditions; the annual 2026 malnutrition estimate is a dated projection, not an observed current caseload. The mutable FAO GIEWS URL no longer exposes the cited March edition, so SOM-E-007 remains unverified pending an archived original."
+      ],
+      "decisions": [
+        {
+          "record_ids": [
+            "SOM-E-004"
+          ],
+          "reason": "Retain named-region Q1 2026 drought snapshot, not anthropogenic attribution.",
+          "source_url": "https://faoswalim.org/resources/site_files/Swalim%20Newsletter%20Q1%202026.pdf",
+          "locator": "SOM-SRC-006 physical PDF page 1; exact source URL retained in sources.json.",
+          "verification_method": "Delegated Luna reopened cited full FAO SWALIM Q1 PDF; coordinator inspected canonical record and disposition.",
+          "accessed_on": "2026-10-27"
+        },
+        {
+          "record_ids": [
+            "SOM-E-009",
+            "SOM-E-010",
+            "SOM-E-011"
+          ],
+          "reason": "Retain values, denominators and conditional Burhakaba risk. Apr-Jun forecasts are historical; distinguish annual2026 projection, which is not a present observed count.",
+          "source_url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Somalia_Projection_Update_Acute_Food_Insecurity_Malnutrition_Apr_Jun2026_Report.pdf",
+          "locator": "SOM-SRC-008 physical PDF pages 1-2 and13; exactURL in source record.",
+          "verification_method": "Delegated Luna reopened full IPC report; coordinator corrected overbroad historical-period recommendation for annual2026 projection.",
+          "accessed_on": "2026-10-27"
+        },
+        {
+          "record_ids": [
+            "SOM-E-013",
+            "SOM-SRC-005"
+          ],
+          "reason": "Retain conditional locality-specific mechanism with explicit rejection of direct root causality; correct locator and avoid unrestricted licence claim.",
+          "source_url": "https://www.eip.org/wp-content/uploads/2024/09/EIP-Climate-and-Conflict-Analysis-of-NLA-Somalia-September-2024-2.pdf",
+          "locator": "Physical PDF page40 section3.3 and pages4-6 Executive Summary; copyright/reuse page.",
+          "verification_method": "Delegated Luna reopened full publisherPDF and terms; coordinator inspected source metadata and claim.",
+          "accessed_on": "2026-10-27"
+        },
+        {
+          "record_ids": [
+            "SOM-E-018",
+            "SOM-E-019"
+          ],
+          "reason": "Keep dated programme outputs/partial targets distinct from demonstrated long-term outcomes and IEG fiscal assessment separate from quantified climate loss.",
+          "source_url": "https://documents1.worldbank.org/curated/en/099307503252514921/pdf/SECBOS-b7638dbd-e401-4df7-9d43-ca52fc26a0e9.pdf",
+          "locator": "SOM-SRC-011 physical PDF pages88-89/118; exactURL retained in sources.json.",
+          "verification_method": "Delegated Luna reopened full IEG evaluation; coordinator inspected canonical records.",
+          "accessed_on": "2026-10-27"
+        },
+        {
+          "record_ids": [
+            "SOM-E-106",
+            "SOM-E-107"
+          ],
+          "reason": "Keep named-site testimony and measured programme subgroup distinct; restore spacing and explicit denominator/confidence interval. No national or counterfactual claim.",
+          "source_url": "https://www.nrc.no/globalassets/pdf/reports/brcis-iii-baseline/brcis-iii-endline-report.pdf",
+          "locator": "Physical PDF pages82 and89, sections3.6/3.7.4, Table38.",
+          "verification_method": "Delegated Luna reopened full report passages; coordinator inspected records and applied scoped corrections.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "ALB": {
+      "decisions": [
+        {
+          "record_ids": [
+            "ALB-E-112"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://mjedisi.gov.al/albadapt-programi-per-zhvillim-urban-rezistent-ndaj-klimes/",
+          "locator": "Programme description, climate-information and services component (translated from Albanian)",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "ARG": {
+      "decisions": [
+        {
+          "record_ids": [
+            "ARG-E-117"
+          ],
+          "claim_verification": "unresolved-limited",
+          "reason": "The inspected window confirms Mendoza and Tunuyan forecasts but ends before the other river values; the whole multi-river claim is not reverified.",
+          "source_url": "https://www.irrigacion.gov.ar/web/2026/10/02/informe-de-la-situacion-hidrica-a-partir-del-pronostico-de-escurrimientos-temporada-2026-2027/",
+          "locator": "Mendoza water forecast webpage, runoff volumes for the 2026–2027 season",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "ATG": {
+      "decisions": [
+        {
+          "record_ids": [
+            "ATG-E-110"
+          ],
+          "claim_verification": "unresolved-limited",
+          "reason": "The response was UTF-16 HTML incorrectly decoded with NULs/markup; no readable cited passage was obtained.",
+          "source_url": "https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc=8zXhze%2FGcf%2Bs3yN995aV5H8HExKN3ssmg9nvzWA3JwKJPlOdtFKjfKE1usIQ59dMudYBai3h1oQhGve3qwx0WD3yAFmXxDyPQ0U%2B0dvezD0%3D",
+          "locator": "CEDAW concluding observations, paragraphs 9–10",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "AZE": {
+      "decisions": [
+        {
+          "record_ids": [
+            "AZE-E-111"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://azerbaijan.un.org/en/322088-4th-international-mine-action-conference-%E2%80%9Chumanitarian-demining-urban-recovery-setting",
+          "locator": "UN Resident Coordinator representative’s speech, mine-action progress passage, 2 September 2026",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "BGR": {
+      "decisions": [
+        {
+          "record_ids": [
+            "BGR-E-113"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://economy-finance.ec.europa.eu/document/download/fa789d72-0011-4d03-af69-974a7b3321ea_en?filename=BG_SWD_2026_202_1_EN_autre_document_travail_service_part1_v3.pdf",
+          "locator": "PDF pp. 96–97, Annex 10, adaptation governance and subnational implementation",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "BLR": {
+      "decisions": [
+        {
+          "record_ids": [
+            "BLR-E-111"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://www.undp.org/belarus/stories/adapting-unpredictable-belarusian-farmers-navigate-consequences-climate-change",
+          "locator": "UNDP story, Brahin district farm case, paragraphs on climate impacts",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ],
+      "evidence_updates": {
+        "BLR-E-111": {
+          "uncertainty": "Anecdotal report from one farm, not a representative climate-impact assessment. The same farm account also describes longer growing seasons and crop diversification; damages are not a complete net-benefit assessment."
+        }
+      }
+    },
+    "BRB": {
+      "decisions": [
+        {
+          "record_ids": [
+            "BRB-E-113"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://www.fisheries.gov.bb/participatory-recovery-planning-workshop/",
+          "locator": "Fisheries Division post, paragraphs 1–2, survey findings and workshop held 22 January 2026",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "CHL": {
+      "decisions": [
+        {
+          "record_ids": [
+            "CHL-E-112"
+          ],
+          "claim_verification": "unresolved-limited",
+          "reason": "The inspected recital window supports the four-region context but does not include every cited commission-mandate recital.",
+          "source_url": "https://www.diariooficial.interior.gob.cl/publicaciones/2025/07/03/44189/01/2667943.pdf",
+          "locator": "PDF pp. 3–4, recitals 8°–12° on the Peace and Understanding Commission",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "CMR": {
+      "decisions": [
+        {
+          "record_ids": [
+            "CMR-E-014"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://www.refugeesinternational.org/reports-briefs/climate-fueled-violence-and-displacement-in-the-lake-chad-basin-focus-on-chad-and-cameroon/",
+          "locator": "“Clashes in Cameroon’s Logone Birni,” lines 90-94. (Refugees International)",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "COG": {
+      "decisions": [
+        {
+          "record_ids": [
+            "COG-E-101"
+          ],
+          "claim_verification": "unresolved-limited",
+          "reason": "Physical page9 confirms named urban sites and scope; it does not show the page13 ongoing-erosion observation.",
+          "source_url": "https://gca.org/wp-content/uploads/2026/03/Congo-Basin_Summary-Report_RoC_vFinal-ENG-1_REFORMAT.pdf",
+          "locator": "PDF pp. 9 and 13, sections 2.1 and 3.2, Site B risk context",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "CPV": {
+      "decisions": [
+        {
+          "record_ids": [
+            "CPV-E-108"
+          ],
+          "claim_verification": "unresolved-limited",
+          "reason": "The inspected window supports the five-year roadmap and intended2026 rollout, but not the full launch/date account.",
+          "source_url": "https://public.wmo.int/media/update/cabo-verde-launches-national-roll-out-of-early-warnings-all",
+          "locator": "WMO update paragraphs 27–58, national rollout and roadmap",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "CRI": {
+      "decisions": [
+        {
+          "record_ids": [
+            "CRI-E-115"
+          ],
+          "claim_verification": "unresolved-limited",
+          "reason": "The inspected window lists projects but not the specific water-conflict objective; the claim remains unresolved.",
+          "source_url": "https://cambioclimatico.minae.go.cr/proyectos-climaticos/",
+          "locator": "HTML lines 26–27, Nicoya-area water adaptation project entry",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "ECU": {
+      "decisions": [
+        {
+          "record_ids": [
+            "ECU-E-108"
+          ],
+          "claim_verification": "unresolved-limited",
+          "reason": "The inspected window confirms interacting protection/climate pressures but not every claim about2025 operational access restrictions.",
+          "source_url": "https://ecuador.un.org/es/315761-an%C3%A1lisis-de-choques-en-ecuador-2026",
+          "locator": "Official publication page, paragraphs 5–6, humanitarian access restrictions and response capacity",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "ERI": {
+      "decisions": [
+        {
+          "record_ids": [
+            "ERI-E-008"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://www.adaptation-undp.org/sites/default/files/resources/final_proposal.pdf",
+          "locator": "PDF p. 3, project background, climate impacts on livelihoods",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "FJI": {
+      "decisions": [
+        {
+          "record_ids": [
+            "FJI-E-102"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://rc-services-assets.s3.eu-west-1.amazonaws.com/s3fs-public/Climate%20Change%20and%20Peacebuilding%20in%20Fiji.pdf",
+          "locator": "PDF p. 10, planned relocation consent thresholds and conflict risk",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "GHA": {
+      "decisions": [
+        {
+          "record_ids": [
+            "GHA-E-005"
+          ],
+          "claim_verification": "unresolved-limited",
+          "reason": "The cited physical page3 contains development context, not the claimed concluding2080 migration/conflict warning; locator/passage remains unresolved.",
+          "source_url": "https://soco.gov.gh/wp-content/uploads/2026/03/20251125_Climate-Resiliency-in-Northern-Ghana-Policy-Brief.pdf",
+          "locator": "PDF p. 3, concluding discussion of food-system reliability, migration, and conflict risk to 2080.",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "GRD": {
+      "decisions": [
+        {
+          "record_ids": [
+            "GRD-E-110"
+          ],
+          "claim_verification": "unresolved-limited",
+          "reason": "The window covers later storage/healthcare measures, not both named100000-gallon tanks and remaining-connection qualification.",
+          "source_url": "https://www.nawasa.gd/nawasa-highlights-major-water-security-investments-in-carriacou-as-g-crews-project-concludes/",
+          "locator": "Article paragraphs on storage tanks, service continuity and remaining operational works",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "IRQ": {
+      "decisions": [
+        {
+          "record_ids": [
+            "IRQ-E-024"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://iraq.un.org/sites/default/files/2024-09/Localized%20CPS%20linkages_Final.pdf",
+          "locator": "recommendations/conclusion, PDF pp.16-18.",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "KNA": {
+      "decisions": [
+        {
+          "record_ids": [
+            "KNA-E-112"
+          ],
+          "claim_verification": "unresolved-limited",
+          "reason": "The window confirms Saint Peters installation/testing but omits the Basseterre20000-customer service claim.",
+          "source_url": "https://mopieudt.gov.kn/wsd-achievements-2026/",
+          "locator": "Article sections 'The Basseterre Desalination Plant' and 'Enhancements in St. Peters'.",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "LAO": {
+      "decisions": [
+        {
+          "record_ids": [
+            "LAO-E-001"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://www.worldbank.org/en/country/lao/publication/lao-pdr-country-climate-and-development-report",
+          "locator": "Key findings, paragraph beginning “Laos has experienced rapid and unplanned urbanization…”",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "LBN": {
+      "decisions": [
+        {
+          "record_ids": [
+            "LBN-E-018"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://www.unicef.org/lebanon/media/8866/file/Water%20as%20a%20Tool%20for%20Defusing%20Socio%20Political%20Tension%20-%20Executive%20Summary%20EN.pdf",
+          "locator": "PDF p.2/6, “Overview”",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "LBR": {
+      "decisions": [
+        {
+          "record_ids": [
+            "LBR-E-107"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://www.undp.org/liberia/projects/peacebuilding-reconciliation-and-social-cohesion-project",
+          "locator": "UNDP project page, project summary",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ],
+      "evidence_updates": {
+        "LBR-E-107": {
+          "statement": "UNDP's undated page for its 2020-2024 peacebuilding project lists land/boundary disputes, inter-group and political tensions, youth unemployment, resource mismanagement, corruption, weak state trust and over-centralization as contextual constraints.",
+          "compact_statement": "UNDP's undated page for its 2020-2024 peacebuilding project lists land/boundary disputes, inter-group and political tensions, youth unemployment, resource mismanagement, corruption, weak state trust and over-centralization as contextual constraints."
+        }
+      }
+    },
+    "LCA": {
+      "decisions": [
+        {
+          "record_ids": [
+            "LCA-E-106"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://easterncaribbean.un.org/en/314847-un-and-eastern-caribbean-partners-convene-strengthen-prevention-youth-crime-and-violence",
+          "locator": "UN article, consultation rationale and regional youth-crime mediators",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "MAR": {
+      "decisions": [
+        {
+          "record_ids": [
+            "MAR-E-111"
+          ],
+          "claim_verification": "unresolved-limited",
+          "reason": "The inspected mission page contains remedial recommendations, not the complete9%-execution/under1%-disbursement passage.",
+          "source_url": "https://www.ifad.org/documents/48415603/51754816/MAR_2000003887_SUPERVISION_REPORT_FEB_2026_0018-1049349578-6754.pdf/222b9b89-55fd-55cd-98e3-779b4bb40ed3?t=1771430632239",
+          "locator": "PDF physical pp.6-7 (printed pp.3-4), sections C-D, mission conclusions on provincial project execution.",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "MDV": {
+      "decisions": [
+        {
+          "record_ids": [
+            "MDV-E-104"
+          ],
+          "claim_verification": "unresolved-limited",
+          "reason": "The reopened URL returned a publication landing page rather than the cited PDF risk-matrix pages; claim unverified.",
+          "source_url": "https://maldives.un.org/en/284636-common-country-analysis-2024",
+          "locator": "PDF pp.72-74, risk matrix on climate-induced internal migration",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "MMR": {
+      "decisions": [
+        {
+          "record_ids": [
+            "MMR-E-023"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://www.sipri.org/sites/default/files/2024-05/01_sipri-nupi_fact_sheet_myanmar_may_0.pdf",
+          "locator": "PDF p.3, “Military and armed actors”. (SIPRI6)",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "MUS": {
+      "decisions": [
+        {
+          "record_ids": [
+            "MUS-E-119"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://acleddata.com/expert-comment/why-have-water-shortages-mauritius-sparked-worst-civil-unrest-recent-years",
+          "locator": "ACLED article lines 47-57, protest chronology and analyst commentary.",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "NAM": {
+      "decisions": [
+        {
+          "record_ids": [
+            "NAM-E-110"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://www.ifrc.org/sites/default/files/2022-08/Namibia-drought-assessment-report-2022.pdf",
+          "locator": "PDF physical p.11 (printed p.11), assessment findings on drought-induced migration and resource competition.",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ],
+      "evidence_updates": {
+        "NAM-E-110": {
+          "uncertainty": "Conflict type and scale unspecified. This is an IFRC assessment assertion, not a measured migration-to-conflict causal estimate or event inventory."
+        }
+      }
+    },
+    "NIC": {
+      "decisions": [
+        {
+          "record_ids": [
+            "NIC-E-107"
+          ],
+          "claim_verification": "unresolved-limited",
+          "reason": "The window confirms programme priorities but ends before the whole smallholder/women outcome statement.",
+          "source_url": "https://www.wfp.org/operations/ni03-nicaragua-country-strategic-plan-2024-2029",
+          "locator": "WFP plan page, paragraphs on priorities and Outcomes 1–3.",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "PAN": {
+      "decisions": [
+        {
+          "record_ids": [
+            "PAN-E-116"
+          ],
+          "claim_verification": "unresolved-limited",
+          "reason": "The inspected text supports impending Gardi Sugdub relocation but ends before the named mainland site and full official attribution.",
+          "source_url": "https://miambiente.gob.pa/parlamentarios-britanicos-visitan-la-comunidad-de-gardi-sugdub-en-la-comarca-guna-yala/",
+          "locator": "Main text paragraphs beginning ‘En los últimos meses’ and ‘MiAMBIENTE destaca’.",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "PLW": {
+      "decisions": [
+        {
+          "record_ids": [
+            "PLW-E-105"
+          ],
+          "claim_verification": "unresolved-limited",
+          "reason": "The inspected page supports Ngerikiil qualitative supply dependence; the claimed variation across other passages was not independently compared.",
+          "source_url": "https://www.palaugov.pw/wp-content/uploads/Palau-Water-Policy-2025-2045.pdf",
+          "locator": "PDF p. 8, Ngerikiil watershed description.",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "RUS": {
+      "decisions": [
+        {
+          "record_ids": [
+            "RUS-E-113"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://www.fni.no/publications/adapting-to-what-regional-climate-policy-in-russia",
+          "locator": "FNI publication page, opening abstract paragraph on war, sanctions and climate-policy drivers.",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "RWA": {
+      "decisions": [
+        {
+          "record_ids": [
+            "RWA-E-104"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://learn.tearfund.org/en/resources/research-report/climate-vulnerability-in-rwanda",
+          "locator": "Publisher page, 'Climate vulnerability in Rwanda' summary, paragraph reporting the Huye and Gisagara index values.",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "SDN": {
+      "decisions": [
+        {
+          "record_ids": [
+            "SDN-E-029"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://www.nupi.no/content/pdf_preview/24833/file/20220511_NUPIFactSheetSudanMay2022LR3%5B19%5D%20%281%29.pdf",
+          "locator": "PDF p.1, “Recommended Actions”. (NUPI8)",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "SUR": {
+      "decisions": [
+        {
+          "record_ids": [
+            "SUR-E-005"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://caribbean.un.org/en/323591-el-ni%C3%B1o-amazon-building-resilience-crises-suriname",
+          "locator": "Value of Trio Indigenous Knowledge",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "SWZ": {
+      "decisions": [
+        {
+          "record_ids": [
+            "SWZ-E-113"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://www.fao.org/giews/countrybrief/country.jsp?code=SWZ&lang=en",
+          "locator": "Erratic rainfall curbs 2026 cereal production, paragraph 1.",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "SYC": {
+      "decisions": [
+        {
+          "record_ids": [
+            "SYC-E-109"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://www.undp.org/mauritius-seychelles/press-releases/undp-supports-stronger-early-warning-systems-and-disaster-preparedness-seychelles",
+          "locator": "UNDP article, opening paragraph, 9 July 2026 handover.",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "SYR": {
+      "decisions": [
+        {
+          "record_ids": [
+            "SYR-E-021"
+          ],
+          "claim_verification": "unresolved-limited",
+          "reason": "The extracted page38 shows climate-smart agriculture text, not the cited lessons-learned passage; the locator needs follow-up.",
+          "source_url": "https://mptf.undp.org/sites/default/files/documents/2026-04/unjp_syria_2.0_annual_progress_narrative_report_2025.pdf",
+          "locator": "PDF p.38, “Lessons Learnt.” (MPTF Gateway14)",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "TON": {
+      "decisions": [
+        {
+          "record_ids": [
+            "TON-E-003"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://www.worldbank.org/en/news/press-release/2026/05/01/world-bank-and-asian-development-bank-partner-with-tonga-to-strengthen-jobs-connectivity-and-resilience",
+          "locator": "Tongatapu transport and flood exposure",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "TUR": {
+      "decisions": [
+        {
+          "record_ids": [
+            "TUR-E-109"
+          ],
+          "claim_verification": "unresolved-limited",
+          "reason": "The window confirms intended self-reliance/integration, but not the full employer-led training/placement account.",
+          "source_url": "https://www.undp.org/turkiye/projects/decent-and-sustainable-job-opportunities-refugees-and-host-communities-turkish-textile-sector",
+          "locator": "Webpage sections ‘What is the project about?’ and ‘How will Turkey benefit?’",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "URY": {
+      "decisions": [
+        {
+          "record_ids": [
+            "URY-E-114"
+          ],
+          "claim_verification": "unresolved-limited",
+          "reason": "The follow-up HTTPS connection was closed by the remote host, leaving no readable window for checking numeric table rows.",
+          "source_url": "https://www.gub.uy/sistema-nacional-emergencias/comunicacion/noticias/balance-anual-emergencias-eventos-adversos-significativos-2024",
+          "locator": "Official page, Eventos hidrometeorológicos table, flood row and department summaries.",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "UZB": {
+      "decisions": [
+        {
+          "record_ids": [
+            "UZB-E-108"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://www.nupi.no/en/content/download/30723/1226153?version=5",
+          "locator": "One-based PDF p.8 (printed p.8), Future prospects.",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "VCT": {
+      "decisions": [
+        {
+          "record_ids": [
+            "VCT-E-108"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://www.undp.org/barbados/news/saint-vincent-and-grenadines-path-recovery-support-undp-canada-and-cdema-0",
+          "locator": "Article paragraphs on the November 2025 school-safety workshop in Union Island.",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    },
+    "WSM": {
+      "decisions": [
+        {
+          "record_ids": [
+            "WSM-E-001"
+          ],
+          "claim_verification": "verified",
+          "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+          "source_url": "https://www.worldbank.org/en/news/press-release/2026/03/23/samoa-set-to-strengthen-disaster-readiness-protect-livelihoods-and-create-jobs-with-new-world-bank-support",
+          "locator": "Coastal population exposure",
+          "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+          "accessed_on": "2026-10-27"
+        }
+      ]
+    }
+  },
+  "rules": {
+    "apply_full_statement_to_compact": true,
+    "append_projected_scenario": true,
+    "unverified_uncertainty_suffix": "Not independently reverified in the 27 October 2026 remediation; check the cited passage before relying on this claim.",
+    "verified_record_ids": [
+      "ALB-E-112",
+      "AZE-E-111",
+      "BGR-E-113",
+      "BLR-E-111",
+      "BRB-E-113",
+      "CMR-E-014",
+      "ERI-E-008",
+      "FJI-E-102",
+      "IRQ-E-024",
+      "LAO-E-001",
+      "LBN-E-018",
+      "LBR-E-107",
+      "LCA-E-106",
+      "MMR-E-023",
+      "MUS-E-119",
+      "NAM-E-110",
+      "PNG-E-005",
+      "PNG-E-006",
+      "PNG-E-008",
+      "PNG-E-101",
+      "PNG-E-102",
+      "PNG-E-103",
+      "PNG-E-104",
+      "PNG-E-105",
+      "PNG-E-106",
+      "PNG-E-107",
+      "PNG-E-108",
+      "RUS-E-113",
+      "RWA-E-104",
+      "SDN-E-029",
+      "SOM-E-004",
+      "SOM-E-009",
+      "SOM-E-010",
+      "SOM-E-011",
+      "SOM-E-013",
+      "SOM-E-018",
+      "SOM-E-019",
+      "SOM-E-106",
+      "SOM-E-107",
+      "SUR-E-005",
+      "SWZ-E-113",
+      "SYC-E-109",
+      "TCD-E-006",
+      "TCD-E-101",
+      "TCD-E-102",
+      "TCD-E-109",
+      "TCD-E-110",
+      "TCD-P-101",
+      "TON-E-003",
+      "TUV-E-103",
+      "TUV-E-104",
+      "TUV-E-105",
+      "TUV-E-108",
+      "TUV-E-109",
+      "UZB-E-108",
+      "VCT-E-108",
+      "WSM-E-001"
+    ]
+  }
+}

@@ -1,0 +1,2427 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "IRQ",
+  "candidate_path": "countries/IRQ/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 18,
+    "evidence_count": 31,
+    "pathway_count": 9,
+    "evidence_source_reference_count": 31
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 18,
+      "verified": 1,
+      "access-only": 12
+    },
+    "pathway_claims": {
+      "unresolved": 9
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "IRQ-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "IRQ-E-006",
+          "IRQ-E-007",
+          "IRQ-E-008"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "IRQ-E-009",
+          "IRQ-E-010",
+          "IRQ-E-011",
+          "IRQ-E-101",
+          "IRQ-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "IRQ-E-023",
+          "IRQ-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "IRQ-E-014",
+          "IRQ-E-015",
+          "IRQ-E-102"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "IRQ-E-012",
+          "IRQ-E-013"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "IRQ-E-016",
+          "IRQ-E-017"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "IRQ-E-018",
+          "IRQ-E-019",
+          "IRQ-E-020",
+          "IRQ-E-021",
+          "IRQ-E-022",
+          "IRQ-E-105",
+          "IRQ-E-106",
+          "IRQ-E-108",
+          "IRQ-E-109",
+          "IRQ-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "IRQ-E-024",
+          "IRQ-E-104",
+          "IRQ-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "IRQ-E-101",
+          "IRQ-E-102",
+          "IRQ-E-103",
+          "IRQ-E-105",
+          "IRQ-E-106",
+          "IRQ-E-110",
+          "IRQ-E-111",
+          "IRQ-E-112"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "IRQ-P-001",
+          "IRQ-P-002",
+          "IRQ-P-003",
+          "IRQ-P-004",
+          "IRQ-P-005",
+          "IRQ-P-006",
+          "IRQ-P-007",
+          "IRQ-P-008",
+          "IRQ-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/IRQ/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "IRQ-SRC-001",
+      "title": "Climate Risk Profile: Iraq",
+      "organization": "Weathering Risk / PIK-AGRICA",
+      "publication_date": "2022",
+      "publication_date_basis": "publication",
+      "url": "https://weatheringrisk.org/sites/default/files/document/Climate_Risk_Profile_Iraq_8.pdf",
+      "geographic_coverage": [
+        "National; subnational spatial projections"
+      ],
+      "temporal_coverage": "Baseline to 2080",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "IRQ-SRC-002",
+      "title": "Nationally Determined Contribution, Updated in 2025",
+      "organization": "Republic of Iraq / UNFCCC",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/2026-01/NDC%20Report%20EN%20-%202025.pdf",
+      "geographic_coverage": [
+        "National, with regional/subnational provisions"
+      ],
+      "temporal_coverage": "2025-2035 implementation period",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [
+        "IRQ-E-011",
+        "IRQ-E-012"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "IRQ-SRC-004",
+      "title": "Iraq Country Climate and Development Report",
+      "organization": "World Bank",
+      "publication_date": "2022",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/country/iraq/publication/iraq-country-climate-and-development-report",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "Contemporary baseline; medium/long-term scenarios",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "IRQ-SRC-005",
+      "title": "Iraq Economic Monitor: A New Opportunity to Reform",
+      "organization": "World Bank",
+      "publication_date": "2022",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099729211162223616/pdf/IDU0f98d9eec05e2a04817093f20fc8a1c0db448.pdf",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "Mainly 2021-2024 economics; medium-term climate modeling",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [
+        "IRQ-E-009",
+        "IRQ-E-010",
+        "IRQ-E-014"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "IRQ-SRC-006",
+      "title": "Country Partnership Framework for Iraq FY2022-FY2026",
+      "organization": "World Bank Group",
+      "publication_date": "2021",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/914101628604096499/pdf/Iraq-Country-Partnership-Framework-for-the-Period-FY2022-FY2026.pdf",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "FY2022-FY2026",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "IRQ-SRC-007",
+      "title": "Tigris Adaptation and Healthy River Project - Concept-stage PID",
+      "organization": "World Bank",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099052526092071737/pdf/P513829-9134ed47-b72c-4b74-8fc5-51a57ca79d51.pdf",
+      "geographic_coverage": [
+        "Iraq; Baghdad/Tigris service systems emphasized"
+      ],
+      "temporal_coverage": "Current context through 2026; projections to 2035",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [
+        "IRQ-E-006",
+        "IRQ-E-008"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "IRQ-SRC-008",
+      "title": "Advocacy Note: Water Scarcity and Climate Risks in Iraq",
+      "organization": "United Nations in Iraq",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://iraq.un.org/en/308599-advocacy-note-water-scarcity-and-climate-risks-iraq",
+      "geographic_coverage": [
+        "National with governorate examples"
+      ],
+      "temporal_coverage": "2025-Jan 2026",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [
+        "IRQ-E-007"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "IRQ-SRC-009",
+      "title": "Localised interlinkages between climate, peace, and security in Iraq",
+      "organization": "UNAMI",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://iraq.un.org/sites/default/files/2024-09/Localized%20CPS%20linkages_Final.pdf",
+      "geographic_coverage": [
+        "National synthesis plus selected local cases"
+      ],
+      "temporal_coverage": "Aug 2023-May 2024",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [
+        "IRQ-E-018",
+        "IRQ-E-019",
+        "IRQ-E-020",
+        "IRQ-E-021",
+        "IRQ-E-022",
+        "IRQ-E-024"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "IRQ-E-024",
+        "selected_source_id": "IRQ-SRC-009",
+        "url": "https://iraq.un.org/sites/default/files/2024-09/Localized%20CPS%20linkages_Final.pdf",
+        "locator": "recommendations/conclusion, PDF pp.16-18.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 2835334,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          16,
+          17,
+          18
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "IRQ-E-024"
+      ],
+      "manual_verified_record_ids": [
+        "IRQ-E-024"
+      ]
+    },
+    {
+      "source_id": "IRQ-SRC-010",
+      "title": "Climate, Peace and Security Fact Sheet: Iraq",
+      "organization": "NUPI / SIPRI",
+      "publication_date": "2023",
+      "publication_date_basis": "publication",
+      "url": "https://www.sipri.org/sites/default/files/2023%20NUPI_FactSheet_Iraq.pdf",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "Mainly 2020-2023",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "IRQ-SRC-011",
+      "title": "Climate change effects on conflict dynamics in Iraq: Makhmur, Tal Afar and Al-Rifai",
+      "organization": "Berghof Foundation / Peace Paradigms Organisation",
+      "publication_date": "2023",
+      "publication_date_basis": "publication",
+      "url": "https://berghof-foundation.org/files/publications/2023_Climate-change-effects-on-conflict-dynamics-in-Iraq_EN.pdf",
+      "geographic_coverage": [
+        "Makhmur, Tal Afar, Al-Rifai only"
+      ],
+      "temporal_coverage": "Field evidence mainly 2022-2023",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [
+        "IRQ-E-023"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "IRQ-SRC-012",
+      "title": "Local Climate Change Adaptation Plan for Kurdistan Region - Iraq",
+      "organization": "KRG EPIB / UNDP",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2024-08/kurdistan_lap_-final_-_english.pdf",
+      "geographic_coverage": [
+        "Kurdistan Region"
+      ],
+      "temporal_coverage": "Historical baseline and future scenarios; plan current from 2024",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [
+        "IRQ-E-013"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "IRQ-SRC-013",
+      "title": "Independent Country Programme Evaluation: Iraq",
+      "organization": "UNDP Independent Evaluation Office",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://erc.undp.org/evaluation/documents/download/23882",
+      "geographic_coverage": [
+        "North, central and south; national programme"
+      ],
+      "temporal_coverage": "UNDP programme Jan 2020-Sep 2023",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [
+        "IRQ-E-017"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "IRQ-SRC-014",
+      "title": "Evaluation of Iraq WFP Country Strategic Plan 2020-2024",
+      "organization": "WFP Office of Evaluation",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.wfp.org/publications/evaluation-iraq-wfp-country-strategic-plan-2020-2024",
+      "geographic_coverage": [
+        "National programme"
+      ],
+      "temporal_coverage": "Activities 2017-Oct 2023",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [
+        "IRQ-E-016"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "IRQ-SRC-015",
+      "title": "GCF approves USD 39 million for SRVALI project",
+      "organization": "FAO / GCF / United Nations in Iraq",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://iraq.un.org/en/282025-gcf-approves-39-million-support-fao-led-project-addressing-water-scarcity-and-climate-change",
+      "geographic_coverage": [
+        "Karbala, Muthanna, Najaf"
+      ],
+      "temporal_coverage": "Planned six-year implementation",
+      "accessed_on_in_source_record": "2026-08-13",
+      "license_status": "unknown",
+      "records_using_source": [
+        "IRQ-E-015"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "IRQ-SRC-101",
+      "title": "The Impact of Conflict, Climate and the Economy on Agriculture in Districts of Return in Iraq",
+      "organization": "International Organization for Migration and Social Inquiry",
+      "publication_date": "2024-04-22",
+      "publication_date_basis": "portal-publication",
+      "url": "https://iraq.un.org/en/266667-iraq-impact-conflict-climate-and-economy-agriculture-districts-return-iraq",
+      "geographic_coverage": [
+        "14 districts of return across Anbar, Diyala, Kirkuk, Ninewa and Salah al-Din"
+      ],
+      "temporal_coverage": "Household data collected March-April 2022; report published 2024",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "IRQ-E-101",
+        "IRQ-E-102",
+        "IRQ-E-103",
+        "IRQ-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "10-page report, especially pp. 2-8",
+          "notes": "Full report PDF inspected; 2,260 returnee respondents across 14 districts.",
+          "reuse_terms": "No license terms reviewed; paraphrased only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "IRQ-SRC-102",
+      "title": "Cracked Earth, shrinking harvest: Drought impact on displaced and returnee Iraqis",
+      "organization": "Norwegian Refugee Council",
+      "publication_date": "2024-11-18",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.nrc.no/resources/reports/cracked-earth-shrinking-harvest-drought-impact-on-displaced-and-returnee-iraqis",
+      "geographic_coverage": [
+        "Anbar",
+        "Duhok",
+        "Kirkuk",
+        "Ninewa",
+        "Salah al-Din"
+      ],
+      "temporal_coverage": "Displacement and returnee conditions, with 2023-2024 drought indicators",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "IRQ-E-105",
+        "IRQ-E-106",
+        "IRQ-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Publisher report summary",
+          "notes": "Full report not available in inspected publisher page; only summary claims used.",
+          "reuse_terms": "No license terms reviewed; paraphrased only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "IRQ-SRC-103",
+      "title": "Applying causality to environmental security in Iraq",
+      "organization": "Scientific Reports / Nature Portfolio",
+      "publication_date": "2025-05-09",
+      "publication_date_basis": "publication",
+      "url": "https://www.nature.com/articles/s41598-025-90767-w",
+      "geographic_coverage": [
+        "294 Iraqi subdistricts"
+      ],
+      "temporal_coverage": "Subdistrict observations from January 2020 to January 2022",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "IRQ-E-108",
+        "IRQ-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Abstract, results and limitations",
+          "notes": "Full article text inspected, including methods and limitations.",
+          "reuse_terms": "No license terms reviewed; paraphrased only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "IRQ-SRC-104",
+      "title": "Context and Conflict Analysis: Sustainable and Resilient Future Ninewa Project",
+      "organization": "World Vision International / Australian NGO Cooperation Program",
+      "publication_date": "2026-09-02",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.wvi.org/sites/default/files/2026-09/CSA-ANCP-Report-Final%2027Aug26.pdf",
+      "geographic_coverage": [
+        "Mosul",
+        "Hammam Al-Alil",
+        "Nimrud",
+        "Hatra",
+        "Ninewa Governorate"
+      ],
+      "temporal_coverage": "Participatory assessment conducted February 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "IRQ-E-110",
+        "IRQ-E-111",
+        "IRQ-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF p. 10",
+          "notes": "Full 24-page participatory assessment inspected; eight FGDs and ten KIIs in February 2026.",
+          "reuse_terms": "No license terms reviewed; paraphrased only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "IRQ-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-007",
+          "locator": "Sectoral and Institutional Context, PDF pp. 3-4; 2035 gap and interacting drivers."
+        }
+      ],
+      "geographies": [
+        "Tigris-Euphrates basin",
+        "Iraq"
+      ],
+      "affected_groups": [
+        "households",
+        "farmers",
+        "industry"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "to 2035",
+      "compact_statement": "Demand growth, upstream withdrawals, domestic management, pollution and climate pressures jointly drive Iraq’s water deficit; the projected 2035 gap is 10.9 billion m3.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "IRQ-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-008",
+          "locator": "publication text, para. beginning “Water scarcity has had…”. (The United Nations in Iraq)"
+        }
+      ],
+      "geographies": [
+        "central and southern Iraq"
+      ],
+      "affected_groups": [
+        "displaced rural households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "As of September 2025, 186,006 people were reported displaced by climatic factors in central and southern Iraq; 63% had moved from rural to urban areas.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "IRQ-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-008",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-007",
+          "locator": "§Sectoral and Institutional Context, para.6, PDF p.4."
+        }
+      ],
+      "geographies": [
+        "Iraq"
+      ],
+      "affected_groups": [
+        "households",
+        "urban and rural populations"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Water-service weakness compounds climate exposure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "IRQ-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-009",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-005",
+          "locator": "Special Focus, Fig.19 discussion, PDF p.31. (World Bank)"
+        }
+      ],
+      "geographies": [
+        "Iraq"
+      ],
+      "affected_groups": [
+        "agriculture/construction workers",
+        "informal workers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "medium-term modeling",
+      "compact_statement": "Outdoor and manual workers face substantial heat exposure.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "IRQ-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-010",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-005",
+          "locator": "Special Focus, Fig.19 discussion, PDF p.31. (World Bank)"
+        }
+      ],
+      "geographies": [
+        "Iraq"
+      ],
+      "affected_groups": [
+        "poorer households",
+        "unskilled workers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "medium-term model scenario",
+      "compact_statement": "Climate-water-agriculture shocks can transmit through prices and poverty.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "IRQ-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-011",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-002",
+          "locator": "PDF p.8 and §Women, Girls and Vulnerable Groups, pp.35-36."
+        }
+      ],
+      "geographies": [
+        "Iraq"
+      ],
+      "affected_groups": [
+        "women",
+        "youth",
+        "PWDs",
+        "rural communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "National policy recognizes differentiated vulnerability.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "IRQ-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-012",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-002",
+          "locator": "§Institutional Arrangement for Implementation, PDF pp.37-38."
+        }
+      ],
+      "geographies": [
+        "Iraq"
+      ],
+      "affected_groups": [
+        "population-wide"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Iraq has a defined national climate-governance architecture.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "IRQ-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-013",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-012",
+          "locator": "Executive Summary pp.9-10; MRL pp.12-13."
+        }
+      ],
+      "geographies": [
+        "Kurdistan Region"
+      ],
+      "affected_groups": [
+        "KRI communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "KRI has localized adaptation planning and proposed MRL capacity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "IRQ-SRC-012"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-014",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-005",
+          "locator": "Special Focus, PDF p.31. (World Bank)"
+        }
+      ],
+      "geographies": [
+        "Iraq"
+      ],
+      "affected_groups": [
+        "households",
+        "workers",
+        "farmers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "medium-term model scenario",
+      "compact_statement": "Water efficiency has modeled adaptation benefits.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "IRQ-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-015",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-015",
+          "locator": "paras.7-14 and 22-32. (The United Nations in Iraq)"
+        }
+      ],
+      "geographies": [
+        "Karbala",
+        "Muthanna",
+        "Najaf"
+      ],
+      "affected_groups": [
+        "rural households",
+        "women",
+        "IDPs"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "A major targeted adaptation investment is planned in three governorates.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "IRQ-SRC-015"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-016",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-014",
+          "locator": "official evaluation page, conclusions bullets. (World Food Programme)"
+        }
+      ],
+      "geographies": [
+        "Iraq"
+      ],
+      "affected_groups": [
+        "IDPs",
+        "refugees",
+        "vulnerable households"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "WFP assistance buffered shocks but sustainability/results evidence was limited.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "IRQ-SRC-014"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-017",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-013",
+          "locator": "Finding 6, PDF pp.22-24."
+        }
+      ],
+      "geographies": [
+        "sampled northern",
+        "central",
+        "southern locations"
+      ],
+      "affected_groups": [
+        "returnees",
+        "conflict-affected communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Stabilization delivered infrastructure, but climate integration was weakly systematic.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "IRQ-SRC-013"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-018",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-009",
+          "locator": "Introduction, PDF p.5."
+        }
+      ],
+      "geographies": [
+        "Iraq"
+      ],
+      "affected_groups": [
+        "affected communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Climate is a risk multiplier, not a deterministic conflict cause.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "IRQ-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-019",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-009",
+          "locator": "Existing analysis, PDF pp.6-7; displacement section pp.12-13."
+        }
+      ],
+      "geographies": [
+        "Iraqi urban receiving areas"
+      ],
+      "affected_groups": [
+        "displaced people",
+        "host communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Displacement can transmit climate stress into urban service and cohesion pressures.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "IRQ-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-020",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-009",
+          "locator": "§Natural resource competition, PDF pp.9-10."
+        }
+      ],
+      "geographies": [
+        "southeastern Dhi Qar"
+      ],
+      "affected_groups": [
+        "local water users"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Water competition has produced localized violence, but climate is only one contributor.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "IRQ-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-021",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-009",
+          "locator": "§Exploitation of natural resources by armed actors, PDF pp.11-12."
+        }
+      ],
+      "geographies": [
+        "Muthanna",
+        "Missan",
+        "Basra and other cited locations"
+      ],
+      "affected_groups": [
+        "farmers",
+        "households",
+        "nomadic communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Armed-actor political economy can obstruct adaptation.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "IRQ-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-022",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-009",
+          "locator": "§Limited and politically-motivated assistance for climate displacement, PDF pp.12-14."
+        }
+      ],
+      "geographies": [
+        "central/southern urban areas",
+        "Samawah example"
+      ],
+      "affected_groups": [
+        "climate-displaced households",
+        "hosts"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Assistance gaps can turn displacement into a governance/social-cohesion risk.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "IRQ-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-023",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-011",
+          "locator": "Al-Rifai district findings, PDF pp.21-22."
+        }
+      ],
+      "geographies": [
+        "Al-Rifai",
+        "Dhi Qar"
+      ],
+      "affected_groups": [
+        "farmers",
+        "local communities"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Local institutions can contain water-related disputes.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "IRQ-SRC-011"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-024",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-009",
+          "locator": "recommendations/conclusion, PDF pp.16-18."
+        }
+      ],
+      "geographies": [
+        "Kirkuk example",
+        "broader Iraq"
+      ],
+      "affected_groups": [
+        "communities",
+        "civil society",
+        "government"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Inclusive climate governance can create peace-supporting dialogue opportunities.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "IRQ-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "IRQ-E-024",
+        "source_id": "IRQ-SRC-009",
+        "url": "https://iraq.un.org/sites/default/files/2024-09/Localized%20CPS%20linkages_Final.pdf",
+        "locator": "recommendations/conclusion, PDF pp.16-18.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+      },
+      "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "IRQ-SRC-009",
+        "source_url": "https://iraq.un.org/sites/default/files/2024-09/Localized%20CPS%20linkages_Final.pdf",
+        "locator": "recommendations/conclusion, PDF pp.16-18.",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "IRQ-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-101",
+          "locator": "PDF p. 3, farming and livestock production findings"
+        }
+      ],
+      "geographies": [
+        "14 districts of return: Mosul, Ramadi, Falluja, Telafar, Tikrit, Heet, Hawija, Hamdaniya, Shirqat, Kirkuk, Baiji, Sinjar, Khanaqin and Balad"
+      ],
+      "affected_groups": [
+        "returnee farming households",
+        "livestock owners"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "In the March–April 2022 returnee survey, nearly 75% of surveyed farming households reported lower harvests than in 2014; over 80% of livestock owners reported smaller herds.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-101",
+          "locator": "PDF pp. 2 and 4, conflict and agricultural recovery"
+        }
+      ],
+      "geographies": [
+        "Districts of return in Anbar, Diyala, Kirkuk, Ninewa and Salah al-Din"
+      ],
+      "affected_groups": [
+        "returnees",
+        "farmers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "In the March–April 2022 returnee survey, ISIL-era conflict destroyed farm assets and infrastructure; limited replacement capacity and incentives hindered agricultural recovery.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-101",
+          "locator": "One-based PDF p.7, district variation and agricultural-abandonment discussion."
+        }
+      ],
+      "geographies": [
+        "Northern districts including Sinjar, Shirqat, Hamdaniya and Telafar"
+      ],
+      "affected_groups": [
+        "farmers",
+        "herders"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2022 returnee survey describes stronger weather sensitivity in Sinjar, Shirqat, Hamdaniya and Telafar. Across the sample, about a quarter of farming abandonments cited water scarcity and about a tenth unpredictable weather; costs and conflict losses also mattered.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-101",
+          "locator": "One-based PDF p.9, Implications for sustainable reintegration."
+        }
+      ],
+      "geographies": [
+        "Districts of return in Iraq"
+      ],
+      "affected_groups": [
+        "returnees",
+        "farmers"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": "Recommendation, not evaluated result.",
+      "compact_statement": "The 2024 portal-published IOM brief recommends early warning, technology and broader agricultural investment to support durable returns; these are proposals, not evaluated adaptation results.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-102",
+          "locator": "Publisher summary, returnee households"
+        }
+      ],
+      "geographies": [
+        "Anbar",
+        "Kirkuk",
+        "Ninewa",
+        "Salah al-Din"
+      ],
+      "affected_groups": [
+        "returnee households"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "NRC's 2024 publisher summary reports: In the 2024 farming season, 57% of surveyed returnee households used less land or water; 5% reported being forced to move because of drought conditions.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-102",
+          "locator": "Publisher summary, displaced households in informal sites"
+        }
+      ],
+      "geographies": [
+        "Anbar",
+        "Duhok",
+        "Ninewa",
+        "Salah al-Din"
+      ],
+      "affected_groups": [
+        "internally displaced people",
+        "groups with restricted water access"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "NRC's 2024 publisher summary reports: Among displaced households in informal sites, one in five lacked clean water, three quarters reported water-sharing tensions, and 44% said authorities barred some groups from water.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-102",
+          "locator": "Publisher summary, return decisions"
+        }
+      ],
+      "geographies": [
+        "Displacement sites in Anbar, Duhok, Ninewa and Salah al-Din"
+      ],
+      "affected_groups": [
+        "internally displaced people"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "NRC's 2024 publisher summary reports: The report says four in five displaced respondents linked return decisions to the ability to farm, and 93% based stay, move or return decisions on information about local resources.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-103",
+          "locator": "Abstract and results, environmental variables and battle events"
+        }
+      ],
+      "geographies": [
+        "294 Iraqi subdistricts"
+      ],
+      "affected_groups": [
+        "residents of analyzed subdistricts"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Across 294 subdistricts from 2020-2022, the study reports a direct association between skin temperature and battle events, with soil moisture and energy operating indirectly.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-103",
+          "locator": "Results and limitations"
+        }
+      ],
+      "geographies": [
+        "294 Iraqi subdistricts"
+      ],
+      "affected_groups": [
+        "residents of analyzed subdistricts"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Population density positively mediated modeled conflict activity, while wheat production did not reduce conflict as hypothesized.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-104",
+          "locator": "One-based PDF p.11, section3.4 Climate Stress and Resource Tension."
+        }
+      ],
+      "geographies": [
+        "Nimrud",
+        "Hatra",
+        "Ninewa Governorate"
+      ],
+      "affected_groups": [
+        "farmers",
+        "herders",
+        "rural youth"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Participants described drought, reduced rainfall and water scarcity as undermining farming and increasing irrigation and land competition, including farmer-herder tension in rural Nimrud and Hatra.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-104",
+          "locator": "One-based PDF p.12, section3.5 Exclusion and Vulnerability Patterns."
+        }
+      ],
+      "geographies": [
+        "Nimrud",
+        "Hatra",
+        "Hammam Al-Alil",
+        "Ninewa Governorate"
+      ],
+      "affected_groups": [
+        "women",
+        "youth",
+        "people with disabilities",
+        "low-income households",
+        "displaced people",
+        "returnees"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Participants reported that women, youth, people with disabilities, low-income households and displaced or returnee groups face unequal access to land, capital, irrigation and employment in parts of Ninewa.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IRQ-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IRQ-SRC-104",
+          "locator": "One-based PDF pp.13 and16, actors/local influence and Connectors and Local Capacities for Peace."
+        }
+      ],
+      "geographies": [
+        "Mosul",
+        "Hammam Al-Alil",
+        "Nimrud",
+        "Hatra"
+      ],
+      "affected_groups": [
+        "community members",
+        "women",
+        "youth",
+        "people with disabilities",
+        "displaced people"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The assessment identifies tribal mediation, kinship networks, shared economic activity and community initiatives as local peace capacities, while noting exclusion of less-connected groups.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "IRQ-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "IRQ-E-009",
+        "IRQ-E-010"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "IRQ-E-009"
+        ],
+        "impact": [
+          "IRQ-E-009"
+        ],
+        "mediator": [
+          "IRQ-E-010"
+        ],
+        "consequence": [
+          "IRQ-E-010"
+        ]
+      },
+      "geographies": [
+        "National modelled analytical pathway"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Modeled heat exposure and macroeconomic/food-price shocks could worsen labour income and poverty; any instability consequence remains an analytical inference conditioned by markets, protection and governance.",
+      "alternative_explanations": [
+        "International food prices",
+        "exchange rates",
+        "domestic economic policy",
+        "conflict legacies",
+        "unemployment and market structure"
+      ],
+      "uncertainty": "The World Bank modeling quantifies exposure and macroeconomic/poverty implications, but the pathway does not establish that heat or water stress independently causes instability.",
+      "potentially_out_of_scope_support_ids": [
+        "IRQ-E-009",
+        "IRQ-E-010"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "IRQ-P-002",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "IRQ-E-006",
+        "IRQ-E-007",
+        "IRQ-E-008",
+        "IRQ-E-019"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "IRQ-E-006"
+        ],
+        "impact": [
+          "IRQ-E-007"
+        ],
+        "mediator": [
+          "IRQ-E-008",
+          "IRQ-E-019"
+        ],
+        "consequence": [
+          "IRQ-E-019"
+        ]
+      },
+      "geographies": [
+        "Central and southern Iraq",
+        "receiving urban centres"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Water-linked rural displacement can transfer stress to urban services and jobs, potentially increasing tensions where local capacity is inadequate. (The United Nations in Iraq)",
+      "alternative_explanations": [
+        "Conflict displacement",
+        "poverty",
+        "demographic change",
+        "urban labour-market weakness and pre-existing service deficits"
+      ],
+      "uncertainty": "Current displacement figures classify “climatic factors”; they do not isolate anthropogenic climate attribution.",
+      "potentially_out_of_scope_support_ids": [
+        "IRQ-E-006",
+        "IRQ-E-007",
+        "IRQ-E-008",
+        "IRQ-E-019"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "IRQ-P-003",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "IRQ-E-006",
+        "IRQ-E-020",
+        "IRQ-E-023"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "IRQ-E-006"
+        ],
+        "impact": [
+          "IRQ-E-006"
+        ],
+        "mediator": [
+          "IRQ-E-006"
+        ],
+        "consequence": [
+          "IRQ-E-020"
+        ]
+      },
+      "geographies": [
+        "Strongest documented examples in southern governorates",
+        "including Dhi Qar"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Scarcer water can increase opportunities for violent competition, but escalation depends strongly on governance, allocation systems, weapons and local political relations.",
+      "alternative_explanations": [
+        "Water allocation decisions",
+        "upstream withdrawals",
+        "weapons",
+        "tribal/political affiliations",
+        "land rights and weak enforcement"
+      ],
+      "uncertainty": "No basis for a national claim that drought causes communal violence.",
+      "potentially_out_of_scope_support_ids": [
+        "IRQ-E-006",
+        "IRQ-E-020",
+        "IRQ-E-023"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "IRQ-P-004",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "IRQ-E-006",
+        "IRQ-E-021"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "IRQ-E-006"
+        ],
+        "impact": [
+          "IRQ-E-006"
+        ],
+        "mediator": [
+          "IRQ-E-006"
+        ],
+        "consequence": [
+          "IRQ-E-021"
+        ]
+      },
+      "geographies": [
+        "Selected evidence from Muthanna",
+        "Missan",
+        "Basra and other localities"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "direct",
+      "compact_statement": "In some localities, armed-actor political economy can undermine resource regulation and public services, reducing climate-adaptation capacity.",
+      "alternative_explanations": [
+        "Weak administrative capacity",
+        "aging infrastructure",
+        "market incentives and broader corruption independent of organized armed actors"
+      ],
+      "uncertainty": "Representativeness and prevalence are not established nationally.",
+      "potentially_out_of_scope_support_ids": [
+        "IRQ-E-006"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "IRQ-P-005",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "IRQ-E-006",
+        "IRQ-E-020",
+        "IRQ-E-024"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "IRQ-E-006"
+        ],
+        "impact": [
+          "IRQ-E-006"
+        ],
+        "mediator": [
+          "IRQ-E-006"
+        ],
+        "consequence": [
+          "IRQ-E-020"
+        ]
+      },
+      "geographies": [
+        "Local disputes nationwide in UNAMI synthesis",
+        "explicit Missan-Wasit and southern examples"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "direct",
+      "compact_statement": "Water-governance choices mediate whether physical scarcity translates into cooperation or grievance.",
+      "alternative_explanations": [
+        "Upstream international management",
+        "domestic infrastructure",
+        "historical allocation rules and political competition"
+      ],
+      "uncertainty": "Climate change is not separable from the broader water-governance system.",
+      "potentially_out_of_scope_support_ids": [
+        "IRQ-E-006",
+        "IRQ-E-020",
+        "IRQ-E-024"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "IRQ-P-006",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "IRQ-E-007",
+        "IRQ-E-022"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "IRQ-E-007"
+        ],
+        "impact": [
+          "IRQ-E-007"
+        ],
+        "mediator": [
+          "IRQ-E-007"
+        ],
+        "consequence": [
+          "IRQ-E-022"
+        ]
+      },
+      "geographies": [
+        "Central/southern displacement settings",
+        "Samawah case highlighted"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Displacement becomes a larger FCV risk when support systems are unclear, unequal or politically manipulated.",
+      "alternative_explanations": [
+        "Conflict-related displacement",
+        "poverty and broader politicization of social assistance"
+      ],
+      "uncertainty": "Institutional treatment varies geographically; local examples cannot establish a uniform national pattern.",
+      "potentially_out_of_scope_support_ids": [
+        "IRQ-E-007",
+        "IRQ-E-022"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "IRQ-P-007",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "IRQ-E-008",
+        "IRQ-E-017",
+        "IRQ-E-021"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "IRQ-E-008"
+        ],
+        "impact": [
+          "IRQ-E-008"
+        ],
+        "mediator": [
+          "IRQ-E-008"
+        ],
+        "consequence": [
+          "IRQ-E-008"
+        ]
+      },
+      "geographies": [
+        "National synthesis",
+        "conflict-affected and service-deficient areas particularly relevant"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "triangulated",
+      "compact_statement": "FCV legacies can magnify climate vulnerability by weakening infrastructure, regulation and implementation capacity.",
+      "alternative_explanations": [
+        "Chronic underinvestment",
+        "tariff policy",
+        "demographic growth and technical inefficiency independent of armed conflict"
+      ],
+      "uncertainty": "Relative contribution of past conflict versus other institutional drivers is rarely quantified.",
+      "potentially_out_of_scope_support_ids": [
+        "IRQ-E-008",
+        "IRQ-E-017",
+        "IRQ-E-021"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "IRQ-P-008",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "IRQ-E-023",
+        "IRQ-E-024"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "IRQ-E-023"
+        ],
+        "impact": [
+          "IRQ-E-023"
+        ],
+        "mediator": [
+          "IRQ-E-023"
+        ],
+        "consequence": [
+          "IRQ-E-023"
+        ]
+      },
+      "geographies": [
+        "Kirkuk example plus proposed national/subnational application"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Climate action can support peace when it expands inclusive participation and legitimate resource-sharing mechanisms.",
+      "alternative_explanations": [
+        "Existing social relations and political incentives may be more important than the climate forum/action itself"
+      ],
+      "uncertainty": "Evidence demonstrates a plausible entry point, not a measured peace impact.",
+      "potentially_out_of_scope_support_ids": [
+        "IRQ-E-023",
+        "IRQ-E-024"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "IRQ-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "IRQ-E-110",
+        "IRQ-E-111",
+        "IRQ-E-112"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "IRQ-E-110"
+        ],
+        "impact": [
+          "IRQ-E-110"
+        ],
+        "mediator": [
+          "IRQ-E-110",
+          "IRQ-E-111"
+        ],
+        "consequence": [
+          "IRQ-E-110"
+        ]
+      },
+      "geographies": [
+        "Nimrud",
+        "Hatra",
+        "Ninewa Governorate"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "In Nimrud/Hatra, participants link water stress and farming losses with irrigation/land competition and existing grievances; local peace capacities are unevenly accessible.",
+      "alternative_explanations": [
+        "Post-conflict recovery, unemployment, patronage, service inequality and political influence also shape grievances independently of climate."
+      ],
+      "uncertainty": "Source-stated qualitative mechanism from purposive February 2026 fieldwork; no causal estimate, representative prevalence or attribution to anthropogenic climate change.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ"
+      ],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "IRQ-E-024",
+  "source_access_review": {
+    "selected_record_id": "IRQ-E-024",
+    "selected_source_id": "IRQ-SRC-009",
+    "url": "https://iraq.un.org/sites/default/files/2024-09/Localized%20CPS%20linkages_Final.pdf",
+    "locator": "recommendations/conclusion, PDF pp.16-18.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 2835334,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      16,
+      17,
+      18
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+  },
+  "checks": [
+    {
+      "record_id": "IRQ-E-024",
+      "source_id": "IRQ-SRC-009",
+      "locator": "recommendations/conclusion, PDF pp.16-18.",
+      "verification_status": "verified",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "IRQ-E-024: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "IRQ-E-006",
+    "IRQ-E-007",
+    "IRQ-E-008",
+    "IRQ-E-009",
+    "IRQ-E-010",
+    "IRQ-E-011",
+    "IRQ-E-012",
+    "IRQ-E-013",
+    "IRQ-E-014",
+    "IRQ-E-015",
+    "IRQ-E-016",
+    "IRQ-E-017",
+    "IRQ-E-018",
+    "IRQ-E-019",
+    "IRQ-E-020",
+    "IRQ-E-021",
+    "IRQ-E-022",
+    "IRQ-E-023",
+    "IRQ-E-024",
+    "IRQ-E-101",
+    "IRQ-E-102",
+    "IRQ-E-103",
+    "IRQ-E-104",
+    "IRQ-E-105",
+    "IRQ-E-106",
+    "IRQ-E-107",
+    "IRQ-E-108",
+    "IRQ-E-109",
+    "IRQ-E-110",
+    "IRQ-E-111",
+    "IRQ-E-112",
+    "IRQ-P-001",
+    "IRQ-P-002",
+    "IRQ-P-003",
+    "IRQ-P-004",
+    "IRQ-P-005",
+    "IRQ-P-006",
+    "IRQ-P-007",
+    "IRQ-P-008",
+    "IRQ-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

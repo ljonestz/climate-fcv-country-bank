@@ -1,0 +1,959 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "BGR",
+  "candidate_path": "countries/BGR/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 5,
+    "evidence_count": 14,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 14
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 13,
+      "verified": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "BGR-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "BGR-E-102",
+          "BGR-E-107",
+          "BGR-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "BGR-E-101",
+          "BGR-E-105",
+          "BGR-E-106",
+          "BGR-E-109",
+          "BGR-E-110",
+          "BGR-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BGR-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BGR-E-112",
+          "BGR-E-113",
+          "BGR-E-115"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "BGR-E-101",
+          "BGR-E-102",
+          "BGR-E-105",
+          "BGR-E-106",
+          "BGR-E-109",
+          "BGR-E-115"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/BGR/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "BGR-SRC-101",
+      "title": "Bulgaria's Biennial Transparency Report 2024 under the Paris Agreement",
+      "organization": "Ministry of Environment and Water (Bulgaria)",
+      "publication_date": "2024-12-31",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/resource/2024%20BG_BTR1.pdf",
+      "geographic_coverage": [
+        "Bulgaria",
+        "Dobrudzha",
+        "Struma River valley",
+        "Mesta River valley",
+        "Thracian Plain",
+        "Eastern Rhodopes",
+        "northern Black Sea coast"
+      ],
+      "temporal_coverage": "Observed climate and hydrology across source-stated historical periods; future climate-health vulnerabilities; adaptation institutions through 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BGR-E-101",
+        "BGR-E-102",
+        "BGR-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 143–152, climate observations, drought/heat and health sections",
+          "notes": "Full 180-page government BTR opened; cited substantive passages inspected.",
+          "reuse_terms": "Not separately inspected; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BGR-SRC-102",
+      "title": "Overlooked: Examining the Impact of Disasters and Climate Shocks on Poverty in the Europe and Central Asia Region",
+      "organization": "World Bank",
+      "publication_date": "2021-03",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/493181607687673440/pdf/Overlooked-Examining-the-Impact-of-Disasters-and-Climate-Shocks-on-Poverty-in-the-Europe-and-Central-Asia-Region.pdf",
+      "geographic_coverage": [
+        "Bulgaria",
+        "Asparuhovo district, Varna"
+      ],
+      "temporal_coverage": "Bulgaria case study of the June 2014 flood, published in a 2021 regional report.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BGR-E-105",
+        "BGR-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF p. 34, Box 3, Bulgaria",
+          "notes": "Full 66-page regional report opened; Bulgaria-specific box inspected.",
+          "reuse_terms": "Not separately inspected; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BGR-SRC-103",
+      "title": "Disasters, Accidents, Incidents and Crises in 2024: Final Data",
+      "organization": "National Statistical Institute of Bulgaria",
+      "publication_date": "2025-12-03",
+      "publication_date_basis": "publication",
+      "url": "https://www.nsi.bg/press-release/vazniknali-bedstviya-avarii-incidenti-i-krizi-8877",
+      "geographic_coverage": [
+        "Bulgaria",
+        "47 municipalities in 19 administrative regions"
+      ],
+      "temporal_coverage": "Final event and expenditure statistics for 2024, with selected comparisons to 2023.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BGR-E-107",
+        "BGR-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "HTML sections 1–3, final 2024 data",
+          "notes": "Publisher HTML in Bulgarian opened; event and expenditure text read in the original language.",
+          "reuse_terms": "Not separately inspected; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BGR-SRC-104",
+      "title": "The Water Crises of Bulgaria: Analysis and Solutions (Summary)",
+      "organization": "Ministry of Environment and Water (Bulgaria)",
+      "publication_date": "2026-03",
+      "publication_date_basis": "document-version",
+      "url": "https://www.moew.government.bg/static/media/ups/tiny/VOP/%D0%9E%D0%9F%D0%9E%D0%A1/MOEW%20Water%20Crises%20of%20Bulgaria.pdf",
+      "geographic_coverage": [
+        "Bulgaria",
+        "Shumen",
+        "Pernik",
+        "Targovishte",
+        "Haskovo",
+        "Yambol",
+        "Pazardzhik",
+        "small and peripheral settlements"
+      ],
+      "temporal_coverage": "Climate observations include 1991–2020; water-sector indicators are reported as current in the March 2026 summary; irrigation figures include 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BGR-E-109",
+        "BGR-E-110",
+        "BGR-E-111",
+        "BGR-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 3–5, 14–16, 18–19 and 23–24",
+          "notes": "Full 30-page MOEW report summary opened; water-balance, service, irrigation and governance passages inspected.",
+          "reuse_terms": "Not separately inspected; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BGR-SRC-105",
+      "title": "Country Report Bulgaria 2026 (Staff Working Document and Annexes)",
+      "organization": "European Commission, Directorate-General for Economic and Financial Affairs",
+      "publication_date": "2026-06-03",
+      "publication_date_basis": "publication",
+      "url": "https://economy-finance.ec.europa.eu/document/download/fa789d72-0011-4d03-af69-974a7b3321ea_en?filename=BG_SWD_2026_202_1_EN_autre_document_travail_service_part1_v3.pdf",
+      "geographic_coverage": [
+        "Bulgaria",
+        "regional and local authorities",
+        "Sofia",
+        "Burgas"
+      ],
+      "temporal_coverage": "2026 country analysis; mixed indicators from 2013–2025 and adaptation programming for 2021–2027.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BGR-E-113",
+        "BGR-E-114",
+        "BGR-E-115"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 20 and 96–97, water/climate resilience and Annex 10",
+          "notes": "Full 142-page Commission staff working document opened; climate adaptation and local implementation passages inspected.",
+          "reuse_terms": "Not separately inspected; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "BGR-E-113",
+        "selected_source_id": "BGR-SRC-105",
+        "url": "https://economy-finance.ec.europa.eu/document/download/fa789d72-0011-4d03-af69-974a7b3321ea_en?filename=BG_SWD_2026_202_1_EN_autre_document_travail_service_part1_v3.pdf",
+        "locator": "PDF pp. 96–97, Annex 10, adaptation governance and subnational implementation",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 4432178,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          96,
+          97
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "BGR-E-113"
+      ],
+      "manual_verified_record_ids": [
+        "BGR-E-113"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "BGR-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGR-SRC-101",
+          "locator": "PDF pp. 146–147, section 4.2, drought criterion"
+        }
+      ],
+      "geographies": [
+        "Danube corridor",
+        "central northern Bulgaria to the Pre-Balkans",
+        "Northeast Bulgaria",
+        "Dobrudzha",
+        "Blagoevgrad",
+        "Petrich–Sandanski",
+        "Mesta valley"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-12-31 reports: 1981–2010 drought mapping identifies the Danube corridor and central north to the Pre-Balkans; Northeast Bulgaria/Dobrudzha is most affected, with pockets around Blagoevgrad, Petrich–Sandanski and Mesta valley.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGR-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGR-SRC-101",
+          "locator": "PDF p. 144, section 4.2, heatwaves"
+        }
+      ],
+      "geographies": [
+        "Struma River valley near Kresna Gorge",
+        "northern Black Sea coast"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-12-31 reports: Struma valley near Kresna Gorge is hottest: some years had 6–8 days above 40°C; 1961–2020 records show 40–55 hot days/year there versus 2–3 on the northern Black Sea coast.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGR-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGR-SRC-101",
+          "locator": "PDF p. 143, projections of annual precipitation"
+        }
+      ],
+      "geographies": [
+        "southern Bulgaria",
+        "southeastern Bulgaria"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "SSP5-8.5, far future as labeled in the report.",
+      "compact_statement": "Source dated 2024-12-31 reports: BTR projects lower precipitation in southern and southeastern Bulgaria under SSP5-8.5 in the far future, potentially compounding hotter conditions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGR-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGR-SRC-102",
+          "locator": "PDF p. 34, Box 3, Bulgaria"
+        }
+      ],
+      "geographies": [
+        "Asparuhovo district, Varna"
+      ],
+      "affected_groups": [
+        "Roma community",
+        "evacuated households",
+        "minority groups"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2021-03 reports: For the June 2014 torrential-rain flash flood in Asparuhovo (Varna), the WB box reports 122 evacuated families, Roma ownership of 60% of destroyed houses, and 14 deaths, most among Roma.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGR-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGR-SRC-102",
+          "locator": "PDF p. 34, Box 3, Bulgaria"
+        }
+      ],
+      "geographies": [
+        "Asparuhovo district, Varna",
+        "Bulgaria"
+      ],
+      "affected_groups": [
+        "Roma community",
+        "residents of informal settlements"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2021-03 reports: The report links unequal flood losses in Asparuhovo to informal Roma housing that failed building-code/zoning standards and to inadequate municipal prevention; it says no clear data show how many Roma live in flood-prone areas.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGR-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGR-SRC-103",
+          "locator": "HTML, section 2, declared disasters in 2024"
+        }
+      ],
+      "geographies": [
+        "Bulgaria"
+      ],
+      "affected_groups": [
+        "residents of municipalities under disaster declaration"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12-03 reports: NSI records 38 2024 disaster declarations, mainly for wildfires, floods, drought and hail; declarations for drinking-water shortage due to drought increased from 2023.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGR-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGR-SRC-103",
+          "locator": "HTML, section 2, 2024 affected municipalities"
+        }
+      ],
+      "geographies": [
+        "47 municipalities across 19 administrative regions; names not enumerated in the release text"
+      ],
+      "affected_groups": [
+        "residents of municipalities partly or fully under disaster declaration"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12-03 reports: 2024 declared disasters partly or fully affected 47 municipalities in 19 administrative regions; those municipalities had 1,308,715 residents, 20.3% of Bulgaria's population.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGR-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGR-SRC-104",
+          "locator": "PDF pp. 4 and 15, sections 5.1–5.2"
+        }
+      ],
+      "geographies": [
+        "Shumen",
+        "Pernik",
+        "Targovishte",
+        "Haskovo",
+        "Yambol",
+        "Pazardzhik"
+      ],
+      "affected_groups": [
+        "users of municipal water services"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The March 2026 MOEW summary reports high water-network loss indicators for Shumen, Pernik, Targovishte, Haskovo, Yambol and Pazardzhik. These service-system losses are not attributed to climate change; underlying operator periods vary.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGR-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGR-SRC-104",
+          "locator": "PDF p. 15, section 5.3, Small settlements are the most vulnerable"
+        }
+      ],
+      "geographies": [
+        "small and peripheral settlements across Bulgaria"
+      ],
+      "affected_groups": [
+        "residents of small and peripheral settlements"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03 reports: MOEW says small and peripheral settlements are particularly vulnerable to restrictions, low pressure and interruptions; only 1,869 of 5,302 meter zones have continuous flow/pressure measurement with data archiving.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGR-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGR-SRC-104",
+          "locator": "PDF p. 4, section 6.4, irrigation capacity in 2024"
+        }
+      ],
+      "geographies": [
+        "Bulgaria"
+      ],
+      "affected_groups": [
+        "irrigated farms"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03 reports: In 2024, Irrigation Systems supplied 342,614 decares against 5.376 million decares of design capacity (about 6.4%); MOEW says long-term decline limits agricultural production and increases drought vulnerability.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGR-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGR-SRC-104",
+          "locator": "PDF p. 3, summary; pp. 23–24, sections 8 and 11"
+        }
+      ],
+      "geographies": [
+        "Bulgaria"
+      ],
+      "affected_groups": [],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03 reports: MOEW says climate change amplifies, but does not fully explain, water stress; underinvestment, fragmented responsibility, weak expertise and data gaps also contribute. It recommends monitoring, modernization, river/flood planning and local water retention.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGR-E-113",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "BGR-SRC-105",
+          "locator": "PDF pp. 96–97, Annex 10, adaptation governance and subnational implementation"
+        }
+      ],
+      "geographies": [
+        "Bulgaria",
+        "regional and local levels"
+      ],
+      "affected_groups": [],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-06-03 reports: The Commission says adaptation barriers include implementation capacity, data availability and cross-level coordination; the national risk assessment is outdated and comparable regional/local risk information is lacking for prioritization.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "BGR-E-113",
+        "source_id": "BGR-SRC-105",
+        "url": "https://economy-finance.ec.europa.eu/document/download/fa789d72-0011-4d03-af69-974a7b3321ea_en?filename=BG_SWD_2026_202_1_EN_autre_document_travail_service_part1_v3.pdf",
+        "locator": "PDF pp. 96–97, Annex 10, adaptation governance and subnational implementation",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+      },
+      "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "BGR-SRC-105",
+        "source_url": "https://economy-finance.ec.europa.eu/document/download/fa789d72-0011-4d03-af69-974a7b3321ea_en?filename=BG_SWD_2026_202_1_EN_autre_document_travail_service_part1_v3.pdf",
+        "locator": "PDF pp. 96–97, Annex 10, adaptation governance and subnational implementation",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "BGR-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGR-SRC-105",
+          "locator": "PDF p. 97, Annex 10, Environment Operational Programme and implementation"
+        }
+      ],
+      "geographies": [
+        "Bulgaria"
+      ],
+      "affected_groups": [],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-06-03 reports: The 2021–2027 Environment Operational Programme provides EUR 225.64 million in climate-adaptation support; the Commission says planning-to-investment links and use of climate, hydrological and early-warning information need strengthening.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGR-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGR-SRC-105",
+          "locator": "PDF p. 97, Annex 10, Covenant of Mayors and local planning indicators"
+        }
+      ],
+      "geographies": [
+        "Bulgaria",
+        "Sofia",
+        "Burgas",
+        "10 of 49 cities with adaptation commitments"
+      ],
+      "affected_groups": [],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-06-03 reports: Only around 24% of Bulgaria's population lives in Covenant of Mayors coverage; 10 of 49 cities made adaptation commitments and 44% of signatories submitted SECAPs on time. Sofia has an adaptation strategy; Burgas a development vision.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "BGR-E-113",
+  "source_access_review": {
+    "selected_record_id": "BGR-E-113",
+    "selected_source_id": "BGR-SRC-105",
+    "url": "https://economy-finance.ec.europa.eu/document/download/fa789d72-0011-4d03-af69-974a7b3321ea_en?filename=BG_SWD_2026_202_1_EN_autre_document_travail_service_part1_v3.pdf",
+    "locator": "PDF pp. 96–97, Annex 10, adaptation governance and subnational implementation",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 4432178,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      96,
+      97
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+  },
+  "checks": [
+    {
+      "record_id": "BGR-E-113",
+      "source_id": "BGR-SRC-105",
+      "locator": "PDF pp. 96–97, Annex 10, adaptation governance and subnational implementation",
+      "verification_status": "verified",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "BGR-E-113: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "BGR-E-101",
+    "BGR-E-102",
+    "BGR-E-104",
+    "BGR-E-105",
+    "BGR-E-106",
+    "BGR-E-107",
+    "BGR-E-108",
+    "BGR-E-109",
+    "BGR-E-110",
+    "BGR-E-111",
+    "BGR-E-112",
+    "BGR-E-113",
+    "BGR-E-114",
+    "BGR-E-115"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

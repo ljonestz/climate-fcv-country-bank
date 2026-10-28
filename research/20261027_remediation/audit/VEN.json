@@ -1,0 +1,1005 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "VEN",
+  "candidate_path": "countries/VEN/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 4,
+    "evidence_count": 14,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 14
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 13,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "VEN-E-101",
+          "VEN-E-108",
+          "VEN-E-109",
+          "VEN-E-112",
+          "VEN-E-116"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "VEN-E-102",
+          "VEN-E-103",
+          "VEN-E-111",
+          "VEN-E-113",
+          "VEN-E-115",
+          "VEN-E-117",
+          "VEN-E-119"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "VEN-E-114",
+          "VEN-E-118"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "VEN-E-101",
+          "VEN-E-102",
+          "VEN-E-103",
+          "VEN-E-108",
+          "VEN-E-109",
+          "VEN-E-111",
+          "VEN-E-113",
+          "VEN-E-114",
+          "VEN-E-116",
+          "VEN-E-118"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/VEN/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "VEN-SRC-101",
+      "title": "Evaluación de la vulnerabilidad ante el efecto del cambio climático: República Bolivariana de Venezuela",
+      "organization": "Ministry of Popular Power for Ecosocialism (MINEC), with FAO implementation support",
+      "publication_date": "2025",
+      "publication_date_basis": "document-version",
+      "url": "https://es.scribd.com/document/940680323/Cuadernillo-Nacional-Vulnerabilidad",
+      "geographic_coverage": [
+        "Venezuela",
+        "Llanos",
+        "Zulia",
+        "Bolívar",
+        "Miranda",
+        "Gran Sabana",
+        "Gran Guajira",
+        "Perijá",
+        "Delta del Orinoco",
+        "Central region",
+        "Caura basin"
+      ],
+      "temporal_coverage": "2025 assessment; projections for 2021–2040, 2041–2060 and 2061–2080, with 1970–2000 baseline.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "VEN-E-101",
+        "VEN-E-102",
+        "VEN-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 70-page Scribd text view opened; printed pp.23–27, 38–39 and 44 reviewed.",
+          "notes": "The document credits MINEC and FAO; hosting is a user-uploaded Scribd mirror, not an official ministry domain.",
+          "reuse_terms": "Scribd page displays all-rights-reserved notice; reuse terms unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "VEN-SRC-102",
+      "title": "Annual Report 2025: Chapter IV.B, Venezuela",
+      "organization": "Inter-American Commission on Human Rights (IACHR), Organization of American States",
+      "publication_date": "2025-12-17",
+      "publication_date_basis": "document-version",
+      "url": "https://www.oas.org/en/iachr/docs/annual/2025/Chapters/IA2025_4B_VEN_EN.pdf",
+      "geographic_coverage": [
+        "Venezuela",
+        "Zulia",
+        "Mérida",
+        "Táchira",
+        "Trujillo",
+        "Barinas",
+        "Amazonas",
+        "Orinoco River",
+        "Yapacana National Park",
+        "Anzoátegui"
+      ],
+      "temporal_coverage": "Annual human-rights monitoring for 2025; climate-event passages cover the first half of 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "VEN-E-108",
+        "VEN-E-109",
+        "VEN-E-111"
+      ],
+      "this_audit_verification": "access-only",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 69-page PDF opened; paragraphs 151–156, 161 and 163 reviewed.",
+          "notes": "IACHR 2025 Venezuela chapter; climate event details include attributions to state and third-party reporting.",
+          "reuse_terms": "No reuse terms identified in inspected PDF.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "VEN-E-108",
+        "selected_source_id": "VEN-SRC-102",
+        "url": "https://www.oas.org/en/iachr/docs/annual/2025/Chapters/IA2025_4B_VEN_EN.pdf",
+        "locator": "PDF physical p.40 (printed p.847), paragraphs 154–155.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 1666530,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          40
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "VEN-E-108"
+      ]
+    },
+    {
+      "source_id": "VEN-SRC-103",
+      "title": "Venezuela Situation Report No. 2 (Year-End), 31 December 2024",
+      "organization": "United Nations Children's Fund (UNICEF)",
+      "publication_date": "2025-02-06",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/media/167551/file/UNICEF%20Venezuela%20Situation%20Report%20No.2%20%28Year-End%29%20-%2031%20December%202024.pdf",
+      "geographic_coverage": [
+        "Venezuela",
+        "Sucre",
+        "Montes",
+        "Valdez",
+        "Mejía",
+        "Zulia",
+        "Catatumbo",
+        "Colón",
+        "Rosario de Perijá",
+        "Amazonas"
+      ],
+      "temporal_coverage": "Situation and UNICEF response from 1 January to 31 December 2024; issued 6 February 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "VEN-E-112",
+        "VEN-E-113",
+        "VEN-E-114",
+        "VEN-E-115"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 15-page PDF opened; physical pp.1 and 8–9 reviewed.",
+          "notes": "Reporting period is calendar 2024; issue date on cover is 6 February 2025.",
+          "reuse_terms": "No reuse terms identified in inspected PDF.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "VEN-SRC-104",
+      "title": "Venezuela Humanitarian Situation Report No. 1 (Mid-Year), 30 June 2025",
+      "organization": "United Nations Children's Fund (UNICEF)",
+      "publication_date": "2025-08-01",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/media/173156/file/Venezuela-Humanitarian-Situation-Report-No.1-%28Mid-Year%29-30-June-2025.pdf",
+      "geographic_coverage": [
+        "Venezuela",
+        "Apure",
+        "Delta Amacuro",
+        "Amazonas",
+        "Táchira",
+        "Zulia",
+        "Guasdualito"
+      ],
+      "temporal_coverage": "Situation and UNICEF response from 1 January to 30 June 2025; issued 1 August 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "VEN-E-116",
+        "VEN-E-117",
+        "VEN-E-118",
+        "VEN-E-119"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 17-page PDF opened; physical pp.2–5 reviewed.",
+          "notes": "Reporting period is January–June 2025; issue date on cover is 1 August 2025.",
+          "reuse_terms": "No reuse terms identified in inspected PDF.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "VEN-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VEN-SRC-101",
+          "locator": "Scribd-rendered report, printed pp.23–24, climate scenarios and projected precipitation section."
+        }
+      ],
+      "geographies": [
+        "Venezuela",
+        "Llanos",
+        "Zulia",
+        "Bolívar",
+        "Amazonas"
+      ],
+      "affected_groups": [
+        "rain-fed agricultural users",
+        "water users"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "HadGEM3-GC31-LL/MIROC6; SSP2-4.5 and SSP5-8.5; 2021–2080.",
+      "compact_statement": "A user-uploaded mirror attributed to MINEC's 2025 vulnerability assessment presents model-dependent warming and rainfall changes for 2021–2080 under SSP2-4.5/SSP5-8.5. Official-host authenticity and scenario details remain pending; this is low-confidence draft model context, not an observed national outcome.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VEN-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VEN-SRC-101",
+          "locator": "Scribd-rendered report, printed pp.26–27, agricultural vulnerability summary."
+        }
+      ],
+      "geographies": [
+        "Monagas",
+        "Miranda",
+        "Aragua",
+        "Carabobo",
+        "Cojedes",
+        "Portuguesa",
+        "Lara",
+        "Barinas",
+        "Táchira",
+        "Mérida"
+      ],
+      "affected_groups": [
+        "agricultural land users"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "HadGEM3-GC31-LL; sector model, 2021–2040.",
+      "compact_statement": "Source dated 2025 reports: High-vulnerability agricultural lands include Monagas, Miranda, Aragua, Carabobo, Cojedes, Portuguesa, Lara, Barinas, Táchira and Mérida.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VEN-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VEN-SRC-101",
+          "locator": "Scribd-rendered report, printed p.44, Indigenous peoples sector, 2021–2040."
+        }
+      ],
+      "geographies": [
+        "Gran Sabana",
+        "Gran Guajira",
+        "Perijá",
+        "eastern Amazonas",
+        "Orinoco Delta"
+      ],
+      "affected_groups": [
+        "Indigenous communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "HadGEM3-GC31-LL, SSP2-4.5; 2021–2040.",
+      "compact_statement": "Source dated 2025 reports: Projected rainfall and heat anomalies affect Indigenous communities in Gran Sabana, Gran Guajira, Perijá, eastern Amazonas and Orinoco Delta.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VEN-E-108",
+      "record_review": "manual-passage-check-incomplete",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "VEN-SRC-102",
+          "locator": "PDF physical p.40 (printed p.847), paragraphs 154–155."
+        }
+      ],
+      "geographies": [
+        "Mérida",
+        "Táchira",
+        "Trujillo",
+        "Barinas"
+      ],
+      "affected_groups": [
+        "affected families",
+        "isolated rural communities",
+        "temporarily relocated people"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12-17 reports: Tropical-wave rains affected Mérida, Táchira, Trujillo and Barinas; over 8,000 families were affected and rural isolation forced temporary internal relocation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "VEN-E-108",
+        "source_id": "VEN-SRC-102",
+        "url": "https://www.oas.org/en/iachr/docs/annual/2025/Chapters/IA2025_4B_VEN_EN.pdf",
+        "locator": "PDF physical p.40 (printed p.847), paragraphs 154–155.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "access-only",
+        "claim_verification": "unresolved",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "manual_adjudication_completed": true,
+        "verification_note": "The selected window is chiefly references/footnotes rather than paragraphs154-155; geographic/relocation claims remain unverified."
+      },
+      "verification_note": "The selected window is chiefly references/footnotes rather than paragraphs154-155; geographic/relocation claims remain unverified.",
+      "manual_adjudication": {
+        "status": "unresolved",
+        "reviewed_on": "2026-10-27",
+        "source_id": "VEN-SRC-102",
+        "source_url": "https://www.oas.org/en/iachr/docs/annual/2025/Chapters/IA2025_4B_VEN_EN.pdf",
+        "locator": "PDF physical p.40 (printed p.847), paragraphs 154–155.",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The selected window is chiefly references/footnotes rather than paragraphs154-155; geographic/relocation claims remain unverified.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      }
+    },
+    {
+      "record_id": "VEN-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VEN-SRC-102",
+          "locator": "PDF physical p.41 (printed p.848), paragraph 156."
+        }
+      ],
+      "geographies": [
+        "Orinoco River",
+        "Amazonas"
+      ],
+      "affected_groups": [
+        "Warao Indigenous communities",
+        "evacuated families"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The IACHR describes Warao concerns about potential displacement from Orinoco river rise and separately reports authorities evacuating more than 200 Amazonas families in July 2025. It does not establish that the evacuated families were Warao.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VEN-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VEN-SRC-102",
+          "locator": "PDF physical p.42 (printed p.849), paragraph 163."
+        }
+      ],
+      "geographies": [
+        "Amazonas",
+        "Yapacana National Park",
+        "Ye’kwana territories"
+      ],
+      "affected_groups": [
+        "Ye’kwana Indigenous communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The IACHR, attributing allegations to OHCHR, describes illegal mining and violent clashes involving Ye'kwana territories in Amazonas. This is separate FCV context, not evidence of climate-caused mining violence.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VEN-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VEN-SRC-103",
+          "locator": "PDF physical p.1, situation overview, paragraphs on 2024 tropical waves."
+        }
+      ],
+      "geographies": [
+        "Venezuela",
+        "47 municipalities",
+        "17 states"
+      ],
+      "affected_groups": [
+        "children",
+        "affected households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-02-06 reports: Fifty-one tropical waves affected 47 municipalities in 17 states; over 75,200 people, including 28,400 children, were affected.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VEN-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VEN-SRC-103",
+          "locator": "PDF physical p.1, situation overview, Sucre and Zulia flood details."
+        }
+      ],
+      "geographies": [
+        "Montes",
+        "Valdez",
+        "Mejía",
+        "Catatumbo",
+        "Colón",
+        "Rosario de Perijá",
+        "Sucre",
+        "Zulia"
+      ],
+      "affected_groups": [
+        "children",
+        "flood-affected households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-02-06 reports: Floods affected Montes, Valdez and Mejía in Sucre and Catatumbo, Colón and Rosario de Perijá in Zulia, including over 24,000 children.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VEN-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VEN-SRC-103",
+          "locator": "PDF physical pp.8–9, WASH response, climate and disaster-risk reduction, and local capacity sections."
+        }
+      ],
+      "geographies": [
+        "Zulia",
+        "Sucre",
+        "Venezuela"
+      ],
+      "affected_groups": [
+        "schoolchildren",
+        "local communities",
+        "Indigenous communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-02-06 reports: UNICEF supported resilient water technologies and school disaster-risk learning; communities were trained to manage water systems, including in flood-affected Zulia and Sucre.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VEN-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VEN-SRC-103",
+          "locator": "PDF physical p.1, situation overview, election-related unrest paragraph."
+        }
+      ],
+      "geographies": [
+        "Venezuela"
+      ],
+      "affected_groups": [
+        "children",
+        "children with disabilities",
+        "Indigenous children"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-02-06 reports: Post-election civil unrest disrupted children’s access to essential services and increased protection risks; logistical and administrative barriers delayed lifesaving imports.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VEN-E-116",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VEN-SRC-104",
+          "locator": "PDF physical p.2, situation overview, early 2025 floods."
+        }
+      ],
+      "geographies": [
+        "Anzoátegui",
+        "Apure",
+        "Barinas",
+        "Delta Amacuro",
+        "Mérida",
+        "Monagas",
+        "Sucre",
+        "Táchira",
+        "Trujillo",
+        "Zulia"
+      ],
+      "affected_groups": [
+        "children",
+        "flood-affected people"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-08-01 reports: Early rains affected 31 municipalities across ten states, damaging homes, schools, health facilities and services; over 37,000 people, including 13,600 children, were affected.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VEN-E-117",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VEN-SRC-104",
+          "locator": "PDF physical p.4, health access and service constraints."
+        }
+      ],
+      "geographies": [
+        "border areas",
+        "hard-to-reach regions",
+        "Apure",
+        "Delta Amacuro",
+        "Amazonas"
+      ],
+      "affected_groups": [
+        "women",
+        "children under five",
+        "remote communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNICEF's mid-2025 report describes seasonal flooding and the electoral context jointly limiting primary-care access in border and hard-to-reach areas, with women and young children particularly affected. It does not isolate each contribution or establish that violence interrupted a climate-adaptation project.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VEN-E-118",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VEN-SRC-104",
+          "locator": "PDF physical p.3, Indigenous health referrals and radio communication system."
+        }
+      ],
+      "geographies": [
+        "Delta Amacuro"
+      ],
+      "affected_groups": [
+        "Warao Indigenous communities",
+        "pregnant women",
+        "children"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-08-01 reports: UNICEF expanded radio referrals in three remote fluvial health facilities in Delta Amacuro for isolated Warao riverine communities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VEN-E-119",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VEN-SRC-104",
+          "locator": "PDF physical p.5, child protection and border displacement paragraph."
+        }
+      ],
+      "geographies": [
+        "Táchira",
+        "Zulia",
+        "Colombia–Venezuela border"
+      ],
+      "affected_groups": [
+        "displaced children",
+        "children and adolescents in border areas"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNICEF's mid-2025 report describes separate border fighting, displacement and child-protection risks in Táchira and Zulia. This is dated FCV context, not climate-caused displacement or evidence that flooding caused armed confrontation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "VEN-E-108",
+  "source_access_review": {
+    "selected_record_id": "VEN-E-108",
+    "selected_source_id": "VEN-SRC-102",
+    "url": "https://www.oas.org/en/iachr/docs/annual/2025/Chapters/IA2025_4B_VEN_EN.pdf",
+    "locator": "PDF physical p.40 (printed p.847), paragraphs 154–155.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "access-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 1666530,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      40
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The selected window is chiefly references/footnotes rather than paragraphs154-155; geographic/relocation claims remain unverified."
+  },
+  "checks": [
+    {
+      "record_id": "VEN-E-108",
+      "source_id": "VEN-SRC-102",
+      "locator": "PDF physical p.40 (printed p.847), paragraphs 154–155.",
+      "verification_status": "unresolved",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "access-only",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": false,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "VEN-E-108: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "VEN-E-101",
+    "VEN-E-102",
+    "VEN-E-103",
+    "VEN-E-108",
+    "VEN-E-109",
+    "VEN-E-111",
+    "VEN-E-112",
+    "VEN-E-113",
+    "VEN-E-114",
+    "VEN-E-115",
+    "VEN-E-116",
+    "VEN-E-117",
+    "VEN-E-118",
+    "VEN-E-119"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

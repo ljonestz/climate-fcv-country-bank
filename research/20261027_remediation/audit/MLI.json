@@ -1,0 +1,2694 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "MLI",
+  "candidate_path": "countries/MLI/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 18,
+    "evidence_count": 39,
+    "pathway_count": 8,
+    "evidence_source_reference_count": 39
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 25,
+      "access-only": 13,
+      "verified": 1
+    },
+    "pathway_claims": {
+      "unresolved": 8
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "MLI-E-001",
+          "MLI-E-002",
+          "MLI-E-003",
+          "MLI-E-004"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "MLI-E-016",
+          "MLI-E-017",
+          "MLI-E-101"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "MLI-E-005",
+          "MLI-E-014",
+          "MLI-E-018",
+          "MLI-E-020",
+          "MLI-E-105",
+          "MLI-E-107",
+          "MLI-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MLI-E-006",
+          "MLI-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MLI-E-007",
+          "MLI-E-015",
+          "MLI-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MLI-E-008",
+          "MLI-E-009",
+          "MLI-E-019"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "MLI-E-021",
+          "MLI-E-022",
+          "MLI-E-023",
+          "MLI-E-026",
+          "MLI-E-110",
+          "MLI-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "MLI-E-011",
+          "MLI-E-012",
+          "MLI-E-013",
+          "MLI-E-102",
+          "MLI-E-106",
+          "MLI-E-108",
+          "MLI-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MLI-E-024",
+          "MLI-E-025",
+          "MLI-E-109",
+          "MLI-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "MLI-E-105",
+          "MLI-E-106",
+          "MLI-E-107",
+          "MLI-E-108",
+          "MLI-E-109",
+          "MLI-E-112",
+          "MLI-E-114"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "MLI-P-001",
+          "MLI-P-002",
+          "MLI-P-003",
+          "MLI-P-004",
+          "MLI-P-005",
+          "MLI-P-007",
+          "MLI-P-008",
+          "MLI-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/MLI/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "MLI-SRC-001",
+      "title": "*Mali: Climate Resilience and Environmental Governance*",
+      "organization": "World Bank",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099090925143524686/pdf/P176188-c894c6c8-62d6-478f-8ae4-b63ed111540a.pdf",
+      "geographic_coverage": [
+        "Mali; some regional comparative material"
+      ],
+      "temporal_coverage": "Historical climate through 2023; policy context to 2025",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "open",
+      "records_using_source": [
+        "MLI-E-001",
+        "MLI-E-004",
+        "MLI-E-008"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MLI-SRC-002",
+      "title": "*Mali Economic Update - Special Chapter: Strengthening Financial Resilience of Pastoralists to Drought*",
+      "organization": "World Bank",
+      "publication_date": "2023",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099071023135523039/pdf/P179299025eae9036089e7029775dc039d7.pdf",
+      "geographic_coverage": [
+        "National; pastoral focus"
+      ],
+      "temporal_coverage": "Baseline plus projections to 2050",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MLI-E-002",
+        "MLI-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MLI-SRC-003",
+      "title": "*Contribution Déterminée au Niveau National révisée*",
+      "organization": "Government of Mali / UNFCCC",
+      "publication_date": "2021",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/NDC/2022-06/MALI%20First%20NDC%20update.pdf",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "to 2030",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MLI-SRC-004",
+      "title": "*Agence de l’Environnement et du Développement Durable: session du Comité de coordination et suivi de mise en œuvre de la CDN*",
+      "organization": "Government of Mali",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://gouvernement.ml/agence-de-lenvironnement-et-du-developpement-durable/",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "2025",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MLI-E-009"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MLI-SRC-005",
+      "title": "*Climate-related Security Risks and Peacebuilding in Mali*",
+      "organization": "SIPRI",
+      "publication_date": "2021",
+      "publication_date_basis": "publication",
+      "url": "https://www.sipri.org/sites/default/files/2021-04/sipripp60.pdf",
+      "geographic_coverage": [
+        "Mali, with emphasis on north/centre and MINUSMA"
+      ],
+      "temporal_coverage": "Mainly 2010s-2020",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "MLI-E-005",
+        "MLI-E-006",
+        "MLI-E-007",
+        "MLI-E-013",
+        "MLI-E-014",
+        "MLI-E-015"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MLI-SRC-006",
+      "title": "*Is climate exacerbating the root causes of conflict in Mali? A climate security analysis through a structural equation modeling approach*",
+      "organization": "Frontiers in Climate / Alliance Bioversity-CIAT authors",
+      "publication_date": "2022",
+      "publication_date_basis": "publication",
+      "url": "https://www.frontiersin.org/journals/climate/articles/10.3389/fclim.2022.849757/full",
+      "geographic_coverage": [
+        "National household sample merged at cercle level"
+      ],
+      "temporal_coverage": "Survey/climate/conflict periods used by study",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MLI-E-011",
+        "MLI-E-012"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MLI-SRC-007",
+      "title": "*Mali Humanitarian Situation Report No. 1*",
+      "organization": "UNICEF",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/media/180601/file/Mali-Humanitarian-Situation-Report-No.1%2C31-March-2026.pdf.pdf",
+      "geographic_coverage": [
+        "Mali; regional breakdowns"
+      ],
+      "temporal_coverage": "Q1 2026 with annual projections",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MLI-E-016",
+        "MLI-E-017",
+        "MLI-E-018"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MLI-SRC-008",
+      "title": "*Situation report on the crisis in Mali - April 2026*",
+      "organization": "UNFPA Mali",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.unfpa.org/resources/situation-report-crisis-mali-%E2%80%93-april-2026",
+      "geographic_coverage": [
+        "Bamako, Gao, Mopti, Kidal and affected IDP sites"
+      ],
+      "temporal_coverage": "April 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MLI-E-019"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MLI-SRC-009",
+      "title": "*Mali - Operational Data Portal*",
+      "organization": "UNHCR / Government sources",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://data.unhcr.org/en/country/mli/684",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "Current portal with indicator-specific dates",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MLI-SRC-010",
+      "title": "*Humanitarian aid cuts push millions deeper into hunger amid rising violence and population displacement in West and Central Africa*",
+      "organization": "WFP",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.wfp.org/news/humanitarian-aid-cuts-push-millions-deeper-hunger-amid-rising-violence-and-population",
+      "geographic_coverage": [
+        "West/Central Africa with Mali-specific evidence"
+      ],
+      "temporal_coverage": "2023-2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MLI-E-026"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MLI-SRC-011",
+      "title": "*GIEWS Country Brief: Mali*",
+      "organization": "FAO",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://www.fao.org/giews/countrybrief/country.jsp?code=MLI",
+      "geographic_coverage": [
+        "National with regional distinctions"
+      ],
+      "temporal_coverage": "2024-2025",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MLI-E-020"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MLI-SRC-012",
+      "title": "*Impacts of Development Aid to Mali 2008-2021: A Systematic Review of Evaluation Reports - Part I*",
+      "organization": "Netherlands Ministry of Foreign Affairs, IOB-commissioned research",
+      "publication_date": "2022",
+      "publication_date_basis": "publication",
+      "url": "https://english.iob-evaluatie.nl/site/binaries/site-content/collections/documents/2022/11/10/systematic-reviews-mali/Systematic%2Breview%2B-%2BMali%2BPart%2BI%2BSummary%2BPaper.pdf",
+      "geographic_coverage": [
+        "Mali"
+      ],
+      "temporal_coverage": "2008-2021",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MLI-E-021",
+        "MLI-E-022",
+        "MLI-E-023",
+        "MLI-E-024"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MLI-SRC-013",
+      "title": "*Mali Community Resilience and Inclusive Services Project - Malidenko (P505025), Project Appraisal Document*",
+      "organization": "World Bank / IDA",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099102824175541849/pdf/BOSIB-98ae49ad-a844-4099-a8ab-fb720ffb40c2.pdf",
+      "geographic_coverage": [
+        "Selected communes/communities in Mali"
+      ],
+      "temporal_coverage": "Project period from 2024",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "MLI-E-025"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MLI-SRC-101",
+      "title": "2025 Resilience Report: Climate, Conflict and Resilience: Pathways to Sustainable and Inclusive Solutions",
+      "organization": "Islamic Development Bank",
+      "publication_date": "2025-05",
+      "publication_date_basis": "document-version",
+      "url": "https://www.isdb.org/sites/default/files/media/documents/2025-05/RESILIENCE%20REPORT%202025.pdf",
+      "geographic_coverage": [
+        "Mali",
+        "Liptako-Gourma",
+        "northern Mali",
+        "southern river deltas",
+        "Niger River Delta"
+      ],
+      "temporal_coverage": "Mali case study in a nine-country FCAS resilience report published in May 2025; field and referenced evidence span different dates.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MLI-E-101",
+        "MLI-E-102",
+        "MLI-E-103",
+        "MLI-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 74-page PDF; especially printed pp.37–39 for Mali case and pp.11–13 for methodology and limitations.",
+          "notes": "Opened report text directly; country material is a synthesis drawing on cited sources and field work, not a current monitoring series.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MLI-SRC-102",
+      "title": "Addressing climate and conflict-related loss and damage in fragile states: a focus on Mali",
+      "organization": "International Institute for Environment and Development (IIED), with DanChurchAid Mali and TASSAGHT",
+      "publication_date": "2025-04",
+      "publication_date_basis": "document-version",
+      "url": "https://www.iied.org/sites/default/files/pdfs/2025-03/22618iied.pdf",
+      "geographic_coverage": [
+        "Mopti region",
+        "Sio commune",
+        "Konna commune",
+        "Fatoma commune",
+        "Socoura commune",
+        "Mopti commune",
+        "Kouna village"
+      ],
+      "temporal_coverage": "Household research in five Mopti communes; hazard, mobility and loss findings cover differing retrospective periods, including the latest disaster year reported by sampled households.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MLI-E-105",
+        "MLI-E-106",
+        "MLI-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 84-page PDF; especially PDF pp.8–9, 13, 20 and 69.",
+          "notes": "Directly opened full report. Household sample covers five Mopti communes; source records access constraints and smaller displaced-household sample.",
+          "reuse_terms": "CC BY-NC-ND 4.0 stated in publication front matter.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MLI-SRC-103",
+      "title": "Practical solutions at the intersection of climate action, peace, and security in the Liptako-Gourma region",
+      "organization": "United Nations Development Programme (UNDP), West and Central Africa Regional Hub / Liptako-Gourma Stabilization Facility",
+      "publication_date": "2024-06",
+      "publication_date_basis": "document-version",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2025-09/solutions-pratiques-lg-en-vf-2.pdf",
+      "geographic_coverage": [
+        "Liptako-Gourma",
+        "Mopti region",
+        "Gao region",
+        "Inner Niger Delta"
+      ],
+      "temporal_coverage": "June 2024 study version; released on UNDP portal 16 September 2025; heterogeneous historical case material.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MLI-E-108",
+        "MLI-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 49-page PDF; especially PDF pp.5, 8 and 25–26.",
+          "notes": "Opened English-language report through the English PDF link on UNDP's publication page. Its cover dates the study June 2024; UNDP page publication date is 16 September 2025.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MLI-SRC-104",
+      "title": "Mali, Decentralized evaluation of the Integrated Resilience Package in 20 priority communes (2018–2024)",
+      "organization": "World Food Programme (WFP), Mali Country Office",
+      "publication_date": "2026-01-07",
+      "publication_date_basis": "portal-publication",
+      "url": "https://friends.wfp.org/publications/mali-decentralized-evaluation-integrated-resilience-package-20-priority-communes-2018",
+      "geographic_coverage": [
+        "20 priority communes in Mali"
+      ],
+      "temporal_coverage": "Evaluation concerns the Integrated Resilience Package implemented from 2018 to 2024; WFP page published 7 January 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MLI-E-110",
+        "MLI-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Directly opened WFP publication synopsis, lines 242–267.",
+          "notes": "Claims use only the WFP-hosted evaluation synopsis; the underlying French evaluation PDF endpoint was inaccessible through the public reader.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        },
+        {
+          "access_method": "blocked",
+          "locator": "Direct URL to the evaluation PDF linked from WFP page.",
+          "notes": "Public reader reported the PDF URL inaccessible; no claim relies on the PDF contents.",
+          "reuse_terms": "Unknown; no document copy retained.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MLI-SRC-105",
+      "title": "Building peace and prosperity through climate action in Mali",
+      "organization": "United Nations Development Programme (UNDP), Mali",
+      "publication_date": "2025-08-27",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.undp.org/stories/building-peace-and-prosperity-through-climate-action-mali",
+      "geographic_coverage": [
+        "central Mali",
+        "Dembala",
+        "Mopti",
+        "Djenné"
+      ],
+      "temporal_coverage": "UNDP programme story published 27 August 2025; examples and testimony are presented as programme and community accounts at that time.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MLI-E-112",
+        "MLI-E-113",
+        "MLI-E-114"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Directly opened complete story body, lines 17–66.",
+          "notes": "Publisher story includes resident and traditional-institution testimony alongside descriptions of UNDP-supported activities; it is not an independent evaluation.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "MLI-E-112",
+        "selected_source_id": "MLI-SRC-105",
+        "url": "https://www.undp.org/stories/building-peace-and-prosperity-through-climate-action-mali",
+        "locator": "UNDP story, lines 27–40, Dembala testimony and water-point rehabilitation",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 111477,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "MLI-E-112"
+      ],
+      "manual_verified_record_ids": [
+        "MLI-E-112"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "MLI-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-001",
+          "locator": "PDF p.15, “Escalating Climate Crisis”. (World Bank)"
+        }
+      ],
+      "geographies": [
+        "Mali"
+      ],
+      "affected_groups": [
+        "population-wide"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Long-term warming is observed.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-002",
+          "locator": "PDF p.34, 2050 optimistic/pessimistic temperature cases."
+        }
+      ],
+      "geographies": [
+        "Mali"
+      ],
+      "affected_groups": [
+        "population-wide"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "2050; six climate-model/emissions combinations",
+      "compact_statement": "Further warming is projected.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-002",
+          "locator": "PDF p.34, 2050 wet/dry precipitation cases."
+        }
+      ],
+      "geographies": [
+        "Mali"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoralists",
+        "urban residents"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "2050; dry/wet scenarios",
+      "compact_statement": "Rainfall direction is highly uncertain.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-001",
+          "locator": "PDF p.15. (World Bank)"
+        }
+      ],
+      "geographies": [
+        "Mali"
+      ],
+      "affected_groups": [
+        "flood-exposed communities"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "future; scenario not specified in cited passage",
+      "compact_statement": "Heavy-rainfall risk is expected to rise.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-005",
+          "locator": "PDF p.29. (SIPRI)"
+        }
+      ],
+      "geographies": [
+        "Gao",
+        "Mopti"
+      ],
+      "affected_groups": [
+        "pastoralists",
+        "agro-pastoralists"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Pastoral households report recurrent rainfall/drought stress.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-005",
+          "locator": "pp.29-31. (SIPRI)"
+        }
+      ],
+      "geographies": [
+        "north/centre",
+        "pastoral areas"
+      ],
+      "affected_groups": [
+        "pastoral/agro-pastoral households"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Mobility and diversification are established coping strategies.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-005",
+          "locator": "socio-ecological/adaptation discussion pp.29-31. (SIPRI)"
+        }
+      ],
+      "geographies": [
+        "northern/central livelihood settings"
+      ],
+      "affected_groups": [
+        "women",
+        "men",
+        "pastoralists",
+        "farmers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Adaptive capacity is socially differentiated.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-008",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-001",
+          "locator": "PDF pp.30-31, coordination, budget and local-governance constraints."
+        }
+      ],
+      "geographies": [
+        "Mali",
+        "conflict-prone areas"
+      ],
+      "affected_groups": [
+        "public institutions",
+        "communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Institutional coordination and local capacity are constrained.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-009",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-004",
+          "locator": "webpage paragraphs on 27 Jun 2025 session. (Government of Mali)"
+        }
+      ],
+      "geographies": [
+        "Mali"
+      ],
+      "affected_groups": [
+        "institutions/population"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "A formal multi-actor NDC coordination mechanism exists.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-011",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-006",
+          "locator": "Abstract and Results, especially paras. corresponding to lines 300-304 and 499-504. (Frontiers)"
+        }
+      ],
+      "geographies": [
+        "Mali"
+      ],
+      "affected_groups": [
+        "farming households"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Food security mediates a climate-conflict association.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-012",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-006",
+          "locator": "Results, lines corresponding to 500-503. (Frontiers)"
+        }
+      ],
+      "geographies": [
+        "Mali"
+      ],
+      "affected_groups": [
+        "maize-growing households"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Low-rainfall anomalies show a mediated conflict association.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-013",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-005",
+          "locator": "PDF p.34. (SIPRI)"
+        }
+      ],
+      "geographies": [
+        "northern/central Mali"
+      ],
+      "affected_groups": [
+        "youth",
+        "resource-dependent households"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Livelihood loss may widen recruitment opportunities.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-014",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-005",
+          "locator": "PDF pp.14-15 and p.8. (SIPRI)"
+        }
+      ],
+      "geographies": [
+        "north and centre"
+      ],
+      "affected_groups": [
+        "marginalized communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Non-climate drivers remain central.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-015",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-005",
+          "locator": "PDF p.34. (SIPRI)"
+        }
+      ],
+      "geographies": [
+        "conflict-affected Mali"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoralists"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict constrains livelihood adaptation and resource access.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-016",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-007",
+          "locator": "PDF pp.1-2. (UNICEF)"
+        }
+      ],
+      "geographies": [
+        "Mali",
+        "concentration in conflict-affected regions"
+      ],
+      "affected_groups": [
+        "IDPs",
+        "refugees",
+        "hosts"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "UNICEF reported about 415,000 IDPs and nearly 280,000 refugees in Mali in Q1 2026, with pressure on already fragile services.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-017",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-007",
+          "locator": "PDF p.2. (UNICEF)"
+        }
+      ],
+      "geographies": [
+        "Mali"
+      ],
+      "affected_groups": [
+        "children",
+        "teachers",
+        "displaced households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "As of March 2026, UNICEF reported 2,374 non-functional schools affecting more than 700,000 children and nearly 14,000 teachers, primarily amid insecurity/displacement and related constraints.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-018",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-007",
+          "locator": "PDF p.2. (UNICEF)"
+        }
+      ],
+      "geographies": [
+        "Ménaka",
+        "Mopti",
+        "Timbuktu",
+        "Gao"
+      ],
+      "affected_groups": [
+        "young children"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "Nov 2025-Oct 2026",
+      "compact_statement": "UNICEF projected 1.12 million children aged 6-59 months to experience acute malnutrition during Nov 2025-Oct 2026, with lean-season deterioration particularly in Ménaka, Mopti, Timbuktu and Gao.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-019",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-008",
+          "locator": "main situation section. (United Nations Population Fund)"
+        }
+      ],
+      "geographies": [
+        "Bamako",
+        "Gao",
+        "Mopti",
+        "Kidal"
+      ],
+      "affected_groups": [
+        "women",
+        "displaced people"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "April 2026 insecurity and movement restrictions disrupted humanitarian access and continuity of emergency reproductive-health services, including in Bamako and other affected cities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-020",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-011",
+          "locator": "FAO GIEWS Mali Country Brief, reference date 27 August 2026, food-security section."
+        }
+      ],
+      "geographies": [
+        "north/centre",
+        "Ménaka"
+      ],
+      "affected_groups": [
+        "farmers",
+        "displaced households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "FAO's 27 August 2026 brief estimated 1.56 million people in CH Phase 3+ during June-August 2026 and identified ongoing conflict as the key driver.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-011"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-021",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-012",
+          "locator": "PDF pp.19-21."
+        }
+      ],
+      "geographies": [
+        "multiple Mali project areas"
+      ],
+      "affected_groups": [
+        "rural households"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Evaluated programmes aid coping more reliably than transformation.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-012"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-022",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-012",
+          "locator": "PDF pp.12-14."
+        }
+      ],
+      "geographies": [
+        "multiple areas"
+      ],
+      "affected_groups": [
+        "conflict-affected communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Stabilization effectiveness is weakly demonstrated.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-012"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-023",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-012",
+          "locator": "PDF p.12."
+        }
+      ],
+      "geographies": [
+        "conflict-affected Mali"
+      ],
+      "affected_groups": [
+        "youth/ex-combatants"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "A peace programme may have created adverse incentives.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-012"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-024",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-012",
+          "locator": "PDF pp.36-38."
+        }
+      ],
+      "geographies": [
+        "Mali"
+      ],
+      "affected_groups": [
+        "communities"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Local ownership and recurrent financing shape durability.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-012"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-025",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-013",
+          "locator": "PAD PDF pp.25 and 40-46, community committees, facilitators, grievance mechanism and indicators."
+        }
+      ],
+      "geographies": [
+        "participating communes"
+      ],
+      "affected_groups": [
+        "community members"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Project design embeds local participation and grievance handling.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-013"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-026",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-010",
+          "locator": "paragraph “In Mali…”. (World Food Programme)"
+        }
+      ],
+      "geographies": [
+        "Mali programme areas"
+      ],
+      "affected_groups": [
+        "food-insecure households"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "WFP reported in January 2026 that areas where food rations had been reduced experienced a 64% increase in acute hunger (IPC/CH 3+) since 2023, while areas receiving full rations experienced a 34% decrease.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MLI-SRC-010"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-101",
+          "locator": "Printed pp.37–38, Environment and Natural Disasters"
+        }
+      ],
+      "geographies": [
+        "northern Mali",
+        "southern river deltas"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "rural households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-05 reports: Northern Mali faces drought and extreme heat with stressed reserves; southern river deltas face flooding where agriculture is clustered.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-101",
+          "locator": "Printed p.37, farmer-herder conflict and Liptako-Gourma; endnote 127"
+        }
+      ],
+      "geographies": [
+        "Liptako-Gourma"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "farmers",
+        "pastoralists"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-05 reports: In Liptako-Gourma, floods and droughts compound smallholder losses alongside land-ownership tensions and declining security.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-101",
+          "locator": "Printed pp.38–39, livelihood constraints and coping"
+        }
+      ],
+      "geographies": [
+        "Mali"
+      ],
+      "affected_groups": [
+        "rural households",
+        "pastoralists"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-05 reports: Conflict risks and tensions can prevent some people from moving toward better prospects, leaving tree-cutting or overgrazing as fallback livelihoods.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-101",
+          "locator": "Printed p.39, Opportunities"
+        }
+      ],
+      "geographies": [
+        "Mali"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoralists"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-05 reports: Reported adaptations include pastoral herd-splitting and purchased feed, drought-tolerant crops, zaï pits, stone bunds and composting.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-102",
+          "locator": "PDF p.20, Kouna village, Sio commune focus-group example"
+        }
+      ],
+      "geographies": [
+        "Mopti region",
+        "Sio commune",
+        "Kouna village"
+      ],
+      "affected_groups": [
+        "Kouna residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-04 reports: Kouna village in Sio commune, beside a pond fed by runoff and Niger levels, reportedly floods annually up to its streets.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-102",
+          "locator": "PDF p.8, summary regression results on climate risk, conflict exposure and displacement"
+        }
+      ],
+      "geographies": [
+        "Sio commune",
+        "Konna commune",
+        "Fatoma commune",
+        "Socoura commune",
+        "Mopti commune"
+      ],
+      "affected_groups": [
+        "surveyed households",
+        "displaced households",
+        "migrant households"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "IIED's 408-household Mopti study finds associations between reported climate risks, insecurity and displacement likelihood.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-102",
+          "locator": "PDF p.9, loss-and-damage summary by household migration status"
+        }
+      ],
+      "geographies": [
+        "Mopti region",
+        "five study communes"
+      ],
+      "affected_groups": [
+        "displaced households",
+        "non-migrant households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-04 reports: Among sampled displaced households, drought losses equalled 61% and flood losses 40% of annual income, versus 34% and 27% for non-migrants.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-103",
+          "locator": "PDF p.5, regional examples of resource competition and climate-related insecurity"
+        }
+      ],
+      "geographies": [
+        "Mopti region",
+        "Gao region",
+        "Liptako-Gourma"
+      ],
+      "affected_groups": [
+        "Fulani herders",
+        "Dogon farmers",
+        "agricultural households"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNDP's June 2024 regional study discusses resource competition and violence in Mopti and drought-related farm-income pressures around Gao.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-103",
+          "locator": "PDF p.25, Gao climate-smart agriculture and Mali mediator-training passages"
+        }
+      ],
+      "geographies": [
+        "Gao region",
+        "Liptako-Gourma"
+      ],
+      "affected_groups": [
+        "farmers",
+        "herders",
+        "rural communities"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The June 2024 study reports Gao farming practices and Mali mediator training combined with climate-smart agriculture.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-104",
+          "locator": "WFP official evaluation synopsis, lines 246–258"
+        }
+      ],
+      "geographies": [
+        "20 priority communes in Mali"
+      ],
+      "affected_groups": [
+        "targeted communities",
+        "poorest households"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "WFP's official 2026 evaluation synopsis reports stronger dietary diversity, reduced distress coping and social cohesion across its 2018–2024 package, with weaker gains among the poorest and regional variation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-104",
+          "locator": "WFP official evaluation synopsis, lines 255–260"
+        }
+      ],
+      "geographies": [
+        "20 priority communes in Mali"
+      ],
+      "affected_groups": [
+        "targeted communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-01-07 reports: Asset and agricultural support strengthened resilience, but climate and security constrained effectiveness; community committees often lacked capacity and resources to maintain assets.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-112",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-105",
+          "locator": "UNDP story, lines 27–40, Dembala testimony and water-point rehabilitation"
+        }
+      ],
+      "geographies": [
+        "central Mali",
+        "Dembala"
+      ],
+      "affected_groups": [
+        "women",
+        "Dembala residents"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-08-27 reports: Dembala women described dry-season pump and well failures and fights over scarce water; rehabilitated potable-water points later restored drinking and irrigation access.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "Retain attribution to the named residents and UNDP's reported project output; do not present the story as an evaluated causal impact."
+      ],
+      "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+      "verification_attempt": {
+        "record_id": "MLI-E-112",
+        "source_id": "MLI-SRC-105",
+        "url": "https://www.undp.org/stories/building-peace-and-prosperity-through-climate-action-mali",
+        "locator": "UNDP story, lines 27–40, Dembala testimony and water-point rehabilitation",
+        "accessed_on": "2026-10-27",
+        "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The UNDP story reports Dembala residents' accounts of dry-season pump/well failure, water scarcity and conflict over water, and states that rehabilitated water points restored drinking and irrigation access. This is an attributed community account and project-output report, not an independent impact evaluation."
+      },
+      "verification_note": "The UNDP story reports Dembala residents' accounts of dry-season pump/well failure, water scarcity and conflict over water, and states that rehabilitated water points restored drinking and irrigation access. This is an attributed community account and project-output report, not an independent impact evaluation.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "MLI-SRC-105",
+        "source_url": "https://www.undp.org/stories/building-peace-and-prosperity-through-climate-action-mali",
+        "locator": "UNDP story, lines 27–40, Dembala testimony and water-point rehabilitation",
+        "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+        "reason": "The UNDP story reports Dembala residents' accounts of dry-season pump/well failure, water scarcity and conflict over water, and states that rehabilitated water points restored drinking and irrigation access. This is an attributed community account and project-output report, not an independent impact evaluation.",
+        "recommended_record_patch": "Retain attribution to the named residents and UNDP's reported project output; do not present the story as an evaluated causal impact.",
+        "coordinator_decision_ref": null
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "MLI-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-105",
+          "locator": "UNDP story, lines 38–41, conflict/resource-grievance and gender/youth discussion"
+        }
+      ],
+      "geographies": [
+        "Mali"
+      ],
+      "affected_groups": [
+        "women",
+        "youth"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-08-27 reports: UNDP says women travel farther for water and fuelwood and face heightened GBV risk in conflict zones; it also describes youth as vulnerable to extremist recruitment.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MLI-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MLI-SRC-105",
+          "locator": "UNDP story, lines 47–51, Barahogon account of natural-resource rules"
+        }
+      ],
+      "geographies": [
+        "Dogon communities",
+        "Djenné",
+        "Mopti"
+      ],
+      "affected_groups": [
+        "Dogon communities",
+        "farmers",
+        "pastoralists"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-08-27 reports: A revitalized Dogon Barahogon institution reports forest-use rules regenerated trees and reduced resource conflict and flooding; Djenné and Mopti communities adopted its model.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "MLI-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MLI-E-011",
+        "MLI-E-012",
+        "MLI-E-014"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MLI-E-011"
+        ],
+        "impact": [
+          "MLI-E-011"
+        ],
+        "mediator": [
+          "MLI-E-011"
+        ],
+        "consequence": [
+          "MLI-E-011"
+        ]
+      },
+      "geographies": [
+        "National household sample",
+        "climate/conflict matched at cercle level"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Climate anomalies may contribute to conflict risk through crop and food-security effects, but the observed relationship is mediated and non-deterministic.",
+      "alternative_explanations": [
+        "Political violence dynamics",
+        "local governance",
+        "armed-group strategy",
+        "poverty",
+        "commodity markets",
+        "existing conflict"
+      ],
+      "uncertainty": "Structural-equation mediation is compatible with the pathway but does not establish event-level climate causality. (Frontiers)",
+      "potentially_out_of_scope_support_ids": [
+        "MLI-E-011",
+        "MLI-E-012",
+        "MLI-E-014"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "MLI-P-002",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MLI-E-005",
+        "MLI-E-006",
+        "MLI-E-014"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MLI-E-005"
+        ],
+        "impact": [
+          "MLI-E-005"
+        ],
+        "mediator": [
+          "MLI-E-005"
+        ],
+        "consequence": [
+          "MLI-E-005"
+        ]
+      },
+      "geographies": [
+        "Gao",
+        "Mopti",
+        "Inner Niger Delta and pastoral corridors",
+        "not national"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Rainfall stress can alter pastoral mobility, but whether this becomes conflict depends heavily on institutions and access governance.",
+      "alternative_explanations": [
+        "Land tenure",
+        "historical disputes",
+        "armed actors",
+        "weapons",
+        "population growth",
+        "local political competition"
+      ],
+      "uncertainty": "Mobility is itself an adaptation strategy and must not be characterized as inherently destabilizing. (SIPRI)",
+      "potentially_out_of_scope_support_ids": [
+        "MLI-E-006",
+        "MLI-E-014"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "MLI-P-003",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MLI-E-004",
+        "MLI-E-020"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MLI-E-004"
+        ],
+        "impact": [
+          "MLI-E-004"
+        ],
+        "mediator": [
+          "MLI-E-004"
+        ],
+        "consequence": [
+          "MLI-E-004"
+        ]
+      },
+      "geographies": [
+        "Flood-affected agricultural areas",
+        "rice-producing areas particularly noted in 2024"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Flood losses can deepen food and livelihood stress, but an FCV consequence requires additional social and institutional mediators. (World Bank)",
+      "alternative_explanations": [
+        "Conflict-related market disruption",
+        "input costs",
+        "poverty and transport constraints"
+      ],
+      "uncertainty": "No retained source directly demonstrates that specific Mali floods caused subsequent violence.",
+      "potentially_out_of_scope_support_ids": [
+        "MLI-E-004",
+        "MLI-E-020"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "MLI-P-004",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MLI-E-013",
+        "MLI-E-014"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MLI-E-013"
+        ],
+        "impact": [
+          "MLI-E-013"
+        ],
+        "mediator": [
+          "MLI-E-013"
+        ],
+        "consequence": [
+          "MLI-E-013"
+        ]
+      },
+      "geographies": [
+        "Principally northern and central Mali in the retained qualitative evidence"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Climate stress may narrow livelihoods and thereby enlarge recruitment opportunities, but it is one contributor among many.",
+      "alternative_explanations": [
+        "Political ideology",
+        "coercion",
+        "protection",
+        "kinship",
+        "criminal economies",
+        "state abuses",
+        "ethnic mobilization",
+        "trafficking"
+      ],
+      "uncertainty": "SIPRI explicitly describes recruitment as complex and the study as a plausibility probe. (SIPRI)",
+      "potentially_out_of_scope_support_ids": [
+        "MLI-E-013",
+        "MLI-E-014"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "MLI-P-005",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MLI-E-006",
+        "MLI-E-015"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MLI-E-006"
+        ],
+        "impact": [
+          "MLI-E-006"
+        ],
+        "mediator": [
+          "MLI-E-006"
+        ],
+        "consequence": [
+          "MLI-E-006"
+        ]
+      },
+      "geographies": [
+        "Conflict-affected agricultural and pastoral areas"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Conflict can disable livelihood strategies that would otherwise help households adapt to climatic variability. (SIPRI)",
+      "alternative_explanations": [
+        "Input prices",
+        "infrastructure deficits",
+        "seasonal conditions"
+      ],
+      "uncertainty": "Qualitative evidence documents coping strategies and conflict disruption, but does not estimate the incremental loss of climate-adaptation performance.",
+      "potentially_out_of_scope_support_ids": [
+        "MLI-E-006",
+        "MLI-E-015"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "MLI-P-007",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MLI-E-008",
+        "MLI-E-009",
+        "MLI-E-014"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MLI-E-008"
+        ],
+        "impact": [
+          "MLI-E-008"
+        ],
+        "mediator": [
+          "MLI-E-008"
+        ],
+        "consequence": [
+          "MLI-E-008"
+        ]
+      },
+      "geographies": [
+        "National",
+        "with greater constraints in conflict-prone localities"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Climate pressures place additional demands on already constrained institutions; weak or unequal responses can in turn worsen both vulnerability and grievance risk. (World Bank)",
+      "alternative_explanations": [
+        "Political exclusion",
+        "corruption unrelated to climate policy",
+        "historic centre-periphery relations"
+      ],
+      "uncertainty": "Institutional weakness is independently consequential and should not be relabelled as a climate effect.",
+      "potentially_out_of_scope_support_ids": [
+        "MLI-E-008",
+        "MLI-E-009",
+        "MLI-E-014"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "MLI-P-008",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MLI-E-006",
+        "MLI-E-024",
+        "MLI-E-025"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MLI-E-006"
+        ],
+        "impact": [
+          "MLI-E-006"
+        ],
+        "mediator": [
+          "MLI-E-006"
+        ],
+        "consequence": [
+          "MLI-E-006"
+        ]
+      },
+      "geographies": [
+        "Community and commune level",
+        "specific evidence should not be generalized to all Mali"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Locally legitimate coping and resource-governance institutions are plausible peace-supporting capacities, but their distributional and conflict effects require evaluation.",
+      "alternative_explanations": [
+        "Some local institutions can also reproduce exclusion or unequal access"
+      ],
+      "uncertainty": "Strong independent evidence on peace outcomes from climate/resource institutions remains limited.",
+      "potentially_out_of_scope_support_ids": [
+        "MLI-E-006",
+        "MLI-E-024",
+        "MLI-E-025"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "MLI-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MLI-E-112"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MLI-E-112"
+        ],
+        "impact": [
+          "MLI-E-112"
+        ],
+        "mediator": [
+          "MLI-E-112"
+        ],
+        "consequence": [
+          "MLI-E-112"
+        ]
+      },
+      "geographies": [
+        "Dembala"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Dembala residents linked dry-season water-point failures with livelihood constraints and disputes; rehabilitation is a reported capacity response.",
+      "alternative_explanations": [
+        "Pump maintenance, local water governance and livelihood conditions also shape scarcity and disputes."
+      ],
+      "uncertainty": "Historical resident testimony in a 2025 implementer story; village district not verified; not a representative causal study.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "MLI-E-112",
+  "source_access_review": {
+    "selected_record_id": "MLI-E-112",
+    "selected_source_id": "MLI-SRC-105",
+    "url": "https://www.undp.org/stories/building-peace-and-prosperity-through-climate-action-mali",
+    "locator": "UNDP story, lines 27–40, Dembala testimony and water-point rehabilitation",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 111477,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+    "verification_note": "The UNDP story reports Dembala residents' accounts of dry-season pump/well failure, water scarcity and conflict over water, and states that rehabilitated water points restored drinking and irrigation access. This is an attributed community account and project-output report, not an independent impact evaluation."
+  },
+  "checks": [
+    {
+      "record_id": "MLI-E-112",
+      "source_id": "MLI-SRC-105",
+      "locator": "UNDP story, lines 27–40, Dembala testimony and water-point rehabilitation",
+      "verification_status": "verified",
+      "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Retain attribution to the named residents and UNDP's reported project output; do not present the story as an evaluated causal impact.",
+      "coordinator_decision_ref": null
+    }
+  ],
+  "limitations": [
+    "MLI-E-112: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "MLI-E-001",
+    "MLI-E-002",
+    "MLI-E-003",
+    "MLI-E-004",
+    "MLI-E-005",
+    "MLI-E-006",
+    "MLI-E-007",
+    "MLI-E-008",
+    "MLI-E-009",
+    "MLI-E-011",
+    "MLI-E-012",
+    "MLI-E-013",
+    "MLI-E-014",
+    "MLI-E-015",
+    "MLI-E-016",
+    "MLI-E-017",
+    "MLI-E-018",
+    "MLI-E-019",
+    "MLI-E-020",
+    "MLI-E-021",
+    "MLI-E-022",
+    "MLI-E-023",
+    "MLI-E-024",
+    "MLI-E-025",
+    "MLI-E-026",
+    "MLI-E-101",
+    "MLI-E-102",
+    "MLI-E-103",
+    "MLI-E-104",
+    "MLI-E-105",
+    "MLI-E-106",
+    "MLI-E-107",
+    "MLI-E-108",
+    "MLI-E-109",
+    "MLI-E-110",
+    "MLI-E-111",
+    "MLI-E-112",
+    "MLI-E-113",
+    "MLI-E-114",
+    "MLI-P-001",
+    "MLI-P-002",
+    "MLI-P-003",
+    "MLI-P-004",
+    "MLI-P-005",
+    "MLI-P-007",
+    "MLI-P-008",
+    "MLI-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 1,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

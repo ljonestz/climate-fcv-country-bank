@@ -1,0 +1,916 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "ALB",
+  "candidate_path": "countries/ALB/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 5,
+    "evidence_count": 12,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 12
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 11,
+      "verified": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "ALB-E-102"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "ALB-E-101",
+          "ALB-E-103",
+          "ALB-E-105",
+          "ALB-E-106",
+          "ALB-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "ALB-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "ALB-E-112",
+          "ALB-E-113",
+          "ALB-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "ALB-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "ALB-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "ALB-E-101",
+          "ALB-E-102",
+          "ALB-E-103",
+          "ALB-E-105",
+          "ALB-E-106",
+          "ALB-E-108",
+          "ALB-E-111"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/ALB/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "ALB-SRC-101",
+      "title": "Western Balkans 6: Albania Country Climate and Development Report Compendium",
+      "organization": "World Bank Group",
+      "publication_date": "2024-10",
+      "publication_date_basis": "document-version",
+      "url": "https://documents1.worldbank.org/curated/en/099103024082037555/pdf/P17920514f0e1e0af1b3b019312cb6f0512.pdf",
+      "geographic_coverage": [
+        "Albania",
+        "Fier",
+        "Lushnje",
+        "Shkodër",
+        "Tirana",
+        "Durrës",
+        "Vlora",
+        "Lezha",
+        "Dropull",
+        "Këlcyrë",
+        "Përmet",
+        "Kukës"
+      ],
+      "temporal_coverage": "Climate and socioeconomic data, historical hazards through 2023, municipal hazard rankings and policy review.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ALB-E-101",
+        "ALB-E-102",
+        "ALB-E-103",
+        "ALB-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF printed pp. 14, 21 and 69; Annex C methods and Table C.1",
+          "notes": "Opened the public 90-page CCDR compendium and read the local rankings, flood-vulnerable settlements and social-protection passages.",
+          "reuse_terms": "Rights section permits noncommercial reproduction with attribution; other terms not assessed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ALB-SRC-102",
+      "title": "Albania's National Adaptation Plan 2026–2036",
+      "organization": "Government of Albania, Ministry of Environment, with UNDP and Green Climate Fund support",
+      "publication_date": "2025-10",
+      "publication_date_basis": "document-version",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-05/nap_document_eng.pdf",
+      "geographic_coverage": [
+        "Albania",
+        "Durrës",
+        "Elbasan",
+        "Fier",
+        "Gjirokastër",
+        "Krujë",
+        "Kukës",
+        "Përmet",
+        "Vlorë",
+        "Tirana",
+        "Shkodër"
+      ],
+      "temporal_coverage": "National climate risks and an adaptation framework for 2026–2036; municipal plans developed during 2022–2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ALB-E-105",
+        "ALB-E-106",
+        "ALB-E-107",
+        "ALB-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 64, 67–68, urban risk tables, local vulnerabilities and LAP process",
+          "notes": "Opened and read the 148-page English National Adaptation Plan; its UNDP page dates the portal publication January 2026 while the PDF copy itself gives no publication date.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ALB-SRC-103",
+      "title": "National Security Strategy of the Republic of Albania 2023–2028",
+      "organization": "Republic of Albania, Ministry of Defence",
+      "publication_date": "2024-02-08",
+      "publication_date_basis": "document-version",
+      "url": "https://www.mod.gov.al/images/PDF/2024/strategjia-kombetare-2024.pdf",
+      "geographic_coverage": [
+        "Albania",
+        "global and regional security context"
+      ],
+      "temporal_coverage": "National security strategy for 2023–2028; relevant climate-security passage addresses global-level risks.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF printed p. 5, section 3.a",
+          "notes": "Opened the official Albanian-language 36-page strategy and translated its global-level climate-security passage; no English-snippet claims used.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ALB-SRC-104",
+      "title": "Local Climate Change Adaptation Plan for Shkoder Municipality: Project Summary",
+      "organization": "Environmental and Territorial Management Institute (ETMI)",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://etmi-al.org/wp-content/uploads/2025/12/LOCAL-CLIMATE-CHANGE-ADAPTATION-PLAN-FOR-SHKODER-MUNICIPALITY.pdf",
+      "geographic_coverage": [
+        "Shkodër Municipality"
+      ],
+      "temporal_coverage": "Local adaptation planning project delivered June–October 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ALB-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "One-page project summary, Results of the project",
+          "notes": "Read the full public project summary; the detailed Shkodër Local Adaptation Plan itself was not linked in this source.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ALB-SRC-105",
+      "title": "ALBAdapt: Climate-Resilient Urban Development Programme",
+      "organization": "Republic of Albania, Ministry of Environment",
+      "publication_date": "2026-07-13",
+      "publication_date_basis": "publication",
+      "url": "https://mjedisi.gov.al/albadapt-programi-per-zhvillim-urban-rezistent-ndaj-klimes/",
+      "geographic_coverage": [
+        "Albania",
+        "high-risk coastal areas"
+      ],
+      "temporal_coverage": "Programme components and expected beneficiaries reported in July 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ALB-E-112",
+        "ALB-E-113",
+        "ALB-E-114"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Programme description and three components, translated from Albanian",
+          "notes": "Opened and read the Ministry's public programme announcement, including climate services, expected early-warning reach and local coastal adaptation.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "ALB-E-112",
+        "selected_source_id": "ALB-SRC-105",
+        "url": "https://mjedisi.gov.al/albadapt-programi-per-zhvillim-urban-rezistent-ndaj-klimes/",
+        "locator": "Programme description, climate-information and services component (translated from Albanian)",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 140774,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "ALB-E-112"
+      ],
+      "manual_verified_record_ids": [
+        "ALB-E-112"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "ALB-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ALB-SRC-101",
+          "locator": "PDF printed p. 69, Annex C, Table C.1 and methodology note"
+        }
+      ],
+      "geographies": [
+        "Dropull",
+        "Këlcyrë",
+        "Përmet",
+        "Kolonjë",
+        "Fushë Arrës",
+        "Mallakastër"
+      ],
+      "affected_groups": [
+        "residents of high-vulnerability municipalities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-10 reports: The CCDR's socioeconomic-vulnerability list includes Dropull, Këlcyrë, Përmet, Kolonjë, Fushë Arrës and Mallakastër among the highest-ranked municipalities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ALB-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ALB-SRC-101",
+          "locator": "PDF printed p. 69, Annex C, Table C.1 and flood-exposure definitions"
+        }
+      ],
+      "geographies": [
+        "Fier",
+        "Lushnje",
+        "Shkodër",
+        "Roskovec",
+        "Divjakë",
+        "Rrogozhinë",
+        "Vau i Dejës"
+      ],
+      "affected_groups": [
+        "residents in flood-exposed municipalities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-10 reports: The CCDR's ranked high-flood-exposure list names Fier, Lushnje, Shkodër, Roskovec, Divjakë, Rrogozhinë and Vau i Dejës.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ALB-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ALB-SRC-101",
+          "locator": "PDF printed p. 14, section 2.1, urban expansion and flood exposure"
+        }
+      ],
+      "geographies": [
+        "Tirana",
+        "Durrës",
+        "Vlora",
+        "Shkodër",
+        "Lezha"
+      ],
+      "affected_groups": [
+        "socially vulnerable and disadvantaged informal communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-10 reports: Flooding has worsened exposure for disadvantaged informal communities along riverbeds in Tirana, Durrës, Vlora, Shkodër and Lezha.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ALB-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ALB-SRC-101",
+          "locator": "PDF printed p. 21, social-protection climate-shock assessment"
+        }
+      ],
+      "geographies": [
+        "Albania"
+      ],
+      "affected_groups": [
+        "poor households",
+        "informal workers",
+        "people with disabilities",
+        "older people"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-10 reports: The CCDR says low coverage and benefit adequacy limit climate-shock support; Ndihma Ekonomike systems showed flexibility during the 2019 earthquake response but cannot yet scale to additional climate-affected poor households.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ALB-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ALB-SRC-102",
+          "locator": "Printed pp. 68–69, section 4.4, local vulnerability profiles"
+        }
+      ],
+      "geographies": [
+        "Durrës",
+        "Elbasan",
+        "Fier",
+        "Kukës"
+      ],
+      "affected_groups": [
+        "municipal residents",
+        "farmers",
+        "tourism-dependent communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-10 reports: NAP profiles flag hotter, drier summers in Durrës; erosion, landslides and shortages in Elbasan; floods across Fier; and flood/intense-rain risk in Kukës.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ALB-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ALB-SRC-102",
+          "locator": "Printed pp. 66–67, urban development section and Table 8"
+        }
+      ],
+      "geographies": [
+        "Tirana",
+        "Durrës",
+        "Vlorë",
+        "Fier",
+        "Shkodër",
+        "Elbasan",
+        "Albanian coastal belt"
+      ],
+      "affected_groups": [
+        "urban residents",
+        "coastal communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Best- and worst-case urban scenarios; no emissions pathway specified.",
+      "compact_statement": "Source dated 2025-10 reports: Future urban risk is rated very high for Tirana, Durrës, Vlorë, Fier, Shkodër, Elbasan and the coastal belt across four subsectors.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ALB-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ALB-SRC-102",
+          "locator": "Printed p. 67, socioeconomic vulnerability discussion"
+        }
+      ],
+      "geographies": [
+        "informal riverbank neighborhoods in Albania"
+      ],
+      "affected_groups": [
+        "low-income households",
+        "women",
+        "informal-settlement residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-10 reports: Marginalized riverbank neighborhoods face heat and heavy-rain risk; women are more vulnerable. Without climate-linked social protection, risks may trigger community tipping points.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ALB-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ALB-SRC-102",
+          "locator": "Printed p. 72, section 5.2, Local Adaptation Plans"
+        }
+      ],
+      "geographies": [
+        "Durrës",
+        "Elbasan",
+        "Fier",
+        "Gjirokastër",
+        "Krujë",
+        "Kukës",
+        "Përmet",
+        "Vlorë"
+      ],
+      "affected_groups": [
+        "municipal residents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-10 reports: The NAP reports eight municipal plans developed with technical staff, data collection and capacity-building; each identified about 85 adaptation measures and 45 priorities on average.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ALB-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ALB-SRC-104",
+          "locator": "PDF p. 1, Results of the project"
+        }
+      ],
+      "geographies": [
+        "Shkodër Municipality"
+      ],
+      "affected_groups": [
+        "Shkodër residents"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: ETMI reports Shkodër's local adaptation plan was delivered in 2025, with sector analyses, prioritized actions and a governance and monitoring framework supported by stakeholder engagement.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ALB-E-112",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "ALB-SRC-105",
+          "locator": "Programme description, climate-information and services component (translated from Albanian)"
+        }
+      ],
+      "geographies": [
+        "Albania"
+      ],
+      "affected_groups": [
+        "communities exposed to extreme weather"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-07-13 reports: ALBAdapt plans to modernize climate and meteorological monitoring, forecasting and digital climate data to improve services for agriculture, tourism and civil protection.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "ALB-E-112",
+        "source_id": "ALB-SRC-105",
+        "url": "https://mjedisi.gov.al/albadapt-programi-per-zhvillim-urban-rezistent-ndaj-klimes/",
+        "locator": "Programme description, climate-information and services component (translated from Albanian)",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+      },
+      "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "ALB-SRC-105",
+        "source_url": "https://mjedisi.gov.al/albadapt-programi-per-zhvillim-urban-rezistent-ndaj-klimes/",
+        "locator": "Programme description, climate-information and services component (translated from Albanian)",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "ALB-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ALB-SRC-105",
+          "locator": "Programme description, multi-hazard early-warning component (translated from Albanian)"
+        }
+      ],
+      "geographies": [
+        "Albania"
+      ],
+      "affected_groups": [
+        "approximately 700,000 expected direct beneficiaries"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": "ALBAdapt programme target; no climate scenario stated.",
+      "compact_statement": "Source dated 2026-07-13 reports: The programme is establishing a people-centred multi-hazard early-warning system to improve interagency coordination; about 700,000 people are expected to benefit directly.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ALB-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ALB-SRC-105",
+          "locator": "Programme description, local coastal adaptation component (translated from Albanian)"
+        }
+      ],
+      "geographies": [
+        "high-risk coastal areas of Albania"
+      ],
+      "affected_groups": [
+        "coastal communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-07-13 reports: ALBAdapt supports planned nature-based measures, local preparedness and risk-sensitive planning in the most climate-exposed coastal areas.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "ALB-E-112",
+  "source_access_review": {
+    "selected_record_id": "ALB-E-112",
+    "selected_source_id": "ALB-SRC-105",
+    "url": "https://mjedisi.gov.al/albadapt-programi-per-zhvillim-urban-rezistent-ndaj-klimes/",
+    "locator": "Programme description, climate-information and services component (translated from Albanian)",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 140774,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+  },
+  "checks": [
+    {
+      "record_id": "ALB-E-112",
+      "source_id": "ALB-SRC-105",
+      "locator": "Programme description, climate-information and services component (translated from Albanian)",
+      "verification_status": "verified",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "ALB-E-112: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "ALB-E-101",
+    "ALB-E-102",
+    "ALB-E-103",
+    "ALB-E-104",
+    "ALB-E-105",
+    "ALB-E-106",
+    "ALB-E-107",
+    "ALB-E-108",
+    "ALB-E-111",
+    "ALB-E-112",
+    "ALB-E-113",
+    "ALB-E-114"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

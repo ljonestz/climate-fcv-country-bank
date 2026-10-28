@@ -1,0 +1,157 @@
+{
+  "iso3": "KIR",
+  "coordinator": "Codex source and analytical adjudication; not human approval",
+  "human_approval": false,
+  "extraction_sha256_utf8_lf": "72b9b9d2b01c2d080d39224a80ccb8df5ec0c181acbc856c06c66648c0d52292",
+  "country_aliases": [],
+  "claim_decisions": [
+    {
+      "claim_id": "KIR-C-101",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "low",
+      "time_horizons": [
+        "historical"
+      ],
+      "statement": "Kiribati's draft June 2025 report of the 2023-2024 household survey estimates about one quarter of households affected by natural disasters, most often strong winds; no island-level breakdown is established."
+    },
+    {
+      "claim_id": "KIR-C-102",
+      "decision": "exclude",
+      "reason": "The report's prose and table headings imply different denominators. Compound percentages excluded rather than selecting an unsupported interpretation."
+    },
+    {
+      "claim_id": "KIR-C-103",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "low",
+      "time_horizons": [
+        "historical"
+      ],
+      "statement": "The draft-marked March 2025 NC3 describes historical severe freshwater shortage and well salinity in South Tarawa and Banaba during droughts; it separately mentions temporary abandonment of unspecified islands.",
+      "uncertainty": "Historical examples are not dated or quantified. The report does not identify the temporarily abandoned islands; they are not assumed to be South Tarawa or Banaba.",
+      "locator": "Printed p.100 (one-based PDF p.126), Table4.6."
+    },
+    {
+      "claim_id": "KIR-C-104",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "climate-to-fcv",
+      "confidence": "low",
+      "locator": "Printed p.99 (one-based PDF p.125), Table4.5.",
+      "uncertainty": "Draft-marked government communication; conditional relocation warning, not observed climate-caused disputes. No scenario or date is specified by the table.",
+      "time_horizons": [
+        "long-term"
+      ]
+    },
+    {
+      "claim_id": "KIR-C-105",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "low",
+      "time_horizons": [
+        "historical"
+      ],
+      "statement": "The draft-marked March 2025 NC3 describes water-reserve declarations on private land generating tensions, disputes and vandalism; encroachment is separately noted in South Tarawa, Banaba and Tabakea.",
+      "locator": "Printed pp.99-100 (one-based PDF pp.125-126), Table4.6.",
+      "uncertainty": "Undated institutional context, not a finding that climate caused current disputes in those named places."
+    },
+    {
+      "claim_id": "KIR-C-106",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "time_horizons": [
+        "current",
+        "near-term"
+      ]
+    },
+    {
+      "claim_id": "KIR-C-107",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "time_horizons": [
+        "current"
+      ]
+    },
+    {
+      "claim_id": "KIR-C-108",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "low",
+      "time_horizons": [
+        "historical"
+      ],
+      "statement": "UNDRR's 2025 publisher summary describes satellite connectivity and drought anticipatory action as early-warning approaches for remote islands; it does not measure island coverage or effectiveness.",
+      "evidence_class": "adaptive-capacity"
+    }
+  ],
+  "pathways": [],
+  "gaps": [
+    "Compound disaster-impact percentages were excluded because narrative wording and table denominator headings are ambiguous.",
+    "The NC3 mentions unspecified islands temporarily abandoned; no abandonment is assigned to South Tarawa or Banaba.",
+    "Local land and reserve disputes are not evidence of climate-driven organized violence."
+  ],
+  "executive_assessment": [
+    {
+      "text": "Named South Tarawa/Banaba water vulnerabilities are historical and undated in a draft-marked communication; survey evidence is national rather than island-resolved.",
+      "evidence_ids": [
+        "KIR-E-101",
+        "KIR-E-103",
+        "KIR-E-105"
+      ],
+      "pathway_ids": []
+    },
+    {
+      "text": "Relocation-related land disputes are a conditional risk. Whole-of-islands targets and remote warning approaches describe planned capacity, not verified beneficiaries or effects.",
+      "evidence_ids": [
+        "KIR-E-104",
+        "KIR-E-106",
+        "KIR-E-107",
+        "KIR-E-108"
+      ],
+      "pathway_ids": []
+    }
+  ],
+  "coordinator_source_checks": [
+    {
+      "source_id": "KIR-SRC-101",
+      "result": "Primary publisher passage inspected; scope retained in claim decisions.",
+      "url": "https://mfed.gov.ki/sites/default/files/2025-06/KI%20Natural%20Disaster%20and%20CC%20report.pdf"
+    },
+    {
+      "source_id": "KIR-SRC-102",
+      "result": "Primary publisher passage inspected; scope retained in claim decisions.",
+      "url": "https://unfccc.int/sites/default/files/resource/KIRIBATI%20FINAL%20REPORT%20FOR%20TNC_April_2025.pdf"
+    },
+    {
+      "source_id": "KIR-SRC-103",
+      "result": "Primary publisher passage inspected; scope retained in claim decisions.",
+      "url": "https://www.undp.org/pacific/projects/enhancing-whole-islands-approach-strengthen-community-resilience-climate-and-disaster-risks-kiribati"
+    },
+    {
+      "source_id": "KIR-SRC-104",
+      "result": "Primary publisher passage inspected; scope retained in claim decisions.",
+      "url": "https://www.undrr.org/publication/documents-and-publications/early-warning-and-early-action-kiribati"
+    }
+  ],
+  "source_overrides": {
+    "KIR-SRC-102": {
+      "license_status": "permission-required"
+    }
+  }
+}

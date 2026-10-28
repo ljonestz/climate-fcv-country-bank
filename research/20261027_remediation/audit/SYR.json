@@ -1,0 +1,2504 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "SYR",
+  "candidate_path": "countries/SYR/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 23,
+    "evidence_count": 30,
+    "pathway_count": 8,
+    "evidence_source_reference_count": 30
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 22,
+      "access-only": 8
+    },
+    "pathway_claims": {
+      "unresolved": 8
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "At least one known-gap statement appears inconsistent with the current pathway inventory.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "SYR-E-001",
+          "SYR-E-002",
+          "SYR-E-003"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "SYR-E-006",
+          "SYR-E-009",
+          "SYR-E-102"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "SYR-E-004",
+          "SYR-E-013",
+          "SYR-E-101",
+          "SYR-E-103",
+          "SYR-E-104",
+          "SYR-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SYR-E-008",
+          "SYR-E-011"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SYR-E-010",
+          "SYR-E-018",
+          "SYR-E-022",
+          "SYR-E-107",
+          "SYR-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SYR-E-007",
+          "SYR-E-017",
+          "SYR-E-024"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "SYR-E-019",
+          "SYR-E-023"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "SYR-E-014",
+          "SYR-E-015",
+          "SYR-E-016"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SYR-E-020",
+          "SYR-E-021",
+          "SYR-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "SYR-E-104",
+          "SYR-E-107",
+          "SYR-E-110"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "SYR-P-001",
+          "SYR-P-002",
+          "SYR-P-003",
+          "SYR-P-004",
+          "SYR-P-005",
+          "SYR-P-006",
+          "SYR-P-007",
+          "SYR-P-008"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [
+      {
+        "text": "No inspected source establishes that climate change or drought caused violence in Syria, or quantifies a climate-to-conflict pathway at a named locality.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      }
+    ],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/SYR/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "SYR-SRC-001",
+      "title": "*Background analysis of climate risks to Syria's electricity and urban water sectors* (ODI: Think change1)",
+      "organization": "ODI Global",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://odi.org/en/publications/syria-climate-risks-water-electricity/",
+      "geographic_coverage": [
+        "Syria; national with spatial analysis"
+      ],
+      "temporal_coverage": "Historical trends to reconstruction scenarios through 2045+",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SYR-E-001",
+        "SYR-E-002"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SYR-SRC-002",
+      "title": "*Human-induced climate change compounded by socio-economic water stressors increased severity of drought in Syria, Iraq and Iran* (World Weather Attribution7)",
+      "organization": "World Weather Attribution",
+      "publication_date": "2023",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldweatherattribution.org/human-induced-climate-change-compounded-by-socio-economic-water-stressors-increased-severity-of-drought-in-syria-iraq-and-iran/",
+      "geographic_coverage": [
+        "Euphrates-Tigris basin including large parts of Syria and Iraq; Iran separately"
+      ],
+      "temporal_coverage": "Jul 2020-Jun 2023; counterfactual climate comparison",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SYR-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SYR-SRC-003",
+      "title": "*Syrian Arab Republic Nationally Determined Contribution. NDC1* (Climate Laws8)",
+      "organization": "Syrian Arab Republic / UNFCCC; mirror by Climate Change Laws of the World",
+      "publication_date": "2018",
+      "publication_date_basis": "submission",
+      "url": "https://climate-laws.org/document/syrian-arab-republic-nationally-determined-contribution-ndc1_3410",
+      "geographic_coverage": [
+        "Syria"
+      ],
+      "temporal_coverage": "Policy horizon originating in 2018",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SYR-SRC-004",
+      "title": "*FAO GIEWS Country Brief - Syrian Arab Republic* (FAOHome2)",
+      "organization": "FAO",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.fao.org/giews/countrybrief/country.jsp?code=SYR",
+      "geographic_coverage": [
+        "Syria, with some affected-area references"
+      ],
+      "temporal_coverage": "2025 harvest; 2025/26 marketing year; 2026 planting",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SYR-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SYR-SRC-005",
+      "title": "*UNHCR Syria Operational Update - March 2026* (UNHCR Data Portal3)",
+      "organization": "UNHCR",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://data.unhcr.org/en/documents/details/122121",
+      "geographic_coverage": [
+        "Syria"
+      ],
+      "temporal_coverage": "Through Mar 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SYR-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SYR-SRC-006",
+      "title": "*Syria at a turning point: A new chapter for children - Annual Report 2025* (UNICEF9)",
+      "organization": "UNICEF",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/syria/reports/annual-report-2025",
+      "geographic_coverage": [
+        "All 14 governorates, with selected subnational examples"
+      ],
+      "temporal_coverage": "2025",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SYR-E-007",
+        "SYR-E-008"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SYR-SRC-007",
+      "title": "*The Syrian Conflict: Physical Damage and Reconstruction Assessment (2011-2024)* (World Bank4)",
+      "organization": "World Bank / GFDRR",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099102025095540101/pdf/P510947-f30bd5f6-78d5-4712-9f1e-a558b5c8ba75.pdf",
+      "geographic_coverage": [
+        "Syria; governorate estimates"
+      ],
+      "temporal_coverage": "2011-31 Dec 2024",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SYR-E-009"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SYR-SRC-008",
+      "title": "*Syria Common Country Analysis: 2024 Update* (UN Syria10)",
+      "organization": "UN Country Team Syria",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://syria.un.org/en/download/180806/291750",
+      "geographic_coverage": [
+        "Syria; selected sector/local distinctions"
+      ],
+      "temporal_coverage": "Primarily 2023-2024 with older source material",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SYR-E-010",
+        "SYR-E-011"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SYR-SRC-009",
+      "title": "Kelley et al., *Climate change in the Fertile Crescent and implications of the recent Syrian drought* (Columbia OCP5)",
+      "organization": "PNAS / academic authors",
+      "publication_date": "2015",
+      "publication_date_basis": "publication",
+      "url": "https://ocp.ldeo.columbia.edu/res/div/ocp/glodech/PDFs/Kelley_etal_PNAS_2015.pdf",
+      "geographic_coverage": [
+        "Syria/Fertile Crescent, especially northeast"
+      ],
+      "temporal_coverage": "Pre-2011 drought and longer climatic record",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SYR-E-013",
+        "SYR-E-014"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SYR-SRC-010",
+      "title": "Selby et al., *Climate change and the Syrian civil war revisited* (Cambridge Repository11)",
+      "organization": "Political Geography / academic authors",
+      "publication_date": "2017",
+      "publication_date_basis": "publication",
+      "url": "https://www.repository.cam.ac.uk/bitstreams/e2571830-b4d5-486b-8abe-9f891cd329b2/download",
+      "geographic_coverage": [
+        "Syria, especially northeast"
+      ],
+      "temporal_coverage": "Pre-2011 drought and uprising onset",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SYR-E-015"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SYR-SRC-011",
+      "title": "Eklund et al., *Societal drought vulnerability and the Syrian climate-conflict nexus are better explained by agriculture than meteorology* (Nature12)",
+      "organization": "Communications Earth & Environment",
+      "publication_date": "2022",
+      "publication_date_basis": "publication",
+      "url": "https://www.nature.com/articles/s43247-022-00405-w",
+      "geographic_coverage": [
+        "Syria, spatial cropland analysis"
+      ],
+      "temporal_coverage": "Mainly pre-conflict drought/land-use period",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SYR-E-016"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SYR-SRC-012",
+      "title": "*Making Adaptation Work: Addressing the compounding impacts of climate change, environmental degradation and conflict in the Near and Middle East* (ICRC6)",
+      "organization": "ICRC / Norwegian Red Cross",
+      "publication_date": "2023",
+      "publication_date_basis": "publication",
+      "url": "https://www.icrc.org/sites/default/files/wysiwyg/Activities/Climate-Change/313551_policy_report_making_adaptation_work_uu_may23_new2.pdf",
+      "geographic_coverage": [
+        "Near/Middle East; examples from Syria, Iraq, Yemen"
+      ],
+      "temporal_coverage": "Contemporary through 2022/23",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "open",
+      "records_using_source": [
+        "SYR-E-017",
+        "SYR-E-018"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SYR-SRC-013",
+      "title": "*Syrian Arab Republic Interim Country Strategic Plan Evaluation 2018-25* (World Food Programme13)",
+      "organization": "World Food Programme",
+      "publication_date": "2022",
+      "publication_date_basis": "publication",
+      "url": "https://www.wfp.org/publications/syrian-arab-republic-interim-country-strategic-plan-evaluation-2018-25",
+      "geographic_coverage": [
+        "Syria"
+      ],
+      "temporal_coverage": "Performance 2018-Jun 2023",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SYR-E-019"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SYR-SRC-014",
+      "title": "*JP Syria 2.0 Annual Programme Narrative Progress Report 2025* (MPTF Gateway14)",
+      "organization": "UN Joint Programme: FAO, UNDP, UNFPA, UN-Habitat, UNICEF, WFP",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://mptf.undp.org/sites/default/files/documents/2026-04/unjp_syria_2.0_annual_progress_narrative_report_2025.pdf",
+      "geographic_coverage": [
+        "Mainly Aleppo programme locations"
+      ],
+      "temporal_coverage": "2025",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SYR-E-020",
+        "SYR-E-021"
+      ],
+      "this_audit_verification": "access-only",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "SYR-E-021",
+        "selected_source_id": "SYR-SRC-014",
+        "url": "https://mptf.undp.org/sites/default/files/documents/2026-04/unjp_syria_2.0_annual_progress_narrative_report_2025.pdf",
+        "locator": "PDF p.38, “Lessons Learnt.” (MPTF Gateway14)",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 4868601,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          38
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "SYR-E-021"
+      ]
+    },
+    {
+      "source_id": "SYR-SRC-015",
+      "title": "*Increasing the climate change resilience of communities in Eastern Ghouta...* (Adaptation Fund15)",
+      "organization": "Adaptation Fund / UN-Habitat",
+      "publication_date": "2021",
+      "publication_date_basis": "publication",
+      "url": "https://www.adaptation-fund.org/project/climate-change-resilient-communities-through-integrated-natural-resource-management-in-eastern-ghouta-in-rural-damascus-syria/",
+      "geographic_coverage": [
+        "Eastern Ghouta, Rural Damascus"
+      ],
+      "temporal_coverage": "2021-2025 implementation period",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SYR-E-022"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SYR-SRC-016",
+      "title": "*Approval of request for no-cost extension of project completion date: UN-Habitat (Syria)* (Adaptation Fund16)",
+      "organization": "Adaptation Fund Board Secretariat",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://www.adaptation-fund.org/wp-content/uploads/2025/07/Notification_clearance_UNHAB_Syria.pdf",
+      "geographic_coverage": [
+        "Eastern Ghouta, Rural Damascus"
+      ],
+      "temporal_coverage": "Late 2024-2025",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SYR-E-023"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SYR-SRC-017",
+      "title": "*Syria - Country Overview* (World Bank17)",
+      "organization": "World Bank Group",
+      "publication_date": "2026",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.worldbank.org/ext/en/country/syria",
+      "geographic_coverage": [
+        "Syria"
+      ],
+      "temporal_coverage": "Through 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SYR-E-024"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SYR-SRC-101",
+      "title": "Historical assessment of agricultural drought impact in the Syrian Arab Republic (2021–2025)",
+      "organization": "Food and Agriculture Organization of the United Nations",
+      "publication_date": "2026-09-01",
+      "publication_date_basis": "publication",
+      "url": "https://www.fao.org/platforms/water-scarcity/Knowledge/knowledge-products/detail/historical-assessment-of-agricultural-drought-impact-in-the-syrian-arab-republic-%282021-2025/en",
+      "geographic_coverage": [
+        "Syrian Arab Republic"
+      ],
+      "temporal_coverage": "FAO portal summary of a technical assessment of drought conditions and affected agricultural areas during 2021–2025, published 1 September 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SYR-E-101",
+        "SYR-E-102"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "FAO portal page, title, date and summary paragraphs on satellite/geospatial methodology, drought-prone systems and 2025 population exposure.",
+          "notes": "The full accessible portal summary was read; it describes a technical report but does not expose detailed tables or named local hotspots.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SYR-SRC-102",
+      "title": "Syrian Arab Republic Appeal: Humanitarian Action for Children 2026",
+      "organization": "United Nations Children's Fund",
+      "publication_date": "2026-08",
+      "publication_date_basis": "document-version",
+      "url": "https://www.unicef.org/appeals/syria",
+      "geographic_coverage": [
+        "Syrian Arab Republic",
+        "Northern governorates",
+        "Euphrates River corridor",
+        "coastal regions",
+        "Aleppo Governorate",
+        "Ar-Raqqa Governorate",
+        "Al-Hasakeh Governorate",
+        "As-Sweida Governorate"
+      ],
+      "temporal_coverage": "UNICEF's August 2026 revised annual appeal reports needs and displacement through 2026 and planned response targets.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SYR-E-103",
+        "SYR-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full public appeal page, especially 'Humanitarian needs' and UNICEF's strategy; August 2026 version date.",
+          "notes": "Page text was read in full. It distinguishes current humanitarian needs from planned 2026 targets and programme strategy.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SYR-SRC-103",
+      "title": "Syrian Arab Republic Humanitarian Situation Report No. 18 (End of Year), 31 December 2025",
+      "organization": "United Nations Children's Fund",
+      "publication_date": "2025-12-31",
+      "publication_date_basis": "document-version",
+      "url": "https://www.unicef.org/media/179506/file/Syrian-Arab-Republic-Humanitarian-Situation-Report-No.18-%28End-of-Year%29-31-December-2025.pdf.pdf",
+      "geographic_coverage": [
+        "Syrian Arab Republic",
+        "Tishreen Dam",
+        "north-east Syria",
+        "southern governorates"
+      ],
+      "temporal_coverage": "UNICEF operational reporting on the 2025 humanitarian situation, including early-2025 clashes and climate-related water stress.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Official UNICEF report excerpts under 'Humanitarian Situation', including the climate/water scarcity and Tishreen Dam passages; PDF page numbers not exposed.",
+          "notes": "Direct PDF open returned only the document URL in the web reader. Continuous search-indexed excerpts from this official UNICEF PDF were read; claims are limited to those passages and no PDF page is guessed.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SYR-SRC-104",
+      "title": "FAO scales up irrigation rehabilitation to strengthen agricultural recovery and climate resilience in Aleppo",
+      "organization": "Food and Agriculture Organization of the United Nations",
+      "publication_date": "2025-04-29",
+      "publication_date_basis": "publication",
+      "url": "https://www.fao.org/syria/news/details/fao-scales-up-irrigation-rehabilitation-to-strengthen-agricultural-recovery-and-climate-resilience-in-aleppo/en",
+      "geographic_coverage": [
+        "Aleppo Governorate",
+        "West Maskanah",
+        "Farm No. 9"
+      ],
+      "temporal_coverage": "FAO report dated 29 April 2025 on rehabilitation works at the West Maskanah Farm No. 9 irrigation scheme.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SYR-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full FAO news page, particularly the West Maskanah Farm No. 9 intervention and construction-activities paragraphs.",
+          "notes": "The public page was read in full. It describes works and intended beneficiary coverage; it does not provide follow-up monitoring.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SYR-SRC-105",
+      "title": "FAO launches its emergency and recovery plan of action to restore agriculture in Syria",
+      "organization": "Food and Agriculture Organization of the United Nations",
+      "publication_date": "2025-03-19",
+      "publication_date_basis": "publication",
+      "url": "https://www.fao.org/syria/news/details/fao-launches-its-emergency-and-recovery-plan-of-action-to-restore-agriculture-in-syria/",
+      "geographic_coverage": [
+        "Syrian Arab Republic",
+        "rural communities"
+      ],
+      "temporal_coverage": "FAO's 19 March 2025 launch description of the proposed Emergency and Recovery Plan of Action for 2025–2027.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SYR-E-108",
+        "SYR-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full FAO announcement, opening plan rationale and 'FAO ERPA 2025–2027: A Comprehensive Integrated Plan' section.",
+          "notes": "The complete accessible launch page was read; claims identify measures as plans and the peace rationale as prospective intent.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SYR-SRC-106",
+      "title": "Syria Context Report",
+      "organization": "Famine Early Warning Systems Network",
+      "publication_date": "2025-12-31",
+      "publication_date_basis": "publication",
+      "url": "https://fews.net/middle-east-and-europe/syria/special-report/december-2025",
+      "geographic_coverage": [
+        "Syrian Arab Republic",
+        "Aleppo Governorate",
+        "Daraa Governorate",
+        "Deir ez-Zor Governorate",
+        "Al-Hasakah Governorate",
+        "Homs Governorate",
+        "Idlib Governorate",
+        "Ar-Raqqa Governorate",
+        "Rural Damascus"
+      ],
+      "temporal_coverage": "FEWS NET context assessment dated 31 December 2025, including the post-December 2024 transition and conditions reported through 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SYR-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full public context report, especially Executive Summary and 'Food Security and Nutrition Context'.",
+          "notes": "Relevant report text was read, including named governorate concerns and the report's discussion of multi-driver food insecurity; expired MY2025/26 projections were not presented as current facts.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "SYR-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-001",
+          "locator": "webpage “Key messages,” first bullet. (ODI: Think change1)"
+        }
+      ],
+      "geographies": [
+        "Most of Syria"
+      ],
+      "affected_groups": [
+        "Farmers",
+        "rural households"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Rapid observed spring warming.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SYR-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-001",
+          "locator": "“Key messages,” fourth bullet. (ODI: Think change1)"
+        }
+      ],
+      "geographies": [
+        "Syria"
+      ],
+      "affected_groups": [
+        "Population",
+        "farmers",
+        "service users"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "2050s, SSP5-8.5",
+      "compact_statement": "Substantial projected warming.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SYR-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-002",
+          "locator": "“Main findings,” bullets on attribution and drivers. (World Weather Attribution7)"
+        }
+      ],
+      "geographies": [
+        "Euphrates-Tigris basin",
+        "including large parts of Syria"
+      ],
+      "affected_groups": [
+        "Rainfed farmers",
+        "livestock keepers"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Warming strongly intensified basin agricultural drought.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SYR-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-004",
+          "locator": "FAO GIEWS Syrian Arab Republic Country Brief, reference date 28 August 2026, cereal production and import-requirements sections."
+        }
+      ],
+      "geographies": [
+        "Syria"
+      ],
+      "affected_groups": [
+        "Farmers",
+        "food-insecure households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "FAO's 28 August 2026 brief reported above-average 2026 cereal production, a significant rebound from drought-affected 2025, and cereal import requirements of about 2.8 million tonnes, close to the five-year average.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SYR-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-005",
+          "locator": "publication-page summary paragraph. (UNHCR Data Portal3)"
+        }
+      ],
+      "geographies": [
+        "Syria"
+      ],
+      "affected_groups": [
+        "IDPs",
+        "returnees",
+        "refugees",
+        "hosts"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "As of Mar 2026, more than 1.5 million refugees and 1.8 million IDPs had returned since Dec 2024, while 5.5 million remained internally displaced and 15.6 million required assistance.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SYR-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-006",
+          "locator": "“Water, sanitation and hygiene,” opening paragraph. (UNICEF9)"
+        }
+      ],
+      "geographies": [
+        "Syria"
+      ],
+      "affected_groups": [
+        "Children",
+        "displaced and poor households",
+        "general population"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNICEF reported 13.6 million people needing WASH assistance in 2025, with water systems operating at less than half capacity and more than 70% of sewage discharged untreated.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SYR-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-008",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-006",
+          "locator": "WASH “numbers behind the impact,” rehabilitation and March-violence entries. (UNICEF9)"
+        }
+      ],
+      "geographies": [
+        "Multiple governorates"
+      ],
+      "affected_groups": [
+        "Conflict-affected residents",
+        "displaced people"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNICEF reported that 4.1 million people obtained safe water through 60 rehabilitation projects in 2025 and that safe-water access was maintained for 1.5 million people during March violence.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SYR-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-009",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-007",
+          "locator": "Executive Summary printed p.8, Table 1. (World Bank4)"
+        }
+      ],
+      "geographies": [
+        "Syria",
+        "especially Aleppo",
+        "Rif Dimashq",
+        "Homs"
+      ],
+      "affected_groups": [
+        "Urban residents",
+        "service users"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict caused very large, geographically uneven capital damage.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SYR-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-010",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-008",
+          "locator": "PDF p.26, “Environment and Climate Change,” irrigation paragraph. (UN Syria10)"
+        }
+      ],
+      "geographies": [
+        "Syria"
+      ],
+      "affected_groups": [
+        "Farmers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict damage reduced irrigation capacity and shifted pressure to groundwater.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SYR-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-011",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-008",
+          "locator": "PDF p.26, final sentences of irrigation/groundwater paragraph. (UN Syria10)"
+        }
+      ],
+      "geographies": [
+        "Agricultural areas"
+      ],
+      "affected_groups": [
+        "Farmers",
+        "groundwater users"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "A coping measure may worsen groundwater depletion.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SYR-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-013",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-009",
+          "locator": "PDF page 1/6, section “Heightened Vulnerability and the Effects of the Drought.” (Columbia OCP5)"
+        }
+      ],
+      "geographies": [
+        "Syria",
+        "especially agricultural northeast"
+      ],
+      "affected_groups": [
+        "Farmers",
+        "herders"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Governance and water policy mediated historical drought vulnerability.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SYR-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-014",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-009",
+          "locator": "PDF page 5/6, “Summary.” (Columbia OCP5)"
+        }
+      ],
+      "geographies": [
+        "Syria"
+      ],
+      "affected_groups": [
+        "Rural migrants",
+        "urban hosts"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "One influential study links drought to conflict through agriculture and migration.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "programme_intent_and_outcome_terms_co-occur"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SYR-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-015",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-010",
+          "locator": "PDF page 10/13, §6 “Conclusions.” (Cambridge Repository11)"
+        }
+      ],
+      "geographies": [
+        "Syria",
+        "especially northeast"
+      ],
+      "affected_groups": [
+        "Rural migrants",
+        "urban populations"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Evidence for the historical drought-migration-war chain is disputed.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SYR-SRC-010"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-016",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-011",
+          "locator": "Abstract. (Nature12)"
+        }
+      ],
+      "geographies": [
+        "Syria"
+      ],
+      "affected_groups": [
+        "Farmers"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Satellite cropland evidence weakens the “agricultural collapse” premise.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SYR-SRC-011"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-017",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-012",
+          "locator": "PDF pages 16-17/24, §5.2 “State-led adaptation in countries affected by armed conflict.” (ICRC6)"
+        }
+      ],
+      "geographies": [
+        "Syria and Iraq"
+      ],
+      "affected_groups": [
+        "Climate-vulnerable population"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict-related institutional weakness constrains national adaptation processes.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SYR-SRC-012"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-018",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-012",
+          "locator": "PDF page 19/24, §5.3 “Challenges to adaptation in settings affected by armed conflict.” (ICRC6)"
+        }
+      ],
+      "geographies": [
+        "Near/Middle East",
+        "Syria among examples"
+      ],
+      "affected_groups": [
+        "Displaced people",
+        "conflict-affected communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict obstructs adaptation through instability, data gaps and displacement barriers.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SYR-SRC-012"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-019",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-013",
+          "locator": "evaluation webpage, findings paragraphs 3-4. (World Food Programme13)"
+        }
+      ],
+      "geographies": [
+        "Syria"
+      ],
+      "affected_groups": [
+        "Food-insecure households",
+        "women and girls"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Food assistance contributed, but resource and targeting limitations remained.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SYR-SRC-013"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-020",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-014",
+          "locator": "PDF p.37, “Climate change adaptation and resilience.” (MPTF Gateway14)"
+        }
+      ],
+      "geographies": [
+        "Aleppo programme locations"
+      ],
+      "affected_groups": [
+        "Farmers",
+        "livestock keepers",
+        "village residents"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Local programme outputs show adaptation practices and community planning.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SYR-SRC-014"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-021",
+      "record_review": "manual-passage-check-incomplete",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-014",
+          "locator": "PDF p.38, “Lessons Learnt.” (MPTF Gateway14)"
+        }
+      ],
+      "geographies": [
+        "Aleppo programme context"
+      ],
+      "affected_groups": [
+        "Local communities",
+        "women",
+        "marginalized groups"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Programme design explicitly considers both peace-supporting and tension risks.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SYR-SRC-014"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "SYR-E-021",
+        "source_id": "SYR-SRC-014",
+        "url": "https://mptf.undp.org/sites/default/files/documents/2026-04/unjp_syria_2.0_annual_progress_narrative_report_2025.pdf",
+        "locator": "PDF p.38, “Lessons Learnt.” (MPTF Gateway14)",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "access-only",
+        "claim_verification": "unresolved",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "manual_adjudication_completed": true,
+        "verification_note": "The extracted page38 shows climate-smart agriculture text, not the cited lessons-learned passage; the locator needs follow-up."
+      },
+      "verification_note": "The extracted page38 shows climate-smart agriculture text, not the cited lessons-learned passage; the locator needs follow-up.",
+      "manual_adjudication": {
+        "status": "unresolved",
+        "reviewed_on": "2026-10-27",
+        "source_id": "SYR-SRC-014",
+        "source_url": "https://mptf.undp.org/sites/default/files/documents/2026-04/unjp_syria_2.0_annual_progress_narrative_report_2025.pdf",
+        "locator": "PDF p.38, “Lessons Learnt.” (MPTF Gateway14)",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The extracted page38 shows climate-smart agriculture text, not the cited lessons-learned passage; the locator needs follow-up.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      }
+    },
+    {
+      "record_id": "SYR-E-022",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-015",
+          "locator": "project-page purpose and Components 1-3. (Adaptation Fund15)"
+        }
+      ],
+      "geographies": [
+        "Eastern Ghouta",
+        "Rural Damascus"
+      ],
+      "affected_groups": [
+        "Farming families",
+        "local communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Eastern Ghouta has a concrete water-adaptation programme.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SYR-SRC-015"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-023",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-016",
+          "locator": "PDF p.1, “Summary of request.” (Adaptation Fund16)"
+        }
+      ],
+      "geographies": [
+        "Eastern Ghouta",
+        "Rural Damascus"
+      ],
+      "affected_groups": [
+        "Project communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Insecurity directly delayed a climate-adaptation project.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SYR-SRC-016"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-024",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-017",
+          "locator": "“Economy,” first four paragraphs. (World Bank17)"
+        }
+      ],
+      "geographies": [
+        "Syria"
+      ],
+      "affected_groups": [
+        "General population",
+        "farmers"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "As of the 2026 World Bank overview, official economic data were limited and uneven, and agriculture was still recovering from the 2025 drought.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SYR-SRC-017"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-101",
+          "locator": "Portal summary, paragraphs 2–4, beginning 'This assessment utilized satellite remote sensing'."
+        }
+      ],
+      "geographies": [
+        "Syrian Arab Republic",
+        "rainfed croplands",
+        "grazing areas"
+      ],
+      "affected_groups": [
+        "rainfed farmers",
+        "pastoral and livestock-keeping households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-09-01 reports: FAO's retrospective geospatial assessment identifies rainfed croplands and grazing areas as especially drought-vulnerable, with many locations experiencing repeated one-to-two-month drought periods during 2021–2025.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-101",
+          "locator": "Portal summary, paragraph 4, sentence beginning 'In 2025'."
+        }
+      ],
+      "geographies": [
+        "Syrian Arab Republic"
+      ],
+      "affected_groups": [
+        "population",
+        "livestock"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-09-01 reports: For 2025, FAO estimated that over 65% of both the human and livestock populations were potentially exposed to severe or extreme drought conditions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-102",
+          "locator": "Country needs and strategy, 'Humanitarian needs' subsection, paragraph beginning 'Access to safe water'."
+        }
+      ],
+      "geographies": [
+        "Syrian Arab Republic",
+        "Northern governorates",
+        "Euphrates River corridor",
+        "coastal regions"
+      ],
+      "affected_groups": [
+        "people unable to meet basic water needs",
+        "children",
+        "households in affected regions"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08 reports: UNICEF reports that 10 million people cannot meet basic water needs and that drought-like conditions, erratic rainfall and flooding have exacerbated vulnerabilities across northern governorates, along the Euphrates and in coastal regions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-102",
+          "locator": "Country needs and strategy, 'Humanitarian needs' subsection, paragraph beginning 'Displacements in the Syrian Arab Republic'."
+        }
+      ],
+      "geographies": [
+        "Aleppo Governorate",
+        "Ar-Raqqa Governorate",
+        "Al-Hasakeh Governorate",
+        "As-Sweida Governorate"
+      ],
+      "affected_groups": [
+        "internally displaced people",
+        "returnees",
+        "children"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08 reports: UNICEF reports that renewed violence in Aleppo, Ar-Raqqa and Al-Hasakeh displaced more than 170,000 people in early 2026; it also reports 187,000 displaced after the July 2025 As-Sweida escalation and continuing pressure from returns.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-104",
+          "locator": "Article paragraphs on the West Maskanah–Farm No. 9 intervention and construction activities."
+        }
+      ],
+      "geographies": [
+        "Aleppo Governorate",
+        "West Maskanah",
+        "Farm No. 9"
+      ],
+      "affected_groups": [
+        "smallholder farming households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-04-29 reports: FAO reports rehabilitating the West Maskanah–Farm No. 9 irrigation scheme in Aleppo Governorate, with the stated aim of ensuring irrigation access for about 3,970 smallholder households across 3,645 hectares; works included canals, field distribution and drainage systems.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-105",
+          "locator": "'FAO ERPA 2025–2027: A Comprehensive Integrated Plan', planned outcomes 2–4 and landmine/UXO paragraph."
+        }
+      ],
+      "geographies": [
+        "Syrian Arab Republic",
+        "rural communities"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "internally displaced people",
+        "host communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-03-19 reports: FAO's 2025–2027 plan proposes irrigation and drainage rehabilitation, climate-smart practices and resource management, livelihood support for smallholders including IDPs and host communities, and clearance of mines and unexploded ordnance from farming land.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-105",
+          "locator": "Opening plan rationale, paragraph beginning 'A thriving agriculture sector'."
+        }
+      ],
+      "geographies": [
+        "Syrian Arab Republic",
+        "rural communities"
+      ],
+      "affected_groups": [
+        "farmers",
+        "rural communities"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-03-19 reports: FAO's ERPA announcement presents stronger agriculture as a proposed route to community resilience and peace by reducing competition over scarce resources.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SYR-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SYR-SRC-106",
+          "locator": "Executive Summary, final paragraph; 'Food Security and Nutrition Context', paragraph beginning 'Key areas of concern'."
+        }
+      ],
+      "geographies": [
+        "Aleppo Governorate",
+        "Daraa Governorate",
+        "Deir ez-Zor Governorate",
+        "Al-Hasakah Governorate",
+        "Homs Governorate",
+        "Idlib Governorate",
+        "Ar-Raqqa Governorate",
+        "Rural Damascus",
+        "Euphrates River"
+      ],
+      "affected_groups": [
+        "poor households",
+        "displaced people",
+        "rural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12-31 reports: FEWS NET's December 2025 context report lists Aleppo, Daraa, Deir ez-Zor, Al-Hasakah, Homs, Idlib, Ar-Raqqa and Rural Damascus as food-security areas of concern, and identifies recurrent drought, low Euphrates levels, displacement, insecurity and economic shocks among drivers of poor households' acute food insecurity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "SYR-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SYR-E-001",
+        "SYR-E-003",
+        "SYR-E-004"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SYR-E-001",
+          "SYR-E-003"
+        ],
+        "impact": [
+          "SYR-E-004"
+        ],
+        "mediator": [
+          "SYR-E-004"
+        ],
+        "consequence": [
+          "SYR-E-001"
+        ]
+      },
+      "geographies": [
+        "National agricultural areas",
+        "with particular relevance to rainfed zones"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Warming and drought can worsen agricultural and food stress through livelihoods and markets, but current evidence does not show that this automatically causes violence. (ODI: Think change1)",
+      "alternative_explanations": [
+        "Armed insecurity",
+        "input costs",
+        "exchange rates",
+        "market failures",
+        "land and water management",
+        "poverty and economic policy"
+      ],
+      "uncertainty": "The relative contribution of climate versus economic/security variables is not quantified.",
+      "potentially_out_of_scope_support_ids": [
+        "SYR-E-001",
+        "SYR-E-003",
+        "SYR-E-004"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SYR-P-002",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SYR-E-001",
+        "SYR-E-003",
+        "SYR-E-007",
+        "SYR-E-009",
+        "SYR-E-010",
+        "SYR-E-011"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SYR-E-001",
+          "SYR-E-003"
+        ],
+        "impact": [
+          "SYR-E-007",
+          "SYR-E-010"
+        ],
+        "mediator": [
+          "SYR-E-009",
+          "SYR-E-010"
+        ],
+        "consequence": [
+          "SYR-E-010",
+          "SYR-E-011"
+        ]
+      },
+      "geographies": [
+        "National",
+        "with large variation by governorate and system"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Conflict-damaged water and irrigation systems increase sensitivity to drought and heat, while coping through additional groundwater pumping may itself create new risk. (World Bank4)",
+      "alternative_explanations": [
+        "Pre-conflict over-pumping",
+        "inefficient irrigation",
+        "population demand",
+        "allocation decisions and upstream water management"
+      ],
+      "uncertainty": "Asset damage does not translate uniformly into functional service loss.",
+      "potentially_out_of_scope_support_ids": [
+        "SYR-E-001",
+        "SYR-E-003",
+        "SYR-E-007",
+        "SYR-E-009",
+        "SYR-E-010",
+        "SYR-E-011"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SYR-P-003",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SYR-E-013",
+        "SYR-E-014",
+        "SYR-E-015",
+        "SYR-E-016"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SYR-E-013",
+          "SYR-E-014"
+        ],
+        "impact": [
+          "SYR-E-014",
+          "SYR-E-016"
+        ],
+        "mediator": [
+          "SYR-E-013",
+          "SYR-E-015"
+        ],
+        "consequence": [
+          "SYR-E-014",
+          "SYR-E-015"
+        ]
+      },
+      "geographies": [
+        "Especially northeast Syria/Jazira",
+        "must not be generalized mechanically to all Syria"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Pre-war drought may have interacted with agrarian and governance vulnerabilities, but the claim that it materially caused the Syrian war is not established. (Columbia OCP5)",
+      "alternative_explanations": [
+        "Political repression",
+        "economic liberalization",
+        "governance",
+        "poverty",
+        "demographic change",
+        "Iraqi refugee inflows",
+        "local political mobilization and other conflict drivers"
+      ],
+      "uncertainty": "High; major elements of the causal chain are contested.",
+      "potentially_out_of_scope_support_ids": [
+        "SYR-E-013",
+        "SYR-E-014",
+        "SYR-E-015",
+        "SYR-E-016"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SYR-P-004",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SYR-E-001",
+        "SYR-E-006",
+        "SYR-E-007",
+        "SYR-E-009"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SYR-E-001"
+        ],
+        "impact": [
+          "SYR-E-007"
+        ],
+        "mediator": [
+          "SYR-E-006",
+          "SYR-E-009"
+        ],
+        "consequence": [
+          "SYR-E-001"
+        ]
+      },
+      "geographies": [
+        "Return areas across Syria",
+        "conditions vary sharply by locality"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Large-scale returns into damaged service systems may raise exposure to climate and water stress, but evidence for resulting displacement or tension is not yet causal. (UNHCR Data Portal3)",
+      "alternative_explanations": [
+        "Security incidents",
+        "livelihoods",
+        "explosive ordnance",
+        "housing rights",
+        "family reunification and economic opportunities"
+      ],
+      "uncertainty": "No national study located that isolates climate's contribution to post-2024 return sustainability.",
+      "potentially_out_of_scope_support_ids": [
+        "SYR-E-001",
+        "SYR-E-006",
+        "SYR-E-007",
+        "SYR-E-009"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SYR-P-005",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SYR-E-022",
+        "SYR-E-023"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SYR-E-022"
+        ],
+        "impact": [
+          "SYR-E-023"
+        ],
+        "mediator": [
+          "SYR-E-023"
+        ],
+        "consequence": [
+          "SYR-E-022"
+        ]
+      },
+      "geographies": [
+        "Eastern Ghouta",
+        "Rural Damascus only"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "direct",
+      "compact_statement": "Security conditions directly delayed a water-scarcity adaptation project, a traceable example of FCV constraining adaptation delivery. (Adaptation Fund16)",
+      "alternative_explanations": [
+        "Construction sequencing",
+        "contract commencement and winter working conditions also caused delay"
+      ],
+      "uncertainty": "No evaluated estimate of foregone adaptation benefit.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability."
+      ]
+    },
+    {
+      "record_id": "SYR-P-006",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SYR-E-020",
+        "SYR-E-021"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SYR-E-020"
+        ],
+        "impact": [
+          "SYR-E-020"
+        ],
+        "mediator": [
+          "SYR-E-021"
+        ],
+        "consequence": [
+          "SYR-E-021"
+        ]
+      },
+      "geographies": [
+        "Selected Aleppo locations only"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Local adaptation and participatory institutions are plausible resilience assets, but peace-supporting effects remain programme-level claims rather than evaluated outcomes. (MPTF Gateway14)",
+      "alternative_explanations": [
+        "General service recovery",
+        "economic improvement and improved security may independently increase acceptance"
+      ],
+      "uncertainty": "Programme self-report; no counterfactual or independent conflict outcome measurement.",
+      "potentially_out_of_scope_support_ids": [
+        "SYR-E-020",
+        "SYR-E-021"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SYR-P-007",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SYR-E-004",
+        "SYR-E-024"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SYR-E-004"
+        ],
+        "impact": [
+          "SYR-E-004"
+        ],
+        "mediator": [
+          "SYR-E-004"
+        ],
+        "consequence": [
+          "SYR-E-004"
+        ]
+      },
+      "geographies": [
+        "National",
+        "with stronger impacts in agricultural and conflict-affected areas"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Drought-driven production losses interact with market and economic constraints to deepen food-security risk without implying a climate-to-violence pathway. (FAOHome2)",
+      "alternative_explanations": [
+        "Economic policy",
+        "exchange rates",
+        "supply chains",
+        "conflict and poverty"
+      ],
+      "uncertainty": "Attribution shares among climate and economic factors are not quantified.",
+      "potentially_out_of_scope_support_ids": [
+        "SYR-E-004",
+        "SYR-E-024"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SYR-P-008",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SYR-E-001",
+        "SYR-E-003",
+        "SYR-E-007",
+        "SYR-E-008",
+        "SYR-E-009",
+        "SYR-E-018"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SYR-E-001",
+          "SYR-E-003"
+        ],
+        "impact": [
+          "SYR-E-007"
+        ],
+        "mediator": [
+          "SYR-E-009",
+          "SYR-E-018"
+        ],
+        "consequence": [
+          "SYR-E-007",
+          "SYR-E-008"
+        ]
+      },
+      "geographies": [
+        "National with strong local variation"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Climate water stress acts on already damaged WASH systems, while conflict-related infrastructure and access conditions reduce the capacity to absorb that stress. (UNICEF9)",
+      "alternative_explanations": [
+        "Conflict destruction",
+        "pollution",
+        "waste-management failure and energy shortages can create WASH risks independently of climate"
+      ],
+      "uncertainty": "Disease outcomes were not separately attributed to climate in the sources used.",
+      "potentially_out_of_scope_support_ids": [
+        "SYR-E-001",
+        "SYR-E-003",
+        "SYR-E-007",
+        "SYR-E-008",
+        "SYR-E-009",
+        "SYR-E-018"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "SYR-E-021",
+  "source_access_review": {
+    "selected_record_id": "SYR-E-021",
+    "selected_source_id": "SYR-SRC-014",
+    "url": "https://mptf.undp.org/sites/default/files/documents/2026-04/unjp_syria_2.0_annual_progress_narrative_report_2025.pdf",
+    "locator": "PDF p.38, “Lessons Learnt.” (MPTF Gateway14)",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "access-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 4868601,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      38
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The extracted page38 shows climate-smart agriculture text, not the cited lessons-learned passage; the locator needs follow-up."
+  },
+  "checks": [
+    {
+      "record_id": "SYR-E-021",
+      "source_id": "SYR-SRC-014",
+      "locator": "PDF p.38, “Lessons Learnt.” (MPTF Gateway14)",
+      "verification_status": "unresolved",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "access-only",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": false,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "SYR-E-021: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "SYR-E-001",
+    "SYR-E-002",
+    "SYR-E-003",
+    "SYR-E-004",
+    "SYR-E-006",
+    "SYR-E-007",
+    "SYR-E-008",
+    "SYR-E-009",
+    "SYR-E-010",
+    "SYR-E-011",
+    "SYR-E-013",
+    "SYR-E-014",
+    "SYR-E-015",
+    "SYR-E-016",
+    "SYR-E-017",
+    "SYR-E-018",
+    "SYR-E-019",
+    "SYR-E-020",
+    "SYR-E-021",
+    "SYR-E-022",
+    "SYR-E-023",
+    "SYR-E-024",
+    "SYR-E-101",
+    "SYR-E-102",
+    "SYR-E-103",
+    "SYR-E-104",
+    "SYR-E-107",
+    "SYR-E-108",
+    "SYR-E-109",
+    "SYR-E-110",
+    "SYR-P-001",
+    "SYR-P-002",
+    "SYR-P-003",
+    "SYR-P-004",
+    "SYR-P-005",
+    "SYR-P-006",
+    "SYR-P-007",
+    "SYR-P-008"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

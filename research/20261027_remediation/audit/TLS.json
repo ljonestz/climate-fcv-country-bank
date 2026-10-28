@@ -1,0 +1,1150 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "TLS",
+  "candidate_path": "countries/TLS/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 8,
+    "evidence_count": 17,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 17
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 7,
+      "access-only": 10
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "TLS-E-001"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "TLS-E-102",
+          "TLS-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "TLS-E-002",
+          "TLS-E-003",
+          "TLS-E-101",
+          "TLS-E-103",
+          "TLS-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "TLS-E-004",
+          "TLS-E-104",
+          "TLS-E-108",
+          "TLS-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "TLS-E-005"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "TLS-E-006",
+          "TLS-E-109",
+          "TLS-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "TLS-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "TLS-E-101",
+          "TLS-E-102",
+          "TLS-E-104",
+          "TLS-E-105",
+          "TLS-E-108",
+          "TLS-E-109",
+          "TLS-E-110",
+          "TLS-E-111"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/TLS/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "TLS-SRC-001",
+      "title": "Drought and Fire Risk in Timor-Leste: What El Niño Means for Our Communities",
+      "organization": "UNDP",
+      "publication_date": "2026-07-14",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/timor-leste/news/drought-and-fire-risk-timor-leste-what-el-nino-means-our-communities",
+      "geographic_coverage": [
+        "Timor-Leste"
+      ],
+      "temporal_coverage": "2023–2024 drought and July 2026 risk communication",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TLS-E-001",
+        "TLS-E-002"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TLS-SRC-002",
+      "title": "Timor-Leste Launches ASIS Portal and National Drought Monitoring Tool",
+      "organization": "FAO",
+      "publication_date": "2026-05-14",
+      "publication_date_basis": "publication",
+      "url": "https://www.fao.org/timor-leste/news/detail/timor-leste-launches-asis-portal-to-strengthen-agricultural-drought-monitoring-and-early-action/en",
+      "geographic_coverage": [
+        "Timor-Leste"
+      ],
+      "temporal_coverage": "May 2026 launch",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TLS-E-003",
+        "TLS-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TLS-SRC-003",
+      "title": "Safeguarding rural communities and their physical assets from climate-induced disasters in Timor-Leste",
+      "organization": "UNDP",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.undp.org/timor-leste/projects/safeguarding-rural-communities-and-their-physical-assets-climate-induced-disasters-timor-leste",
+      "geographic_coverage": [
+        "Timor-Leste"
+      ],
+      "temporal_coverage": "Undated implementation update",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TLS-E-005",
+        "TLS-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TLS-SRC-101",
+      "title": "Human Security of Border Communities in Covalima, Bobonaro and RAEOA, Timor-Leste: Mapping and Assessment Report",
+      "organization": "Institute for Peace, Conflict and Social Studies, Universidade Nacional Timor Lorosa’e; commissioned by UNICEF and IOM",
+      "publication_date": "2024-02",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/timorleste/media/6966/file/Mapping%20and%20Assessment%20Report_Final_efile.pdf.pdf",
+      "geographic_coverage": [
+        "Bobonaro Municipality",
+        "Covalima Municipality",
+        "RAEOA",
+        "Saburai",
+        "Tapo-Memo",
+        "Gildapil",
+        "Lebos",
+        "Bene-Ufe",
+        "Usitaqueno",
+        "Nibin",
+        "Lalawa"
+      ],
+      "temporal_coverage": "Participatory assessment fieldwork in 2023; includes historical examples, including a 2021 displacement event.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TLS-E-101",
+        "TLS-E-102",
+        "TLS-E-103",
+        "TLS-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 72-page report; village methods, climate/food/environmental security findings, community-security findings and resilience pathways.",
+          "notes": "The report describes 2023 participatory fieldwork and separately identifies several events as historical or participant-reported.",
+          "reuse_terms": "No separate open licence verified; concise attributed paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TLS-SRC-102",
+      "title": "Climate Rationale for Water, Sanitation and Hygiene Services in Timor-Leste",
+      "organization": "IVL Swedish Environmental Research Institute and UNICEF Timor-Leste",
+      "publication_date": "2025-08",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/timorleste/media/8691/file/ENGLISH_202508_TLS_ClimateRationale_V5.pdf.pdf",
+      "geographic_coverage": [
+        "Timor-Leste",
+        "Bobonaro",
+        "Dili",
+        "Ainaro",
+        "Baucau",
+        "northern coastal areas"
+      ],
+      "temporal_coverage": "Climate and WASH policy/risk review published August 2025; projections vary by stated scenario and horizon.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TLS-E-105",
+        "TLS-E-106",
+        "TLS-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 44-page climate rationale; municipality flood discussion and pp. 25–26 water/WASH impacts.",
+          "notes": "The report combines literature, policy review and stakeholder validation; water-dispute material is attributed to an earlier ACAPS source.",
+          "reuse_terms": "Copyright is stated; no separate open licence verified; concise attributed paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "TLS-E-107",
+        "selected_source_id": "TLS-SRC-102",
+        "url": "https://www.unicef.org/timorleste/media/8691/file/ENGLISH_202508_TLS_ClimateRationale_V5.pdf.pdf",
+        "locator": "Printed p. 26, water-competition discussion and citation to ACAPS (2017).",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 1811036,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "TLS-SRC-103",
+      "title": "UNICEF Timor-Leste Annual Report 2024: Action and Impact for Every Child",
+      "organization": "UNICEF Timor-Leste",
+      "publication_date": "2025-07-04",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/timorleste/media/7811/file/UNICEF%20Timor%20Leste%202024%20annual%20report_simple%20version_English.pdf.pdf",
+      "geographic_coverage": [
+        "Ainaro Municipality",
+        "Viqueque Municipality"
+      ],
+      "temporal_coverage": "Reported 2024 programme activities and outputs.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TLS-E-108",
+        "TLS-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 27-page annual report; printed pp. 38–39, ‘Climate change’.",
+          "notes": "Annual-report passages distinguish built infrastructure and storage capacity from expected dry-season water effects.",
+          "reuse_terms": "No separate open licence verified; concise attributed paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TLS-SRC-104",
+      "title": "Mercy Corps, EU, and KOICA hand over Early Warning System devices to DNMG",
+      "organization": "TATOLI Agência Noticiosa de Timor-Leste",
+      "publication_date": "2024-03-27",
+      "publication_date_basis": "publication",
+      "url": "https://en.tatoli.tl/2024/03/27/mercy-corps-eu-and-koica-hand-over-early-warning-system-devices-to-dnmg/13/",
+      "geographic_coverage": [
+        "Dili Municipality",
+        "Villa Verde",
+        "Motael",
+        "Colmera",
+        "Campo Alor",
+        "Bairo Pite",
+        "Dare"
+      ],
+      "temporal_coverage": "Early-warning handover and project descriptions reported in March 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TLS-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full article, 27 March 2024; paragraphs describing project areas, committees and device handover.",
+          "notes": "The article lists 16 sucos after saying PREPARADU supported 15; the discrepancy is retained rather than reconciled.",
+          "reuse_terms": "No separate open licence verified; concise attributed paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TLS-SRC-105",
+      "title": "European Union and Mercy Corps celebrate successful conclusion of Maloa Urban Resilience Initiative Program",
+      "organization": "European Union Delegation to Timor-Leste",
+      "publication_date": "2024-06-13",
+      "publication_date_basis": "publication",
+      "url": "https://www.eeas.europa.eu/delegations/timor-leste/european-union-and-mercy-corps-celebrate-successful-conclusion-maloa-urban-resilience-initiative_en",
+      "geographic_coverage": [
+        "Maloa watershed",
+        "Dili Municipality"
+      ],
+      "temporal_coverage": "Implementer-reported programme outputs at June 2024 close-out.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TLS-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full EU close-out article, 13 June 2024; paragraphs reporting Maloa household, knowledge and works outputs.",
+          "notes": "Implementer/partner-reported programme completion data; no independent impact evaluation is presented.",
+          "reuse_terms": "No separate open licence verified; concise attributed paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "TLS-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TLS-SRC-001",
+          "locator": "Opening hazard-mapping paragraph"
+        }
+      ],
+      "geographies": [
+        "southern Timor-Leste",
+        "eastern Timor-Leste"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The July 2026 feature identifies southern and eastern areas as facing moderate-to-severe drought risk and associated water and livelihood pressure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "TLS-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TLS-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TLS-SRC-001",
+          "locator": "Lasting effects of 2023–2024 El Niño"
+        }
+      ],
+      "geographies": [
+        "Timor-Leste"
+      ],
+      "affected_groups": [
+        "rural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNDP's cited historical assessment reports crop and livestock losses and water scarcity during the 2023–2024 El Niño drought.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "TLS-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TLS-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TLS-SRC-002",
+          "locator": "Rainfed agriculture and drought"
+        }
+      ],
+      "geographies": [
+        "Timor-Leste"
+      ],
+      "affected_groups": [
+        "smallholder farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "FAO identifies smallholders' dependence on rainfed production as a sensitivity to dry spells and changing rainfall.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "TLS-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TLS-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TLS-SRC-002",
+          "locator": "Portal launch and training"
+        }
+      ],
+      "geographies": [
+        "Timor-Leste"
+      ],
+      "affected_groups": [],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The ASIS portal and national drought tool were launched with user training to support hotspot detection and anticipatory decisions.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "TLS-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TLS-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TLS-SRC-003",
+          "locator": "Village and municipality planning"
+        }
+      ],
+      "geographies": [
+        "Timor-Leste"
+      ],
+      "affected_groups": [],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The project integrates resilient rural infrastructure, catchment management and risk information into village and municipal planning.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "TLS-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TLS-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TLS-SRC-003",
+          "locator": "Major Achievements"
+        }
+      ],
+      "geographies": [
+        "Timor-Leste"
+      ],
+      "affected_groups": [
+        "rural communities",
+        "local contractors"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNDP reports roads, irrigation and water-supply works across six target municipalities, plus local-company employment and reforestation.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "TLS-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TLS-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TLS-SRC-101",
+          "locator": "Printed p. 35, ‘Climate and food security’; community account from Gildapil, Bobonaro."
+        }
+      ],
+      "geographies": [
+        "Bobonaro Municipality",
+        "Saburai Suco",
+        "Tapo-Memo Suco",
+        "Gildapil Suco",
+        "Lebos Suco"
+      ],
+      "affected_groups": [
+        "subsistence farmers",
+        "rural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-02 reports: Participants reported rainy-season landslides and floods destroying farms in Saburai, Tapo-Memo, Gildapil and Lebos (Bobonaro); Gildapil participants described hunger after maize loss.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TLS-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TLS-SRC-101",
+          "locator": "Printed p. 22, ‘Environmental security’, RAEOA community findings."
+        }
+      ],
+      "geographies": [
+        "RAEOA",
+        "Bene-Ufe Suco",
+        "Papu area",
+        "Qiubaki area",
+        "Nibin area, Usitaqueno"
+      ],
+      "affected_groups": [
+        "border communities",
+        "displaced families"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-02 reports: In RAEOA, wet-season landslides in Bene-Ufe damaged roads, settlements and farms; flooding and landslides displaced 280 families around Nibin, Usitaqueno, in 2021.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TLS-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TLS-SRC-101",
+          "locator": "Printed pp. 18–19, ‘Community security’, Tapo-Memo and cross-community resource disputes."
+        }
+      ],
+      "geographies": [
+        "Tapo-Memo Suco, Bobonaro",
+        "Malibaka River border area"
+      ],
+      "affected_groups": [
+        "Timorese border communities",
+        "farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-02 reports: The report describes disputes over water, land and livestock; at Tapo-Memo, unequal irrigation access to the shared Malibaka River raised concern about possible future water conflict.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TLS-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TLS-SRC-101",
+          "locator": "Printed pp. 37–38, ‘Pathways to resilience’, environmental security examples."
+        }
+      ],
+      "geographies": [
+        "RAEOA",
+        "Usi Taqueno Suco",
+        "Saburai Suco, Bobonaro"
+      ],
+      "affected_groups": [
+        "border communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-02 reports: Communities reportedly protected 80 water resources in RAEOA; Usi Taqueno residents fenced and cleaned springs, while Saburai protected water distribution through tara bandu.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TLS-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TLS-SRC-102",
+          "locator": "Printed p. 25, flood exposure discussion under ‘Impacts on communities’."
+        }
+      ],
+      "geographies": [
+        "Bobonaro Municipality",
+        "Dili Municipality",
+        "Ainaro Municipality",
+        "Baucau Municipality"
+      ],
+      "affected_groups": [
+        "flood-exposed residents",
+        "children"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-08 reports: The WASH climate assessment says all municipalities face flood exposure; the largest numbers exposed to extreme floods are in Bobonaro and Dili, followed by Ainaro and Baucau.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TLS-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TLS-SRC-102",
+          "locator": "Printed pp. 4 and 26, summary and ‘Impacts on communities’ sections."
+        }
+      ],
+      "geographies": [
+        "Timor-Leste",
+        "rural communities"
+      ],
+      "affected_groups": [
+        "women",
+        "rural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "Qualitative drought and extreme-rainfall risk narrative; no emissions scenario specified.",
+      "compact_statement": "Source dated 2025-08 reports: The assessment expects drought and extreme rainfall to worsen water insecurity, heighten competition and lengthen women’s trips to collect water, with unsafe sources increasing disease risk.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TLS-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "TLS-SRC-102",
+          "locator": "Printed p. 26, water-competition discussion and citation to ACAPS (2017)."
+        }
+      ],
+      "geographies": [
+        "Timor-Leste"
+      ],
+      "affected_groups": [
+        "water-dependent communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2025 WASH climate rationale cites 2017 ACAPS material on water competition and disputes within a broader discussion of drought risk.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+      "verification_attempt": {
+        "selected_record_id": "TLS-E-107",
+        "selected_source_id": "TLS-SRC-102",
+        "url": "https://www.unicef.org/timorleste/media/8691/file/ENGLISH_202508_TLS_ClimateRationale_V5.pdf.pdf",
+        "locator": "Printed p. 26, water-competition discussion and citation to ACAPS (2017).",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 1811036,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "TLS-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TLS-SRC-103",
+          "locator": "Printed pp. 38–39, ‘Climate change’, 2024 catchment-management results."
+        }
+      ],
+      "geographies": [
+        "Ainaro Municipality",
+        "Viqueque Municipality"
+      ],
+      "affected_groups": [
+        "community members",
+        "women",
+        "youth"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-07-04 reports: UNICEF reports community catchment-management expansion to 35 additional sub-villages in Ainaro and Viqueque, implemented by 70 trained residents and nearly 350 other community members, including women and youth.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TLS-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TLS-SRC-103",
+          "locator": "Printed p. 39, infrastructure outputs and expected dry-season water pathway."
+        }
+      ],
+      "geographies": [
+        "Ainaro Municipality",
+        "Viqueque Municipality"
+      ],
+      "affected_groups": [
+        "rural households"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-07-04 reports: The 532 built nature-based structures (45 ponds, 313 terraces and 174 check dams) were reported to retain at least 12,567 m³ in one rainfall event; dry-season replenishment is expected, not measured.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TLS-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TLS-SRC-104",
+          "locator": "Article paragraphs on PREPARADU/Maloa project locations and the 16-station system handover."
+        }
+      ],
+      "geographies": [
+        "Dili Municipality",
+        "Villa Verde Suco",
+        "Motael Suco",
+        "Colmera Suco",
+        "Campo Alor Suco",
+        "Bairo Pite Suco",
+        "Dare Suco"
+      ],
+      "affected_groups": [
+        "disaster-prone communities",
+        "first responders"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-03-27 reports: Sixteen early-warning devices were handed to DNMG; disaster committees were supported in Dili sucos. The article says 15 PREPARADU sucos but lists 16, including six Maloa sites: Villa Verde, Motael, Colmera, Campo Alor, Bairo Pite and Dare.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TLS-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TLS-SRC-105",
+          "locator": "Close-out account paragraphs describing household, business and infrastructure results in the Maloa watershed."
+        }
+      ],
+      "geographies": [
+        "Maloa watershed",
+        "Dili Municipality"
+      ],
+      "affected_groups": [
+        "households",
+        "local businesses",
+        "watershed communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The June 2024 EU/Mercy Corps close-out account reports 537 households with improved shock-preparation capacity, 1,284 people with climate-resilience knowledge and 68 mitigation/adaptation works in the Maloa watershed.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "TLS-E-107",
+  "source_access_review": {
+    "selected_record_id": "TLS-E-107",
+    "selected_source_id": "TLS-SRC-102",
+    "url": "https://www.unicef.org/timorleste/media/8691/file/ENGLISH_202508_TLS_ClimateRationale_V5.pdf.pdf",
+    "locator": "Printed p. 26, water-competition discussion and citation to ACAPS (2017).",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "document-fetched",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 1811036,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null
+  },
+  "checks": [
+    {
+      "record_id": "TLS-E-107",
+      "source_id": "TLS-SRC-102",
+      "locator": "Printed p. 26, water-competition discussion and citation to ACAPS (2017).",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+      "access_date": "2026-10-27",
+      "source_access_status": "document-fetched",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "TLS-E-107: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "TLS-E-001",
+    "TLS-E-002",
+    "TLS-E-003",
+    "TLS-E-004",
+    "TLS-E-005",
+    "TLS-E-006",
+    "TLS-E-101",
+    "TLS-E-102",
+    "TLS-E-103",
+    "TLS-E-104",
+    "TLS-E-105",
+    "TLS-E-106",
+    "TLS-E-107",
+    "TLS-E-108",
+    "TLS-E-109",
+    "TLS-E-110",
+    "TLS-E-111"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

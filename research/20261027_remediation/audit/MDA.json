@@ -1,0 +1,1107 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "MDA",
+  "candidate_path": "countries/MDA/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 5,
+    "evidence_count": 17,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 17
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 1,
+      "access-only": 16
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "MDA-E-106",
+          "MDA-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "MDA-E-101",
+          "MDA-E-103",
+          "MDA-E-104",
+          "MDA-E-105",
+          "MDA-E-109",
+          "MDA-E-115",
+          "MDA-E-116"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MDA-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MDA-E-107",
+          "MDA-E-110",
+          "MDA-E-111",
+          "MDA-E-118"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "MDA-E-112",
+          "MDA-E-114",
+          "MDA-E-117"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "MDA-E-108",
+          "MDA-E-110",
+          "MDA-E-111",
+          "MDA-E-112",
+          "MDA-E-113",
+          "MDA-E-114",
+          "MDA-E-116",
+          "MDA-E-117"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/MDA/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "MDA-SRC-101",
+      "title": "Nationally Determined Contribution 3.0 of the Republic of Moldova",
+      "organization": "Government of the Republic of Moldova; submitted to the UNFCCC",
+      "publication_date": "2025-05-06",
+      "publication_date_basis": "submission",
+      "url": "https://unfccc.int/sites/default/files/2025-05/MD_NDC_3.pdf",
+      "geographic_coverage": [
+        "Republic of Moldova",
+        "districts",
+        "northern and southern regions",
+        "upland regions"
+      ],
+      "temporal_coverage": "Submitted 6 May 2025; subnational risk index cited is from 2023, with historical impacts and a non-time-specific rainfall outlook.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MDA-E-101",
+        "MDA-E-103",
+        "MDA-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 81-page PDF; physical pp.58-61, especially subnational risk, rainfall distribution, gender and child-protection passages.",
+          "notes": "Opened and read the official NDC PDF directly; UNFCCC registry records submission on 6 May 2025.",
+          "reuse_terms": "No license terms identified in inspected pages.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "MDA-E-101",
+        "selected_source_id": "MDA-SRC-101",
+        "url": "https://unfccc.int/sites/default/files/2025-05/MD_NDC_3.pdf",
+        "locator": "Physical PDF p.58 (printed p.58), 2023 child-risk and INFORM summaries; figures on physical p.59.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 212,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "MDA-SRC-102",
+      "title": "Opportunities and Challenges of Climate Adaptation Policies, Republic of Moldova",
+      "organization": "International Monetary Fund, European Department",
+      "publication_date": "2024-02",
+      "publication_date_basis": "publication",
+      "url": "https://www.imf.org/-/media/Files/Publications/Selected-Issues-Papers/2024/English/sipea2024002-print-pdf.ashx",
+      "geographic_coverage": [
+        "Republic of Moldova"
+      ],
+      "temporal_coverage": "Published February 2024; analysis based on information available through 28 November 2023 and disaster impacts over the preceding three decades.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MDA-E-105",
+        "MDA-E-106",
+        "MDA-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 24-page PDF; physical pp.5, 7 and 22.",
+          "notes": "Opened and read the full IMF paper, including its date basis, vulnerability analysis and conclusions.",
+          "reuse_terms": "No license terms identified in inspected pages.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MDA-SRC-103",
+      "title": "Moldova: Drought Portal country profile",
+      "organization": "Food and Agriculture Organization of the United Nations",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.fao.org/in-action/drought-portal/preparedness/vulnerability-and-impact-assessment/national-case-studies/moldova/en",
+      "geographic_coverage": [
+        "Republic of Moldova",
+        "southern region",
+        "rural areas",
+        "Gagauzia"
+      ],
+      "temporal_coverage": "Undated profile; statistics and referenced plans cover different years, including drought records through 2022 and institutional sources from 2019-2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MDA-E-108",
+        "MDA-E-109",
+        "MDA-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly opened country-profile sections on historical drought, social/economic/infrastructure vulnerability and institutions.",
+          "notes": "Read the full FAO profile; its listed indicators refer to mixed years and its publication date is not stated.",
+          "reuse_terms": "No license terms identified in inspected page.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MDA-SRC-104",
+      "title": "Hydro-infrastructure rehabilitation to mitigate vulnerability to climate-driven extreme events in the Republic of Moldova",
+      "organization": "United Nations Development Programme, Moldova",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.undp.org/moldova/projects/hydro-infrastructure-rehabilitation-mitigate-vulnerability-climate-driven-extreme-events-republic-moldova",
+      "geographic_coverage": [
+        "Copăceanca",
+        "Soloneț",
+        "Bahu",
+        "Ialpug",
+        "Lăpușna",
+        "Hîncești",
+        "Nisporeni",
+        "Leova",
+        "Cimișlia",
+        "Telenești",
+        "Călărași",
+        "Rîșcani",
+        "Sîngerei"
+      ],
+      "temporal_coverage": "Project listed as active for 2024-2027; accomplishments and budget delivery are reported through 2025, with later work ongoing or planned.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MDA-E-111",
+        "MDA-E-112",
+        "MDA-E-113",
+        "MDA-E-114"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly opened project summary, pilot coverage, objectives, reported accomplishments and specialist-training sections.",
+          "notes": "Read the full public project page; distinguishes project design and expected outcomes from listed accomplishments.",
+          "reuse_terms": "No license terms identified in inspected page.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MDA-SRC-105",
+      "title": "Results of the Post-Disaster Needs Assessment Following the Dniester River Pollution Crisis Presented to the Public",
+      "organization": "National Crisis Management Centre, Government of the Republic of Moldova",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.cnmc.gov.md/en/press-releases/results-post-disaster-needs-assessment-following-dniester-river-pollution-crisis",
+      "geographic_coverage": [
+        "Dniester River",
+        "Cosăuți",
+        "Soroca District",
+        "Bălți",
+        "Novodnistrovsk, Ukraine"
+      ],
+      "temporal_coverage": "Government summary of the spring 2026 pollution crisis and the PDNA presented on 16 October 2026; full report was not yet posted on the page.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "MDA-E-115",
+        "MDA-E-116",
+        "MDA-E-117",
+        "MDA-E-118"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Direct official government summary, lines 18-49: causes, impacts, response, proposed actions and publication status.",
+          "notes": "Opened the full government announcement; the PDNA itself was not attached and the recommendations were still being finalized.",
+          "reuse_terms": "Page states Creative Commons Attribution-ShareAlike 4.0 International.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "MDA-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "MDA-SRC-101",
+          "locator": "Physical PDF p.58 (printed p.58), 2023 child-risk and INFORM summaries; figures on physical p.59."
+        }
+      ],
+      "geographies": [
+        "Republic of Moldova",
+        "34 districts",
+        "administrative units"
+      ],
+      "affected_groups": [
+        "children",
+        "children in 28 high- or extreme-risk districts"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-05-06 reports: NDC cites a 2023 subnational index: administrative units face medium-to-very-high disaster/humanitarian risk; 28 of 34 districts have high or extreme child climate risk.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET; HTML visible-text extraction",
+      "verification_attempt": {
+        "selected_record_id": "MDA-E-101",
+        "selected_source_id": "MDA-SRC-101",
+        "url": "https://unfccc.int/sites/default/files/2025-05/MD_NDC_3.pdf",
+        "locator": "Physical PDF p.58 (printed p.58), 2023 child-risk and INFORM summaries; figures on physical p.59.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 212,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "MDA-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDA-SRC-101",
+          "locator": "Physical PDF pp.59-60 (printed pp.59-60), rural women's work burden."
+        }
+      ],
+      "geographies": [
+        "rural Moldova",
+        "upland regions"
+      ],
+      "affected_groups": [
+        "rural women",
+        "women farmers",
+        "women-headed households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-05-06 reports: Rural women spend 20-25 hours weekly on water and farm tasks; drought can raise workload 30%, while floods and erosion burden uninsured women farmers.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDA-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDA-SRC-101",
+          "locator": "Physical PDF p.60 (printed p.60), child poverty and protection risks."
+        }
+      ],
+      "geographies": [
+        "rural Moldova"
+      ],
+      "affected_groups": [
+        "rural poor children",
+        "Roma children",
+        "migrant and refugee children",
+        "children with disabilities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-05-06 reports: Rural poor, Roma, migrant/refugee and disabled children are among the poorest.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDA-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDA-SRC-102",
+          "locator": "PDF physical p.5 (printed p.5), abstract and climate sensitivity/readiness discussion."
+        }
+      ],
+      "geographies": [
+        "Republic of Moldova"
+      ],
+      "affected_groups": [
+        "rural households",
+        "agricultural workers",
+        "households reliant on public services"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-02 reports: IMF attributes Moldova's climate sensitivity to agriculture, rural livelihoods, energy imports and limited public resources; it identifies weaker disaster preparedness, farm adaptation and infrastructure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDA-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDA-SRC-102",
+          "locator": "PDF physical p.7 (printed p.7), disaster costs and affected population."
+        }
+      ],
+      "geographies": [
+        "Republic of Moldova"
+      ],
+      "affected_groups": [
+        "disaster-affected population"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-02 reports: IMF estimates past climate-disaster losses near 12% of 2019 GDP cumulatively and an average 3% of the population affected by disasters over three decades.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDA-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDA-SRC-102",
+          "locator": "PDF physical pp.5 and 22 (printed pp.5 and 22), adaptation investment conclusions."
+        }
+      ],
+      "geographies": [
+        "Republic of Moldova"
+      ],
+      "affected_groups": [
+        "communities exposed to climate hazards"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-02 reports: IMF says adaptation investment can reduce disaster losses, but domestic financing is constrained by debt and growth risks, making external concessional support and reforms important.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDA-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDA-SRC-103",
+          "locator": "FAO Moldova profile, historical-drought and environmental vulnerability sections."
+        }
+      ],
+      "geographies": [
+        "southern Moldova",
+        "Republic of Moldova"
+      ],
+      "affected_groups": [
+        "rural communities",
+        "farmers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: FAO describes the south as hot and arid, with 5-6 droughts per decade; about 75% of Moldova is dry, subhumid or semiarid land.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDA-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDA-SRC-103",
+          "locator": "FAO Moldova profile, social, economic and infrastructure vulnerability sections."
+        }
+      ],
+      "geographies": [
+        "rural Moldova",
+        "North, Center, South and Gagauzia regions"
+      ],
+      "affected_groups": [
+        "poor households",
+        "backyard producers",
+        "small farmers",
+        "rural population"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: FAO reports rural livelihoods depend heavily on agriculture, 90% of production is rain-fed, and poor backyard producers and small farms have limited credit or subsidy access.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDA-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDA-SRC-103",
+          "locator": "FAO Moldova profile, institutional vulnerability section; National Drought Plan and water-hazard arrangements."
+        }
+      ],
+      "geographies": [
+        "districts",
+        "localities",
+        "Republic of Moldova"
+      ],
+      "affected_groups": [
+        "local residents",
+        "rural communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: FAO lists a 2019 National Drought Plan, local emergency commissions' five-year preparedness plans and water-hazard warning and response protocols.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDA-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDA-SRC-104",
+          "locator": "UNDP project overview and expected results; pilot-area and objective sections."
+        }
+      ],
+      "geographies": [
+        "Copăceanca",
+        "Soloneț",
+        "Bahu",
+        "Ialpug",
+        "Lăpușna watersheds"
+      ],
+      "affected_groups": [
+        "rural population",
+        "watershed communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: An active 2024-2027 project covers five named watersheds and targets flood early warning, dam safety and local integrated water-resources governance.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDA-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDA-SRC-104",
+          "locator": "UNDP project accomplishments, monitoring-network and equipment items."
+        }
+      ],
+      "geographies": [
+        "Copăceanca",
+        "Soloneț",
+        "Bahu",
+        "Ialpug",
+        "Lăpușna watersheds"
+      ],
+      "affected_groups": [
+        "rural residents",
+        "downstream communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: UNDP reports procurement of 10 hydrometeorological stations for five pilot areas and ground-penetrating radar for national dam monitoring.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDA-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDA-SRC-104",
+          "locator": "UNDP accomplishments, local action groups in pilot sub-basins."
+        }
+      ],
+      "geographies": [
+        "Hîncești",
+        "Nisporeni",
+        "Leova",
+        "Cimișlia",
+        "Telenești",
+        "Călărași",
+        "Rîșcani",
+        "Sîngerei"
+      ],
+      "affected_groups": [
+        "women",
+        "vulnerable groups",
+        "watershed residents"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: Local action groups involve residents of eight districts, particularly women and vulnerable groups, in flood plans, dam priorities and protective measures.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDA-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDA-SRC-104",
+          "locator": "UNDP accomplishments, specialist training items for climate modelling and dam/water management."
+        }
+      ],
+      "geographies": [
+        "Rîșcani",
+        "Sîngerei",
+        "Telenești",
+        "Cimișlia",
+        "Nisporeni",
+        "Hîncești",
+        "Leova"
+      ],
+      "affected_groups": [
+        "water and emergency-management specialists",
+        "local communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: UNDP reports training 35 specialists in digital climate-event modelling, 60 in dam flood-safety, and 50 in water-structure operation and assessment.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDA-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDA-SRC-105",
+          "locator": "Government PDNA summary, incident cause, Cosăuți water-abstraction suspension and affected-population estimates."
+        }
+      ],
+      "geographies": [
+        "Novodnistrovsk, Ukraine",
+        "Dniester River",
+        "Cosăuți",
+        "northern Moldova"
+      ],
+      "affected_groups": [
+        "water-service users",
+        "northern Moldova residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The government's October 2026 summary describes spring 2026 Dniester oil pollution following Russia's attack on Ukraine's Novodnistrovsk hydro plant. Precautionary suspension at Cosăuți affected or put about 200,000 people at risk of water disruption, with about 100,000 temporarily losing centralized supply.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDA-E-116",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDA-SRC-105",
+          "locator": "Government PDNA summary, vulnerable groups, Soroca District impacts and Bălți service adaptations."
+        }
+      ],
+      "geographies": [
+        "Soroca District",
+        "Bălți",
+        "northern Moldova"
+      ],
+      "affected_groups": [
+        "older people",
+        "persons with disabilities",
+        "low-income households",
+        "people without transport"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-10-16 reports: Older, disabled, low-income and transport-limited people faced added difficulty; Soroca was most affected and Bălți moved classes online.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDA-E-117",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDA-SRC-105",
+          "locator": "Government PDNA summary, immediate response and continuity of essential services."
+        }
+      ],
+      "geographies": [
+        "northern Moldova",
+        "Bălți"
+      ],
+      "affected_groups": [
+        "affected residents",
+        "emergency medical patients"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-10-16 reports: Authorities, partners and businesses distributed over 620 tonnes of water; emergency medical services continued while some non-urgent care was rescheduled.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MDA-E-118",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MDA-SRC-105",
+          "locator": "Government PDNA summary, recovery needs and proposed priority action packages."
+        }
+      ],
+      "geographies": [
+        "Dniester River basin",
+        "Republic of Moldova",
+        "Ukraine"
+      ],
+      "affected_groups": [
+        "communities",
+        "vulnerable people"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-10-16 reports: Proposals include alternative water sources, safety plans, real-time monitoring, cross-border protocols with Ukraine, civil-protection training and support for vulnerable communities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "MDA-E-101",
+  "source_access_review": {
+    "selected_record_id": "MDA-E-101",
+    "selected_source_id": "MDA-SRC-101",
+    "url": "https://unfccc.int/sites/default/files/2025-05/MD_NDC_3.pdf",
+    "locator": "Physical PDF p.58 (printed p.58), 2023 child-risk and INFORM summaries; figures on physical p.59.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "document-fetched",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 212,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null
+  },
+  "checks": [
+    {
+      "record_id": "MDA-E-101",
+      "source_id": "MDA-SRC-101",
+      "locator": "Physical PDF p.58 (printed p.58), 2023 child-risk and INFORM summaries; figures on physical p.59.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET; HTML visible-text extraction",
+      "access_date": "2026-10-27",
+      "source_access_status": "document-fetched",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "MDA-E-101: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "MDA-E-101",
+    "MDA-E-103",
+    "MDA-E-104",
+    "MDA-E-105",
+    "MDA-E-106",
+    "MDA-E-107",
+    "MDA-E-108",
+    "MDA-E-109",
+    "MDA-E-110",
+    "MDA-E-111",
+    "MDA-E-112",
+    "MDA-E-113",
+    "MDA-E-114",
+    "MDA-E-115",
+    "MDA-E-116",
+    "MDA-E-117",
+    "MDA-E-118"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

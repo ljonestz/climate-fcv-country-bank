@@ -1,0 +1,1937 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "BFA",
+  "candidate_path": "countries/BFA/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 15,
+    "evidence_count": 25,
+    "pathway_count": 5,
+    "evidence_source_reference_count": 25
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 15,
+      "access-only": 10
+    },
+    "pathway_claims": {
+      "unresolved": 5
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "BFA-E-001",
+          "BFA-E-101",
+          "BFA-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "BFA-E-002",
+          "BFA-E-006"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "BFA-E-008",
+          "BFA-E-102",
+          "BFA-E-103",
+          "BFA-E-106",
+          "BFA-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BFA-E-009",
+          "BFA-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BFA-E-010",
+          "BFA-E-015",
+          "BFA-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BFA-E-003",
+          "BFA-E-012",
+          "BFA-E-105",
+          "BFA-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "BFA-E-011",
+          "BFA-E-013"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "BFA-E-004",
+          "BFA-E-007"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BFA-E-005",
+          "BFA-E-014"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "BFA-E-102",
+          "BFA-E-103",
+          "BFA-E-107",
+          "BFA-E-108",
+          "BFA-E-109",
+          "BFA-E-110",
+          "BFA-E-111"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "BFA-P-001",
+          "BFA-P-002",
+          "BFA-P-003",
+          "BFA-P-004",
+          "BFA-P-006"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/BFA/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "BFA-SRC-001",
+      "title": "G5 Sahel Region Country Climate and Development Report",
+      "organization": "World Bank Group",
+      "publication_date": "2022",
+      "publication_date_basis": "publication",
+      "url": "https://openknowledge.worldbank.org/server/api/core/bitstreams/197f07e0-d3ec-48bc-9d52-38d551d5d312/content",
+      "geographic_coverage": [
+        "Burkina Faso",
+        "G5 Sahel region"
+      ],
+      "temporal_coverage": "Observed development conditions and modeled climate-development risks through mid-century.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BFA-SRC-002",
+      "title": "Updated National Adaptation Plan - Burkina Faso",
+      "organization": "Government of Burkina Faso and United Nations Framework Convention on Climate Change",
+      "publication_date": "2025-03-24",
+      "publication_date_basis": "portal-publication",
+      "url": "https://unfccc.int/documents/646373",
+      "geographic_coverage": [
+        "Burkina Faso (national and sector planning)"
+      ],
+      "temporal_coverage": "Updated national adaptation planning framework current at March 2025.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BFA-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BFA-SRC-003",
+      "title": "Climate Change and Violent Conflict in West Africa: Assessing the Evidence",
+      "organization": "Stockholm International Peace Research Institute",
+      "publication_date": "2022-02",
+      "publication_date_basis": "publication",
+      "url": "https://www.sipri.org/publications/2022/sipri-insights-peace-and-security/climate-change-and-violent-conflict-west-africa-assessing-evidence",
+      "geographic_coverage": [
+        "West Africa, including Burkina Faso"
+      ],
+      "temporal_coverage": "Academic literature available for the systematic review published in February 2022.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BFA-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BFA-SRC-004",
+      "title": "Countering climate-related security risks in the Sahel",
+      "organization": "CGIAR Initiative on Climate Resilience",
+      "publication_date": "2025-03-31",
+      "publication_date_basis": "publication",
+      "url": "https://www.cgiar.org/initiative-result/countering-climate-related-security-risks-in-the-sahel",
+      "geographic_coverage": [
+        "Burkina Faso",
+        "Mali",
+        "Sahel"
+      ],
+      "temporal_coverage": "Research and stakeholder consultation supporting climate-security strategy development through 2024.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BFA-E-005"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BFA-SRC-005",
+      "title": "Climate change and conflict pursue displaced Burkinabes",
+      "organization": "United Nations High Commissioner for Refugees",
+      "publication_date": "2021-01-25",
+      "publication_date_basis": "publication",
+      "url": "https://www.unhcr.org/news/stories/climate-change-and-conflict-pursue-displaced-burkinabes",
+      "geographic_coverage": [
+        "Sahel Region",
+        "Centre-North Region",
+        "Kongoussi",
+        "Kaya"
+      ],
+      "temporal_coverage": "Displacement, drought, livelihood, and 2020 flood conditions reported through January 2021.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BFA-E-006",
+        "BFA-E-007"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BFA-SRC-006",
+      "title": "Burkina Faso country overview",
+      "organization": "World Food Programme",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.wfp.org/countries/burkina-faso",
+      "geographic_coverage": [
+        "Burkina Faso (national, with conflict-affected areas)"
+      ],
+      "temporal_coverage": "Living country overview with current humanitarian and food-security indicators.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BFA-E-001",
+        "BFA-E-002",
+        "BFA-E-008",
+        "BFA-E-009",
+        "BFA-E-010"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BFA-SRC-007",
+      "title": "Evaluation of Burkina Faso WFP Country Strategic Plan 2019-2023",
+      "organization": "World Food Programme Office of Evaluation",
+      "publication_date": "2023-10-02",
+      "publication_date_basis": "publication",
+      "url": "https://www.wfp.org/publications/evaluation-burkina-faso-wfp-country-strategic-plan-2019-2023",
+      "geographic_coverage": [
+        "Burkina Faso (WFP portfolio)"
+      ],
+      "temporal_coverage": "WFP activities from January 2018 through July 2022; evaluation conducted April 2022 to January 2023.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BFA-E-011"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BFA-SRC-008",
+      "title": "Supporting Local Governments and Building Resilience in Burkina Faso",
+      "organization": "World Bank Group",
+      "publication_date": "2022-05-15",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/results/2022/05/15/afw-supporting-local-governments-and-building-resilience-in-burkina-faso",
+      "geographic_coverage": [
+        "All 13 regions and 349 municipalities of Burkina Faso"
+      ],
+      "temporal_coverage": "Local governance program results, with crisis-response results concentrated in August 2020 to September 2021.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BFA-E-012",
+        "BFA-E-013"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BFA-SRC-009",
+      "title": "Promoting peaceful transhumance in the Liptako-Gourma region",
+      "organization": "Food and Agriculture Organization of the United Nations",
+      "publication_date": "2026-04-23",
+      "publication_date_basis": "publication",
+      "url": "https://www.fao.org/in-action/kore/publications/publications-details/en/c/1758453/",
+      "geographic_coverage": [
+        "Liptako-Gourma areas of Burkina Faso, Mali, and Niger"
+      ],
+      "temporal_coverage": "Lessons from a joint FAO-IOM Peacebuilding Fund initiative implemented from 2020 to 2024.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BFA-E-014"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "BFA-E-014",
+        "selected_source_id": "BFA-SRC-009",
+        "url": "https://www.fao.org/in-action/kore/publications/publications-details/en/c/1758453/",
+        "locator": "project summary and lessons on 2020-2024 peaceful transhumance initiative",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": 404,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "HTTP 404"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "BFA-SRC-010",
+      "title": "Farming communities in Burkina Faso are improving their agricultural practices with innovative weather tools",
+      "organization": "World Bank Group",
+      "publication_date": "2025-02-20",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/feature/2025/02/19/farming-communities-in-burkina-faso-are-improving-their-agricultural-practices-with-innovative-weather-tools",
+      "geographic_coverage": [
+        "Multiple provinces across Burkina Faso"
+      ],
+      "temporal_coverage": "Hydromet implementation and farmer rain-gauge distribution since 2023.",
+      "accessed_on_in_source_record": "2026-08-11",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BFA-E-015"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BFA-SRC-101",
+      "title": "Burkina Faso Key Message Update September 2026–January 2027: Agropastoral production prospects negatively affected by El Niño conditions",
+      "organization": "FEWS NET",
+      "publication_date": "2026-09",
+      "publication_date_basis": "publication",
+      "url": "https://fews.net/west-africa/burkina-faso/key-message-update/september-2026",
+      "geographic_coverage": [
+        "Burkina Faso",
+        "Karo Peli Province",
+        "northern and eastern provinces",
+        "Soum",
+        "Liptako",
+        "Yaadga",
+        "Koulsés",
+        "Diapaga",
+        "Gayéri"
+      ],
+      "temporal_coverage": "Observed 2026 rainy-season conditions and food-security projections through January 2027.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BFA-E-101",
+        "BFA-E-102",
+        "BFA-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Key Messages and recommended citation",
+          "notes": "Article opened and relevant country-level and named-area passages inspected.",
+          "reuse_terms": "No explicit reuse licence verified; recorded as unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BFA-SRC-102",
+      "title": "Burkina Faso: Fourth Review Under the Extended Credit Facility Arrangement, Financing Assurances Review, and Request for an Arrangement Under the Resilience and Sustainability Facility",
+      "organization": "International Monetary Fund",
+      "publication_date": "2026-01-30",
+      "publication_date_basis": "document-version",
+      "url": "https://www.imf.org/-/media/files/publications/cr/2026/english/1bfaea2026001-source-pdf.pdf",
+      "geographic_coverage": [
+        "Burkina Faso"
+      ],
+      "temporal_coverage": "Observed context through late 2025; reform program runs through September 2027.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BFA-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Printed pp. 2 and 5",
+          "notes": "Public IMF country report PDF opened; used the RSF request and the explicit farmer-herder/conflict passage.",
+          "reuse_terms": "No explicit reuse licence verified; recorded as unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BFA-SRC-103",
+      "title": "Humanitarian Action for Children 2026: Burkina Faso",
+      "organization": "United Nations Children's Fund",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/media/179271/file/2026-HAC-Burkina-Faso.pdf",
+      "geographic_coverage": [
+        "Burkina Faso",
+        "Liptako",
+        "Soum",
+        "Koulsé",
+        "Goulmou",
+        "Tapoa",
+        "Sirba",
+        "Yaadga",
+        "Bankui",
+        "Sourou"
+      ],
+      "temporal_coverage": "2025 displacement and service data, 2026 humanitarian needs and planned response.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BFA-E-106",
+        "BFA-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF cover and PDF p. 2 (printed p. 1), needs analysis",
+          "notes": "Six-page 2026 appeal PDF opened; used needs, subnational severity, service-access and planned-response passages.",
+          "reuse_terms": "No explicit reuse licence verified; recorded as unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BFA-SRC-104",
+      "title": "National bulletins vs the ASAP trigger — September 2026",
+      "organization": "United Nations Office for the Coordination of Humanitarian Affairs, Centre for Humanitarian Data",
+      "publication_date": "2026-09-10",
+      "publication_date_basis": "publication",
+      "url": "https://ocha-dap.github.io/ds-aa-bfa-drought/external-sources-sep-2026/",
+      "geographic_coverage": [
+        "Loroum",
+        "Oudalan",
+        "Séno",
+        "Yagha",
+        "Soum",
+        "Yaadga",
+        "Liptako"
+      ],
+      "temporal_coverage": "2026 rainy season, with comparison to the JRC ASAP trigger record since 2001.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BFA-E-108",
+        "BFA-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Sections 1–4 and source/method note",
+          "notes": "Full OCHA analysis page inspected. ANAM and SAP-GTP materials cited there are summarized, not republished.",
+          "reuse_terms": "No explicit reuse licence verified; recorded as unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BFA-SRC-105",
+      "title": "Quatre Plans d’Action Anticipatoire pour agir avant la sécheresse au Burkina Faso [Four Anticipatory Action Plans to act before drought in Burkina Faso]",
+      "organization": "Oxfam Burkina Faso",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://burkinafaso.oxfam.org/actualit%C3%A9s/articles/plan-dactions-anticipatoires-contre-la-secheresse-2026-2027",
+      "geographic_coverage": [
+        "Santéna village, Boussouma",
+        "Damesma village, Kaya",
+        "Somiaga village, Ouahigouya",
+        "Zougoungou village, Gomponsom"
+      ],
+      "temporal_coverage": "Summary of four anticipatory-action plans covering 2025–2027.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BFA-E-110",
+        "BFA-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Article paragraphs 1–4 and download links",
+          "notes": "Oxfam summary page opened. Its four linked detailed plan PDFs were not accessible in the browser cache.",
+          "reuse_terms": "No explicit reuse licence verified; recorded as unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "BFA-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-006",
+          "locator": "country overview sections 'Burkina Faso' and 'Resilience building'"
+        }
+      ],
+      "geographies": [
+        "Burkina Faso"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "pastoralists"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Drought and heat pressures compound water scarcity and agricultural risk.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "BFA-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BFA-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-006",
+          "locator": "country overview climate paragraph"
+        }
+      ],
+      "geographies": [
+        "Burkina Faso"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "rural households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "High agricultural employment and widespread rain-fed land create broad livelihood exposure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BFA-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BFA-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-002",
+          "locator": "UNFCCC document record and updated NAP sector and institutional framework"
+        }
+      ],
+      "geographies": [
+        "Burkina Faso"
+      ],
+      "affected_groups": [
+        "climate-exposed communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "An updated national plan establishes adaptation priorities and institutional responsibilities.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "BFA-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BFA-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-003",
+          "locator": "webpage summary and report sections II-III on pathways and evidence limits"
+        }
+      ],
+      "geographies": [
+        "West Africa",
+        "Burkina Faso"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoralists",
+        "migrants"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Regional evidence supports mediated, not deterministic, climate-insecurity pathways.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BFA-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BFA-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-004",
+          "locator": "sections on Burkina Faso consultation and national climate-security strategy"
+        }
+      ],
+      "geographies": [
+        "Burkina Faso"
+      ],
+      "affected_groups": [
+        "farmers",
+        "herders",
+        "rural communities"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Climate-security analysis entered a multi-actor national strategy process.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BFA-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BFA-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-005",
+          "locator": "paragraphs on Kongoussi and Kaya flood impacts and floodplain settlement"
+        }
+      ],
+      "geographies": [
+        "Kongoussi",
+        "Kaya",
+        "Centre-North Region"
+      ],
+      "affected_groups": [
+        "internally displaced people"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict-displaced households faced concentrated flood exposure in unsafe urban sites.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BFA-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BFA-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-005",
+          "locator": "paragraphs cautioning against direct attribution and describing resource-tension exploitation"
+        }
+      ],
+      "geographies": [
+        "Sahel Region",
+        "Centre-North Region"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoralists",
+        "internally displaced people"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Resource stress can be exploited within wider armed-conflict dynamics, but attribution is limited.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BFA-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BFA-E-008",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-006",
+          "locator": "country overview paragraphs on crisis drivers, hunger, and differentiated vulnerability"
+        }
+      ],
+      "geographies": [
+        "Burkina Faso"
+      ],
+      "affected_groups": [
+        "women",
+        "girls",
+        "children",
+        "internally displaced people"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Multiple shocks create differentiated food and protection sensitivity.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "BFA-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BFA-E-009",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-006",
+          "locator": "country overview paragraphs beginning \"Insecurity has disrupted livelihoods\" and \"Access constraints in conflict-affected areas\""
+        }
+      ],
+      "geographies": [
+        "conflict-affected Burkina Faso"
+      ],
+      "affected_groups": [
+        "cut-off communities",
+        "farmers",
+        "food-insecure households"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict and access constraints erode household and institutional coping options.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "BFA-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BFA-E-010",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-006",
+          "locator": "section 'Resilience building'"
+        }
+      ],
+      "geographies": [
+        "WFP target areas in Burkina Faso"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "vulnerable households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Land, water, and livelihood assets provide potential adaptive and cohesion capacity.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "BFA-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BFA-E-011",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-007",
+          "locator": "evaluation webpage conclusions on relevance, emergency response, food insecurity, resilience, inclusion, and staffing"
+        }
+      ],
+      "geographies": [
+        "Burkina Faso"
+      ],
+      "affected_groups": [
+        "food-insecure households",
+        "crisis-affected communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Independent evaluation found response strengths alongside major effectiveness and sustainability limits.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "BFA-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BFA-E-012",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-008",
+          "locator": "sections 'Approach', 'Results', and 'Partners'"
+        }
+      ],
+      "geographies": [
+        "13 regions",
+        "349 municipalities"
+      ],
+      "affected_groups": [
+        "citizens",
+        "internally displaced people"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Nationwide municipal systems provide an institutional platform for crisis-sensitive delivery.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BFA-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BFA-E-013",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-008",
+          "locator": "sections 'Challenge', 'Results', and 'Partners', including August 2020-September 2021 figures"
+        }
+      ],
+      "geographies": [
+        "Burkina Faso"
+      ],
+      "affected_groups": [
+        "internally displaced people",
+        "women-headed households",
+        "children"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Municipal crisis delivery reached displaced households but remained exposed to fiscal shocks.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BFA-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BFA-E-014",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-009",
+          "locator": "project summary and lessons on 2020-2024 peaceful transhumance initiative"
+        }
+      ],
+      "geographies": [
+        "Liptako-Gourma",
+        "Burkina Faso"
+      ],
+      "affected_groups": [
+        "pastoralists",
+        "farmers"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict-sensitive transhumance governance is a documented regional resilience practice.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BFA-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "BFA-E-014",
+        "selected_source_id": "BFA-SRC-009",
+        "url": "https://www.fao.org/in-action/kore/publications/publications-details/en/c/1758453/",
+        "locator": "project summary and lessons on 2020-2024 peaceful transhumance initiative",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": 404,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "HTTP 404"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "BFA-E-015",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-010",
+          "locator": "story highlights and sections on training, institutional links, and 9,700 rain gauges"
+        }
+      ],
+      "geographies": [
+        "Balés",
+        "Central Plateau",
+        "Gaoua area",
+        "Dedougou",
+        "Boromo",
+        "Manga",
+        "Koudougou"
+      ],
+      "affected_groups": [
+        "farmers",
+        "rural communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Farmer rain gauges and institutional links expand localized climate-information capacity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BFA-SRC-010"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BFA-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-101",
+          "locator": "Key Messages, bullets on Karo Peli and agropastoral production"
+        }
+      ],
+      "geographies": [
+        "northern Burkina Faso"
+      ],
+      "affected_groups": [
+        "agropastoral households",
+        "farmers",
+        "pastoralists"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "FEWS NET reports that late and uneven rains and prolonged August–September dry spells reduced maize yields, pasture growth and water-catchment replenishment, especially in northern Burkina Faso.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BFA-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-101",
+          "locator": "Key Messages, first bullet on Karo Peli Province"
+        }
+      ],
+      "geographies": [
+        "Karo Peli Province"
+      ],
+      "affected_groups": [
+        "households in Karo Peli"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "current",
+        "near-term"
+      ],
+      "scenario": "FEWS NET's September 2026–January 2027 outlook; no named climate scenario is specified.",
+      "compact_statement": "FEWS NET assessed Karo Peli at Crisis (IPC Phase 3!) in September 2026, with assistance preventing worse gaps, and projected Phase 3 through January 2027 as poor rainfall, dry spells and low incomes constrain food access.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BFA-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-101",
+          "locator": "Key Messages, bullet on insecurity and market access"
+        }
+      ],
+      "geographies": [
+        "northern Burkina Faso",
+        "eastern Burkina Faso",
+        "Diapaga",
+        "Gayéri"
+      ],
+      "affected_groups": [
+        "households in insecure areas",
+        "internally displaced people"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "FEWS NET identifies insecurity and armed-group attacks as the main constraint on household food and income access in the north and east; attacks disrupt market supply and displaced 11,316 people in August 2026.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BFA-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-102",
+          "locator": "One-based PDF p.6 (printed staff-report p.2), RSF request paragraph."
+        }
+      ],
+      "geographies": [
+        "Burkina Faso"
+      ],
+      "affected_groups": [
+        "national and local service users"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "The January 2026 IMF staff report proposes 2026-2027 RSF reforms covering disaster-risk finance, resilient infrastructure and utilities, and climate-finance mobilization; these are reform commitments, not demonstrated resilience effects.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BFA-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-103",
+          "locator": "PDF p. 1 (cover) and PDF p. 2 (printed p. 1), opening humanitarian-needs text"
+        }
+      ],
+      "geographies": [
+        "Burkina Faso"
+      ],
+      "affected_groups": [
+        "children",
+        "internally displaced people",
+        "returnees",
+        "host communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNICEF's early-2026 appeal estimates 4.5 million people, including 2.9 million children, needing assistance, with climate shocks, displacement and food insecurity jointly shaping needs.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BFA-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-103",
+          "locator": "PDF p. 2 (printed p. 1), nutrition and water-service needs"
+        }
+      ],
+      "geographies": [
+        "Liptako",
+        "Soum",
+        "Koulsé",
+        "Goulmou",
+        "Tapoa",
+        "Sirba",
+        "Yaadga",
+        "Bankui",
+        "Sourou"
+      ],
+      "affected_groups": [
+        "children under five",
+        "pregnant and breastfeeding women",
+        "internally displaced people",
+        "returnees",
+        "women and girls"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNICEF's early-2026 appeal identifies highest nutrition severity in Liptako, Soum, Koulsé, Goulmou, Tapoa, Sirba, Yaadga, Bankui and Sourou; displacement strains health systems and water collection exposes women and girls to protection risks.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BFA-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-104",
+          "locator": "Sections 1–2 and 4; 2026 trigger status and monitoring-gap assessment"
+        }
+      ],
+      "geographies": [
+        "Loroum",
+        "Oudalan",
+        "Séno",
+        "Yagha"
+      ],
+      "affected_groups": [
+        "rural and agropastoral communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "OCHA reports that the CERF drought framework covers Loroum, Oudalan, Séno and Yagha; its observational trigger was not activated in July–August, while national bulletins lacked province-level values and historical records needed for a formal alternate trigger.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BFA-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-104",
+          "locator": "Section 2, AOI-relevant rainfall-stations table, Dori row"
+        }
+      ],
+      "geographies": [
+        "Loroum",
+        "Oudalan",
+        "Séno",
+        "Yagha",
+        "Dori"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoralists",
+        "agropastoral households"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "OCHA's comparison reports late onset, rainfall 10–50% below normal, 7–10-day dry spells and low dam levels across the four framework provinces; at Dori in Séno, rainfall was 321 mm by 31 August versus a 414 mm 1991–2020 normal.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BFA-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-105",
+          "locator": "Article paragraphs 2–3, locations and community-planning process"
+        }
+      ],
+      "geographies": [
+        "Santéna village, Boussouma",
+        "Damesma village, Kaya",
+        "Somiaga village, Ouahigouya",
+        "Zougoungou village, Gomponsom"
+      ],
+      "affected_groups": [
+        "vulnerable households",
+        "local communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Oxfam and partners report four 2025–2027 drought anticipatory-action plans for Santéna (Boussouma), Damesma (Kaya), Somiaga (Ouahigouya) and Zougoungou (Gomponsom), developed with community vulnerability-and-capacity assessments and triggers using ANAM forecasts, PRESASS analysis and community early-warning observations.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BFA-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BFA-SRC-105",
+          "locator": "Article paragraph 3, planned anticipatory actions"
+        }
+      ],
+      "geographies": [
+        "Santéna village, Boussouma",
+        "Damesma village, Kaya",
+        "Somiaga village, Ouahigouya",
+        "Zougoungou village, Gomponsom"
+      ],
+      "affected_groups": [
+        "vulnerable households",
+        "local communities"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "The four plans envisage adapted agricultural inputs, food assistance, hygiene and dignity kits, heat-protection kits and income-generating support for vulnerable households; Oxfam says several thousand people are targeted.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "BFA-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "BFA-E-001",
+        "BFA-E-002",
+        "BFA-E-004",
+        "BFA-E-008",
+        "BFA-E-009"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "BFA-E-001"
+        ],
+        "impact": [
+          "BFA-E-002",
+          "BFA-E-008"
+        ],
+        "mediator": [
+          "BFA-E-002",
+          "BFA-E-008",
+          "BFA-E-009"
+        ],
+        "consequence": [
+          "BFA-E-004",
+          "BFA-E-008"
+        ]
+      },
+      "geographies": [
+        "Burkina Faso"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Drought, heat, and erratic rainfall can deepen livelihood and food-security stress where rainfed dependence, poverty, insecurity, and weak access limit alternatives.",
+      "alternative_explanations": [
+        "Armed violence, inflation, market disruption, poverty, and policy choices can produce food insecurity and distress without a climate shock."
+      ],
+      "uncertainty": "The interaction is well supported at national scale, but the relative contribution of climate pressures is not estimated.",
+      "potentially_out_of_scope_support_ids": [
+        "BFA-E-009"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "BFA-P-002",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "BFA-E-004",
+        "BFA-E-007",
+        "BFA-E-014"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "BFA-E-004",
+          "BFA-E-007"
+        ],
+        "impact": [
+          "BFA-E-004",
+          "BFA-E-014"
+        ],
+        "mediator": [
+          "BFA-E-004",
+          "BFA-E-007",
+          "BFA-E-014"
+        ],
+        "consequence": [
+          "BFA-E-007",
+          "BFA-E-014"
+        ]
+      },
+      "geographies": [
+        "Sahel Region",
+        "Centre-North Region",
+        "Liptako-Gourma"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Climate-related resource stress may aggravate farmer-herder disputes when land governance and dispute resolution are weak or grievances are exploited.",
+      "alternative_explanations": [
+        "Agricultural expansion, herd growth, political exclusion, weapons, insurgency, and unresolved tenure disputes independently shape violence."
+      ],
+      "uncertainty": "Available evidence supports conditional mechanisms rather than a Burkina Faso-wide causal effect.",
+      "potentially_out_of_scope_support_ids": [
+        "BFA-E-004"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "BFA-P-003",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "BFA-E-006",
+        "BFA-E-012",
+        "BFA-E-013"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "BFA-E-006"
+        ],
+        "impact": [
+          "BFA-E-006"
+        ],
+        "mediator": [
+          "BFA-E-006",
+          "BFA-E-012"
+        ],
+        "consequence": [
+          "BFA-E-006",
+          "BFA-E-013"
+        ]
+      },
+      "geographies": [
+        "Kongoussi",
+        "Kaya",
+        "Centre-North Region"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "direct",
+      "compact_statement": "Conflict displacement can place households on flood-prone land, where heavy rain compounds shelter loss and housing insecurity.",
+      "alternative_explanations": [
+        "Housing exclusion, poverty, conflict displacement, and poor drainage can create the same shelter risks without climate change."
+      ],
+      "uncertainty": "Direct flood exposure and shelter loss are documented at selected sites; repeated displacement is plausible, while local tension was not measured.",
+      "potentially_out_of_scope_support_ids": [
+        "BFA-E-012",
+        "BFA-E-013"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "BFA-P-004",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "BFA-E-001",
+        "BFA-E-008",
+        "BFA-E-009",
+        "BFA-E-011"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "BFA-E-001"
+        ],
+        "impact": [
+          "BFA-E-008",
+          "BFA-E-009"
+        ],
+        "mediator": [
+          "BFA-E-009",
+          "BFA-E-011"
+        ],
+        "consequence": [
+          "BFA-E-008",
+          "BFA-E-011"
+        ]
+      },
+      "geographies": [
+        "conflict-affected Burkina Faso"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Conflict and access constraints can magnify climate losses by restricting farming, markets, early warning, assistance, and recovery.",
+      "alternative_explanations": [
+        "Chronic poverty, remoteness, underinvestment, and macroeconomic shocks can independently reduce response reach and worsen losses."
+      ],
+      "uncertainty": "The sources establish access and performance constraints but do not quantify the additional climate loss attributable to conflict.",
+      "potentially_out_of_scope_support_ids": [
+        "BFA-E-001",
+        "BFA-E-008",
+        "BFA-E-011"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "BFA-P-006",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "BFA-E-001",
+        "BFA-E-002",
+        "BFA-E-015"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "BFA-E-001"
+        ],
+        "impact": [
+          "BFA-E-002",
+          "BFA-E-015"
+        ],
+        "mediator": [
+          "BFA-E-015"
+        ],
+        "consequence": [
+          "BFA-E-015"
+        ]
+      },
+      "geographies": [
+        "multiple provinces across Burkina Faso"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Last-mile hydrometeorological services may reduce livelihood losses when information is trusted, timely, and accessible in insecure areas.",
+      "alternative_explanations": [
+        "Input quality, soil conditions, market access, extension services, and insecurity also determine crop and livelihood outcomes."
+      ],
+      "uncertainty": "Outputs and testimonials do not establish forecast accuracy, equitable uptake, yields, or conflict-sensitive coverage.",
+      "potentially_out_of_scope_support_ids": [
+        "BFA-E-001",
+        "BFA-E-002",
+        "BFA-E-015"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "BFA-E-014",
+  "source_access_review": {
+    "selected_record_id": "BFA-E-014",
+    "selected_source_id": "BFA-SRC-009",
+    "url": "https://www.fao.org/in-action/kore/publications/publications-details/en/c/1758453/",
+    "locator": "project summary and lessons on 2020-2024 peaceful transhumance initiative",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": 404,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "HTTP 404"
+  },
+  "checks": [
+    {
+      "record_id": "BFA-E-014",
+      "source_id": "BFA-SRC-009",
+      "locator": "project summary and lessons on 2020-2024 peaceful transhumance initiative",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "BFA-E-014: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "BFA-E-001",
+    "BFA-E-002",
+    "BFA-E-003",
+    "BFA-E-004",
+    "BFA-E-005",
+    "BFA-E-006",
+    "BFA-E-007",
+    "BFA-E-008",
+    "BFA-E-009",
+    "BFA-E-010",
+    "BFA-E-011",
+    "BFA-E-012",
+    "BFA-E-013",
+    "BFA-E-014",
+    "BFA-E-015",
+    "BFA-E-101",
+    "BFA-E-102",
+    "BFA-E-103",
+    "BFA-E-105",
+    "BFA-E-106",
+    "BFA-E-107",
+    "BFA-E-108",
+    "BFA-E-109",
+    "BFA-E-110",
+    "BFA-E-111",
+    "BFA-P-001",
+    "BFA-P-002",
+    "BFA-P-003",
+    "BFA-P-004",
+    "BFA-P-006"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

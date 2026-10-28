@@ -1,0 +1,2172 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "NER",
+  "candidate_path": "countries/NER/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 16,
+    "evidence_count": 31,
+    "pathway_count": 7,
+    "evidence_source_reference_count": 32
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 25,
+      "access-only": 6
+    },
+    "pathway_claims": {
+      "unresolved": 7
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "NER-E-001",
+          "NER-E-002",
+          "NER-E-003",
+          "NER-E-004",
+          "NER-E-015"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "NER-E-011",
+          "NER-E-018",
+          "NER-E-021",
+          "NER-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "NER-E-014",
+          "NER-E-017",
+          "NER-E-020",
+          "NER-E-101",
+          "NER-E-102"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "NER-E-005",
+          "NER-E-009",
+          "NER-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "NER-E-006",
+          "NER-E-008",
+          "NER-E-010",
+          "NER-E-012",
+          "NER-E-013",
+          "NER-E-104",
+          "NER-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "NER-E-025",
+          "NER-E-026",
+          "NER-E-027"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "NER-E-016",
+          "NER-E-028",
+          "NER-E-030"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "NER-E-029"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "NER-E-101",
+          "NER-E-102",
+          "NER-E-104",
+          "NER-E-105",
+          "NER-E-106"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "NER-P-001",
+          "NER-P-003",
+          "NER-P-004",
+          "NER-P-005",
+          "NER-P-006",
+          "NER-P-007",
+          "NER-P-008"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/NER/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "NER-SRC-001",
+      "title": "Contribution Déterminée au Niveau National révisée",
+      "organization": "Government of Niger / UNFCCC",
+      "publication_date": "2021",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/NDC/2022-06/CDN_Niger_R%C3%A9vis%C3%A9e_2021.pdf",
+      "geographic_coverage": [
+        "Niger"
+      ],
+      "temporal_coverage": "Historical climate; projections to ~2030/2050; policy 2021-2030",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "NER-E-001",
+        "NER-E-002",
+        "NER-E-003",
+        "NER-E-004",
+        "NER-E-005",
+        "NER-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "NER-SRC-002",
+      "title": "Plan National d’Adaptation aux Changements Climatiques (PreventionWeb)",
+      "organization": "Government of Niger; hosted by PreventionWeb/UNDRR",
+      "publication_date": "2022",
+      "publication_date_basis": "publication",
+      "url": "https://www.preventionweb.net/publication/niger-plan-national-dadaptation-aux-changements-climatiques",
+      "geographic_coverage": [
+        "Niger"
+      ],
+      "temporal_coverage": "Medium/long-term adaptation",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "NER-SRC-003",
+      "title": "“Le Niger adopte son Plan National d’Adaptation” (UNDP)",
+      "organization": "UNDP Niger",
+      "publication_date": "2022",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/fr/niger/actualites/changements-climatiques-le-niger-adopte-son-plan-national-dadaptation",
+      "geographic_coverage": [
+        "Niger"
+      ],
+      "temporal_coverage": "NAP process through Sep. 2022",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "NER-SRC-004",
+      "title": "Niger's Adaptation Communication (UNFCCC)",
+      "organization": "Government of Niger / UNFCCC",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/2025-08/Adaptation%20communication%20Niger.pdf",
+      "geographic_coverage": [
+        "Niger; regional/project annexes"
+      ],
+      "temporal_coverage": "Historical programmes 2006-2019 plus contemporary priorities",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "NER-E-008",
+        "NER-E-009"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "NER-SRC-005",
+      "title": "CPF FY26-FY31, Annex 5: Streamlined Country Diagnostic",
+      "organization": "World Bank",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099842504102674841/pdf/SECBOS-47996674-b17e-4d12-95be-8378a61be412.pdf",
+      "geographic_coverage": [
+        "Niger, with regional breakdowns"
+      ],
+      "temporal_coverage": "Mainly 2022-2026 context plus historical evidence",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "NER-E-010",
+        "NER-E-011",
+        "NER-E-012",
+        "NER-E-013"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "NER-SRC-006",
+      "title": "Niger - Emergency and Resilience (FAOHome)",
+      "organization": "FAO",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.fao.org/emergencies/where-we-work/NER/en",
+      "geographic_coverage": [
+        "Niger"
+      ],
+      "temporal_coverage": "2025-2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "NER-E-014"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "NER-SRC-007",
+      "title": "GIEWS Country Brief: Republic of the Niger (FAOHome)",
+      "organization": "FAO",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.fao.org/giews/countrybrief/country/NER/pdf/NER.pdf",
+      "geographic_coverage": [
+        "Niger; Tillabéri, Diffa, Tahoua and other named regions"
+      ],
+      "temporal_coverage": "2025-2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "NER-E-015",
+        "NER-E-016",
+        "NER-E-017",
+        "NER-E-018"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "NER-E-016",
+        "selected_source_id": "NER-SRC-007",
+        "url": "https://www.fao.org/giews/countrybrief/country/NER/pdf/NER.pdf",
+        "locator": "FAO GIEWS Niger Country Brief, reference date 28 August 2026, production/food-security/displacement sections.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 290408,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "NER-SRC-008",
+      "title": "Acute Malnutrition Situation Aug.-Nov. 2025 and Projections to July 2026 (IPCinfo)",
+      "organization": "IPC",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.ipcinfo.org/ipc-country-analysis/details-map/en/c/1159831/",
+      "geographic_coverage": [
+        "Niger, departments/regions/refugee sites"
+      ],
+      "temporal_coverage": "Aug. 2025-Jul. 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "NER-E-020",
+        "NER-E-021"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "NER-SRC-009",
+      "title": "Humanitarian Situation Report No. 1, reporting period Jan.-Mar. 2026",
+      "organization": "UNICEF",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/media/180681/file/Niger-Humanitarian-Situation-Report-No.1%2C31-March-2026.pdf.pdf",
+      "geographic_coverage": [
+        "Niger; detailed Tillabéri, Diffa, Dosso and other areas"
+      ],
+      "temporal_coverage": "Jan.-Mar. 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "NER-SRC-010",
+      "title": "Niger Operation Factsheet, January-June 2025 (UNHCR Data Portal)",
+      "organization": "UNHCR",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://data.unhcr.org/en/documents/details/119022",
+      "geographic_coverage": [
+        "Niger"
+      ],
+      "temporal_coverage": "Jan.-Jun. 2025",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "NER-E-025"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "NER-SRC-011",
+      "title": "Climate, Peace and Security Fact Sheet: Lake Chad (2026) (SIPRI)",
+      "organization": "SIPRI/NUPI",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.sipri.org/publications/2026/partner-publications/climate-peace-and-security-fact-sheet-lake-chad-2026",
+      "geographic_coverage": [
+        "Lake Chad region incl. Niger"
+      ],
+      "temporal_coverage": "Contemporary",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "NER-SRC-012",
+      "title": "Climate Change, Development and Security in the Central Sahel (adelphi)",
+      "organization": "adelphi/CASCADES",
+      "publication_date": "2021",
+      "publication_date_basis": "publication",
+      "url": "https://adelphi.de/en/publications/climate-change-development-and-security-in-the-central-sahel",
+      "geographic_coverage": [
+        "Burkina Faso, Mali, Niger"
+      ],
+      "temporal_coverage": "Contemporary + future scenarios",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "NER-SRC-013",
+      "title": "Climate Change and Violent Conflict in West Africa: Assessing the Evidence (SIPRI)",
+      "organization": "SIPRI",
+      "publication_date": "2022",
+      "publication_date_basis": "publication",
+      "url": "https://www.sipri.org/publications/2022/sipri-insights-peace-and-security/climate-change-and-violent-conflict-west-africa-assessing-evidence",
+      "geographic_coverage": [
+        "West Africa"
+      ],
+      "temporal_coverage": "Literature available to 2022",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "NER-E-030"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "NER-SRC-014",
+      "title": "Niger Country Strategy and Programme Evaluation (ioe.ifad.org)",
+      "organization": "IFAD Independent Office of Evaluation",
+      "publication_date": "2021",
+      "publication_date_basis": "publication",
+      "url": "https://ioe.ifad.org/en/w/niger-country-strategy-and-programme-evaluation-1-1",
+      "geographic_coverage": [
+        "Niger"
+      ],
+      "temporal_coverage": "IFAD portfolio 2011-2020",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "NER-E-026",
+        "NER-E-027"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "NER-SRC-015",
+      "title": "Climate Change and Conflict in Pastoralist Regions of Ethiopia, Kenya and Niger",
+      "organization": "USAID/FESS/Tetra Tech ARD",
+      "publication_date": "2014",
+      "publication_date_basis": "publication",
+      "url": "https://pdf.usaid.gov/pdf_docs/PBAAB109.pdf",
+      "geographic_coverage": [
+        "Niger and Burkina Faso; Niger field sites incl. Tahoua/Tillabéri"
+      ],
+      "temporal_coverage": "Evidence collected mainly before 2014",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "NER-E-028",
+        "NER-E-029",
+        "NER-E-030"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "NER-SRC-101",
+      "title": "Niger Humanitarian Situation Report No. 3 (End-of-Year), 31 December 2025",
+      "organization": "United Nations Children's Fund Niger",
+      "publication_date": "2026-02-08",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/media/178781/file/Niger-Humanitarian-Situation-Report-No.3%28End-of-Year%29-31%20December-2025.pdf.pdf",
+      "geographic_coverage": [
+        "Niger",
+        "Tillabéri",
+        "Diffa",
+        "Maradi",
+        "Tahoua",
+        "Zinder",
+        "Dosso",
+        "Bagaroua"
+      ],
+      "temporal_coverage": "Humanitarian conditions and UNICEF-supported responses during 1 January–31 December 2025; report dated 8 February 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "NER-E-101",
+        "NER-E-102",
+        "NER-E-103",
+        "NER-E-104",
+        "NER-E-105",
+        "NER-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Opened all 10 PDF pages; claims use printed pp. 1–2 and 4 (PDF pp. 1–2 and 4).",
+          "notes": "Original UNICEF PDF body inspected. Cover gives 8 February 2026 and reporting period 1 January–31 December 2025; 2025 conditions are not treated as current 2026.",
+          "reuse_terms": "Terms not reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "NER-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-001",
+          "locator": "PDF file p.18 / printed p.8, §2 “Tendances climatiques…”"
+        }
+      ],
+      "geographies": [
+        "Niger"
+      ],
+      "affected_groups": [
+        "population"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Semi-arid, short rainy season.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-001",
+          "locator": "PDF file p.19 / printed p.9, §2"
+        }
+      ],
+      "geographies": [
+        "Niger/Sahel"
+      ],
+      "affected_groups": [
+        "rainfed producers",
+        "pastoralists"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Rainfall recovered but variability rose.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-001",
+          "locator": "PDF file p.20 / printed p.10, §4 and file p.21 / printed p.11, Fig.2"
+        }
+      ],
+      "geographies": [
+        "Niger"
+      ],
+      "affected_groups": [
+        "population",
+        "producers"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": "2030/2050; RCP4.5/8.5; 1981-2010 baseline",
+      "compact_statement": "Material warming by 2030/2050.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-001",
+          "locator": "PDF file p.21 / printed p.11, after Fig.2"
+        }
+      ],
+      "geographies": [
+        "Niger"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoralists"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": "~2030/2050; RCP4.5/8.5",
+      "compact_statement": "Fewer rainy days, potentially heavier rain/dry spells.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-001",
+          "locator": "PDF file p.27 / printed p.17, “III. Composante adaptation”"
+        }
+      ],
+      "geographies": [
+        "Niger"
+      ],
+      "affected_groups": [
+        "producers",
+        "vulnerable groups"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "National policy contains multiple adaptation instruments.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-001",
+          "locator": "PDF file pp.9-10, summary, institutional gaps and finance"
+        }
+      ],
+      "geographies": [
+        "Niger"
+      ],
+      "affected_groups": [
+        "population"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Implementation relies heavily on capacity/finance.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-008",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-004",
+          "locator": "PDF file p.58 / printed p.49, §4.1.1"
+        }
+      ],
+      "geographies": [
+        "Niger"
+      ],
+      "affected_groups": [
+        "local actors",
+        "vulnerable groups"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Data, local capacity and M&E remain gaps.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-009",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-004",
+          "locator": "PDF file p.53 / printed p.44, adaptation-comparison table"
+        }
+      ],
+      "geographies": [],
+      "affected_groups": [
+        "producers",
+        "herders"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Climate services target rural decision-making.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-010",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-005",
+          "locator": "PDF p.22, paras.2-3"
+        }
+      ],
+      "geographies": [
+        "Niger"
+      ],
+      "affected_groups": [
+        "population"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Political change independently constrained finance/trade.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-011",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-005",
+          "locator": "PDF p.22, final paragraph"
+        }
+      ],
+      "geographies": [],
+      "affected_groups": [
+        "women",
+        "youth",
+        "rural workers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Large workforce exposure to climate-sensitive livelihoods.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-012",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-005",
+          "locator": "PDF p.24, “Development priority #2”"
+        }
+      ],
+      "geographies": [],
+      "affected_groups": [
+        "population"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Fragmented DRM limits adaptation capacity.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-013",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-005",
+          "locator": "PDF pp.26-27, “Development priority #5”"
+        }
+      ],
+      "geographies": [],
+      "affected_groups": [
+        "IDPs",
+        "urban residents",
+        "remote communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "FCV amplifies service-delivery constraints.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-014",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-006",
+          "locator": "heading “Niger”, hero paragraph (FAOHome)"
+        }
+      ],
+      "geographies": [],
+      "affected_groups": [
+        "vulnerable rural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Humanitarian crisis is explicitly multi-driver.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-015",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-007",
+          "locator": "FAO GIEWS Niger Country Brief, reference date 28 August 2026, production/food-security/displacement sections."
+        }
+      ],
+      "geographies": [],
+      "affected_groups": [
+        "farmers"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "FAO's 28 August 2026 brief reported 2025 aggregate cereal production at about 5.3 million tonnes, near the five-year average, after early dryness and later improvement.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-016",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-007",
+          "locator": "FAO GIEWS Niger Country Brief, reference date 28 August 2026, production/food-security/displacement sections."
+        }
+      ],
+      "geographies": [],
+      "affected_groups": [
+        "farmers"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "FAO's 28 August 2026 brief reported that civil insecurity continued to constrain field access in parts of Tillaberi and Diffa, causing localized production shortfalls.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+      "verification_attempt": {
+        "selected_record_id": "NER-E-016",
+        "selected_source_id": "NER-SRC-007",
+        "url": "https://www.fao.org/giews/countrybrief/country/NER/pdf/NER.pdf",
+        "locator": "FAO GIEWS Niger Country Brief, reference date 28 August 2026, production/food-security/displacement sections.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 290408,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "NER-E-017",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-007",
+          "locator": "FAO GIEWS Niger Country Brief, reference date 28 August 2026, production/food-security/displacement sections."
+        }
+      ],
+      "geographies": [],
+      "affected_groups": [
+        "IDPs",
+        "host communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "FAO estimated 2.42 million people in CH Phase 3+ during June-August 2026 and identified conflict as the main driver; more than 548,000 people were internally displaced in July 2026.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-018",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-007",
+          "locator": "FAO GIEWS Niger Country Brief, reference date 28 August 2026, production/food-security/displacement sections."
+        }
+      ],
+      "geographies": [],
+      "affected_groups": [
+        "refugees",
+        "IDPs",
+        "hosts"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "FAO reported in August 2026 that about 85% of forcibly displaced people were in Tillaberi, Diffa and Tahoua, increasing pressure on livelihoods and markets.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-020",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-008",
+          "locator": "“Key results - Acute Malnutrition” (IPCinfo)"
+        }
+      ],
+      "geographies": [],
+      "affected_groups": [
+        "young children",
+        "pregnant/breastfeeding women"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "historical",
+        "near-term"
+      ],
+      "scenario": "Aug. 2025-Jul. 2026",
+      "compact_statement": "For August 2025-July 2026, IPC projected 1.6 million children with acute malnutrition, including more than 410,000 severe cases, under interacting nutrition, disease, WASH, flood and insecurity pressures.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-021",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-008",
+          "locator": "“Key results”, geographic paragraph (IPCinfo)"
+        }
+      ],
+      "geographies": [],
+      "affected_groups": [
+        "refugees",
+        "children",
+        "women"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "During August-November 2025, IPC classified all of Diffa, selected Maradi departments and specified refugee sites in Phase 4 (Critical), showing sharply localized nutrition severity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-025",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-010",
+          "locator": "publication-page summary (UNHCR Data Portal)"
+        }
+      ],
+      "geographies": [],
+      "affected_groups": [
+        "refugees",
+        "IDPs",
+        "hosts"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Displacement response supports multiple resilience services.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-010"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-026",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-014",
+          "locator": "page paras. after date (ioe.ifad.org)"
+        }
+      ],
+      "geographies": [],
+      "affected_groups": [
+        "rural households"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Independent evaluation finds resilience/agricultural gains.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-014"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-027",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-014",
+          "locator": "evaluation findings paragraph (ioe.ifad.org)"
+        }
+      ],
+      "geographies": [],
+      "affected_groups": [
+        "poorer rural groups"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Evaluated intervention produced a resource-allocation trade-off.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-014"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-028",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-015",
+          "locator": "USAID, Climate Change and Conflict in Pastoralist Regions of Ethiopia, Kenya and Niger, Niger field findings, PDF pp.14-18."
+        }
+      ],
+      "geographies": [],
+      "affected_groups": [
+        "farmers",
+        "pastoralists"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Adaptation can redistribute resource access and create tensions.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-015"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-029",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-015",
+          "locator": "USAID, Climate Change and Conflict in Pastoralist Regions of Ethiopia, Kenya and Niger, Niger field findings, PDF pp.14-18."
+        }
+      ],
+      "geographies": [],
+      "affected_groups": [
+        "farmers",
+        "herders",
+        "women"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Local inclusive land governance showed peace-supporting potential.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-015"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-030",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-013",
+          "locator": "USAID, Climate Change and Conflict in Pastoralist Regions of Ethiopia, Kenya and Niger, Niger field findings, PDF pp.14-18."
+        },
+        {
+          "source_id": "NER-SRC-015",
+          "locator": "pp.22-23"
+        }
+      ],
+      "geographies": [
+        "Niger",
+        "West Africa"
+      ],
+      "affected_groups": [
+        "rural communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Evidence does not justify deterministic climate -> violence claims.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "NER-SRC-013",
+        "NER-SRC-015"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-101",
+          "locator": "Printed pp. 1–2 (PDF pp. 1–2), humanitarian needs overview."
+        }
+      ],
+      "geographies": [
+        "Tillabéri",
+        "Diffa",
+        "Maradi",
+        "Tahoua",
+        "Zinder",
+        "Dosso"
+      ],
+      "affected_groups": [
+        "forcibly displaced people",
+        "children"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02-08 reports: Report links 2025 violence and climate shocks to 459,585 displaced people; 60% were children.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-101",
+          "locator": "Printed p. 2 (PDF p. 2), 2025 SMART/SENS and Harmonized Framework findings."
+        }
+      ],
+      "geographies": [
+        "Diffa",
+        "Maradi",
+        "Zinder"
+      ],
+      "affected_groups": [
+        "children under five",
+        "women"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02-08 reports: 2025 global acute malnutrition was 17.1% in Diffa; parts of Maradi and Zinder were critical.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-101",
+          "locator": "Printed p. 2 (PDF p. 2), flooding and education-infrastructure impacts."
+        }
+      ],
+      "geographies": [
+        "Niger"
+      ],
+      "affected_groups": [
+        "flood-affected households",
+        "students",
+        "displaced families"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02-08 reports: Floods affected 77,506 households, destroying 60,388 homes; 316 classrooms sheltered families, disrupting 26,235 students.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-101",
+          "locator": "Printed p. 4 (PDF p. 4), Essential Household Items and local contingency planning."
+        }
+      ],
+      "geographies": [
+        "Diffa Region",
+        "seven communes"
+      ],
+      "affected_groups": [
+        "commune residents",
+        "crisis-affected people"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02-08 reports: Seven Diffa communes updated contingency plans; 50 monitors trained, two simulations held and seven sites prepared.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-101",
+          "locator": "Printed p. 4 (PDF p. 4), Social protection, drought cash programme results."
+        }
+      ],
+      "geographies": [
+        "Maradi",
+        "Zinder",
+        "Tahoua",
+        "Dosso",
+        "Agadez",
+        "17 municipalities"
+      ],
+      "affected_groups": [
+        "vulnerable households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02-08 reports: After the 2022 drought, cash paid 26,977 households in 17 municipalities across five regions four CFAF 45,000 cycles.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NER-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NER-SRC-101",
+          "locator": "Printed p. 4 (PDF p. 4), beneficiary registration in five municipalities."
+        }
+      ],
+      "geographies": [
+        "northern Bagaroua",
+        "Tabalak",
+        "Kornaka",
+        "Guidan Amoumoune",
+        "Gaffati"
+      ],
+      "affected_groups": [
+        "vulnerable households"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNICEF's 2025 report records 77,028 of 80,000 planned social-registry registrations across five municipalities, with the shortfall linked to insecurity in northern Bagaroua; registration is not equivalent to cash receipt.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "NER-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "NER-E-002",
+        "NER-E-003",
+        "NER-E-004",
+        "NER-E-028",
+        "NER-E-029",
+        "NER-E-030"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "NER-E-002"
+        ],
+        "impact": [
+          "NER-E-028"
+        ],
+        "mediator": [
+          "NER-E-028"
+        ],
+        "consequence": [
+          "NER-E-028"
+        ]
+      },
+      "geographies": [
+        "Niger field sites",
+        "particularly pastoral/agropastoral contexts in Tahoua and Tillabéri"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Climate stress can alter livelihood strategies, but whether this becomes conflict depends strongly on land institutions, access rules and political-economic conditions. (ResearchGate)",
+      "alternative_explanations": [
+        "Population growth",
+        "cultivation policy",
+        "elite capture",
+        "commercial land use",
+        "weak law enforcement",
+        "historic grievances and wider insecurity"
+      ],
+      "uncertainty": "No current national causal estimate.",
+      "potentially_out_of_scope_support_ids": [
+        "NER-E-002",
+        "NER-E-003",
+        "NER-E-004",
+        "NER-E-030"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "NER-P-003",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "NER-E-028",
+        "NER-E-030"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "NER-E-028"
+        ],
+        "impact": [
+          "NER-E-028"
+        ],
+        "mediator": [
+          "NER-E-028"
+        ],
+        "consequence": [
+          "NER-E-028"
+        ]
+      },
+      "geographies": [
+        "Pastoral/agropastoral Niger",
+        "evidence particularly from Tahoua/Tillabéri"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Water or pasture scarcity is not sufficient to produce violence; conflict emerges through contested access and governance. (ResearchGate)",
+      "alternative_explanations": [
+        "Population pressure",
+        "commercialization",
+        "political patronage",
+        "cross-border pastoral agreements",
+        "criminality"
+      ],
+      "uncertainty": "Present-day magnitude and geographic distribution are not established.",
+      "potentially_out_of_scope_support_ids": [
+        "NER-E-030"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "NER-P-004",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "NER-E-011",
+        "NER-E-016",
+        "NER-E-017"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "NER-E-011"
+        ],
+        "impact": [
+          "NER-E-011"
+        ],
+        "mediator": [
+          "NER-E-011"
+        ],
+        "consequence": [
+          "NER-E-011"
+        ]
+      },
+      "geographies": [
+        "Tillabéri",
+        "Diffa"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Current evidence more clearly demonstrates insecurity constraining climate-sensitive livelihoods than climate shocks directly causing insecurity. (FAOHome)",
+      "alternative_explanations": [
+        "Input prices",
+        "pests",
+        "local weather",
+        "soil fertility",
+        "market access"
+      ],
+      "uncertainty": "Household-level resilience losses are not quantified.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability."
+      ]
+    },
+    {
+      "record_id": "NER-P-005",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "NER-E-013",
+        "NER-E-018",
+        "NER-E-025"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "NER-E-013"
+        ],
+        "impact": [
+          "NER-E-013"
+        ],
+        "mediator": [
+          "NER-E-013"
+        ],
+        "consequence": [
+          "NER-E-013"
+        ]
+      },
+      "geographies": [
+        "Tillabéri",
+        "Diffa",
+        "Dosso and displacement-receiving centres"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "triangulated",
+      "compact_statement": "FCV can erode the service base on which effective disaster response and adaptation depend.",
+      "alternative_explanations": [
+        "Chronic underinvestment",
+        "geography",
+        "rapid population growth and fiscal constraints"
+      ],
+      "uncertainty": "Direct climate-adaptation outcome evaluation is absent.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability."
+      ]
+    },
+    {
+      "record_id": "NER-P-006",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "NER-E-028",
+        "NER-E-029"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "NER-E-028"
+        ],
+        "impact": [
+          "NER-E-028"
+        ],
+        "mediator": [
+          "NER-E-028"
+        ],
+        "consequence": [
+          "NER-E-028"
+        ]
+      },
+      "geographies": [
+        "Local rural Niger in older field evidence"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "An adaptation intervention should not be assumed peace-positive merely because it reduces climate exposure. (ResearchGate)",
+      "alternative_explanations": [
+        "Commercialization and demographic growth independent of climate"
+      ],
+      "uncertainty": "Contemporary prevalence is unknown.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ"
+      ],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    },
+    {
+      "record_id": "NER-P-007",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "NER-E-005",
+        "NER-E-008",
+        "NER-E-009"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "NER-E-005"
+        ],
+        "impact": [
+          "NER-E-005"
+        ],
+        "mediator": [
+          "NER-E-005"
+        ],
+        "consequence": [
+          "NER-E-005"
+        ]
+      },
+      "geographies": [
+        "National with Tillabéri/Dosso examples"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Early warning is a plausible resilience mechanism, but current evidence in this packet mostly demonstrates capacity and outputs rather than impacts.",
+      "alternative_explanations": [
+        "Existing wealth",
+        "market access and infrastructure may dominate household outcomes"
+      ],
+      "uncertainty": "Current programme descriptions do not establish avoided losses or peace effects.",
+      "potentially_out_of_scope_support_ids": [
+        "NER-E-005",
+        "NER-E-008"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "NER-P-008",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "NER-E-013",
+        "NER-E-029"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "NER-E-013"
+        ],
+        "impact": [
+          "NER-E-013"
+        ],
+        "mediator": [
+          "NER-E-013"
+        ],
+        "consequence": [
+          "NER-E-013"
+        ]
+      },
+      "geographies": [
+        "Louma/Tillabéri evidence",
+        "broader mechanisms referenced in the 2026 World Bank diagnostic"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Legitimate institutions may govern resource access and disputes more effectively, but the peace effect is supported only by old, localized evidence.",
+      "alternative_explanations": [
+        "Broader security conditions",
+        "local power relations and enforcement capacity"
+      ],
+      "uncertainty": "Louma finding is old and one-community evidence.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ"
+      ],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "NER-E-016",
+  "source_access_review": {
+    "selected_record_id": "NER-E-016",
+    "selected_source_id": "NER-SRC-007",
+    "url": "https://www.fao.org/giews/countrybrief/country/NER/pdf/NER.pdf",
+    "locator": "FAO GIEWS Niger Country Brief, reference date 28 August 2026, production/food-security/displacement sections.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "document-fetched",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 290408,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null
+  },
+  "checks": [
+    {
+      "record_id": "NER-E-016",
+      "source_id": "NER-SRC-007",
+      "locator": "FAO GIEWS Niger Country Brief, reference date 28 August 2026, production/food-security/displacement sections.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+      "access_date": "2026-10-27",
+      "source_access_status": "document-fetched",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "NER-E-016: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "NER-E-001",
+    "NER-E-002",
+    "NER-E-003",
+    "NER-E-004",
+    "NER-E-005",
+    "NER-E-006",
+    "NER-E-008",
+    "NER-E-009",
+    "NER-E-010",
+    "NER-E-011",
+    "NER-E-012",
+    "NER-E-013",
+    "NER-E-014",
+    "NER-E-015",
+    "NER-E-016",
+    "NER-E-017",
+    "NER-E-018",
+    "NER-E-020",
+    "NER-E-021",
+    "NER-E-025",
+    "NER-E-026",
+    "NER-E-027",
+    "NER-E-028",
+    "NER-E-029",
+    "NER-E-030",
+    "NER-E-101",
+    "NER-E-102",
+    "NER-E-103",
+    "NER-E-104",
+    "NER-E-105",
+    "NER-E-106",
+    "NER-P-001",
+    "NER-P-003",
+    "NER-P-004",
+    "NER-P-005",
+    "NER-P-006",
+    "NER-P-007",
+    "NER-P-008"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

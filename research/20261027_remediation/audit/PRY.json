@@ -1,0 +1,1068 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "PRY",
+  "candidate_path": "countries/PRY/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 4,
+    "evidence_count": 17,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 17
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 16,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "PRY-E-101",
+          "PRY-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "PRY-E-103",
+          "PRY-E-116"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "PRY-E-102",
+          "PRY-E-104",
+          "PRY-E-105",
+          "PRY-E-106",
+          "PRY-E-108",
+          "PRY-E-110",
+          "PRY-E-113",
+          "PRY-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "PRY-E-115",
+          "PRY-E-117"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "PRY-E-107",
+          "PRY-E-111",
+          "PRY-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "PRY-E-101",
+          "PRY-E-103",
+          "PRY-E-104",
+          "PRY-E-105",
+          "PRY-E-106",
+          "PRY-E-108",
+          "PRY-E-113",
+          "PRY-E-114",
+          "PRY-E-116",
+          "PRY-E-117"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/PRY/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "PRY-SRC-101",
+      "title": "Paraguay: Historical Drought",
+      "organization": "Food and Agriculture Organization of the United Nations (FAO)",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.fao.org/in-action/drought-portal/preparedness/vulnerability-and-impact-assessment/national-case-studies/paraguay/en",
+      "geographic_coverage": [
+        "Paraguay",
+        "Central Chaco",
+        "Pilcomayo River area",
+        "Irala Fernández district",
+        "Mariscal Estigarribia district",
+        "Eastern Region"
+      ],
+      "temporal_coverage": "National drought history and vulnerability indicators through 2023; the page cites severe droughts from 1960–2022.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PRY-E-101",
+        "PRY-E-102",
+        "PRY-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full HTML page.",
+          "notes": "Official FAO page text inspected directly.",
+          "reuse_terms": "Not stated on page; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PRY-SRC-102",
+      "title": "Country Climate and Development Report: Paraguay",
+      "organization": "World Bank Group",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099060925203520027/pdf/P179116-508e9a1a-31a7-4e66-8d0b-2ff69a9c98b1.pdf",
+      "geographic_coverage": [
+        "Paraguay",
+        "Western Region (Chaco)",
+        "Alto Paraguay",
+        "Boquerón",
+        "Presidente Hayes",
+        "Asunción",
+        "Bañados"
+      ],
+      "temporal_coverage": "Report published 2024; combines historical observations, cited statistics, modeled projections, and policy diagnostics.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "PRY-E-104",
+        "PRY-E-105",
+        "PRY-E-106",
+        "PRY-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "90-page PDF; cited printed pages 26–27, 44–45, 63–64.",
+          "notes": "Direct World Bank PDF opened and cited passages inspected.",
+          "reuse_terms": "CC BY 3.0 IGO, subject to third-party-content notice.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PRY-SRC-103",
+      "title": "Desafíos del sector agua, saneamiento e higiene ante el cambio climático de Paraguay",
+      "organization": "UNICEF Paraguay and Dirección de Agua Potable y Saneamiento (DAPSAN-MOPC)",
+      "publication_date": "2024-11",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/paraguay/media/10486/file/Desaf%C3%ADos%20del%20sector%20agua%2C%20saneamiento%20e%20higiene%20ante%20el%20cambio%20clim%C3%A1tico%20de%20Paraguay.pdf.pdf",
+      "geographic_coverage": [
+        "Paraguay",
+        "Chaco",
+        "Central Chaco",
+        "Pilcomayo",
+        "Irala Fernández",
+        "Mariscal Estigarribia",
+        "Asunción metropolitan region"
+      ],
+      "temporal_coverage": "Published November 2024; reports WASH coverage and a climate-risk assessment informed by consultations and earlier policy and climate material.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "restricted",
+      "records_using_source": [
+        "PRY-E-108",
+        "PRY-E-109",
+        "PRY-E-110",
+        "PRY-E-111",
+        "PRY-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "52-page PDF; cited printed pages 4, 23, 44.",
+          "notes": "Full publisher PDF inspected.",
+          "reuse_terms": "All rights reserved; short original paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "PRY-E-108",
+        "selected_source_id": "PRY-SRC-103",
+        "url": "https://www.unicef.org/paraguay/media/10486/file/Desaf%C3%ADos%20del%20sector%20agua%2C%20saneamiento%20e%20higiene%20ante%20el%20cambio%20clim%C3%A1tico%20de%20Paraguay.pdf.pdf",
+        "locator": "Printed p. 23, section on drought risk to WASH services.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 5940394,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "PRY-SRC-104",
+      "title": "Indigenous Climate Action Plan and Disaster Risk Reduction",
+      "organization": "Federation for the Self-Determination of Indigenous Peoples (FAPI)",
+      "publication_date": "2020-11",
+      "publication_date_basis": "publication",
+      "url": "https://www.fapi.org.py/wp-content/uploads/2021/02/INDIGENOUS-CLIMATE-ACTION-PLAN-AND-DISASTER-RISK-REDUCTION-Final.pdf",
+      "geographic_coverage": [
+        "Paraguay",
+        "Western Region (Chaco)",
+        "Eastern Region",
+        "Itapúa",
+        "Caazapá",
+        "Alto Paraguay",
+        "Boquerón",
+        "Presidente Hayes",
+        "Irala Fernández"
+      ],
+      "temporal_coverage": "Indigenous plan validated by FAPI member associations on 2020-10-16 and published in November 2020; includes community accounts and proposed actions.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "restricted",
+      "records_using_source": [
+        "PRY-E-113",
+        "PRY-E-114",
+        "PRY-E-115",
+        "PRY-E-116",
+        "PRY-E-117"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "84-page PDF; cited printed pages 39–40, 45, 69–71.",
+          "notes": "Publisher-hosted English translation inspected; original is Spanish.",
+          "reuse_terms": "Copyleft notice allows non-commercial citation with attribution.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "PRY-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PRY-SRC-101",
+          "locator": "‘HISTORICAL DROUGHT’ paragraph."
+        }
+      ],
+      "geographies": [
+        "Central Chaco",
+        "Pilcomayo River area",
+        "Irala Fernández district",
+        "Mariscal Estigarribia district"
+      ],
+      "affected_groups": [
+        "residents of western Paraguay"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: FAO says severe droughts have occurred about each decade since the 1960 s; 2020–22 affected western Central Chaco, the Pilcomayo area, Irala Fernández and Mariscal Estigarribia, especially December–February.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PRY-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PRY-SRC-101",
+          "locator": "‘DROUGHT IMPACT PATHWAY’ paragraph."
+        }
+      ],
+      "geographies": [
+        "Paraguay",
+        "Paraguay–Paraná waterway"
+      ],
+      "affected_groups": [
+        "Indigenous peoples",
+        "small farmers",
+        "rural communities",
+        "agricultural communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: FAO links drought to lower subsistence production for small farmers and Indigenous communities, hydropower generation, waterway transport and drinking-water availability; it identifies Indigenous, rural and agricultural communities as most affected.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PRY-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PRY-SRC-101",
+          "locator": "‘ENVIRONMENTAL’ indicators, bullets on regional precipitation and surface and groundwater."
+        }
+      ],
+      "geographies": [
+        "Central Chaco",
+        "Northern Chaco",
+        "Western Chaco",
+        "Eastern Region"
+      ],
+      "affected_groups": [
+        "rural communities",
+        "agricultural communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: FAO contrasts Central Chaco’s scarce, temporary, salty surface water and non-recharging salty groundwater with generally higher rainfall and more usable, recharging water resources in the east.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PRY-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PRY-SRC-102",
+          "locator": "Printed p. 64, footnote 107."
+        }
+      ],
+      "geographies": [
+        "Western Region (Chaco)",
+        "Alto Paraguay department",
+        "Boquerón department",
+        "Presidente Hayes department"
+      ],
+      "affected_groups": [
+        "Indigenous Peoples"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: In the Western Region (Chaco, Alto Paraguay, Boquerón, Presidente Hayes), the CCDR identifies high Indigenous concentrations and drought-related land degradation/water-access problems; riverbank bursts are associated with illness.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PRY-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PRY-SRC-102",
+          "locator": "Printed pp. 43–44 (one-based PDF pp. 45–46), waterway transport"
+        }
+      ],
+      "geographies": [
+        "Asunción",
+        "Paraguay River"
+      ],
+      "affected_groups": [
+        "river freight users"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: A 2019–23 drought set the Paraguay River’s record-low at Asunción; in records since 1904, about 18% of observations would impede normal navigation near the city.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PRY-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PRY-SRC-102",
+          "locator": "Printed p. 63, ‘Urban flood impacts on household livelihoods’ bullet and footnote 106."
+        }
+      ],
+      "geographies": [
+        "Bañados",
+        "Asunción"
+      ],
+      "affected_groups": [
+        "rural migrant families",
+        "low-income households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: Bañados near central Asunción is an informal settlement with rural migrants; floods average once in five years, causing relocation and job losses.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PRY-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PRY-SRC-102",
+          "locator": "Printed pp. 26–27, paragraphs on local environmental data, grievance handling and participation."
+        }
+      ],
+      "geographies": [
+        "Paraguay",
+        "remote areas",
+        "subnational areas"
+      ],
+      "affected_groups": [
+        "remote communities",
+        "regional and local groups",
+        "Indigenous Peoples"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: The CCDR reports weak local environmental data; limited, centralized agency and court capacity constrains complaints and local participation, especially in remote areas.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PRY-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "PRY-SRC-103",
+          "locator": "Printed p. 23, section on drought risk to WASH services."
+        }
+      ],
+      "geographies": [
+        "Chaco",
+        "Pilcomayo",
+        "Irala Fernández",
+        "Mariscal Estigarribia"
+      ],
+      "affected_groups": [
+        "rural and peri-urban poor",
+        "dispersed communities",
+        "Indigenous peoples"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-11 reports: The report names Chaco, Pilcomayo, Irala Fernández and Mariscal Estigarribia as drought-affected; poor rural/peri-urban, dispersed and Indigenous communities have limited WASH infrastructure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+      "verification_attempt": {
+        "selected_record_id": "PRY-E-108",
+        "selected_source_id": "PRY-SRC-103",
+        "url": "https://www.unicef.org/paraguay/media/10486/file/Desaf%C3%ADos%20del%20sector%20agua%2C%20saneamiento%20e%20higiene%20ante%20el%20cambio%20clim%C3%A1tico%20de%20Paraguay.pdf.pdf",
+        "locator": "Printed p. 23, section on drought risk to WASH services.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 5940394,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "PRY-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PRY-SRC-103",
+          "locator": "Printed p. 4, executive summary, climate projection paragraph."
+        }
+      ],
+      "geographies": [
+        "Paraguay"
+      ],
+      "affected_groups": [
+        "WASH service users"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "The inspected report passage does not specify the emissions scenario.",
+      "compact_statement": "Source dated 2024-11 reports: Report projects +2°C mean monthly temperature by 2050 and uncertain rainfall.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PRY-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PRY-SRC-103",
+          "locator": "Printed p. 23, drought-risk discussion."
+        }
+      ],
+      "geographies": [
+        "Paraguay",
+        "Asunción metropolitan region"
+      ],
+      "affected_groups": [
+        "WASH service users",
+        "water users"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-11 reports: It says prolonged drought leaves water demand unmet, heightens competition among uses and pressures WASH supply, especially in Asunción metro.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PRY-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PRY-SRC-103",
+          "locator": "Printed p. 44, annex 2, human vulnerability matrix."
+        }
+      ],
+      "geographies": [
+        "Paraguay"
+      ],
+      "affected_groups": [
+        "WASH service users"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-11 reports: Annex reports conflicts around service use/access but gives no place, parties, timing or climate attribution.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PRY-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PRY-SRC-103",
+          "locator": "Printed p. 44, annex 2, human and physical vulnerability matrix."
+        }
+      ],
+      "geographies": [
+        "Paraguay",
+        "municipalities"
+      ],
+      "affected_groups": [
+        "Indigenous peoples",
+        "municipal residents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-11 reports: Annex notes poor Indigenous WASH access, non-climate-adapted infrastructure, municipal storage gaps, unstable financing and weak implementation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PRY-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PRY-SRC-104",
+          "locator": "Printed p. 45, Chaco livelihoods/forests/biodiversity, ‘Problems to be addressed.’"
+        }
+      ],
+      "geographies": [
+        "Western Region (Chaco)",
+        "Boquerón",
+        "Alto Paraguay",
+        "Presidente Hayes"
+      ],
+      "affected_groups": [
+        "Indigenous communities",
+        "small producers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-11 reports: Chaco member accounts say water shortage and rainfall shifts alter crop calendars, reducing food crops, pasture and livestock feed.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PRY-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PRY-SRC-104",
+          "locator": "Printed pp. 69–70, Chaco health and water, ‘Problems to be addressed.’"
+        }
+      ],
+      "geographies": [
+        "Western Region (Chaco)",
+        "Irala Fernández"
+      ],
+      "affected_groups": [
+        "Indigenous communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "FAPI's 2020 Chaco community accounts describe reliance on rainwater storage, scarce or saline water sources, insufficient storage through prolonged drought and water trucks not reaching Indigenous communities near Irala Fernández.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PRY-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PRY-SRC-104",
+          "locator": "Printed pp. 70–71, Chaco health and water, objectives/components."
+        }
+      ],
+      "geographies": [
+        "Western Region (Chaco)",
+        "Indigenous communities"
+      ],
+      "affected_groups": [
+        "Indigenous communities",
+        "community water managers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-11 reports: FAPI proposes rainwater storage, feasible solar wells, emergency delivery, water governance and community system-maintenance training.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PRY-E-116",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PRY-SRC-104",
+          "locator": "Printed p. 39, eastern-region fire-monitoring action, ‘Problems to be addressed.’"
+        }
+      ],
+      "geographies": [
+        "Itapúa",
+        "Caazapá",
+        "Alto Paraná",
+        "Caaguazú",
+        "Indigenous territories"
+      ],
+      "affected_groups": [
+        "Mbya Guaraní communities",
+        "Avá Guaraní communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-11 reports: FAPI says drought and heat raise fire threat; fires from adjacent lands/ranches damaged forests, crops and homes in Indigenous territories, including Itapúa and Caazapá.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PRY-E-117",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PRY-SRC-104",
+          "locator": "Printed pp. 39–40, fire-monitoring action, objectives and components."
+        }
+      ],
+      "geographies": [
+        "Itapúa",
+        "Caazapá",
+        "Alto Paraná",
+        "Caaguazú",
+        "Indigenous territories"
+      ],
+      "affected_groups": [
+        "Indigenous communities",
+        "environmental defenders"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-11 reports: FAPI proposes local fire brigades, joint monitoring, agency complaint follow-up and territorial planning.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "PRY-E-108",
+  "source_access_review": {
+    "selected_record_id": "PRY-E-108",
+    "selected_source_id": "PRY-SRC-103",
+    "url": "https://www.unicef.org/paraguay/media/10486/file/Desaf%C3%ADos%20del%20sector%20agua%2C%20saneamiento%20e%20higiene%20ante%20el%20cambio%20clim%C3%A1tico%20de%20Paraguay.pdf.pdf",
+    "locator": "Printed p. 23, section on drought risk to WASH services.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "document-fetched",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 5940394,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null
+  },
+  "checks": [
+    {
+      "record_id": "PRY-E-108",
+      "source_id": "PRY-SRC-103",
+      "locator": "Printed p. 23, section on drought risk to WASH services.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+      "access_date": "2026-10-27",
+      "source_access_status": "document-fetched",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "PRY-E-108: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "PRY-E-101",
+    "PRY-E-102",
+    "PRY-E-103",
+    "PRY-E-104",
+    "PRY-E-105",
+    "PRY-E-106",
+    "PRY-E-107",
+    "PRY-E-108",
+    "PRY-E-109",
+    "PRY-E-110",
+    "PRY-E-111",
+    "PRY-E-112",
+    "PRY-E-113",
+    "PRY-E-114",
+    "PRY-E-115",
+    "PRY-E-116",
+    "PRY-E-117"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

@@ -1,0 +1,964 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "ARM",
+  "candidate_path": "countries/ARM/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 5,
+    "evidence_count": 13,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 13
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 12,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "ARM-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "ARM-E-101",
+          "ARM-E-102",
+          "ARM-E-104",
+          "ARM-E-108",
+          "ARM-E-109",
+          "ARM-E-111",
+          "ARM-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "ARM-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "ARM-E-106",
+          "ARM-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "ARM-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "ARM-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "ARM-E-101",
+          "ARM-E-103",
+          "ARM-E-104",
+          "ARM-E-105",
+          "ARM-E-107",
+          "ARM-E-111",
+          "ARM-E-112",
+          "ARM-E-113"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/ARM/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "ARM-SRC-101",
+      "title": "Country Climate and Development Report: Armenia",
+      "organization": "World Bank Group",
+      "publication_date": "2024-11",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099110524115029619/pdf/P18076418d641b0e91954b113281d9a1165.pdf",
+      "geographic_coverage": [
+        "Armenia",
+        "Vayots Dzor",
+        "Tavush",
+        "Lori",
+        "Gegharkunik",
+        "border regions",
+        "Ararat Valley"
+      ],
+      "temporal_coverage": "Country climate and development assessment with observed risk mapping and modeled climate, flood and poverty outcomes through 2060.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ARM-E-101",
+        "ARM-E-102"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "CCDR Executive Summary and chapters 1, 2 and 4, including regional risks, climate policy and poverty scenarios",
+          "notes": "Opened and reviewed the complete 89-page World Bank report; model findings and source-stated fragility context are kept distinct.",
+          "reuse_terms": "Copyright permits noncommercial reproduction with attribution subject to third-party permissions; not independently reviewed, so license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ARM-SRC-102",
+      "title": "Fourth National Communication on Climate Change under the United Nations Framework Convention on Climate Change",
+      "organization": "Ministry of Environment of the Republic of Armenia, with UNDP support",
+      "publication_date": "2020",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2024-09/nc4_armenia_.pdf",
+      "geographic_coverage": [
+        "Armenia",
+        "Ararat Valley",
+        "Gegharkunik",
+        "Kotayk",
+        "Shirak",
+        "Lori",
+        "Armavir",
+        "Aragatsotn"
+      ],
+      "temporal_coverage": "Climate observations and hazard impacts through 2017; crop-yield projections through 2070; adaptation measures mainly reported through 2020.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ARM-E-103",
+        "ARM-E-104",
+        "ARM-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Fourth National Communication, printed pp. 93–94 and 138",
+          "notes": "Opened the complete government communication; relevant crop projections, satellite drought analysis and reported pilot programs were read in the original PDF.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ARM-SRC-103",
+      "title": "National Action Program of Adaptation to Climate Change and the List of Measures for 2021–2025",
+      "organization": "Government of the Republic of Armenia, Ministry of Environment",
+      "publication_date": "2021-05-13",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2024-09/nap_publication_eng_web.pdf",
+      "geographic_coverage": [
+        "Armenia",
+        "Shirak",
+        "Tavush",
+        "Aragatsotn",
+        "Ararat",
+        "Armavir",
+        "Lori",
+        "Kotayk",
+        "Gegharkunik",
+        "Syunik",
+        "Vayots Dzor"
+      ],
+      "temporal_coverage": "Government-approved adaptation action program for 2021–2025, with national and marz-level planning measures.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ARM-E-106",
+        "ARM-E-107",
+        "ARM-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Government Decree N 749-L and NAP printed pp. 10–11, 19 and 30–32",
+          "notes": "Opened the complete government-approved plan; documented measures and barriers are treated as stated plans or assessment, not implementation results.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ARM-SRC-104",
+      "title": "United Nations Sustainable Development Cooperation Framework 2026–2030",
+      "organization": "Government of the Republic of Armenia and United Nations Country Team",
+      "publication_date": "2025-12-19",
+      "publication_date_basis": "document-version",
+      "url": "https://armenia.un.org/sites/default/files/2026-03/Armenia%20-%20UN%20Sustainable%20Development%20Cooperation%20Framework%202026%20-%202030%20%282%29.pdf",
+      "geographic_coverage": [
+        "Armenia",
+        "border municipalities",
+        "displacement-affected municipalities",
+        "conflict-affected agricultural lands"
+      ],
+      "temporal_coverage": "Joint Government–UN strategy for 2026–2030, signed in Yerevan on 19 December 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ARM-E-109",
+        "ARM-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Signed framework, printed pp. 23–24 and 45–46",
+          "notes": "Opened the 88-page Government–UN framework and read the specific climate, displacement, conflict-affected land and local resilience passages.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "ARM-E-110",
+        "selected_source_id": "ARM-SRC-104",
+        "url": "https://armenia.un.org/sites/default/files/2026-03/Armenia%20-%20UN%20Sustainable%20Development%20Cooperation%20Framework%202026%20-%202030%20%282%29.pdf",
+        "locator": "UNSDCF, printed pp. 45–46, climate adaptation and planned community resilience measures",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "metadata-only",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": null,
+        "declared_bytes": 6403655,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "source exceeds the in-memory size cap"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "ARM-SRC-105",
+      "title": "Armenia Floods: May 2024 Post-Disaster Needs Assessment",
+      "organization": "Government of Armenia, United Nations and European Union",
+      "publication_date": "2024-10",
+      "publication_date_basis": "document-version",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2024-11/pdna_armenia_eng_final.pdf",
+      "geographic_coverage": [
+        "Lori",
+        "Tavush",
+        "Alaverdi",
+        "Tashir",
+        "Karkop",
+        "Debed River basin",
+        "Aghstev River basin"
+      ],
+      "temporal_coverage": "Multi-sector assessment of the May 25–26, 2024 floods, their impacts and recovery needs in Lori and Tavush.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ARM-E-111",
+        "ARM-E-112",
+        "ARM-E-113"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDNA printed pp. 35–38 and 120–122",
+          "notes": "Opened the full Government–UN–EU assessment and reviewed flood-affected refugee and host households, gender findings and disaster-risk system impacts.",
+          "reuse_terms": "Report states noncommercial reproduction is permitted with full credit; source license_status recorded as open.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "ARM-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARM-SRC-101",
+          "locator": "CCDR, Executive Summary, printed p. 7, and chapter 1, printed pp. 22–24, regional water, land and flood risks"
+        }
+      ],
+      "geographies": [
+        "Vayots Dzor",
+        "Tavush",
+        "Lori",
+        "Gegharkunik",
+        "Ararat Valley",
+        "high-poverty marzes"
+      ],
+      "affected_groups": [
+        "poor households",
+        "farmers",
+        "rural communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-11 reports: Flood losses relative to regional GDP are highest in Vayots Dzor, Tavush, Lori and Gegharkunik; the report also locates severe irrigation-water and land-degradation risks in high-poverty marzes.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARM-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARM-SRC-101",
+          "locator": "CCDR, chapter 1, printed p. 20, spatial disparities and fragility risks"
+        }
+      ],
+      "geographies": [
+        "Armenia",
+        "rural areas",
+        "secondary cities",
+        "border regions"
+      ],
+      "affected_groups": [
+        "rural poor",
+        "unemployed people",
+        "border communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-11 reports: The CCDR links spatial disparities with fragility risks, notes high rural and border-region poverty, and says conflict with Azerbaijan raises risks across the economy; it does not identify climate change as causing conflict.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARM-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARM-SRC-102",
+          "locator": "Fourth National Communication, printed pp. 93–94, satellite-based severe-drought damage frequency, 1984–2017"
+        }
+      ],
+      "geographies": [
+        "Ararat Valley",
+        "southwestern Gegharkunik",
+        "Kotayk",
+        "Gegharkunik"
+      ],
+      "affected_groups": [
+        "crop farmers",
+        "rural households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2020 communication's satellite-based assessment for 1984–2017 describes differentiated drought-related crop damage in the Ararat Valley, southwestern Gegharkunik, Kotayk and Gegharkunik. Its damage-frequency categories are not reused as current annual probabilities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARM-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARM-SRC-102",
+          "locator": "Fourth National Communication, printed pp. 93–94, Tables 5-7 to 5-9, yield projections by marz"
+        }
+      ],
+      "geographies": [
+        "Ararat",
+        "Kotayk",
+        "Gegharkunik",
+        "Shirak",
+        "Lori"
+      ],
+      "affected_groups": [
+        "farmers",
+        "agricultural workers",
+        "rural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "The yield tables describe climate-change projections without agrotechnical measures but do not identify the emissions pathway.",
+      "compact_statement": "Source dated 2020 reports: By 2070, projected wheat yields fall about 19–20% in Ararat, Kotayk and Gegharkunik, potato yields 21% in Shirak, while wheat yields rise about 8% in Lori.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARM-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARM-SRC-102",
+          "locator": "Fourth National Communication, printed p. 138, pilot crop-insurance program"
+        }
+      ],
+      "geographies": [
+        "Shirak",
+        "Armavir",
+        "Ararat"
+      ],
+      "affected_groups": [
+        "potato and cereal farmers",
+        "fruit and grape growers"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020 reports: The communication records a crop-insurance pilot launched in 2018: potatoes and cereals against hail and frost in Shirak, and fruit and grapes in Armavir and Ararat.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARM-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARM-SRC-103",
+          "locator": "National Action Program, printed pp. 10–11, barriers to adaptation"
+        }
+      ],
+      "geographies": [
+        "Armenia",
+        "regional and community levels"
+      ],
+      "affected_groups": [
+        "regional planners",
+        "local communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2021-05-13 reports: The NAP identifies weak inter-agency coordination and information flows, poor climate integration in public bodies, and gaps in locally relevant risk data and local adaptation finance.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARM-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARM-SRC-103",
+          "locator": "National Action Program, printed pp. 30–32, measures 1.9–1.10 for marz adaptation plans"
+        }
+      ],
+      "geographies": [
+        "Shirak",
+        "Tavush",
+        "Aragatsotn",
+        "Ararat",
+        "Armavir",
+        "Lori",
+        "Kotayk",
+        "Gegharkunik",
+        "Syunik",
+        "Vayots Dzor"
+      ],
+      "affected_groups": [
+        "marz residents",
+        "local communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2021-05-13 reports: The 2021–2025 action list scheduled adaptation plans for pilot marzes Shirak and Tavush, then eight more marzes, integrating climate adaptation into regional development planning.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARM-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARM-SRC-103",
+          "locator": "National Action Program, printed p. 19, principle on gender-responsive adaptation"
+        }
+      ],
+      "geographies": [
+        "Armenia"
+      ],
+      "affected_groups": [
+        "women"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2021-05-13 reports: The NAP says social norms can restrict women’s access to climate information, resources and opportunities, and calls for gender-responsive participation in adaptation decisions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARM-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARM-SRC-104",
+          "locator": "UNSDCF, printed pp. 23–24, climate risks and potential displacement in the framework rationale"
+        }
+      ],
+      "geographies": [
+        "Armenia"
+      ],
+      "affected_groups": [
+        "communities exposed to climate risks",
+        "displaced people"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "UNSDCF 2026–2030 planning horizon; no climate scenario or displacement estimate is stated.",
+      "compact_statement": "Source dated 2025-12-19 reports: The framework includes possible displacement among the human impacts of climate risks and places climate adaptation within a wider resilience and social-cohesion agenda.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARM-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "ARM-SRC-104",
+          "locator": "UNSDCF, printed pp. 45–46, climate adaptation and planned community resilience measures"
+        }
+      ],
+      "geographies": [
+        "conflict-affected agricultural lands",
+        "border municipalities",
+        "displacement-affected municipalities"
+      ],
+      "affected_groups": [
+        "farmers",
+        "border communities",
+        "displaced people and host communities"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12-19 reports: The UN plans to rehabilitate conflict-affected farmland to reduce resource competition and pilot community-led restoration and efficient water use in border or displacement-affected municipalities to support livelihoods and social cohesion.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "ARM-E-110",
+        "selected_source_id": "ARM-SRC-104",
+        "url": "https://armenia.un.org/sites/default/files/2026-03/Armenia%20-%20UN%20Sustainable%20Development%20Cooperation%20Framework%202026%20-%202030%20%282%29.pdf",
+        "locator": "UNSDCF, printed pp. 45–46, climate adaptation and planned community resilience measures",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "metadata-only",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": null,
+        "declared_bytes": 6403655,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "source exceeds the in-memory size cap"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "ARM-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARM-SRC-105",
+          "locator": "May 2024 flood PDNA, printed pp. 35–36, Human Impact and Livelihoods"
+        }
+      ],
+      "geographies": [
+        "Lori",
+        "Tavush",
+        "Tashir",
+        "Alaverdi"
+      ],
+      "affected_groups": [
+        "Nagorno-Karabakh refugees",
+        "host-community households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-10 reports: Lori and Tavush hosted 7% of Nagorno-Karabakh refugees before the May 2024 floods; refugees and host households in Tashir and Alaverdi faced flood-related displacement and damage to homes, food supplies and essential services.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARM-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARM-SRC-105",
+          "locator": "May 2024 flood PDNA, printed p. 38, Gender Insights from affected communities"
+        }
+      ],
+      "geographies": [
+        "Lori",
+        "Tavush",
+        "Alaverdi"
+      ],
+      "affected_groups": [
+        "women-headed households",
+        "women farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-10 reports: Field discussions in Lori and Tavush found women-headed households more likely to miss flood compensation when homes or livelihood assets lacked official property registration.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ARM-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ARM-SRC-105",
+          "locator": "May 2024 flood PDNA, printed pp. 120–122, disaster-risk management impacts and recovery needs"
+        }
+      ],
+      "geographies": [
+        "Debed River basin",
+        "Aghstev River basin",
+        "Lori",
+        "Tavush"
+      ],
+      "affected_groups": [
+        "remote communities",
+        "flood-exposed residents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-10 reports: Flooding damaged eight hydrological stations in the Debed and Aghstev basins, impairing water monitoring; the PDNA calls for modern flood forecasting, risk modeling and early warning, especially in remote areas.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "ARM-E-110",
+  "source_access_review": {
+    "selected_record_id": "ARM-E-110",
+    "selected_source_id": "ARM-SRC-104",
+    "url": "https://armenia.un.org/sites/default/files/2026-03/Armenia%20-%20UN%20Sustainable%20Development%20Cooperation%20Framework%202026%20-%202030%20%282%29.pdf",
+    "locator": "UNSDCF, printed pp. 45–46, climate adaptation and planned community resilience measures",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "metadata-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": null,
+    "declared_bytes": 6403655,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "source exceeds the in-memory size cap"
+  },
+  "checks": [
+    {
+      "record_id": "ARM-E-110",
+      "source_id": "ARM-SRC-104",
+      "locator": "UNSDCF, printed pp. 45–46, climate adaptation and planned community resilience measures",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "metadata-only",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "ARM-E-110: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "ARM-E-101",
+    "ARM-E-102",
+    "ARM-E-103",
+    "ARM-E-104",
+    "ARM-E-105",
+    "ARM-E-106",
+    "ARM-E-107",
+    "ARM-E-108",
+    "ARM-E-109",
+    "ARM-E-110",
+    "ARM-E-111",
+    "ARM-E-112",
+    "ARM-E-113"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

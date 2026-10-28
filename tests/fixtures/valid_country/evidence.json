@@ -1,0 +1,54 @@
+[
+  {
+    "evidence_id": "SSD-E-001",
+    "iso3": "SSD",
+    "statement": "In this synthetic example, repeated dry periods reduced access to an invented seasonal water point.",
+    "compact_statement": "Synthetic dry periods reduced access to an invented water point.",
+    "evidence_status": "observed",
+    "analytical_role": "direct-climate-fcv",
+    "hazard_tags": ["synthetic-drought"],
+    "impact_tags": ["synthetic-water-access"],
+    "geographies": ["Synthetic River County"],
+    "affected_groups": ["Synthetic pastoral households"],
+    "sectors": ["water"],
+    "systems_assets_resources": ["seasonal water point"],
+    "institutions": ["synthetic county water committee"],
+    "mediator_tags": ["limited-maintenance-capacity"],
+    "interaction_direction": "climate-to-fcv",
+    "time_horizons": ["historical", "current"],
+    "scenario": null,
+    "source_refs": [
+      {"source_id": "SSD-SRC-002", "locator": "Synthetic section 2, paragraph 3"}
+    ],
+    "confidence": "medium",
+    "uncertainty": "The example is fabricated solely to validate data contracts.",
+    "review_status": "draft",
+    "review_date": null
+  },
+  {
+    "evidence_id": "SSD-E-002",
+    "iso3": "SSD",
+    "statement": "A synthetic projection indicates that hotter seasons could increase maintenance demand for an invented water system.",
+    "compact_statement": "Synthetic hotter seasons could increase water-system maintenance demand.",
+    "evidence_status": "projected",
+    "analytical_role": "physical-baseline",
+    "hazard_tags": ["synthetic-heat"],
+    "impact_tags": ["synthetic-maintenance-demand"],
+    "geographies": ["Synthetic River County"],
+    "affected_groups": ["Synthetic water users"],
+    "sectors": ["water"],
+    "systems_assets_resources": ["invented water system"],
+    "institutions": ["synthetic county water committee"],
+    "mediator_tags": ["limited-maintenance-capacity"],
+    "interaction_direction": "contextual",
+    "time_horizons": ["near-term", "medium-term"],
+    "scenario": "Synthetic warming scenario",
+    "source_refs": [
+      {"source_id": "SSD-SRC-001", "locator": "Synthetic table 1"}
+    ],
+    "confidence": "low",
+    "uncertainty": "The projection and setting are intentionally fictional.",
+    "review_status": "draft",
+    "review_date": null
+  }
+]

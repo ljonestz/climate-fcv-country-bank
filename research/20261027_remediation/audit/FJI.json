@@ -1,0 +1,1229 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "FJI",
+  "candidate_path": "countries/FJI/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 6,
+    "evidence_count": 18,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 18
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 6,
+      "access-only": 11,
+      "verified": 1
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "At least one known-gap statement appears inconsistent with the current pathway inventory.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "FJI-E-001"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "FJI-E-004",
+          "FJI-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "FJI-E-002",
+          "FJI-E-101",
+          "FJI-E-105",
+          "FJI-E-109",
+          "FJI-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "FJI-E-005"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "FJI-E-006",
+          "FJI-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "FJI-E-003",
+          "FJI-E-104",
+          "FJI-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "FJI-E-106",
+          "FJI-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "FJI-E-102",
+          "FJI-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "FJI-E-101",
+          "FJI-E-103",
+          "FJI-E-105",
+          "FJI-E-106",
+          "FJI-E-107",
+          "FJI-E-108",
+          "FJI-E-109",
+          "FJI-E-110",
+          "FJI-E-111",
+          "FJI-E-112"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "FJI-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [
+      {
+        "text": "No verified local climate-conflict pathway was established in the inspected material.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      },
+      {
+        "text": "The bank contains no completed mediated climate-FCV pathway; this is an evidence gap, not evidence of absence.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      }
+    ],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/FJI/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "FJI-SRC-001",
+      "title": "Fiji Country Climate and Development Report: Investing in Resilience, Growth and Jobs",
+      "organization": "World Bank",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.worldbank.org/en/country/pacificislands/publication/fiji-country-climate-and-development-report-investing-in-resilience-growth-and-jobs",
+      "geographic_coverage": [
+        "Fiji"
+      ],
+      "temporal_coverage": "Long-term development and climate risks; publication date not stated",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "FJI-E-001",
+        "FJI-E-002",
+        "FJI-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "FJI-SRC-002",
+      "title": "Fiji launches initiative to strengthen early warning systems for all",
+      "organization": "UNDP",
+      "publication_date": "2026-05-25",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/pacific/press-releases/fiji-launches-initiative-strengthen-early-warning-systems-all",
+      "geographic_coverage": [
+        "Fiji"
+      ],
+      "temporal_coverage": "May 2026 launch and design",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "FJI-E-004",
+        "FJI-E-005",
+        "FJI-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "FJI-SRC-101",
+      "title": "Climate Change and Peacebuilding in Fiji",
+      "organization": "Conciliation Resources, with Transcend Oceania and the Pacific Centre for Peacebuilding",
+      "publication_date": "2024-06",
+      "publication_date_basis": "publication",
+      "url": "https://rc-services-assets.s3.eu-west-1.amazonaws.com/s3fs-public/Climate%20Change%20and%20Peacebuilding%20in%20Fiji.pdf",
+      "geographic_coverage": [
+        "Fiji",
+        "Viti Levu",
+        "Vanua Levu",
+        "Cogea",
+        "Nabavatu",
+        "Qauia, Nanuku and Maravu near Suva"
+      ],
+      "temporal_coverage": "Fiji programme ran January 2020–June 2024; practice paper cover dated June 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "FJI-E-101",
+        "FJI-E-102",
+        "FJI-E-103",
+        "FJI-E-104"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 17-page PDF; checked programme outline, governance, climate-conflict risks, mobility and informal-settlement sections (printed pp. 4–11).",
+          "notes": "PDF cover states June 2024. Read relevant text on named communities, policy consent thresholds, reported local conflict risks and programme activities.",
+          "reuse_terms": "No reuse license verified; paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "FJI-E-102",
+        "selected_source_id": "FJI-SRC-101",
+        "url": "https://rc-services-assets.s3.eu-west-1.amazonaws.com/s3fs-public/Climate%20Change%20and%20Peacebuilding%20in%20Fiji.pdf",
+        "locator": "PDF p. 10, planned relocation consent thresholds and conflict risk",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 1491236,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          10
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "FJI-E-102"
+      ],
+      "manual_verified_record_ids": [
+        "FJI-E-102"
+      ]
+    },
+    {
+      "source_id": "FJI-SRC-102",
+      "title": "Perspectives on climate change and adaptation in Fijian villages contemplating relocation",
+      "organization": "Frontiers in Climate; Yuki Yoshida, Giles B. Sioen, Gauna Metuisela and Richard Crichton",
+      "publication_date": "2025-09-04",
+      "publication_date_basis": "publication",
+      "url": "https://www.frontiersin.org/journals/climate/articles/10.3389/fclim.2025.1579299/full",
+      "geographic_coverage": [
+        "Vanua Levu: Macuata and Cakaudrove provinces",
+        "Viti Levu: Ba Province",
+        "Nabavatu",
+        "Vunivau",
+        "Nacekoro",
+        "Vunidogoloa",
+        "Nawaqarua",
+        "Matawalu",
+        "Dratabu"
+      ],
+      "temporal_coverage": "Qualitative village field visits in March 2024; published 4 September 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "FJI-E-105",
+        "FJI-E-106",
+        "FJI-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full article; checked Methods, Table 2, Results §§3.1–3.2 and Discussion.",
+          "notes": "Seven purposively selected iTaukei sites, fieldwork in March 2024. Publisher correction dated 6 October 2025 states omitted supplementary Table 1 was added; claims use the corrected article page.",
+          "reuse_terms": "Publisher page identifies open access; article license terms not separately verified. Paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "FJI-SRC-103",
+      "title": "Climate Change and Sea Level Rise, Fiji",
+      "organization": "International Monetary Fund",
+      "publication_date": "2025-06",
+      "publication_date_basis": "publication",
+      "url": "https://www.imf.org/-/media/files/publications/selected-issues-papers/2025/english/sipea2025085.pdf",
+      "geographic_coverage": [
+        "Fiji",
+        "Lomaloma village, Vanua Balavu Island",
+        "Nadi",
+        "Votua, Nawaqarua and Etatoko villages, lower Ba River Catchment, Viti Levu"
+      ],
+      "temporal_coverage": "IMF paper completed 30 May 2025 and published June 2025; includes modeled sea-level-rise scenarios and earlier relocation cases.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "FJI-E-108",
+        "FJI-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 26-page PDF; checked abstract, CIAM scenario/model caveats and Box 1 on coastal relocation (PDF pp. 1, 5–10).",
+          "notes": "The paper is IMF staff background documentation, completed 30 May 2025; local survey findings in Box 1 are explicitly partial/anecdotal and cite prior research.",
+          "reuse_terms": "No reuse license verified; paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "FJI-SRC-104",
+      "title": "Climate change and the planned relocation of people: A longitudinal analysis of Vunidogoloa, Fiji",
+      "organization": "Ambio; Celia McMichael, Teresia Powell, Annah E. Piggott-McKellar and Merewalesi Yee",
+      "publication_date": "2025-01-08",
+      "publication_date_basis": "publication",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12055693/",
+      "geographic_coverage": [
+        "Vunidogoloa, Cakaudrove Province, Vanua Levu",
+        "Natewa Bay and Tabia River"
+      ],
+      "temporal_coverage": "Seven qualitative research waves in Vunidogoloa from 2015 to 2023; journal issue June 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "FJI-E-110",
+        "FJI-E-111",
+        "FJI-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full PMC article; checked methods, environmental risks, relocation agency, services, wellbeing and discussion.",
+          "notes": "The article reports seven research waves, 41 interviews and 11 talanoa discussions; its data are not publicly shareable under research privacy/ethics protocols.",
+          "reuse_terms": "No separate reuse license verified; paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "FJI-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FJI-SRC-001",
+          "locator": "Overview, risks to growth and livelihoods"
+        }
+      ],
+      "geographies": [
+        "Fiji"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The CCDR summary identifies stronger cyclones, heat, drought, floods and rising seas as threats to Fiji's infrastructure, agriculture and tourism.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "FJI-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FJI-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FJI-SRC-001",
+          "locator": "Adaptation priorities, settlements and social protection"
+        }
+      ],
+      "geographies": [
+        "Fiji"
+      ],
+      "affected_groups": [
+        "informal-settlement residents",
+        "vulnerable households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The report recommends upgrading vulnerable informal settlements and targeting shock-responsive social protection, rather than treating household exposure as uniform.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "FJI-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FJI-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FJI-SRC-001",
+          "locator": "Institutional and fiscal resilience"
+        }
+      ],
+      "geographies": [
+        "Fiji"
+      ],
+      "affected_groups": [],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Government coordination, implementation monitoring and budgeting need strengthening; the summary describes existing sovereign disaster financing as covering relatively modest events.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "FJI-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FJI-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FJI-SRC-002",
+          "locator": "Paragraphs on remote and maritime communities"
+        }
+      ],
+      "geographies": [
+        "rural Fiji",
+        "maritime Fiji",
+        "coastal Fiji"
+      ],
+      "affected_groups": [
+        "remote communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNDP identifies rural, maritime and coastal communities with greater exposure and less access to timely warnings.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "FJI-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FJI-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FJI-SRC-002",
+          "locator": "Inclusive warning access"
+        }
+      ],
+      "geographies": [
+        "Fiji"
+      ],
+      "affected_groups": [
+        "women",
+        "older people",
+        "persons with disabilities",
+        "marginalized communities"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Warning barriers include connectivity, language, mobility and accessibility constraints affecting women, older people, persons with disabilities and marginalized communities.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "FJI-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FJI-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FJI-SRC-002",
+          "locator": "EW4All launch and design"
+        }
+      ],
+      "geographies": [
+        "Fiji"
+      ],
+      "affected_groups": [],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The initiative proposes inclusive warning design and coordinated institutions; its launch does not demonstrate reliable last-mile delivery.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "FJI-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FJI-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FJI-SRC-101",
+          "locator": "PDF p. 10, climate change-induced (im)mobility and relocation priorities"
+        }
+      ],
+      "geographies": [
+        "Nabavatu",
+        "Cogea",
+        "Fiji"
+      ],
+      "affected_groups": [
+        "climate-affected community members",
+        "cyclone-displaced families"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The June 2024 practice paper reports 42 relocation requests and prioritization of Nabavatu/Cogea, with some cyclone-displaced families still in tents; this is publication-era status, not current relocation progress.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FJI-E-102",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "FJI-SRC-101",
+          "locator": "PDF p. 10, planned relocation consent thresholds and conflict risk"
+        }
+      ],
+      "geographies": [
+        "Fiji"
+      ],
+      "affected_groups": [
+        "communities considering relocation"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "Only 60% consent after scoping.",
+      "compact_statement": "Conciliation Resources' 2024 practice paper warns that relocation proceeding with minimum post-scoping consent could strain cohesion and escalate disputes; it describes consent thresholds then in place, not current legal advice.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "FJI-E-102",
+        "source_id": "FJI-SRC-101",
+        "url": "https://rc-services-assets.s3.eu-west-1.amazonaws.com/s3fs-public/Climate%20Change%20and%20Peacebuilding%20in%20Fiji.pdf",
+        "locator": "PDF p. 10, planned relocation consent thresholds and conflict risk",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+      },
+      "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "FJI-SRC-101",
+        "source_url": "https://rc-services-assets.s3.eu-west-1.amazonaws.com/s3fs-public/Climate%20Change%20and%20Peacebuilding%20in%20Fiji.pdf",
+        "locator": "PDF p. 10, planned relocation consent thresholds and conflict risk",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "FJI-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FJI-SRC-101",
+          "locator": "PDF p. 11, Box 3 on informal settlements and climate change"
+        }
+      ],
+      "geographies": [
+        "Qauia",
+        "Nanuku",
+        "Maravu",
+        "Suva"
+      ],
+      "affected_groups": [
+        "informal-settlement residents"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "Government relocates these settlements.",
+      "compact_statement": "A seven-day listening exercise in Qauia, Nanuku and Maravu found no support for climate-driven settlement migration; tenure/service concerns and mistrust shaped conflict risks, with relocation a conditional future flashpoint.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FJI-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FJI-SRC-101",
+          "locator": "PDF p. 6, governance, historical trust and political instability"
+        }
+      ],
+      "geographies": [
+        "Fiji"
+      ],
+      "affected_groups": [
+        "communities",
+        "civil-society organizations"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-06 reports: Fiji’s 1987, 2000 and 2006 coups affected community and civil-society trust and government engagement.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FJI-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FJI-SRC-102",
+          "locator": "Results §3.1 and Table 2, community-specific climate impacts and relocation status"
+        }
+      ],
+      "geographies": [
+        "Vunivau",
+        "Nacekoro",
+        "Dratabu",
+        "Vunidogoloa",
+        "Matawalu"
+      ],
+      "affected_groups": [
+        "iTaukei village residents",
+        "farmers",
+        "students"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09-04 reports: Floods, cyclones and erosion damaged homes and land across the seven sites; flooding cut road access in Vunivau, Nacekoro and Dratabu, salt intrusion affected Vunidogoloa, and river erosion limited Matawalu farmland.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FJI-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FJI-SRC-102",
+          "locator": "Results §3.3 and Table 2; March 2024 fieldwork."
+        }
+      ],
+      "geographies": [
+        "Matawalu",
+        "Nawaqarua",
+        "Nacekoro",
+        "Vunivau",
+        "Nabavatu"
+      ],
+      "affected_groups": [
+        "iTaukei village residents",
+        "older residents"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09-04 reports: In March 2024, Matawalu, Nawaqarua and Nacekoro lacked relocation consensus; Vunivau and Nabavatu awaited government support, with procedural delay and tent shelters noted at Nabavatu.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FJI-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FJI-SRC-102",
+          "locator": "Results §3.2, site-specific in-situ adaptation strategies"
+        }
+      ],
+      "geographies": [
+        "Nawaqarua",
+        "Nacekoro",
+        "Matawalu",
+        "Vunivau",
+        "Vunidogoloa"
+      ],
+      "affected_groups": [
+        "iTaukei village residents"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09-04 reports: Nawaqarua used early-warning alarms and drainage; Nacekoro planted mangroves and vetiver. Walls were sought at Matawalu, Nacekoro and Nawaqarua, but some walls elsewhere blocked drainage or prolonged floods.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FJI-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FJI-SRC-103",
+          "locator": "Physical PDF p.9, printed p.6, Box 1 Lomaloma map."
+        }
+      ],
+      "geographies": [
+        "Lomaloma village",
+        "Vanua Balavu Island"
+      ],
+      "affected_groups": [
+        "Lomaloma residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "1 m above present sea level; IMF map shows possible retreat areas as hypotheses.",
+      "compact_statement": "Source dated 2025-06 reports: IMF staff’s map estimates that half of Lomaloma village on Vanua Balavu would be permanently flooded under a 1 m sea-level-rise scenario; mapped nearby retreat areas are hypothetical.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FJI-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FJI-SRC-103",
+          "locator": "Physical PDF pp.9–10, printed pp.6–7, Box 1."
+        }
+      ],
+      "geographies": [
+        "Votua",
+        "Nawaqarua",
+        "Etatoko",
+        "lower Ba River Catchment",
+        "Viti Levu"
+      ],
+      "affected_groups": [
+        "flood-affected households",
+        "older residents",
+        "younger residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-06 reports: IMF summarizes post-flood household surveys in Votua, Nawaqarua and Etatoko showing mixed relocation views; land ties, livelihoods, limited productive land and amenities, and tenure constrained resettlement; an Etatoko plantation lease was shortened for relocating households.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FJI-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FJI-SRC-104",
+          "locator": "Full text, Results: knowledge of climatic risks and environmental security"
+        }
+      ],
+      "geographies": [
+        "Vunidogoloa",
+        "Cakaudrove Province",
+        "Vanua Levu",
+        "Natewa Bay",
+        "Tabia River"
+      ],
+      "affected_groups": [
+        "iTaukei village households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-06 reports: Residents of Vunidogoloa, Cakaudrove Province, recalled coastal and river flooding, erosion, rising tides and waves, salt intrusion and food insecurity; 26 households, about 140 people, relocated roughly 1 km inland in 2014 after seawalls failed.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FJI-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FJI-SRC-104",
+          "locator": "Full text, Discussion and Results on environmental risks, resources and services"
+        }
+      ],
+      "geographies": [
+        "Vunidogoloa"
+      ],
+      "affected_groups": [
+        "women",
+        "older residents",
+        "children",
+        "village residents"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-06 reports: After moving, residents reported less coastal-flood exposure and better water, sanitation, schools and health access, but new cyclone and heat exposure, incomplete paths and drainage, and reduced fishing access, especially for women and older people.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "FJI-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "FJI-SRC-104",
+          "locator": "Full text, Local agency and participation; Discussion of relocation monitoring"
+        }
+      ],
+      "geographies": [
+        "Vunidogoloa"
+      ],
+      "affected_groups": [
+        "village residents",
+        "women"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-06 reports: The relocation was community-initiated and led through village governance; later, residents reported no ongoing government or donor monitoring or formal channel for unfinished construction concerns, while the women’s committee continued village development work.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "FJI-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "FJI-E-102",
+        "FJI-E-103",
+        "FJI-E-109",
+        "FJI-E-111"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "FJI-E-102",
+          "FJI-E-103",
+          "FJI-E-111"
+        ],
+        "impact": [
+          "FJI-E-109",
+          "FJI-E-111"
+        ],
+        "mediator": [
+          "FJI-E-102",
+          "FJI-E-103",
+          "FJI-E-109"
+        ],
+        "consequence": [
+          "FJI-E-102",
+          "FJI-E-103"
+        ]
+      },
+      "geographies": [
+        "Fiji",
+        "Qauia",
+        "Nanuku",
+        "Maravu (listening-project examples)"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Climate-related relocation may interact with tenure, consent and trust to create disputes; Fiji evidence supports a conditional risk mechanism, not climate-caused violence.",
+      "alternative_explanations": [
+        "Housing policy, development-led relocation, service inequality, policing and generational preferences may drive disputes independently of climate."
+      ],
+      "uncertainty": "Prospective source-stated mechanism with qualitative local examples; no causal estimate or current legal interpretation.",
+      "potentially_out_of_scope_support_ids": [
+        "FJI-E-109",
+        "FJI-E-111"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "FJI-E-102",
+  "source_access_review": {
+    "selected_record_id": "FJI-E-102",
+    "selected_source_id": "FJI-SRC-101",
+    "url": "https://rc-services-assets.s3.eu-west-1.amazonaws.com/s3fs-public/Climate%20Change%20and%20Peacebuilding%20in%20Fiji.pdf",
+    "locator": "PDF p. 10, planned relocation consent thresholds and conflict risk",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 1491236,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      10
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+  },
+  "checks": [
+    {
+      "record_id": "FJI-E-102",
+      "source_id": "FJI-SRC-101",
+      "locator": "PDF p. 10, planned relocation consent thresholds and conflict risk",
+      "verification_status": "verified",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "FJI-E-102: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "FJI-E-001",
+    "FJI-E-002",
+    "FJI-E-003",
+    "FJI-E-004",
+    "FJI-E-005",
+    "FJI-E-006",
+    "FJI-E-101",
+    "FJI-E-102",
+    "FJI-E-103",
+    "FJI-E-104",
+    "FJI-E-105",
+    "FJI-E-106",
+    "FJI-E-107",
+    "FJI-E-108",
+    "FJI-E-109",
+    "FJI-E-110",
+    "FJI-E-111",
+    "FJI-E-112",
+    "FJI-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

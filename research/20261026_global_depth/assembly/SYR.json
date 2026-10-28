@@ -1,0 +1,49 @@
+{
+  "iso3": "SYR",
+  "base_dir": "countries/SYR/approved/2026.10.26",
+  "claim_evidence_mapping": {
+    "SYR-C-101": "SYR-E-101",
+    "SYR-C-102": "SYR-E-102",
+    "SYR-C-103": "SYR-E-103",
+    "SYR-C-104": "SYR-E-104",
+    "SYR-C-107": "SYR-E-107",
+    "SYR-C-108": "SYR-E-108",
+    "SYR-C-109": "SYR-E-109",
+    "SYR-C-110": "SYR-E-110"
+  },
+  "source_id_mapping": {
+    "SYR-SRC-101": "SYR-SRC-101",
+    "SYR-SRC-102": "SYR-SRC-102",
+    "SYR-SRC-103": "SYR-SRC-103",
+    "SYR-SRC-104": "SYR-SRC-104",
+    "SYR-SRC-105": "SYR-SRC-105",
+    "SYR-SRC-106": "SYR-SRC-106"
+  },
+  "new_evidence_ids": [
+    "SYR-E-101",
+    "SYR-E-102",
+    "SYR-E-103",
+    "SYR-E-104",
+    "SYR-E-107",
+    "SYR-E-108",
+    "SYR-E-109",
+    "SYR-E-110"
+  ],
+  "new_named_local_evidence_ids": [
+    "SYR-E-104",
+    "SYR-E-107",
+    "SYR-E-110"
+  ],
+  "excluded_claims": [
+    {
+      "claim_id": "SYR-C-105",
+      "decision": "exclude",
+      "reason": "Indexed-only UNICEF PDF passages could not be independently accessed; web reader returned URL-only and normal-TLS download returned 403."
+    },
+    {
+      "claim_id": "SYR-C-106",
+      "decision": "exclude",
+      "reason": "Same inaccessible indexed-only PDF; do not retain infrastructure figure without original passage."
+    }
+  ]
+}

@@ -1,0 +1,1166 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "AGO",
+  "candidate_path": "countries/AGO/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 5,
+    "evidence_count": 17,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 17
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "verified": 1,
+      "access-only": 16
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "AGO-E-102",
+          "AGO-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "AGO-E-103",
+          "AGO-E-104",
+          "AGO-E-108",
+          "AGO-E-109",
+          "AGO-E-113",
+          "AGO-E-114",
+          "AGO-E-116",
+          "AGO-E-117"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "AGO-E-115"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "AGO-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "AGO-E-106",
+          "AGO-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "AGO-E-110",
+          "AGO-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "AGO-E-101"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "AGO-E-101",
+          "AGO-E-102",
+          "AGO-E-105",
+          "AGO-E-107",
+          "AGO-E-110",
+          "AGO-E-111",
+          "AGO-E-112",
+          "AGO-E-113",
+          "AGO-E-114",
+          "AGO-E-117"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "AGO-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/AGO/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "AGO-SRC-101",
+      "title": "Report of the Secretary-General on the activities of the United Nations Regional Office for Central Africa (S/2025/772)",
+      "organization": "United Nations Secretary-General / United Nations Office for Central Africa",
+      "publication_date": "2025-11-28",
+      "publication_date_basis": "document-version",
+      "url": "https://documents.un.org/api/symbol/access?l=en&s=s%2F2025%2F772&t=pdf",
+      "geographic_coverage": [
+        "Central Africa",
+        "Angola",
+        "Namibe Province"
+      ],
+      "temporal_coverage": "Regional climate conditions in June–August 2025 and a reported Namibe incident on 17 August 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "AGO-E-101"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF printed p. 8, paragraph 32",
+          "notes": "Opened the full 15-page UN report and read its regional climate-security paragraph on the Namibe water-dam clash.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "AGO-E-101",
+        "selected_source_id": "AGO-SRC-101",
+        "url": "https://documents.un.org/api/symbol/access?l=en&s=s%2F2025%2F772&t=pdf",
+        "locator": "PDF printed p. 8, paragraph 32",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 280502,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          8
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "AGO-E-101"
+      ],
+      "manual_verified_record_ids": [
+        "AGO-E-101"
+      ]
+    },
+    {
+      "source_id": "AGO-SRC-102",
+      "title": "Nationally Determined Contribution of Angola 2025 (NDC 3.0)",
+      "organization": "Republic of Angola, Ministry of Environment",
+      "publication_date": "2025-09",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/2025-09/Angola%20NDC_September2025_Upload.pdf",
+      "geographic_coverage": [
+        "Angola",
+        "Luanda",
+        "Huíla",
+        "Namibe",
+        "Cunene",
+        "Cuando Cubango",
+        "Moxico",
+        "Moxico Leste",
+        "Huambo",
+        "Bié"
+      ],
+      "temporal_coverage": "National climate assessments and adaptation priorities, with historical examples and plans through 2035.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "AGO-E-102",
+        "AGO-E-103",
+        "AGO-E-104",
+        "AGO-E-105",
+        "AGO-E-106",
+        "AGO-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF printed pp. 49–50, 53–54 and 62",
+          "notes": "Opened the full 114-page NDC 3.0 and reviewed vulnerability, ecosystem, water-resource and adaptation passages.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "AGO-SRC-103",
+      "title": "Eastern and Southern Africa Region Humanitarian Situation Report No. 2, 1 January–31 December 2024",
+      "organization": "UNICEF Eastern and Southern Africa Regional Office",
+      "publication_date": "2024-12",
+      "publication_date_basis": "document-version",
+      "url": "https://www.unicef.org/media/170296/file/EASR-SitRep-31-December-2024.pdf.pdf",
+      "geographic_coverage": [
+        "Eastern and Southern Africa",
+        "Angola",
+        "southern Angola",
+        "Huíla",
+        "Cunene"
+      ],
+      "temporal_coverage": "Regional and Angola situation and response reporting for calendar year 2024, with some cited water-point data from 2022.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "AGO-E-108",
+        "AGO-E-109",
+        "AGO-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF printed p. 3, Angola situation overview and health response",
+          "notes": "Opened the full 52-page regional situation report and read the Angola country section.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "AGO-SRC-104",
+      "title": "Angola Preparedness for Resilient Recovery Project: First Project Report",
+      "organization": "United Nations Development Programme, Angola",
+      "publication_date": "2015-09-10",
+      "publication_date_basis": "document-version",
+      "url": "https://info.undp.org/docs/pdc/Documents/AGO/Angola%20Preparedness%20for%20Resilient%20Recovery%20Project%201st%20Report%2010%20September%202015.pdf",
+      "geographic_coverage": [
+        "Angola",
+        "Cunene",
+        "Huíla",
+        "Namibe",
+        "Benguela",
+        "Lobito",
+        "Catumbela",
+        "Cabrais"
+      ],
+      "temporal_coverage": "Project progress and disaster-preparedness activities reported for September 2014–September 2015.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "AGO-E-111",
+        "AGO-E-112",
+        "AGO-E-113"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF printed pp. 3–4, executive summary and background",
+          "notes": "Opened the full 16-page first project report and reviewed preparedness activities and cited drought impacts.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "AGO-SRC-105",
+      "title": "Angola Food Security Outlook, June 2026–January 2027: Likely El Niño-induced dryness to lead to outcomes aligned with Crisis in southern areas by November",
+      "organization": "FEWS NET",
+      "publication_date": "2026-06",
+      "publication_date_basis": "document-version",
+      "url": "https://fews.net/southern-africa/angola/food-security-outlook/june-2026",
+      "geographic_coverage": [
+        "Angola",
+        "Cunene",
+        "Namibe",
+        "Cuando Cubango",
+        "Oncócua",
+        "Benguela",
+        "Luanda",
+        "Namibia border"
+      ],
+      "temporal_coverage": "Current food-security conditions through June 2026 and outlook through January 2027.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "AGO-E-114",
+        "AGO-E-115",
+        "AGO-E-116",
+        "AGO-E-117"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Current anomalies, current outcomes, assumptions and projected outcomes through January 2027",
+          "notes": "Opened and read the full public Angola outlook webpage; analysis states information available through 30 June 2026.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "AGO-E-101",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "AGO-SRC-101",
+          "locator": "PDF printed p. 8, paragraph 32"
+        }
+      ],
+      "geographies": [
+        "Namibe Province"
+      ],
+      "affected_groups": [
+        "two unnamed communities",
+        "displaced people"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-11-28 reports: UNOCA reports 17 August clashes between two unnamed communities in Namibe over dam access amid prolonged drought; 12–20 people were killed and thousands displaced.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "Retain attribution to the UN report and its uncertainty range; do not add community names or imply independent corroboration."
+      ],
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+      "verification_attempt": {
+        "record_id": "AGO-E-101",
+        "source_id": "AGO-SRC-101",
+        "url": "https://documents.un.org/api/symbol/access?l=en&s=s%2F2025%2F772&t=pdf",
+        "locator": "PDF printed p. 8, paragraph 32",
+        "accessed_on": "2026-10-27",
+        "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The UN Secretary-General report paragraph 32 states that 17 August clashes in Namibe occurred over access to a water dam amid prolonged drought, with 12-20 killed and thousands displaced. Communities remain unnamed, and this audit verifies the report's assertion, not independent event corroboration."
+      },
+      "verification_note": "The UN Secretary-General report paragraph 32 states that 17 August clashes in Namibe occurred over access to a water dam amid prolonged drought, with 12-20 killed and thousands displaced. Communities remain unnamed, and this audit verifies the report's assertion, not independent event corroboration.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "AGO-SRC-101",
+        "source_url": "https://documents.un.org/api/symbol/access?l=en&s=s%2F2025%2F772&t=pdf",
+        "locator": "PDF printed p. 8, paragraph 32",
+        "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+        "reason": "The UN Secretary-General report paragraph 32 states that 17 August clashes in Namibe occurred over access to a water dam amid prolonged drought, with 12-20 killed and thousands displaced. Communities remain unnamed, and this audit verifies the report's assertion, not independent event corroboration.",
+        "recommended_record_patch": "Retain attribution to the UN report and its uncertainty range; do not add community names or imply independent corroboration.",
+        "coordinator_decision_ref": null
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "AGO-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "AGO-SRC-102",
+          "locator": "PDF printed p. 49, section 4.1"
+        }
+      ],
+      "geographies": [
+        "Luanda"
+      ],
+      "affected_groups": [
+        "urban residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09 reports: NDC links drainage and erosion deficits to flood and life risks in urban Luanda.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "AGO-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "AGO-SRC-102",
+          "locator": "PDF printed pp. 49–50, section 4.1"
+        }
+      ],
+      "geographies": [
+        "Angola",
+        "rural areas"
+      ],
+      "affected_groups": [
+        "low-income households",
+        "Indigenous communities",
+        "small-scale food producers",
+        "rural women"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09 reports: NDC identifies low-income people, Indigenous communities, small producers and rural women as especially vulnerable.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "AGO-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "AGO-SRC-102",
+          "locator": "PDF printed p. 50, section 4.1"
+        }
+      ],
+      "geographies": [
+        "Angola",
+        "drought-affected areas"
+      ],
+      "affected_groups": [
+        "girls"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09 reports: Drought may draw girls into distant water collection, increasing early-marriage and gender-based-violence risks.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "AGO-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "AGO-SRC-102",
+          "locator": "PDF printed p. 62, water-resources section"
+        }
+      ],
+      "geographies": [
+        "Huíla Province",
+        "Namibe Province",
+        "Cunene Province"
+      ],
+      "affected_groups": [
+        "residents of southern provinces"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09 reports: NDC reports over one million people affected in Huíla, Namibe and Cunene during 2015–16 drought, with $286m damage and about $437m losses.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "AGO-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "AGO-SRC-102",
+          "locator": "PDF printed p. 62, water-resources section"
+        }
+      ],
+      "geographies": [
+        "Angola"
+      ],
+      "affected_groups": [
+        "water users",
+        "rural communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09 reports: NDC notes watershed and reservoir data gaps and insufficient technical capacity for long-term water projections.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "AGO-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "AGO-SRC-102",
+          "locator": "PDF printed pp. 53–54, ecosystem and water-resources sections"
+        }
+      ],
+      "geographies": [
+        "Cuando Cubango Province",
+        "Moxico Province",
+        "Moxico Leste Province",
+        "Huambo Province",
+        "Bié Province"
+      ],
+      "affected_groups": [
+        "communities near wetlands and peatlands",
+        "rural households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09 reports: These wetlands and peatlands support rural water and livelihoods but face fire and land-use pressure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "AGO-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "AGO-SRC-103",
+          "locator": "PDF printed p. 3, Angola situation overview"
+        }
+      ],
+      "geographies": [
+        "Angola",
+        "southern Angola"
+      ],
+      "affected_groups": [
+        "people in drought-affected areas",
+        "water users in southern Angola"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-12 reports: UNICEF attributes drought affecting 5.6 million people to El Niño-era rainfall deficits; it reports 1.2 million water-scarce people and 50–80% of southern water points non-operational in 2022.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "AGO-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "AGO-SRC-103",
+          "locator": "PDF printed p. 3, Angola situation overview"
+        }
+      ],
+      "geographies": [
+        "Angola",
+        "drought-vulnerable areas"
+      ],
+      "affected_groups": [
+        "households facing food insecurity"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-12 reports: The report links crop losses to delayed, below-average rain and says inflation, currency weakness and fuel-subsidy removal further worsened food insecurity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "AGO-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "AGO-SRC-103",
+          "locator": "PDF printed p. 3, Angola health response"
+        }
+      ],
+      "geographies": [
+        "Huíla Province",
+        "Cunene Province"
+      ],
+      "affected_groups": [
+        "children at risk",
+        "women and children"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-12 reports: In drought-affected Huíla and Cunene, UNICEF reports measles vaccination for 11,587 at-risk children and maternal or child health services for 251,559 women and children.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "AGO-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "AGO-SRC-104",
+          "locator": "PDF printed p. 3, executive summary"
+        }
+      ],
+      "geographies": [
+        "Luanda",
+        "Cunene Province",
+        "Huíla Province",
+        "Namibe Province",
+        "Benguela Province"
+      ],
+      "affected_groups": [
+        "disaster-affected communities",
+        "provincial officials"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2015-09-10 reports: In August 2015, Angola's Civil Protection Commission and UNDP trained 43 national and provincial officials in Luanda on needs assessment and resilient recovery.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "AGO-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "AGO-SRC-104",
+          "locator": "PDF printed p. 3, flood-recovery field exercise"
+        }
+      ],
+      "geographies": [
+        "Benguela Province",
+        "Lobito Municipality",
+        "Catumbela Municipality",
+        "Cabrais settlement"
+      ],
+      "affected_groups": [
+        "flood-affected people relocated to Cabrais"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2015-09-10 reports: After Benguela floods, a CNPC–UNDP exercise assessed recovery needs in Lobito, Catumbela and Cabrais, including housing, health, education, livelihoods and agriculture.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "AGO-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "AGO-SRC-104",
+          "locator": "PDF printed p. 4, background"
+        }
+      ],
+      "geographies": [
+        "Cunene Province",
+        "Namibe Province",
+        "Benguela Province",
+        "Huíla Province"
+      ],
+      "affected_groups": [
+        "drought-affected households",
+        "people at risk of food insecurity"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2015-09-10 reports: The report cites OCHA estimates that 2013–14 drought affected 1.8 million people in Cunene, Namibe, parts of Benguela and Huíla; about 700,000 faced food-insecurity risk.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "AGO-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "AGO-SRC-105",
+          "locator": "Angola outlook, current anomalies, June 2026"
+        }
+      ],
+      "geographies": [
+        "Oncócua",
+        "Cunene Province",
+        "central Angola",
+        "western Angola",
+        "southern Angola"
+      ],
+      "affected_groups": [
+        "smallholder households",
+        "agropastoral households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-06 reports: 2025/26 rains were delayed and dry, with below-average harvests and crop failures at Oncócua, Cunene.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "AGO-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "AGO-SRC-105",
+          "locator": "Angola outlook, assumptions through January 2027"
+        }
+      ],
+      "geographies": [
+        "southern Angola",
+        "Namibia border"
+      ],
+      "affected_groups": [
+        "herders",
+        "agropastoral households"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "FEWS NET's most-likely outlook assumes El Niño and below-average October 2026–January 2027 rainfall.",
+      "compact_statement": "Source dated 2026-06 reports: Projected dryness may delay southern water recharge and pasture, prompting earlier movement toward Namibia and reducing veterinary access.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "AGO-E-116",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "AGO-SRC-105",
+          "locator": "Angola outlook, key messages and projected outcomes through January 2027"
+        }
+      ],
+      "geographies": [
+        "southern agropastoral areas of Angola"
+      ],
+      "affected_groups": [
+        "poor agropastoral households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "FEWS NET's most-likely outlook through January 2027.",
+      "compact_statement": "Source dated 2026-06 reports: FEWS NET projects 1.0–1.49 million people needing assistance in southern agropastoral areas in November 2026–January 2027, with IPC Phase 3-aligned outcomes.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "AGO-E-117",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "AGO-SRC-105",
+          "locator": "Angola outlook, current outcomes as of June 2026"
+        }
+      ],
+      "geographies": [
+        "Cunene Province",
+        "Namibe Province",
+        "Cuando Cubango Province"
+      ],
+      "affected_groups": [
+        "poor, geographically isolated herder households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-06 reports: Some isolated herders in Cunene, Namibe and Cuando Cubango with prior-drought herd losses and few alternatives are assessed as likely IPC Phase 3.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "AGO-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "AGO-E-101"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "AGO-E-101"
+        ],
+        "impact": [
+          "AGO-E-101"
+        ],
+        "mediator": [
+          "AGO-E-101"
+        ],
+        "consequence": [
+          "AGO-E-101"
+        ]
+      },
+      "geographies": [
+        "Namibe Province"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "The UN reports that contested dam access amid prolonged drought preceded a deadly intercommunal clash in Namibe in August 2025; it does not establish climate as the sole cause or a national violence trend.",
+      "alternative_explanations": [
+        "Pre-existing access rules, local disputes, governance and social relations may also shape violence; the report does not isolate them."
+      ],
+      "uncertainty": "One UN-reported historical episode. No named communities, independently identified climate effect, anthropogenic drought attribution or current violence map.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "AGO-E-101",
+  "source_access_review": {
+    "selected_record_id": "AGO-E-101",
+    "selected_source_id": "AGO-SRC-101",
+    "url": "https://documents.un.org/api/symbol/access?l=en&s=s%2F2025%2F772&t=pdf",
+    "locator": "PDF printed p. 8, paragraph 32",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 280502,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      8
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+    "verification_note": "The UN Secretary-General report paragraph 32 states that 17 August clashes in Namibe occurred over access to a water dam amid prolonged drought, with 12-20 killed and thousands displaced. Communities remain unnamed, and this audit verifies the report's assertion, not independent event corroboration."
+  },
+  "checks": [
+    {
+      "record_id": "AGO-E-101",
+      "source_id": "AGO-SRC-101",
+      "locator": "PDF printed p. 8, paragraph 32",
+      "verification_status": "verified",
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Retain attribution to the UN report and its uncertainty range; do not add community names or imply independent corroboration.",
+      "coordinator_decision_ref": null
+    }
+  ],
+  "limitations": [
+    "AGO-E-101: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "AGO-E-101",
+    "AGO-E-102",
+    "AGO-E-103",
+    "AGO-E-104",
+    "AGO-E-105",
+    "AGO-E-106",
+    "AGO-E-107",
+    "AGO-E-108",
+    "AGO-E-109",
+    "AGO-E-110",
+    "AGO-E-111",
+    "AGO-E-112",
+    "AGO-E-113",
+    "AGO-E-114",
+    "AGO-E-115",
+    "AGO-E-116",
+    "AGO-E-117",
+    "AGO-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 1,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

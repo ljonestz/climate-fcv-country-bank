@@ -1,0 +1,1009 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "THA",
+  "candidate_path": "countries/THA/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 5,
+    "evidence_count": 14,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 14
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 13,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "THA-E-101",
+          "THA-E-102",
+          "THA-E-103",
+          "THA-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "THA-E-104",
+          "THA-E-105",
+          "THA-E-110",
+          "THA-E-111",
+          "THA-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "THA-E-115"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "THA-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "THA-E-106",
+          "THA-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "THA-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "THA-E-101",
+          "THA-E-102",
+          "THA-E-103",
+          "THA-E-105",
+          "THA-E-106",
+          "THA-E-107",
+          "THA-E-113",
+          "THA-E-114",
+          "THA-E-115"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "THA-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/THA/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "THA-SRC-101",
+      "title": "Thailand's National Adaptation Plan (NAP)",
+      "organization": "Office of Natural Resources and Environmental Policy and Planning, Ministry of Natural Resources and Environment, Thailand",
+      "publication_date": "2023-11",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/resource/NAP_THAILAND_2024.pdf",
+      "geographic_coverage": [
+        "Thailand",
+        "named Thai provinces"
+      ],
+      "temporal_coverage": "National adaptation plan; provincial climate-risk rankings modelled for 2016–2035 under RCP4.5 and RCP8.5.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "THA-E-101",
+        "THA-E-102",
+        "THA-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 82-page National Adaptation Plan; Tables 3-1, 3-2 and 3-6; Chapter 5 monitoring framework",
+          "notes": "Opened the full publisher-hosted PDF and read the cited tables, model framing and adaptation-monitoring passages.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "THA-SRC-102",
+      "title": "Thailand Country Climate and Development Report",
+      "organization": "World Bank Group",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099063025043513963/pdf/P507208-2e39fbbd-4d16-4660-a7eb-9c99c88864f0.pdf",
+      "geographic_coverage": [
+        "Thailand",
+        "Bangkok",
+        "Northern Thailand",
+        "Northeastern Thailand",
+        "Khon Kaen Province"
+      ],
+      "temporal_coverage": "Published 2025; includes historical/current diagnostics, projections and a Khon Kaen provincial water-management case.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "THA-E-104",
+        "THA-E-105",
+        "THA-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 96-page report; Chapter 1, printed p. 1; Annex 2, Khon Kaen provincial case",
+          "notes": "Opened and read the full public report, including its cover, physical-risk discussion and detailed Khon Kaen annex.",
+          "reuse_terms": "The report's printed rights notice permits noncommercial reuse with full attribution; commercial terms not assessed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "THA-SRC-103",
+      "title": "Climate Change Adaptation Implementation and Governance in Thailand: Increased Resilience and Potential Conflicts",
+      "organization": "Springer Nature, in Risks, Resilience and Interdependency",
+      "publication_date": "2025-07-19",
+      "publication_date_basis": "publication",
+      "url": "https://link.springer.com/chapter/10.1007/978-981-96-7167-0_4",
+      "geographic_coverage": [
+        "Thailand",
+        "Songkhla Province",
+        "Kanchanaburi Province",
+        "Northern Thailand",
+        "Western Thailand"
+      ],
+      "temporal_coverage": "Open-access chapter published 2025; reviews climate-adaptation governance and source-reported conflict examples, including a 2004 drought case.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "THA-E-107",
+        "THA-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Publisher chapter body; methodology section and §§3.2–3.3",
+          "notes": "Opened the complete open-access chapter body; cited conflict mechanisms are attributed to the authors' reviewed sources and discussion.",
+          "reuse_terms": "Publisher identifies the chapter as open access; exact reuse license not inspected.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "THA-E-107",
+        "selected_source_id": "THA-SRC-103",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-96-7167-0_4",
+        "locator": "Section 3.3, Songkhla Province drought case, 2004",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "THA-SRC-104",
+      "title": "Gender Equality and Social Inclusion Analysis (Thailand, 2025)",
+      "organization": "Save the Children Thailand",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://resourcecentre.savethechildren.net/document/gender-equality-and-social-inclusion-analysis-thailand-2025",
+      "geographic_coverage": [
+        "Thailand's Southern Border Provinces"
+      ],
+      "temporal_coverage": "2025 gender and social inclusion study prepared for the CINTALAM youth-led climate-action project.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "THA-E-110",
+        "THA-E-111",
+        "THA-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Official publisher resource-page abstract, paragraphs on findings, structural gaps and recommendations",
+          "notes": "Read the substantive official abstract and its mixed-methods description; did not access the full report body.",
+          "reuse_terms": "Resource page states © Author/Publisher; no license grant inspected.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "THA-SRC-105",
+      "title": "Women leading peace and climate resilience in southern Thailand",
+      "organization": "United Nations in Thailand / UN Women",
+      "publication_date": "2026-04-02",
+      "publication_date_basis": "publication",
+      "url": "https://thailand.un.org/en/314423-women-leading-peace-and-climate-resilience-southern-thailand",
+      "geographic_coverage": [
+        "Yupo Subdistrict",
+        "Yala Province",
+        "Pattani Province",
+        "Narathiwat Province"
+      ],
+      "temporal_coverage": "UN story published 2 April 2026; includes participant accounts and captions on the Yupo flood of 25 November 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "THA-E-113",
+        "THA-E-114",
+        "THA-E-115"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full story body and captions on Yupo Subdistrict, Yala Province",
+          "notes": "Read the complete public story, including dated participant accounts, flood caption and community-response description.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "THA-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "THA-SRC-101",
+          "locator": "Chapter 3, printed p. 32, Table 3-1, water-resources risk areas"
+        }
+      ],
+      "geographies": [
+        "Bangkok",
+        "Nakhon Ratchasima Province",
+        "Ubon Ratchathani Province"
+      ],
+      "affected_groups": [
+        "water users"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "RCP4.5 and RCP8.5; model period 2016–2035.",
+      "compact_statement": "Source dated 2023-11 reports: Bangkok, Nakhon Ratchasima and Ubon Ratchathani recur among the top-ten modeled heat, drought and flood risk areas for water management under both RCP lists.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "THA-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "THA-SRC-101",
+          "locator": "Chapter 3, printed p. 37, Table 3-2, agriculture and food-security risk areas"
+        }
+      ],
+      "geographies": [
+        "Nakhon Ratchasima Province",
+        "Khon Kaen Province",
+        "Ubon Ratchathani Province"
+      ],
+      "affected_groups": [
+        "farmers",
+        "agricultural households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "RCP4.5 and RCP8.5; model period 2016–2035.",
+      "compact_statement": "Source dated 2023-11 reports: For agriculture, Nakhon Ratchasima, Khon Kaen and Ubon Ratchathani appear in both modeled RCP top-ten lists for drought risk.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "THA-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "THA-SRC-101",
+          "locator": "Chapter 3, printed p. 61, Table 3-6, human settlements and security sector"
+        }
+      ],
+      "geographies": [
+        "Bangkok",
+        "Nakhon Ratchasima Province"
+      ],
+      "affected_groups": [
+        "urban residents",
+        "settlement residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "RCP4.5 and RCP8.5; model period 2016–2035.",
+      "compact_statement": "Source dated 2023-11 reports: Bangkok and Nakhon Ratchasima occur in both modeled flood-risk top-ten lists for the NAP's human-settlements-and-security sector.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "THA-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "THA-SRC-102",
+          "locator": "Chapter 1, printed p. 1, paragraph beginning 'Incomes and wealth are concentrated in Bangkok'"
+        }
+      ],
+      "geographies": [
+        "Bangkok",
+        "Northern Thailand",
+        "Northeastern Thailand"
+      ],
+      "affected_groups": [
+        "poorer households",
+        "agricultural communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: The CCDR contrasts Bangkok's high urban-flood exposure with drought, water shortages and rainfall variability affecting poorer Northern and Northeastern provinces and agriculture.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "THA-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "THA-SRC-102",
+          "locator": "Annex 2, opening paragraph, 'Resolving dual water challenges in Khon Kaen Province'"
+        }
+      ],
+      "geographies": [
+        "Khon Kaen Province"
+      ],
+      "affected_groups": [
+        "low-income agriculturists",
+        "farm households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: The report describes recurring drought and floods in Khon Kaen; 2021 floods averaged three months, while water insecurity deepened poverty among low-income agriculturists.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "THA-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "THA-SRC-102",
+          "locator": "Annex 2, subsection 'Khon Kaen's Attempt' and following 'Implications and Lessons'"
+        }
+      ],
+      "geographies": [
+        "Khon Kaen Province",
+        "Khon Kaen metropolitan area"
+      ],
+      "affected_groups": [
+        "local water users",
+        "municipal residents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: Khon Kaen's water subcommittee convened 14 agencies and local stakeholders; risk mapping and consultation informed an integrated plan and a five-municipality urban-flood project.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "THA-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "THA-SRC-103",
+          "locator": "Section 3.3, Songkhla Province drought case, 2004"
+        }
+      ],
+      "geographies": [
+        "Songkhla Province"
+      ],
+      "affected_groups": [
+        "rice farmers",
+        "villagers",
+        "local communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "A 2025 document-analysis chapter recounts a cited 2004 Songkhla drought case: anticipated rice losses prompted stockpiling, and an existing insurgent group raided fields to control food resources, with villagers reportedly killed. This is a secondary historical account, not independently verified causal identification; the reported percentage increase is omitted.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "THA-E-107",
+        "selected_source_id": "THA-SRC-103",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-96-7167-0_4",
+        "locator": "Section 3.3, Songkhla Province drought case, 2004",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "THA-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "THA-SRC-103",
+          "locator": "Section 3.2, civil-society discussion on climate justice and local capacity-building"
+        }
+      ],
+      "geographies": [
+        "Thailand",
+        "vulnerable communities"
+      ],
+      "affected_groups": [
+        "vulnerable communities",
+        "community organizations"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-07-19 reports: The chapter notes Thai NGOs and researchers provide participatory adaptation research and capacity-building for vulnerable communities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "THA-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "THA-SRC-104",
+          "locator": "Save the Children Resource Centre page, official abstract, opening summary"
+        }
+      ],
+      "geographies": [
+        "Thailand's Southern Border Provinces"
+      ],
+      "affected_groups": [
+        "marginalized communities",
+        "women"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: The study abstract describes climate change, conflict and gender inequality as mutually reinforcing pressures harming marginalized communities in the Southern Border Provinces.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "THA-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "THA-SRC-104",
+          "locator": "Save the Children Resource Centre page, official abstract, findings paragraph"
+        }
+      ],
+      "geographies": [
+        "Thailand's Southern Border Provinces"
+      ],
+      "affected_groups": [
+        "widows",
+        "single mothers",
+        "women"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: The abstract says widows and single mothers face combined unpaid household work, income-generation and crisis-volunteering burdens, with higher debt, unequal land ownership and gender stereotypes.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "THA-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "THA-SRC-104",
+          "locator": "Save the Children Resource Centre page, official abstract, structural-gaps and recommendations paragraphs"
+        }
+      ],
+      "geographies": [
+        "Thailand's Southern Border Provinces"
+      ],
+      "affected_groups": [
+        "women",
+        "Indigenous people",
+        "LGBTQ+ people",
+        "marginalized groups"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: The abstract identifies weak gender integration in local climate policies and missing gender-disaggregated data; it recommends stronger local-institution capacity and inclusive climate solutions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "THA-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "THA-SRC-105",
+          "locator": "Yupo community profile, paragraphs on changing weather and rubber/small-scale farming"
+        }
+      ],
+      "geographies": [
+        "Yupo Subdistrict",
+        "Yala Province"
+      ],
+      "affected_groups": [
+        "women farmers",
+        "rubber-tapping households",
+        "smallholder families"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-02 reports: In Yupo Subdistrict, Yala, women describe irregular rain, long droughts and severe floods disrupting rubber-tapping and small-farm livelihoods and raising crop-pumping fuel costs.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "THA-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "THA-SRC-105",
+          "locator": "Yupo flood caption and profile, 25 November 2025 event"
+        }
+      ],
+      "geographies": [
+        "Yupo Subdistrict",
+        "Yala Province"
+      ],
+      "affected_groups": [
+        "approximately 300 families",
+        "stranded residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-02 reports: The story caption reports floodwaters over 2.5 metres in Yupo on 25 November 2025, leaving approximately 300 families stranded.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "THA-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "THA-SRC-105",
+          "locator": "Yupo flood-preparedness profile and Masjid Raudatul Jannah caption"
+        }
+      ],
+      "geographies": [
+        "Yupo Subdistrict",
+        "Kampung Berangan",
+        "Yala Province"
+      ],
+      "affected_groups": [
+        "residents unable to evacuate",
+        "displaced families",
+        "women and community volunteers"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-02 reports: Yupo networks share early warnings, food and supplies; during the November 2025 flood, a mosque sheltered 50 residents and a community kitchen served about 300 families.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "THA-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "THA-E-107"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "THA-E-107"
+        ],
+        "impact": [
+          "THA-E-107"
+        ],
+        "mediator": [
+          "THA-E-107"
+        ],
+        "consequence": [
+          "THA-E-107"
+        ]
+      },
+      "geographies": [
+        "Songkhla Province"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "A secondary-cited 2004 Songkhla account describes drought-related food scarcity interacting with an existing insurgency's violent raids, not drought creating the insurgency.",
+      "alternative_explanations": [
+        "Existing insurgency, political history, targeting decisions and other concurrent conditions are central; drought is not established as the origin of conflict."
+      ],
+      "uncertainty": "Secondary-cited historical account in a document-analysis chapter; underlying incident records and the reported percentage change were not independently verified. Not causal identification or a current forecast.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "THA-E-107",
+  "source_access_review": {
+    "selected_record_id": "THA-E-107",
+    "selected_source_id": "THA-SRC-103",
+    "url": "https://link.springer.com/chapter/10.1007/978-981-96-7167-0_4",
+    "locator": "Section 3.3, Songkhla Province drought case, 2004",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": null,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "URLError: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+  },
+  "checks": [
+    {
+      "record_id": "THA-E-107",
+      "source_id": "THA-SRC-103",
+      "locator": "Section 3.3, Songkhla Province drought case, 2004",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "THA-E-107: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "THA-E-101",
+    "THA-E-102",
+    "THA-E-103",
+    "THA-E-104",
+    "THA-E-105",
+    "THA-E-106",
+    "THA-E-107",
+    "THA-E-109",
+    "THA-E-110",
+    "THA-E-111",
+    "THA-E-112",
+    "THA-E-113",
+    "THA-E-114",
+    "THA-E-115",
+    "THA-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

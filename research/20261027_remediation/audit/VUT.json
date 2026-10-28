@@ -1,0 +1,1232 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "VUT",
+  "candidate_path": "countries/VUT/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 7,
+    "evidence_count": 20,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 20
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 6,
+      "access-only": 14
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "VUT-E-102",
+          "VUT-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "VUT-E-001",
+          "VUT-E-101"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "VUT-E-004",
+          "VUT-E-104",
+          "VUT-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "VUT-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "VUT-E-005",
+          "VUT-E-106",
+          "VUT-E-110",
+          "VUT-E-113",
+          "VUT-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "VUT-E-003",
+          "VUT-E-108",
+          "VUT-E-111",
+          "VUT-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "VUT-E-002"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "VUT-E-107",
+          "VUT-E-115"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "VUT-E-101",
+          "VUT-E-102",
+          "VUT-E-103",
+          "VUT-E-104",
+          "VUT-E-105",
+          "VUT-E-106",
+          "VUT-E-110",
+          "VUT-E-113",
+          "VUT-E-114"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/VUT/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "VUT-SRC-001",
+      "title": "Improving Lives and Building Resilience in Vanuatu",
+      "organization": "World Bank",
+      "publication_date": "2024-06-07",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/results/2024/06/07/improving-lives-and-building-resilience-in-vanuatu",
+      "geographic_coverage": [
+        "Vanuatu"
+      ],
+      "temporal_coverage": "2015 cyclone; 2016–2023 programme results",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "VUT-E-001",
+        "VUT-E-002",
+        "VUT-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "VUT-SRC-002",
+      "title": "Strengthening resilience of the Vanuatu energy sector against climate-induced disasters",
+      "organization": "UNDP",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.undp.org/pacific/projects/strengthening-resilience-vanuatu-energy-sector-against-climate-induced-disasters",
+      "geographic_coverage": [
+        "Vanuatu"
+      ],
+      "temporal_coverage": "Undated energy-resilience design",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "VUT-E-004",
+        "VUT-E-005"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "VUT-SRC-101",
+      "title": "Impact of Climate Change on Tropical Cyclones Over Vanuatu: A Case for Informing Disaster Planning and Adaptation Strategies",
+      "organization": "Krishneel K. Sharma, Savin S. Chand and Soubhik Biswas, Federation University",
+      "publication_date": "2025-09-18",
+      "publication_date_basis": "publication",
+      "url": "https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/joc.70108",
+      "geographic_coverage": [
+        "Torba Province",
+        "Sanma Province",
+        "Penama Province",
+        "Malampa Province",
+        "Shefa Province",
+        "Tafea Province"
+      ],
+      "temporal_coverage": "Observed cyclone tracks 1971–2021; CMIP5 future-climate comparisons 2071–2100 versus 1971–2000 under RCP8.5.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "VUT-E-101",
+        "VUT-E-102",
+        "VUT-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete article body, including sections 2–4 and provincial projection tables.",
+          "notes": "Publisher page exposed the complete open-access article; all cited passages were read directly.",
+          "reuse_terms": "Publisher labels the article Open Access; specific license not confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "VUT-SRC-102",
+      "title": "As the water flows – remote communities in Vanuatu creating pathways to climate resilience",
+      "organization": "United Nations Development Programme, Pacific Office",
+      "publication_date": "2025-03-25",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/pacific/blog/water-flows-remote-communities-vanuatu-creating-pathways-climate-resilience",
+      "geographic_coverage": [
+        "Tongariki Island",
+        "Buninga Island",
+        "Shefa Province",
+        "Shepherd Islands"
+      ],
+      "temporal_coverage": "Community consultations, project design and reported implementation status through March 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "VUT-E-104",
+        "VUT-E-105",
+        "VUT-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete publisher body, including project status and attributed community and official statements.",
+          "notes": "The article was read directly from UNDP; no independent monitoring or evaluation was linked.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "VUT-SRC-103",
+      "title": "National Policy on Climate Change and Disaster-Induced Displacement",
+      "organization": "Government of Vanuatu, National Advisory Board on Climate Change and Disaster Risk Reduction",
+      "publication_date": "2018",
+      "publication_date_basis": "document-version",
+      "url": "https://faolex.fao.org/docs/pdf/van182464.pdf",
+      "geographic_coverage": [
+        "Vanuatu",
+        "Ambae Island",
+        "Maewo Island",
+        "Espiritu Santo",
+        "Luganville"
+      ],
+      "temporal_coverage": "National displacement policy and conditions described in the 2018 document, including 2018 relocation activity.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "VUT-E-107",
+        "VUT-E-108",
+        "VUT-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 60-page policy, with cited printed pages 7–15 and 34.",
+          "notes": "Full PDF directly accessible; policy statements, historical examples and proposed actions were distinguished.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "VUT-SRC-104",
+      "title": "Ministry of Climate Change Annual Report 2024",
+      "organization": "Government of Vanuatu, Ministry of Climate Change",
+      "publication_date": "2024",
+      "publication_date_basis": "document-version",
+      "url": "https://mocca.gov.vu/images/publications/annual/Ministry%20of%20Climate%20Change%20Annual%20Report%202024.pdf",
+      "geographic_coverage": [
+        "Vanuatu",
+        "Pele Island",
+        "Mota Lava",
+        "Mataso/Makira Area Councils",
+        "Nguna/Pele",
+        "Central Malekula"
+      ],
+      "temporal_coverage": "Ministry activities, project progress and constraints reported for calendar year 2024, mostly as of 31 December 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "VUT-E-110",
+        "VUT-E-111",
+        "VUT-E-112",
+        "VUT-E-113",
+        "VUT-E-114"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 185-page annual report; cited printed pages 155–160.",
+          "notes": "Full PDF directly read. Progress and barriers are ministry-reported, mostly for calendar 2024.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "VUT-SRC-105",
+      "title": "Climate-related disasters and temperature extremes are not associated with conflict risk in Pacific Island countries",
+      "organization": "Tobias Ide, Ore Koren and Luke Derrick, Environment and Security",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://journals.sagepub.com/doi/pdf/10.1177/27538796251408642?download=true",
+      "geographic_coverage": [
+        "Fiji",
+        "Solomon Islands",
+        "Vanuatu"
+      ],
+      "temporal_coverage": "Geocoded social-conflict and climate analysis for 2012–2020 in three Pacific Island countries.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "VUT-E-115"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 14-page article, including methods, results and discussion.",
+          "notes": "Full publisher PDF read directly. Institutional repository metadata identifies CC BY 4.0 open access.",
+          "reuse_terms": "CC BY 4.0, as stated in Murdoch University research portal metadata.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "VUT-E-115",
+        "selected_source_id": "VUT-SRC-105",
+        "url": "https://journals.sagepub.com/doi/pdf/10.1177/27538796251408642?download=true",
+        "locator": "Printed pp. 9–10, Discussion and conclusion; data/method limits at printed p. 3.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Authority Key Identifier (_ssl.c:1032)>"
+      },
+      "audit_accessed_on": "2026-10-27"
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "VUT-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VUT-SRC-001",
+          "locator": "Challenge, outer islands"
+        }
+      ],
+      "geographies": [
+        "remote outer islands"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Cyclone Pam damaged remote-island roads, schools and public assets; flood-prone roads and weak school buildings can isolate communities and disrupt services.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "VUT-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VUT-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VUT-SRC-001",
+          "locator": "Results, 2016–2023"
+        }
+      ],
+      "geographies": [
+        "Vanuatu"
+      ],
+      "affected_groups": [
+        "rural communities",
+        "local contractors"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The programme reports reconstructed roads, schools and public facilities, improved all-weather access and local-contractor employment.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "VUT-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VUT-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VUT-SRC-001",
+          "locator": "Approach and selection"
+        }
+      ],
+      "geographies": [
+        "Vanuatu"
+      ],
+      "affected_groups": [],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Needs-based selection, partner coordination, community involvement and local technical training were reported features of the reconstruction approach.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "VUT-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VUT-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VUT-SRC-002",
+          "locator": "Energy-system disruption"
+        }
+      ],
+      "geographies": [
+        "Vanuatu"
+      ],
+      "affected_groups": [
+        "women",
+        "children",
+        "older people",
+        "persons with disabilities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Damaged decentralized energy systems disrupt water, sanitation and other services, with differentiated burdens on women, children, older people and persons with disabilities.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "VUT-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VUT-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VUT-SRC-002",
+          "locator": "Project approach"
+        }
+      ],
+      "geographies": [
+        "Vanuatu"
+      ],
+      "affected_groups": [
+        "remote communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The proposed energy-resilience work combines institutional capacity, risk-informed design and community-level pilots for remote communities.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "VUT-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VUT-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VUT-SRC-101",
+          "locator": "Section 4.1.1, ‘Current Tropical Cyclone Climatology at the Provincial Level’, Figure 3 and accompanying text."
+        }
+      ],
+      "geographies": [
+        "Torba Province",
+        "Sanma Province",
+        "Penama Province"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09-18 reports: During 1971–2021, the study counted 2.31 cyclone tracks per season within 500 km of Torba, 2.30 of Sanma and 2.45 of Penama.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VUT-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VUT-SRC-101",
+          "locator": "Section 4.1.1, Figure 3 and provincial discussion of 1971–1995 versus 1996–2021."
+        }
+      ],
+      "geographies": [
+        "Tafea Province",
+        "Penama Province",
+        "Shefa Province",
+        "Vanuatu provinces"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09-18 reports: The severe-cyclone share rose in all six provinces; mean wind-speed increases were significant for Tafea (18.1%), Penama (13.4%) and Shefa (13.0%).",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VUT-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VUT-SRC-101",
+          "locator": "Section 4.3.2, ‘Multimodel Averages at the Provincial Level’, Table 4 and accompanying text."
+        }
+      ],
+      "geographies": [
+        "Torba Province",
+        "Penama Province"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "CMIP5 RCP8.5 high-emissions pathway; 2071–2100 compared with 1971–2000.",
+      "compact_statement": "Source dated 2025-09-18 reports: Under CMIP5 RCP8.5, the illustrative severe-cyclone intensity of Pam has a shorter projected return period in 2071–2100 than 1971–2000: 77 to 62 years in Torba and 68 to 51 in Penama.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VUT-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VUT-SRC-102",
+          "locator": "Publisher body, opening paragraphs describing Tongariki and Buninga in Shefa Province."
+        }
+      ],
+      "geographies": [
+        "Tongariki Island",
+        "Buninga Island",
+        "Shefa Province"
+      ],
+      "affected_groups": [
+        "Tongariki residents",
+        "Buninga residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-03-25 reports: The UNDP account attributes clean-water difficulty on Tongariki and Buninga to saltwater intrusion from rising seas; the boat-accessible islands lack natural streams and rely on rainwater.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VUT-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VUT-SRC-102",
+          "locator": "Publisher body, paragraph describing residents' water collection burden."
+        }
+      ],
+      "geographies": [
+        "Tongariki Island",
+        "Buninga Island"
+      ],
+      "affected_groups": [
+        "older people",
+        "people with disabilities",
+        "households collecting water"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-03-25 reports: Residents walk long distances in intense heat carrying water containers that can exceed 20 kg; the account says this is especially treacherous for older people and people with disabilities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VUT-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VUT-SRC-102",
+          "locator": "Publisher body, paragraphs on the vulnerability assessment, project design and project materials arriving in early January 2025."
+        }
+      ],
+      "geographies": [
+        "Tongariki Island",
+        "Buninga Island"
+      ],
+      "affected_groups": [
+        "134 households",
+        "women and children"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-03-25 reports: A locally assessed rainwater system was designed for 134 households (107 Tongariki; 27 Buninga), with raised and reinforced tanks; materials had arrived, but household service was still a future hope.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VUT-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VUT-SRC-103",
+          "locator": "Printed pp. 7–11, policy preamble and ‘Displacement context in Vanuatu’."
+        }
+      ],
+      "geographies": [
+        "Vanuatu"
+      ],
+      "affected_groups": [
+        "at-risk and displaced people",
+        "host communities",
+        "internal migrants"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2018 reports: The policy treats climate stress, weak governance and urbanization as interacting displacement-risk factors, while separately identifying land conflict and insecure tenure; it says unresolved displacement grievances may contribute to unrest.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VUT-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VUT-SRC-103",
+          "locator": "Printed p. 14, ‘Displacement context in Vanuatu’ and response to repeated flooding."
+        }
+      ],
+      "geographies": [
+        "Vanuatu, repeatedly flooded communities not individually named"
+      ],
+      "affected_groups": [
+        "displaced people",
+        "host communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2018 reports: For communities facing repeated floods, provincial governments sometimes arranged temporary stays with host communities; the policy describes assistance procedures as unclear and responses as ad hoc.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VUT-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VUT-SRC-103",
+          "locator": "Printed pp. 14–15 and p. 34, including the policy's land-negotiation and community-grievance recommendations."
+        }
+      ],
+      "geographies": [
+        "Vanuatu"
+      ],
+      "affected_groups": [
+        "customary landholders",
+        "displaced people",
+        "host communities",
+        "women"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2018 reports: The policy recommends community-led relocation negotiations, free prior and informed consent of customary landholders, land-dispute grievance channels and host-community support as displacement safeguards.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VUT-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VUT-SRC-104",
+          "locator": "Printed pp. 155–157, Vanuatu Community-based Climate Resilience Project, 2024 progress section."
+        }
+      ],
+      "geographies": [
+        "Vanuatu's 29 Area Councils",
+        "Worearu Village",
+        "Pele Island"
+      ],
+      "affected_groups": [
+        "rural communities",
+        "women",
+        "youth",
+        "people with disabilities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: In 2024, 23 of 29 Area Council climate officers were in place; 40 communities developed adaptation plans, while final documentation remained due in 2025.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VUT-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VUT-SRC-104",
+          "locator": "Printed p. 155, VCCRP external challenges in 2024."
+        }
+      ],
+      "geographies": [
+        "remote VCCRP target communities, not individually named"
+      ],
+      "affected_groups": [
+        "remote communities",
+        "Area Council staff"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: Airline liquidation forced slow, infrequent sea travel to remote targets and disrupted some activities; recruitment and communication also delayed.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VUT-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VUT-SRC-104",
+          "locator": "Printed p. 156, VCCRP implementation challenges in 2024."
+        }
+      ],
+      "geographies": [
+        "Vanuatu"
+      ],
+      "affected_groups": [
+        "VCCRP target communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: The Ministry says parliamentary dissolution and political instability disrupted climate-project implementation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VUT-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VUT-SRC-104",
+          "locator": "Printed p. 160, VCCRP 2024 climate-resilient fisheries progress."
+        }
+      ],
+      "geographies": [
+        "Mota Lava",
+        "Mataso/Makira Area Councils"
+      ],
+      "affected_groups": [
+        "fishing communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: Two solar freezers were procured for fisheries cold storage in Mota Lava and Mataso/Makira.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VUT-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VUT-SRC-104",
+          "locator": "Printed pp. 157–158, VCCRP climate-resilient food preservation progress."
+        }
+      ],
+      "geographies": [
+        "Nguna Island",
+        "Pele Island"
+      ],
+      "affected_groups": [
+        "root-crop and vegetable producers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: A solar dryer pilot for root crops and vegetables was introduced in Nguna/Pele.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VUT-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "VUT-SRC-105",
+          "locator": "Printed pp. 9–10, Discussion and conclusion; data/method limits at printed p. 3."
+        }
+      ],
+      "geographies": [
+        "Vanuatu",
+        "Fiji",
+        "Solomon Islands"
+      ],
+      "affected_groups": [
+        "social groups in three Pacific Island countries"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026 reports: For 2012–2020, the pooled Fiji–Solomon Islands–Vanuatu grid-cell analysis found no statistically significant association between climate-disaster shocks or temperature extremes and social-conflict risk.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "VUT-E-115",
+        "selected_source_id": "VUT-SRC-105",
+        "url": "https://journals.sagepub.com/doi/pdf/10.1177/27538796251408642?download=true",
+        "locator": "Printed pp. 9–10, Discussion and conclusion; data/method limits at printed p. 3.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Authority Key Identifier (_ssl.c:1032)>"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "VUT-E-115",
+  "source_access_review": {
+    "selected_record_id": "VUT-E-115",
+    "selected_source_id": "VUT-SRC-105",
+    "url": "https://journals.sagepub.com/doi/pdf/10.1177/27538796251408642?download=true",
+    "locator": "Printed pp. 9–10, Discussion and conclusion; data/method limits at printed p. 3.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": null,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Authority Key Identifier (_ssl.c:1032)>"
+  },
+  "checks": [
+    {
+      "record_id": "VUT-E-115",
+      "source_id": "VUT-SRC-105",
+      "locator": "Printed pp. 9–10, Discussion and conclusion; data/method limits at printed p. 3.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "VUT-E-115: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "VUT-E-001",
+    "VUT-E-002",
+    "VUT-E-003",
+    "VUT-E-004",
+    "VUT-E-005",
+    "VUT-E-101",
+    "VUT-E-102",
+    "VUT-E-103",
+    "VUT-E-104",
+    "VUT-E-105",
+    "VUT-E-106",
+    "VUT-E-107",
+    "VUT-E-108",
+    "VUT-E-109",
+    "VUT-E-110",
+    "VUT-E-111",
+    "VUT-E-112",
+    "VUT-E-113",
+    "VUT-E-114",
+    "VUT-E-115"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

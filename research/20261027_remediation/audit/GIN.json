@@ -1,0 +1,1058 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "GIN",
+  "candidate_path": "countries/GIN/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 4,
+    "evidence_count": 17,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 17
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 10,
+      "access-only": 7
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "GIN-E-001"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "GIN-E-004",
+          "GIN-E-101"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "GIN-E-002",
+          "GIN-E-102",
+          "GIN-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "GIN-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "GIN-E-006",
+          "GIN-E-107",
+          "GIN-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "GIN-E-007",
+          "GIN-E-104",
+          "GIN-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "GIN-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "GIN-E-003",
+          "GIN-E-005",
+          "GIN-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "GIN-E-101",
+          "GIN-E-105",
+          "GIN-E-110"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/GIN/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "GIN-SRC-001",
+      "title": "Country Climate and Development Report: Guinea",
+      "organization": "World Bank Group",
+      "publication_date": "2025-12",
+      "publication_date_basis": "document-version",
+      "url": "https://documents1.worldbank.org/curated/en/099021226050013303/pdf/P501474-e1a9833f-7eb7-4b58-bee2-81c8ab479282.pdf",
+      "geographic_coverage": [
+        "Guinea",
+        "Northern and northwestern Guinea"
+      ],
+      "temporal_coverage": "Climate projections through the 2060s and 2090s; macroeconomic modelling to 2050",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GIN-E-001",
+        "GIN-E-002",
+        "GIN-E-003",
+        "GIN-E-108",
+        "GIN-E-109",
+        "GIN-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "GIN-E-003",
+        "selected_source_id": "GIN-SRC-001",
+        "url": "https://documents1.worldbank.org/curated/en/099021226050013303/pdf/P501474-e1a9833f-7eb7-4b58-bee2-81c8ab479282.pdf",
+        "locator": "Printed p. 18 (PDF p. 18), discussion of fragility, governance, land issues, and intercommunal violence.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "GIN-SRC-002",
+      "title": "CDN 3.0 de la République de Guinée",
+      "organization": "Government of the Republic of Guinea",
+      "publication_date": "2025-10",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/2025-11/CDN%203.0%20DE%20LA%20REPUBLIQUE%20DE%20GUINEE.pdf",
+      "geographic_coverage": [
+        "Guinea",
+        "Conakry",
+        "Northern and northwestern agricultural zones",
+        "Conakry, Forécariah, Boffa, and Kamsar coastal areas"
+      ],
+      "temporal_coverage": "Climate events reported for 2024–2025; proposed NDC implementation period 2026–2035",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GIN-E-004",
+        "GIN-E-005",
+        "GIN-E-006",
+        "GIN-E-007"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GIN-SRC-101",
+      "title": "2025-2026 IFRC network country plan: Guinea",
+      "organization": "International Federation of Red Cross and Red Crescent Societies, in support of the Red Cross Society of Guinea",
+      "publication_date": "2025-02-27",
+      "publication_date_basis": "publication",
+      "url": "https://www.ifrc.org/sites/default/files/media/appeal/file/2025-03/Guinea_INP_2025.pdf",
+      "geographic_coverage": [
+        "Guinea",
+        "Siguiri",
+        "Kouroussa",
+        "Kankan",
+        "Mandiana",
+        "Gueckedou",
+        "Kankan region",
+        "coastal zones",
+        "northern Guinea"
+      ],
+      "temporal_coverage": "Reported 2024 flood events and response; 2025–2026 network plan",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GIN-E-101",
+        "GIN-E-102",
+        "GIN-E-103",
+        "GIN-E-104",
+        "GIN-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 4, 6–8",
+          "notes": "Opened the 16-page plan and read the country risk, climate, named flood and Siguiri response passages.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GIN-SRC-102",
+      "title": "Guinea: Selected Issues, IMF Country Report No. 24/131",
+      "organization": "International Monetary Fund",
+      "publication_date": "2024-04-24",
+      "publication_date_basis": "document-version",
+      "url": "https://www.imf.org/-/media/files/publications/cr/2024/english/1ginea2024002.pdf",
+      "geographic_coverage": [
+        "Guinea"
+      ],
+      "temporal_coverage": "Hazard and coping-capacity context; macroeconomic adaptation simulations for 2024 onward",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GIN-E-106",
+        "GIN-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Printed pp. 17, 19–22",
+          "notes": "Opened and inspected the IMF climate-risk coping-capacity assessment and DIGNAD adaptation scenarios.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "GIN-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GIN-SRC-001",
+          "locator": "Section 1.2, printed p. 19 (PDF p. 19), climate-risk profile and scenario tables."
+        }
+      ],
+      "geographies": [
+        "Guinea",
+        "Northern Guinea",
+        "Northwestern Guinea"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "Profile ranges to 2060s/2090s; dry/hot and wet/warm cases compare 2041-50 with 1995-2020; rainfall uncertain.",
+      "compact_statement": "Mean annual warming is projected at 1.1–3.0°C by the 2060s and 1.6–5.3°C by the 2090s, fastest in the north and northwest; 2041–50 dry/hot and wet/warm cases differ in both temperature and rainfall.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "GIN-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GIN-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GIN-SRC-001",
+          "locator": "Section 1.2, printed p. 19 (PDF p. 19), CC-MFMod results under dry/hot and wet/warm climate scenarios."
+        }
+      ],
+      "geographies": [
+        "Guinea"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "CCDR macroeconomic pathways and climate scenarios; cited dry/hot and wet/warm results are without accelerated adaptation.",
+      "compact_statement": "Without accelerated adaptation, modelled 2050 GDP losses reach 11.6% under dry/hot conditions and 2.5% under wet/warm conditions.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "GIN-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GIN-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "GIN-SRC-001",
+          "locator": "Printed p. 18 (PDF p. 18), discussion of fragility, governance, land issues, and intercommunal violence."
+        }
+      ],
+      "geographies": [
+        "Guinea",
+        "Rural areas"
+      ],
+      "affected_groups": [
+        "Rural residents",
+        "Women"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "current",
+        "medium-term"
+      ],
+      "scenario": "Qualitative country assessment; no climate scenario or dated projection is specified in this passage.",
+      "compact_statement": "The CCDR states that climate impacts aggravate Guinea’s fragility; it also identifies insecure tenure and land issues among fragility drivers linked in the report to rural poverty, gender inequality, and intercommunal violence.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "GIN-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "GIN-E-003",
+        "selected_source_id": "GIN-SRC-001",
+        "url": "https://documents1.worldbank.org/curated/en/099021226050013303/pdf/P501474-e1a9833f-7eb7-4b58-bee2-81c8ab479282.pdf",
+        "locator": "Printed p. 18 (PDF p. 18), discussion of fragility, governance, land issues, and intercommunal violence.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "GIN-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GIN-SRC-002",
+          "locator": "Section on climate risks, printed p. 23 (PDF p. 23), 2024 flood impacts and 2025 events near Conakry."
+        }
+      ],
+      "geographies": [
+        "Guinea",
+        "Conakry"
+      ],
+      "affected_groups": [
+        "Flood-affected people"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC lists drought, rainfall disruption, floods, heat, and sea-level rise; it reports 132,496 flood-affected people in 2024 and further major flooding near Conakry in summer 2025.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "GIN-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GIN-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GIN-SRC-002",
+          "locator": "Printed p. 24 (PDF p. 24), socio-economic effects, climate-related internal mobility, and adaptation needs."
+        }
+      ],
+      "geographies": [
+        "Guinea",
+        "Conakry"
+      ],
+      "affected_groups": [
+        "People moving internally"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC says climate impacts interact with socioeconomic fragilities and contribute to internal mobility toward Conakry; it describes migration as a frequently cited adaptation strategy.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "GIN-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GIN-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GIN-SRC-002",
+          "locator": "Printed p. 24 (PDF p. 24), coastal exposure and mangrove adaptation needs."
+        }
+      ],
+      "geographies": [
+        "Conakry",
+        "Forécariah",
+        "Boffa",
+        "Kamsar"
+      ],
+      "affected_groups": [
+        "Coastal communities",
+        "People dependent on fisheries"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "Risk mapping to 2030/2050; scenario unstated.",
+      "compact_statement": "The NDC names Conakry, Forécariah, Boffa, and Kamsar as exposed to coastal inundation, erosion, and saline intrusion; it calls for risk mapping and 5,000 hectares of mangrove restoration.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "GIN-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GIN-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GIN-SRC-002",
+          "locator": "Printed p. 23 (PDF p. 23), proposed adaptation governance for 2026–2035."
+        }
+      ],
+      "geographies": [
+        "Guinea",
+        "Communes and local areas"
+      ],
+      "affected_groups": [
+        "Women",
+        "Residents of vulnerable areas"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": "Proposed NDC governance arrangements for 2026–2035.",
+      "compact_statement": "For 2026–2035, the NDC proposes interministerial and municipal coordination, local contingency plans, inclusive committees with at least 40% women, and linked early-warning and assistance protocols.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "GIN-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GIN-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GIN-SRC-101",
+          "locator": "PDF p. 7, ‘Disasters and crises’"
+        }
+      ],
+      "geographies": [
+        "Siguiri",
+        "Kouroussa",
+        "Kankan",
+        "Mandiana",
+        "Gueckedou"
+      ],
+      "affected_groups": [
+        "people in flood-affected prefectures"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-02-27 reports: In 2024, flood waves in Siguiri, Kouroussa, Kankan, Mandiana and Gueckedou disrupted livelihoods and required humanitarian assistance.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GIN-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GIN-SRC-101",
+          "locator": "PDF p. 7, ‘Disasters and crises’"
+        }
+      ],
+      "geographies": [
+        "Guinea"
+      ],
+      "affected_groups": [
+        "flood-affected people"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-02-27 reports: Floods account for over 75% of recorded natural hazards; the plan reports over 70,000 affected and needing aid in the prior five years.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GIN-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GIN-SRC-101",
+          "locator": "PDF p. 6, ‘Climate and environment’"
+        }
+      ],
+      "geographies": [
+        "Guinea’s coastal zones",
+        "northern Guinea"
+      ],
+      "affected_groups": [
+        "coastal communities",
+        "farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-02-27 reports: The plan links coastal sea-level rise to salinization, flooding, water shortages, crop and infrastructure damage; floods also affect northern Guinea.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GIN-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GIN-SRC-101",
+          "locator": "PDF p. 4, Red Cross Society of Guinea profile"
+        }
+      ],
+      "geographies": [
+        "Guinea"
+      ],
+      "affected_groups": [
+        "vulnerable people",
+        "disaster-affected people",
+        "migrants"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-02-27 reports: The Red Cross Society of Guinea operates 38 prefectural/communal and 303 sub-prefectural committees covering disaster response, climate action, early warning and migration assistance.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GIN-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GIN-SRC-101",
+          "locator": "PDF p. 8, ‘IFRC-DREF Guinea Siguiri Floods 2024’"
+        }
+      ],
+      "geographies": [
+        "Kankan region",
+        "Siguiri"
+      ],
+      "affected_groups": [
+        "13,300 flood-affected people"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-02-27 reports: An August 2024 DREF allocation of CHF 467,835 supported Guinea Red Cross aid for 13,300 flood-affected people in Kankan region over four months, including cash, health, WASH and protection/accountability services.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GIN-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GIN-SRC-102",
+          "locator": "Printed p. 17, section A, paragraph 1"
+        }
+      ],
+      "geographies": [
+        "Guinea"
+      ],
+      "affected_groups": [
+        "national population"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-04-24 reports: IMF reports Guinea among 20 countries with the lowest climate-risk coping capacity on institutional and infrastructure factors, likely reflecting long-standing constraints and weak connectivity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GIN-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GIN-SRC-102",
+          "locator": "Printed pp. 20–22, DIGNAD adaptation scenarios"
+        }
+      ],
+      "geographies": [
+        "Guinea"
+      ],
+      "affected_groups": [
+        "national economy"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "Scenario 3 invests an additional 1% of GDP in resilient infrastructure during 2024–2028 using grants, raises public investment efficiency from 50% to 70%, and models a hypothetical 1%-of-GDP disaster in 2029.",
+      "compact_statement": "Source dated 2024-04-24 reports: IMF DIGNAD simulations find grant-financed resilient infrastructure plus improved public-investment efficiency yields the smallest modeled disaster-related GDP loss and debt increase.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GIN-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GIN-SRC-001",
+          "locator": "PDF p. 110, Annex 3, opening paragraph"
+        }
+      ],
+      "geographies": [
+        "northern Guinea"
+      ],
+      "affected_groups": [
+        "pastoral communities",
+        "farming communities",
+        "rural women"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12 reports: CCDR says northern degradation/desertification threatens pastoral and farming communities, heightening intercommunal tensions; insecure tenure compounds rural poverty and gender inequality.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "GIN-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GIN-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GIN-SRC-001",
+          "locator": "PDF p. 106, Annex 2, climate readiness assessment"
+        }
+      ],
+      "geographies": [
+        "Guinea"
+      ],
+      "affected_groups": [
+        "students",
+        "health-service users"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12 reports: The CCDR says education-adaptation strategies are underimplemented due to political instability and high costs; a 2013 health-adaptation plan was not implemented for lack of funds.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "GIN-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GIN-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GIN-SRC-001",
+          "locator": "Physical PDF p.43, Table 5."
+        }
+      ],
+      "geographies": [
+        "Conakry",
+        "Nzérékoré",
+        "Kankan",
+        "Kindia",
+        "Siguiri",
+        "Kamsar"
+      ],
+      "affected_groups": [
+        "urban residents",
+        "urban poor"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "2050, SSP3-7.0; percent change in expected urban flood damages relative to historical conditions, with and without modeled adaptation.",
+      "compact_statement": "Under SSP3-7.0 for 2050, the CCDR models urban flood damage increases without adaptation in six named cities; with modeled adaptation, increases are smaller, and Conakry/Kamsar losses fall below their historical baselines.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "GIN-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "GIN-E-003",
+  "source_access_review": {
+    "selected_record_id": "GIN-E-003",
+    "selected_source_id": "GIN-SRC-001",
+    "url": "https://documents1.worldbank.org/curated/en/099021226050013303/pdf/P501474-e1a9833f-7eb7-4b58-bee2-81c8ab479282.pdf",
+    "locator": "Printed p. 18 (PDF p. 18), discussion of fragility, governance, land issues, and intercommunal violence.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": null,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+  },
+  "checks": [
+    {
+      "record_id": "GIN-E-003",
+      "source_id": "GIN-SRC-001",
+      "locator": "Printed p. 18 (PDF p. 18), discussion of fragility, governance, land issues, and intercommunal violence.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "GIN-E-003: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "GIN-E-001",
+    "GIN-E-002",
+    "GIN-E-003",
+    "GIN-E-004",
+    "GIN-E-005",
+    "GIN-E-006",
+    "GIN-E-007",
+    "GIN-E-101",
+    "GIN-E-102",
+    "GIN-E-103",
+    "GIN-E-104",
+    "GIN-E-105",
+    "GIN-E-106",
+    "GIN-E-107",
+    "GIN-E-108",
+    "GIN-E-109",
+    "GIN-E-110"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

@@ -1,0 +1,1223 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "PLW",
+  "candidate_path": "countries/PLW/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 6,
+    "evidence_count": 19,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 19
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 18,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "PLW-E-116"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "PLW-E-101",
+          "PLW-E-110",
+          "PLW-E-117"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "PLW-E-102",
+          "PLW-E-103",
+          "PLW-E-105",
+          "PLW-E-106",
+          "PLW-E-107",
+          "PLW-E-109",
+          "PLW-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "PLW-E-118"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "PLW-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "PLW-E-104",
+          "PLW-E-108",
+          "PLW-E-112",
+          "PLW-E-113",
+          "PLW-E-115",
+          "PLW-E-119"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "PLW-E-101",
+          "PLW-E-102",
+          "PLW-E-103",
+          "PLW-E-104",
+          "PLW-E-105",
+          "PLW-E-106",
+          "PLW-E-109",
+          "PLW-E-110",
+          "PLW-E-111",
+          "PLW-E-112",
+          "PLW-E-113",
+          "PLW-E-114"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/PLW/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "PLW-SRC-101",
+      "title": "Republic of Palau Second National Communication to the United Nations Framework Convention on Climate Change",
+      "organization": "Republic of Palau",
+      "publication_date": "2013-09",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/resource/Final_Palau%20National%20Communication.pdf",
+      "geographic_coverage": [
+        "Palau",
+        "Melekeok State",
+        "Ngardok Nature Reserve",
+        "Airai State",
+        "Koror"
+      ],
+      "temporal_coverage": "Palau climate vulnerability assessments and historic conditions reported in 2013; includes projections to 2050 and 2100.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PLW-E-101",
+        "PLW-E-102",
+        "PLW-E-103",
+        "PLW-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 98-page government communication, especially printed pp. 41–45; direct PDF text inspected.",
+          "notes": "Read the full publisher-hosted PDF sections supporting each cited claim; historical assessment vintage is flagged.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PLW-SRC-102",
+      "title": "Palau Water Policy 2025–2045",
+      "organization": "Government of Palau",
+      "publication_date": "2025",
+      "publication_date_basis": "document-version",
+      "url": "https://www.palaugov.pw/wp-content/uploads/Palau-Water-Policy-2025-2045.pdf",
+      "geographic_coverage": [
+        "Palau",
+        "Ngerikiil watershed",
+        "Airai State",
+        "Koror",
+        "Kayangel",
+        "Sonsorol",
+        "Hatohobei",
+        "Babeldaob"
+      ],
+      "temporal_coverage": "Water-sector conditions and policy priorities in the 2025–2045 policy; includes historical 2016 drought and cited climate projections.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PLW-E-105",
+        "PLW-E-106",
+        "PLW-E-107",
+        "PLW-E-108"
+      ],
+      "this_audit_verification": "access-only",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 48-page government policy; especially pp. 8, 11, 20–22.",
+          "notes": "Directly read the publisher-hosted PDF passages on watershed supply, atoll water access, rural system quality and drought; climate projections are identified as sourced from the 2015 policy.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "PLW-E-105",
+        "selected_source_id": "PLW-SRC-102",
+        "url": "https://www.palaugov.pw/wp-content/uploads/Palau-Water-Policy-2025-2045.pdf",
+        "locator": "PDF p. 8, Ngerikiil watershed description.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 2631610,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          8
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "PLW-E-105"
+      ]
+    },
+    {
+      "source_id": "PLW-SRC-103",
+      "title": "Disaster Risk and Climate Change Impact Survey in the Republic of Palau, Phase I",
+      "organization": "Palau Bureau of Cultural and Historical Preservation and University of Oregon researchers; supported by UNDP through the EDCR project",
+      "publication_date": "2021",
+      "publication_date_basis": "document-version",
+      "url": "https://library.sprep.org/sites/default/files/2025-09/Disaster-Risk-and-Climate-Change-Impact-Survey-in-the-Republic-of-Palau_v6.pdf",
+      "geographic_coverage": [
+        "Palau",
+        "Iporu, Tobi Island",
+        "Kayangel",
+        "Melekeok",
+        "Ngeremlengui"
+      ],
+      "temporal_coverage": "Field survey conducted November 2019 and March 2020; includes flooding observed at Kayangel in April 2021.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PLW-E-109",
+        "PLW-E-110",
+        "PLW-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 53-page Phase I assessment, including Iporu/Tobi pp. 22–23, Kayangel pp. 24–27 and Melekeok pp. 33–34.",
+          "notes": "Directly read complete report. Cover credits the Palau cultural-preservation office and University of Oregon researchers; field visits were in 2019–20, with a 2021 Kayangel event noted.",
+          "reuse_terms": "SPREP catalog lists a public licence for the Palau State of Environment dataset, but that does not establish reuse terms for this report; no explicit report licence confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PLW-SRC-104",
+      "title": "Palau’s Rock Islands Southern Lagoon launches resilience strategy",
+      "organization": "UNESCO World Heritage Centre",
+      "publication_date": "2023-11-03",
+      "publication_date_basis": "publication",
+      "url": "https://whc.unesco.org/en/news/2621/",
+      "geographic_coverage": [
+        "Rock Islands Southern Lagoon",
+        "Koror State",
+        "Koror community"
+      ],
+      "temporal_coverage": "Resilience strategy launched in 2023; coastal fisheries management plan adopted in 2021.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PLW-E-112",
+        "PLW-E-113",
+        "PLW-E-114"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete UNESCO publisher page, paragraphs on strategy design, funding, first-phase actions, Koror staffing and 2021 fisheries plan.",
+          "notes": "Directly read the page body; claims retain the reported strategy and implementation scope.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PLW-SRC-105",
+      "title": "Palau: Office of Climate Change — climate impacts and the Palau Climate Change Policy 2025",
+      "organization": "Office of Climate Change, Republic of Palau",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.climatechange.pw/",
+      "geographic_coverage": [
+        "Palau"
+      ],
+      "temporal_coverage": "Official page summarizing the 2025 climate policy and climate projections through 2040 and later.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PLW-E-115",
+        "PLW-E-116"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Official climate-office body, Palau Climate Change Policy and Key Climate Impacts sections.",
+          "notes": "Directly read the official page's substantive summary; underlying policy and projection methodology were not downloaded or reviewed.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PLW-SRC-106",
+      "title": "Enhancing disaster and climate resilience in Palau",
+      "organization": "United Nations Development Programme, Pacific Office",
+      "publication_date": "2020-02-06",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/pacific/press-releases/enhancing-disaster-and-climate-resilience-palau",
+      "geographic_coverage": [
+        "Palau",
+        "Kayangel State",
+        "remote outer-island communities"
+      ],
+      "temporal_coverage": "Reports damage from Typhoon Haiyan in 2013 and El Niño drought in 2016; describes disaster-capacity activities in February 2020.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PLW-E-117",
+        "PLW-E-118",
+        "PLW-E-119"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete UNDP publisher article, paragraphs on 2013/2016 impacts, remote logistics and planned training.",
+          "notes": "Directly read full publisher body; training is described as scheduled in February 2020, not verified as completed.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "PLW-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PLW-SRC-101",
+          "locator": "PDF pp. 43–44 (printed pp. 44–45), Melekeok vulnerability assessment."
+        }
+      ],
+      "geographies": [
+        "Melekeok State coastal strip"
+      ],
+      "affected_groups": [
+        "coastal residents",
+        "tourism operators",
+        "water and utility users"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "The 2013 assessment considers sea-level rise, storm surge and waves through 2100.",
+      "compact_statement": "Source dated 2013-09 reports: The assessment placed most coastal homes, tourist lodging and utility lines within 30 metres of Melekeok’s high-water mark, vulnerable to sea rise, waves and typhoons.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PLW-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PLW-SRC-101",
+          "locator": "PDF p. 44 (printed p. 45), Melekeok coastal wastewater-treatment plant assessment."
+        }
+      ],
+      "geographies": [
+        "Melekeok State southern coast"
+      ],
+      "affected_groups": [
+        "coastal residents",
+        "wastewater-service users"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Projected sea-level rise and storm surge.",
+      "compact_statement": "Source dated 2013-09 reports: It identified the southern-coast wastewater plant as a low-lying mangrove-edge asset at risk of inundation, damage and sewage release.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PLW-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PLW-SRC-101",
+          "locator": "PDF p. 44 (printed p. 45), Ngardok Nature Reserve and water-supply assessment."
+        }
+      ],
+      "geographies": [
+        "Ngardok Nature Reserve",
+        "Melekeok State",
+        "Ngerdoch River and lake"
+      ],
+      "affected_groups": [
+        "Melekeok residents",
+        "tourism-dependent households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2013-09 reports: Ngardok Nature Reserve covers one-third of Melekeok and supplies its only drinking water; prolonged drought is identified as its greatest natural-system threat, alongside flood and erosion risks.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PLW-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PLW-SRC-101",
+          "locator": "PDF pp. 44–45 (printed pp. 45–46), Melekeok assessment outputs and implementation status."
+        }
+      ],
+      "geographies": [
+        "Melekeok State"
+      ],
+      "affected_groups": [
+        "Melekeok residents",
+        "state service users"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2013-09 reports: Proposed outputs included resilient wastewater, watershed and water-supply systems plus a state adaptation plan; no project adaptation strategies had yet been implemented.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PLW-E-105",
+      "record_review": "manual-passage-check-incomplete",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "PLW-SRC-102",
+          "locator": "PDF p. 8, Ngerikiil watershed description."
+        }
+      ],
+      "geographies": [
+        "Ngerikiil watershed",
+        "Airai State",
+        "Koror"
+      ],
+      "affected_groups": [
+        "residents of Airai and Koror",
+        "water-service users"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2025 water policy identifies the Ngerikiil catchment in Airai as the primary supply area for Airai and Koror. Its population-coverage figures vary between passages, so the bank retains qualitative dependence rather than a precise current coverage share.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "PLW-E-105",
+        "source_id": "PLW-SRC-102",
+        "url": "https://www.palaugov.pw/wp-content/uploads/Palau-Water-Policy-2025-2045.pdf",
+        "locator": "PDF p. 8, Ngerikiil watershed description.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "access-only",
+        "claim_verification": "unresolved",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "manual_adjudication_completed": true,
+        "verification_note": "The inspected page supports Ngerikiil qualitative supply dependence; the claimed variation across other passages was not independently compared."
+      },
+      "verification_note": "The inspected page supports Ngerikiil qualitative supply dependence; the claimed variation across other passages was not independently compared.",
+      "manual_adjudication": {
+        "status": "unresolved",
+        "reviewed_on": "2026-10-27",
+        "source_id": "PLW-SRC-102",
+        "source_url": "https://www.palaugov.pw/wp-content/uploads/Palau-Water-Policy-2025-2045.pdf",
+        "locator": "PDF p. 8, Ngerikiil watershed description.",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The inspected page supports Ngerikiil qualitative supply dependence; the claimed variation across other passages was not independently compared.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      }
+    },
+    {
+      "record_id": "PLW-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PLW-SRC-102",
+          "locator": "PDF p. 20, section 6.1.1, outlying-island supply paragraph."
+        }
+      ],
+      "geographies": [
+        "Kayangel",
+        "Sonsorol",
+        "Hatohobei"
+      ],
+      "affected_groups": [
+        "households on remote outer atolls"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: The policy says households on remote atolls including Kayangel, Sonsorol and Hatohobei mostly rely on rainwater catchments rather than piped treated water.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PLW-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PLW-SRC-102",
+          "locator": "PDF p. 20, Koror–Airai and rural Babeldaob water-treatment descriptions."
+        }
+      ],
+      "geographies": [
+        "Koror",
+        "Airai State",
+        "rural Babeldaob villages"
+      ],
+      "affected_groups": [
+        "rural village households",
+        "water-system users"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: While Koror–Airai water quality is described as good, small rural Babeldaob plants often have high turbidity after heavy rain and sometimes detect E. coli or coliforms.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PLW-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PLW-SRC-102",
+          "locator": "PDF pp. 11 and 22, drought/water-resource and utility-finance sections."
+        }
+      ],
+      "geographies": [
+        "Palau",
+        "smaller water systems"
+      ],
+      "affected_groups": [
+        "households using smaller water systems",
+        "farm households"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: The policy records that the 2016 drought brought water shortages, poor sanitation, crop failures and malnutrition risk; it also says utility financial shortfalls prevent needed quality improvements in smaller systems.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PLW-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PLW-SRC-103",
+          "locator": "PDF p. 2, executive summary; pp. 22–23, Iporu/Tobi site assessment and recommendations."
+        }
+      ],
+      "geographies": [
+        "Iporu",
+        "Tobi Island",
+        "Hatohobei State"
+      ],
+      "affected_groups": [
+        "Tobi residents",
+        "Palauan communities with cultural ties to Tobi"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": "Projected inundation risk; no sea-level scenario is specified.",
+      "compact_statement": "Source dated 2021 reports: At Iporu on Tobi, surveyors found erosion had exposed archaeological remains; low-lying Tobi cultural sites (3–4 metres and below) were considered at risk of inundation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PLW-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PLW-SRC-103",
+          "locator": "PDF pp. 24–27, Kayangel traditional-village assessment and recommendations."
+        }
+      ],
+      "geographies": [
+        "Beluu er a Ngerdimes",
+        "Beluu er a Ngerdilong",
+        "Kayangel State"
+      ],
+      "affected_groups": [
+        "Kayangel residents",
+        "garden-using households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2021 reports: The report describes 2012–13 typhoon-driven debris, saltwater inundation affecting Kayangel gardens and homes, and flooding again in April 2021 at the low-lying traditional-village sites.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PLW-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PLW-SRC-103",
+          "locator": "PDF pp. 33–34, Odalmelech monolith assessment in Melekeok State."
+        }
+      ],
+      "geographies": [
+        "Odalmelech",
+        "Melekeok State"
+      ],
+      "affected_groups": [
+        "Melekeok residents",
+        "cultural heritage custodians"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2021 reports: At the Melekeok coast, four stone monoliths had been undercut by erosion and were resting on the beach; the report recommends restoring and reinforcing the site and keeping a drainage culvert clear.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PLW-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PLW-SRC-104",
+          "locator": "UNESCO page, paragraphs describing strategy design and community dependence on the reef."
+        }
+      ],
+      "geographies": [
+        "Rock Islands Southern Lagoon",
+        "Koror State"
+      ],
+      "affected_groups": [
+        "Koror community",
+        "reef-dependent households"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-11-03 reports: The Rock Islands Southern Lagoon resilience strategy was co-designed over two years by the local management authority and community with NGO and scientific partners, drawing on reef-condition data and community dependence on reef resources.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PLW-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PLW-SRC-104",
+          "locator": "UNESCO page, strategy implementation and financing paragraphs."
+        }
+      ],
+      "geographies": [
+        "Rock Islands Southern Lagoon",
+        "Koror State"
+      ],
+      "affected_groups": [
+        "Koror community",
+        "reef-dependent households"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-11-03 reports: The strategy account says earlier plans lacked implementation funds and integration; its first phase includes cultural-site preservation, sustainable fisheries, conservation finance and adaptive-management capacity, with a resilience officer placed in Koror State Government.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PLW-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PLW-SRC-104",
+          "locator": "UNESCO page, paragraph on coastal fisheries management plan adopted in 2021."
+        }
+      ],
+      "geographies": [
+        "Rock Islands Southern Lagoon",
+        "Koror community"
+      ],
+      "affected_groups": [
+        "Koror fishers",
+        "reef-dependent households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-11-03 reports: The local authority adopted a 2021 coastal-fisheries plan applying traditional knowledge to reef-fish and invertebrate recovery and sustainable harvesting for the Koror community.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PLW-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PLW-SRC-105",
+          "locator": "Official climate-office page, Palau Climate Change Policy section."
+        }
+      ],
+      "geographies": [
+        "Palau",
+        "state governments",
+        "community organizations"
+      ],
+      "affected_groups": [
+        "Palau communities",
+        "state governments"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The Office of Climate Change says the PCCP 2025 covers nine sectors and five pillars and is accompanied by a ten-year action plan developed through a two-year process involving 150-plus people.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PLW-E-116",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PLW-SRC-105",
+          "locator": "Official climate-office page, ‘Key Climate Impacts in Palau’ sections on reefs, storms and sea level."
+        }
+      ],
+      "geographies": [
+        "Palau"
+      ],
+      "affected_groups": [
+        "reef-dependent communities",
+        "coastal residents"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "The official webpage gives these projections but does not identify an emissions scenario.",
+      "compact_statement": "Source dated not stated reports: The Office page projects annual widespread coral bleaching by 2040 and stronger typhoon intensity; it says rising sea level will worsen high-tide flooding, storm surge and erosion.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PLW-E-117",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PLW-SRC-106",
+          "locator": "UNDP page, paragraph reporting Typhoon Haiyan damage in 2013."
+        }
+      ],
+      "geographies": [
+        "Palau",
+        "Kayangel State"
+      ],
+      "affected_groups": [
+        "households",
+        "public-service users"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-02-06 reports: UNDP reports Typhoon Haiyan caused severe multi-sector infrastructure damage in Palau in 2013, with an estimated 454 homes destroyed or damaged.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PLW-E-118",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PLW-SRC-106",
+          "locator": "UNDP page, paragraphs on the 2016 El Niño drought and remoteness-related response planning."
+        }
+      ],
+      "geographies": [
+        "Palau",
+        "remote communities"
+      ],
+      "affected_groups": [
+        "remote communities",
+        "households relying on public water"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-02-06 reports: UNDP says the 2016 El Niño drought caused water shortages across 80% of Palau and sanitation risks; NEMO noted the country’s remoteness delays resources and that assessment training can improve response planning.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PLW-E-119",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PLW-SRC-106",
+          "locator": "UNDP page, training and partnership paragraphs."
+        }
+      ],
+      "geographies": [
+        "Palau",
+        "national and remote communities"
+      ],
+      "affected_groups": [
+        "government officials",
+        "women participants",
+        "disaster-affected communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2020-02-06 reports: A February 2020 UNDP–SPC–NEMO partnership planned five-day post-disaster assessment and recovery training for 30 officials and stakeholders, 40% women, across sectors including gender, water, health and housing.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "PLW-E-105",
+  "source_access_review": {
+    "selected_record_id": "PLW-E-105",
+    "selected_source_id": "PLW-SRC-102",
+    "url": "https://www.palaugov.pw/wp-content/uploads/Palau-Water-Policy-2025-2045.pdf",
+    "locator": "PDF p. 8, Ngerikiil watershed description.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "access-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 2631610,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      8
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The inspected page supports Ngerikiil qualitative supply dependence; the claimed variation across other passages was not independently compared."
+  },
+  "checks": [
+    {
+      "record_id": "PLW-E-105",
+      "source_id": "PLW-SRC-102",
+      "locator": "PDF p. 8, Ngerikiil watershed description.",
+      "verification_status": "unresolved",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "access-only",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": false,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "PLW-E-105: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "PLW-E-101",
+    "PLW-E-102",
+    "PLW-E-103",
+    "PLW-E-104",
+    "PLW-E-105",
+    "PLW-E-106",
+    "PLW-E-107",
+    "PLW-E-108",
+    "PLW-E-109",
+    "PLW-E-110",
+    "PLW-E-111",
+    "PLW-E-112",
+    "PLW-E-113",
+    "PLW-E-114",
+    "PLW-E-115",
+    "PLW-E-116",
+    "PLW-E-117",
+    "PLW-E-118",
+    "PLW-E-119"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

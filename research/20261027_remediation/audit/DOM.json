@@ -1,0 +1,899 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "DOM",
+  "candidate_path": "countries/DOM/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 3,
+    "evidence_count": 13,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 13
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 1,
+      "access-only": 12
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "DOM-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "DOM-E-104",
+          "DOM-E-105",
+          "DOM-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "DOM-E-102",
+          "DOM-E-106",
+          "DOM-E-108",
+          "DOM-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "DOM-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "DOM-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "DOM-E-112",
+          "DOM-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "DOM-E-101"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "DOM-E-102",
+          "DOM-E-103",
+          "DOM-E-104"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "DOM-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/DOM/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "DOM-SRC-101",
+      "title": "Climate migrants: Dominican Republic: Country Report",
+      "organization": "World Bank Group",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://bvearmb.do/bitstream/handle/123456789/4662/Climate%20migrants_DR_country%20report_2024.pdf?isAllowed=y&sequence=1",
+      "geographic_coverage": [
+        "Dominican Republic",
+        "Haiti",
+        "Dominican Republic–Haiti border",
+        "Dajabón Province",
+        "Restauración",
+        "El Cibao",
+        "Higüey",
+        "Baúl",
+        "Los Cerezos",
+        "La Berenjena"
+      ],
+      "temporal_coverage": "Climate-migration projections for 2050 and 2100; qualitative case-study interviews in Restauración reported in the 2024 country report.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "DOM-E-101",
+        "DOM-E-102",
+        "DOM-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Executive Summary and Key Messages; PDF pp. 11–13 (printed pp. 3–5), migration modeling, Restauración case study and agroforestry examples",
+          "notes": "Opened the complete 111-page World Bank Group report from the Dominican environmental education library record; inspected cited passages, methods and scenario descriptions.",
+          "reuse_terms": "Not separately inspected; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "DOM-E-101",
+        "selected_source_id": "DOM-SRC-101",
+        "url": "https://bvearmb.do/bitstream/handle/123456789/4662/Climate%20migrants_DR_country%20report_2024.pdf?isAllowed=y&sequence=1",
+        "locator": "PDF physical p.9 (printed p.ix), Key Messages; physical pp.12–13 (printed pp.3–4), migration patterns.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": 403,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "HTTP 403"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "DOM-SRC-102",
+      "title": "Dominican Republic Poverty Assessment 2023: Background Note on Poverty and Climate Change",
+      "organization": "World Bank",
+      "publication_date": "2023-04",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099102723131516670/pdf/P17738204e9ca30208e59040204bafae33.pdf",
+      "geographic_coverage": [
+        "Dominican Republic",
+        "Greater Santo Domingo",
+        "Puerto Plata",
+        "southern regions",
+        "southwestern regions",
+        "urban areas",
+        "rural areas"
+      ],
+      "temporal_coverage": "Uses a 2021 flood-risk household survey for reported impacts and coping in April 2019–April 2021, plus historical household and hazard data.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "DOM-E-104",
+        "DOM-E-105",
+        "DOM-E-106",
+        "DOM-E-107",
+        "DOM-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 13–15 and 22, 30 and 34 (printed pp. 12–14, 21, 29 and 33), urban exposure, survey risk, coping and gendered warning access",
+          "notes": "Opened and inspected the complete 43-page World Bank background note, including survey methodology and cited results.",
+          "reuse_terms": "Not separately inspected; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "DOM-SRC-103",
+      "title": "Dominican Republic: 2025 Article IV Consultation—Press Release; Staff Report; and Statement by the Executive Director",
+      "organization": "International Monetary Fund",
+      "publication_date": "2025-11",
+      "publication_date_basis": "publication",
+      "url": "https://www.imf.org/-/media/files/publications/cr/2025/english/1domea2025001-source-pdf.pdf",
+      "geographic_coverage": [
+        "Dominican Republic",
+        "municipalities",
+        "national, regional and provincial levels"
+      ],
+      "temporal_coverage": "2025 Article IV report; reports recent policy and disaster conditions, including Hurricane Fiona in 2022 and climate projections to 2050.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "DOM-E-109",
+        "DOM-E-110",
+        "DOM-E-111",
+        "DOM-E-112",
+        "DOM-E-113"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 96–99, Annex I paras. 2 and 8–10, climate trends, water access, Fiona impacts, social protection and local disaster-risk governance",
+          "notes": "Opened the complete 116-page IMF Article IV report and inspected the climate and disaster-risk annex passages and footnotes.",
+          "reuse_terms": "Not separately inspected; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "DOM-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "DOM-SRC-101",
+          "locator": "PDF physical p.9 (printed p.ix), Key Messages; physical pp.12–13 (printed pp.3–4), migration patterns."
+        }
+      ],
+      "geographies": [
+        "Dominican Republic–Haiti border",
+        "El Cibao",
+        "Higüey",
+        "Dominican Republic"
+      ],
+      "affected_groups": [
+        "Haiti-origin climate migrants",
+        "host communities in Dominican border areas"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "RCP2.6/8.5 paired with SSP2/4; projections extend to 2050 and 2100.",
+      "compact_statement": "Source dated 2024 reports: The model projects Haiti-origin climate migrants into Dominican border, farm and urban areas; lagging border infrastructure may heighten competition with host communities over scarce resources.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "DOM-E-101",
+        "selected_source_id": "DOM-SRC-101",
+        "url": "https://bvearmb.do/bitstream/handle/123456789/4662/Climate%20migrants_DR_country%20report_2024.pdf?isAllowed=y&sequence=1",
+        "locator": "PDF physical p.9 (printed p.ix), Key Messages; physical pp.12–13 (printed pp.3–4), migration patterns.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": 403,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "HTTP 403"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "DOM-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DOM-SRC-101",
+          "locator": "PDF physical p.13 (printed p.4), Restauración case study."
+        }
+      ],
+      "geographies": [
+        "Restauración",
+        "Dajabón Province"
+      ],
+      "affected_groups": [
+        "agricultural workers",
+        "rain-fed farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: Interviewees in Restauración, Dajabón, linked rainfall shifts and land degradation to lower farm yields and migration intentions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DOM-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DOM-SRC-101",
+          "locator": "PDF physical pp.13–14 (printed pp.4–5), Restauración adaptation discussion."
+        }
+      ],
+      "geographies": [
+        "Restauración",
+        "Baúl",
+        "Los Cerezos",
+        "La Berenjena"
+      ],
+      "affected_groups": [
+        "low-income farmers",
+        "farmers with limited land or investment resources"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: Some Restauración farmers diversified into forestry and agroforestry; local association nurseries provided plants, but time, land and investment constrained poorer farmers.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DOM-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DOM-SRC-102",
+          "locator": "PDF p. 13 (printed p. 12), urban exposure and FIAS findings following Figure 10"
+        }
+      ],
+      "geographies": [
+        "Greater Santo Domingo",
+        "Puerto Plata"
+      ],
+      "affected_groups": [
+        "residents of informal settlements"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-04 reports: The note cites estimates that informal settlements house 43% of Greater Santo Domingo residents and 70% of Puerto Plata residents.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DOM-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DOM-SRC-102",
+          "locator": "PDF p. 13 (printed p. 12), discussion accompanying Figure 11, survey losses 2019–2021"
+        }
+      ],
+      "geographies": [
+        "southern Dominican Republic",
+        "southwestern Dominican Republic"
+      ],
+      "affected_groups": [
+        "households reporting flood or rainfall losses"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-04 reports: Surveyed household-goods losses associated with floods or excess rainfall in 2019–21 were concentrated mainly in the south and southwest.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DOM-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DOM-SRC-102",
+          "locator": "PDF p. 15 (printed p. 14), section 4.2.3 and Figure 12, flood risk by wealth and rural/urban location"
+        }
+      ],
+      "geographies": [
+        "Dominican Republic",
+        "rural areas",
+        "urban centers"
+      ],
+      "affected_groups": [
+        "poor households",
+        "bottom-two wealth quintiles"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-04 reports: Poor people were 46% of residents in highly flood-prone areas; one in four households in the bottom two wealth quintiles faced high flood risk.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DOM-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DOM-SRC-102",
+          "locator": "PDF pp. 22 and 34 (printed pp. 21 and 33), coping analysis and conclusion"
+        }
+      ],
+      "geographies": [
+        "Dominican Republic"
+      ],
+      "affected_groups": [
+        "poor households",
+        "children in flood-affected households"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-04 reports: The note reports poor households may sell assets, migrate, remove children from school, or cut food, health and education consumption after climate shocks.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DOM-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DOM-SRC-102",
+          "locator": "PDF physical p.31 (printed p.30), female-headed household warning and information access."
+        }
+      ],
+      "geographies": [
+        "Dominican Republic"
+      ],
+      "affected_groups": [
+        "female-headed households",
+        "older female household heads"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-04 reports: Female-headed households were less likely than male-headed households to receive flood warnings (40% vs 47%) or seek weather information (50% vs 56%).",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DOM-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DOM-SRC-103",
+          "locator": "PDF physical pp.96–97 (printed pp.91–92), Annex IX, paragraph 2 and climate projections."
+        }
+      ],
+      "geographies": [
+        "Dominican Republic"
+      ],
+      "affected_groups": [
+        "national population",
+        "farmers",
+        "coastal residents"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "2050 projection; cited paragraph omits emissions scenario.",
+      "compact_statement": "Source dated 2025-11 reports: IMF reports mean temperature rose 0.73°C since 1950; another 0.63–1.94°C rise and declining precipitation are projected by 2050.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DOM-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DOM-SRC-103",
+          "locator": "PDF physical p.96 (printed p.91), Annex IX, paragraph 1 footnote 4."
+        }
+      ],
+      "geographies": [
+        "Dominican Republic"
+      ],
+      "affected_groups": [
+        "disaster-displaced people",
+        "households reliant on water supply"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-11 reports: Hurricane Fiona (2022) damaged over 8,500 homes, displaced over 43,000 people and disrupted water for more than one million households.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DOM-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DOM-SRC-103",
+          "locator": "PDF physical p.96 (printed p.91), Annex IX, footnote 5."
+        }
+      ],
+      "geographies": [
+        "Dominican Republic"
+      ],
+      "affected_groups": [
+        "low-income households",
+        "vulnerable households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-11 reports: Six in ten residents experience intermittent water supply; low-income households may spend up to 12% of income on bottled water.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DOM-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DOM-SRC-103",
+          "locator": "PDF physical p.100 (printed p.95), Annex IX, paragraph 9."
+        }
+      ],
+      "geographies": [
+        "Dominican Republic"
+      ],
+      "affected_groups": [
+        "vulnerable households",
+        "disaster-affected households"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-11 reports: IVACC and FIBE guide Emergency Bonus targeting using structural damage, health effects and income loss after weather emergencies.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DOM-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DOM-SRC-103",
+          "locator": "PDF physical p.100 (printed p.95), Annex IX, paragraph 10."
+        }
+      ],
+      "geographies": [
+        "Dominican Republic",
+        "municipalities",
+        "provinces"
+      ],
+      "affected_groups": [
+        "communities in municipal jurisdictions"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-11 reports: Municipal disaster committees prepare local emergency plans, but misaligned plans and weak cross-level coordination hinder unified response.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "DOM-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "DOM-E-101"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "DOM-E-101"
+        ],
+        "impact": [
+          "DOM-E-101"
+        ],
+        "mediator": [
+          "DOM-E-101"
+        ],
+        "consequence": [
+          "DOM-E-101"
+        ]
+      },
+      "geographies": [
+        "Dominican Republic–Haiti border"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Projected mobility may expose gaps in border services and resource access; tension is conditional, not a migrant threat attribution.",
+      "alternative_explanations": [
+        "Border policies, Haiti's political-economic conditions, labor demand and social networks alter migration and integration."
+      ],
+      "uncertainty": "Conditional modeled pathway, not an observed 2026 forecast or causal violence estimate; border-policy assumptions may not hold.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "DOM-E-101",
+  "source_access_review": {
+    "selected_record_id": "DOM-E-101",
+    "selected_source_id": "DOM-SRC-101",
+    "url": "https://bvearmb.do/bitstream/handle/123456789/4662/Climate%20migrants_DR_country%20report_2024.pdf?isAllowed=y&sequence=1",
+    "locator": "PDF physical p.9 (printed p.ix), Key Messages; physical pp.12–13 (printed pp.3–4), migration patterns.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": 403,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "HTTP 403"
+  },
+  "checks": [
+    {
+      "record_id": "DOM-E-101",
+      "source_id": "DOM-SRC-101",
+      "locator": "PDF physical p.9 (printed p.ix), Key Messages; physical pp.12–13 (printed pp.3–4), migration patterns.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "DOM-E-101: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "DOM-E-101",
+    "DOM-E-102",
+    "DOM-E-103",
+    "DOM-E-104",
+    "DOM-E-105",
+    "DOM-E-106",
+    "DOM-E-107",
+    "DOM-E-108",
+    "DOM-E-109",
+    "DOM-E-110",
+    "DOM-E-111",
+    "DOM-E-112",
+    "DOM-E-113",
+    "DOM-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

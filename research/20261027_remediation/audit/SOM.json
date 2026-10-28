@@ -1,0 +1,2913 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "SOM",
+  "candidate_path": "countries/SOM/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 17,
+    "evidence_count": 33,
+    "pathway_count": 7,
+    "evidence_source_reference_count": 33
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 16,
+      "verified": 9,
+      "access-only": 8
+    },
+    "pathway_claims": {
+      "unresolved": 7
+    },
+    "source_passages_reopened_by_this_audit": 5,
+    "source_claims_verified_by_this_audit": 9,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 9 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "SOM-E-001",
+          "SOM-E-002",
+          "SOM-E-003",
+          "SOM-E-101"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "SOM-E-004",
+          "SOM-E-005",
+          "SOM-E-011",
+          "SOM-E-012"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "SOM-E-006",
+          "SOM-E-007",
+          "SOM-E-008",
+          "SOM-E-009",
+          "SOM-E-010",
+          "SOM-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SOM-E-021",
+          "SOM-E-022",
+          "SOM-E-103",
+          "SOM-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SOM-E-016",
+          "SOM-E-017",
+          "SOM-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SOM-E-015",
+          "SOM-E-019"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "SOM-E-018",
+          "SOM-E-020",
+          "SOM-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "SOM-E-013",
+          "SOM-E-014",
+          "SOM-E-106",
+          "SOM-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SOM-E-023",
+          "SOM-E-110",
+          "SOM-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "SOM-E-101",
+          "SOM-E-103",
+          "SOM-E-106",
+          "SOM-E-108",
+          "SOM-E-110",
+          "SOM-E-111",
+          "SOM-E-112"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "SOM-P-001",
+          "SOM-P-002",
+          "SOM-P-003",
+          "SOM-P-004",
+          "SOM-P-005",
+          "SOM-P-006",
+          "SOM-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/SOM/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "SOM-SRC-001",
+      "title": "*Climate Risk Profile Somalia*",
+      "organization": "Weathering Risk / Potsdam Institute for Climate Impact Research (PIK)",
+      "publication_date": "2022",
+      "publication_date_basis": "publication",
+      "url": "https://weatheringrisk.org/sites/default/files/document/Climate_Risk_Profile_Somalia.pdf",
+      "geographic_coverage": [
+        "National, with subnational modelling"
+      ],
+      "temporal_coverage": "Baseline to 2080",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SOM-E-001",
+        "SOM-E-002",
+        "SOM-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SOM-SRC-002",
+      "title": "*Somalia's Third Generation Nationally Determined Contribution (NDC 3.0)*",
+      "organization": "Somalia; reproduced by FAO/FAOLEX through InforMEA",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://www.informea.org/en/content/legislation/somalias-third-generation-nationally-determined-contribution-ndc-30",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "Strategy 2025-2035",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SOM-E-017"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SOM-SRC-003",
+      "title": "*National Adaptation Plan - Somalia*",
+      "organization": "Somalia / UNFCCC",
+      "publication_date": "2025-09-25",
+      "publication_date_basis": "portal-publication",
+      "url": "https://unfccc.int/documents/650015",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "NAP 2026-2030",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SOM-SRC-004",
+      "title": "*Climate-related security risks and peacebuilding in Somalia*",
+      "organization": "SIPRI",
+      "publication_date": "2019",
+      "publication_date_basis": "publication",
+      "url": "https://www.sipri.org/sites/default/files/2019-10/sipripp53_2.pdf",
+      "geographic_coverage": [
+        "Somalia; especially UNSOM operations"
+      ],
+      "temporal_coverage": "Mainly historical-2019",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "SOM-E-014"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SOM-SRC-005",
+      "title": "*Environmental Peacemaking in Somalia: Integrated Climate and Conflict Analysis of the Newly Liberated Areas of Hirshabelle and Galmudug*",
+      "organization": "European Institute of Peace",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://www.eip.org/wp-content/uploads/2024/09/EIP-Climate-and-Conflict-Analysis-of-NLA-Somalia-September-2024-2.pdf",
+      "geographic_coverage": [
+        "Newly Liberated Areas, Hirshabelle and Galmudug"
+      ],
+      "temporal_coverage": "Field/consultation work Aug 2023-Mar 2024",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "open",
+      "records_using_source": [
+        "SOM-E-013"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "manual_reviewed_record_ids": [
+        "SOM-E-013"
+      ],
+      "manual_verified_record_ids": [
+        "SOM-E-013"
+      ]
+    },
+    {
+      "source_id": "SOM-SRC-006",
+      "title": "*SWALIM Quarterly Newsletter: Jan-March 2026*",
+      "organization": "FAO Somalia Water and Land Information Management",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://faoswalim.org/resources/site_files/Swalim%20Newsletter%20Q1%202026.pdf",
+      "geographic_coverage": [
+        "National with district/river-basin detail"
+      ],
+      "temporal_coverage": "Jan-Mar 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SOM-E-004",
+        "SOM-E-005",
+        "SOM-E-021"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "manual_reviewed_record_ids": [
+        "SOM-E-004"
+      ],
+      "manual_verified_record_ids": [
+        "SOM-E-004"
+      ]
+    },
+    {
+      "source_id": "SOM-SRC-007",
+      "title": "*FAO GIEWS Country Brief: Somalia*",
+      "organization": "FAO",
+      "publication_date": "2026-03-11",
+      "publication_date_basis": "publication",
+      "url": "https://cb.apps.fao.org/country.jsp?code=SOM&lang=en",
+      "geographic_coverage": [
+        "National with market and livelihood-zone examples"
+      ],
+      "temporal_coverage": "Mainly 2025-Mar 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "open",
+      "records_using_source": [
+        "SOM-E-006",
+        "SOM-E-007",
+        "SOM-E-008"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "manual_reviewed_record_ids": [
+        "SOM-E-007"
+      ]
+    },
+    {
+      "source_id": "SOM-SRC-008",
+      "title": "*Somalia IPC Acute Food Insecurity and Acute Malnutrition Analysis - Updated Projection April-June 2026*",
+      "organization": "Somalia IPC Technical Working Group / IPC partners",
+      "publication_date": "2026-05-14",
+      "publication_date_basis": "publication",
+      "url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Somalia_Projection_Update_Acute_Food_Insecurity_Malnutrition_Apr_Jun2026_Report.pdf",
+      "geographic_coverage": [
+        "National and subnational"
+      ],
+      "temporal_coverage": "Apr-Jun 2026; nutrition Jan-Dec 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SOM-E-009",
+        "SOM-E-010",
+        "SOM-E-011"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "manual_reviewed_record_ids": [
+        "SOM-E-009",
+        "SOM-E-010",
+        "SOM-E-011"
+      ],
+      "manual_verified_record_ids": [
+        "SOM-E-009",
+        "SOM-E-010",
+        "SOM-E-011"
+      ]
+    },
+    {
+      "source_id": "SOM-SRC-009",
+      "title": "*UNHCR Somalia PSMN 2026 Q2 Report*",
+      "organization": "UNHCR / Protection & Solutions Monitoring Network",
+      "publication_date": "2026-07-23",
+      "publication_date_basis": "portal-publication",
+      "url": "https://data.unhcr.org/en/documents/details/123429",
+      "geographic_coverage": [
+        "Somalia"
+      ],
+      "temporal_coverage": "Q2 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SOM-E-012"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SOM-SRC-010",
+      "title": "*Support for Strengthening Climate Change Adaptation Planning for the Federal Republic of Somalia*",
+      "organization": "UNDP / GCF",
+      "publication_date": "2020",
+      "publication_date_basis": "publication",
+      "url": "https://www.adaptation-undp.org/projects/naps-gcf-somalia",
+      "geographic_coverage": [
+        "National, state and district levels"
+      ],
+      "temporal_coverage": "2020-2024 programme",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SOM-E-015",
+        "SOM-E-016"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "manual_reviewed_record_ids": [
+        "SOM-E-015",
+        "SOM-E-016"
+      ]
+    },
+    {
+      "source_id": "SOM-SRC-011",
+      "title": "*The World Bank Group in the Federal Republic of Somalia, Fiscal Years 2013-23: Country Program Evaluation*",
+      "organization": "World Bank Independent Evaluation Group",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099307503252514921/pdf/SECBOS-b7638dbd-e401-4df7-9d43-ca52fc26a0e9.pdf",
+      "geographic_coverage": [
+        "National plus programme/subnational analysis"
+      ],
+      "temporal_coverage": "FY2013-23",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SOM-E-018",
+        "SOM-E-019"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "manual_reviewed_record_ids": [
+        "SOM-E-018",
+        "SOM-E-019"
+      ],
+      "manual_verified_record_ids": [
+        "SOM-E-018",
+        "SOM-E-019"
+      ]
+    },
+    {
+      "source_id": "SOM-SRC-012",
+      "title": "*Evaluation of Somalia WFP Country Strategic Plan 2022-2025*",
+      "organization": "WFP Office of Evaluation",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.wfp.org/publications/evaluation-somalia-wfp-country-strategic-plan-2022-2025",
+      "geographic_coverage": [
+        "Somalia"
+      ],
+      "temporal_coverage": "CSP 2022-25 plus ICSP 2019-21",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SOM-E-020"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SOM-SRC-013",
+      "title": "*Joint Communiqué - Activation of the National Preparedness Plan for Food and Nutrition Security Crises*",
+      "organization": "Federal Government of Somalia and partners / World Bank host",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/statement/2026/02/26/activation-of-the-national-preparedness-plan-for-food-and-nutrition-security-crises-in-the-federal-republic-of-somalia",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "Feb 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SOM-E-022"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SOM-SRC-014",
+      "title": "*UNDP Somalia Annual Report 2025*",
+      "organization": "UNDP",
+      "publication_date": "2026-05-14",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/somalia/publications/undp-somalia-annual-report-2025",
+      "geographic_coverage": [
+        "Somalia"
+      ],
+      "temporal_coverage": "2025",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SOM-E-023"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SOM-SRC-101",
+      "title": "Somalia Humanitarian Needs and Response Plan 2026",
+      "organization": "United Nations Office for the Coordination of Humanitarian Affairs (OCHA), Somalia Humanitarian Country Team, and Somali Disaster Management Agency",
+      "publication_date": "2026-01-26",
+      "publication_date_basis": "publication",
+      "url": "https://somalia.un.org/sites/default/files/2026-01/Somalia_HNRP_2026.pdf",
+      "geographic_coverage": [
+        "Somalia",
+        "Puntland",
+        "Hirshabelle",
+        "Middle Shabelle",
+        "Lower Shabelle",
+        "Hiraan",
+        "Galgaduud",
+        "Bay",
+        "Bakool",
+        "Lower Juba",
+        "Banadir",
+        "Baidoa"
+      ],
+      "temporal_coverage": "2025 shock and displacement observations; 2026 humanitarian needs, response planning and access conditions.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SOM-E-101",
+        "SOM-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 47-page public PDF; sections 1.1, 1.2 and 4.4.2, including PDF pp. 8-9, 11 and 43.",
+          "notes": "Full report opened and relevant substantive passages read. Claims retain the plan's operational scope and distinguish observed 2025 conditions from DTM's near-term projection.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SOM-SRC-102",
+      "title": "Endline Evaluation Report: Building Resilient Communities in Somalia (BRCiS) III",
+      "organization": "Causal Design, prepared for the Norwegian Refugee Council (NRC)",
+      "publication_date": "2026-06",
+      "publication_date_basis": "publication",
+      "url": "https://www.nrc.no/globalassets/pdf/reports/brcis-iii-baseline/brcis-iii-endline-report.pdf",
+      "geographic_coverage": [
+        "Somalia",
+        "Afgoye",
+        "Jambaluul",
+        "Buula Madino",
+        "El Barde",
+        "Emilow",
+        "Higlowayn",
+        "Lawareeg",
+        "Ayeeyo",
+        "21 BRCiS III districts"
+      ],
+      "temporal_coverage": "BRCiS III baseline 2024 and endline 2026; programme closed on 31 March 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SOM-E-105",
+        "SOM-E-106",
+        "SOM-E-107",
+        "SOM-E-108",
+        "SOM-E-109"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 104-page public PDF; executive summary and sections 2, 3.5-3.7, including PDF pp. 7, 43-44, 79, 82 and 89.",
+          "notes": "Full endline report text was accessible and read. Report explains the early project closure and contribution-analysis design; no counterfactual attribution is claimed here.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "SOM-E-106",
+        "selected_source_id": "SOM-SRC-102",
+        "url": "https://www.nrc.no/globalassets/pdf/reports/brcis-iii-baseline/brcis-iii-endline-report.pdf",
+        "locator": "PDF p. 82, section 3.6, conflict's toll on markets and wellbeing.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 3369874,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          82
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "SOM-E-106",
+        "SOM-E-107"
+      ],
+      "manual_verified_record_ids": [
+        "SOM-E-106",
+        "SOM-E-107"
+      ]
+    },
+    {
+      "source_id": "SOM-SRC-103",
+      "title": "Burning Ground: Tackling Climate Change and Conflict in South-central Somalia",
+      "organization": "Stockholm International Peace Research Institute (SIPRI)",
+      "publication_date": "2024-05",
+      "publication_date_basis": "publication",
+      "url": "https://www.sipri.org/sites/default/files/2024-08/2405_burning_ground_0824.pdf",
+      "geographic_coverage": [
+        "Galmudug",
+        "Hirshabelle",
+        "Mataban District",
+        "Hobyo",
+        "Duqaqo",
+        "Beer Gadid",
+        "Deegan Bile target communities"
+      ],
+      "temporal_coverage": "Deegan Bile project period and drought context 2021-2024; SIPRI surveys and focus groups in January 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SOM-E-110",
+        "SOM-E-111",
+        "SOM-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 42-page public report; sections 4-5, especially PDF pp. 22-23 and 32.",
+          "notes": "Full report text was accessible and relevant passages read. It identifies its close implementation partnership and the pending Hirshabelle evaluation as limitations; the unpublished IOM report is summarized only as SIPRI presents it.",
+          "reuse_terms": "SIPRI report states all rights reserved; only concise paraphrases are used and no separate open license was verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "SOM-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-001",
+          "locator": "PDF file p.1/19, “Summary - Temperature.”"
+        }
+      ],
+      "geographies": [
+        "Somalia"
+      ],
+      "affected_groups": [
+        "population-wide"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term",
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "2030/2050/2080; RCP2.6/6.0",
+      "compact_statement": "Substantial warming is projected.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SOM-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SOM-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-001",
+          "locator": "PDF file p.1/19, “Summary - Precipitation.”"
+        }
+      ],
+      "geographies": [
+        "Somalia"
+      ],
+      "affected_groups": [
+        "rain-dependent livelihoods"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "to 2080; RCP2.6/6.0",
+      "compact_statement": "Rainfall variability is more certain than rainfall magnitude.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SOM-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SOM-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-001",
+          "locator": "PDF file p.1/19, “Summary - Sea level rise.”"
+        }
+      ],
+      "geographies": [
+        "Somali coast"
+      ],
+      "affected_groups": [
+        "coastal residents"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "2080; RCP2.6/6.0",
+      "compact_statement": "Coastal sea level rises under both scenarios.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SOM-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SOM-E-004",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-006",
+          "locator": "PDF file p.1/8, “SWALIM Strengthens Early Warning…,” drought paragraph."
+        }
+      ],
+      "geographies": [
+        "Southern and central Somalia"
+      ],
+      "affected_groups": [
+        "pastoral/agropastoral/rural communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Q1 2026 drought was severe but spatially uneven.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SOM-SRC-006"
+      ],
+      "recommendations": [
+        "Retain as a dated, spatially uneven Q1 2026 drought snapshot; do not imply anthropogenic attribution."
+      ],
+      "verification_method": "Opened the complete FAO SWALIM Q1 2026 newsletter PDF and reviewed physical PDF page 1 on 2026-10-27.",
+      "verification_note": "The page reports severe/extreme drought expanding during January-February, localized improvement, and persistent severe conditions in named southern regions in March; this is a Q1 snapshot.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "SOM-SRC-006",
+        "source_url": "https://faoswalim.org/resources/site_files/Swalim%20Newsletter%20Q1%202026.pdf",
+        "locator": "PDF file p.1/8, “SWALIM Strengthens Early Warning…,” drought paragraph.",
+        "verification_method": "Opened the complete FAO SWALIM Q1 2026 newsletter PDF and reviewed physical PDF page 1 on 2026-10-27.",
+        "reason": "The page reports severe/extreme drought expanding during January-February, localized improvement, and persistent severe conditions in named southern regions in March; this is a Q1 snapshot.",
+        "recommended_record_patch": "Retain as a dated, spatially uneven Q1 2026 drought snapshot; do not imply anthropogenic attribution.",
+        "coordinator_decision_ref": null
+      },
+      "screening_cues_cleared_by_review": [],
+      "verification_attempt": {
+        "record_id": "SOM-E-004",
+        "source_id": "SOM-SRC-006",
+        "url": "https://faoswalim.org/resources/site_files/Swalim%20Newsletter%20Q1%202026.pdf",
+        "locator": "PDF file p.1/8, “SWALIM Strengthens Early Warning…,” drought paragraph.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Opened the complete FAO SWALIM Q1 2026 newsletter PDF and reviewed physical PDF page 1 on 2026-10-27.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The page reports severe/extreme drought expanding during January-February, localized improvement, and persistent severe conditions in named southern regions in March; this is a Q1 snapshot."
+      }
+    },
+    {
+      "record_id": "SOM-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-006",
+          "locator": "PDF file p.1/8, hydrological-stress/flood-vulnerability paragraphs."
+        }
+      ],
+      "geographies": [
+        "Shabelle and Juba"
+      ],
+      "affected_groups": [
+        "farmers",
+        "riverine communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "In Q1 2026, low river flows and groundwater dependence raised drought-related water and irrigation concerns while mapped river breakages showed concurrent flood exposure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SOM-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SOM-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-007",
+          "locator": "FAO GIEWS Somalia Country Brief, historical edition dated 11 March 2026, section 'Near-total failure of 2025 Deyr cereal crops in southern areas'."
+        }
+      ],
+      "geographies": [
+        "Central/southern cropping areas"
+      ],
+      "affected_groups": [
+        "farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2025 Deyr harvest was 75% below the preceding five-year average, while the 2025 Gu harvest was above average.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SOM-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SOM-E-007",
+      "record_review": "manual-source-access-limited",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-007",
+          "locator": "FAO GIEWS Somalia Country Brief, historical edition dated 11 March 2026, section 'Livestock sector severely affected by harsh dry weather conditions'."
+        }
+      ],
+      "geographies": [
+        "Central/northern pastoral Somalia"
+      ],
+      "affected_groups": [
+        "pastoralists"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "During the 2025 Deyr failure, water and pasture shortages drove earlier and longer livestock movements.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SOM-SRC-007"
+      ],
+      "recommendations": [
+        "Supply an archived 2026-03-11 GIEWS brief or update the claim from the current dated edition; keep this claim unresolved."
+      ],
+      "verification_method": "Opened the live FAO GIEWS country brief on 2026-10-27; the mutable page showed Reference Date 2026-09-15, not the cited 2026-03-11 historical edition.",
+      "verification_note": "The URL no longer exposes the cited 11 March 2026 edition or its 2025 Deyr livestock passage; the claim was not reverified.",
+      "manual_adjudication": {
+        "status": "unresolved",
+        "reviewed_on": "2026-10-27",
+        "source_id": "SOM-SRC-007",
+        "source_url": "https://cb.apps.fao.org/country.jsp?code=SOM&lang=en",
+        "locator": "FAO GIEWS Somalia Country Brief, historical edition dated 11 March 2026, section 'Livestock sector severely affected by harsh dry weather conditions'.",
+        "verification_method": "Opened the live FAO GIEWS country brief on 2026-10-27; the mutable page showed Reference Date 2026-09-15, not the cited 2026-03-11 historical edition.",
+        "reason": "The URL no longer exposes the cited 11 March 2026 edition or its 2025 Deyr livestock passage; the claim was not reverified.",
+        "recommended_record_patch": "Supply an archived 2026-03-11 GIEWS brief or update the claim from the current dated edition; keep this claim unresolved.",
+        "coordinator_decision_ref": null
+      },
+      "verification_attempt": {
+        "record_id": "SOM-E-007",
+        "source_id": "SOM-SRC-007",
+        "url": "https://cb.apps.fao.org/country.jsp?code=SOM&lang=en",
+        "locator": "FAO GIEWS Somalia Country Brief, historical edition dated 11 March 2026, section 'Livestock sector severely affected by harsh dry weather conditions'.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Opened the live FAO GIEWS country brief on 2026-10-27; the mutable page showed Reference Date 2026-09-15, not the cited 2026-03-11 historical edition.",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "manual_adjudication_completed": true,
+        "verification_note": "The URL no longer exposes the cited 11 March 2026 edition or its 2025 Deyr livestock passage; the claim was not reverified."
+      }
+    },
+    {
+      "record_id": "SOM-E-008",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-007",
+          "locator": "FAO GIEWS Somalia Country Brief, historical edition dated 11 March 2026, section 'Prices of cereals surging to record levels'."
+        }
+      ],
+      "geographies": [
+        "Dinsoor",
+        "Qorioley",
+        "Mogadishu"
+      ],
+      "affected_groups": [
+        "food purchasers",
+        "poor households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Between September 2025 and January 2026, selected cereal markets recorded sharp price rises alongside drought-linked production losses.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SOM-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SOM-E-009",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-008",
+          "locator": "PDF file p.1/27 “Overview/Key Drivers” and p.2/27 driver synthesis."
+        }
+      ],
+      "geographies": [
+        "Somalia"
+      ],
+      "affected_groups": [
+        "food-insecure households",
+        "IDPs"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "historical",
+        "near-term"
+      ],
+      "scenario": "Apr-Jun 2026",
+      "compact_statement": "For April-June 2026, IPC estimated 6.0 million people in Phase 3+ and attributed deterioration to interacting climatic, economic, conflict and assistance factors.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SOM-SRC-008"
+      ],
+      "recommendations": [
+        "Keep as a dated April-June 2026 projection, not a current classification or observed October caseload."
+      ],
+      "verification_method": "Opened the complete 14 May 2026 IPC projection-update PDF and reviewed physical pages 1-2 on 2026-10-27.",
+      "verification_note": "The report projects about 6 million people, 31% of the analysed population, in IPC Phase 3+ during April-June 2026 and attributes deterioration to interacting climate, economic, conflict and assistance factors. The period has passed.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "SOM-SRC-008",
+        "source_url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Somalia_Projection_Update_Acute_Food_Insecurity_Malnutrition_Apr_Jun2026_Report.pdf",
+        "locator": "PDF file p.1/27 “Overview/Key Drivers” and p.2/27 driver synthesis.",
+        "verification_method": "Opened the complete 14 May 2026 IPC projection-update PDF and reviewed physical pages 1-2 on 2026-10-27.",
+        "reason": "The report projects about 6 million people, 31% of the analysed population, in IPC Phase 3+ during April-June 2026 and attributes deterioration to interacting climate, economic, conflict and assistance factors. The period has passed.",
+        "recommended_record_patch": "Keep as a dated April-June 2026 projection, not a current classification or observed October caseload.",
+        "coordinator_decision_ref": null
+      },
+      "screening_cues_cleared_by_review": [],
+      "verification_attempt": {
+        "record_id": "SOM-E-009",
+        "source_id": "SOM-SRC-008",
+        "url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Somalia_Projection_Update_Acute_Food_Insecurity_Malnutrition_Apr_Jun2026_Report.pdf",
+        "locator": "PDF file p.1/27 “Overview/Key Drivers” and p.2/27 driver synthesis.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Opened the complete 14 May 2026 IPC projection-update PDF and reviewed physical pages 1-2 on 2026-10-27.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The report projects about 6 million people, 31% of the analysed population, in IPC Phase 3+ during April-June 2026 and attributes deterioration to interacting climate, economic, conflict and assistance factors. The period has passed."
+      }
+    },
+    {
+      "record_id": "SOM-E-010",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-008",
+          "locator": "PDF file p.1/27 headline and p.2/27 nutrition paragraph."
+        }
+      ],
+      "geographies": [
+        "Somalia"
+      ],
+      "affected_groups": [
+        "children 6-59 months"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "2026",
+      "compact_statement": "Child malnutrition reflects multiple interacting pressures.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SOM-SRC-008"
+      ],
+      "recommendations": [
+        "Retain the 2026 annual projection and age range; do not label the projected total as observed or climate-attributable."
+      ],
+      "verification_method": "Opened the complete 14 May 2026 IPC projection-update PDF and reviewed physical pages 1-2 on 2026-10-27.",
+      "verification_note": "The report projects nearly 1.88 million children aged 6-59 months needing treatment for acute malnutrition during 2026, with interacting drivers; it is a full-year projection, not an observed caseload or climate-attributable estimate.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "SOM-SRC-008",
+        "source_url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Somalia_Projection_Update_Acute_Food_Insecurity_Malnutrition_Apr_Jun2026_Report.pdf",
+        "locator": "PDF file p.1/27 headline and p.2/27 nutrition paragraph.",
+        "verification_method": "Opened the complete 14 May 2026 IPC projection-update PDF and reviewed physical pages 1-2 on 2026-10-27.",
+        "reason": "The report projects nearly 1.88 million children aged 6-59 months needing treatment for acute malnutrition during 2026, with interacting drivers; it is a full-year projection, not an observed caseload or climate-attributable estimate.",
+        "recommended_record_patch": "Retain the 2026 annual projection and age range; do not label the projected total as observed or climate-attributable.",
+        "coordinator_decision_ref": null
+      },
+      "screening_cues_cleared_by_review": [],
+      "verification_attempt": {
+        "record_id": "SOM-E-010",
+        "source_id": "SOM-SRC-008",
+        "url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Somalia_Projection_Update_Acute_Food_Insecurity_Malnutrition_Apr_Jun2026_Report.pdf",
+        "locator": "PDF file p.1/27 headline and p.2/27 nutrition paragraph.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Opened the complete 14 May 2026 IPC projection-update PDF and reviewed physical pages 1-2 on 2026-10-27.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The report projects nearly 1.88 million children aged 6-59 months needing treatment for acute malnutrition during 2026, with interacting drivers; it is a full-year projection, not an observed caseload or climate-attributable estimate."
+      }
+    },
+    {
+      "record_id": "SOM-E-011",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-008",
+          "locator": "PDF file p.13/27, Annex 1 “Burhakaba District…Risk of Famine.”"
+        }
+      ],
+      "geographies": [
+        "Burhakaba",
+        "Bay"
+      ],
+      "affected_groups": [
+        "poor agropastoral households",
+        "children"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "historical",
+        "near-term"
+      ],
+      "scenario": "Apr-Jun 2026 worst case",
+      "compact_statement": "IPC's April-June 2026 Burhakaba famine-risk scenario was conditional, not an observed Famine classification.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SOM-SRC-008"
+      ],
+      "recommendations": [
+        "Retain the conditional worst-case scenario and its assumptions; never restate this as an observed Famine classification."
+      ],
+      "verification_method": "Opened the complete 14 May 2026 IPC projection-update PDF and reviewed physical page 13, Annex 1, on 2026-10-27.",
+      "verification_note": "The most-likely scenario showed no Phase 5 population in Burhakaba; the source describes a conditional famine risk only under a worst-case combination including failed rains, higher prices and no assistance scale-up. The forecast period has passed.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "SOM-SRC-008",
+        "source_url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Somalia_Projection_Update_Acute_Food_Insecurity_Malnutrition_Apr_Jun2026_Report.pdf",
+        "locator": "PDF file p.13/27, Annex 1 “Burhakaba District…Risk of Famine.”",
+        "verification_method": "Opened the complete 14 May 2026 IPC projection-update PDF and reviewed physical page 13, Annex 1, on 2026-10-27.",
+        "reason": "The most-likely scenario showed no Phase 5 population in Burhakaba; the source describes a conditional famine risk only under a worst-case combination including failed rains, higher prices and no assistance scale-up. The forecast period has passed.",
+        "recommended_record_patch": "Retain the conditional worst-case scenario and its assumptions; never restate this as an observed Famine classification.",
+        "coordinator_decision_ref": null
+      },
+      "screening_cues_cleared_by_review": [],
+      "verification_attempt": {
+        "record_id": "SOM-E-011",
+        "source_id": "SOM-SRC-008",
+        "url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Somalia_Projection_Update_Acute_Food_Insecurity_Malnutrition_Apr_Jun2026_Report.pdf",
+        "locator": "PDF file p.13/27, Annex 1 “Burhakaba District…Risk of Famine.”",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Opened the complete 14 May 2026 IPC projection-update PDF and reviewed physical page 13, Annex 1, on 2026-10-27.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The most-likely scenario showed no Phase 5 population in Burhakaba; the source describes a conditional famine risk only under a worst-case combination including failed rains, higher prices and no assistance scale-up. The forecast period has passed."
+      }
+    },
+    {
+      "record_id": "SOM-E-012",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-009",
+          "locator": "webpage summary paragraph under report title. (UNHCR Data Portal)"
+        }
+      ],
+      "geographies": [
+        "Somalia"
+      ],
+      "affected_groups": [
+        "displaced households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "In Q2 2026, UNHCR monitoring attributed nearly 90% of recorded displacement to conflict and drought together.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SOM-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SOM-E-013",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-005",
+          "locator": "PDF file pp.4-6/70 Executive Summary; p.42/70 §3.3/Fig. 6."
+        }
+      ],
+      "geographies": [
+        "NLA",
+        "Hirshabelle and Galmudug"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoralists",
+        "displaced/local communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Climate stress can amplify local conflict drivers rather than directly cause conflict.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SOM-SRC-005"
+      ],
+      "recommendations": [
+        "Correct locator to physical page 40 section 3.3 plus Executive Summary pages 4-6; retain explicit non-direct-causality and local scope."
+      ],
+      "verification_method": "Opened the complete EIP publisher PDF and reviewed Executive Summary physical pages 4-6 and physical page 40, section 3.3, on 2026-10-27.",
+      "verification_note": "The report's Hirshabelle/Galmudug assessment treats climate stress as interacting with pre-existing drivers; stakeholders did not identify climate as a direct cause of conflict. This is a qualitative local analysis.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "SOM-SRC-005",
+        "source_url": "https://www.eip.org/wp-content/uploads/2024/09/EIP-Climate-and-Conflict-Analysis-of-NLA-Somalia-September-2024-2.pdf",
+        "locator": "PDF file pp.4-6/70 Executive Summary; p.42/70 §3.3/Fig. 6.",
+        "verification_method": "Opened the complete EIP publisher PDF and reviewed Executive Summary physical pages 4-6 and physical page 40, section 3.3, on 2026-10-27.",
+        "reason": "The report's Hirshabelle/Galmudug assessment treats climate stress as interacting with pre-existing drivers; stakeholders did not identify climate as a direct cause of conflict. This is a qualitative local analysis.",
+        "recommended_record_patch": "Correct locator to physical page 40 section 3.3 plus Executive Summary pages 4-6; retain explicit non-direct-causality and local scope.",
+        "coordinator_decision_ref": null
+      },
+      "screening_cues_cleared_by_review": [],
+      "verification_attempt": {
+        "record_id": "SOM-E-013",
+        "source_id": "SOM-SRC-005",
+        "url": "https://www.eip.org/wp-content/uploads/2024/09/EIP-Climate-and-Conflict-Analysis-of-NLA-Somalia-September-2024-2.pdf",
+        "locator": "PDF file pp.4-6/70 Executive Summary; p.42/70 §3.3/Fig. 6.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Opened the complete EIP publisher PDF and reviewed Executive Summary physical pages 4-6 and physical page 40, section 3.3, on 2026-10-27.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The report's Hirshabelle/Galmudug assessment treats climate stress as interacting with pre-existing drivers; stakeholders did not identify climate as a direct cause of conflict. This is a qualitative local analysis."
+      }
+    },
+    {
+      "record_id": "SOM-E-014",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-004",
+          "locator": "PDF file p.9/56, “Summary”; methodology p.15/56. (SIPRI)"
+        }
+      ],
+      "geographies": [
+        "Somalia"
+      ],
+      "affected_groups": [
+        "vulnerable and displaced populations"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Climate-security effects are mediated and embedded in pre-existing fragility.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SOM-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SOM-E-015",
+      "record_review": "manual-source-access-limited",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-010",
+          "locator": "webpage “Project summary,” first two paragraphs. (UNDP Climate Change Adaptation)"
+        }
+      ],
+      "geographies": [
+        "Somalia"
+      ],
+      "affected_groups": [
+        "populations reliant on public adaptation"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Institutional capacity constrains adaptation.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SOM-SRC-010"
+      ],
+      "recommendations": [
+        "Retain unresolved until a readable UNDP project record or archived project document is available."
+      ],
+      "verification_method": "Opened the cited UNDP adaptation project page on 2026-10-27; it returned a JavaScript-required shell without the cited project-summary passage.",
+      "verification_note": "The stated institutional-capacity constraint was not matched to readable cited text.",
+      "manual_adjudication": {
+        "status": "unresolved",
+        "reviewed_on": "2026-10-27",
+        "source_id": "SOM-SRC-010",
+        "source_url": "https://www.adaptation-undp.org/projects/naps-gcf-somalia",
+        "locator": "webpage “Project summary,” first two paragraphs. (UNDP Climate Change Adaptation)",
+        "verification_method": "Opened the cited UNDP adaptation project page on 2026-10-27; it returned a JavaScript-required shell without the cited project-summary passage.",
+        "reason": "The stated institutional-capacity constraint was not matched to readable cited text.",
+        "recommended_record_patch": "Retain unresolved until a readable UNDP project record or archived project document is available.",
+        "coordinator_decision_ref": null
+      },
+      "verification_attempt": {
+        "record_id": "SOM-E-015",
+        "source_id": "SOM-SRC-010",
+        "url": "https://www.adaptation-undp.org/projects/naps-gcf-somalia",
+        "locator": "webpage “Project summary,” first two paragraphs. (UNDP Climate Change Adaptation)",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Opened the cited UNDP adaptation project page on 2026-10-27; it returned a JavaScript-required shell without the cited project-summary passage.",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "manual_adjudication_completed": true,
+        "verification_note": "The stated institutional-capacity constraint was not matched to readable cited text."
+      }
+    },
+    {
+      "record_id": "SOM-E-016",
+      "record_review": "manual-source-access-limited",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-010",
+          "locator": "webpage paragraph immediately after “Location: Somalia.” (UNDP Climate Change Adaptation)"
+        }
+      ],
+      "geographies": [
+        "selected states"
+      ],
+      "affected_groups": [
+        "communities in accessible/inaccessible locations"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Insecurity directly influenced adaptation-programme geography.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SOM-SRC-010"
+      ],
+      "recommendations": [
+        "Retain unresolved until the cited programme-location passage is obtained; do not infer security-driven site selection."
+      ],
+      "verification_method": "Opened the cited UNDP adaptation project page on 2026-10-27; it returned a JavaScript-required shell without the cited location paragraph.",
+      "verification_note": "The asserted security influence on programme geography was not matched to readable cited text.",
+      "manual_adjudication": {
+        "status": "unresolved",
+        "reviewed_on": "2026-10-27",
+        "source_id": "SOM-SRC-010",
+        "source_url": "https://www.adaptation-undp.org/projects/naps-gcf-somalia",
+        "locator": "webpage paragraph immediately after “Location: Somalia.” (UNDP Climate Change Adaptation)",
+        "verification_method": "Opened the cited UNDP adaptation project page on 2026-10-27; it returned a JavaScript-required shell without the cited location paragraph.",
+        "reason": "The asserted security influence on programme geography was not matched to readable cited text.",
+        "recommended_record_patch": "Retain unresolved until the cited programme-location passage is obtained; do not infer security-driven site selection.",
+        "coordinator_decision_ref": null
+      },
+      "verification_attempt": {
+        "record_id": "SOM-E-016",
+        "source_id": "SOM-SRC-010",
+        "url": "https://www.adaptation-undp.org/projects/naps-gcf-somalia",
+        "locator": "webpage paragraph immediately after “Location: Somalia.” (UNDP Climate Change Adaptation)",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Opened the cited UNDP adaptation project page on 2026-10-27; it returned a JavaScript-required shell without the cited location paragraph.",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "manual_adjudication_completed": true,
+        "verification_note": "The asserted security influence on programme geography was not matched to readable cited text."
+      }
+    },
+    {
+      "record_id": "SOM-E-017",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-002",
+          "locator": "InforMEA summary, paras. 1-4. (InforMEA)"
+        }
+      ],
+      "geographies": [],
+      "affected_groups": [
+        "Somalia",
+        "vulnerable groups"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "National policy explicitly frames adaptation as conflict-sensitive.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SOM-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SOM-E-018",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-011",
+          "locator": "PDF file p.88/146 (printed p.56), rural resilience; p.89/146 Table 4.2."
+        }
+      ],
+      "geographies": [
+        "Dryland programme areas"
+      ],
+      "affected_groups": [
+        "pastoral/agropastoral communities",
+        "women"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Rural resilience projects produced substantial outputs but missed some targets.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SOM-SRC-011"
+      ],
+      "recommendations": [
+        "Retain dated programme outputs and separate them from the partly achieved livelihood outcome; do not claim broader impact."
+      ],
+      "verification_method": "Opened the complete World Bank IEG Somalia CPF evaluation PDF and reviewed physical pages 88-89 on 2026-10-27.",
+      "verification_note": "IEG reports 51 community management systems and improved water access for 362,731 people by February 2023; it separately reports the flood/drought livelihoods indicator as partly achieved. Outputs and outcome indicators are distinct.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "SOM-SRC-011",
+        "source_url": "https://documents1.worldbank.org/curated/en/099307503252514921/pdf/SECBOS-b7638dbd-e401-4df7-9d43-ca52fc26a0e9.pdf",
+        "locator": "PDF file p.88/146 (printed p.56), rural resilience; p.89/146 Table 4.2.",
+        "verification_method": "Opened the complete World Bank IEG Somalia CPF evaluation PDF and reviewed physical pages 88-89 on 2026-10-27.",
+        "reason": "IEG reports 51 community management systems and improved water access for 362,731 people by February 2023; it separately reports the flood/drought livelihoods indicator as partly achieved. Outputs and outcome indicators are distinct.",
+        "recommended_record_patch": "Retain dated programme outputs and separate them from the partly achieved livelihood outcome; do not claim broader impact.",
+        "coordinator_decision_ref": null
+      },
+      "screening_cues_cleared_by_review": [],
+      "verification_attempt": {
+        "record_id": "SOM-E-018",
+        "source_id": "SOM-SRC-011",
+        "url": "https://documents1.worldbank.org/curated/en/099307503252514921/pdf/SECBOS-b7638dbd-e401-4df7-9d43-ca52fc26a0e9.pdf",
+        "locator": "PDF file p.88/146 (printed p.56), rural resilience; p.89/146 Table 4.2.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Opened the complete World Bank IEG Somalia CPF evaluation PDF and reviewed physical pages 88-89 on 2026-10-27.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "IEG reports 51 community management systems and improved water access for 362,731 people by February 2023; it separately reports the flood/drought livelihoods indicator as partly achieved. Outputs and outcome indicators are distinct."
+      }
+    },
+    {
+      "record_id": "SOM-E-019",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-011",
+          "locator": "PDF file p.118/146 (printed p.86), “Lessons.”"
+        }
+      ],
+      "geographies": [
+        "Somalia"
+      ],
+      "affected_groups": [
+        "service users"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Fragility and fiscal limits threaten service sustainability.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SOM-SRC-011"
+      ],
+      "recommendations": [
+        "Retain as IEG institutional/fiscal assessment, not a quantified climate-loss claim."
+      ],
+      "verification_method": "Opened the complete World Bank IEG Somalia CPF evaluation PDF and reviewed physical page 118, printed page 86, on 2026-10-27.",
+      "verification_note": "IEG identifies fiscal space and capacity as constraints on service sustainability and warns rapid growth may over-stretch systems; this is not a quantified climate-loss estimate.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "SOM-SRC-011",
+        "source_url": "https://documents1.worldbank.org/curated/en/099307503252514921/pdf/SECBOS-b7638dbd-e401-4df7-9d43-ca52fc26a0e9.pdf",
+        "locator": "PDF file p.118/146 (printed p.86), “Lessons.”",
+        "verification_method": "Opened the complete World Bank IEG Somalia CPF evaluation PDF and reviewed physical page 118, printed page 86, on 2026-10-27.",
+        "reason": "IEG identifies fiscal space and capacity as constraints on service sustainability and warns rapid growth may over-stretch systems; this is not a quantified climate-loss estimate.",
+        "recommended_record_patch": "Retain as IEG institutional/fiscal assessment, not a quantified climate-loss claim.",
+        "coordinator_decision_ref": null
+      },
+      "screening_cues_cleared_by_review": [],
+      "verification_attempt": {
+        "record_id": "SOM-E-019",
+        "source_id": "SOM-SRC-011",
+        "url": "https://documents1.worldbank.org/curated/en/099307503252514921/pdf/SECBOS-b7638dbd-e401-4df7-9d43-ca52fc26a0e9.pdf",
+        "locator": "PDF file p.118/146 (printed p.86), “Lessons.”",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Opened the complete World Bank IEG Somalia CPF evaluation PDF and reviewed physical page 118, printed page 86, on 2026-10-27.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "IEG identifies fiscal space and capacity as constraints on service sustainability and warns rapid growth may over-stretch systems; this is not a quantified climate-loss estimate."
+      }
+    },
+    {
+      "record_id": "SOM-E-020",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-012",
+          "locator": "webpage evaluation summary, paras. 1-4. (World Food Programme)"
+        }
+      ],
+      "geographies": [
+        "Somalia"
+      ],
+      "affected_groups": [
+        "food-insecure households"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Emergency response performed strongly in some areas but resilience work faced constraints.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SOM-SRC-012"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SOM-E-021",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-006",
+          "locator": "PDF file p.1/8, monitoring/dissemination and anticipatory-action paragraphs."
+        }
+      ],
+      "geographies": [
+        "Somalia"
+      ],
+      "affected_groups": [
+        "hazard-exposed communities"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Early-warning infrastructure supports anticipatory coping.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SOM-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SOM-E-022",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-013",
+          "locator": "webpage opening paragraphs and paras. 101-105. (World Bank)"
+        }
+      ],
+      "geographies": [
+        "Somalia"
+      ],
+      "affected_groups": [
+        "vulnerable populations"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "A national crisis-governance mechanism was activated in 2026.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SOM-SRC-013"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SOM-E-023",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-014",
+          "locator": "publication-page summary paras. 1-5. (UNDP)"
+        }
+      ],
+      "geographies": [
+        "Somalia"
+      ],
+      "affected_groups": [
+        "programme beneficiaries"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Climate resilience and peace-supporting capacity exist, but evidence is mainly output-level.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SOM-SRC-014"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SOM-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-101",
+          "locator": "PDF p. 8, section 1.1, crisis overview."
+        }
+      ],
+      "geographies": [
+        "Northern Somalia",
+        "Puntland",
+        "Hirshabelle"
+      ],
+      "affected_groups": [
+        "pastoral and farming households",
+        "water users"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The January 2026 HNRP describes 2025 northern drought, depleted Puntland berkads and Hirshabelle borehole-repair needs; these are historical operational figures, not uniform or current state conditions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SOM-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-101",
+          "locator": "PDF p. 43, section 4.4.2, access."
+        }
+      ],
+      "geographies": [
+        "Middle Shabelle",
+        "Lower Shabelle",
+        "Hiraan",
+        "Bay",
+        "Bakool",
+        "Lower Juba",
+        "Mogadishu-Balad-Jowhar-Beledweyne corridor",
+        "Afgooye-Awdheegle-Bariire route"
+      ],
+      "affected_groups": [
+        "rural and peri-urban communities",
+        "humanitarian personnel"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The January 2026 HNRP describes 2025 checkpoints, hostilities, IEDs and damaged roads restricting humanitarian routes in Shabelle, Hiraan, Bay, Bakool and Lower Juba.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SOM-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-102",
+          "locator": "PDF p. 7, executive summary, context and shocks."
+        }
+      ],
+      "geographies": [
+        "BRCiS III programme communities",
+        "21 districts in Somalia"
+      ],
+      "affected_groups": [
+        "BRCiS III surveyed households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "In BRCiS programme households, reported drought exposure rose from 15% at 2024 baseline to 67% at 2026 endline; this is not national prevalence.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SOM-E-106",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-102",
+          "locator": "PDF p. 82, section 3.6, conflict's toll on markets and wellbeing."
+        }
+      ],
+      "geographies": [
+        "Afgoye",
+        "Jambaluul",
+        "Buula Madino",
+        "BRCiS III programme communities"
+      ],
+      "affected_groups": [
+        "farming households",
+        "market users"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The June 2026 BRCiS evaluation reports Jambaluul and Buula Madino residents in Afgoye describing conflict blocking farms and market roads, compounding drought losses.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "Retain the named-site attribution and non-causal direction; do not generalize beyond these BRCiS communities."
+      ],
+      "verification_method": "Opened the complete NRC BRCiS III endline PDF and reviewed physical page 82, section 3.6, on 2026-10-27.",
+      "verification_attempt": {
+        "record_id": "SOM-E-106",
+        "source_id": "SOM-SRC-102",
+        "url": "https://www.nrc.no/globalassets/pdf/reports/brcis-iii-baseline/brcis-iii-endline-report.pdf",
+        "locator": "PDF p. 82, section 3.6, conflict's toll on markets and wellbeing.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Opened the complete NRC BRCiS III endline PDF and reviewed physical page 82, section 3.6, on 2026-10-27.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "Residents in Jambaluul and Buula Madino, Afgoye, describe conflict blocking farms and market roads and compounding drought losses. This is local qualitative testimony, not climate-causes-conflict evidence."
+      },
+      "verification_note": "Residents in Jambaluul and Buula Madino, Afgoye, describe conflict blocking farms and market roads and compounding drought losses. This is local qualitative testimony, not climate-causes-conflict evidence.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "SOM-SRC-102",
+        "source_url": "https://www.nrc.no/globalassets/pdf/reports/brcis-iii-baseline/brcis-iii-endline-report.pdf",
+        "locator": "PDF p. 82, section 3.6, conflict's toll on markets and wellbeing.",
+        "verification_method": "Opened the complete NRC BRCiS III endline PDF and reviewed physical page 82, section 3.6, on 2026-10-27.",
+        "reason": "Residents in Jambaluul and Buula Madino, Afgoye, describe conflict blocking farms and market roads and compounding drought losses. This is local qualitative testimony, not climate-causes-conflict evidence.",
+        "recommended_record_patch": "Retain the named-site attribution and non-causal direction; do not generalize beyond these BRCiS communities.",
+        "coordinator_decision_ref": null
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "SOM-E-107",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-102",
+          "locator": "PDF p. 89, section 3.7.4, Table 38."
+        }
+      ],
+      "geographies": [
+        "BRCiS III programme communities",
+        "21 districts in Somalia"
+      ],
+      "affected_groups": [
+        "producer-cooperative members"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "At BRCiS 2026 endline,52.1%of526surveyed cooperative members reported conflict/insecurity preventing meeting attendance; this is not a share of all households.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "Restore spacing and state 'At BRCiS's June 2026 endline, 52.1% of 526 surveyed cooperative members (95% CI 39.0-65.1) reported that conflict or insecurity prevented meeting attendance; this is not a share of all households.'"
+      ],
+      "verification_method": "Opened the complete NRC BRCiS III endline PDF and reviewed physical page 89, section 3.7.4, Table 38, on 2026-10-27.",
+      "verification_note": "The table reports 52.1% of 526 cooperative members, with 95% CI 39.0-65.1, saying conflict/insecurity prevented meeting attendance. This is a programme-member subgroup, not all households.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "SOM-SRC-102",
+        "source_url": "https://www.nrc.no/globalassets/pdf/reports/brcis-iii-baseline/brcis-iii-endline-report.pdf",
+        "locator": "PDF p. 89, section 3.7.4, Table 38.",
+        "verification_method": "Opened the complete NRC BRCiS III endline PDF and reviewed physical page 89, section 3.7.4, Table 38, on 2026-10-27.",
+        "reason": "The table reports 52.1% of 526 cooperative members, with 95% CI 39.0-65.1, saying conflict/insecurity prevented meeting attendance. This is a programme-member subgroup, not all households.",
+        "recommended_record_patch": "Restore spacing and state 'At BRCiS's June 2026 endline, 52.1% of 526 surveyed cooperative members (95% CI 39.0-65.1) reported that conflict or insecurity prevented meeting attendance; this is not a share of all households.'",
+        "coordinator_decision_ref": null
+      },
+      "screening_cues_cleared_by_review": [],
+      "verification_attempt": {
+        "record_id": "SOM-E-107",
+        "source_id": "SOM-SRC-102",
+        "url": "https://www.nrc.no/globalassets/pdf/reports/brcis-iii-baseline/brcis-iii-endline-report.pdf",
+        "locator": "PDF p. 89, section 3.7.4, Table 38.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Opened the complete NRC BRCiS III endline PDF and reviewed physical page 89, section 3.7.4, Table 38, on 2026-10-27.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The table reports 52.1% of 526 cooperative members, with 95% CI 39.0-65.1, saying conflict/insecurity prevented meeting attendance. This is a programme-member subgroup, not all households."
+      }
+    },
+    {
+      "record_id": "SOM-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-102",
+          "locator": "PDF p. 79, section 3.7.3, agroecological training and water access."
+        }
+      ],
+      "geographies": [
+        "El Barde District",
+        "El Barde Town",
+        "Emilow",
+        "Higlowayn",
+        "Lawareeg",
+        "Ayeeyo"
+      ],
+      "affected_groups": [
+        "smallholder households",
+        "garden participants"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The June 2026 BRCiS evaluation contrasts water-supported gardens in El Barde Town/Emilow with low adoption in water-scarce Higlowayn, Lawareeg and Ayeeyo.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SOM-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-102",
+          "locator": "PDF pp. 43-44, section 3.5.1, Table 16."
+        }
+      ],
+      "geographies": [
+        "BRCiS III programme communities",
+        "21 districts in Somalia"
+      ],
+      "affected_groups": [
+        "BRCiS III surveyed households"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "BRCiS's programme-panel resilience index rose from 3.24 to 3.71 between 2024 and 2026, with larger market/ecosystem than leadership gains; no counterfactual impact is estimated.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SOM-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-103",
+          "locator": "PDF p. 22, section 4, locally legitimate natural resource management."
+        }
+      ],
+      "geographies": [
+        "Galmudug",
+        "Deegan Bile target areas"
+      ],
+      "affected_groups": [
+        "local communities",
+        "women and youth participating in resource decisions"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "SIPRI's 2024 report relays IOM's unpublished Galmudug evaluation claim that resource committees reduced conflicts through faster dispute response and broader participation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SOM-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-103",
+          "locator": "One-based PDF p.23 (printed p.14), Duqaqo participation case."
+        }
+      ],
+      "geographies": [
+        "Duqaqo",
+        "Galmudug"
+      ],
+      "affected_groups": [
+        "women",
+        "village communities"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-05 reports: In Duqaqo, women trained in environmental peacebuilding proposed a drip-irrigated communal farm; after leaders resisted, a peaceful demonstration led to land being designated.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SOM-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SOM-SRC-103",
+          "locator": "One-based PDF p.32 (printed p.23), maladaptation and water-source control risks."
+        }
+      ],
+      "geographies": [
+        "Galmudug",
+        "Hirshabelle",
+        "Deegan Bile target communities"
+      ],
+      "affected_groups": [
+        "communities relying on shared water",
+        "groups with different livelihood uses"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term",
+        "long-term"
+      ],
+      "scenario": "Conditional drought/dry-season risk; no formal scenario or probability stated.",
+      "compact_statement": "Source dated 2024-05 reports: SIPRI warns that water projects could overuse groundwater or trigger competition over borehole and reservoir control, especially during drought or dry seasons.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "SOM-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SOM-E-004",
+        "SOM-E-007",
+        "SOM-E-013"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SOM-E-004"
+        ],
+        "impact": [
+          "SOM-E-007"
+        ],
+        "mediator": [
+          "SOM-E-013"
+        ],
+        "consequence": [
+          "SOM-E-013"
+        ]
+      },
+      "geographies": [
+        "Current pastoral evidence is strongest in central/northern Somalia",
+        "conflict-pathway evidence is specifically documented in Hirshabelle/Galmudug NLA"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Drought-driven livelihood and mobility changes can raise local resource pressures, but whether these become conflict depends on governance, historical relations and institutions.",
+      "alternative_explanations": [
+        "Land tenure ambiguity",
+        "clan relations",
+        "political representation",
+        "armed actors",
+        "historical grievances",
+        "land degradation unrelated to climate",
+        "demographic change and livestock-market conditions"
+      ],
+      "uncertainty": "No national evidence establishes a fixed drought -> conflict relationship; the best direct pathway study is geographically restricted.",
+      "potentially_out_of_scope_support_ids": [
+        "SOM-E-004",
+        "SOM-E-007",
+        "SOM-E-013"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SOM-P-002",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SOM-E-006",
+        "SOM-E-008",
+        "SOM-E-009",
+        "SOM-E-010"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SOM-E-006"
+        ],
+        "impact": [
+          "SOM-E-006"
+        ],
+        "mediator": [
+          "SOM-E-008",
+          "SOM-E-009"
+        ],
+        "consequence": [
+          "SOM-E-009",
+          "SOM-E-010"
+        ]
+      },
+      "geographies": [
+        "National outcome",
+        "with particularly severe conditions in specified livelihood zones and districts"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "direct",
+      "compact_statement": "2026 food insecurity reflects climate-linked production stress interacting with conflict, markets, disease, services and humanitarian financing.",
+      "alternative_explanations": [
+        "Armed conflict",
+        "international commodity/fuel prices",
+        "Somali-shilling disruption",
+        "poverty",
+        "disease",
+        "aid shortfalls and service deficits"
+      ],
+      "uncertainty": "IPC classifications integrate multiple drivers and do not assign an independent causal percentage to climate.",
+      "potentially_out_of_scope_support_ids": [
+        "SOM-E-006",
+        "SOM-E-008",
+        "SOM-E-009",
+        "SOM-E-010"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SOM-P-003",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SOM-E-009",
+        "SOM-E-012",
+        "SOM-E-019"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SOM-E-009"
+        ],
+        "impact": [
+          "SOM-E-012"
+        ],
+        "mediator": [
+          "SOM-E-019"
+        ],
+        "consequence": [
+          "SOM-E-012",
+          "SOM-E-019"
+        ]
+      },
+      "geographies": [
+        "National displacement monitoring",
+        "urban implications should be assessed city by city"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Drought and conflict jointly drive displacement; resulting FCV effects depend on urban/service and land-governance capacity.",
+      "alternative_explanations": [
+        "Direct conflict displacement",
+        "eviction",
+        "insecurity",
+        "poverty and established patterns of urbanization"
+      ],
+      "uncertainty": "UNHCR reports conflict and drought jointly; it does not allocate the “nearly 90%” figure between them or establish the downstream grievance pathway. (UNHCR Data Portal)",
+      "potentially_out_of_scope_support_ids": [
+        "SOM-E-009",
+        "SOM-E-012",
+        "SOM-E-019"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SOM-P-004",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SOM-E-015",
+        "SOM-E-016",
+        "SOM-E-017",
+        "SOM-E-019"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SOM-E-017"
+        ],
+        "impact": [
+          "SOM-E-017"
+        ],
+        "mediator": [
+          "SOM-E-016",
+          "SOM-E-019"
+        ],
+        "consequence": [
+          "SOM-E-016"
+        ]
+      },
+      "geographies": [
+        "Programme-specific",
+        "national relevance plausible but magnitude unquantified"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "direct",
+      "compact_statement": "Insecurity can directly narrow where adaptation programmes operate, making FCV an obstacle to climate resilience.",
+      "alternative_explanations": [
+        "Implementation sequencing",
+        "donor choices",
+        "administrative capacity and infrastructure"
+      ],
+      "uncertainty": "The observed UNDP programme-design choice cannot quantify all adaptation excluded by insecurity. (UNDP Climate Change Adaptation)",
+      "potentially_out_of_scope_support_ids": [
+        "SOM-E-015",
+        "SOM-E-016",
+        "SOM-E-019"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SOM-P-005",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SOM-E-004",
+        "SOM-E-009",
+        "SOM-E-018",
+        "SOM-E-019"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SOM-E-004",
+          "SOM-E-009"
+        ],
+        "impact": [
+          "SOM-E-018"
+        ],
+        "mediator": [
+          "SOM-E-019"
+        ],
+        "consequence": [
+          "SOM-E-019"
+        ]
+      },
+      "geographies": [
+        "National institutional setting",
+        "with variable subnational capacity"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Institutional and fiscal fragility can make climate-resilience gains difficult to sustain even where projects work.",
+      "alternative_explanations": [
+        "Donor dependence",
+        "programme design",
+        "macroeconomic conditions and implementation quality"
+      ],
+      "uncertainty": "IEG evidence is specific to the World Bank portfolio rather than all adaptation financing.",
+      "potentially_out_of_scope_support_ids": [
+        "SOM-E-004",
+        "SOM-E-009",
+        "SOM-E-018",
+        "SOM-E-019"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SOM-P-006",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SOM-E-004",
+        "SOM-E-005",
+        "SOM-E-006",
+        "SOM-E-009",
+        "SOM-E-018",
+        "SOM-E-021",
+        "SOM-E-022",
+        "SOM-E-023"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SOM-E-004",
+          "SOM-E-005"
+        ],
+        "impact": [
+          "SOM-E-006",
+          "SOM-E-009"
+        ],
+        "mediator": [
+          "SOM-E-021",
+          "SOM-E-022"
+        ],
+        "consequence": [
+          "SOM-E-018"
+        ]
+      },
+      "geographies": [
+        "National systems with district/river-basin monitoring"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Somalia has meaningful anticipatory and community resilience capacities, but their effect on FCV outcomes remains under-evaluated.",
+      "alternative_explanations": [
+        "Assistance volume",
+        "access",
+        "conflict dynamics",
+        "market shocks and household resources"
+      ],
+      "uncertainty": "Early-warning use and preparedness activation are documented more strongly than avoided losses or conflict effects.",
+      "potentially_out_of_scope_support_ids": [
+        "SOM-E-004",
+        "SOM-E-005",
+        "SOM-E-006",
+        "SOM-E-009",
+        "SOM-E-018",
+        "SOM-E-021",
+        "SOM-E-022",
+        "SOM-E-023"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SOM-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SOM-E-106"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SOM-E-106"
+        ],
+        "impact": [
+          "SOM-E-106"
+        ],
+        "mediator": [
+          "SOM-E-106"
+        ],
+        "consequence": [
+          "SOM-E-106"
+        ]
+      },
+      "geographies": [
+        "Jambaluul",
+        "Buula Madino",
+        "Afgoye"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "direct",
+      "compact_statement": "In Jambaluul/Buula Madino, conflict blocked farms and market routes and compounded drought-related livelihood losses.",
+      "alternative_explanations": [
+        "Input and food prices, aid changes, market demand and other livelihood constraints may also influence losses."
+      ],
+      "uncertainty": "Named-community qualitative account in a non-counterfactual programme evaluation; no separate climate/conflict effect size or national extrapolation.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "SOM-E-106",
+  "source_access_review": {
+    "selected_record_id": "SOM-E-106",
+    "selected_source_id": "SOM-SRC-102",
+    "url": "https://www.nrc.no/globalassets/pdf/reports/brcis-iii-baseline/brcis-iii-endline-report.pdf",
+    "locator": "PDF p. 82, section 3.6, conflict's toll on markets and wellbeing.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 3369874,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      82
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Opened the complete NRC BRCiS III endline PDF and reviewed physical page 82, section 3.6, on 2026-10-27.",
+    "verification_note": "Residents in Jambaluul and Buula Madino, Afgoye, describe conflict blocking farms and market roads and compounding drought losses. This is local qualitative testimony, not climate-causes-conflict evidence."
+  },
+  "checks": [
+    {
+      "record_id": "SOM-E-004",
+      "source_id": "SOM-SRC-006",
+      "locator": "PDF file p.1/8, “SWALIM Strengthens Early Warning…,” drought paragraph.",
+      "verification_status": "verified",
+      "verification_method": "Opened the complete FAO SWALIM Q1 2026 newsletter PDF and reviewed physical PDF page 1 on 2026-10-27.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Retain as a dated, spatially uneven Q1 2026 drought snapshot; do not imply anthropogenic attribution.",
+      "coordinator_decision_ref": null
+    },
+    {
+      "record_id": "SOM-E-007",
+      "source_id": "SOM-SRC-007",
+      "locator": "FAO GIEWS Somalia Country Brief, historical edition dated 11 March 2026, section 'Livestock sector severely affected by harsh dry weather conditions'.",
+      "verification_status": "unresolved",
+      "verification_method": "Opened the live FAO GIEWS country brief on 2026-10-27; the mutable page showed Reference Date 2026-09-15, not the cited 2026-03-11 historical edition.",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Supply an archived 2026-03-11 GIEWS brief or update the claim from the current dated edition; keep this claim unresolved.",
+      "coordinator_decision_ref": null
+    },
+    {
+      "record_id": "SOM-E-009",
+      "source_id": "SOM-SRC-008",
+      "locator": "PDF file p.1/27 “Overview/Key Drivers” and p.2/27 driver synthesis.",
+      "verification_status": "verified",
+      "verification_method": "Opened the complete 14 May 2026 IPC projection-update PDF and reviewed physical pages 1-2 on 2026-10-27.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Keep as a dated April-June 2026 projection, not a current classification or observed October caseload.",
+      "coordinator_decision_ref": null
+    },
+    {
+      "record_id": "SOM-E-010",
+      "source_id": "SOM-SRC-008",
+      "locator": "PDF file p.1/27 headline and p.2/27 nutrition paragraph.",
+      "verification_status": "verified",
+      "verification_method": "Opened the complete 14 May 2026 IPC projection-update PDF and reviewed physical pages 1-2 on 2026-10-27.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Retain the 2026 annual projection and age range; do not label the projected total as observed or climate-attributable.",
+      "coordinator_decision_ref": null
+    },
+    {
+      "record_id": "SOM-E-011",
+      "source_id": "SOM-SRC-008",
+      "locator": "PDF file p.13/27, Annex 1 “Burhakaba District…Risk of Famine.”",
+      "verification_status": "verified",
+      "verification_method": "Opened the complete 14 May 2026 IPC projection-update PDF and reviewed physical page 13, Annex 1, on 2026-10-27.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Retain the conditional worst-case scenario and its assumptions; never restate this as an observed Famine classification.",
+      "coordinator_decision_ref": null
+    },
+    {
+      "record_id": "SOM-E-013",
+      "source_id": "SOM-SRC-005",
+      "locator": "PDF file pp.4-6/70 Executive Summary; p.42/70 §3.3/Fig. 6.",
+      "verification_status": "verified",
+      "verification_method": "Opened the complete EIP publisher PDF and reviewed Executive Summary physical pages 4-6 and physical page 40, section 3.3, on 2026-10-27.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Correct locator to physical page 40 section 3.3 plus Executive Summary pages 4-6; retain explicit non-direct-causality and local scope.",
+      "coordinator_decision_ref": null
+    },
+    {
+      "record_id": "SOM-E-015",
+      "source_id": "SOM-SRC-010",
+      "locator": "webpage “Project summary,” first two paragraphs. (UNDP Climate Change Adaptation)",
+      "verification_status": "unresolved",
+      "verification_method": "Opened the cited UNDP adaptation project page on 2026-10-27; it returned a JavaScript-required shell without the cited project-summary passage.",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Retain unresolved until a readable UNDP project record or archived project document is available.",
+      "coordinator_decision_ref": null
+    },
+    {
+      "record_id": "SOM-E-016",
+      "source_id": "SOM-SRC-010",
+      "locator": "webpage paragraph immediately after “Location: Somalia.” (UNDP Climate Change Adaptation)",
+      "verification_status": "unresolved",
+      "verification_method": "Opened the cited UNDP adaptation project page on 2026-10-27; it returned a JavaScript-required shell without the cited location paragraph.",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Retain unresolved until the cited programme-location passage is obtained; do not infer security-driven site selection.",
+      "coordinator_decision_ref": null
+    },
+    {
+      "record_id": "SOM-E-018",
+      "source_id": "SOM-SRC-011",
+      "locator": "PDF file p.88/146 (printed p.56), rural resilience; p.89/146 Table 4.2.",
+      "verification_status": "verified",
+      "verification_method": "Opened the complete World Bank IEG Somalia CPF evaluation PDF and reviewed physical pages 88-89 on 2026-10-27.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Retain dated programme outputs and separate them from the partly achieved livelihood outcome; do not claim broader impact.",
+      "coordinator_decision_ref": null
+    },
+    {
+      "record_id": "SOM-E-019",
+      "source_id": "SOM-SRC-011",
+      "locator": "PDF file p.118/146 (printed p.86), “Lessons.”",
+      "verification_status": "verified",
+      "verification_method": "Opened the complete World Bank IEG Somalia CPF evaluation PDF and reviewed physical page 118, printed page 86, on 2026-10-27.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Retain as IEG institutional/fiscal assessment, not a quantified climate-loss claim.",
+      "coordinator_decision_ref": null
+    },
+    {
+      "record_id": "SOM-E-106",
+      "source_id": "SOM-SRC-102",
+      "locator": "PDF p. 82, section 3.6, conflict's toll on markets and wellbeing.",
+      "verification_status": "verified",
+      "verification_method": "Opened the complete NRC BRCiS III endline PDF and reviewed physical page 82, section 3.6, on 2026-10-27.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Retain the named-site attribution and non-causal direction; do not generalize beyond these BRCiS communities.",
+      "coordinator_decision_ref": null
+    },
+    {
+      "record_id": "SOM-E-107",
+      "source_id": "SOM-SRC-102",
+      "locator": "PDF p. 89, section 3.7.4, Table 38.",
+      "verification_status": "verified",
+      "verification_method": "Opened the complete NRC BRCiS III endline PDF and reviewed physical page 89, section 3.7.4, Table 38, on 2026-10-27.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Restore spacing and state 'At BRCiS's June 2026 endline, 52.1% of 526 surveyed cooperative members (95% CI 39.0-65.1) reported that conflict or insecurity prevented meeting attendance; this is not a share of all households.'",
+      "coordinator_decision_ref": null
+    }
+  ],
+  "limitations": [
+    "SOM-E-106: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "SOM-E-001",
+    "SOM-E-002",
+    "SOM-E-003",
+    "SOM-E-004",
+    "SOM-E-005",
+    "SOM-E-006",
+    "SOM-E-007",
+    "SOM-E-008",
+    "SOM-E-009",
+    "SOM-E-010",
+    "SOM-E-011",
+    "SOM-E-012",
+    "SOM-E-013",
+    "SOM-E-014",
+    "SOM-E-015",
+    "SOM-E-016",
+    "SOM-E-017",
+    "SOM-E-018",
+    "SOM-E-019",
+    "SOM-E-020",
+    "SOM-E-021",
+    "SOM-E-022",
+    "SOM-E-023",
+    "SOM-E-101",
+    "SOM-E-103",
+    "SOM-E-105",
+    "SOM-E-106",
+    "SOM-E-107",
+    "SOM-E-108",
+    "SOM-E-109",
+    "SOM-E-110",
+    "SOM-E-111",
+    "SOM-E-112",
+    "SOM-P-001",
+    "SOM-P-002",
+    "SOM-P-003",
+    "SOM-P-004",
+    "SOM-P-005",
+    "SOM-P-006",
+    "SOM-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 12,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  },
+  "source_metadata_recommendations": [
+    {
+      "source_id": "SOM-SRC-005",
+      "field": "publication_date",
+      "candidate_value": "2024",
+      "recommended_value": "2024-09-02",
+      "basis": "Publisher PDF cover date."
+    },
+    {
+      "source_id": "SOM-SRC-005",
+      "field": "license_status",
+      "candidate_value": "open",
+      "recommended_value": "permission-required",
+      "basis": "Publisher terms allow educational/non-profit reuse with acknowledgement and require prior written permission for commercial/other uses; do not label unrestricted open."
+    },
+    {
+      "source_id": "SOM-SRC-007",
+      "field": "source_version_url",
+      "candidate_value": "https://cb.apps.fao.org/country.jsp?code=SOM&lang=en",
+      "recommended_value": "Archived 2026-03-11 GIEWS edition or a direct dated attachment",
+      "basis": "The live mutable page shows Reference Date 2026-09-15 and does not expose the cited historical edition."
+    }
+  ]
+}

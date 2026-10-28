@@ -1,0 +1,60 @@
+{
+  "iso3": "TUR",
+  "base_dir": null,
+  "claim_evidence_mapping": {
+    "TUR-C-101": "TUR-E-101",
+    "TUR-C-102": "TUR-E-102",
+    "TUR-C-103": "TUR-E-103",
+    "TUR-C-104": "TUR-E-104",
+    "TUR-C-106": "TUR-E-106",
+    "TUR-C-107": "TUR-E-107",
+    "TUR-C-108": "TUR-E-108",
+    "TUR-C-109": "TUR-E-109",
+    "TUR-C-110": "TUR-E-110",
+    "TUR-C-111": "TUR-E-111",
+    "TUR-C-112": "TUR-E-112",
+    "TUR-C-113": "TUR-E-113",
+    "TUR-C-114": "TUR-E-114",
+    "TUR-C-115": "TUR-E-115"
+  },
+  "source_id_mapping": {
+    "TUR-SRC-101": "TUR-SRC-101",
+    "TUR-SRC-102": "TUR-SRC-102",
+    "TUR-SRC-103": "TUR-SRC-103",
+    "TUR-SRC-104": "TUR-SRC-104",
+    "TUR-SRC-105": "TUR-SRC-105",
+    "TUR-SRC-106": "TUR-SRC-106"
+  },
+  "new_evidence_ids": [
+    "TUR-E-101",
+    "TUR-E-102",
+    "TUR-E-103",
+    "TUR-E-104",
+    "TUR-E-106",
+    "TUR-E-107",
+    "TUR-E-108",
+    "TUR-E-109",
+    "TUR-E-110",
+    "TUR-E-111",
+    "TUR-E-112",
+    "TUR-E-113",
+    "TUR-E-114",
+    "TUR-E-115"
+  ],
+  "new_named_local_evidence_ids": [
+    "TUR-E-101",
+    "TUR-E-102",
+    "TUR-E-103",
+    "TUR-E-104",
+    "TUR-E-110",
+    "TUR-E-111",
+    "TUR-E-114"
+  ],
+  "excluded_claims": [
+    {
+      "claim_id": "TUR-C-105",
+      "decision": "exclude",
+      "reason": "Return-period-only modeled consequence has no future calendar projection horizon. Existing projected-evidence contract requires one; exclude rather than invent a period."
+    }
+  ]
+}

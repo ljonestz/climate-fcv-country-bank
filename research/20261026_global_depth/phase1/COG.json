@@ -1,0 +1,329 @@
+{
+  "iso3": "COG",
+  "country_name": "Republic of Congo",
+  "sources": [
+    {
+      "source_id": "COG-SRC-101",
+      "title": "Urban Flood and Gully Erosion Risk Management in the Congo Basin: Republic of the Congo, Technical Report",
+      "organization": "Global Center on Adaptation and World Bank",
+      "publication_date": "2025-12",
+      "publication_date_basis": "document-version",
+      "url": "https://gca.org/wp-content/uploads/2026/03/Congo-Basin_Summary-Report_RoC_vFinal-ENG-1_REFORMAT.pdf",
+      "repository_file": null,
+      "source_type": "mdb-report",
+      "analytical_roles": [
+        "physical-baseline",
+        "vulnerability-capacity",
+        "direct-climate-fcv"
+      ],
+      "country_codes": ["COG"],
+      "geographic_coverage": [
+        "Brazzaville",
+        "Mfilou district",
+        "Ngambio neighbourhood",
+        "Itsali neighbourhood",
+        "Pointe-Noire",
+        "Tchikobo-Songolo corridor"
+      ],
+      "temporal_coverage": "Urban hazard and pre-feasibility assessments; workshops and community demonstrations in October-November 2025.",
+      "accessed_on": "2026-10-27",
+      "methodology": "Technical report draws on an urban NbSWLM inventory, three site assessments and 2025 workshops.",
+      "limitations": "Proposed measures and workshop findings; not an impact evaluation or proof of implementation.",
+      "license_status": "permission-required",
+      "checksum": null
+    },
+    {
+      "source_id": "COG-SRC-102",
+      "title": "Republic of the Congo: Multi-Year Strategy 2025-2027",
+      "organization": "United Nations High Commissioner for Refugees",
+      "publication_date": "2025-11",
+      "publication_date_basis": "document-version",
+      "url": "https://www.unhcr.org/sites/default/files/2025-01/Republic%20of%20the%20Congo%20-%20Strategy%202025%20%E2%80%93%202027_0.pdf",
+      "repository_file": null,
+      "source_type": "un-report",
+      "analytical_roles": ["vulnerability-capacity"],
+      "country_codes": ["COG"],
+      "geographic_coverage": [
+        "Republic of Congo",
+        "Likouala Department",
+        "Pool Department",
+        "refugee-hosting areas"
+      ],
+      "temporal_coverage": "Situation analysis includes dated 2021-2024 displacement information; strategy period 2025-2027.",
+      "accessed_on": "2026-10-27",
+      "methodology": "UNHCR multi-year operational strategy and country situation analysis.",
+      "limitations": "Strategy commitments are not evaluated results; indexed excerpts do not expose PDF pagination.",
+      "license_status": "unknown",
+      "checksum": null
+    },
+    {
+      "source_id": "COG-SRC-103",
+      "title": "IFRC-DG ECHO Pilot Programmatic Partnership: Annual Overview 2024",
+      "organization": "International Federation of Red Cross and Red Crescent Societies",
+      "publication_date": "2025-09",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.ifrc.org/sites/default/files/2025-09/IFRC%202024%20Annual%20Report.pdf",
+      "repository_file": null,
+      "source_type": "ngo-report",
+      "analytical_roles": ["vulnerability-capacity"],
+      "country_codes": ["COG"],
+      "geographic_coverage": ["Republic of Congo"],
+      "temporal_coverage": "IFRC-DG ECHO Pilot Programmatic Partnership activities and reported results in 2024.",
+      "accessed_on": "2026-10-27",
+      "methodology": "Partnership annual overview reports operational results across participating National Societies.",
+      "limitations": "The Congo early-warning result is narrative and gives no location, count or evaluation method.",
+      "license_status": "unknown",
+      "checksum": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "COG-C-101",
+      "source_id": "COG-SRC-101",
+      "locator": "PDF pp. 9 and 13, sections 2.1 and 3.2, Site B risk context",
+      "paraphrase": "In Brazzaville's Tsieme catchment, runoff-fed active gullies at Ngambio and Itsali in Mfilou threaten nearby homes and infrastructure; at Ngambio, erosion continues despite existing channels.",
+      "kind": "sensitivity",
+      "basis": "observed",
+      "time_horizons": ["current"],
+      "scenario": null,
+      "geographies": ["Tsieme catchment", "Mfilou district", "Ngambio neighbourhood", "Itsali neighbourhood"],
+      "administrative_level": "site",
+      "subnational_specificity": "named-site",
+      "hazards": ["runoff", "gully erosion", "slope instability"],
+      "sectors": ["housing", "transport", "urban infrastructure"],
+      "affected_groups": ["residents near active gullies"],
+      "systems": ["homes", "roads", "drainage channels"],
+      "institutions": ["Global Center on Adaptation", "World Bank"],
+      "limitations": "Site-specific pre-feasibility findings, not a citywide exposure inventory.",
+      "access_method": "full-text",
+      "source_stated_fcv_link": null
+    },
+    {
+      "claim_id": "COG-C-102",
+      "source_id": "COG-SRC-101",
+      "locator": "PDF pp. 9 and 11, sections 2.1 and feasibility decision tree",
+      "paraphrase": "Exposed informal settlements, undersized drainage and catchment degradation amplify flood and erosion impacts; where land tenure is unclear, the report advises conflict-sensitive consultation and due diligence before works.",
+      "kind": "resilience-peace-capacity",
+      "basis": "observed",
+      "time_horizons": ["current", "near-term"],
+      "scenario": null,
+      "geographies": ["Brazzaville", "Pointe-Noire", "Tchikobo-Songolo corridor"],
+      "administrative_level": "administrative-area",
+      "subnational_specificity": "named-admin",
+      "hazards": ["flooding", "gully erosion"],
+      "sectors": ["urban planning", "drainage", "land management"],
+      "affected_groups": ["residents of exposed informal settlements", "land users"],
+      "systems": ["drainage", "urban land and tenure", "floodplains"],
+      "institutions": ["municipal authorities", "community groups"],
+      "limitations": "Planning guidance, not evidence of conflict outcomes.",
+      "access_method": "full-text",
+      "source_stated_fcv_link": "It prescribes conflict-sensitive consultation when land tenure is unclear for proposed risk-reduction works."
+    },
+    {
+      "claim_id": "COG-C-103",
+      "source_id": "COG-SRC-101",
+      "locator": "PDF pp. 16 and 29, technical lessons and Stage 1 feasibility screen",
+      "paraphrase": "November 2025 demonstrations observed sediment trapped by bamboo check-dams, considered locally replicable; site screening weighs security, institutions and social tensions.",
+      "kind": "adaptive-capacity",
+      "basis": "observed",
+      "time_horizons": ["current", "near-term"],
+      "scenario": null,
+      "geographies": ["Brazzaville ravines", "Republic of Congo urban priority sites"],
+      "administrative_level": "site",
+      "subnational_specificity": "named-site",
+      "hazards": ["flooding", "sediment runoff", "gully erosion"],
+      "sectors": ["disaster risk reduction", "urban infrastructure"],
+      "affected_groups": ["neighbourhood residents", "local groups"],
+      "systems": ["community-based maintenance", "bamboo check-dams", "vegetated erosion controls"],
+      "institutions": ["local groups", "municipal authorities"],
+      "limitations": "Demonstrations and guidance, not long-term impact evidence.",
+      "access_method": "full-text",
+      "source_stated_fcv_link": "The screen treats security, institutions and tensions as constraints on climate-adaptation feasibility and community maintenance."
+    },
+    {
+      "claim_id": "COG-C-107",
+      "source_id": "COG-SRC-101",
+      "locator": "PDF p. 9, section 2.1, floodplain and coastal-fluvial exposure in Pointe-Noire",
+      "paraphrase": "At Pointe-Noire's Tchikobo-Songolo corridor, project screening found high susceptibility to adjacent coastal floods and fluvial flooding intensified by rainfall runoff.",
+      "kind": "exposure",
+      "basis": "observed",
+      "time_horizons": ["current"],
+      "scenario": null,
+      "geographies": ["Pointe-Noire", "Tchikobo-Songolo river corridor"],
+      "administrative_level": "site",
+      "subnational_specificity": "named-site",
+      "hazards": ["coastal flooding", "fluvial flooding", "pluvial inflows"],
+      "sectors": ["housing", "urban infrastructure"],
+      "affected_groups": ["nearby settlements"],
+      "systems": ["river corridor", "coastal-fluvial zone"],
+      "institutions": ["Global Center on Adaptation", "World Bank"],
+      "limitations": "Pre-feasibility susceptibility screening, not measured losses.",
+      "access_method": "full-text",
+      "source_stated_fcv_link": null
+    },
+    {
+      "claim_id": "COG-C-104",
+      "source_id": "COG-SRC-102",
+      "locator": "Situation Analysis, paragraphs on refugee-hosting areas and climate hazards; PDF pagination not exposed in indexed excerpt",
+      "paraphrase": "As of 30 September 2024, UNHCR counted 71,122 refugees and asylum-seekers; 80% lived rurally, with arrivals in Likouala and Pool. It says host areas lack services and face climate-hazard vulnerability and limited adaptation.",
+      "kind": "sensitivity",
+      "basis": "observed",
+      "time_horizons": ["historical", "current"],
+      "scenario": null,
+      "geographies": ["Likouala Department", "Pool Department", "rural refugee-hosting areas"],
+      "administrative_level": "administrative-area",
+      "subnational_specificity": "named-admin",
+      "hazards": ["climate-related hazards"],
+      "sectors": ["basic services", "livelihoods", "refugee protection"],
+      "affected_groups": ["refugees", "asylum-seekers", "host communities"],
+      "systems": ["social services", "adaptation mechanisms"],
+      "institutions": ["UNHCR", "Government of the Republic of Congo"],
+      "limitations": "Dated national totals and area-level descriptions; no hazard-specific local exposure estimates.",
+      "access_method": "official-excerpt",
+      "source_stated_fcv_link": "UNHCR says climate-hazard vulnerability and limited adaptation affect both displaced people and host populations in hosting areas."
+    },
+    {
+      "claim_id": "COG-C-105",
+      "source_id": "COG-SRC-102",
+      "locator": "2025-2027 strategy, paragraphs on resilience, emergency response and community participation; PDF pagination not exposed in indexed excerpt",
+      "paraphrase": "UNHCR's 2025-2027 strategy plans to maintain emergency response capacity and resilience to climate shocks, while strengthening local integration, participation and social cohesion.",
+      "kind": "resilience-peace-capacity",
+      "basis": "observed",
+      "time_horizons": ["near-term", "medium-term"],
+      "scenario": null,
+      "geographies": ["Republic of Congo", "refugee-hosting areas"],
+      "administrative_level": "national",
+      "subnational_specificity": "national",
+      "hazards": ["climate shocks"],
+      "sectors": ["emergency response", "refugee inclusion", "social cohesion"],
+      "affected_groups": ["refugees", "asylum-seekers", "host communities"],
+      "systems": ["emergency response capacity", "community participation", "local integration"],
+      "institutions": ["UNHCR", "Government of the Republic of Congo", "local actors"],
+      "limitations": "These are strategy objectives, not achieved or evaluated results.",
+      "access_method": "official-excerpt",
+      "source_stated_fcv_link": "UNHCR links civil and community participation with ownership, accountability and social cohesion."
+    },
+    {
+      "claim_id": "COG-C-108",
+      "source_id": "COG-SRC-102",
+      "locator": "Situation Analysis, paragraph on socioeconomic integration and climate effects; PDF pagination not exposed in indexed excerpt",
+      "paraphrase": "UNHCR says climate-change effects exacerbate economic weaknesses affecting refugee inclusion; health, water and sanitation services are full, and food insecurity constrains refugees' access to essentials.",
+      "kind": "sensitivity",
+      "basis": "observed",
+      "time_horizons": ["current"],
+      "scenario": null,
+      "geographies": ["Republic of Congo", "refugee-hosting areas"],
+      "administrative_level": "national",
+      "subnational_specificity": "national",
+      "hazards": ["climate-change effects"],
+      "sectors": ["health", "water and sanitation", "food security", "refugee inclusion"],
+      "affected_groups": ["refugees", "asylum-seekers"],
+      "systems": ["health services", "water and sanitation", "food access", "local integration"],
+      "institutions": ["UNHCR", "Government of the Republic of Congo"],
+      "limitations": "The strategy does not quantify climate-attributable economic or food-security pressures.",
+      "access_method": "official-excerpt",
+      "source_stated_fcv_link": "UNHCR says climate effects exacerbate economic weaknesses limiting refugee socioeconomic inclusion."
+    },
+    {
+      "claim_id": "COG-C-106",
+      "source_id": "COG-SRC-103",
+      "locator": "Annual Overview, IFRC-DG ECHO Pilot Programmatic Partnership, printed p. 89",
+      "paraphrase": "IFRC reports that a community flood early-warning system in the Republic of Congo prompted preventive action, with most people relocating to safer areas after receiving alerts.",
+      "kind": "response-performance",
+      "basis": "observed",
+      "time_horizons": ["historical"],
+      "scenario": null,
+      "geographies": ["Republic of Congo"],
+      "administrative_level": "national",
+      "subnational_specificity": "national",
+      "hazards": ["flooding"],
+      "sectors": ["early warning", "disaster preparedness"],
+      "affected_groups": ["people in flood-risk areas"],
+      "systems": ["community early-warning system", "preventive relocation"],
+      "institutions": ["IFRC", "National Society"],
+      "limitations": "Narrative result gives no local site, count, denominator or evaluation method.",
+      "access_method": "official-excerpt",
+      "source_stated_fcv_link": null
+    }
+  ],
+  "access_audit": [
+    {
+      "source_id": "COG-SRC-101",
+      "url": "https://gca.org/wp-content/uploads/2026/03/Congo-Basin_Summary-Report_RoC_vFinal-ENG-1_REFORMAT.pdf",
+      "access_method": "full-text",
+      "locator": "PDF pp. 9, 11, 13, 16 and 29",
+      "notes": "Opened 33-page publisher PDF and inspected urban hazard, named-site, feasibility, workshop and implementation material.",
+      "reuse_terms": "Publisher page states CC BY-NC-ND 4.0; no source text reproduced and adapted content reuse was not assumed open."
+    },
+    {
+      "source_id": "COG-SRC-102",
+      "url": "https://www.unhcr.org/sites/default/files/2025-01/Republic%20of%20the%20Congo%20-%20Strategy%202025%20%E2%80%93%202027_0.pdf",
+      "access_method": "official-excerpt",
+      "locator": "Situation Analysis and 2025-2027 strategy sections; pagination not shown by index",
+      "notes": "Publisher search index exposed continuous strategy text; direct PDF open and urllib download returned HTTP 429/403, so pagination/full-file access was not claimed.",
+      "reuse_terms": "Unknown; no reuse license verified."
+    },
+    {
+      "source_id": "COG-SRC-103",
+      "url": "https://www.ifrc.org/sites/default/files/2025-09/IFRC%202024%20Annual%20Report.pdf",
+      "access_method": "official-excerpt",
+      "locator": "Annual Overview, IFRC-DG ECHO Pilot Programmatic Partnership, printed p. 89",
+      "notes": "Publisher search index exposed the Congo early-warning passage; direct PDF open exceeded the web tool size limit and urllib download returned HTTP 403.",
+      "reuse_terms": "Unknown; no reuse license verified."
+    },
+    {
+      "source_id": null,
+      "url": "https://documents1.worldbank.org/curated/en/099224503062323441/pdf/BOSIB06716e5c50ef0a6520b2595387ade5.pdf",
+      "access_method": "blocked",
+      "locator": "Cover and distribution notice, PDF pp. 0-1",
+      "notes": "Excluded after inspection because the publicly reachable appraisal document is marked FOR OFFICIAL USE ONLY and states restricted distribution; no claims were derived from it.",
+      "reuse_terms": "Not used."
+    }
+  ],
+  "search_audit": [
+    {
+      "query": "Republic of Congo climate urban flood gully erosion subnational vulnerability Brazzaville Pointe-Noire report",
+      "purpose": "subnational-vulnerability",
+      "outcome": "Opened the GCA-WB 2025 technical report with named sites in Mfilou and Pointe-Noire and read its relevant pages; existing IMF evidence already covered 2023-2024 national flood impacts.",
+      "urls": [
+        "https://gca.org/wp-content/uploads/2026/03/Congo-Basin_Summary-Report_RoC_vFinal-ENG-1_REFORMAT.pdf",
+        "https://www.imf.org/-/media/files/publications/cr/2024/english/1cogea2024003-print-pdf.pdf"
+      ]
+    },
+    {
+      "query": "Republic of Congo climate change conflict refugees land tenure resource competition climate security",
+      "purpose": "fcv-mediators",
+      "outcome": "Found UNHCR evidence that refugee-hosting areas face climate-hazard vulnerability amid service/adaptation gaps and GCA guidance on conflict-sensitive land-tenure consultation; no evidence found that climate hazards cause violence in Congo.",
+      "urls": [
+        "https://www.unhcr.org/sites/default/files/2025-01/Republic%20of%20the%20Congo%20-%20Strategy%202025%20%E2%80%93%202027_0.pdf",
+        "https://gca.org/wp-content/uploads/2026/03/Congo-Basin_Summary-Report_RoC_vFinal-ENG-1_REFORMAT.pdf"
+      ]
+    },
+    {
+      "query": "Republic of Congo Pool conflict displacement insecurity limits climate adaptation service delivery report",
+      "purpose": "reverse-fcv",
+      "outcome": "GCA's feasibility screen treats security, institutional presence and social tensions as constraints on climate-site selection and community maintenance. A World Bank PAD/CPF search result was excluded after its PDF showed restricted-distribution markings; no source-safe evidence of conflict effects on climate adaptation was identified beyond feasibility guidance.",
+      "urls": [
+        "https://gca.org/wp-content/uploads/2026/03/Congo-Basin_Summary-Report_RoC_vFinal-ENG-1_REFORMAT.pdf",
+        "https://documents1.worldbank.org/curated/en/099224503062323441/pdf/BOSIB06716e5c50ef0a6520b2595387ade5.pdf"
+      ]
+    },
+    {
+      "query": "Republic of Congo community early warning flood response resilience adaptation refugees host communities 2025",
+      "purpose": "resilience-capacity",
+      "outcome": "IFRC reports a community flood early-warning system and preventive relocation; UNHCR sets planned climate-shock response and inclusion objectives, while GCA documents workshop-tested local measures and enabling conditions.",
+      "urls": [
+        "https://www.ifrc.org/sites/default/files/2025-09/IFRC%202024%20Annual%20Report.pdf",
+        "https://www.unhcr.org/sites/default/files/2025-01/Republic%20of%20the%20Congo%20-%20Strategy%202025%20%E2%80%93%202027_0.pdf",
+        "https://gca.org/wp-content/uploads/2026/03/Congo-Basin_Summary-Report_RoC_vFinal-ENG-1_REFORMAT.pdf"
+      ]
+    }
+  ],
+  "gaps": [
+    "No source-safe, country-specific evidence located that climate hazards cause violence or conflict in the Republic of Congo; the reported tenure link concerns conflict-sensitive design of proposed flood-risk works.",
+    "The current official UNHCR strategy and IFRC result were available only as indexed publisher excerpts; direct PDF access failed, and exact UNHCR PDF pagination remains unavailable.",
+    "The GCA report describes pre-feasibility designs, workshop observations and demonstration results, not implemented citywide programs or long-term outcomes.",
+    "A World Bank appraisal document and CPF found in searches were excluded from claims because their PDF covers contain FOR OFFICIAL USE ONLY/restricted-distribution notices.",
+    "Existing NDC and flood-impact estimates in the baseline remain dated; no newly inspected post-2024 event inventory or subnational climate-conflict assessment was found."
+  ]
+}

@@ -1,0 +1,1234 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "KEN",
+  "candidate_path": "countries/KEN/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 7,
+    "evidence_count": 17,
+    "pathway_count": 2,
+    "evidence_source_reference_count": 17
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 6,
+      "access-only": 11
+    },
+    "pathway_claims": {
+      "unresolved": 2
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "KEN-E-006"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "KEN-E-001",
+          "KEN-E-004"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "KEN-E-005",
+          "KEN-E-101",
+          "KEN-E-103",
+          "KEN-E-109",
+          "KEN-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "KEN-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "KEN-E-003"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "KEN-E-002",
+          "KEN-E-102",
+          "KEN-E-105",
+          "KEN-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "KEN-E-106",
+          "KEN-E-112",
+          "KEN-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "KEN-E-101",
+          "KEN-E-102",
+          "KEN-E-103",
+          "KEN-E-104",
+          "KEN-E-105",
+          "KEN-E-106",
+          "KEN-E-107",
+          "KEN-E-109",
+          "KEN-E-110",
+          "KEN-E-112",
+          "KEN-E-113"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "KEN-P-001",
+          "KEN-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/KEN/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "KEN-SRC-001",
+      "title": "Kenya's Adaptation Communication to the UNFCCC",
+      "organization": "Government of Kenya",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/2025-12/Kenya%2527s%2520Adcom%2520Report%2520v6-Jan%25202025.pdf",
+      "geographic_coverage": [
+        "Kenya",
+        "arid and semi-arid lands",
+        "arid counties"
+      ],
+      "temporal_coverage": "Climate exposure, drought impacts and adaptation actions reported in the 2024 communication",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "restricted",
+      "records_using_source": [
+        "KEN-E-001",
+        "KEN-E-002",
+        "KEN-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "KEN-E-002",
+        "selected_source_id": "KEN-SRC-001",
+        "url": "https://unfccc.int/sites/default/files/2025-12/Kenya%2527s%2520Adcom%2520Report%2520v6-Jan%25202025.pdf",
+        "locator": "PDF p. 15, climate hazards and resource-related conflict",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 212,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "KEN-SRC-002",
+      "title": "Kenya's Second Nationally Determined Contribution, 2031-2035",
+      "organization": "Government of Kenya",
+      "publication_date": "2025-04-30",
+      "publication_date_basis": "submission",
+      "url": "https://unfccc.int/sites/default/files/2025-05/KENYAS%20SECOND%20NATIONALLY%20DETERMINED%20CONTRIBUTION%202031_2035.pdf",
+      "geographic_coverage": [
+        "Kenya",
+        "21 arid and semi-arid counties",
+        "northern Kenya",
+        "southern coast"
+      ],
+      "temporal_coverage": "Observed climate, disaster impacts, and projections through 2035 reported in 2025",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "restricted",
+      "records_using_source": [
+        "KEN-E-004",
+        "KEN-E-005",
+        "KEN-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "KEN-SRC-101",
+      "title": "Turkana County Participatory Climate Risk Vulnerability Assessment Report",
+      "organization": "Turkana County Government",
+      "publication_date": "2023-05-26",
+      "publication_date_basis": "publication",
+      "url": "https://maarifa.cog.go.ke/sites/default/files/2024-03/Turkana%20County%20Participatory%20Climate%20Risk%20Assessment.pdf",
+      "geographic_coverage": [
+        "30 wards in Turkana County"
+      ],
+      "temporal_coverage": "Participatory assessment of historical/current conditions and RCP4.5/RCP8.5 projections through 2100",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "KEN-E-101",
+        "KEN-E-102",
+        "KEN-E-103",
+        "KEN-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 121-page PDF; printed pp. 24-27; methodology pp. 3-6",
+          "notes": "Full county assessment inspected, including participatory methods and annex listing ward participation.",
+          "reuse_terms": "No license terms reviewed; paraphrased only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "KEN-SRC-102",
+      "title": "Turbulent waters, troubled shores: the twin threats of climate change and conflict on vulnerable communities around Lake Turkana",
+      "organization": "International Alert",
+      "publication_date": "2026-02",
+      "publication_date_basis": "publication",
+      "url": "https://www.international-alert.org/publications/turbulent-waters-troubled-shores/",
+      "geographic_coverage": [
+        "Marsabit County",
+        "Turkana County",
+        "Lake Turkana Basin"
+      ],
+      "temporal_coverage": "Conflict analysis published 2026; report covers Lake Turkana Basin communities",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "KEN-E-105",
+        "KEN-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Publisher summary",
+          "notes": "Publisher summary inspected; linked full report PDF was not opened.",
+          "reuse_terms": "No license terms reviewed; paraphrased only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "KEN-SRC-103",
+      "title": "Facing old and new risks in arid environments: The case of pastoral communities in Northern Kenya",
+      "organization": "PLOS Climate",
+      "publication_date": "2023-07-13",
+      "publication_date_basis": "publication",
+      "url": "https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000251",
+      "geographic_coverage": [
+        "Turkana County",
+        "Samburu County",
+        "Marsabit County"
+      ],
+      "temporal_coverage": "Structured review of longstanding and emerging risks, drawing on literature available through 2023",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "KEN-E-107",
+        "KEN-E-109",
+        "KEN-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Sections 3.2, 3.3 and 4.1-4.2",
+          "notes": "Full article text inspected, including discussion of uncertainty and timing of prospective oil development.",
+          "reuse_terms": "No license terms reviewed; paraphrased only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "KEN-SRC-104",
+      "title": "Climate governance in Kenya",
+      "organization": "Saferworld",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.saferworld-global.org/kenya/devolution",
+      "geographic_coverage": [
+        "Samburu",
+        "Elgeyo Marakwet",
+        "West Pokot",
+        "Turkana counties"
+      ],
+      "temporal_coverage": "Self-reported programming and policy processes, including Samburu work during 2018-2022",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "KEN-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Climate governance section",
+          "notes": "Public program page inspected; date not stated.",
+          "reuse_terms": "No license terms reviewed; paraphrased only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "KEN-SRC-105",
+      "title": "Local forms of resilience in pastoral areas: a scoping study in Northern Kenya - Final Report",
+      "organization": "Australian Centre for International Agricultural Research",
+      "publication_date": "2023-07-19",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.aciar.gov.au/publication/ls-2022-167-final-report",
+      "geographic_coverage": [
+        "Isiolo County",
+        "Marsabit County"
+      ],
+      "temporal_coverage": "Scoping study of local resilience in northern pastoral areas, published 2023",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "KEN-E-113"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Publisher description of final report",
+          "notes": "Report description accessed; full report contents not inspected.",
+          "reuse_terms": "No license terms reviewed; paraphrased only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "KEN-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KEN-SRC-001",
+          "locator": "PDF p. 9, arid and semi-arid land profile"
+        }
+      ],
+      "geographies": [
+        "Kenya",
+        "arid lands",
+        "semi-arid lands"
+      ],
+      "affected_groups": [
+        "pastoralists",
+        "rural households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The communication reports that more than 80 percent of Kenya is arid or semi-arid; typical annual rainfall is 200-500 mm in arid areas and 600-1,000 mm in semi-arid areas, and is erratic.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "KEN-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KEN-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "KEN-SRC-001",
+          "locator": "PDF p. 15, climate hazards and resource-related conflict"
+        }
+      ],
+      "geographies": [
+        "arid counties in Kenya",
+        "arid and semi-arid lands"
+      ],
+      "affected_groups": [
+        "pastoral communities",
+        "communities competing for pasture and water"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The communication states that drought-related scarcity of water and pasture contributes to resource competition and intercommunity conflict in arid counties.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "KEN-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET; HTML visible-text extraction",
+      "verification_attempt": {
+        "selected_record_id": "KEN-E-002",
+        "selected_source_id": "KEN-SRC-001",
+        "url": "https://unfccc.int/sites/default/files/2025-12/Kenya%2527s%2520Adcom%2520Report%2520v6-Jan%25202025.pdf",
+        "locator": "PDF p. 15, climate hazards and resource-related conflict",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 212,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "KEN-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KEN-SRC-001",
+          "locator": "PDF p. 15, Ending Drought Emergencies program account"
+        }
+      ],
+      "geographies": [
+        "23 drought-prone counties in Kenya"
+      ],
+      "affected_groups": [
+        "drought-affected communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The government reports that resilience investments across 23 drought-prone counties reduced the worst suffering and livelihood losses during the 2021/23 drought relative to 2016/17, despite the later drought's greater severity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "KEN-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KEN-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KEN-SRC-002",
+          "locator": "PDF p. 5, drought impacts and economic losses"
+        }
+      ],
+      "geographies": [
+        "Kenya"
+      ],
+      "affected_groups": [
+        "people in drought-affected areas",
+        "people pushed into poverty"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC reports that the 2022-2023 drought caused losses exceeding KES 70 billion and pushed about 300,000 additional people into poverty.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "KEN-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KEN-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KEN-SRC-002",
+          "locator": "PDF p. 5, 2024 flood impacts"
+        }
+      ],
+      "geographies": [
+        "Kenya"
+      ],
+      "affected_groups": [
+        "women of reproductive age",
+        "pregnant women",
+        "flood-affected people"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC reports that floods in 2024 affected 412,763 people, including 107,318 women of reproductive age and 9,300 pregnant women whose health services were disrupted.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "KEN-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KEN-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KEN-SRC-002",
+          "locator": "PDF p. 5, climate projections through 2035"
+        }
+      ],
+      "geographies": [
+        "Kenya",
+        "lowlands",
+        "western and northern Kenya",
+        "south coast"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "RCP2.6 and RCP8.5, as identified for rainfall projections in the NDC",
+      "compact_statement": "The NDC projects mean surface temperature to rise about 1.0-1.7 degrees C by 2035, with larger warming in lowlands; rainfall projections vary by season and county under RCP2.6 and RCP8.5.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "KEN-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KEN-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KEN-SRC-101",
+          "locator": "One-based PDF pp.34-35 (printed pp.24-25), sections5.2-5.4."
+        }
+      ],
+      "geographies": [
+        "Turkana County"
+      ],
+      "affected_groups": [
+        "pastoralists",
+        "agropastoralists",
+        "farmers",
+        "fishers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Turkana's May 2023 county assessment describes drought, floods, intense rainfall and unreliable seasons affecting pastoral, farming, fishing and water-dependent livelihoods.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KEN-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KEN-SRC-101",
+          "locator": "One-based PDF p.34 (printed p.24), section5.2."
+        }
+      ],
+      "geographies": [
+        "Turkana County"
+      ],
+      "affected_groups": [
+        "pastoralists",
+        "agropastoralists"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Turkana's May 2023 county assessment describes drought and heat reducing pasture and water and increasing grazing competition and the likelihood of insecurity.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KEN-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KEN-SRC-101",
+          "locator": "One-based PDF pp.34/37 (printed pp.24/27), water access and food-security discussion."
+        }
+      ],
+      "geographies": [
+        "Turkana County"
+      ],
+      "affected_groups": [
+        "women",
+        "girls",
+        "pregnant women",
+        "lactating mothers",
+        "children",
+        "older people"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The May 2023 Turkana assessment describes women and girls traveling far for riverbed water and higher drought-related malnutrition risks for pregnant/lactating women, children and older people.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KEN-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KEN-SRC-101",
+          "locator": "One-based PDF p.35 (printed p.25), section5.3."
+        }
+      ],
+      "geographies": [
+        "Turkana County"
+      ],
+      "affected_groups": [
+        "farmers",
+        "women",
+        "youth",
+        "marginalized groups"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The May 2023 Turkana assessment identifies inadequate resources and poor institutional coordination as adaptation barriers; it describes community action groups as a resource-management capacity, without evaluating outcomes.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KEN-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KEN-SRC-102",
+          "locator": "Publisher summary, findings and recommendations"
+        }
+      ],
+      "geographies": [
+        "Marsabit County",
+        "Turkana County",
+        "Lake Turkana Basin"
+      ],
+      "affected_groups": [
+        "pastoralists",
+        "agropastoralists",
+        "fishers"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "International Alert's February 2026 publisher summary describes drought, floods and resource pressures amplifying competition among pastoral, agropastoral and fishing communities in Marsabit and Turkana.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KEN-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KEN-SRC-102",
+          "locator": "Publisher summary, livelihood disruption and recommendations"
+        }
+      ],
+      "geographies": [
+        "Marsabit County",
+        "Turkana County",
+        "Lake Turkana Basin"
+      ],
+      "affected_groups": [
+        "pastoralists",
+        "agropastoralists",
+        "fishers",
+        "mobile households"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current",
+        "near-term"
+      ],
+      "scenario": "Program recommendations; impacts have not been evaluated in the inspected excerpt.",
+      "compact_statement": "International Alert's February 2026 summary describes unequal land/water access, movement and conservation restrictions as livelihood and tension mediators, and recommends inclusive conflict-sensitive programming.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KEN-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KEN-SRC-103",
+          "locator": "Section 3.2, climate change; section 3.3, violent conflict"
+        }
+      ],
+      "geographies": [
+        "Turkana County",
+        "Samburu County",
+        "Marsabit County"
+      ],
+      "affected_groups": [
+        "Turkana",
+        "Samburu",
+        "Borana",
+        "Rendille and other pastoral communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "A 2023 structured review describes drought-related pasture and water stress alongside resource-related raids in Turkana, Samburu and Marsabit, while emphasizing contested and varying mechanisms.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KEN-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KEN-SRC-103",
+          "locator": "Section 4.2.1, Sarima and Lake Turkana Wind Power Park"
+        }
+      ],
+      "geographies": [
+        "Sarima",
+        "Marsabit County"
+      ],
+      "affected_groups": [
+        "Turkana community",
+        "Samburu community",
+        "Sarima residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2023 review describes historical wind-park job disputes between Turkana and Samburu in Sarima and a failed borehole desalination unit; these illustrate project-benefit and service risks, not proof that climate hazards caused violence.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KEN-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KEN-SRC-103",
+          "locator": "Section 4.2.2, oil exploration in Turkana"
+        }
+      ],
+      "geographies": [
+        "Turkana County"
+      ],
+      "affected_groups": [
+        "pastoral communities",
+        "local residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": "As of 2023; not current status.",
+      "compact_statement": "At publication in 2023, the review described oil-site roadblocks and attacks over water and employment, alongside prospective production risks; this is not an update on 2026 oil operations.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KEN-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KEN-SRC-104",
+          "locator": "Climate governance page, Samburu 2018-2022 legislative process"
+        }
+      ],
+      "geographies": [
+        "Samburu County"
+      ],
+      "affected_groups": [
+        "pastoral communities",
+        "community representatives"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Saferworld reports supporting a Samburu rangeland-access legislative process during 2018-2022, alongside a peace/cohesion forum; institutional outputs do not establish reduced conflict.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KEN-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KEN-SRC-105",
+          "locator": "Publisher summary, study purpose and local resilience actors"
+        }
+      ],
+      "geographies": [
+        "Isiolo County",
+        "Marsabit County"
+      ],
+      "affected_groups": [
+        "pastoralists",
+        "herders",
+        "livestock keepers"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": "Program-design implication in publisher summary, not an evaluated intervention result.",
+      "compact_statement": "ACIAR's July 2023 publisher summary recommends recognizing local pastoral-service networks in Isiolo and Marsabit, including herders, herd owners, animal-health providers, mobile-money services and brokers.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "KEN-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "KEN-E-002"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "KEN-E-002"
+        ],
+        "impact": [
+          "KEN-E-002"
+        ],
+        "mediator": [
+          "KEN-E-002"
+        ],
+        "consequence": [
+          "KEN-E-002"
+        ]
+      },
+      "geographies": [
+        "arid counties in Kenya"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Drought can intensify water/pasture competition and intercommunity conflict.",
+      "alternative_explanations": [
+        "Non-climatic resource-governance drivers are not isolated."
+      ],
+      "uncertainty": "Government synthesis, not event-specific causal estimation.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    },
+    {
+      "record_id": "KEN-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "KEN-E-101",
+        "KEN-E-102",
+        "KEN-E-104"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "KEN-E-102"
+        ],
+        "impact": [
+          "KEN-E-102"
+        ],
+        "mediator": [
+          "KEN-E-102"
+        ],
+        "consequence": [
+          "KEN-E-102"
+        ]
+      },
+      "geographies": [
+        "Turkana County"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Turkana's 2023 assessment links drought-related pasture/water loss with competition and heightened insecurity, mediated by existing governance and livelihood pressures.",
+      "alternative_explanations": [
+        "Political marginalization, land access, existing insecurity and economic change can independently shape competition and violence."
+      ],
+      "uncertainty": "Source-stated qualitative mechanism dated 2023; no causal effect size, event attribution or 2026 conflict prediction.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ"
+      ],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "KEN-E-002",
+  "source_access_review": {
+    "selected_record_id": "KEN-E-002",
+    "selected_source_id": "KEN-SRC-001",
+    "url": "https://unfccc.int/sites/default/files/2025-12/Kenya%2527s%2520Adcom%2520Report%2520v6-Jan%25202025.pdf",
+    "locator": "PDF p. 15, climate hazards and resource-related conflict",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "document-fetched",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 212,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null
+  },
+  "checks": [
+    {
+      "record_id": "KEN-E-002",
+      "source_id": "KEN-SRC-001",
+      "locator": "PDF p. 15, climate hazards and resource-related conflict",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET; HTML visible-text extraction",
+      "access_date": "2026-10-27",
+      "source_access_status": "document-fetched",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "KEN-E-002: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "KEN-E-001",
+    "KEN-E-002",
+    "KEN-E-003",
+    "KEN-E-004",
+    "KEN-E-005",
+    "KEN-E-006",
+    "KEN-E-101",
+    "KEN-E-102",
+    "KEN-E-103",
+    "KEN-E-104",
+    "KEN-E-105",
+    "KEN-E-106",
+    "KEN-E-107",
+    "KEN-E-109",
+    "KEN-E-110",
+    "KEN-E-112",
+    "KEN-E-113",
+    "KEN-P-001",
+    "KEN-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

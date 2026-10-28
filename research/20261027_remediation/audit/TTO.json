@@ -1,0 +1,1118 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "TTO",
+  "candidate_path": "countries/TTO/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 5,
+    "evidence_count": 18,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 18
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 17,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "TTO-E-101",
+          "TTO-E-105",
+          "TTO-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "TTO-E-103",
+          "TTO-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "TTO-E-112",
+          "TTO-E-113",
+          "TTO-E-114",
+          "TTO-E-115"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "TTO-E-108",
+          "TTO-E-117",
+          "TTO-E-118",
+          "TTO-E-119"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "TTO-E-109",
+          "TTO-E-110",
+          "TTO-E-111",
+          "TTO-E-116"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "TTO-E-102"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "TTO-E-103",
+          "TTO-E-106",
+          "TTO-E-117",
+          "TTO-E-118",
+          "TTO-E-119"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/TTO/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "TTO-SRC-101",
+      "title": "National Adaptation Plan for the Republic of Trinidad and Tobago",
+      "organization": "Government of the Republic of Trinidad and Tobago, Ministry of Planning and Development",
+      "publication_date": "2023-11",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/resource/NAP_Trinidad_and_Tobago_2024.pdf",
+      "geographic_coverage": [
+        "Trinidad and Tobago",
+        "coastal zone",
+        "Caroni River Basin",
+        "Southwest Tobago",
+        "Tunapuna-Piarco",
+        "Penal-Debe",
+        "Couva-Tabaquite-Talparo",
+        "Siparia",
+        "Port of Spain",
+        "Diego Martin",
+        "Sangre Grande",
+        "Mayaro",
+        "Las Lomas"
+      ],
+      "temporal_coverage": "Government's first NAP, November 2023; sector risk assessments include next-ten-year likelihood judgments.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TTO-E-101",
+        "TTO-E-102",
+        "TTO-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 157-page NAP; sector assessments and adaptation tables, printed pp.44-47",
+          "notes": "Opened the public PDF and read the cited water and health risk sections, including TWG location lists and potential water-allocation impacts.",
+          "reuse_terms": "No license grant inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "TTO-E-102",
+        "selected_source_id": "TTO-SRC-101",
+        "url": "https://unfccc.int/sites/default/files/resource/NAP_Trinidad_and_Tobago_2024.pdf",
+        "locator": "Section 4.4.3 and Table 9, printed pp.44-45; localized precipitation and intense-precipitation rows",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 212,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "TTO-SRC-102",
+      "title": "Forecasting Trinidad's Evolving Flood Future: A Susceptibility Mapping Approach with Long-Term Rainfall Projections (2010-2100)",
+      "organization": "ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
+      "publication_date": "2026-03-13",
+      "publication_date_basis": "publication",
+      "url": "https://isprs-annals.copernicus.org/articles/X-3-W4-2025/357/2026/",
+      "geographic_coverage": [
+        "Trinidad",
+        "Port of Spain and environs",
+        "East-West Corridor",
+        "Valencia",
+        "South Oropouche"
+      ],
+      "temporal_coverage": "Peer-reviewed 2026 study combines historical rainfall and projected rainfall layers to map Trinidad flood susceptibility at five-year intervals through 2100.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "TTO-E-105",
+        "TTO-E-106",
+        "TTO-E-107",
+        "TTO-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Publisher article body and full 7-page PDF; methods, results and discussion, printed pp.358-363",
+          "notes": "Read the publisher abstract and full peer-reviewed article PDF, including model assumptions, named locations and validation limitations.",
+          "reuse_terms": "Publisher identifies the article as CC BY 4.0.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TTO-SRC-103",
+      "title": "Commonwealth Caribbean Cities, Climate Change Adaptation and Resilience: Empowering Local Government",
+      "organization": "Commonwealth Journal of Local Governance, University of Technology Sydney",
+      "publication_date": "2024-10-09",
+      "publication_date_basis": "publication",
+      "url": "https://epress.lib.uts.edu.au/journals/index.php/cjlg/article/download/9042/8433?inline=1",
+      "geographic_coverage": [
+        "Trinidad and Tobago",
+        "Trinidad",
+        "fourteen Municipal Corporations"
+      ],
+      "temporal_coverage": "Peer-reviewed article published October 2024; Trinidad case evidence includes 2023 interviews and earlier planning documents.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "TTO-E-109",
+        "TTO-E-110",
+        "TTO-E-111",
+        "TTO-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full article; Trinidad case findings and methodology, printed pp.5-12",
+          "notes": "Read the full publisher-hosted article, including its interview methods, Trinidad findings and limitations.",
+          "reuse_terms": "Article states CC BY 4.0.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TTO-SRC-104",
+      "title": "Written submission by the Ministry of Rural Development and Local Government to the Joint Select Committee on Land and Physical Infrastructure: Climate Change Inquiry",
+      "organization": "Ministry of Rural Development and Local Government, Trinidad and Tobago",
+      "publication_date": "2023-03-17",
+      "publication_date_basis": "submission",
+      "url": "https://www.ttparliament.org/wp-content/uploads/2022/01/MoRDLG-Written-Submission-re-Climate-Change-Inquiry-Fourth-Hearing-17Mar23.pdf",
+      "geographic_coverage": [
+        "Trinidad and Tobago",
+        "fourteen Municipal Corporations",
+        "local communities"
+      ],
+      "temporal_coverage": "Ministry response submitted March 2023; training counts and implementation descriptions are dated to 2021-2023.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TTO-E-113",
+        "TTO-E-114",
+        "TTO-E-115",
+        "TTO-E-116"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 13-page Ministry submission; local capacity questions and CFEWS section, printed pp.2-9",
+          "notes": "Read the complete Ministry response in the parliamentary archive; programme claims remain explicitly attributed to the submitting Ministry.",
+          "reuse_terms": "No license grant inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TTO-SRC-105",
+      "title": "Multi-sectoral Adaptation Measures to Flood Relief in the South Oropouche River Basin Project",
+      "organization": "Environmental Policy and Planning Division, Government of Trinidad and Tobago",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://eppd.gov.tt/mea-focal-areas/climate-change/multi-sectoral-adaptation-measures-to-flood-relief-in-the-south-oropouche-river-basin-project/",
+      "geographic_coverage": [
+        "South Oropouche River Basin",
+        "Debe",
+        "Trinidad"
+      ],
+      "temporal_coverage": "Government page describes the project's September 2023 launch, design targets and four-year implementation period.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TTO-E-117",
+        "TTO-E-118",
+        "TTO-E-119"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Official project page, paragraphs 1-4",
+          "notes": "Read the Government division's substantive project page; launch targets and partner statements are not presented as achieved outputs.",
+          "reuse_terms": "No license grant inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "TTO-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TTO-SRC-101",
+          "locator": "Foreword, printed p. i; Executive Summary, printed pp.1-2"
+        }
+      ],
+      "geographies": [
+        "Trinidad and Tobago coastal zone"
+      ],
+      "affected_groups": [
+        "coastal residents",
+        "coastal livelihoods"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-11 reports: The plan reports that its climate-threatened coastal zone holds 70% of residents and 81% of economic activity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TTO-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "TTO-SRC-101",
+          "locator": "Section 4.4.3 and Table 9, printed pp.44-45; localized precipitation and intense-precipitation rows"
+        }
+      ],
+      "geographies": [
+        "Trinidad and Tobago"
+      ],
+      "affected_groups": [
+        "communities reliant on water resources",
+        "water users"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": "The assessment gives a next-ten-year risk window; no emissions pathway is stated.",
+      "compact_statement": "The November 2023 NAP's water-risk table lists potential conflict over allocation and access under precipitation variation and intense rainfall, within a next-ten-year assessment window. This is a qualitative planning risk, not observed violence. Caroni River Basin and southwest Tobago are named for related contamination risk, not demonstrated dispute hotspots.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET; HTML visible-text extraction",
+      "verification_attempt": {
+        "selected_record_id": "TTO-E-102",
+        "selected_source_id": "TTO-SRC-101",
+        "url": "https://unfccc.int/sites/default/files/resource/NAP_Trinidad_and_Tobago_2024.pdf",
+        "locator": "Section 4.4.3 and Table 9, printed pp.44-45; localized precipitation and intense-precipitation rows",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 212,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "TTO-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TTO-SRC-101",
+          "locator": "Section 4.4.4 and Table 10, printed pp.46-47"
+        }
+      ],
+      "geographies": [
+        "Tunapuna-Piarco",
+        "Penal-Debe",
+        "Couva-Tabaquite-Talparo",
+        "Siparia",
+        "Port of Spain",
+        "Diego Martin",
+        "Sangre Grande",
+        "Tobago",
+        "Mayaro",
+        "Las Lomas"
+      ],
+      "affected_groups": [
+        "residents in flood-prone areas",
+        "health-service users"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "The assessment gives a next-ten-year risk window; no emissions pathway is stated.",
+      "compact_statement": "Source dated 2023-11 reports: The health-risk assessment names Tunapuna-Piarco, Penal-Debe, Port of Spain and Tobago among localities especially vulnerable to flash-flood health impacts.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TTO-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TTO-SRC-102",
+          "locator": "Abstract; Sections 2.2.4 and 2.3, printed pp.359-361"
+        }
+      ],
+      "geographies": [
+        "Trinidad"
+      ],
+      "affected_groups": [
+        "residents of flood-prone communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Maps span 2010-2100 using CORDEX rainfall; pathway unspecified.",
+      "compact_statement": "Source dated 2026-03-13 reports: The same Trinidad communities repeatedly scored high or very high susceptibility across 38 five-year February and November maps.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TTO-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TTO-SRC-102",
+          "locator": "Section 2.3, printed p.361, flood susceptibility results"
+        }
+      ],
+      "geographies": [
+        "Port of Spain and environs",
+        "East-West Corridor",
+        "Valencia",
+        "low-lying South Oropouche"
+      ],
+      "affected_groups": [
+        "residents in floodplain zones"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Same five-year study maps through 2100.",
+      "compact_statement": "Source dated 2026-03-13 reports: Port of Spain, East-West Corridor, Valencia and low South Oropouche repeatedly rank high or very high.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TTO-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TTO-SRC-102",
+          "locator": "Sections 2.3-2.4, printed pp.361-362"
+        }
+      ],
+      "geographies": [
+        "Trinidad",
+        "flood-prone urban communities"
+      ],
+      "affected_groups": [
+        "residents in flood-prone areas"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Projected CORDEX rainfall through 2100; pathway unspecified.",
+      "compact_statement": "Source dated 2026-03-13 reports: Authors attribute chronic susceptibility to low topography, land-use choices and inadequate drainage; projected rainfall may compound these conditions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TTO-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TTO-SRC-102",
+          "locator": "Abstract and Section 2.4, printed pp.357 and 361-362"
+        }
+      ],
+      "geographies": [
+        "flood-prone urban areas in Trinidad"
+      ],
+      "affected_groups": [
+        "urban residents"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03-13 reports: Authors recommend targeted drainage redesign, enforceable zoning, resilient building design and community-led flood warnings in flood-prone urban areas.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TTO-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TTO-SRC-103",
+          "locator": "Trinidad case study, legislative framework and policy findings, printed p.8"
+        }
+      ],
+      "geographies": [
+        "Trinidad's fourteen Municipal Corporations"
+      ],
+      "affected_groups": [
+        "municipal residents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-10-09 reports: Most spatial strategies for 14 Trinidad municipalities lacked climate-adaptation measures; plans were outdated and local planners unassigned.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TTO-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TTO-SRC-103",
+          "locator": "Trinidad interview findings, printed pp.8-9"
+        }
+      ],
+      "geographies": [
+        "Trinidad local government"
+      ],
+      "affected_groups": [
+        "municipal staff",
+        "local communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-10-09 reports: Trinidad interviewees cited staff climate-risk knowledge gaps and technical/non-technical disconnects weakening collective adaptation work.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TTO-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TTO-SRC-103",
+          "locator": "Trinidad interview findings, printed p.9"
+        }
+      ],
+      "geographies": [
+        "Trinidad local government"
+      ],
+      "affected_groups": [
+        "municipal authorities",
+        "urban residents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Two participants in the local-government study describe funding constraints and a high recurrent-cost share in municipal budgets. The accounts are not a representative budget audit.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TTO-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TTO-SRC-103",
+          "locator": "Broader findings on Trinidad local disaster management, printed p.12"
+        }
+      ],
+      "geographies": [
+        "Trinidad's fourteen Municipal Corporations"
+      ],
+      "affected_groups": [
+        "municipal communities"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-10-09 reports: All 14 corporations have Disaster Management Units; the article says they liaise with Meteorological Services but rely on ODPM GIS flood maps.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TTO-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TTO-SRC-104",
+          "locator": "Questions 4-5, printed pp.2-3"
+        }
+      ],
+      "geographies": [
+        "Trinidad's fourteen Municipal Corporations"
+      ],
+      "affected_groups": [
+        "community volunteers",
+        "residents"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-03-17 reports: Ministry's 2023 response says Disaster Management Units in 14 corporations ran public-awareness, Community Emergency Response Team (CERT), shelter and hydrological-observer training.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TTO-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TTO-SRC-104",
+          "locator": "Question 14, printed pp.5-6"
+        }
+      ],
+      "geographies": [
+        "Trinidad and Tobago"
+      ],
+      "affected_groups": [
+        "community volunteers",
+        "flood-prone residents"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-03-17 reports: Ministry reported 3,000 CERT volunteers trained by 2021 and 170 hydrological observers trained in 2022.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TTO-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TTO-SRC-104",
+          "locator": "Question 14, printed pp.5-6; Community Flood Early Warning System section"
+        }
+      ],
+      "geographies": [
+        "Trinidad and Tobago",
+        "municipal flood-prone communities"
+      ],
+      "affected_groups": [
+        "residents in flood-prone communities",
+        "commuters"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-03-17 reports: The Community Flood Early Warning System (CFEWS) includes hydrological monitoring, a portal, SMS alerts, mapping, interagency coordination and community participation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TTO-E-116",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TTO-SRC-104",
+          "locator": "Questions 2, 6-7 and 12, printed pp.1-4"
+        }
+      ],
+      "geographies": [
+        "Trinidad and Tobago's local-government system"
+      ],
+      "affected_groups": [
+        "affected communities",
+        "local authorities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-03-17 reports: Ministry acknowledged funding, equipment and manpower constraints, and minimal local climate-policy integration in 2023.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TTO-E-117",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TTO-SRC-105",
+          "locator": "Project description, paragraphs 1-2"
+        }
+      ],
+      "geographies": [
+        "South Oropouche River Basin",
+        "Debe",
+        "Trinidad"
+      ],
+      "affected_groups": [
+        "residents of the South Oropouche River Basin",
+        "people whose livelihoods depend on basin ecosystems"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "Four-year project launched September 2023; completion status unverified.",
+      "compact_statement": "Source dated not stated reports: Government reports a September 2023 launch of a US$10 million project for South Oropouche flood, sea-level and water-deficit resilience.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TTO-E-118",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TTO-SRC-105",
+          "locator": "Project description, paragraph 2"
+        }
+      ],
+      "geographies": [
+        "South Oropouche River Basin"
+      ],
+      "affected_groups": [
+        "project's intended direct beneficiaries"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "Target for the four-year project launched September 2023, approximately 2023–2027; no achieved beneficiary count.",
+      "compact_statement": "Source dated not stated reports: Project targets 9,758 direct beneficiaries and 175 hectares of coastal and wetland ecosystems.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TTO-E-119",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TTO-SRC-105",
+          "locator": "Project description, paragraphs 3-4"
+        }
+      ],
+      "geographies": [
+        "South Oropouche River Basin"
+      ],
+      "affected_groups": [
+        "residents and workers in the basin"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: Government cites flood vulnerability, population density and economic/cultural activity in selecting the basin; CAF says resident engagement is critical.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "TTO-E-102",
+  "source_access_review": {
+    "selected_record_id": "TTO-E-102",
+    "selected_source_id": "TTO-SRC-101",
+    "url": "https://unfccc.int/sites/default/files/resource/NAP_Trinidad_and_Tobago_2024.pdf",
+    "locator": "Section 4.4.3 and Table 9, printed pp.44-45; localized precipitation and intense-precipitation rows",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "document-fetched",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 212,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null
+  },
+  "checks": [
+    {
+      "record_id": "TTO-E-102",
+      "source_id": "TTO-SRC-101",
+      "locator": "Section 4.4.3 and Table 9, printed pp.44-45; localized precipitation and intense-precipitation rows",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET; HTML visible-text extraction",
+      "access_date": "2026-10-27",
+      "source_access_status": "document-fetched",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "TTO-E-102: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "TTO-E-101",
+    "TTO-E-102",
+    "TTO-E-103",
+    "TTO-E-105",
+    "TTO-E-106",
+    "TTO-E-107",
+    "TTO-E-108",
+    "TTO-E-109",
+    "TTO-E-110",
+    "TTO-E-111",
+    "TTO-E-112",
+    "TTO-E-113",
+    "TTO-E-114",
+    "TTO-E-115",
+    "TTO-E-116",
+    "TTO-E-117",
+    "TTO-E-118",
+    "TTO-E-119"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

@@ -1,0 +1,924 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "DZA",
+  "candidate_path": "countries/DZA/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 5,
+    "evidence_count": 13,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 13
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 1,
+      "access-only": 12
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "DZA-E-101",
+          "DZA-E-102",
+          "DZA-E-103",
+          "DZA-E-105",
+          "DZA-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "DZA-E-104",
+          "DZA-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "DZA-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "DZA-E-109",
+          "DZA-E-110",
+          "DZA-E-112",
+          "DZA-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "DZA-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "DZA-E-101",
+          "DZA-E-106",
+          "DZA-E-110",
+          "DZA-E-111",
+          "DZA-E-112"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/DZA/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "DZA-SRC-101",
+      "title": "National Climate Resilience Assessment for Algeria",
+      "organization": "International Energy Agency",
+      "publication_date": "2025-07-03",
+      "publication_date_basis": "publication",
+      "url": "https://www.iea.org/reports/national-climate-resilience-assessment-for-algeria",
+      "geographic_coverage": [
+        "Algeria",
+        "northern coastal wilayas",
+        "southern wilayas",
+        "High Plains",
+        "Saharan desert",
+        "Béchar"
+      ],
+      "temporal_coverage": "Observed climate and infrastructure evidence through 2024; projections to 2081–2100.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "DZA-E-101",
+        "DZA-E-102",
+        "DZA-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Online assessment, sections Overview, Temperature, Precipitation, Floods and Other climate risks",
+          "notes": "Read the substantive assessment webpage, including climate data notes, projections, regional heat ranges and Béchar flood impacts.",
+          "reuse_terms": "Page states CC BY 4.0; attribution required.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "DZA-E-101",
+        "selected_source_id": "DZA-SRC-101",
+        "url": "https://www.iea.org/reports/national-climate-resilience-assessment-for-algeria",
+        "locator": "IEA assessment, 'Other climate risks,' September 2024 flood event",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "DZA-SRC-102",
+      "title": "Inclusive insurance and risk financing in Algeria: Snapshot and way forward 2023",
+      "organization": "United Nations Development Programme Insurance and Risk Finance Facility and UNDP Algeria",
+      "publication_date": "2023",
+      "publication_date_basis": "document-version",
+      "url": "https://data.undp.org/sites/g/files/zskgke476/files/2025-01/undp-irff-diagnostic-algeria.pdf",
+      "geographic_coverage": [
+        "Algeria",
+        "high cereal plains",
+        "pre-Saharan steppe pastures",
+        "Bab El Oued, Algiers",
+        "Oran coastline",
+        "northeastern Algeria"
+      ],
+      "temporal_coverage": "Hazard records range from historical periods through 2020; insurance and disaster-finance snapshot mainly covers 2019–2021.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "DZA-E-104",
+        "DZA-E-105",
+        "DZA-E-106",
+        "DZA-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF printed pp. 3–9, risk profile, key hazards, insurance and disaster-risk finance",
+          "notes": "Opened and read the public 23-page UNDP diagnostic summary.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "DZA-SRC-103",
+      "title": "Algeria: Selected Issues, Fiscal Reforms to Support Addressing Climate Change Challenges",
+      "organization": "International Monetary Fund",
+      "publication_date": "2024-03-07",
+      "publication_date_basis": "document-version",
+      "url": "https://www.imf.org/-/media/files/publications/cr/2024/english/1dzaea2024002.pdf",
+      "geographic_coverage": [
+        "Algeria",
+        "northern coastal band",
+        "Algiers",
+        "rural areas"
+      ],
+      "temporal_coverage": "IMF staff climate-risk and fiscal analysis completed in March 2024; includes projections through 2100 and policy simulations.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "DZA-E-108",
+        "DZA-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Printed pp. 4–10 and 21, climate risks, displacement discussion and fiscal-policy options",
+          "notes": "Opened and read the public 32-page IMF country report; claims distinguish staff projections and CPAT policy simulation from observed outcomes.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "DZA-SRC-104",
+      "title": "Urban Natural Hazard Vulnerability Reduction Project: Technical Annex to the Memorandum of the President",
+      "organization": "World Bank",
+      "publication_date": "2002-07-18",
+      "publication_date_basis": "document-version",
+      "url": "https://documents1.worldbank.org/curated/en/265221468741587343/pdf/multi0page.pdf",
+      "geographic_coverage": [
+        "Algeria",
+        "Algiers Wilaya",
+        "Bab El Oued",
+        "Bouzareah Massif",
+        "Hamiz Oued",
+        "Oued El Harrach",
+        "Ouchaiah Oued",
+        "Kniss Oued",
+        "Telemly"
+      ],
+      "temporal_coverage": "Technical annex and proposed project design following the November 2001 Algiers flood.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "DZA-E-110",
+        "DZA-E-111",
+        "DZA-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Technical Annex sections 1, 2.1 and 2.2",
+          "notes": "Opened the public 84-page 2002 technical annex; local vulnerability measures and institutional activities are treated as historical project design, not delivered outcomes.",
+          "reuse_terms": "Public Disclosure Authorized; license terms not assessed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "DZA-SRC-105",
+      "title": "Law No. 24-04 of 26 February 2024 on prevention, intervention and reduction of disaster risks",
+      "organization": "Official Gazette of the People's Democratic Republic of Algeria",
+      "publication_date": "2024-03-06",
+      "publication_date_basis": "publication",
+      "url": "https://www.joradp.dz/FTP/jo-francais/2024/F2024016.pdf",
+      "geographic_coverage": [
+        "Algeria",
+        "sensitive sites",
+        "communes",
+        "wilayas",
+        "inter-wilaya areas"
+      ],
+      "temporal_coverage": "Statutory disaster-risk governance provisions published March 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "DZA-E-113"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Official Gazette printed pp. 5–10, Law 24-04",
+          "notes": "Opened the official French translation of the law; English paraphrases are translations of the Gazette text.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "DZA-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "DZA-SRC-101",
+          "locator": "IEA assessment, 'Other climate risks,' September 2024 flood event"
+        }
+      ],
+      "geographies": [
+        "Béchar",
+        "southern and western Algeria"
+      ],
+      "affected_groups": [
+        "280 families displaced"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-07-03 reports: The assessment reports September 2024 flooding displaced 280 families in Béchar and damaged roads and electricity infrastructure in southern and western Algeria.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "DZA-E-101",
+        "selected_source_id": "DZA-SRC-101",
+        "url": "https://www.iea.org/reports/national-climate-resilience-assessment-for-algeria",
+        "locator": "IEA assessment, 'Other climate risks,' September 2024 flood event",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "DZA-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DZA-SRC-101",
+          "locator": "IEA assessment, 'Temperature,' regional heat exposure comparison for 1995–2014"
+        }
+      ],
+      "geographies": [
+        "14 coastal wilayas",
+        "seven southern wilayas in the Sahara"
+      ],
+      "affected_groups": [
+        "coastal and southern residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-07-03 reports: Across 1995–2014, 14 coastal wilayas recorded 20–39 days annually above 35°C, versus 112–161 days in seven southern Saharan wilayas.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DZA-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DZA-SRC-101",
+          "locator": "IEA assessment, 'Precipitation,' projections to 2081–2100"
+        }
+      ],
+      "geographies": [
+        "northern Algeria",
+        "southern Algeria"
+      ],
+      "affected_groups": [
+        "northern residents",
+        "southern communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Below 2°C and Above 3°C global-warming scenarios; projection period 2081–2100.",
+      "compact_statement": "Source dated 2025-07-03 reports: IEA projects lower precipitation in northern populated regions under both assessed scenarios, while the south could receive up to 71% more rainfall in the high-warming case.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DZA-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DZA-SRC-102",
+          "locator": "PDF printed p. 5, 'Key risks and hazards,' Drought"
+        }
+      ],
+      "geographies": [
+        "high cereal plains",
+        "pre-Saharan steppe pastures"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoralists"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: The diagnostic identifies the high cereal plains and pre-Saharan steppe pastures as drought-sensitive; it records a 1999–2002 drought and losses in 2013.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DZA-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DZA-SRC-102",
+          "locator": "PDF printed p. 5, 'Key risks and hazards,' Floods"
+        }
+      ],
+      "geographies": [
+        "Algeria"
+      ],
+      "affected_groups": [
+        "urban residents",
+        "rural farmers",
+        "nearly 300,000 people affected across recorded events"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: It reports nearly 300,000 people affected by 42 major floods in 1980–2020, affecting dense urban populations and rural farmers.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DZA-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DZA-SRC-102",
+          "locator": "PDF printed p. 5, 'Key risks and hazards,' Storms"
+        }
+      ],
+      "geographies": [
+        "Oran coastline"
+      ],
+      "affected_groups": [
+        "coastal workers",
+        "aquaculture operators"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: The diagnostic says coastal storms particularly affect the Oran coastline, damaging port infrastructure, maritime transport and aquaculture farms.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DZA-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DZA-SRC-102",
+          "locator": "PDF printed pp. 3 and 6, key messages on insurance and disaster-risk finance"
+        }
+      ],
+      "geographies": [
+        "Algeria"
+      ],
+      "affected_groups": [
+        "farmers",
+        "households and firms exposed to natural disasters"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: In its 2023 snapshot, UNDP found inclusive insurance virtually absent; the State funded over 99% of disaster costs, local insurers covered under 1%, and no sovereign risk-transfer mechanism was used.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DZA-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DZA-SRC-103",
+          "locator": "IMF report, printed pp. 9–10, paragraphs 11–12"
+        }
+      ],
+      "geographies": [
+        "rural areas",
+        "northern coastal band"
+      ],
+      "affected_groups": [
+        "smallholders",
+        "informal workers",
+        "people displaced from rural areas"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "No specific emissions scenario is stated for the displacement-risk passage.",
+      "compact_statement": "Source dated 2024-03-07 reports: IMF staff says lower farm productivity may harm jobs and incomes; water/food insecurity, disasters and harsher conditions may displace people and pressure northern-coast infrastructure and resources.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DZA-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DZA-SRC-103",
+          "locator": "IMF report, printed p. 21, paragraph 32, fiscal-space policy options"
+        }
+      ],
+      "geographies": [
+        "Algeria"
+      ],
+      "affected_groups": [
+        "low-income households",
+        "climate-affected communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "Fossil-fuel price gap reduced by one-third; IMF estimates average annual revenues of 7% of GDP over the next decade.",
+      "compact_statement": "Source dated 2024-03-07 reports: IMF staff models that reducing the fossil-fuel price gap by one-third could raise average annual revenue by 7% of GDP over a decade, with space for targeted transfers and adaptation investment.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DZA-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DZA-SRC-104",
+          "locator": "Technical Annex, section 2.1, studies of vulnerable Algiers sites"
+        }
+      ],
+      "geographies": [
+        "Hamiz Oued",
+        "Oued El Harrach",
+        "Ouchaiah Oued",
+        "Kniss Oued",
+        "Telemly",
+        "Bouzareah Massif"
+      ],
+      "affected_groups": [
+        "residents of identified urban zones"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2002-07-18 reports: Annex names Hamiz Oued, Oued El Harrach, Ouchaiah Oued, Kniss Oued and Telemly for a flood, landslide, seismic and pollution study; it proposes separate catchment-basin work for Bouzareah.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DZA-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DZA-SRC-104",
+          "locator": "Technical Annex, section 1, response to November 2001 flooding"
+        }
+      ],
+      "geographies": [
+        "Wilaya of Algiers",
+        "Bab El Oued"
+      ],
+      "affected_groups": [
+        "flood-affected residents"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2002-07-18 reports: After the 2001 Algiers flood, the Wilaya of Algiers and public agencies, administrations and residents provided emergency measures and temporary relief that partly mitigated immediate impacts.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DZA-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DZA-SRC-104",
+          "locator": "Technical Annex, section 2.1–2.2, institutional studies and training"
+        }
+      ],
+      "geographies": [
+        "Algiers Wilaya",
+        "Algeria"
+      ],
+      "affected_groups": [
+        "residents in hazard-prone areas"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2002-07-18 reports: The project design proposed a meteorological monitoring and early-warning system in Algiers for possible national expansion and training for civil protection, water-resources and meteorology agencies.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "DZA-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "DZA-SRC-105",
+          "locator": "Law 24-04, Articles 7–11, 18, and 21–22"
+        }
+      ],
+      "geographies": [
+        "Algeria",
+        "sensitive sites",
+        "communes",
+        "wilayas",
+        "inter-wilaya areas"
+      ],
+      "affected_groups": [
+        "citizens",
+        "local communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-03-06 reports: The law requires risk analysis at site, commune, wilaya, inter-wilaya and national scales, with warning levels at national, local and site levels, plus local training and prevention plans.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "DZA-E-101",
+  "source_access_review": {
+    "selected_record_id": "DZA-E-101",
+    "selected_source_id": "DZA-SRC-101",
+    "url": "https://www.iea.org/reports/national-climate-resilience-assessment-for-algeria",
+    "locator": "IEA assessment, 'Other climate risks,' September 2024 flood event",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": null,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "URLError: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>"
+  },
+  "checks": [
+    {
+      "record_id": "DZA-E-101",
+      "source_id": "DZA-SRC-101",
+      "locator": "IEA assessment, 'Other climate risks,' September 2024 flood event",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "DZA-E-101: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "DZA-E-101",
+    "DZA-E-102",
+    "DZA-E-103",
+    "DZA-E-104",
+    "DZA-E-105",
+    "DZA-E-106",
+    "DZA-E-107",
+    "DZA-E-108",
+    "DZA-E-109",
+    "DZA-E-110",
+    "DZA-E-111",
+    "DZA-E-112",
+    "DZA-E-113"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

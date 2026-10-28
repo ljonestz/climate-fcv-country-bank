@@ -1,0 +1,901 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "NRU",
+  "candidate_path": "countries/NRU/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 4,
+    "evidence_count": 12,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 12
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 11,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "At least one known-gap statement appears inconsistent with the current pathway inventory.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "NRU-E-101",
+          "NRU-E-102"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "NRU-E-103",
+          "NRU-E-104",
+          "NRU-E-105",
+          "NRU-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "NRU-E-108",
+          "NRU-E-109",
+          "NRU-E-110",
+          "NRU-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "NRU-E-106",
+          "NRU-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "NRU-E-101",
+          "NRU-E-105",
+          "NRU-E-109"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "NRU-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [
+      {
+        "text": "The reviewed sources did not establish armed conflict, organized violence, or current insecurity interrupting climate adaptation in Nauru; the explicit future mobility pathway is sea-level-related potential internal displacement.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      }
+    ],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/NRU/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "NRU-SRC-101",
+      "title": "Nauru Climate Impact, Vulnerability and Risk Assessment: Synthesis Report",
+      "organization": "Commonwealth Scientific and Industrial Research Organisation (CSIRO), prepared for SPREP and the Government of Nauru",
+      "publication_date": "2025",
+      "publication_date_basis": "document-version",
+      "url": "https://nauru-data.sprep.org/system/files/Nauru%20CIVRA%20Synthesis%20Report_Sept%202025.pdf",
+      "geographic_coverage": [
+        "Nauru",
+        "Bottomside",
+        "Topside",
+        "Meneng",
+        "Anibare",
+        "Ijuw",
+        "Yaren",
+        "Aiwo",
+        "Denigomodu",
+        "Nibok",
+        "Uaboe",
+        "Baiti",
+        "Buada"
+      ],
+      "temporal_coverage": "2025 synthesis of four climate hazard, vulnerability, exposure and risk assessments, with recent conditions and projections to 2050 and beyond.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "NRU-E-101",
+        "NRU-E-102",
+        "NRU-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 35-page CSIRO synthesis opened; physical pp.1, 4–7, 18–20 and 22–24 reviewed.",
+          "notes": "Cover citation identifies CSIRO (2025), prepared for SPREP and Government of Nauru under the GCF-supported NAP/CIVRA project.",
+          "reuse_terms": "No license identified; report includes a general scientific-information disclaimer.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "NRU-SRC-102",
+      "title": "Republic of Nauru Framework for Climate Change Adaptation and Disaster Risk Reduction II (RONAdapt II)",
+      "organization": "Government of the Republic of Nauru, Department of Climate Change and National Resilience",
+      "publication_date": "2025",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/resource/NAP_Nauru_2026.pdf",
+      "geographic_coverage": [
+        "Nauru",
+        "coastal communities",
+        "Bottomside",
+        "Topside"
+      ],
+      "temporal_coverage": "Government framework dated 2025, based on the 2024 review and consultation process; includes current assessments and planned adaptation actions.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "NRU-E-104",
+        "NRU-E-105",
+        "NRU-E-106",
+        "NRU-E-107",
+        "NRU-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 152-page Government framework opened; physical pp.1, 5, 19–20, 24, 131 and 130 reviewed.",
+          "notes": "Cover states 2025; document was opened from the UNFCCC resource repository. Commercial/for-profit reproduction and translation rights are reserved.",
+          "reuse_terms": "Government notice reserves commercial or for-profit reproduction/translation; other permissions not specified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "NRU-E-105",
+        "selected_source_id": "NRU-SRC-102",
+        "url": "https://unfccc.int/sites/default/files/resource/NAP_Nauru_2026.pdf",
+        "locator": "PDF physical p.21 (printed p.11), land rehabilitation and Higher Ground Initiative.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 212,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "NRU-SRC-103",
+      "title": "Republic of Nauru Updated Nationally Determined Contribution",
+      "organization": "Government of the Republic of Nauru",
+      "publication_date": "2021",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/NDC/2022-06/Nauru%20Updated%20NDC%20pdf.pdf",
+      "geographic_coverage": [
+        "Nauru",
+        "coastal communities",
+        "Topside",
+        "Anibare Bay"
+      ],
+      "temporal_coverage": "Updated contribution covers 1 January 2021 through 31 December 2030 and sets out conditional and unconditional intended actions.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "NRU-E-109",
+        "NRU-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 45-page updated NDC opened; physical pp.5–9 and 13 reviewed.",
+          "notes": "Direct UNFCCC-hosted Government submission; intended coverage runs 2021–2030.",
+          "reuse_terms": "No reuse terms identified in inspected document.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "NRU-SRC-104",
+      "title": "PACC Nauru: Adapting water resource management to increase climate-resiliency and protect against future climate change risks",
+      "organization": "United Nations Development Programme (UNDP), with Government of Nauru, SPREP, GEF and Australian Government",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.adaptation-undp.org/projects/pacc-nauru",
+      "geographic_coverage": [
+        "Nauru",
+        "Buada Lagoon"
+      ],
+      "temporal_coverage": "Project page reports completed status but gives no publication or implementation dates in the opened text.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "NRU-E-111",
+        "NRU-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Opened official UNDP project summary, description, status and key-results/outputs sections.",
+          "notes": "The page states project status as completed but is not an evaluation report.",
+          "reuse_terms": "No reuse terms identified on the opened page.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "NRU-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NRU-SRC-101",
+          "locator": "PDF physical p.24 (printed p.24), coastal protection and infrastructure exposure mapping."
+        }
+      ],
+      "geographies": [
+        "Bottomside",
+        "Meneng",
+        "Anibare",
+        "Ijuw",
+        "Yaren",
+        "Aiwo",
+        "Denigomodu",
+        "Nibok",
+        "Uaboe",
+        "Baiti"
+      ],
+      "affected_groups": [
+        "coastal residents",
+        "users of coastal infrastructure"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: Most settlement and infrastructure lie on narrow Bottomside; low lagoon areas in Meneng, Anibare, Ijuw and Yaren are most exposed, unlike higher west and northwest districts.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NRU-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NRU-SRC-101",
+          "locator": "PDF physical p.24 (printed p.24), sea-level-rise projections and exposed-building estimates."
+        }
+      ],
+      "geographies": [
+        "Nauru",
+        "coastal buildings"
+      ],
+      "affected_groups": [
+        "coastal residents",
+        "infrastructure users"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "The report gives low- and high-emissions 2050 sea-level estimates; the 0.35-m 2070 building-exposure estimate has no scenario specified in the cited passage.",
+      "compact_statement": "Source dated 2025 reports: CIVRA estimates 0.7% of buildings are currently exposed to inundation and 2.3% may be exposed at 0.35-m sea-level rise by 2070; it gives 0.21–0.25 m rise by 2050.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NRU-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NRU-SRC-101",
+          "locator": "PDF physical p.19 (printed p.18), water-supply sources and household storage data from 2023 census."
+        }
+      ],
+      "geographies": [
+        "Nauru",
+        "Buada Lagoon",
+        "Meneng"
+      ],
+      "affected_groups": [
+        "households",
+        "water-dependent livelihoods"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: 2023 data show 36.5% use rainwater for drinking and 48.6% rely heavily on desalinated water; only 56.4% have working tank downpipes, while groundwater is brackish or polluted.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NRU-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NRU-SRC-102",
+          "locator": "PDF physical p.5 (printed p.iii), Minister’s foreword on coastal risk and displacement."
+        }
+      ],
+      "geographies": [
+        "Nauru",
+        "coastal communities"
+      ],
+      "affected_groups": [
+        "coastal communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Government statement refers to coming decades; no emissions scenario is specified in the cited passage.",
+      "compact_statement": "Source dated 2025 reports: The Government warns sea-level rise may reduce coastal land and prompt internal displacement in coming decades.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NRU-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "NRU-SRC-102",
+          "locator": "PDF physical p.21 (printed p.11), land rehabilitation and Higher Ground Initiative."
+        }
+      ],
+      "geographies": [
+        "Topside"
+      ],
+      "affected_groups": [
+        "communities planned for higher-ground development",
+        "landowners"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "RONAdapt II reports that wartime explosives and jagged limestone pinnacles hamper land development because removal or rehabilitation is costly. It identifies land rehabilitation as necessary for housing, water catchment and infrastructure and describes the Higher Ground Initiative as a climate-resilient land-use program. Explosive extent and separate costs are unspecified.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET; HTML visible-text extraction",
+      "verification_attempt": {
+        "selected_record_id": "NRU-E-105",
+        "selected_source_id": "NRU-SRC-102",
+        "url": "https://unfccc.int/sites/default/files/resource/NAP_Nauru_2026.pdf",
+        "locator": "PDF physical p.21 (printed p.11), land rehabilitation and Higher Ground Initiative.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 212,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "NRU-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NRU-SRC-102",
+          "locator": "PDF physical pp.19–20 (printed pp.9–10), 2024 early-warning and evacuation-route assessment."
+        }
+      ],
+      "geographies": [
+        "Nauru"
+      ],
+      "affected_groups": [
+        "communities exposed to coastal and drought hazards"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: In 2024, warnings were moderately developed and needed expansion; alerts covered tides, sea levels and drought, but evacuation routes were outdated.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NRU-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NRU-SRC-102",
+          "locator": "PDF physical p.131 (printed p.120), Annex 4, climate-capacity gaps."
+        }
+      ],
+      "geographies": [
+        "Nauru"
+      ],
+      "affected_groups": [
+        "government agencies",
+        "communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: The framework finds gaps in cross-government coordination, technical expertise, adaptation data and independent climate-finance access.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NRU-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NRU-SRC-102",
+          "locator": "PDF physical pp.1 and 130 (printed cover and p.119), stakeholder consultation and GEDSI plan."
+        }
+      ],
+      "geographies": [
+        "Nauru"
+      ],
+      "affected_groups": [
+        "women",
+        "youth",
+        "people with disabilities",
+        "marginalised communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: Government, community, women’s and youth groups and persons with disabilities joined consultation; the plan calls for their inclusion in adaptation decisions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NRU-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NRU-SRC-103",
+          "locator": "PDF physical pp.5–7, NDC timeframe and Higher Ground Initiative actions."
+        }
+      ],
+      "geographies": [
+        "Nauru",
+        "coastal areas",
+        "Topside"
+      ],
+      "affected_groups": [
+        "coastal households",
+        "users of critical infrastructure"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2021 reports: The 2021 NDC commits to a master land-use plan for moving coastal homes and critical infrastructure to Topside; construction of pilot Smart Village housing is conditional on support.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NRU-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NRU-SRC-103",
+          "locator": "PDF physical p.7, Productive Land and Coast, coastal erosion actions and funding conditions."
+        }
+      ],
+      "geographies": [
+        "Nauru",
+        "coastal zone"
+      ],
+      "affected_groups": [
+        "coastal communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2021 reports: The NDC proposes a technical coastal-erosion assessment and hard or nature-based protections; it lists the assessment as conditional on finance and sets a 2021 target.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NRU-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NRU-SRC-104",
+          "locator": "Project summary section, Nauru water resources and freshwater sources."
+        }
+      ],
+      "geographies": [
+        "Nauru",
+        "Buada Lagoon"
+      ],
+      "affected_groups": [
+        "households",
+        "farmers",
+        "fishers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: UNDP describes Buada Lagoon as Nauru’s only surface freshwater source; most people rely on rainwater collection or desalination, while groundwater is vulnerable to contamination.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NRU-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NRU-SRC-104",
+          "locator": "Project summary and key results/outputs sections."
+        }
+      ],
+      "geographies": [
+        "Nauru"
+      ],
+      "affected_groups": [
+        "government decision-makers",
+        "communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: UNDP lists the completed PACC project’s outputs as strengthened decision-maker capacity, institutional coordination, adaptation assessment tools and prepared policy directives.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "NRU-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "NRU-E-104",
+        "NRU-E-105",
+        "NRU-E-109"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "NRU-E-104"
+        ],
+        "impact": [
+          "NRU-E-109"
+        ],
+        "mediator": [
+          "NRU-E-105"
+        ],
+        "consequence": [
+          "NRU-E-105",
+          "NRU-E-109"
+        ]
+      },
+      "geographies": [
+        "Topside",
+        "Bottomside",
+        "Nauru"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "direct",
+      "compact_statement": "Wartime explosive remnants and mined-land rehabilitation costs constrain the usable higher-ground land needed for planned coastal adaptation.",
+      "alternative_explanations": [
+        "Phosphate-mining damage, outdated land legislation, finance and technical capacity are additional constraints; the explosives' separate contribution is not quantified."
+      ],
+      "uncertainty": "Historical war legacy, not current armed conflict. No explosive inventory, clearance cost, site hazard boundary or measured relocation delay is established.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "NRU-E-105",
+  "source_access_review": {
+    "selected_record_id": "NRU-E-105",
+    "selected_source_id": "NRU-SRC-102",
+    "url": "https://unfccc.int/sites/default/files/resource/NAP_Nauru_2026.pdf",
+    "locator": "PDF physical p.21 (printed p.11), land rehabilitation and Higher Ground Initiative.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "document-fetched",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 212,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null
+  },
+  "checks": [
+    {
+      "record_id": "NRU-E-105",
+      "source_id": "NRU-SRC-102",
+      "locator": "PDF physical p.21 (printed p.11), land rehabilitation and Higher Ground Initiative.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET; HTML visible-text extraction",
+      "access_date": "2026-10-27",
+      "source_access_status": "document-fetched",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "NRU-E-105: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "NRU-E-101",
+    "NRU-E-102",
+    "NRU-E-103",
+    "NRU-E-104",
+    "NRU-E-105",
+    "NRU-E-106",
+    "NRU-E-107",
+    "NRU-E-108",
+    "NRU-E-109",
+    "NRU-E-110",
+    "NRU-E-111",
+    "NRU-E-112",
+    "NRU-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

@@ -1,0 +1,2220 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "CMR",
+  "candidate_path": "countries/CMR/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 14,
+    "evidence_count": 30,
+    "pathway_count": 8,
+    "evidence_source_reference_count": 30
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 25,
+      "verified": 1,
+      "access-only": 4
+    },
+    "pathway_claims": {
+      "unresolved": 8
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "CMR-E-001",
+          "CMR-E-002",
+          "CMR-E-004"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "CMR-E-005",
+          "CMR-E-006"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "CMR-E-003",
+          "CMR-E-007",
+          "CMR-E-011",
+          "CMR-E-017",
+          "CMR-E-018",
+          "CMR-E-101",
+          "CMR-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "CMR-E-008"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "CMR-E-012",
+          "CMR-E-025"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "CMR-E-009",
+          "CMR-E-010",
+          "CMR-E-013",
+          "CMR-E-024",
+          "CMR-E-102"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "CMR-E-020",
+          "CMR-E-021",
+          "CMR-E-022",
+          "CMR-E-026",
+          "CMR-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "CMR-E-014",
+          "CMR-E-015",
+          "CMR-E-016"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "CMR-E-019",
+          "CMR-E-023"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "CMR-E-101",
+          "CMR-E-102",
+          "CMR-E-105"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "CMR-P-001",
+          "CMR-P-002",
+          "CMR-P-003",
+          "CMR-P-004",
+          "CMR-P-005",
+          "CMR-P-006",
+          "CMR-P-007",
+          "CMR-P-008"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/CMR/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "CMR-SRC-001",
+      "title": "Cameroon NDC 3.0 / *Contribution Déterminée au Niveau National Actualisée*",
+      "organization": "Government of Cameroon / UNFCCC Registry",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/2026-06/CDN%203.0%20CMR%20FINAL.pdf",
+      "geographic_coverage": [
+        "National; five agroecological zones"
+      ],
+      "temporal_coverage": "Current policy; projections to 2100",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CMR-E-001",
+        "CMR-E-002",
+        "CMR-E-003",
+        "CMR-E-012",
+        "CMR-E-013"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "CMR-SRC-002",
+      "title": "Plan National d’Adaptation aux Changements Climatiques du Cameroun - official hosting page",
+      "organization": "MINEPDED",
+      "publication_date": "2021",
+      "publication_date_basis": "publication",
+      "url": "https://minepded.gov.cm/2021/09/29/plan-national-dadaptation-aux-changements-climatiques-du-cameroun/",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "Policy",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "CMR-SRC-003",
+      "title": "*Request for an Arrangement under the Resilience and Sustainability Facility*, Country Report 24/53",
+      "organization": "IMF",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://www.imf.org/-/media/Files/Publications/CR/2024/English/1CMREA2024003.ashx",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "Mainly 2023-24; prospective reform programme",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CMR-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "CMR-SRC-004",
+      "title": "Cameroon data portal",
+      "organization": "UNHCR",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://data.unhcr.org/en/country/cmr",
+      "geographic_coverage": [
+        "National with separate Far North and NW/SW categories"
+      ],
+      "temporal_coverage": "Current",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CMR-E-005",
+        "CMR-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "CMR-SRC-005",
+      "title": "*Japan boosts life-saving food assistance as funding crisis threatens 600,000 people in Cameroon*",
+      "organization": "WFP",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.wfp.org/news/japan-boosts-life-saving-food-assistance-funding-crisis-threatens-600000-people-cameroon",
+      "geographic_coverage": [
+        "Six crisis-affected regions plus national"
+      ],
+      "temporal_coverage": "2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CMR-E-007",
+        "CMR-E-008",
+        "CMR-E-009"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "CMR-SRC-006",
+      "title": "*Climate-fueled Violence and Displacement in the Lake Chad Basin: Focus on Chad and Cameroon*",
+      "organization": "Refugees International",
+      "publication_date": "2023",
+      "publication_date_basis": "publication",
+      "url": "https://www.refugeesinternational.org/reports-briefs/climate-fueled-violence-and-displacement-in-the-lake-chad-basin-focus-on-chad-and-cameroon/",
+      "geographic_coverage": [
+        "Far North/Logone Birni; Lake Chad Basin"
+      ],
+      "temporal_coverage": "Fieldwork Jul-Aug 2022; events from 2021",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CMR-E-014",
+        "CMR-E-015",
+        "CMR-E-016"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "CMR-E-014",
+        "selected_source_id": "CMR-SRC-006",
+        "url": "https://www.refugeesinternational.org/reports-briefs/climate-fueled-violence-and-displacement-in-the-lake-chad-basin-focus-on-chad-and-cameroon/",
+        "locator": "“Clashes in Cameroon’s Logone Birni,” lines 90-94. (Refugees International)",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 176660,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "CMR-E-014"
+      ],
+      "manual_verified_record_ids": [
+        "CMR-E-014"
+      ]
+    },
+    {
+      "source_id": "CMR-SRC-007",
+      "title": "*Implications of Climatic Stressors on Agro-Pastoral Resources Among Mbororo Communities Along the Slopes of Kilum-Ijim Mountain, North West Region, Cameroon*",
+      "organization": "Frontiers in Sustainable Food Systems",
+      "publication_date": "2021",
+      "publication_date_basis": "publication",
+      "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2021.685071/full",
+      "geographic_coverage": [
+        "Kilum-Ijim, North-West"
+      ],
+      "temporal_coverage": "Field data mainly 2020; livestock series 2013-17",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CMR-E-017",
+        "CMR-E-018",
+        "CMR-E-019"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "CMR-SRC-008",
+      "title": "*Youth Agropastoral Entrepreneurship Promotion Programme (AEP-Youth): Impact Assessment Report*",
+      "organization": "IFAD ODE",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://www.ifad.org/documents/48415603/51143611/cameroon-aep-report.pdf/b755311c-f92c-1407-00c0-12bbe9b1ef7e?t=1752747342289",
+      "geographic_coverage": [
+        "North-West, Centre, Littoral, South"
+      ],
+      "temporal_coverage": "Programme 2015-23; household survey Nov-Dec 2023",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CMR-E-020",
+        "CMR-E-021"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "CMR-SRC-009",
+      "title": "*Project Completion Report Validation - Commodity Value Chain Support Project (PADFA)*",
+      "organization": "IFAD Independent Office of Evaluation",
+      "publication_date": "2019",
+      "publication_date_basis": "publication",
+      "url": "https://ioe.ifad.org/documents/38714182/41729064/PCRV_cameroon_1100001439.pdf",
+      "geographic_coverage": [
+        "Extreme North, North, North-West, West"
+      ],
+      "temporal_coverage": "Project 2010-17; validation 2019",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CMR-E-022"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "CMR-SRC-010",
+      "title": "*Country programme document for Cameroon (2027-2031)*",
+      "organization": "UNDP",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-07/cameroon-cpd-final-as-of-25-june.pdf",
+      "geographic_coverage": [
+        "National with crisis-region distinctions"
+      ],
+      "temporal_coverage": "2026 baseline; programme 2027-31",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CMR-E-010",
+        "CMR-E-011"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "CMR-SRC-011",
+      "title": "*Joint Monitoring Mission Report: CSO-Led Peacebuilding Project in the Lake Chad Basin Sub-Region - Cameroon and Niger*",
+      "organization": "UNDP / LCBC / PBF",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://mptf.undp.org/sites/default/files/documents/2025-06/joint_monitoring_report_ner_cmr.pdf",
+      "geographic_coverage": [
+        "Northern Cameroon and Niger"
+      ],
+      "temporal_coverage": "2024-25",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CMR-E-023"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "CMR-SRC-012",
+      "title": "*Implementation Completion and Results Report: Cameroon Inclusive and Resilient Cities Development Project (P156210)*",
+      "organization": "World Bank",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099012626122522961/pdf/BOSIB-df709879-408f-484a-bdee-692a903de641.pdf",
+      "geographic_coverage": [
+        "Douala, Yaoundé, Kumba, Ngaoundéré, Batouri, Maroua, Kousséri"
+      ],
+      "temporal_coverage": "Project 2017-25",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CMR-E-024",
+        "CMR-E-025",
+        "CMR-E-026"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "CMR-SRC-101",
+      "title": "Cameroon Humanitarian Situation Report No. 4 (End of Year), 31 December 2025",
+      "organization": "UNICEF Cameroon",
+      "publication_date": "2026-02-05",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/media/178661/file/Cameroon-Humanitarian-Situation-Report-No.4-%28End-of-Year%29-31-December-2025.pdf.pdf",
+      "geographic_coverage": [
+        "Cameroon",
+        "Far North",
+        "North-West",
+        "South-West",
+        "East"
+      ],
+      "temporal_coverage": "Humanitarian events and UNICEF/partner response during 1 January-31 December 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CMR-E-101",
+        "CMR-E-102",
+        "CMR-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 1-5 reviewed",
+          "notes": "Downloaded and read the complete 17-page end-year report; claims use the situation overview, security/access update and response highlights.",
+          "reuse_terms": "Unknown; no reuse license verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "CMR-SRC-102",
+      "title": "The situation in Central Africa and the activities of the United Nations Regional Office for Central Africa: Report of the Secretary-General (S/2026/445)",
+      "organization": "United Nations Secretary-General",
+      "publication_date": "2026-05-29",
+      "publication_date_basis": "document-version",
+      "url": "https://unoca.unmissions.org/sites/default/files/2026-06/sg_report_on_unoca_s_2026.445_e.pdf.pdf",
+      "geographic_coverage": [
+        "Central Africa",
+        "Cameroon",
+        "Far North Region",
+        "Logone-et-Chari"
+      ],
+      "temporal_coverage": "Regional conditions and events from December 2025 through 15 March 2026; report dated 29 May 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CMR-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 5, 7 and 12 reviewed",
+          "notes": "Downloaded and read the 15-page Secretary-General report; climate and farmer-herder discussion is regional and does not establish climate causation for the Cameroon incident.",
+          "reuse_terms": "Unknown; no reuse license verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "CMR-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-001",
+          "locator": "PDF p.32, §6, lines 1644-1650. (UNFCCC)"
+        }
+      ],
+      "geographies": [
+        "Sudano-Sahelian"
+      ],
+      "affected_groups": [
+        "general population"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "2025-2100; scenario/model not stated in cited passage",
+      "compact_statement": "Strong long-run northern warming projected.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-001",
+          "locator": "PDF pp.32-33, §6. (UNFCCC)"
+        }
+      ],
+      "geographies": [
+        "multiple zones"
+      ],
+      "affected_groups": [
+        "rural/coastal populations"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "2040",
+      "compact_statement": "Rainfall change is spatially heterogeneous.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-001",
+          "locator": "PDF p.33, §6, lines 1661-1666. (UNFCCC)"
+        }
+      ],
+      "geographies": [
+        "some regions"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoralists"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "future; scenario unspecified",
+      "compact_statement": "Agriculture/livestock/water are climate-sensitive.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-003",
+          "locator": "PDF p.1, lines 32-49. (IMF)"
+        }
+      ],
+      "geographies": [
+        "national"
+      ],
+      "affected_groups": [
+        "exposed communities"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Multiple climate hazards affect Cameroon.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-004",
+          "locator": "indicator “IDPs in the Far North region,” portal lines 37-43; last updated 30 September 2026"
+        }
+      ],
+      "geographies": [
+        "Far North"
+      ],
+      "affected_groups": [
+        "IDPs"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Far North has >510k estimated IDPs.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-004",
+          "locator": "indicator “IDPs in North-West/South-West,” portal lines 30-36; last updated 30 September 2026"
+        }
+      ],
+      "geographies": [
+        "North-West/South-West"
+      ],
+      "affected_groups": [
+        "IDPs"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Nearly 493k NW/SW IDPs.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-005",
+          "locator": "webpage para. beginning “Cameroon continues…”, lines 251-253. (World Food Programme)"
+        }
+      ],
+      "geographies": [
+        "Far North",
+        "East",
+        "Adamawa",
+        "North",
+        "NW",
+        "SW"
+      ],
+      "affected_groups": [
+        "food-insecure households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Acute hunger concentrated in crisis regions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-008",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-005",
+          "locator": "lines 249-251. (World Food Programme)"
+        }
+      ],
+      "geographies": [
+        "crisis regions"
+      ],
+      "affected_groups": [
+        "displaced households"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Coping capacity is strained in crisis settings.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-009",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-005",
+          "locator": "line 253. (World Food Programme)"
+        }
+      ],
+      "geographies": [
+        "crisis regions"
+      ],
+      "affected_groups": [
+        "aid recipients"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Humanitarian delivery capacity fell materially.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-010",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-010",
+          "locator": "PDF p.2, para.7, lines 95-100. (UNDP)"
+        }
+      ],
+      "geographies": [
+        "municipalities"
+      ],
+      "affected_groups": [
+        "local residents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Decentralized delivery capacity is constrained.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-010"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-011",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-010",
+          "locator": "PDF p.2, para.7. (UNDP)"
+        }
+      ],
+      "geographies": [
+        "crisis regions"
+      ],
+      "affected_groups": [
+        "displaced",
+        "host populations"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "FCV and displacement strain service systems.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-010"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-012",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-001",
+          "locator": "PDF pp.26-27, lines 1287-1316. (UNFCCC)"
+        }
+      ],
+      "geographies": [
+        "national"
+      ],
+      "affected_groups": [
+        "general population"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Formal multi-level climate governance exists.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-013",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-001",
+          "locator": "PDF p.47, lines 2362-2368. (UNFCCC)"
+        }
+      ],
+      "geographies": [
+        "national"
+      ],
+      "affected_groups": [
+        "population indirectly"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Implementation constraints remain substantial.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-014",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-006",
+          "locator": "“Clashes in Cameroon’s Logone Birni,” lines 90-94. (Refugees International)"
+        }
+      ],
+      "geographies": [
+        "Logone Birni"
+      ],
+      "affected_groups": [
+        "fishers",
+        "farmers",
+        "herders"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Immediate clash triggers involved resource-use incidents.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "CMR-E-014",
+        "source_id": "CMR-SRC-006",
+        "url": "https://www.refugeesinternational.org/reports-briefs/climate-fueled-violence-and-displacement-in-the-lake-chad-basin-focus-on-chad-and-cameroon/",
+        "locator": "“Clashes in Cameroon’s Logone Birni,” lines 90-94. (Refugees International)",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+      },
+      "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "CMR-SRC-006",
+        "source_url": "https://www.refugeesinternational.org/reports-briefs/climate-fueled-violence-and-displacement-in-the-lake-chad-basin-focus-on-chad-and-cameroon/",
+        "locator": "“Clashes in Cameroon’s Logone Birni,” lines 90-94. (Refugees International)",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "CMR-E-015",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-006",
+          "locator": "Logone Birni section, lines 95-100. (Refugees International)"
+        }
+      ],
+      "geographies": [
+        "Logone Birni"
+      ],
+      "affected_groups": [
+        "fishers",
+        "farmers",
+        "herders"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Climate stress was reported as an aggravating mediator.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-016",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-006",
+          "locator": "“Impacts of Climate Change…”, lines 69-73. (Refugees International)"
+        }
+      ],
+      "geographies": [
+        "transboundary basin/Far North context"
+      ],
+      "affected_groups": [
+        "lake-dependent livelihoods"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Simple “ever-shrinking lake causes conflict” narrative is inadequate.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-017",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-007",
+          "locator": "“Pasture Degradation and Shrinking Water Courses,” lines 467-475. (Frontiers)"
+        }
+      ],
+      "geographies": [
+        "Kilum-Ijim",
+        "NW"
+      ],
+      "affected_groups": [
+        "Mbororo pastoralists"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Rainfall variability pressures pastoral mobility locally.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-018",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-007",
+          "locator": "Figure 5 discussion, lines 459-469. (Frontiers)"
+        }
+      ],
+      "geographies": [
+        "Kilum-Ijim"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoralists"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Herd pressure is an independent co-driver.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-019",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-007",
+          "locator": "abstract lines 310-313. (Frontiers)"
+        }
+      ],
+      "geographies": [
+        "Kilum-Ijim"
+      ],
+      "affected_groups": [
+        "pastoralists/farmers"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Local institutions provide some risk-reducing capacity.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-020",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-008",
+          "locator": "PDF p.23, Table 9 and text, lines 834-850. (IFAD)"
+        }
+      ],
+      "geographies": [
+        "NW",
+        "Centre",
+        "Littoral",
+        "South"
+      ],
+      "affected_groups": [
+        "participant youth/households"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Programme did not measurably improve shock recovery.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-021",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-008",
+          "locator": "PDF pp.23-24, Table 10. (IFAD)"
+        }
+      ],
+      "geographies": [
+        "NW",
+        "Centre",
+        "Littoral",
+        "South"
+      ],
+      "affected_groups": [
+        "participant households"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Food-security gain did not translate into measured diet gains.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-022",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-009",
+          "locator": "PDF p.10, “Adaptation to climate change,” lines 567-580. (IOE)"
+        }
+      ],
+      "geographies": [
+        "Extreme North",
+        "North",
+        "NW",
+        "West"
+      ],
+      "affected_groups": [
+        "rice/onion producers"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Partial irrigation weakened intended adaptation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-023",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-011",
+          "locator": "PDF p.9, “Feedback from beneficiaries,” lines 298-315. (MPTF Gateway)"
+        }
+      ],
+      "geographies": [
+        "northern Cameroon project sites"
+      ],
+      "affected_groups": [
+        "farmers",
+        "herders",
+        "IDPs",
+        "hosts"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Beneficiaries reported peacebuilding benefits.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-011"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-024",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-012",
+          "locator": "PDF p.12, para.16. (World Bank)"
+        }
+      ],
+      "geographies": [
+        "NW/SW",
+        "Far North"
+      ],
+      "affected_groups": [
+        "urban residents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict directly constrained resilience investment delivery.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-012"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-025",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-012",
+          "locator": "PDF pp.14-16, Table 2 and paras.28-31. (World Bank)"
+        }
+      ],
+      "geographies": [
+        "selected cities"
+      ],
+      "affected_groups": [
+        "underserved urban communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Completed drainage produced measurable flood-protection output.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-012"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-026",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-012",
+          "locator": "PDF pp.15-17, lines 558-563 and 590-605. (World Bank)"
+        }
+      ],
+      "geographies": [
+        "selected cities"
+      ],
+      "affected_groups": [
+        "beneficiaries"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Important outcome/evaluation components remained incomplete.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "CMR-SRC-012"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-101",
+          "locator": "PDF p. 2, humanitarian situation overview"
+        }
+      ],
+      "geographies": [
+        "Far North",
+        "Cameroon"
+      ],
+      "affected_groups": [
+        "children",
+        "displaced people",
+        "flood-affected communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNICEF's 2025 report describes Far North rainy-season flooding damaging services and isolating displaced/host communities, alongside conflict and displacement pressures.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-101",
+          "locator": "PDF p. 2, security and access update"
+        }
+      ],
+      "geographies": [
+        "North-West",
+        "South-West"
+      ],
+      "affected_groups": [
+        "civilians",
+        "displaced people",
+        "humanitarian personnel"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02-05 reports: In North-West and South-West, UNICEF records 269 access constraints in 2025; insecurity, lockdowns and administrative impediments restricted humanitarian operations, while a five-week lockdown disrupted livelihoods and market access.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-101",
+          "locator": "PDF pp. 1-2, response highlights and funding overview"
+        }
+      ],
+      "geographies": [
+        "Cameroon",
+        "crisis-affected areas"
+      ],
+      "affected_groups": [
+        "crisis-affected households",
+        "children",
+        "young people"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNICEF's 2025 report records community/youth delivery, about80,000feedback records and anticipatory cash transfers reaching2,800households; feedback records are not unique beneficiaries.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CMR-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CMR-SRC-102",
+          "locator": "PDF p. 7, para. 31"
+        }
+      ],
+      "geographies": [
+        "Logone-et-Chari",
+        "Far North Region"
+      ],
+      "affected_groups": [
+        "farmers",
+        "herders",
+        "local communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The Secretary-General's 29 May 2026 report describes January 2026 Logone-et-Chari violence following livestock crop damage, with nine deaths; no climatic cause is stated.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "CMR-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "CMR-E-014",
+        "CMR-E-015",
+        "CMR-E-016"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "CMR-E-015"
+        ],
+        "impact": [
+          "CMR-E-015"
+        ],
+        "mediator": [
+          "CMR-E-014",
+          "CMR-E-015"
+        ],
+        "consequence": [
+          "CMR-E-014"
+        ]
+      },
+      "geographies": [
+        "Logone Birni",
+        "Far North"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Climate-related livelihood stress may aggravate already-governed resource disputes; it is not demonstrated as a sufficient cause of violence. (Refugees International)",
+      "alternative_explanations": [
+        "Armed actors",
+        "political connections",
+        "population growth",
+        "historical intergroup relations",
+        "insurgency",
+        "local governance"
+      ],
+      "uncertainty": "Interview-based evidence cannot estimate the climate contribution to violence.",
+      "potentially_out_of_scope_support_ids": [
+        "CMR-E-016"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "CMR-P-002",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "CMR-E-005",
+        "CMR-E-007",
+        "CMR-E-008",
+        "CMR-E-009"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "CMR-E-007",
+          "CMR-E-008"
+        ],
+        "impact": [
+          "CMR-E-007"
+        ],
+        "mediator": [
+          "CMR-E-005",
+          "CMR-E-008"
+        ],
+        "consequence": [
+          "CMR-E-005"
+        ]
+      },
+      "geographies": [
+        "Far North and other crisis regions"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Climate shocks occur inside a conflict-displacement system that can weaken coping, rather than independently producing acute hunger. (UNHCR Data Portal)",
+      "alternative_explanations": [
+        "Inflation/high food prices",
+        "poverty",
+        "aid funding",
+        "disease",
+        "market disruption"
+      ],
+      "uncertainty": "No reviewed study decomposes the relative climate/conflict contributions.",
+      "potentially_out_of_scope_support_ids": [
+        "CMR-E-005",
+        "CMR-E-007",
+        "CMR-E-008",
+        "CMR-E-009"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "CMR-P-003",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "CMR-E-017",
+        "CMR-E-018",
+        "CMR-E-019"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "CMR-E-017"
+        ],
+        "impact": [
+          "CMR-E-017"
+        ],
+        "mediator": [
+          "CMR-E-018"
+        ],
+        "consequence": [
+          "CMR-E-018"
+        ]
+      },
+      "geographies": [
+        "Four Mbororo Ardorates around Kilum-Ijim",
+        "North-West"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "In Kilum-Ijim, climate variability interacts with herd pressure and land governance rather than operating as a stand-alone conflict driver. (Frontiers)",
+      "alternative_explanations": [
+        "Herd growth",
+        "overgrazing",
+        "agricultural expansion",
+        "tenure arrangements"
+      ],
+      "uncertainty": "No national extrapolation is justified.",
+      "potentially_out_of_scope_support_ids": [
+        "CMR-E-017",
+        "CMR-E-018",
+        "CMR-E-019"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "CMR-P-004",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "CMR-E-010",
+        "CMR-E-024",
+        "CMR-E-025",
+        "CMR-E-026"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "CMR-E-025"
+        ],
+        "impact": [
+          "CMR-E-025"
+        ],
+        "mediator": [
+          "CMR-E-024"
+        ],
+        "consequence": [
+          "CMR-E-024",
+          "CMR-E-026"
+        ]
+      },
+      "geographies": [
+        "Particularly Far North and NW/SW project locations"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "direct",
+      "compact_statement": "Recent project evidence directly shows insecurity delaying or narrowing resilience investment. (World Bank)",
+      "alternative_explanations": [
+        "Administrative delay",
+        "procurement",
+        "counterpart funding and staffing also constrained implementation"
+      ],
+      "uncertainty": "Project experience cannot be generalized to every municipality.",
+      "potentially_out_of_scope_support_ids": [
+        "CMR-E-010",
+        "CMR-E-024",
+        "CMR-E-025",
+        "CMR-E-026"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "CMR-P-005",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "CMR-E-001",
+        "CMR-E-004",
+        "CMR-E-010",
+        "CMR-E-012",
+        "CMR-E-013"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "CMR-E-001",
+          "CMR-E-004"
+        ],
+        "impact": [
+          "CMR-E-001"
+        ],
+        "mediator": [
+          "CMR-E-010",
+          "CMR-E-013"
+        ],
+        "consequence": [
+          "CMR-E-001"
+        ]
+      },
+      "geographies": [
+        "National and municipal"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Cameroon has an increasingly articulated climate architecture, but implementation bottlenecks may weaken conversion of policy into local resilience. (UNFCCC)",
+      "alternative_explanations": [
+        "Fiscal space",
+        "normal administrative complexity and project design"
+      ],
+      "uncertainty": "No reviewed nationwide study estimates adaptation losses attributable to governance fragmentation.",
+      "potentially_out_of_scope_support_ids": [
+        "CMR-E-001",
+        "CMR-E-004",
+        "CMR-E-010",
+        "CMR-E-012",
+        "CMR-E-013"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "CMR-P-006",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "CMR-E-007",
+        "CMR-E-008",
+        "CMR-E-009"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "CMR-E-007"
+        ],
+        "impact": [
+          "CMR-E-007"
+        ],
+        "mediator": [
+          "CMR-E-007"
+        ],
+        "consequence": [
+          "CMR-E-007"
+        ]
+      },
+      "geographies": [
+        "Six crisis-affected regions"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Assistance capacity is itself a mediator of whether multi-causal shocks become deeper household crises. (World Food Programme)",
+      "alternative_explanations": [
+        "Prices",
+        "harvest conditions",
+        "household assets and market access"
+      ],
+      "uncertainty": "Downstream conflict/stability effects have not been evaluated.",
+      "potentially_out_of_scope_support_ids": [
+        "CMR-E-007",
+        "CMR-E-008",
+        "CMR-E-009"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "CMR-P-007",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "CMR-E-019",
+        "CMR-E-023"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "CMR-E-019"
+        ],
+        "impact": [
+          "CMR-E-019"
+        ],
+        "mediator": [
+          "CMR-E-019"
+        ],
+        "consequence": [
+          "CMR-E-019"
+        ]
+      },
+      "geographies": [
+        "Far North/Lake Chad project areas",
+        "separately Kilum-Ijim"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Evidence suggests local resource institutions can be peace-supporting, but the measured magnitude of their effect remains uncertain. (MPTF Gateway)",
+      "alternative_explanations": [
+        "Wider security trends and other interventions may explain perceived conflict reductions"
+      ],
+      "uncertainty": "No independent counterfactual evaluation of peace outcomes.",
+      "potentially_out_of_scope_support_ids": [
+        "CMR-E-019",
+        "CMR-E-023"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "CMR-P-008",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "CMR-E-020",
+        "CMR-E-021"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "CMR-E-020"
+        ],
+        "impact": [
+          "CMR-E-020"
+        ],
+        "mediator": [
+          "CMR-E-020"
+        ],
+        "consequence": [
+          "CMR-E-020"
+        ]
+      },
+      "geographies": [
+        "NW",
+        "Centre",
+        "Littoral",
+        "South"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Measurable livelihood gains did not automatically produce measurable shock resilience. (IFAD) ---",
+      "alternative_explanations": [
+        "Differential shock exposure among participants and comparison households"
+      ],
+      "uncertainty": "Programme geography excludes major Far North and East crisis contexts.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ"
+      ],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "CMR-E-014",
+  "source_access_review": {
+    "selected_record_id": "CMR-E-014",
+    "selected_source_id": "CMR-SRC-006",
+    "url": "https://www.refugeesinternational.org/reports-briefs/climate-fueled-violence-and-displacement-in-the-lake-chad-basin-focus-on-chad-and-cameroon/",
+    "locator": "“Clashes in Cameroon’s Logone Birni,” lines 90-94. (Refugees International)",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 176660,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+  },
+  "checks": [
+    {
+      "record_id": "CMR-E-014",
+      "source_id": "CMR-SRC-006",
+      "locator": "“Clashes in Cameroon’s Logone Birni,” lines 90-94. (Refugees International)",
+      "verification_status": "verified",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "CMR-E-014: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "CMR-E-001",
+    "CMR-E-002",
+    "CMR-E-003",
+    "CMR-E-004",
+    "CMR-E-005",
+    "CMR-E-006",
+    "CMR-E-007",
+    "CMR-E-008",
+    "CMR-E-009",
+    "CMR-E-010",
+    "CMR-E-011",
+    "CMR-E-012",
+    "CMR-E-013",
+    "CMR-E-014",
+    "CMR-E-015",
+    "CMR-E-016",
+    "CMR-E-017",
+    "CMR-E-018",
+    "CMR-E-019",
+    "CMR-E-020",
+    "CMR-E-021",
+    "CMR-E-022",
+    "CMR-E-023",
+    "CMR-E-024",
+    "CMR-E-025",
+    "CMR-E-026",
+    "CMR-E-101",
+    "CMR-E-102",
+    "CMR-E-103",
+    "CMR-E-105",
+    "CMR-P-001",
+    "CMR-P-002",
+    "CMR-P-003",
+    "CMR-P-004",
+    "CMR-P-005",
+    "CMR-P-006",
+    "CMR-P-007",
+    "CMR-P-008"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

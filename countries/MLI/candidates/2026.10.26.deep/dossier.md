@@ -1,0 +1,244 @@
+# Mali Climate-FCV Evidence Dossier
+
+## Executive assessment
+
+- Mopti household evidence and Kouna's reported flooding add local vulnerability, with retrospective losses and observational mobility associations distinguished from causation. [MLI-E-105, MLI-E-106, MLI-E-107]
+- Dembala water disputes and traditional resource governance add named mechanisms and capacities; programme/evaluation summaries remain limited in geographic and causal detail. [MLI-E-109, MLI-E-110, MLI-E-112, MLI-E-114]
+
+## Evidence coverage and critical gaps
+
+| Dimension | Value | Status | Supporting record IDs | Gap note |
+|---|---|---|---|---|
+| evidence-class | climate-pressure | partial | MLI-E-001, MLI-E-002, MLI-E-003, MLI-E-004 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | exposure | partial | MLI-E-016, MLI-E-017, MLI-E-101 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | sensitivity | partial | MLI-E-005, MLI-E-014, MLI-E-018, MLI-E-020, MLI-E-105, MLI-E-107, MLI-E-113 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | coping-capacity | partial | MLI-E-006, MLI-E-103 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | adaptive-capacity | partial | MLI-E-007, MLI-E-015, MLI-E-104 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | institutional-capacity | partial | MLI-E-008, MLI-E-009, MLI-E-019 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | response-performance | partial | MLI-E-021, MLI-E-022, MLI-E-023, MLI-E-026, MLI-E-110, MLI-E-111 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | direct-climate-fcv | partial | MLI-E-011, MLI-E-012, MLI-E-013, MLI-E-102, MLI-E-106, MLI-E-108, MLI-E-112 | Selected source-supported evidence only; not comprehensive. |
+| evidence-class | resilience-peace-capacity | partial | MLI-E-024, MLI-E-025, MLI-E-109, MLI-E-114 | Selected source-supported evidence only; not comprehensive. |
+| geography | new named subnational examples | partial | MLI-E-105, MLI-E-106, MLI-E-107, MLI-E-108, MLI-E-109, MLI-E-112, MLI-E-114 | Named places only; generic rural/coastal zones excluded. No complete local risk ranking. |
+| pathway | mediated climate-FCV links | partial | MLI-P-001, MLI-P-002, MLI-P-003, MLI-P-004, MLI-P-005, MLI-P-007, MLI-P-008, MLI-P-101 | Conditional mechanisms, not national causal estimates. |
+
+Critical remaining gaps:
+- Climate projections: warming is robust, but precipitation magnitude and direction remain uncertain. More subnational, bias-corrected projections are needed for rainfall intensity, drought duration, flood return periods and agro-pastoral seasonal timing. (World Bank) []
+- Extreme-event attribution: retained sources support rising climate risk but do not justify attributing individual floods or drought losses to anthropogenic climate change without event-attribution evidence. []
+- Geographic gaps: northern/central Mali is over-represented in Climate-FCV studies relative to southern rural zones and urban systems. Inner Niger Delta fisheries and current pastoral corridors require more recent evidence. []
+- Population gaps: differentiated quantitative evidence remains limited for women, girls, persons with disabilities, older people, minority/ethnic groups and households with different displacement status. SIPRI supports differentiation but not a complete national profile. (SIPRI) []
+- Causal uncertainty: the peer-reviewed SEM supports a food-security mediation pathway but is observational. The qualitative climate-security study is explicitly a single-case plausibility probe. Neither warrants a deterministic national climate-conflict claim. (Frontiers) []
+- FCV-to-climate evidence: there is strong descriptive evidence that conflict disrupts markets, irrigation, mobility and service delivery, but few studies formally estimate how much these disruptions reduce household or institutional climate-adaptation performance. []
+- Programme evaluation: the strongest independent synthesis ends in 2021. Newer climate-resilience, community-service and peace-supporting interventions have limited independent outcome evidence. []
+- Unintended effects: the IOB review demonstrates that unintended peacebuilding incentives can occur, but there is little equivalent evaluation of whether adaptation projects alter land values, resource access, elite capture or intergroup relations. []
+- Institutional implementation: a formal NDC coordination mechanism exists, but there is insufficient verified evidence here on execution rates, budget disbursement, regional coverage or adaptation outcomes under NDC 2.0. (Government of Mali) []
+- Access bias in humanitarian evidence: insecurity restricts observation and delivery in precisely the locations likely to have high vulnerability; apparently “lower” needs in poorly accessed locations may reflect data limitations. []
+- Current displacement-series comparability: UNHCR’s displayed refugee figures are updated later than its displayed IDP series. Analysts should use indicator-specific reference dates rather than implying a single June 2026 snapshot. (UNHCR Data Portal) []
+- *None are wholly absent, but coverage is partial for []
+- coping-capacity []
+- adaptive-capacity []
+- resilience-peace-capacity. []
+- The official Government of Mali page opened for the National Adaptation Plan reports technical/institutional validation of the 2026–2033 plan, but the plan document itself was not located and no implementation claim is made. []
+- The full WFP Integrated Resilience Package evaluation PDF was not accessible through the public reader; claims are confined to its official synopsis and lack named-commune disaggregation. []
+- The UNDP regional report states that insecurity restricted field access and may bias observations toward accessible areas; local conflict-climate findings are not causal estimates. []
+- The sources reviewed do not establish national prevalence for the local Dembala and Barahogon examples or provide comparable, current subnational climate-conflict estimates. []
+- Main checked Dembala testimony and the WFP evaluation synopsis. Site accounts and observational associations are not national causal effects. []
+- UNDP regional report cover dates June 2024; September 2025 is its portal publication date. Ethnic labels are not treated as explanations of violence. []
+- Draft extension: human source review and approval remain pending. Lending eligibility is not an FCV classification. []
+
+## Climate pressures and exposure
+
+- Long-term warming is observed. [MLI-E-001]
+- Further warming is projected. [MLI-E-002]
+- Rainfall direction is highly uncertain. [MLI-E-003]
+- Heavy-rainfall risk is expected to rise. [MLI-E-004]
+- UNICEF reported about 415,000 IDPs and nearly 280,000 refugees in Mali in Q1 2026, with pressure on already fragile services. [MLI-E-016]
+- As of March 2026, UNICEF reported 2,374 non-functional schools affecting more than 700,000 children and nearly 14,000 teachers, primarily amid insecurity/displacement and related constraints. [MLI-E-017]
+- Source dated 2025-05 reports: Northern Mali faces drought and extreme heat with stressed reserves; southern river deltas face flooding where agriculture is clustered. [MLI-E-101]
+
+## Differentiated vulnerability
+
+- Pastoral households report recurrent rainfall/drought stress. [MLI-E-005]
+- Non-climate drivers remain central. [MLI-E-014]
+- UNICEF projected 1.12 million children aged 6-59 months to experience acute malnutrition during Nov 2025-Oct 2026, with lean-season deterioration particularly in Ménaka, Mopti, Timbuktu and Gao. [MLI-E-018]
+- FAO's 27 August 2026 brief estimated 1.56 million people in CH Phase 3+ during June-August 2026 and identified ongoing conflict as the key driver. [MLI-E-020]
+- Source dated 2025-04 reports: Kouna village in Sio commune, beside a pond fed by runoff and Niger levels, reportedly floods annually up to its streets. [MLI-E-105]
+- Source dated 2025-04 reports: Among sampled displaced households, drought losses equalled 61% and flood losses 40% of annual income, versus 34% and 27% for non-migrants. [MLI-E-107]
+- Source dated 2025-08-27 reports: UNDP says women travel farther for water and fuelwood and face heightened GBV risk in conflict zones; it also describes youth as vulnerable to extremist recruitment. [MLI-E-113]
+
+## Coping and adaptive capacity
+
+- Mobility and diversification are established coping strategies. [MLI-E-006]
+- Adaptive capacity is socially differentiated. [MLI-E-007]
+- Conflict constrains livelihood adaptation and resource access. [MLI-E-015]
+- Source dated 2025-05 reports: Conflict risks and tensions can prevent some people from moving toward better prospects, leaving tree-cutting or overgrazing as fallback livelihoods. [MLI-E-103]
+- Source dated 2025-05 reports: Reported adaptations include pastoral herd-splitting and purchased feed, drought-tolerant crops, zaï pits, stone bunds and composting. [MLI-E-104]
+
+## Institutions and delivery systems
+
+- Institutional coordination and local capacity are constrained. [MLI-E-008]
+- A formal multi-actor NDC coordination mechanism exists. [MLI-E-009]
+- April 2026 insecurity and movement restrictions disrupted humanitarian access and continuity of emergency reproductive-health services, including in Bamako and other affected cities. [MLI-E-019]
+- Evaluated programmes aid coping more reliably than transformation. [MLI-E-021]
+- Stabilization effectiveness is weakly demonstrated. [MLI-E-022]
+- A peace programme may have created adverse incentives. [MLI-E-023]
+- WFP reported in January 2026 that areas where food rations had been reduced experienced a 64% increase in acute hunger (IPC/CH 3+) since 2023, while areas receiving full rations experienced a 34% decrease. [MLI-E-026]
+- WFP's official 2026 evaluation synopsis reports stronger dietary diversity, reduced distress coping and social cohesion across its 2018–2024 package, with weaker gains among the poorest and regional variation. [MLI-E-110]
+- Source dated 2026-01-07 reports: Asset and agricultural support strengthened resilience, but climate and security constrained effectiveness; community committees often lacked capacity and resources to maintain assets. [MLI-E-111]
+
+## Climate-FCV pathways
+
+- Climate anomalies may contribute to conflict risk through crop and food-security effects, but the observed relationship is mediated and non-deterministic. [MLI-P-001; MLI-E-011, MLI-E-012, MLI-E-014]
+  - Documented impact: Changes in maize production and household food-security status.
+  - FCV mediator: Household food insecurity and livelihood stress.
+  - Possible consequence: Higher subsequent incidence of several ACLED conflict-event categories, conditional on the study model.
+  - Link evidence: {'pressure': ['MLI-E-011'], 'impact': ['MLI-E-011'], 'mediator': ['MLI-E-011'], 'consequence': ['MLI-E-011']}
+  - Alternative explanations: ['Political violence dynamics', 'local governance', 'armed-group strategy', 'poverty', 'commodity markets', 'existing conflict']
+  - Uncertainty: Structural-equation mediation is compatible with the pathway but does not establish event-level climate causality. (Frontiers)
+- Rainfall stress can alter pastoral mobility, but whether this becomes conflict depends heavily on institutions and access governance. [MLI-P-002; MLI-E-005, MLI-E-006, MLI-E-014]
+  - Documented impact: Changes in pasture/water availability and livestock movement.
+  - FCV mediator: Rules governing access to land, water and seasonal routes; interaction among farmers and pastoral groups.
+  - Possible consequence: Local disputes or violence may become more likely where mobility intersects poorly governed or contested access.
+  - Link evidence: {'pressure': ['MLI-E-005'], 'impact': ['MLI-E-005'], 'mediator': ['MLI-E-005'], 'consequence': ['MLI-E-005']}
+  - Alternative explanations: ['Land tenure', 'historical disputes', 'armed actors', 'weapons', 'population growth', 'local political competition']
+  - Uncertainty: Mobility is itself an adaptation strategy and must not be characterized as inherently destabilizing. (SIPRI)
+- Flood losses can deepen food and livelihood stress, but an FCV consequence requires additional social and institutional mediators. (World Bank) [MLI-P-003; MLI-E-004, MLI-E-020]
+  - Documented impact: Crop losses, erosion and potential infrastructure damage; FAO specifically reported 2024 flood-related crop losses.
+  - FCV mediator: Food prices, market access, household asset depletion and uneven assistance.
+  - Possible consequence: Higher vulnerability, displacement or local grievances may result where recovery and markets are weak.
+  - Link evidence: {'pressure': ['MLI-E-004'], 'impact': ['MLI-E-004'], 'mediator': ['MLI-E-004'], 'consequence': ['MLI-E-004']}
+  - Alternative explanations: ['Conflict-related market disruption', 'input costs', 'poverty and transport constraints']
+  - Uncertainty: No retained source directly demonstrates that specific Mali floods caused subsequent violence.
+- Climate stress may narrow livelihoods and thereby enlarge recruitment opportunities, but it is one contributor among many. [MLI-P-004; MLI-E-013, MLI-E-014]
+  - Documented impact: Reduced or more uncertain natural-resource-based livelihood options.
+  - FCV mediator: Poverty, unemployment, absence of alternatives, grievances and armed-group economic incentives.
+  - Possible consequence: Recruitment vulnerability may increase for some individuals.
+  - Link evidence: {'pressure': ['MLI-E-013'], 'impact': ['MLI-E-013'], 'mediator': ['MLI-E-013'], 'consequence': ['MLI-E-013']}
+  - Alternative explanations: ['Political ideology', 'coercion', 'protection', 'kinship', 'criminal economies', 'state abuses', 'ethnic mobilization', 'trafficking']
+  - Uncertainty: SIPRI explicitly describes recruitment as complex and the study as a plausibility probe. (SIPRI)
+- Conflict can disable livelihood strategies that would otherwise help households adapt to climatic variability. (SIPRI) [MLI-P-005; MLI-E-006, MLI-E-015]
+  - Documented impact: Conflict disrupted irrigation and livestock markets and pushed some herds southward.
+  - FCV mediator: Insecurity, market closure and constrained movement.
+  - Possible consequence: Households may lose access to otherwise effective drought-coping options and face greater resource pressure elsewhere.
+  - Link evidence: {'pressure': ['MLI-E-006'], 'impact': ['MLI-E-006'], 'mediator': ['MLI-E-006'], 'consequence': ['MLI-E-006']}
+  - Alternative explanations: ['Input prices', 'infrastructure deficits', 'seasonal conditions']
+  - Uncertainty: Qualitative evidence documents coping strategies and conflict disruption, but does not estimate the incremental loss of climate-adaptation performance.
+- Climate pressures place additional demands on already constrained institutions; weak or unequal responses can in turn worsen both vulnerability and grievance risk. (World Bank) [MLI-P-007; MLI-E-008, MLI-E-009, MLI-E-014]
+  - Documented impact: Growing pressure on natural-resource management and demand for coordinated adaptation.
+  - FCV mediator: Weak institutional coordination, limited budgets, unequal access and weak local governance.
+  - Possible consequence: Adaptation gaps and perceived unfairness may aggravate grievances or disputes.
+  - Link evidence: {'pressure': ['MLI-E-008'], 'impact': ['MLI-E-008'], 'mediator': ['MLI-E-008'], 'consequence': ['MLI-E-008']}
+  - Alternative explanations: ['Political exclusion', 'corruption unrelated to climate policy', 'historic centre-periphery relations']
+  - Uncertainty: Institutional weakness is independently consequential and should not be relabelled as a climate effect.
+- Locally legitimate coping and resource-governance institutions are plausible peace-supporting capacities, but their distributional and conflict effects require evaluation. [MLI-P-008; MLI-E-006, MLI-E-024, MLI-E-025]
+  - Documented impact: Need for mobility, livelihood adjustment and collective natural-resource management.
+  - FCV mediator: Local legitimacy, dispute resolution, collective decision-making and grievance handling.
+  - Possible consequence: Locally legitimate institutions may support coping and reduce escalation risk, but the planned committee mechanism and peace effects are not observed outcomes.
+  - Link evidence: {'pressure': ['MLI-E-006'], 'impact': ['MLI-E-006'], 'mediator': ['MLI-E-006'], 'consequence': ['MLI-E-006']}
+  - Alternative explanations: ['Some local institutions can also reproduce exclusion or unequal access']
+  - Uncertainty: Strong independent evidence on peace outcomes from climate/resource institutions remains limited.
+- Dembala residents linked dry-season water-point failures with livelihood constraints and disputes; rehabilitation is a reported capacity response. [MLI-P-101; MLI-E-112]
+  - Documented impact: Pump/well failures restricted drinking water and vegetable-growing access.
+  - FCV mediator: Competition at scarce shared water points amid livelihood pressure.
+  - Possible consequence: Residents reported fights over water; the story does not establish violence incidence or a climate-attributable effect.
+  - Link evidence: {'pressure': ['MLI-E-112'], 'impact': ['MLI-E-112'], 'mediator': ['MLI-E-112'], 'consequence': ['MLI-E-112']}
+  - Alternative explanations: ['Pump maintenance, local water governance and livelihood conditions also shape scarcity and disputes.']
+  - Uncertainty: Historical resident testimony in a 2025 implementer story; village district not verified; not a representative causal study.
+
+## Resilience and peace-supporting capacities
+
+- Food security mediates a climate-conflict association. [MLI-E-011]
+- Low-rainfall anomalies show a mediated conflict association. [MLI-E-012]
+- Livelihood loss may widen recruitment opportunities. [MLI-E-013]
+- Local ownership and recurrent financing shape durability. [MLI-E-024]
+- Project design embeds local participation and grievance handling. [MLI-E-025]
+- Source dated 2025-05 reports: In Liptako-Gourma, floods and droughts compound smallholder losses alongside land-ownership tensions and declining security. [MLI-E-102]
+- IIED's 408-household Mopti study finds associations between reported climate risks, insecurity and displacement likelihood. [MLI-E-106]
+- UNDP's June 2024 regional study discusses resource competition and violence in Mopti and drought-related farm-income pressures around Gao. [MLI-E-108]
+- The June 2024 study reports Gao farming practices and Mali mediator training combined with climate-smart agriculture. [MLI-E-109]
+- Source dated 2025-08-27 reports: Dembala women described dry-season pump and well failures and fights over scarce water; rehabilitated potable-water points later restored drinking and irrigation access. [MLI-E-112]
+- Source dated 2025-08-27 reports: A revitalized Dogon Barahogon institution reports forest-use rules regenerated trees and reduced resource conflict and flooding; Djenné and Mopti communities adopted its model. [MLI-E-114]
+
+## Geographic and livelihood-system differentiation
+
+- Source dated 2025-04 reports: Kouna village in Sio commune, beside a pond fed by runoff and Niger levels, reportedly floods annually up to its streets. [MLI-E-105]
+- IIED's 408-household Mopti study finds associations between reported climate risks, insecurity and displacement likelihood. [MLI-E-106]
+- Source dated 2025-04 reports: Among sampled displaced households, drought losses equalled 61% and flood losses 40% of annual income, versus 34% and 27% for non-migrants. [MLI-E-107]
+- UNDP's June 2024 regional study discusses resource competition and violence in Mopti and drought-related farm-income pressures around Gao. [MLI-E-108]
+- The June 2024 study reports Gao farming practices and Mali mediator training combined with climate-smart agriculture. [MLI-E-109]
+- Source dated 2025-08-27 reports: Dembala women described dry-season pump and well failures and fights over scarce water; rehabilitated potable-water points later restored drinking and irrigation access. [MLI-E-112]
+- Source dated 2025-08-27 reports: A revitalized Dogon Barahogon institution reports forest-use rules regenerated trees and reduced resource conflict and flooding; Djenné and Mopti communities adopted its model. [MLI-E-114]
+
+## Implications by project type
+
+- Hazard, infrastructure, and basic-service projects: MLI-E-001, MLI-E-003, MLI-E-005, MLI-E-016, MLI-E-019, MLI-E-101, MLI-E-105, MLI-E-112
+- Livelihood and natural-resource projects: MLI-E-001, MLI-E-002, MLI-E-003, MLI-E-004, MLI-E-005, MLI-E-006, MLI-E-007, MLI-E-012, MLI-E-013, MLI-E-015, MLI-E-021, MLI-E-024, MLI-E-101, MLI-E-102, MLI-E-103, MLI-E-104, MLI-E-105, MLI-E-106, MLI-E-107, MLI-E-108, MLI-E-109, MLI-E-110, MLI-E-111, MLI-E-112, MLI-E-113
+- Social-protection, governance, and institution-building projects: no dedicated records
+- Humanitarian, displacement, and peace-supporting projects: MLI-E-114
+
+## Technical evidence register
+
+| Evidence ID | Class | Status | Level | Raw statement | Uncertainty | Source and exact locator |
+|---|---|---|---|---|---|---|
+| MLI-E-001 | climate-pressure | observed / draft | national | Mali’s reported average temperature increased from about 28°C in 1950-1980 to about 29.5°C in 2000-2020. | Derived by WB from secondary climate sources rather than a new station-data analysis. | MLI-SRC-001 (PDF p.15, “Escalating Climate Crisis”. (World Bank)) |
+| MLI-E-002 | climate-pressure | projected / draft | national | The WB 2023 modelling projects approximately +0.8°C to +1.7°C mean-temperature change by 2050 across selected optimistic/pessimistic cases. | Range is model/scenario specific, not a probabilistic confidence interval. | MLI-SRC-002 (PDF p.34, 2050 optimistic/pessimistic temperature cases.) |
+| MLI-E-003 | climate-pressure | projected / draft | national | The same modelling spans approximately −7% precipitation in the dry case to +24% in the wet case by 2050. | Wide range demonstrates substantial precipitation uncertainty. | MLI-SRC-002 (PDF p.34, 2050 wet/dry precipitation cases.) |
+| MLI-E-004 | climate-pressure | projected / draft | national | WB expects frequency/intensity of heavy precipitation to increase, with associated flooding and soil erosion risks. | Exact scenario/horizon not specified in cited passage. | MLI-SRC-001 (PDF p.15. (World Bank)) |
+| MLI-E-005 | sensitivity | observed / draft | national | In a 2009 survey of pastoral/agro-pastoral households in Gao and Mopti, respondents considered frequency of climate risks - including inadequate rainfall, multi-year drought and late rainy-season onset - a major livelihood concern. | Older local survey; cannot be generalized nationally. | MLI-SRC-005 (PDF p.29. (SIPRI)) |
+| MLI-E-006 | coping-capacity | observed / draft | national | SIPRI describes livestock mobility, livelihood diversification, migration, cooperatives and local institutions as coping/adaptation strategies used in climate-variable settings. | Evidence assembled from several local studies; effectiveness varies. | MLI-SRC-005 (pp.29-31. (SIPRI)) |
+| MLI-E-007 | adaptive-capacity | observed / draft | national | Local adaptation options and access are differentiated by gender, age, ethnicity, class and livelihood. | Evidence is not a nationally representative gender assessment. | MLI-SRC-005 (socio-ecological/adaptation discussion pp.29-31. (SIPRI)) |
+| MLI-E-008 | institutional-capacity | observed / draft | national | World Bank identifies poor coordination among institutions, limited budgets and weak local governance as constraints on environmental governance, compounded in conflict-prone areas. | Synthesis rather than standardized capacity measurement. | MLI-SRC-001 (PDF pp.30-31, coordination, budget and local-governance constraints.) |
+| MLI-E-009 | institutional-capacity | observed / draft | national | Mali’s 2025 NDC coordination mechanism included state technical services, local authorities, civil society, private sector and development partners, with AEDD as technical secretariat. | Existence of mechanism does not establish effective implementation. | MLI-SRC-004 (webpage paragraphs on 27 Jun 2025 session. (Government of Mali)) |
+| MLI-E-011 | direct-climate-fcv | observed / draft | national | A national household/climate/conflict study found a positive statistical mediated association from temperature anomalies through maize production and household food security to several subsequent conflict-event measures. | Observational SEM; cannot prove that climate caused individual conflicts. | MLI-SRC-006 (Abstract and Results, especially paras. corresponding to lines 300-304 and 499-504. (Frontiers)) |
+| MLI-E-012 | direct-climate-fcv | observed / draft | national | The same study found a positive mediated association between negative precipitation anomalies and conflict-event measures through maize production and food security. | Same observational and model-specification limitations as MLI-E-011. | MLI-SRC-006 (Results, lines corresponding to 500-503. (Frontiers)) |
+| MLI-E-013 | direct-climate-fcv | inferred / draft | not-applicable | SIPRI’s interview/process-tracing evidence suggests climate, conflict and population pressures on resources can reduce livelihood options and increase vulnerability to armed-group recruitment, while identifying poverty and governance among independent drivers. | Qualitative plausibility evidence; recruitment is multicausal. | MLI-SRC-005 (PDF p.34. (SIPRI)) |
+| MLI-E-014 | sensitivity | observed / draft | national | SIPRI identifies socio-economic exclusion, weak/corrupt state presence, identity frictions and resource competition as independent conflict drivers alongside climatic stress. | Source is qualitative but explicitly designed to identify contextual pathways. | MLI-SRC-005 (PDF pp.14-15 and p.8. (SIPRI)) |
+| MLI-E-015 | adaptive-capacity | observed / draft | national | Conflict disrupted irrigation systems and livestock markets, and some households moved herds southward to escape insecurity, altering pressure on grazing areas. | Older conflict episode; not automatically representative of current conditions. | MLI-SRC-005 (PDF p.34. (SIPRI)) |
+| MLI-E-016 | exposure | observed / draft | national | UNICEF reported about 415,000 IDPs and nearly 280,000 refugees in Mali in Q1 2026, with pressure on already fragile services. | IDP/refugee counts change; different systems may use slightly different dates. | MLI-SRC-007 (PDF pp.1-2. (UNICEF)) |
+| MLI-E-017 | exposure | observed / draft | national | As of March 2026, UNICEF reported 2,374 non-functional schools affecting more than 700,000 children and nearly 14,000 teachers, primarily amid insecurity/displacement and related constraints. | This is primarily an FCV/service-delivery claim, not a climate-impact claim. | MLI-SRC-007 (PDF p.2. (UNICEF)) |
+| MLI-E-018 | sensitivity | projected / draft | national | UNICEF projected 1.12 million children aged 6-59 months to experience acute malnutrition during Nov 2025-Oct 2026, with lean-season deterioration particularly in Ménaka, Mopti, Timbuktu and Gao. | Multi-causal projection; should not be labelled a climate-only outcome. | MLI-SRC-007 (PDF p.2. (UNICEF)) |
+| MLI-E-019 | institutional-capacity | observed / draft | national | April 2026 insecurity and movement restrictions disrupted humanitarian access and continuity of emergency reproductive-health services, including in Bamako and other affected cities. | Demonstrates FCV -> delivery, not a climate pathway by itself. | MLI-SRC-008 (main situation section. (United Nations Population Fund)) |
+| MLI-E-020 | sensitivity | observed / draft | national | FAO's 27 August 2026 brief estimated 1.56 million people in CH Phase 3+ during June-August 2026 and identified ongoing conflict as the key driver. | 2025 source; current magnitudes may have changed. | MLI-SRC-011 (FAO GIEWS Mali Country Brief, reference date 27 August 2026, food-security section.) |
+| MLI-E-021 | response-performance | observed / draft | national | The IOB systematic review found rural-development interventions generally improved coping strategies but rarely raised productivity beyond subsistence levels. | Synthesis spans heterogeneous programmes and periods. | MLI-SRC-012 (PDF pp.19-21.) |
+| MLI-E-022 | response-performance | observed / draft | national | The same review found some stabilization portfolios and community conflict-resolution capacity-building produced little robust evidence of improved stability. | Does not imply all stabilization interventions fail. | MLI-SRC-012 (PDF pp.12-14.) |
+| MLI-E-023 | response-performance | observed / draft | not-applicable | The IOB review records a potential unintended DDR effect: perceived benefits of armed-group membership may have encouraged additional people to claim or take up such affiliation. | Evaluators described this as a possible explanation, not conclusively established causality. | MLI-SRC-012 (PDF p.12.) |
+| MLI-E-024 | resilience-peace-capacity | observed / draft | not-applicable | IOB found sustainability evidence sparse; interventions dependent on external finance or lacking local ownership frequently faced sustainability problems, while some savings groups and community-based technical training appeared more durable. | Sustainability judgments were not consistently assessed across all projects. | MLI-SRC-012 (PDF pp.36-38.) |
+| MLI-E-025 | resilience-peace-capacity | observed / draft | not-applicable | The 2024 Malidenko design requires community development committees, commune facilitators and a national grievance mechanism for community-driven investments. | Intended mechanism only; no outcome inference. | MLI-SRC-013 (PAD PDF pp.25 and 40-46, community committees, facilitators, grievance mechanism and indicators.) |
+| MLI-E-026 | response-performance | observed / draft | national | WFP reported in January 2026 that areas where food rations had been reduced experienced a 64% increase in acute hunger (IPC/CH 3+) since 2023, while areas receiving full rations experienced a 34% decrease. | Non-random comparison; site selection, conflict severity and other factors may explain part of the difference. | MLI-SRC-010 (paragraph “In Mali…”. (World Food Programme)) |
+| MLI-E-101 | exposure | observed / draft | administrative-area | Source dated 2025-05 reports: Northern Mali faces drought and extreme heat with stressed reserves; southern river deltas face flooding where agriculture is clustered. | Broad north/south zones in a 2025 synthesis. | MLI-SRC-101 (Printed pp.37–38, Environment and Natural Disasters) |
+| MLI-E-102 | direct-climate-fcv | observed / draft | cross-border | Source dated 2025-05 reports: In Liptako-Gourma, floods and droughts compound smallholder losses alongside land-ownership tensions and declining security. | The report rejects climate change as the root cause of farmer-herder conflict. | MLI-SRC-101 (Printed p.37, farmer-herder conflict and Liptako-Gourma; endnote 127) |
+| MLI-E-103 | coping-capacity | observed / draft | national | Source dated 2025-05 reports: Conflict risks and tensions can prevent some people from moving toward better prospects, leaving tree-cutting or overgrazing as fallback livelihoods. | Source-described conflict-related mobility constraints and environmentally damaging fallback coping; no national prevalence or causal adaptation-effect estimate. | MLI-SRC-101 (Printed pp.38–39, livelihood constraints and coping) |
+| MLI-E-104 | adaptive-capacity | observed / draft | national | Source dated 2025-05 reports: Reported adaptations include pastoral herd-splitting and purchased feed, drought-tolerant crops, zaï pits, stone bunds and composting. | Reported practices, not prevalence or scaled effectiveness. | MLI-SRC-101 (Printed p.39, Opportunities) |
+| MLI-E-105 | sensitivity | observed / draft | site | Source dated 2025-04 reports: Kouna village in Sio commune, beside a pond fed by runoff and Niger levels, reportedly floods annually up to its streets. | A translated focus-group account, not an instrument-based flood-frequency series. | MLI-SRC-102 (PDF p.20, Kouna village, Sio commune focus-group example) |
+| MLI-E-106 | direct-climate-fcv | observed / draft | administrative-area | IIED's 408-household Mopti study finds associations between reported climate risks, insecurity and displacement likelihood. | Observational, selected-commune regression; no causal effect or national representativeness. The intake's 'threefold lower likelihood' is not retained as a probability effect. | MLI-SRC-102 (PDF p.8, summary regression results on climate risk, conflict exposure and displacement) |
+| MLI-E-107 | sensitivity | observed / draft | administrative-area | Source dated 2025-04 reports: Among sampled displaced households, drought losses equalled 61% and flood losses 40% of annual income, versus 34% and 27% for non-migrants. | Retrospective shares for the latest disaster year, not annual expected losses. Do not sum drought and flood percentages across potentially different events or infer a causal displacement effect. | MLI-SRC-102 (PDF p.9, loss-and-damage summary by household migration status) |
+| MLI-E-108 | direct-climate-fcv | observed / draft | administrative-area | UNDP's June 2024 regional study discusses resource competition and violence in Mopti and drought-related farm-income pressures around Gao. | Secondary literature/informant synthesis, not an isolated causal climate effect; do not essentialize ethnic groups or attribute individual attacks to climate. | MLI-SRC-103 (PDF p.5, regional examples of resource competition and climate-related insecurity) |
+| MLI-E-109 | resilience-peace-capacity | observed / draft | administrative-area | The June 2024 study reports Gao farming practices and Mali mediator training combined with climate-smart agriculture. | Illustrative practices and informant reports, not independently evaluated conflict reduction. | MLI-SRC-103 (PDF p.25, Gao climate-smart agriculture and Mali mediator-training passages) |
+| MLI-E-110 | response-performance | observed / draft | administrative-area | WFP's official 2026 evaluation synopsis reports stronger dietary diversity, reduced distress coping and social cohesion across its 2018–2024 package, with weaker gains among the poorest and regional variation. | Publisher synopsis only, not full evaluation tables or causal effect sizes; migration is not presumed harmful in itself. | MLI-SRC-104 (WFP official evaluation synopsis, lines 246–258) |
+| MLI-E-111 | response-performance | observed / draft | administrative-area | Source dated 2026-01-07 reports: Asset and agricultural support strengthened resilience, but climate and security constrained effectiveness; community committees often lacked capacity and resources to maintain assets. | Portal synopsis does not supply commune-level disaggregation or underlying evidence tables. | MLI-SRC-104 (WFP official evaluation synopsis, lines 255–260) |
+| MLI-E-112 | direct-climate-fcv | observed / draft | site | Source dated 2025-08-27 reports: Dembala women described dry-season pump and well failures and fights over scarce water; rehabilitated potable-water points later restored drinking and irrigation access. | Dembala resident testimony in an implementer story; district not verified, no prevalence or independent causal effect. | MLI-SRC-105 (UNDP story, lines 27–40, Dembala testimony and water-point rehabilitation) |
+| MLI-E-113 | sensitivity | observed / draft | national | Source dated 2025-08-27 reports: UNDP says women travel farther for water and fuelwood and face heightened GBV risk in conflict zones; it also describes youth as vulnerable to extremist recruitment. | Country-level programme narrative, not a representative estimate of GBV or recruitment. | MLI-SRC-105 (UNDP story, lines 38–41, conflict/resource-grievance and gender/youth discussion) |
+| MLI-E-114 | resilience-peace-capacity | observed / draft | administrative-area | Source dated 2025-08-27 reports: A revitalized Dogon Barahogon institution reports forest-use rules regenerated trees and reduced resource conflict and flooding; Djenné and Mopti communities adopted its model. | Institution president's reported forest/conflict/flood effects; not independently evaluated impact. | MLI-SRC-105 (UNDP story, lines 47–51, Barahogon account of natural-resource rules) |
+
+## Bibliography and review decision
+
+- World Bank. *Mali: Climate Resilience and Environmental Governance*. 2025 (date basis: publication). https://documents1.worldbank.org/curated/en/099090925143524686/pdf/P176188-c894c6c8-62d6-478f-8ae4-b63ed111540a.pdf [MLI-SRC-001] Methodology: Literature/data synthesis using a nexus framework; expert review Limitations: Synthesis, not causal evaluation; some climate-conflict wording stronger than underlying evidence warrants. (World Bank) Publisher report explicitly permits non-commercial reproduction with attribution.
+- World Bank. *Mali Economic Update - Special Chapter: Strengthening Financial Resilience of Pastoralists to Drought*. 2023 (date basis: publication). https://documents1.worldbank.org/curated/en/099071023135523039/pdf/P179299025eae9036089e7029775dc039d7.pdf [MLI-SRC-002] Methodology: Six climate-model/emissions combinations linked to biophysical/economic modelling; drought analysis Limitations: Future precipitation highly uncertain; economic model is scenario-based. (World Bank)
+- Government of Mali. *Agence de l’Environnement et du Développement Durable: session du Comité de coordination et suivi de mise en œuvre de la CDN*. 2025 (date basis: publication). https://gouvernement.ml/agence-de-lenvironnement-et-du-developpement-durable/ [MLI-SRC-004] Methodology: Administrative reporting on NDC coordination Limitations: Describes process and commitments, not independently evaluated implementation outcomes. (Government of Mali)
+- SIPRI. *Climate-related Security Risks and Peacebuilding in Mali*. 2021 (date basis: publication). https://www.sipri.org/sites/default/files/2021-04/sipripp60.pdf [MLI-SRC-005] Methodology: Qualitative process tracing; literature/UN documents; 57 interviews/correspondence Limitations: Single case/plausibility probe; interview perspectives; written before MINUSMA withdrawal and subsequent conflict changes. (SIPRI)
+- Frontiers in Climate / Alliance Bioversity-CIAT authors. *Is climate exacerbating the root causes of conflict in Mali? A climate security analysis through a structural equation modeling approach*. 2022 (date basis: publication). https://www.frontiersin.org/journals/climate/articles/10.3389/fclim.2022.849757/full [MLI-SRC-006] Methodology: LSMS-ISA + CHIRPS + ACLED; structural-equation/path mediation Limitations: Observational model; one specified food-production pathway; associations should not be read as proof of event-level causality. (Frontiers)
+- UNICEF. *Mali Humanitarian Situation Report No. 1*. 2026 (date basis: publication). https://www.unicef.org/media/180601/file/Mali-Humanitarian-Situation-Report-No.1%2C31-March-2026.pdf.pdf [MLI-SRC-007] Methodology: Cluster/government/UN reporting and UNICEF programme monitoring Limitations: Humanitarian estimates can be revised; UNICEF outputs are not independent impact evaluation. (UNICEF)
+- UNFPA Mali. *Situation report on the crisis in Mali - April 2026*. 2026 (date basis: publication). https://www.unfpa.org/resources/situation-report-crisis-mali-%E2%80%93-april-2026 [MLI-SRC-008] Methodology: Operational monitoring Limitations: Short-period operational source; response counts are outputs, not effectiveness estimates. (United Nations Population Fund)
+- WFP. *Humanitarian aid cuts push millions deeper into hunger amid rising violence and population displacement in West and Central Africa*. 2026 (date basis: publication). https://www.wfp.org/news/humanitarian-aid-cuts-push-millions-deeper-hunger-amid-rising-violence-and-population [MLI-SRC-010] Methodology: Cadre Harmonisé and WFP operational evidence Limitations: WFP is an implementing agency; ration comparison is not presented as a randomized impact evaluation. (World Food Programme)
+- FAO. *GIEWS Country Brief: Mali*. 2025 (date basis: publication). https://www.fao.org/giews/countrybrief/country.jsp?code=MLI [MLI-SRC-011] Methodology: Cadre Harmonisé, production/price monitoring and seasonal forecasts Limitations: Older than 2026 humanitarian sources; seasonal forecasts are prospective and conflict remains a major confounder. (FAOHome)
+- Netherlands Ministry of Foreign Affairs, IOB-commissioned research. *Impacts of Development Aid to Mali 2008-2021: A Systematic Review of Evaluation Reports - Part I*. 2022 (date basis: publication). https://english.iob-evaluatie.nl/site/binaries/site-content/collections/documents/2022/11/10/systematic-reviews-mali/Systematic%2Breview%2B-%2BMali%2BPart%2BI%2BSummary%2BPaper.pdf [MLI-SRC-012] Methodology: 6,296 title/abstract screens; 588 full texts; 104 Mali studies included; methodological quality thresholds Limitations: Evidence ends in 2021; country-level evaluations were included by default without the same quality threshold.
+- World Bank / IDA. *Mali Community Resilience and Inclusive Services Project - Malidenko (P505025), Project Appraisal Document*. 2024 (date basis: publication). https://documents1.worldbank.org/curated/en/099102824175541849/pdf/BOSIB-98ae49ad-a844-4099-a8ab-fb720ffb40c2.pdf [MLI-SRC-013] Methodology: Project appraisal, institutional and fiduciary design Limitations: Design evidence only: committees, facilitators and grievance systems are intended mechanisms, not proven outcomes. (World Bank)
+- Islamic Development Bank. 2025 Resilience Report: Climate, Conflict and Resilience: Pathways to Sustainable and Inclusive Solutions. 2025-05 (date basis: document-version). https://www.isdb.org/sites/default/files/media/documents/2025-05/RESILIENCE%20REPORT%202025.pdf [MLI-SRC-101] Methodology: Triangulated quantitative data, desk review and key-informant field research across nine case studies. Limitations: Fragile-context data gaps and attribution difficulty limit generalizability; informal coping may be missed.
+- International Institute for Environment and Development (IIED), with DanChurchAid Mali and TASSAGHT. Addressing climate and conflict-related loss and damage in fragile states: a focus on Mali. 2025-04 (date basis: document-version). https://www.iied.org/sites/default/files/pdfs/2025-03/22618iied.pdf [MLI-SRC-102] Methodology: Household survey, focus groups and key-informant interviews in five Mopti communes; 408 households, 22 focus groups and four key-informant interviews. Limitations: The displaced-household sample was smaller because access, time and resources constrained recruitment; regression shows association, not causation.
+- United Nations Development Programme (UNDP), West and Central Africa Regional Hub / Liptako-Gourma Stabilization Facility. Practical solutions at the intersection of climate action, peace, and security in the Liptako-Gourma region. 2024-06 (date basis: document-version). https://www.undp.org/sites/g/files/zskgke326/files/2025-09/solutions-pratiques-lg-en-vf-2.pdf [MLI-SRC-103] Methodology: Literature review, environmental and conflict-data analysis, key-informant interviews, case studies and field observations where possible. Limitations: Conflict restricted engagement; the sample may favor accessible and secure areas; interviews and case studies may be subjective and findings may not generalize beyond the region.
+- World Food Programme (WFP), Mali Country Office. Mali, Decentralized evaluation of the Integrated Resilience Package in 20 priority communes (2018–2024). 2026-01-07 (date basis: portal-publication). https://friends.wfp.org/publications/mali-decentralized-evaluation-integrated-resilience-package-20-priority-communes-2018 [MLI-SRC-104] Methodology: WFP Mali commissioned a qualitative and quantitative evaluation with stakeholder consultations. Limitations: Only the official portal synopsis was accessible; detailed methods, commune names and disaggregated results were not reviewed.
+- United Nations Development Programme (UNDP), Mali. Building peace and prosperity through climate action in Mali. 2025-08-27 (date basis: portal-publication). https://www.undp.org/stories/building-peace-and-prosperity-through-climate-action-mali [MLI-SRC-105] Methodology: UNDP programme story with resident testimony and activity descriptions. Limitations: Programme and self-reported examples; not representative or independently evaluated.
+
+Review status: draft
+Reviewer: None
+Reviewed on: None
+Decision notes: Unapproved depth extension. Prior snapshots and inherited evidence deadlines are preserved. Coordinator decisions are not designated human approval.

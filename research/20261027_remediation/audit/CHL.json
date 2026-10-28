@@ -1,0 +1,895 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "CHL",
+  "candidate_path": "countries/CHL/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 4,
+    "evidence_count": 12,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 12
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 11,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "CHL-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "CHL-E-101",
+          "CHL-E-103",
+          "CHL-E-106",
+          "CHL-E-107",
+          "CHL-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "CHL-E-104",
+          "CHL-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "CHL-E-110",
+          "CHL-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "CHL-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "CHL-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "CHL-E-101",
+          "CHL-E-104",
+          "CHL-E-105",
+          "CHL-E-106",
+          "CHL-E-107",
+          "CHL-E-108",
+          "CHL-E-111",
+          "CHL-E-112",
+          "CHL-E-113"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/CHL/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "CHL-SRC-101",
+      "title": "Estudio de vulnerabilidad y riesgo de pueblos indígenas de Chile ante el cambio climático",
+      "organization": "ERIDANUS-PUCV Consortium (MMA/FAO-commissioned study)",
+      "publication_date": "2024-04-10",
+      "publication_date_basis": "document-version",
+      "url": "https://cambioclimatico.mma.gob.cl/wp-content/uploads/2024/05/Informe-final-Estudio-Vulnerabilidad-PPII.pdf",
+      "geographic_coverage": [
+        "Chile",
+        "Araucanía Region",
+        "Carahue",
+        "Puerto Saavedra",
+        "Toltén",
+        "Teodoro Schmidt",
+        "Cautín River",
+        "Quepe River",
+        "Mapuche communities"
+      ],
+      "temporal_coverage": "Consultancy report dated 10 April 2024; combines literature and participant workshops on Indigenous climate vulnerability, adaptation and risk.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CHL-E-101",
+        "CHL-E-103",
+        "CHL-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 68–75 and 81–82; Mapuche livelihood, impact-chain, water and adaptation passages",
+          "notes": "Opened the 201-page report and inspected the cited sections. Cover states it is a proposed input to the national adaptation plan, not an official final MMA document.",
+          "reuse_terms": "Not separately inspected; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "CHL-SRC-102",
+      "title": "Emergency: Wildfires in Chile. Humanitarian Flash Note No. 2",
+      "organization": "UNICEF Chile",
+      "publication_date": "2024-03-07",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/media/153531/file/Chile-Humanitarian-Flash-Report-No.2-%28Wildfire%29-07-March-2024.pdf",
+      "geographic_coverage": [
+        "Chile",
+        "Valparaíso Region",
+        "Viña del Mar",
+        "Quilpué",
+        "Villa Alemana",
+        "Limache",
+        "O'Higgins Region",
+        "Maule Region",
+        "Ñuble Region",
+        "La Araucanía Region",
+        "Los Lagos Region"
+      ],
+      "temporal_coverage": "Humanitarian situation and response during central and southern Chile wildfires, February–7 March 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CHL-E-105",
+        "CHL-E-106",
+        "CHL-E-107",
+        "CHL-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 1–5, fire impacts, rapid assessment, water response and protection findings",
+          "notes": "Opened the full eight-page UNICEF flash report; figures are retained with the report's February/March 2024 reference dates.",
+          "reuse_terms": "Not separately inspected; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "CHL-SRC-103",
+      "title": "Chile ya cuenta con su primer Plan de Adaptación al Cambio Climático para los Recursos Hídricos",
+      "organization": "Dirección General de Aguas, Ministry of Public Works (Chile)",
+      "publication_date": "2026-09-28",
+      "publication_date_basis": "publication",
+      "url": "https://dga.mop.gob.cl/chile-ya-cuenta-con-su-primer-plan-de-adaptacion-al-cambio-climatico-para-los-recursos-hidricos/",
+      "geographic_coverage": [
+        "Chile",
+        "Camiña Basin",
+        "Maipo River Basin",
+        "Valdivia River Basin",
+        "Seno Andrew",
+        "rural municipalities"
+      ],
+      "temporal_coverage": "DGA account published 28 September 2026 on the formal water-sector adaptation plan and implementation tools.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CHL-E-109",
+        "CHL-E-110",
+        "CHL-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "HTML paragraphs on rural/urban access, approved plan measures, pilot basins and municipal kit",
+          "notes": "Opened the full DGA page dated 28 September 2026.",
+          "reuse_terms": "Not separately inspected; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "CHL-SRC-104",
+      "title": "Resolución Exenta N° 244: Procedimiento de consulta previa y convocatoria a instituciones representativas del pueblo Mapuche",
+      "organization": "Ministry of Social Development and Family, Subsecretariat of Social Services; Diario Oficial de Chile",
+      "publication_date": "2025-07-03",
+      "publication_date_basis": "publication",
+      "url": "https://www.diariooficial.interior.gob.cl/publicaciones/2025/07/03/44189/01/2667943.pdf",
+      "geographic_coverage": [
+        "Biobío Region",
+        "La Araucanía Region",
+        "Los Ríos Region",
+        "Los Lagos Region",
+        "Mapuche communities"
+      ],
+      "temporal_coverage": "Resolution published 3 July 2025; recitals summarize the Peace and Understanding Commission mandate and land-fund information through 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "CHL-E-112",
+        "CHL-E-113"
+      ],
+      "this_audit_verification": "access-only",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 2–4, recitals 8°–16°",
+          "notes": "Opened the signed six-page official resolution; inspected its conflict, commission, land-fund and pending-application recitals.",
+          "reuse_terms": "Not separately inspected; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "CHL-E-112",
+        "selected_source_id": "CHL-SRC-104",
+        "url": "https://www.diariooficial.interior.gob.cl/publicaciones/2025/07/03/44189/01/2667943.pdf",
+        "locator": "PDF pp. 3–4, recitals 8°–12° on the Peace and Understanding Commission",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 187738,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          3,
+          4
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "CHL-E-112"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "CHL-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CHL-SRC-101",
+          "locator": "PDF pp. 68–69, Mapuche territorial identities and livelihoods"
+        }
+      ],
+      "geographies": [
+        "Araucanía Region",
+        "Carahue",
+        "Puerto Saavedra",
+        "Toltén",
+        "Teodoro Schmidt",
+        "Cautín River",
+        "Quepe River"
+      ],
+      "affected_groups": [
+        "Lafkenche Mapuche communities",
+        "Wenteche Mapuche communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-04-10 reports: The study places Lafkenche communities in coastal Carahue, Puerto Saavedra, Toltén and Teodoro Schmidt; Wenteche farming communities lie along the Cautín and Quepe rivers.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CHL-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CHL-SRC-101",
+          "locator": "PDF pp. 71–72, Mapuche workshop and conceptual impact chain"
+        }
+      ],
+      "geographies": [
+        "Mapuche communities in Chile"
+      ],
+      "affected_groups": [
+        "Mapuche communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-04-10 reports: The study reports Mapuche–forestry-company land disputes and conflicts over culturally significant sites, biodiversity and water sources.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CHL-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CHL-SRC-101",
+          "locator": "PDF pp. 74, 81–82, Mapuche adaptation capacities and proposed measures"
+        }
+      ],
+      "geographies": [
+        "Mapuche communities in Chile",
+        "Araucanía Region"
+      ],
+      "affected_groups": [
+        "Mapuche communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-04-10 reports: Participants identify community organization, territorial knowledge, medicinal plants and seed-saving as adaptation capacities; culturally appropriate rural water systems and government coordination are proposed.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CHL-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CHL-SRC-102",
+          "locator": "PDF p. 1, situation overview and fire impacts"
+        }
+      ],
+      "geographies": [
+        "Valparaíso Region",
+        "Viña del Mar",
+        "Chile's central-southern regions"
+      ],
+      "affected_groups": [
+        "children",
+        "adolescents",
+        "displaced households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-03-07 reports: February 2024 fires affected six regions; Valparaíso had 14,954 ha damaged and 6,587 homes destroyed; FIBE recorded 4,163 severely affected children.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CHL-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CHL-SRC-102",
+          "locator": "PDF pp. 1–2, Child Protection Rapid Assessment"
+        }
+      ],
+      "geographies": [
+        "Viña del Mar"
+      ],
+      "affected_groups": [
+        "children",
+        "adolescents",
+        "fire-affected residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-03-07 reports: UNICEF interviewed 44 people in 14 Viña del Mar locations; leading reported needs were protection, waste collection and drinking water.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CHL-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CHL-SRC-102",
+          "locator": "PDF pp. 1, 4–5, emergency displacement and protection findings"
+        }
+      ],
+      "geographies": [
+        "Viña del Mar",
+        "Valparaíso Region"
+      ],
+      "affected_groups": [
+        "displaced households",
+        "children",
+        "adolescents",
+        "women and girls"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNICEF's rapid interviews after the February 2024 fires in Viña del Mar identify displacement, family separation and protection concerns. Reported perceptions of local insecurity and physical/sexual violence are not population prevalence, a measured increase caused by fire, or conflict data.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CHL-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CHL-SRC-102",
+          "locator": "PDF pp. 1–2, 5, emergency coordination and water response"
+        }
+      ],
+      "geographies": [
+        "Viña del Mar",
+        "Quilpué",
+        "Valparaíso Region"
+      ],
+      "affected_groups": [
+        "fire-affected households"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-03-07 reports: Fire damage caused water cuts; emergency taps/tanks were installed, but UNICEF noted coordination problems and water shortages for cooking and washing.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CHL-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CHL-SRC-103",
+          "locator": "HTML, paragraph on national water-security challenges"
+        }
+      ],
+      "geographies": [
+        "Chile",
+        "rural areas"
+      ],
+      "affected_groups": [
+        "rural population",
+        "water-dependent producers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-09-28 reports: DGA reports 2022 public-network drinking-water coverage of 99.9% in urban areas versus 57% of the rural population; irrigated agriculture and livestock account for about 73% of consumptive demand.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CHL-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CHL-SRC-103",
+          "locator": "HTML, paragraphs on formal PACC-RH status and plan measures"
+        }
+      ],
+      "geographies": [
+        "Chile"
+      ],
+      "affected_groups": [
+        "urban and rural residents",
+        "water-dependent producers"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-09-28 reports: Chile's formal water-sector adaptation plan has 10 measures and 35 actions for urban/rural water and sanitation, ecosystems, productive water use, territorial planning, knowledge and preparedness for droughts and floods.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CHL-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CHL-SRC-103",
+          "locator": "HTML, paragraphs on pilot basin indicators and municipal water-action kit"
+        }
+      ],
+      "geographies": [
+        "Camiña Basin",
+        "Maipo River Basin",
+        "Valdivia River Basin",
+        "Seno Andrew",
+        "Chile"
+      ],
+      "affected_groups": [
+        "communities",
+        "women's water organizations",
+        "municipal governments"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-09-28 reports: The plan's implementation developed 38 basin-security indicators piloted in Camiña, Maipo, Valdivia and Seno Andrew with 195 participants; a municipal water-action kit reached representatives of more than 170 municipalities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "CHL-E-112",
+      "record_review": "manual-passage-check-incomplete",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "CHL-SRC-104",
+          "locator": "PDF pp. 3–4, recitals 8°–12° on the Peace and Understanding Commission"
+        }
+      ],
+      "geographies": [
+        "Biobío Region",
+        "La Araucanía Region",
+        "Los Ríos Region",
+        "Los Lagos Region"
+      ],
+      "affected_groups": [
+        "Mapuche people",
+        "regional political actors"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-07-03 reports: The resolution locates the historic Mapuche–State territorial conflict mainly in Biobío, La Araucanía, Los Ríos and Los Lagos and cites territorial dispossession; the commission was tasked to assess land claims and facilitate regional dialogue.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "CHL-E-112",
+        "source_id": "CHL-SRC-104",
+        "url": "https://www.diariooficial.interior.gob.cl/publicaciones/2025/07/03/44189/01/2667943.pdf",
+        "locator": "PDF pp. 3–4, recitals 8°–12° on the Peace and Understanding Commission",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "access-only",
+        "claim_verification": "unresolved",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "manual_adjudication_completed": true,
+        "verification_note": "The inspected recital window supports the four-region context but does not include every cited commission-mandate recital."
+      },
+      "verification_note": "The inspected recital window supports the four-region context but does not include every cited commission-mandate recital.",
+      "manual_adjudication": {
+        "status": "unresolved",
+        "reviewed_on": "2026-10-27",
+        "source_id": "CHL-SRC-104",
+        "source_url": "https://www.diariooficial.interior.gob.cl/publicaciones/2025/07/03/44189/01/2667943.pdf",
+        "locator": "PDF pp. 3–4, recitals 8°–12° on the Peace and Understanding Commission",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The inspected recital window supports the four-region context but does not include every cited commission-mandate recital.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      }
+    },
+    {
+      "record_id": "CHL-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "CHL-SRC-104",
+          "locator": "PDF p. 4, recitals 14°–16° on land-fund purchases and pending applications"
+        }
+      ],
+      "geographies": [
+        "Biobío Region",
+        "La Araucanía Region",
+        "Los Ríos Region",
+        "Los Lagos Region"
+      ],
+      "affected_groups": [
+        "Mapuche communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-07-03 reports: The resolution says 99.59% of Indigenous land-fund purchases through 2024 occurred in the four regions and were for Mapuche applicants; 1,131 applications remained pending when recommendations were delivered.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "CHL-E-112",
+  "source_access_review": {
+    "selected_record_id": "CHL-E-112",
+    "selected_source_id": "CHL-SRC-104",
+    "url": "https://www.diariooficial.interior.gob.cl/publicaciones/2025/07/03/44189/01/2667943.pdf",
+    "locator": "PDF pp. 3–4, recitals 8°–12° on the Peace and Understanding Commission",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "access-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 187738,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      3,
+      4
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The inspected recital window supports the four-region context but does not include every cited commission-mandate recital."
+  },
+  "checks": [
+    {
+      "record_id": "CHL-E-112",
+      "source_id": "CHL-SRC-104",
+      "locator": "PDF pp. 3–4, recitals 8°–12° on the Peace and Understanding Commission",
+      "verification_status": "unresolved",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "access-only",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": false,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "CHL-E-112: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "CHL-E-101",
+    "CHL-E-103",
+    "CHL-E-104",
+    "CHL-E-105",
+    "CHL-E-106",
+    "CHL-E-107",
+    "CHL-E-108",
+    "CHL-E-109",
+    "CHL-E-110",
+    "CHL-E-111",
+    "CHL-E-112",
+    "CHL-E-113"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

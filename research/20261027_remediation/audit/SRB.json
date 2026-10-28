@@ -1,0 +1,1000 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "SRB",
+  "candidate_path": "countries/SRB/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 6,
+    "evidence_count": 13,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 13
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 12,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "SRB-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "SRB-E-102",
+          "SRB-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "SRB-E-101",
+          "SRB-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SRB-E-111",
+          "SRB-E-112",
+          "SRB-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SRB-E-103",
+          "SRB-E-106",
+          "SRB-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "SRB-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "SRB-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "SRB-E-107",
+          "SRB-E-108",
+          "SRB-E-109",
+          "SRB-E-112",
+          "SRB-E-113",
+          "SRB-E-114"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "SRB-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/SRB/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "SRB-SRC-101",
+      "title": "First Biennial Transparency Report of the Republic of Serbia",
+      "organization": "Republic of Serbia",
+      "publication_date": "2025-01-16",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/resource/Serbia_BTR_final%20after%20corrections.pdf",
+      "geographic_coverage": [
+        "Serbia",
+        "areas south of the Sava and Danube rivers"
+      ],
+      "temporal_coverage": "Sectoral climate impacts and adaptation reporting through 2024; crop comparison baseline 2011–2020.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SRB-E-101",
+        "SRB-E-102",
+        "SRB-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 239-page English BTR; agriculture, adaptation-implementation, and flood/gender sections directly read.",
+          "notes": "Read actual PDF passages; searched text references to OSCE are not substituted for the direct OSCE report.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SRB-SRC-102",
+      "title": "Programme for Adaptation to Changed Climate Conditions for 2023–2030",
+      "organization": "Government of the Republic of Serbia; Ministry of Environmental Protection",
+      "publication_date": "2023",
+      "publication_date_basis": "document-version",
+      "url": "https://adaptacije.klimatskepromene.rs/wp-content/uploads/2024/01/program-prilagodjavanja-na-izmenjene-klimatske-uslove-za-period-od-2023-do-2030_0098_cyr.pdf",
+      "geographic_coverage": [
+        "Serbia",
+        "Vojvodina",
+        "central Serbia",
+        "western Serbia",
+        "eastern Serbia"
+      ],
+      "temporal_coverage": "Adaptation programme 2023–2030; first action plan 2024–2026; climate projections through 2081–2100.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SRB-E-104",
+        "SRB-E-105",
+        "SRB-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 242-page official Serbian-language programme; summary tables, extreme-precipitation assessment, drought appendix, and local-risk recommendations inspected.",
+          "notes": "Claim summaries translated from directly read Serbian passages; UNFCCC-hosted copy was not needed for evidence.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SRB-SRC-103",
+      "title": "Gender Analysis of the Impact of the 2014 Floods in Serbia",
+      "organization": "Višnja Baćanović; supported by the OSCE Mission to Serbia",
+      "publication_date": "2015-01-16",
+      "publication_date_basis": "publication",
+      "url": "https://www.osce.org/files/f/documents/d/a/135021.pdf",
+      "geographic_coverage": [
+        "Obrenovac",
+        "Krupanj",
+        "Svilajnac",
+        "Paraćin",
+        "Dobanovci",
+        "Železnik"
+      ],
+      "temporal_coverage": "Interviews and flood-response observations from May–July 2014; report published 2015.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SRB-E-107",
+        "SRB-E-108",
+        "SRB-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 32-page report; methodology, local findings, shelter risks and recommendations inspected.",
+          "notes": "Report states that opinions are those of author/contributors and not necessarily OSCE's official position; survey denominators and gaps retained.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "SRB-E-109",
+        "selected_source_id": "SRB-SRC-103",
+        "url": "https://www.osce.org/files/f/documents/d/a/135021.pdf",
+        "locator": "Printed p. 27, security conditions in large collective/reception centres.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "SRB-SRC-104",
+      "title": "EU for Civil Protection and Disaster Risk Resilience Strengthening in the Republic of Serbia",
+      "organization": "United Nations Development Programme, Serbia",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.undp.org/serbia/projects/eu-civil-protection-and-disaster-risk-resilience-strengthening-republic-serbia",
+      "geographic_coverage": [
+        "Serbia",
+        "central and local levels"
+      ],
+      "temporal_coverage": "Project ran March 2020–January 2026; page gives no INFORM score reference year.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SRB-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Project webpage body: INFORM discussion, DRR problem statement, focus and impact/status fields.",
+          "notes": "Directly read the publisher webpage; underlying project documents and INFORM source data were not reviewed.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SRB-SRC-105",
+      "title": "Sustainable Urban and Regional Development Program (SURGE): Annual Report 2025",
+      "organization": "World Bank",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://thedocs.worldbank.org/en/doc/eca82d29a77382720974a03e1cf9ea7e-0060072025/original/SURGE-Annual-Report-2025.pdf",
+      "geographic_coverage": [
+        "Serbia",
+        "Niš",
+        "Leskovac",
+        "Kragujevac",
+        "Užice",
+        "Novi Sad"
+      ],
+      "temporal_coverage": "World Bank FY2025 programme activities through June 2025; programme extension ended June 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SRB-E-112",
+        "SRB-E-113",
+        "SRB-E-114"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 138-page report; Serbia programme chapter and FY2025 results on printed pp. 87–89 read.",
+          "notes": "Programme self-report is retained as activity/output evidence; future-looking FY26 workplan not represented as current after June 2026 end date.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SRB-SRC-106",
+      "title": "Country Climate and Development Report: Western Balkans 6 — Background Note: Adapting to a Changing Climate, the Case for Urgent Action",
+      "organization": "World Bank Group",
+      "publication_date": "2024",
+      "publication_date_basis": "version",
+      "url": "https://documents1.worldbank.org/curated/en/099092624072026025/pdf/P1792051f9cb36024193c61deec380abe55.pdf",
+      "geographic_coverage": [
+        "Western Balkans 6, including Serbia"
+      ],
+      "temporal_coverage": "Regional climate-development analysis and cited climate-conflict literature, 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 42-page Western Balkans 6 background note; climate/conflict discussion on printed p. 22 directly read.",
+          "notes": "Regional literature synthesis is used only as explicitly qualified Western Balkans context, not as a Serbia-specific event pathway.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "SRB-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SRB-SRC-101",
+          "locator": "BTR printed p. 116, Table 31, agriculture summary."
+        }
+      ],
+      "geographies": [
+        "Serbia",
+        "water-short maize areas"
+      ],
+      "affected_groups": [
+        "family farms"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-01-16 reports: Maize covers ~45% of arable land, mainly in water-short areas; family farms manage nearly 90% of it and generally have low adaptive capacity. Driest-year yields fell up to 40% against 2011–2020.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SRB-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SRB-SRC-101",
+          "locator": "BTR printed p. 117, Table 31, fruit-production risk summary."
+        }
+      ],
+      "geographies": [
+        "areas south of the Sava and Danube rivers",
+        "Serbia"
+      ],
+      "affected_groups": [
+        "fruit producers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "current",
+        "medium-term"
+      ],
+      "scenario": "Mid-century; no scenario specified in the BTR summary.",
+      "compact_statement": "Source dated 2025-01-16 reports: South of Sava and Danube, apricot and almond face the highest growing-season frost risk; listed fruits cover ~10% of fruit area. Risk is expected high across most Serbia by mid-century.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SRB-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SRB-SRC-101",
+          "locator": "BTR printed p. 134, adaptation-programme implementation and financing discussion."
+        }
+      ],
+      "geographies": [
+        "Serbia"
+      ],
+      "affected_groups": [
+        "national and local institutions"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-01-16 reports: For 2024–2026, RSD 998m was allocated (89.3% national, 10.7% donor); BTR calls funding insufficient and says major monitoring-capacity investment was absent.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SRB-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SRB-SRC-102",
+          "locator": "PDF pp. 22 and 124 (printed p. 125), summary and Appendix P1.3.2/Figure P1.10."
+        }
+      ],
+      "geographies": [
+        "Serbia",
+        "central Serbia",
+        "western Serbia",
+        "parts of Vojvodina",
+        "eastern Serbia"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "historical",
+        "medium-term"
+      ],
+      "scenario": "The map compares 2001–2020 with 2041–2060 under RCP8.5.",
+      "compact_statement": "Source dated 2023 reports: The programme reports high/very-high extreme-precipitation risk on 7% of Serbia in 2001–2020, including central/western Serbia, parts of Vojvodina and eastern Serbia; it projects 56% in 2041–2060 under RCP8.5, citing Životić and Vuković-Vimić (2022).",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SRB-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SRB-SRC-102",
+          "locator": "PDF p. 22, programme summary table, drought entry."
+        }
+      ],
+      "geographies": [
+        "Serbia"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "historical",
+        "near-term",
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "RCP8.5 for 2081–2100; no scenario specified for nearer periods.",
+      "compact_statement": "Source dated 2023 reports: One strong-drought year occurred in 2011–2020; the programme projects 2–3 per decade in 2021–2040, 3–4 in 2041–2060, and 7–8 per decade under RCP8.5 in 2081–2100.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SRB-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SRB-SRC-102",
+          "locator": "PDF p. 134, Appendix A1.6, recommendations on hazards requiring local risk assessment."
+        }
+      ],
+      "geographies": [
+        "Serbian local self-government areas"
+      ],
+      "affected_groups": [
+        "local authorities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: Flood, landslide and erosion risks depend on local terrain and protection works; the programme recommends assessment at local-government level.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SRB-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SRB-SRC-103",
+          "locator": "Printed pp. 29–30, key findings on emergency information and municipal preparedness."
+        }
+      ],
+      "geographies": [
+        "Obrenovac",
+        "Krupanj",
+        "Svilajnac",
+        "Paraćin"
+      ],
+      "affected_groups": [
+        "flood-exposed residents"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2015-01-16 reports: In the four municipalities studied, the report found no local protection-and-rescue plans, untrained communities, inaudible sirens, no local radio or television guidance, and warnings reaching few people informally.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SRB-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SRB-SRC-103",
+          "locator": "Printed pp. 27 and 32, reception-centre security discussion and key findings/recommendations."
+        }
+      ],
+      "geographies": [
+        "flood-affected municipalities",
+        "Železnik reception centre"
+      ],
+      "affected_groups": [
+        "older people",
+        "people with disabilities",
+        "single mothers",
+        "women living alone",
+        "Roma women",
+        "illiterate residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2015-01-16 reports: The study identifies older and disabled people, single mothers, women living alone and illiterate residents (mostly women and Roma) as vulnerable; it also notes language barriers for evacuated Roma women.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SRB-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "SRB-SRC-103",
+          "locator": "Printed p. 27, security conditions in large collective/reception centres."
+        }
+      ],
+      "geographies": [
+        "Železnik reception centre",
+        "Belgrade reception centres"
+      ],
+      "affected_groups": [
+        "women",
+        "evacuees"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2015-01-16 reports: The author warns that isolated, unlit large reception centres without organized support can pose security threats to women because of trafficking, sexual-assault and harassment risks.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "SRB-E-109",
+        "selected_source_id": "SRB-SRC-103",
+        "url": "https://www.osce.org/files/f/documents/d/a/135021.pdf",
+        "locator": "Printed p. 27, security conditions in large collective/reception centres.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "SRB-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SRB-SRC-104",
+          "locator": "UNDP project page, DRR-system problem statement, focus and status sections."
+        }
+      ],
+      "geographies": [
+        "Serbia",
+        "central level",
+        "local level"
+      ],
+      "affected_groups": [
+        "communities and population"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: UNDP identifies fragmented institutions and procedures plus insufficient central/local prevention, preparedness and response capacity; its project aimed to improve coordination and technical, operational and human capacity and ended in January 2026.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SRB-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SRB-SRC-105",
+          "locator": "Printed pp. 88–89, FY2025 GLRC local-support results."
+        }
+      ],
+      "geographies": [
+        "Leskovac",
+        "Kragujevac",
+        "Užice",
+        "Niš",
+        "Novi Sad"
+      ],
+      "affected_groups": [
+        "women",
+        "public-space users"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: FY 2025 began ten green-infrastructure, mobility and climate-resilience space designs across Leskovac, Kragujevac, Užice, Niš and Novi Sad; consultations/gender analysis covered safety and access.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SRB-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SRB-SRC-105",
+          "locator": "Printed p. 88, Niš and Leskovac urban-planning support results."
+        }
+      ],
+      "geographies": [
+        "Niš",
+        "Leskovac"
+      ],
+      "affected_groups": [
+        "urban and rural residents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: Niš analysis recommended narrowing General Urban Plan boundaries to the continuous urban area and reducing construction zones against population/land-use projections; Leskovac planning addressed decline and urban-rural links.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SRB-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SRB-SRC-105",
+          "locator": "Printed p. 89, FY2025 national-support results and Užice pilot."
+        }
+      ],
+      "geographies": [
+        "Serbia",
+        "Užice"
+      ],
+      "affected_groups": [
+        "municipal governments",
+        "urban residents"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: Two draft analyses supported climate integration in a five-year Action Plan for Serbia’s Sustainable Urban Development Strategy; an urban cycling/greenway study launched in Užice.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "SRB-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SRB-E-108",
+        "SRB-E-109"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SRB-E-108",
+          "SRB-E-109"
+        ],
+        "impact": [
+          "SRB-E-108",
+          "SRB-E-109"
+        ],
+        "mediator": [
+          "SRB-E-109"
+        ],
+        "consequence": [
+          "SRB-E-109"
+        ]
+      },
+      "geographies": [
+        "Belgrade reception centres",
+        "Železnik reception centre"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Flood evacuation into isolated, poorly lit or unsupported centres can heighten women's protection risks; the 2014 study does not measure violence incidence.",
+      "alternative_explanations": [
+        "Centre design, support quality and pre-existing exclusion independently affect risk.",
+        "Historical study is not nationally representative or a current shelter assessment."
+      ],
+      "uncertainty": "Conditional protection mechanism from a dated event-specific study, not verified violence occurrence or anthropogenic climate attribution.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "SRB-E-109",
+  "source_access_review": {
+    "selected_record_id": "SRB-E-109",
+    "selected_source_id": "SRB-SRC-103",
+    "url": "https://www.osce.org/files/f/documents/d/a/135021.pdf",
+    "locator": "Printed p. 27, security conditions in large collective/reception centres.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": null,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+  },
+  "checks": [
+    {
+      "record_id": "SRB-E-109",
+      "source_id": "SRB-SRC-103",
+      "locator": "Printed p. 27, security conditions in large collective/reception centres.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "SRB-E-109: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "SRB-E-101",
+    "SRB-E-102",
+    "SRB-E-103",
+    "SRB-E-104",
+    "SRB-E-105",
+    "SRB-E-106",
+    "SRB-E-107",
+    "SRB-E-108",
+    "SRB-E-109",
+    "SRB-E-111",
+    "SRB-E-112",
+    "SRB-E-113",
+    "SRB-E-114",
+    "SRB-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

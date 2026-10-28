@@ -1,0 +1,995 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "TUR",
+  "candidate_path": "countries/TUR/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 6,
+    "evidence_count": 14,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 14
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 13,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "TUR-E-101",
+          "TUR-E-103",
+          "TUR-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "TUR-E-102",
+          "TUR-E-104",
+          "TUR-E-107",
+          "TUR-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "TUR-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "TUR-E-110",
+          "TUR-E-111",
+          "TUR-E-113",
+          "TUR-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "TUR-E-115"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "TUR-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "TUR-E-101",
+          "TUR-E-102",
+          "TUR-E-103",
+          "TUR-E-104",
+          "TUR-E-110",
+          "TUR-E-111",
+          "TUR-E-114"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/TUR/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "TUR-SRC-101",
+      "title": "Climate Change Adaptation Strategy and Action Plan (2024–2030)",
+      "organization": "Ministry of Environment, Urbanization and Climate Change / Presidency of Climate Change",
+      "publication_date": "2024",
+      "publication_date_basis": "document-version",
+      "url": "https://iklim.gov.tr/db/english/icerikler/files/Uyum.pdf",
+      "geographic_coverage": [
+        "Türkiye; urban assessments name cities in the Mediterranean, Black Sea, Central Anatolia and Southeastern Anatolia; water assessment covers provinces"
+      ],
+      "temporal_coverage": "Strategy 2024–2030; assessment method covers 81 provinces, a 1990–2019 current period and 2021–2100 projections under RCP4.5 and RCP8.5.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TUR-E-101",
+        "TUR-E-102",
+        "TUR-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 261-page English strategy; cited PDF pages 34, 35 and 52",
+          "notes": "The official PDF was directly downloaded and read with pypdf during the earlier 27 October research pass. A repeat browser open was inaccessible and a repeat direct download reset; no indexed snippet is used for the claims.",
+          "reuse_terms": "No licence statement inspected.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TUR-SRC-102",
+      "title": "Country Climate and Development Report: Türkiye",
+      "organization": "World Bank",
+      "publication_date": "2022-06",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099006106072221642/pdf/P177479041cc100c80bacc031005338a440.pdf",
+      "geographic_coverage": [
+        "Türkiye; Şanlıurfa, Mardin, Antalya, Adana, Hatay and Istanbul subregion"
+      ],
+      "temporal_coverage": "Published June 2022; cited wildfire land-burned averages cover 2011–2021; flood poverty estimates use a 200-year return-period case.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TUR-E-104",
+        "TUR-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 78-page PDF; printed pp.66–67, section 4.3.2",
+          "notes": "Opened and read the publisher-hosted World Bank PDF, including the cited wildfire, poverty and flood passages.",
+          "reuse_terms": "No licence statement inspected.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TUR-SRC-103",
+      "title": "Decent and Sustainable Job Opportunities for Refugees and Host Communities in Turkish Textile Sector",
+      "organization": "United Nations Development Programme (UNDP) Türkiye",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.undp.org/turkiye/projects/decent-and-sustainable-job-opportunities-refugees-and-host-communities-turkish-textile-sector",
+      "geographic_coverage": [
+        "Türkiye; Istanbul and major southeastern cities discussed; field-work locations listed include Gaziantep, Hatay, Mersin, Adana, Kilis, Şanlıurfa, Mardin, İzmir and İstanbul"
+      ],
+      "temporal_coverage": "Project dates are November 2022–January 2025; the page does not date its refugee-population counts.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TUR-E-107",
+        "TUR-E-108",
+        "TUR-E-109"
+      ],
+      "this_audit_verification": "access-only",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Publisher webpage, project overview, situation, approach and dates",
+          "notes": "Read the substantive UNDP page body, including its statistics, stated social-tension context, design aims and completed status.",
+          "reuse_terms": "No licence statement inspected.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "TUR-E-109",
+        "selected_source_id": "TUR-SRC-103",
+        "url": "https://www.undp.org/turkiye/projects/decent-and-sustainable-job-opportunities-refugees-and-host-communities-turkish-textile-sector",
+        "locator": "Webpage sections ‘What is the project about?’ and ‘How will Turkey benefit?’",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 105179,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "TUR-E-109"
+      ]
+    },
+    {
+      "source_id": "TUR-SRC-104",
+      "title": "World Bank Approves $600 million for Türkiye to Build Resilience Against Floods and Drought",
+      "organization": "World Bank",
+      "publication_date": "2024-06-27",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2024/06/27/world-bank-approves-600-million-for-turkiye-to-build-resilience-against-floods-and-drought",
+      "geographic_coverage": [
+        "Türkiye; North Aegean, East Black Sea, Kızılırmak, Büyük Menderes, West Mediterranean, East Mediterranean, West Black Sea and Ceyhan basins"
+      ],
+      "temporal_coverage": "June 2024 approval announcement and planned project components; it does not report implementation results.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TUR-E-110",
+        "TUR-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Publisher press release, project component and target-basin paragraphs",
+          "notes": "Read the complete substantive World Bank release; claims are explicitly represented as 2024 approval targets.",
+          "reuse_terms": "No licence statement inspected.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TUR-SRC-105",
+      "title": "World Bank and Government of Türkiye Kickoff a $400 Million Project to Make the Country’s Forests More Resilient",
+      "organization": "World Bank",
+      "publication_date": "2024-05-30",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2024/05/30/world-bank-and-government-of-turkiye-kickoff-a-400-million-project-to-make-the-country-s-forests-more-resilient",
+      "geographic_coverage": [
+        "Türkiye; 2021 wildfires in southern and western regions; project focus is 14 unnamed highest-risk provinces"
+      ],
+      "temporal_coverage": "2021 wildfire impacts and May 2024 project launch.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TUR-E-112",
+        "TUR-E-113"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Publisher press release, 2021 wildfire impact and project scope paragraphs",
+          "notes": "Read the full substantive World Bank release; no province-level list or 2021 event-specific climate attribution is claimed.",
+          "reuse_terms": "No licence statement inspected.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TUR-SRC-106",
+      "title": "The Closing Event of the ‘Enhancing Adaptation Action in Türkiye’ Project was held on 3 October 2025",
+      "organization": "EU IPA Environment and Climate Programme; implemented with Türkiye’s Ministry of Environment, Urbanization and Climate Change and UNDP Türkiye",
+      "publication_date": "2025-10-03",
+      "publication_date_basis": "publication",
+      "url": "https://ipa.csb.gov.tr/en/the-closing-event-of-the-enhancing-adaptation-action-in-turkiye-project-was-held-on-3-october-2025/",
+      "geographic_coverage": [
+        "Türkiye; pilot provinces Samsun, Sakarya, Muğla and Konya; awareness activities in 20 cities, not named"
+      ],
+      "temporal_coverage": "Project implementation October 2019–October 2025; local plans cover 2025–2030.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TUR-E-114",
+        "TUR-E-115"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Publisher page, project close-out and national/local outputs",
+          "notes": "Read the full page body. The page states that content is the sole responsibility of Frankfurt School of Finance & Management GmbH and may not reflect government or EU views.",
+          "reuse_terms": "No licence statement inspected.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "TUR-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TUR-SRC-101",
+          "locator": "PDF p.34 (printed pp.66–67), urban risk assessment, heavy precipitation"
+        }
+      ],
+      "geographies": [
+        "Mersin",
+        "Adana",
+        "Hatay",
+        "Osmaniye",
+        "Samsun",
+        "Ordu",
+        "Kayseri",
+        "Kahramanmaraş",
+        "Şırnak",
+        "Batman",
+        "Diyarbakır"
+      ],
+      "affected_groups": [
+        "urban residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": "Not identified for this city-level result.",
+      "compact_statement": "Source dated 2024 reports: The strategy rates urban heavy-precipitation risk at its highest level in Mersin, Adana, Hatay, Osmaniye, Samsun, Ordu, Kayseri, Kahramanmaraş, Şırnak, Batman and Diyarbakır.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TUR-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TUR-SRC-101",
+          "locator": "PDF p.35 (printed pp.68–69), urban heatwave risk assessment"
+        }
+      ],
+      "geographies": [
+        "Antalya",
+        "Mersin",
+        "Istanbul",
+        "Bursa",
+        "Izmir"
+      ],
+      "affected_groups": [
+        "urban residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": "Not identified for this city-level result.",
+      "compact_statement": "Source dated 2024 reports: The strategy highlights Antalya, Mersin, Istanbul, Bursa and Izmir for urban heatwave risk, citing sprawl, impermeable surfaces, constrained streams and limited green space.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TUR-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TUR-SRC-101",
+          "locator": "PDF p.52 (printed pp.102–103), water-resources vulnerability and drought risk"
+        }
+      ],
+      "geographies": [
+        "Konya",
+        "Isparta",
+        "Aksaray",
+        "Niğde",
+        "Nevşehir",
+        "Eastern Mediterranean Region",
+        "Southeastern Anatolia Region"
+      ],
+      "affected_groups": [
+        "water users"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: The water-resources assessment identifies high current drought risk in Konya, Isparta, Aksaray, Niğde, Nevşehir, the eastern Mediterranean and all Southeastern Anatolia.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TUR-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TUR-SRC-102",
+          "locator": "Printed p.66, §4.3.2, wildfire and poverty analysis"
+        }
+      ],
+      "geographies": [
+        "Şanlıurfa",
+        "Mardin"
+      ],
+      "affected_groups": [
+        "poor households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-06 reports: The CCDR identifies Şanlıurfa and Mardin as wildfire and socioeconomic-vulnerability hotspots; their annual land-burned shares averaged 6.6% and 5.4% in 2011–2021, and about one-fifth of Türkiye’s poor lived in high wildfire-risk areas.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TUR-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TUR-SRC-102",
+          "locator": "Printed p.66, §4.3.2, paragraph on unequal household disaster impacts"
+        }
+      ],
+      "geographies": [
+        "Türkiye"
+      ],
+      "affected_groups": [
+        "poor households"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-06 reports: The CCDR says poor households are often more vulnerable because they have less ability to prepare for, cope with and recover from extreme events.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TUR-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TUR-SRC-103",
+          "locator": "Webpage section ‘What has been the situation?’"
+        }
+      ],
+      "geographies": [
+        "Istanbul",
+        "major southeastern cities (not individually specified)"
+      ],
+      "affected_groups": [
+        "Syrians under temporary protection",
+        "host communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: UNDP reports 99% of Syrians under temporary protection in host communities and over 2.2 million in Istanbul and major southeastern cities, where service, livelihood and cohesion pressures were reported.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TUR-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TUR-SRC-103",
+          "locator": "Webpage section ‘What has been the situation?’, paragraphs on work permits and social tensions"
+        }
+      ],
+      "geographies": [
+        "Türkiye"
+      ],
+      "affected_groups": [
+        "Syrian refugees",
+        "host communities",
+        "textile workers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: UNDP cites work-permit barriers, informal low-paid jobs and heightened intergroup tensions where employment formalization is needed.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TUR-E-109",
+      "record_review": "manual-passage-check-incomplete",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "TUR-SRC-103",
+          "locator": "Webpage sections ‘What is the project about?’ and ‘How will Turkey benefit?’"
+        }
+      ],
+      "geographies": [
+        "Türkiye"
+      ],
+      "affected_groups": [
+        "Syrian refugees",
+        "host communities"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": "Design intent, not evaluation.",
+      "compact_statement": "Source dated not stated reports: Project design combined employer-led textile training and placements with formal-employment, self-reliance and integration aims.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "TUR-E-109",
+        "source_id": "TUR-SRC-103",
+        "url": "https://www.undp.org/turkiye/projects/decent-and-sustainable-job-opportunities-refugees-and-host-communities-turkish-textile-sector",
+        "locator": "Webpage sections ‘What is the project about?’ and ‘How will Turkey benefit?’",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "access-only",
+        "claim_verification": "unresolved",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "manual_adjudication_completed": true,
+        "verification_note": "The window confirms intended self-reliance/integration, but not the full employer-led training/placement account."
+      },
+      "verification_note": "The window confirms intended self-reliance/integration, but not the full employer-led training/placement account.",
+      "manual_adjudication": {
+        "status": "unresolved",
+        "reviewed_on": "2026-10-27",
+        "source_id": "TUR-SRC-103",
+        "source_url": "https://www.undp.org/turkiye/projects/decent-and-sustainable-job-opportunities-refugees-and-host-communities-turkish-textile-sector",
+        "locator": "Webpage sections ‘What is the project about?’ and ‘How will Turkey benefit?’",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The window confirms intended self-reliance/integration, but not the full employer-led training/placement account.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      }
+    },
+    {
+      "record_id": "TUR-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TUR-SRC-104",
+          "locator": "Press release, project component description and target-basin list"
+        }
+      ],
+      "geographies": [
+        "North Aegean Basin",
+        "East Black Sea Basin",
+        "Kızılırmak Basin",
+        "Büyük Menderes Basin",
+        "West Mediterranean Basin",
+        "East Mediterranean Basin",
+        "West Black Sea Basin"
+      ],
+      "affected_groups": [
+        "people in flood-prone areas"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": "Targets stated at project approval, not achieved results.",
+      "compact_statement": "Source dated 2024-06-27 reports: At June 2024 approval, the project planned flood-control works and nature-based solutions across seven named basins, with over 150,000 people targeted for direct benefit.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check",
+        "programme_intent_and_outcome_terms_co-occur"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TUR-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TUR-SRC-104",
+          "locator": "Press release, Ceyhan Basin drought-monitoring pilot description"
+        }
+      ],
+      "geographies": [
+        "Ceyhan Basin"
+      ],
+      "affected_groups": [
+        "farmers"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": "Planned pilot and target reach stated in June 2024.",
+      "compact_statement": "Source dated 2024-06-27 reports: The approval plan included real-time agricultural drought monitoring in the Ceyhan Basin and monitoring data for 10,000 farmers to support water-stress decisions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TUR-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TUR-SRC-105",
+          "locator": "Press release, paragraphs describing the 2021 wildfires and impacts"
+        }
+      ],
+      "geographies": [
+        "southern Türkiye",
+        "western Türkiye"
+      ],
+      "affected_groups": [
+        "residents",
+        "tourists",
+        "rural livelihoods"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-05-30 reports: The World Bank reports that 2021 wildfires in Türkiye’s southern and western regions caused deaths, evacuated hundreds of residents and tourists, and affected tourism, livestock, beekeeping, timber and other sectors.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TUR-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TUR-SRC-105",
+          "locator": "Press release, paragraph describing project focus and intended beneficiaries"
+        }
+      ],
+      "geographies": [
+        "14 highest-risk wildfire provinces (not named)"
+      ],
+      "affected_groups": [
+        "residents of high-risk provinces",
+        "forest-dependent rural communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": "Project scope and intended support at launch, not completed results.",
+      "compact_statement": "Source dated 2024-05-30 reports: At its 2024 launch, a $400 million project targeted wildfire management and forest resilience in 14 highest-risk provinces, home to about 20 million people, many dependent on forestland for livelihoods.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TUR-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TUR-SRC-106",
+          "locator": "Project close-out page, ‘Local-Level’ outputs"
+        }
+      ],
+      "geographies": [
+        "Samsun Province",
+        "Sakarya Province",
+        "Muğla Province",
+        "Konya Province"
+      ],
+      "affected_groups": [
+        "local communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-10-03 reports: At project close in October 2025, the programme reported 2025–2030 local adaptation plans and sectoral vulnerability/risk analyses for Samsun, Sakarya, Muğla and Konya, plus urban climate-finance strategies.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TUR-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TUR-SRC-106",
+          "locator": "Project close-out page, ‘Grant Programme and Capacity Building’ outputs"
+        }
+      ],
+      "geographies": [
+        "Türkiye; grant locations not specified"
+      ],
+      "affected_groups": [
+        "grant beneficiaries",
+        "local communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-10-03 reports: The programme reported 29 community-adaptation grant projects and 77 beneficiaries, completed capacity-building activities and developed 11 training modules.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "TUR-E-109",
+  "source_access_review": {
+    "selected_record_id": "TUR-E-109",
+    "selected_source_id": "TUR-SRC-103",
+    "url": "https://www.undp.org/turkiye/projects/decent-and-sustainable-job-opportunities-refugees-and-host-communities-turkish-textile-sector",
+    "locator": "Webpage sections ‘What is the project about?’ and ‘How will Turkey benefit?’",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "access-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 105179,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The window confirms intended self-reliance/integration, but not the full employer-led training/placement account."
+  },
+  "checks": [
+    {
+      "record_id": "TUR-E-109",
+      "source_id": "TUR-SRC-103",
+      "locator": "Webpage sections ‘What is the project about?’ and ‘How will Turkey benefit?’",
+      "verification_status": "unresolved",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "access-only",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": false,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "TUR-E-109: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "TUR-E-101",
+    "TUR-E-102",
+    "TUR-E-103",
+    "TUR-E-104",
+    "TUR-E-106",
+    "TUR-E-107",
+    "TUR-E-108",
+    "TUR-E-109",
+    "TUR-E-110",
+    "TUR-E-111",
+    "TUR-E-112",
+    "TUR-E-113",
+    "TUR-E-114",
+    "TUR-E-115"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

@@ -1,0 +1,2095 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "COD",
+  "candidate_path": "countries/COD/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 14,
+    "evidence_count": 27,
+    "pathway_count": 8,
+    "evidence_source_reference_count": 29
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 22,
+      "access-only": 5
+    },
+    "pathway_claims": {
+      "unresolved": 8
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "COD-E-001",
+          "COD-E-002",
+          "COD-E-003"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "COD-E-005",
+          "COD-E-009",
+          "COD-E-101"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "COD-E-006",
+          "COD-E-008",
+          "COD-E-102"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "COD-E-023",
+          "COD-E-024",
+          "COD-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "COD-E-007",
+          "COD-E-016"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "COD-E-010",
+          "COD-E-015",
+          "COD-E-018",
+          "COD-E-019"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "COD-E-020",
+          "COD-E-021",
+          "COD-E-103",
+          "COD-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "COD-E-011",
+          "COD-E-012",
+          "COD-E-013",
+          "COD-E-014"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "COD-E-022"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "COD-E-101",
+          "COD-E-102",
+          "COD-E-103",
+          "COD-E-106"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "COD-P-001",
+          "COD-P-002",
+          "COD-P-003",
+          "COD-P-004",
+          "COD-P-005",
+          "COD-P-006",
+          "COD-P-007",
+          "COD-P-008"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/COD/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "COD-SRC-001",
+      "title": "*National Adaptation Plan to Climate Change (2022-2026)*",
+      "organization": "DRC Ministry of Environment and Sustainable Development / UNDP support",
+      "publication_date": "2021",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/resource/DRC-NAP_EN.pdf",
+      "geographic_coverage": [
+        "National, with subnational differentiation"
+      ],
+      "temporal_coverage": "Historical baseline plus projections to 2100",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "COD-E-001",
+        "COD-E-002",
+        "COD-E-003",
+        "COD-E-006",
+        "COD-E-007"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "COD-SRC-002",
+      "title": "*Contribution Déterminée à l'échelle Nationale révisée*",
+      "organization": "DRC Ministry of Environment and Sustainable Development",
+      "publication_date": "2021",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/NDC/2022-06/CDN%20Revis%C3%A9e%20de%20la%20RDC.pdf",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "2021-2030",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "COD-E-015",
+        "COD-E-016"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "COD-SRC-003",
+      "title": "*Independent Country Programme Evaluation: Democratic Republic of Congo*",
+      "organization": "UNDP Independent Evaluation Office",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://erc.undp.org/evaluation/documents/download/23904",
+      "geographic_coverage": [
+        "National plus fieldwork in five provinces"
+      ],
+      "temporal_coverage": "Programme 2020-2024; some earlier projects",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "COD-E-018",
+        "COD-E-019",
+        "COD-E-020"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "COD-SRC-004",
+      "title": "*Climate, Peace and Security in Eastern Democratic Republic of the Congo* (SIPRI2)",
+      "organization": "SIPRI",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://www.sipri.org/sites/default/files/2025-03/2025_02_climate_peace_and_security_in_eastern_drc.pdf",
+      "geographic_coverage": [
+        "North Kivu and South Kivu"
+      ],
+      "temporal_coverage": "Literature to early 2025; workshop May 2024; KIIs Oct. 2024",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "COD-E-011",
+        "COD-E-012",
+        "COD-E-013",
+        "COD-E-014",
+        "COD-E-022"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "COD-E-013",
+        "selected_source_id": "COD-SRC-004",
+        "url": "https://www.sipri.org/sites/default/files/2025-03/2025_02_climate_peace_and_security_in_eastern_drc.pdf",
+        "locator": "report pp.13-14, “Displacement…”/armed-group discussion. (SIPRI2)",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 312021,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "COD-SRC-005",
+      "title": "*Climate Related Security Risks in Eastern DRC: Local Perspectives from North and South Kivu Provinces*",
+      "organization": "Folke Bernadotte Academy, Réseau CREF, Strong Roots Congo",
+      "publication_date": "2023",
+      "publication_date_basis": "publication",
+      "url": "https://fba.se/media/vnth0iw4/engelsk-231016_2-1.pdf",
+      "geographic_coverage": [
+        "North and South Kivu; Ruzizi evidence"
+      ],
+      "temporal_coverage": "Workshop Mar. 2023 plus cited local studies",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "COD-E-012",
+        "COD-E-023"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "COD-SRC-006",
+      "title": "*Climate, Peace and Security Fact Sheet: Democratic Republic of the Congo* (NUPI3)",
+      "organization": "NUPI / partner climate-security research",
+      "publication_date": "2023",
+      "publication_date_basis": "publication",
+      "url": "https://www.nupi.no/news/climate-peace-and-security-fact-sheet-democratic-republic-of-the-congo",
+      "geographic_coverage": [
+        "National framing, strongest eastern evidence"
+      ],
+      "temporal_coverage": "Mainly evidence available to 2023",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "COD-E-014"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "COD-SRC-007",
+      "title": "*Joint News Release - WFP/FAO: Millions Trapped in Deepening Hunger Crisis in the DRC...* (World Food Programme1)",
+      "organization": "WFP and FAO",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.wfp.org/news/joint-news-release-wfpfao-millions-trapped-deepening-hunger-crisis-drc-needs-far-outpace",
+      "geographic_coverage": [
+        "National with focus on North/South Kivu, Ituri, Tanganyika"
+      ],
+      "temporal_coverage": "2025-2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "COD-E-008",
+        "COD-E-009",
+        "COD-E-024"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "COD-SRC-008",
+      "title": "*DR Congo Emergency* (UNHCR4)",
+      "organization": "UNHCR",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://www.unhcr.org/emergencies/dr-congo-emergency",
+      "geographic_coverage": [
+        "National and regional refugee situation"
+      ],
+      "temporal_coverage": "2024-2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "COD-SRC-009",
+      "title": "*DRC Urban Flood Resilience Project (P508410), Appraisal PID* (World Bank5)",
+      "organization": "World Bank",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099040725173513684/pdf/P508410-517c29a7-628d-4fe7-a705-86c391d4589b.pdf",
+      "geographic_coverage": [
+        "National DRM institutions; selected cities"
+      ],
+      "temporal_coverage": "2023-2030 context/design",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "COD-E-005"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "COD-SRC-010",
+      "title": "*DRC Urban Flood Resilience Project - Implementation Status & Results Report* (World Bank6)",
+      "organization": "World Bank",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099092625161579561/pdf/P508410-e800739d-e7f5-499f-893b-bf2504611f5e.pdf",
+      "geographic_coverage": [
+        "Selected cities / national DRM component"
+      ],
+      "temporal_coverage": "May-Sep. 2025",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "COD-E-021"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "COD-SRC-011",
+      "title": "*DRC: Requests for ECF and Resilience and Sustainability Facility Arrangements - Staff Report*, Annex II (IMF7)",
+      "organization": "IMF",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://www.imf.org/-/media/files/publications/cr/2025/english/1codea2025001-print-pdf.pdf",
+      "geographic_coverage": [
+        "National, with selected sectoral/subnational examples"
+      ],
+      "temporal_coverage": "Historical data to 2024; scenarios to 2050",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "COD-SRC-012",
+      "title": "*IMF Executive Board Completes Third ECF Review and Second RSF Review for DRC* (IMF8)",
+      "organization": "IMF",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.imf.org/en/news/articles/2026/06/26/pr26227-drc-imf-completes-3rd-rev-under-ecf-arrangement-2nd-review-under-rsf-arrangement-for-drc",
+      "geographic_coverage": [
+        "National; eastern-security context"
+      ],
+      "temporal_coverage": "2025-Jun. 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "COD-E-010"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "COD-SRC-101",
+      "title": "Democratic Republic of Congo Level 3 Emergency - Upsurge in Conflict, Humanitarian Situation Report No. 5, 1-15 May 2025",
+      "organization": "UNICEF Democratic Republic of the Congo",
+      "publication_date": "2025-06-02",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/media/171616/file/DRC-Humanitarian-SitRep-Upsurge-in-Conflict-15-May-2025.pdf",
+      "geographic_coverage": [
+        "South Kivu",
+        "Fizi Territory",
+        "Kasaba village",
+        "North Kivu",
+        "Ituri",
+        "Ruzizi Plain"
+      ],
+      "temporal_coverage": "Humanitarian events and response reported for 1-15 May 2025, with selected response totals since the crisis began.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "COD-E-101",
+        "COD-E-102",
+        "COD-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 1-3 reviewed",
+          "notes": "Opened the official 10-page PDF and reviewed pp. 1-3 for the Kasaba flood report, conflict/displacement, WASH/outbreak and UNiRR results.",
+          "reuse_terms": "Unknown; no reuse license verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "COD-SRC-102",
+      "title": "FAO GIEWS Country Brief: Democratic Republic of the Congo (reference date 24 June 2026)",
+      "organization": "Food and Agriculture Organization of the United Nations, Global Information and Early Warning System",
+      "publication_date": "2026-06-24",
+      "publication_date_basis": "document-version",
+      "url": "https://cb.apps.fao.org/country.jsp?code=COD&lang=en",
+      "geographic_coverage": [
+        "Democratic Republic of the Congo",
+        "northern regions",
+        "central regions",
+        "southern provinces",
+        "North Kivu",
+        "South Kivu",
+        "Ituri",
+        "Tanganyika"
+      ],
+      "temporal_coverage": "Seasonal crop assessments and food-security data through June 2026; rainfall outlook for June-October 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "COD-E-105",
+        "COD-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "FAO GIEWS page, reference date 24 June 2026, cereal production and climate outlook sections",
+          "notes": "Read the full official FAO GIEWS country brief including forecast, crop-area assessment, conflict/access discussion and food-security response.",
+          "reuse_terms": "Unknown; no reuse license verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "COD-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-001",
+          "locator": "printed p.37, Fig.14, “Key message for temperature.”"
+        }
+      ],
+      "geographies": [
+        "DRC"
+      ],
+      "affected_groups": [
+        "population-wide"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "RCP4.5; 2041-2070, 2071-2100",
+      "compact_statement": "RCP4.5 produces a clear long-run warming signal.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "COD-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-001",
+          "locator": "printed p.38, Fig.18."
+        }
+      ],
+      "geographies": [
+        "DRC"
+      ],
+      "affected_groups": [
+        "population-wide"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "RCP8.5; 2041-2070, 2071-2100",
+      "compact_statement": "Higher-emissions scenario implies substantially greater warming.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "COD-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-001",
+          "locator": "printed p.39, Fig.19 / precipitation key message."
+        }
+      ],
+      "geographies": [
+        "DRC"
+      ],
+      "affected_groups": [
+        "population-wide"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "RCP8.5; 2071-2100",
+      "compact_statement": "National precipitation direction is uncertain.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "COD-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-009",
+          "locator": "PDF p.3/report p.2, Country Context ¶2. (World Bank5)"
+        }
+      ],
+      "geographies": [
+        "18 provinces"
+      ],
+      "affected_groups": [
+        "flood-exposed households",
+        "children prominently affected"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Recent floods caused multi-sector, multi-province losses.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "COD-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-001",
+          "locator": "Chapter 4 §4.3, printed pp.39-40."
+        }
+      ],
+      "geographies": [
+        "DRC"
+      ],
+      "affected_groups": [
+        "farmers",
+        "water users",
+        "coastal populations",
+        "patients"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Climate vulnerability spans major livelihood and service sectors.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "COD-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-001",
+          "locator": "§2.3, PDF p.18/printed p.16."
+        }
+      ],
+      "geographies": [
+        "DRC"
+      ],
+      "affected_groups": [
+        "women and girls"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Gendered institutions constrain adaptation options.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "COD-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-008",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-007",
+          "locator": "heading and first two paragraphs, 13 May 2026. (World Food Programme1)"
+        }
+      ],
+      "geographies": [
+        "DRC"
+      ],
+      "affected_groups": [
+        "food-insecure households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Acute food insecurity remains extremely large.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "COD-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-009",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-007",
+          "locator": "paragraphs following headline, especially paras 3-5. (World Food Programme1)"
+        }
+      ],
+      "geographies": [
+        "especially North/South Kivu",
+        "Ituri",
+        "Tanganyika"
+      ],
+      "affected_groups": [
+        "IDPs",
+        "host communities",
+        "farmers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict displacement directly reduces livelihood and market access.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "COD-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-010",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-012",
+          "locator": "bullet list and opening programme-review paragraphs. (IMF8)"
+        }
+      ],
+      "geographies": [
+        "eastern DRC"
+      ],
+      "affected_groups": [
+        "displaced and conflict-affected communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Eastern FCV conditions remained an active delivery constraint in mid-2026.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "COD-SRC-012"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-011",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-004",
+          "locator": "pp.2-3 and §IV. (SIPRI2)"
+        }
+      ],
+      "geographies": [
+        "North/South Kivu"
+      ],
+      "affected_groups": [
+        "farmers",
+        "herders",
+        "resource-dependent communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Resource governance mediates climate-related conflict risk.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "COD-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-012",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-004",
+          "locator": "report pp.12-13."
+        },
+        {
+          "source_id": "COD-SRC-005",
+          "locator": "report p.10, “Security risks related to natural resource scarcity”"
+        }
+      ],
+      "geographies": [
+        "Ruzizi Plain",
+        "South Kivu"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoralists"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Climate stress may intensify existing Ruzizi resource conflicts through mobility.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "COD-SRC-004",
+        "COD-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-013",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-004",
+          "locator": "report pp.13-14, “Displacement…”/armed-group discussion. (SIPRI2)"
+        }
+      ],
+      "geographies": [
+        "North/South Kivu"
+      ],
+      "affected_groups": [
+        "farmers",
+        "IDPs",
+        "urban consumers"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict can erode adaptive capacity by blocking land, markets and services.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "COD-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+      "verification_attempt": {
+        "selected_record_id": "COD-E-013",
+        "selected_source_id": "COD-SRC-004",
+        "url": "https://www.sipri.org/sites/default/files/2025-03/2025_02_climate_peace_and_security_in_eastern_drc.pdf",
+        "locator": "report pp.13-14, “Displacement…”/armed-group discussion. (SIPRI2)",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 312021,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "COD-E-014",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-004",
+          "locator": "report pp.14-15"
+        },
+        {
+          "source_id": "COD-SRC-006",
+          "locator": "main findings bullets 3-4. (SIPRI2)"
+        }
+      ],
+      "geographies": [
+        "eastern DRC"
+      ],
+      "affected_groups": [
+        "resource-dependent communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "FCV-related extraction can undermine environmental governance and resilience.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "COD-SRC-004",
+        "COD-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-015",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-002",
+          "locator": "PDF/printed p.9, “Processus de révision de la CDN.”"
+        }
+      ],
+      "geographies": [
+        "DRC"
+      ],
+      "affected_groups": [
+        "national"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "2030",
+      "compact_statement": "DRC's revised 2030 mitigation target is mostly conditional.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "COD-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-016",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-002",
+          "locator": "PDF/printed p.9, executive-summary revision section."
+        }
+      ],
+      "geographies": [
+        "DRC"
+      ],
+      "affected_groups": [
+        "national"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "2021-2030",
+      "compact_statement": "NDC adaptation ambition carries very large financing requirements.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "COD-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-018",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-003",
+          "locator": "Finding 7, PDF pp.37-38."
+        }
+      ],
+      "geographies": [
+        "DRC"
+      ],
+      "affected_groups": [
+        "national institutions"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "National climate-policy enabling systems improved.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "COD-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-019",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-003",
+          "locator": "Findings 7-8 and conclusions."
+        }
+      ],
+      "geographies": [
+        "programme provinces"
+      ],
+      "affected_groups": [
+        "local communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Stronger national frameworks have not consistently translated into local implementation.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "COD-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-020",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-003",
+          "locator": "Finding 15, PDF p.52/report p.42 and continuation."
+        }
+      ],
+      "geographies": [
+        "Kongo Central and evaluated projects"
+      ],
+      "affected_groups": [
+        "beneficiary communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Evaluated adaptation assets showed sustainability and operationalization failures.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "COD-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-021",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-010",
+          "locator": "PDF p.3 §6.1 and p.4 intermediate indicators. (World Bank6)"
+        }
+      ],
+      "geographies": [
+        "selected cities/national DRM"
+      ],
+      "affected_groups": [
+        "future urban beneficiaries"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "New urban flood programme was still at an early output stage in 2025.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "COD-SRC-010"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-022",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-004",
+          "locator": "report pp.16-17, §V. (SIPRI2)"
+        }
+      ],
+      "geographies": [
+        "eastern DRC"
+      ],
+      "affected_groups": [
+        "women",
+        "youth"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Local women and youth provide climate/peace resilience capacity.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "COD-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-023",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-005",
+          "locator": "report pp.10-11."
+        }
+      ],
+      "geographies": [
+        "North/South Kivu"
+      ],
+      "affected_groups": [
+        "rural communities"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Customary/local institutions can be resilience assets but are uneven.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "COD-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-024",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-007",
+          "locator": "paragraphs on humanitarian shortfall and dual response. (World Food Programme1)"
+        }
+      ],
+      "geographies": [
+        "especially eastern crisis provinces"
+      ],
+      "affected_groups": [
+        "crisis-affected households"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Delivery shortfalls constrain both emergency coping and recovery.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "COD-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-101",
+          "locator": "PDF p. 1, highlights; PDF p. 2, situation overview"
+        }
+      ],
+      "geographies": [
+        "Kasaba village",
+        "Fizi Territory",
+        "South Kivu"
+      ],
+      "affected_groups": [
+        "children",
+        "flood-affected residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-06-02 reports: UNICEF reports flooding in Kasaba village, Fizi Territory, South Kivu, reportedly killed 62 people, including 47 children; it sent Red Cross Tanganyika to assess and identify response.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-101",
+          "locator": "PDF p. 2, situation overview and humanitarian needs"
+        }
+      ],
+      "geographies": [
+        "Kalehe",
+        "Walungu",
+        "Fizi",
+        "Mwenga",
+        "Lubero Territory"
+      ],
+      "affected_groups": [
+        "civilians",
+        "women",
+        "children",
+        "displaced people"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-06-02 reports: UNICEF reports that fighting in Kalehe, Walungu, Fizi and Mwenga displaced civilians in South Kivu; ADF attacks in Fungula and Bapere, Lubero Territory, killed more than 20 people.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-101",
+          "locator": "PDF p. 1, highlights; PDF p. 2, cholera and response update"
+        }
+      ],
+      "geographies": [
+        "North Kivu",
+        "South Kivu",
+        "Ituri"
+      ],
+      "affected_groups": [
+        "returnees",
+        "displaced people",
+        "host communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-06-02 reports: UNICEF says IDP returns extended cholera into areas with poor WASH infrastructure, complicating response; its UNiRR reached 5,352 households with WASH and shelter kits and provided free primary care in four health zones.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-102",
+          "locator": "Reference date 24 June 2026, cereal production and climate outlook"
+        }
+      ],
+      "geographies": [
+        "eastern provinces",
+        "northern regions",
+        "central regions"
+      ],
+      "affected_groups": [
+        "farmers",
+        "displaced people",
+        "rural households"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 24 June 2026 FAO brief attributes reduced planting area to conflict-related field-access constraints and displacement in eastern provinces. Its separate rainfall forecast does not establish an interaction effect.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "COD-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "COD-SRC-102",
+          "locator": "Reference date 24 June 2026, final paragraph"
+        }
+      ],
+      "geographies": [
+        "North Kivu",
+        "South Kivu",
+        "Ituri",
+        "Tanganyika"
+      ],
+      "affected_groups": [
+        "crisis-affected families",
+        "farmers",
+        "displaced people"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-06-24 reports: FAO reports supporting 55,500 crisis-affected families in North Kivu, South Kivu, Ituri and Tanganyika with a USD 10 million allocation, seeds, tools, livelihood inputs and cash assistance.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "COD-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "COD-E-001",
+        "COD-E-003",
+        "COD-E-006",
+        "COD-E-011",
+        "COD-E-012"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "COD-E-001",
+          "COD-E-003"
+        ],
+        "impact": [
+          "COD-E-006"
+        ],
+        "mediator": [
+          "COD-E-011"
+        ],
+        "consequence": [
+          "COD-E-011",
+          "COD-E-012"
+        ]
+      },
+      "geographies": [
+        "North and South Kivu",
+        "not a national finding"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Climate-related livelihood stress may increase pressure on already contested land and water, but political and governance conditions determine whether tension escalates.",
+      "alternative_explanations": [
+        "Longstanding land tenure disputes",
+        "ethnic and political mobilization",
+        "armed groups",
+        "patronage",
+        "demographic pressure and market conditions independently generate conflict"
+      ],
+      "uncertainty": "SIPRI explicitly states that specific livelihood-to-conflict mechanisms remain less clear than the climate-to-livelihood link. (SIPRI2)",
+      "potentially_out_of_scope_support_ids": [
+        "COD-E-001",
+        "COD-E-003",
+        "COD-E-006",
+        "COD-E-011",
+        "COD-E-012"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "COD-P-002",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "COD-E-012",
+        "COD-E-023"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "COD-E-012"
+        ],
+        "impact": [
+          "COD-E-012"
+        ],
+        "mediator": [
+          "COD-E-012"
+        ],
+        "consequence": [
+          "COD-E-012"
+        ]
+      },
+      "geographies": [
+        "Ruzizi Plain",
+        "South Kivu"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "In the Ruzizi Plain, climate-sensitive changes in pasture and livestock movement appear to interact with - not originate independently from - existing farmer-pastoralist conflict.",
+      "alternative_explanations": [
+        "Historical land and identity disputes",
+        "political competition and livestock governance"
+      ],
+      "uncertainty": "Local, largely qualitative evidence; it must not be generalized across South Kivu or nationally.",
+      "potentially_out_of_scope_support_ids": [
+        "COD-E-023"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "COD-P-003",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "COD-E-005",
+        "COD-E-011"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "COD-E-005"
+        ],
+        "impact": [
+          "COD-E-005"
+        ],
+        "mediator": [
+          "COD-E-005"
+        ],
+        "consequence": [
+          "COD-E-005"
+        ]
+      },
+      "geographies": [
+        "South Kivu examples",
+        "including Kalehe",
+        "broader flood exposure exists nationally"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Flood displacement can add pressure to fragile local service/resource systems, potentially worsening grievances where recovery is weak.",
+      "alternative_explanations": [
+        "Conflict displacement is far larger in many eastern areas and may independently overwhelm services",
+        "poor planning and infrastructure condition flood losses"
+      ],
+      "uncertainty": "Disaster-displacement figures should not automatically be interpreted as anthropogenic-climate displacement.",
+      "potentially_out_of_scope_support_ids": [
+        "COD-E-005",
+        "COD-E-011"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "COD-P-004",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "COD-E-009",
+        "COD-E-010",
+        "COD-E-013",
+        "COD-E-024"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "COD-E-009"
+        ],
+        "impact": [
+          "COD-E-009"
+        ],
+        "mediator": [
+          "COD-E-009"
+        ],
+        "consequence": [
+          "COD-E-009"
+        ]
+      },
+      "geographies": [
+        "North/South Kivu and other conflict-affected eastern provinces"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "direct",
+      "compact_statement": "Insecurity can convert otherwise manageable climate shocks into deeper crises by removing access to land, markets, services and recovery assistance. (SIPRI2)",
+      "alternative_explanations": [
+        "Poverty",
+        "infrastructure deficits and commodity-price shocks can also reduce coping capacity outside active conflict"
+      ],
+      "uncertainty": "Effects on quantified adaptation outcomes have rarely been evaluated.",
+      "potentially_out_of_scope_support_ids": [
+        "COD-E-009",
+        "COD-E-010",
+        "COD-E-013",
+        "COD-E-024"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "COD-P-005",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "COD-E-014",
+        "COD-E-018",
+        "COD-E-019"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "COD-E-018"
+        ],
+        "impact": [
+          "COD-E-014"
+        ],
+        "mediator": [
+          "COD-E-014"
+        ],
+        "consequence": [
+          "COD-E-019"
+        ]
+      },
+      "geographies": [
+        "Especially eastern resource-producing/conflict areas",
+        "institutional effects can extend nationally"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "FCV-linked extraction can undermine institutions needed for climate mitigation and adaptation, while remaining an independent environmental and political-economy driver. (NUPI3)",
+      "alternative_explanations": [
+        "Agricultural expansion",
+        "charcoal dependence",
+        "commercial logging",
+        "regulatory design and global commodity demand also drive environmental loss"
+      ],
+      "uncertainty": "FCV-linked extraction, climate/forest-policy institutions and uneven local implementation are separately documented; retained evidence does not estimate the causal effect of extraction on mitigation or adaptation performance.",
+      "potentially_out_of_scope_support_ids": [
+        "COD-E-014",
+        "COD-E-018",
+        "COD-E-019"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "COD-P-006",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "COD-E-005",
+        "COD-E-021"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "COD-E-005"
+        ],
+        "impact": [
+          "COD-E-005"
+        ],
+        "mediator": [
+          "COD-E-005"
+        ],
+        "consequence": [
+          "COD-E-005"
+        ]
+      },
+      "geographies": [
+        "Flood-affected cities",
+        "project targets selected cities"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Flood losses place additional pressure on weak urban service systems, but any transition from service stress to FCV outcomes remains unproven. (World Bank5)",
+      "alternative_explanations": [
+        "Settlement patterns",
+        "construction quality",
+        "drainage maintenance and urban governance"
+      ],
+      "uncertainty": "No source reviewed demonstrates that urban floods cause violence or conflict.",
+      "potentially_out_of_scope_support_ids": [
+        "COD-E-005",
+        "COD-E-021"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "COD-P-007",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "COD-E-016",
+        "COD-E-021"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "COD-E-016"
+        ],
+        "impact": [
+          "COD-E-016"
+        ],
+        "mediator": [
+          "COD-E-016"
+        ],
+        "consequence": [
+          "COD-E-016"
+        ]
+      },
+      "geographies": [
+        "National",
+        "programme evidence from selected provinces"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Policy ambition exceeds demonstrated delivery capacity, leaving a gap between adaptation plans and sustained resilience outcomes. (IMF7)",
+      "alternative_explanations": [
+        "Programme design",
+        "procurement",
+        "technical standards",
+        "COVID-19 and maintenance failures independently affect performance"
+      ],
+      "uncertainty": "National adaptation effectiveness has not been comprehensively evaluated.",
+      "potentially_out_of_scope_support_ids": [
+        "COD-E-016",
+        "COD-E-021"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "COD-P-008",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "COD-E-022",
+        "COD-E-023"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "COD-E-022"
+        ],
+        "impact": [
+          "COD-E-022"
+        ],
+        "mediator": [
+          "COD-E-022"
+        ],
+        "consequence": [
+          "COD-E-022"
+        ]
+      },
+      "geographies": [
+        "Eastern DRC examples"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Local social institutions provide credible resilience and peace-supporting capacity, but their impact has not been rigorously quantified. (SIPRI2)",
+      "alternative_explanations": [
+        "Community organizations may have limited resources",
+        "contested legitimacy or unequal participation"
+      ],
+      "uncertainty": "No reviewed evaluation measures whether these initiatives reduce conflict incidence.",
+      "potentially_out_of_scope_support_ids": [
+        "COD-E-022",
+        "COD-E-023"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "COD-E-013",
+  "source_access_review": {
+    "selected_record_id": "COD-E-013",
+    "selected_source_id": "COD-SRC-004",
+    "url": "https://www.sipri.org/sites/default/files/2025-03/2025_02_climate_peace_and_security_in_eastern_drc.pdf",
+    "locator": "report pp.13-14, “Displacement…”/armed-group discussion. (SIPRI2)",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "document-fetched",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 312021,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null
+  },
+  "checks": [
+    {
+      "record_id": "COD-E-013",
+      "source_id": "COD-SRC-004",
+      "locator": "report pp.13-14, “Displacement…”/armed-group discussion. (SIPRI2)",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+      "access_date": "2026-10-27",
+      "source_access_status": "document-fetched",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "COD-E-013: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "COD-E-001",
+    "COD-E-002",
+    "COD-E-003",
+    "COD-E-005",
+    "COD-E-006",
+    "COD-E-007",
+    "COD-E-008",
+    "COD-E-009",
+    "COD-E-010",
+    "COD-E-011",
+    "COD-E-012",
+    "COD-E-013",
+    "COD-E-014",
+    "COD-E-015",
+    "COD-E-016",
+    "COD-E-018",
+    "COD-E-019",
+    "COD-E-020",
+    "COD-E-021",
+    "COD-E-022",
+    "COD-E-023",
+    "COD-E-024",
+    "COD-E-101",
+    "COD-E-102",
+    "COD-E-103",
+    "COD-E-105",
+    "COD-E-106",
+    "COD-P-001",
+    "COD-P-002",
+    "COD-P-003",
+    "COD-P-004",
+    "COD-P-005",
+    "COD-P-006",
+    "COD-P-007",
+    "COD-P-008"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

@@ -1,0 +1,1159 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "STP",
+  "candidate_path": "countries/STP/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 6,
+    "evidence_count": 18,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 18
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 6,
+      "access-only": 12
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "STP-E-006",
+          "STP-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "STP-E-005",
+          "STP-E-101",
+          "STP-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "STP-E-001",
+          "STP-E-002",
+          "STP-E-003",
+          "STP-E-102",
+          "STP-E-104",
+          "STP-E-107",
+          "STP-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "STP-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "STP-E-108",
+          "STP-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "STP-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "STP-E-004"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "STP-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "STP-E-101",
+          "STP-E-102",
+          "STP-E-103",
+          "STP-E-106",
+          "STP-E-107",
+          "STP-E-108",
+          "STP-E-109",
+          "STP-E-110",
+          "STP-E-111",
+          "STP-E-112"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/STP/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "STP-SRC-001",
+      "title": "Updated NDC 3.0 - Democratic Republic of São Tomé and Príncipe",
+      "organization": "Democratic Republic of São Tomé and Príncipe; submitted to the UNFCCC",
+      "publication_date": "2026-08",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/2026-09/2026.08.27%20NDC3_0_Updated%20VF-Eng.pdf",
+      "geographic_coverage": [
+        "São Tomé and Príncipe",
+        "Coastal zones",
+        "Artisanal fisheries"
+      ],
+      "temporal_coverage": "Historical flood losses and fisheries impacts; flood-risk estimates to 2050 and 2080",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "STP-E-001",
+        "STP-E-002",
+        "STP-E-003",
+        "STP-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "STP-E-004",
+        "selected_source_id": "STP-SRC-001",
+        "url": "https://unfccc.int/sites/default/files/2026-09/2026.08.27%20NDC3_0_Updated%20VF-Eng.pdf",
+        "locator": "Section 4.1.2, PDF p. 52 (one-based), artisanal fishing and maritime-crime discussion.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 212,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "STP-SRC-002",
+      "title": "Prosperity for All Saotomeans: Priorities to End Poverty, Promote Growth, and Build Resilience in São Tomé and Príncipe - Systematic Country Diagnostic",
+      "organization": "World Bank Group",
+      "publication_date": "2021-09",
+      "publication_date_basis": "publication",
+      "url": "https://documents.worldbank.org/curated/en/118521635537529841/pdf/Sao-Tome-and-Principe-Systematic-Country-Diagnostic.pdf",
+      "geographic_coverage": [
+        "São Tomé and Príncipe",
+        "Coastal areas",
+        "Príncipe",
+        "São Tomé"
+      ],
+      "temporal_coverage": "Historical climate observations from 1951 to 2010 and country diagnostic published in 2021",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "STP-E-005",
+        "STP-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "STP-SRC-101",
+      "title": "West and Central Africa Region Humanitarian Situation Report No. 1: 1 January to 30 June 2025",
+      "organization": "United Nations Children's Fund (UNICEF)",
+      "publication_date": "2025-08-29",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/media/173921/file/WCAR-Humanitarian-SitRep-June-2025.pdf.pdf",
+      "geographic_coverage": [
+        "São Tomé and Príncipe",
+        "Lembá District",
+        "Ribeira Afonso",
+        "Malanza",
+        "Neves",
+        "Autonomous Region of Príncipe",
+        "São Tomé City"
+      ],
+      "temporal_coverage": "Regional report dated 29 August 2025; São Tomé and Príncipe section covers recurring risks and events in December 2021, May 2024 and 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "STP-E-101",
+        "STP-E-102",
+        "STP-E-103",
+        "STP-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 41-page regional situation report; São Tomé and Príncipe subsection, printed pp. 14-15.",
+          "notes": "Full PDF was read. The cited STP section contains country-specific event, sector and response material.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "STP-SRC-102",
+      "title": "Rising Waters, Rising Hopes: Shaping Resilience in São Tomé and Príncipe Through Flood Risk Analysis",
+      "organization": "World Bank; authors include a Natural Resources Management Specialist and report contributors",
+      "publication_date": "2024-05-02",
+      "publication_date_basis": "publication",
+      "url": "https://blogs.worldbank.org/en/nasikiliza/rising-waters-rising-hopes-afe-0524",
+      "geographic_coverage": [
+        "São Tomé and Príncipe",
+        "Malanza",
+        "Santa Catarina",
+        "Praia Cruz",
+        "Praia Abade",
+        "São Tomé Island",
+        "Príncipe Island"
+      ],
+      "temporal_coverage": "Summary of World Bank national flood-risk assessment using present-climate data and projections for 2050 and 2080; published 2 May 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "STP-E-105",
+        "STP-E-106",
+        "STP-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full article, especially ‘Understanding the problem’ and the community interview paragraphs.",
+          "notes": "World Bank report authors’ public summary was read. It refers to the underlying report ‘Island Insights: Surging Seas and Increasing Rains’.",
+          "reuse_terms": "World Bank copyright applies; no separate open license was verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "STP-SRC-103",
+      "title": "São Tomé’s Água Grande District advances local disaster resilience",
+      "organization": "United Nations Office for Disaster Risk Reduction, Regional Office for Africa",
+      "publication_date": "2026-10-06",
+      "publication_date_basis": "publication",
+      "url": "https://www.undrr.org/news/sao-tomes-agua-grande-district-advances-local-disaster-resilience",
+      "geographic_coverage": [
+        "Água Grande District",
+        "São Tomé City",
+        "São Tomé and Príncipe"
+      ],
+      "temporal_coverage": "District resilience assessment conducted 7-9 September 2026; article dated 6 October 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "STP-E-108",
+        "STP-E-109",
+        "STP-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full article dated 6 October 2026; assessment process, risk discussion and draft strategy sections.",
+          "notes": "Public UNDRR page was read in full. It distinguishes the September assessment and draft work from the future district plan.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "STP-SRC-104",
+      "title": "Enhance Adaptive Capacity to Floods and Water Security in São Tomé and Principe",
+      "organization": "United Nations Development Programme, Climate Change Adaptation platform; Global Environment Facility project information",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.adaptation-undp.org/projects/enhance-adaptive-capacity-floods-and-water-security-sao-tome-and-principe",
+      "geographic_coverage": [
+        "São Tomé City",
+        "Santo António",
+        "Água Grande",
+        "São Tomé and Príncipe"
+      ],
+      "temporal_coverage": "Project concept/PIF approval shown as June 2024; webpage presents proposed outcomes and beneficiary estimates, not completed results.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "STP-E-111",
+        "STP-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Project Summary, Detailed Description and expected outputs, including proposed sites and beneficiary figures.",
+          "notes": "Full UNDP project-platform page was read. The page states PIF approval in June 2024 and separately labels the funding status pipeline; claims are restricted to design and baseline description.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "STP-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "STP-SRC-001",
+          "locator": "Section 4.3, PDF p. 67 (one-based), flood and landslide loss-and-damage summary."
+        }
+      ],
+      "geographies": [
+        "São Tomé and Príncipe"
+      ],
+      "affected_groups": [
+        "Affected communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "NDC reports December 2021-February 2022 floods and landslides damaged infrastructure, agriculture and WASH; recovery cost $37.5m, about 7% of 2022 GDP.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "STP-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "STP-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "STP-SRC-001",
+          "locator": "Section 4.3.1, PDF p. 68 (one-based), projected economic losses."
+        }
+      ],
+      "geographies": [
+        "São Tomé and Príncipe"
+      ],
+      "affected_groups": [
+        "Coastal communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "Cited assessment incorporates RCP4.5 and RCP8.5; NDC does not assign the loss figures to one pathway.",
+      "compact_statement": "NDC cites annual flood losses rising from 1.9% of GDP in 2020 to 2.8% by 2050 and 4.1% by 2080.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "STP-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "STP-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "STP-SRC-001",
+          "locator": "Section 4.1.2, PDF p. 51 (one-based), fisheries exposure and impacts."
+        }
+      ],
+      "geographies": [
+        "São Tomé and Príncipe",
+        "Coastal communities"
+      ],
+      "affected_groups": [
+        "Artisanal fishers",
+        "Coastal communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "NDC states fisheries provide 70-85% of animal protein and support 15% of active workers; extreme weather and erosion damage boats and isolate communities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "STP-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "STP-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "STP-SRC-001",
+          "locator": "Section 4.1.2, PDF p. 52 (one-based), artisanal fishing and maritime-crime discussion."
+        }
+      ],
+      "geographies": [
+        "São Tomé and Príncipe",
+        "Gulf of Guinea"
+      ],
+      "affected_groups": [
+        "Artisanal fishers"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "NDC says falling catches push artisanal fishers farther offshore; Gulf of Guinea evidence elsewhere suggests maritime-crime exposure and fleet competition may rise.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "STP-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET; HTML visible-text extraction",
+      "verification_attempt": {
+        "selected_record_id": "STP-E-004",
+        "selected_source_id": "STP-SRC-001",
+        "url": "https://unfccc.int/sites/default/files/2026-09/2026.08.27%20NDC3_0_Updated%20VF-Eng.pdf",
+        "locator": "Section 4.1.2, PDF p. 52 (one-based), artisanal fishing and maritime-crime discussion.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "document-fetched",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 212,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "STP-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "STP-SRC-002",
+          "locator": "Chapter 3, printed pp. 70-71 (PDF pp. 85-86), coastal hazards and exposed infrastructure."
+        }
+      ],
+      "geographies": [
+        "São Tomé and Príncipe",
+        "Coastal areas",
+        "São Tomé",
+        "Príncipe"
+      ],
+      "affected_groups": [
+        "Coastal communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "SCD reports recurrent floods, landslides, erosion and storms threaten lives, livelihoods, the airport and primary roads concentrated along the coast.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "STP-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "STP-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "STP-SRC-002",
+          "locator": "Chapter 3, printed p. 72 (PDF p. 87), historical climate observations."
+        }
+      ],
+      "geographies": [
+        "São Tomé and Príncipe",
+        "Príncipe",
+        "São Tomé"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "World Bank climate data show 1951-2010 warming of 1.5°C, mean rainfall falling 1.7 mm yearly, and March-May rainfall dropping 10.5 mm monthly.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "STP-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "STP-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "STP-SRC-101",
+          "locator": "Original 41-page UNICEF regional report, physical PDF p.15, printed p.14, São Tomé and Príncipe country subsection."
+        }
+      ],
+      "geographies": [
+        "Ribeira Afonso",
+        "Malanza",
+        "Neves",
+        "São Tomé and Príncipe"
+      ],
+      "affected_groups": [
+        "coastal communities",
+        "mountainous and riverside communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-08-29 reports: UNICEF identifies rainy-season flood, landslide, erosion and drought exposure in mountainous and riverside areas, naming Ribeira Afonso, Malanza and Neves as disproportionately affected.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "STP-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "STP-SRC-101",
+          "locator": "Original 41-page UNICEF regional report, physical PDF p.15, printed p.14, São Tomé and Príncipe country subsection."
+        }
+      ],
+      "geographies": [
+        "Lembá District",
+        "São Tomé Island",
+        "São Tomé City"
+      ],
+      "affected_groups": [
+        "children",
+        "farmers",
+        "fishers",
+        "flood-affected households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-08-29 reports: After December 2021 floods, Lembá District recorded 2,104 people affected and two child deaths; damage included bridges, a water plant, crops, fishing boats and over half of latrines.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "STP-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "STP-SRC-101",
+          "locator": "Original 41-page UNICEF regional report, physical PDF p.15, printed p.14, São Tomé and Príncipe country subsection."
+        }
+      ],
+      "geographies": [
+        "Autonomous Region of Príncipe",
+        "Príncipe Island"
+      ],
+      "affected_groups": [
+        "flood-affected families",
+        "children under 14"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-08-29 reports: After May 2024 floods damaged Príncipe infrastructure and livelihoods, UNICEF reports launching support for over 7,400 families within 72 hours and mobilizing an estimated US$475,000.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "STP-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "STP-SRC-101",
+          "locator": "Original 41-page UNICEF regional report, physical PDF p.15, printed p.14, São Tomé and Príncipe country subsection."
+        }
+      ],
+      "geographies": [
+        "São Tomé and Príncipe"
+      ],
+      "affected_groups": [
+        "vulnerable households",
+        "children"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-08-29 reports: UNICEF says irregular rainfall and prolonged dry spells threaten fragile food systems, particularly for vulnerable households, while food insecurity persisted.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "STP-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "STP-SRC-102",
+          "locator": "Article section ‘Understanding the problem’, paragraphs 2-3."
+        }
+      ],
+      "geographies": [
+        "São Tomé and Príncipe"
+      ],
+      "affected_groups": [
+        "households",
+        "businesses",
+        "public services"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "SSP3-7.0, assuming no additional climate policy.",
+      "compact_statement": "Source dated 2024-05-02 reports: The World Bank authors summarize modeled annual flood losses rising from 1.9% of GDP in 2020 to 2.8% in 2050 and 4.1% in 2080 under SSP3-7.0 without additional climate policy.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "STP-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "STP-SRC-102",
+          "locator": "Article section ‘Understanding the problem’, paragraph 4."
+        }
+      ],
+      "geographies": [
+        "Malanza",
+        "Santa Catarina",
+        "São Tomé and Príncipe"
+      ],
+      "affected_groups": [
+        "residents of flood-prone subdistricts"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-05-02 reports: The assessment identifies Malanza and Santa Catarina among the most affected subdistricts; about 18,500 people are flood-affected annually on average under present-climate conditions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "STP-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "STP-SRC-102",
+          "locator": "Article paragraphs beginning ‘Disasters like this feed news stories’ and interview summaries."
+        }
+      ],
+      "geographies": [
+        "Praia Cruz",
+        "Praia Abade",
+        "São Tomé Island",
+        "Príncipe Island"
+      ],
+      "affected_groups": [
+        "artisanal fisher",
+        "fish trader",
+        "coastal households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-05-02 reports: World Bank feature interviews portray recurrent flood and wave damage as a livelihood concern for a fisherwoman in Praia Cruz and a fish trader in Praia Abade.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "STP-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "STP-SRC-103",
+          "locator": "Article paragraphs beginning ‘How exposed to disasters’ and ‘From risk assessment to a shared picture of resilience’."
+        }
+      ],
+      "geographies": [
+        "Água Grande District",
+        "São Tomé City"
+      ],
+      "affected_groups": [
+        "women",
+        "persons with disabilities",
+        "urban residents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-10-06 reports: Água Grande District convened more than 20 cross-sector representatives in September 2026 to assess urban risk, including gender and disability organizations, civil protection and meteorological services.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "STP-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "STP-SRC-103",
+          "locator": "Article subsection ‘From risk assessment to a shared picture of resilience’, paragraphs 1-3; ‘Building blocks for a strategy’, paragraphs 1-2."
+        }
+      ],
+      "geographies": [
+        "Água Grande District"
+      ],
+      "affected_groups": [
+        "district residents",
+        "local authorities",
+        "civil society"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-10-06 reports: Participants used the city resilience scorecard to agree priority gaps and draft objectives and coordination arrangements; UNDRR says a full district strategy and action plan remain future work.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "STP-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "STP-SRC-103",
+          "locator": "Article subsection ‘Risk becomes everyone’s business’, paragraph 2."
+        }
+      ],
+      "geographies": [
+        "Água Grande District",
+        "São Tomé City"
+      ],
+      "affected_groups": [
+        "tourism workers",
+        "businesses",
+        "coastal residents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-10-06 reports: Água Grande’s tourism director said flooding and coastal erosion expose tourism, while the existing tourism development plan does not address disaster risk.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "STP-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "STP-SRC-104",
+          "locator": "Project Summary and Detailed Description, paragraphs on São Tomé and Santo António water security."
+        }
+      ],
+      "geographies": [
+        "São Tomé City",
+        "Santo António",
+        "Água Grande",
+        "Príncipe Island"
+      ],
+      "affected_groups": [
+        "women and girls",
+        "water-service users",
+        "urban residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: UNDP’s project page describes climate-driven urban flooding and water-system turbidity affecting São Tomé and Santo António, with interruptions for about one-third of the population and added water-collection burdens for women and girls.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "STP-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "STP-SRC-104",
+          "locator": "Detailed Description, paragraphs on proposed outcomes and outputs 1.1-4.2."
+        }
+      ],
+      "geographies": [
+        "Água Grande watershed",
+        "Santo António basin",
+        "São Tomé City"
+      ],
+      "affected_groups": [
+        "urban communities",
+        "water-service users"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The proposed package includes climate-resilient water, waste and drainage coordination, watershed management in Água Grande, priority drainage works, and water-quality monitoring in the Água Grande and Santo António basins.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "STP-E-004",
+  "source_access_review": {
+    "selected_record_id": "STP-E-004",
+    "selected_source_id": "STP-SRC-001",
+    "url": "https://unfccc.int/sites/default/files/2026-09/2026.08.27%20NDC3_0_Updated%20VF-Eng.pdf",
+    "locator": "Section 4.1.2, PDF p. 52 (one-based), artisanal fishing and maritime-crime discussion.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "document-fetched",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 212,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null
+  },
+  "checks": [
+    {
+      "record_id": "STP-E-004",
+      "source_id": "STP-SRC-001",
+      "locator": "Section 4.1.2, PDF p. 52 (one-based), artisanal fishing and maritime-crime discussion.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET; HTML visible-text extraction",
+      "access_date": "2026-10-27",
+      "source_access_status": "document-fetched",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "STP-E-004: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "STP-E-001",
+    "STP-E-002",
+    "STP-E-003",
+    "STP-E-004",
+    "STP-E-005",
+    "STP-E-006",
+    "STP-E-101",
+    "STP-E-102",
+    "STP-E-103",
+    "STP-E-104",
+    "STP-E-105",
+    "STP-E-106",
+    "STP-E-107",
+    "STP-E-108",
+    "STP-E-109",
+    "STP-E-110",
+    "STP-E-111",
+    "STP-E-112"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

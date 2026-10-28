@@ -1,0 +1,60 @@
+{
+  "iso3": "IRN",
+  "base_dir": "countries/IRN/approved/2026.10.26",
+  "claim_evidence_mapping": {
+    "IRN-C-105": "IRN-E-105",
+    "IRN-C-106": "IRN-E-106",
+    "IRN-C-107": "IRN-E-107",
+    "IRN-C-108": "IRN-E-108",
+    "IRN-C-109": "IRN-E-109",
+    "IRN-C-110": "IRN-E-110",
+    "IRN-C-111": "IRN-E-111"
+  },
+  "source_id_mapping": {
+    "IRN-SRC-101": "IRN-SRC-101",
+    "IRN-SRC-104": "IRN-SRC-104",
+    "IRN-SRC-102": "IRN-SRC-102",
+    "IRN-SRC-103": "IRN-SRC-103"
+  },
+  "new_evidence_ids": [
+    "IRN-E-105",
+    "IRN-E-106",
+    "IRN-E-107",
+    "IRN-E-108",
+    "IRN-E-109",
+    "IRN-E-110",
+    "IRN-E-111"
+  ],
+  "new_named_local_evidence_ids": [
+    "IRN-E-105",
+    "IRN-E-106",
+    "IRN-E-107",
+    "IRN-E-108",
+    "IRN-E-109",
+    "IRN-E-110"
+  ],
+  "excluded_claims": [
+    {
+      "claim_id": "IRN-C-101",
+      "decision": "exclude",
+      "reason": "Canonical publisher HTML and original PDF both return403 for coordinator. Indexed summary/staging text does not meet the agreed inspected-primary-passage standard; other accessible original sources retain relevant context.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "time_horizons": [
+        "historical"
+      ]
+    },
+    {
+      "claim_id": "IRN-C-103",
+      "decision": "exclude",
+      "reason": "Canonical publisher HTML and original PDF both return403 for coordinator. Indexed summary/staging text does not meet the agreed inspected-primary-passage standard; other accessible original sources retain relevant context.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "low",
+      "time_horizons": [
+        "historical"
+      ]
+    }
+  ]
+}

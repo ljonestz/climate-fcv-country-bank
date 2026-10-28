@@ -1,0 +1,1131 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "BOL",
+  "candidate_path": "countries/BOL/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 5,
+    "evidence_count": 16,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 16
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 15,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "At least one known-gap statement appears inconsistent with the current pathway inventory.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "BOL-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "BOL-E-101",
+          "BOL-E-102",
+          "BOL-E-106",
+          "BOL-E-109",
+          "BOL-E-115"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BOL-E-103",
+          "BOL-E-114"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BOL-E-104",
+          "BOL-E-108",
+          "BOL-E-112",
+          "BOL-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "BOL-E-110",
+          "BOL-E-116"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "BOL-E-107",
+          "BOL-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "BOL-E-101",
+          "BOL-E-102",
+          "BOL-E-103",
+          "BOL-E-104",
+          "BOL-E-105",
+          "BOL-E-106",
+          "BOL-E-107",
+          "BOL-E-108",
+          "BOL-E-109",
+          "BOL-E-110",
+          "BOL-E-113",
+          "BOL-E-114",
+          "BOL-E-115",
+          "BOL-E-116"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "BOL-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [
+      {
+        "text": "REDESCA's 2024 wildfire mission is not representative and does not establish climate-change attribution for ignition; its Ayoreo forced-contact pathway is a conditional risk, not an observed violence event.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      },
+      {
+        "text": "A generic drought-crisis/social-conflict illustration is not treated as a demonstrated urban conflict pathway.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      }
+    ],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/BOL/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "BOL-SRC-101",
+      "title": "Bolivia: Rural Community Flood and Drought Resilience in the Bolivian Highlands",
+      "organization": "World Bank Group",
+      "publication_date": "2026-02",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099449002112629745/pdf/IDU-78a4b059-ed45-4a20-87f0-395972a942e7.pdf",
+      "geographic_coverage": [
+        "southeastern Oruro",
+        "northern Potosí",
+        "Andean Vertical Ecosystems",
+        "12 ayllus"
+      ],
+      "temporal_coverage": "EVAs project implementation in 2011–2017; terminal evaluation in 2017; post-completion assessment in 2023; regional climate modeling through 2070.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BOL-E-101",
+        "BOL-E-102",
+        "BOL-E-103",
+        "BOL-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "One-based PDF pp. 1–4, climate context, project design, outcomes and 2023 follow-up",
+          "notes": "Opened the complete five-page public case study; it attributes findings to project evaluations and post-completion visits.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BOL-SRC-102",
+      "title": "Impacts of Wildfires on Economic, Social, Cultural and Environmental Rights and Biodiversity: Report of REDESCA's Working Visit to Bolivia",
+      "organization": "Inter-American Commission on Human Rights, Office of the Special Rapporteur on Economic, Social, Cultural and Environmental Rights (REDESCA)",
+      "publication_date": "2025-05-30",
+      "publication_date_basis": "publication",
+      "url": "https://www.oas.org/en/iachr/reports/pdfs/2025/redesca_bolivia_2024_eng.pdf",
+      "geographic_coverage": [
+        "Santa Cruz department",
+        "Chiquitanía",
+        "San Ignacio de Velasco",
+        "Chaco",
+        "Ayoreo territory",
+        "lowland Indigenous territories"
+      ],
+      "temporal_coverage": "Examines the 2024 wildfire emergency; REDESCA mission conducted 9–11 December 2024; report approved 30 May 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BOL-E-105",
+        "BOL-E-106",
+        "BOL-E-107",
+        "BOL-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Printed pp. 6–7, 10–17, 23–25, 35 and 44–45",
+          "notes": "Opened the complete 60-page report; reviewed methodology, territorial impacts, land disputes, water access, institutional response and differentiated Indigenous impacts.",
+          "reuse_terms": "Not inspected; report views are those of IACHR/REDESCA.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "BOL-E-107",
+        "selected_source_id": "BOL-SRC-102",
+        "url": "https://www.oas.org/en/iachr/reports/pdfs/2025/redesca_bolivia_2024_eng.pdf",
+        "locator": "Printed p. 44, paragraph 162, Ayoreo people in voluntary isolation",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "metadata-only",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": null,
+        "declared_bytes": 7988055,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "source exceeds the in-memory size cap"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "BOL-SRC-103",
+      "title": "De la emergencia a la gestión de riesgos por sequía: el caso de las ciudades de La Paz y El Alto en Bolivia y sus lecciones aprendidas",
+      "organization": "Inter-American Development Bank, Water and Sanitation Division",
+      "publication_date": "2026-07",
+      "publication_date_basis": "publication",
+      "url": "https://publications.iadb.org/publications/spanish/document/De-la-emergencia-a-la-gestion-de-riesgos-por-sequia.-El-caso-de-las-ciudades-de-La-Paz-y-El-Alto-en-Bolivia-y-sus-lecciones-aprendidas.pdf",
+      "geographic_coverage": [
+        "La Paz",
+        "El Alto",
+        "Viacha",
+        "Laja",
+        "Mecapaca",
+        "Palca",
+        "Achocalla",
+        "Pucarani",
+        "Altiplano"
+      ],
+      "temporal_coverage": "Reviews the 2016–2017 and 2022–2023 drought episodes, the EPSAS drought-management protocol introduced in 2018, and system operation through 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "BOL-E-109",
+        "BOL-E-110",
+        "BOL-E-111",
+        "BOL-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Printed pp. 9–10, 27, 29–30 and 54–57",
+          "notes": "Read the full 114-page Spanish note, including drought episodes, service coverage, protocol and outcome comparisons.",
+          "reuse_terms": "CC BY 3.0 IGO as stated in the report.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BOL-SRC-104",
+      "title": "Adaptation Planning in Bolivia",
+      "organization": "United Nations Development Programme Accelerator Lab Bolivia",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.undp.org/acceleratorlabs/untapped/case-studies/adaptation-planning-in-bolivia",
+      "geographic_coverage": [
+        "Chaco",
+        "Camiri municipality",
+        "Kaami Indigenous People",
+        "19 Indigenous communities"
+      ],
+      "temporal_coverage": "Reports on a UNDP Accelerator Lab adaptation-planning prototype; page does not state implementation dates.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BOL-E-113",
+        "BOL-E-114"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full case study, problem, pilot process, participation results and limitations",
+          "notes": "Read the complete publicly accessible UNDP case-study page.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BOL-SRC-105",
+      "title": "Bolivia, Country Strategic Outcome 2: Decentralized Evaluation (2023–2025)",
+      "organization": "World Food Programme, Office of Evaluation",
+      "publication_date": "2026-04-17",
+      "publication_date_basis": "publication",
+      "url": "https://www.wfp.org/publications/bolivia-country-strategic-outcome-2-decentralized-evaluation-2023-2025",
+      "geographic_coverage": [
+        "Oruro",
+        "rural communities",
+        "Indigenous peoples"
+      ],
+      "temporal_coverage": "Evaluation covers WFP Bolivia Country Strategic Plan outcome implementation from January 2023 through December 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BOL-E-115",
+        "BOL-E-116"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full official evaluation synopsis page, context, intervention and findings",
+          "notes": "Read the whole synopsis; statements are limited to the page text.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "BOL-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BOL-SRC-101",
+          "locator": "One-based PDF pp. 1–2, climate context and regional modeling"
+        }
+      ],
+      "geographies": [
+        "southeastern Oruro",
+        "northern Potosí",
+        "Andean Vertical Ecosystems"
+      ],
+      "affected_groups": [
+        "Quechua communities",
+        "Aymara communities",
+        "subsistence farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Regional modeling gives 7–20% higher annual precipitation and 0.9–3.3°C warming by 2070; emissions pathway unspecified.",
+      "compact_statement": "Source dated 2026-02 reports: In southeastern Oruro and northern Potosí, models project drier dry seasons and wetter wet seasons with more floods and droughts; Quechua and Aymara highland farmers rely on rainfed or small-irrigation systems.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BOL-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BOL-SRC-101",
+          "locator": "One-based PDF p. 2, 2023 drought and livelihood impacts"
+        }
+      ],
+      "geographies": [
+        "Oruro",
+        "Potosí",
+        "Bolivia"
+      ],
+      "affected_groups": [
+        "farmers",
+        "camelid-keeping households",
+        "rural communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02 reports: The report attributes the 2023 highland drought to climate-related heat and El Niño: water flows fell one-third, and crop losses affected nearly two million farmers across seven departments including Oruro and Potosí.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BOL-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BOL-SRC-101",
+          "locator": "One-based PDF pp. 3–4, project results and 2023 post-completion visits"
+        }
+      ],
+      "geographies": [
+        "12 ayllus in southeastern Oruro and northern Potosí"
+      ],
+      "affected_groups": [
+        "farmers",
+        "women farmers",
+        "rural households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02 reports: By 2023, visited irrigation systems remained operational under local maintenance; participating farmers continued selling crops during drought while neighboring rainfed communities struggled.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BOL-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BOL-SRC-101",
+          "locator": "One-based PDF p. 3, land-use planning results and continuity"
+        }
+      ],
+      "geographies": [
+        "southeastern Oruro",
+        "northern Potosí",
+        "project municipalities",
+        "ayllus"
+      ],
+      "affected_groups": [
+        "Indigenous communities",
+        "farmers",
+        "neighboring communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02 reports: Only two of six municipalities ratified project land-use plans, and turnover weakened their use; ayllu bylaws remained active for land management and resolving disputes with neighboring communities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BOL-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BOL-SRC-102",
+          "locator": "Printed pp. 10–11, paragraphs 15–24, affected regions and Indigenous territories"
+        }
+      ],
+      "geographies": [
+        "Chiquitanía",
+        "Guarayo Indigenous Territory",
+        "Monte Verde Indigenous Territory",
+        "Pantanal Indigenous Territory",
+        "lowland Indigenous territories"
+      ],
+      "affected_groups": [
+        "Indigenous peoples",
+        "rural communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-05-30 reports: Over 2.5 million hectares burned in lowland Indigenous territories; Chiquitanía fires consumed 92% of forest in Guarayo, Monte Verde and Pantanal territories.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BOL-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BOL-SRC-102",
+          "locator": "Printed p. 35, paragraphs 118–122, access to water"
+        }
+      ],
+      "geographies": [
+        "San Ignacio de Velasco",
+        "Santa Cruz department",
+        "Chiquitanía"
+      ],
+      "affected_groups": [
+        "Chiquitano Indigenous communities",
+        "rural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-05-30 reports: San Ignacio de Velasco Chiquitano communities faced fire-worsened water scarcity, reduced flows from private dams, agrochemical contamination and reportedly unenforced drought rules.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BOL-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "BOL-SRC-102",
+          "locator": "Printed p. 44, paragraph 162, Ayoreo people in voluntary isolation"
+        }
+      ],
+      "geographies": [
+        "Chaco dry forests",
+        "Ayoreo territory"
+      ],
+      "affected_groups": [
+        "Ayoreo people in voluntary isolation"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "REDESCA's 2025 report says 2024 fires threatened Ayoreo people in voluntary isolation in the Chaco. It warns habitat destruction could force unwanted outside contact, exposing people to disease and violence; the extent of damage to uncontacted Ayoreo territory was unknown.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "BOL-E-107",
+        "selected_source_id": "BOL-SRC-102",
+        "url": "https://www.oas.org/en/iachr/reports/pdfs/2025/redesca_bolivia_2024_eng.pdf",
+        "locator": "Printed p. 44, paragraph 162, Ayoreo people in voluntary isolation",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "metadata-only",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": null,
+        "declared_bytes": 7988055,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "source exceeds the in-memory size cap"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "BOL-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BOL-SRC-102",
+          "locator": "Printed pp. 16–17 and 44, paragraphs 46–50 and 165, fire-season land conflicts"
+        }
+      ],
+      "geographies": [
+        "Santa Cruz department",
+        "indigenous territories",
+        "protected areas"
+      ],
+      "affected_groups": [
+        "Indigenous peoples",
+        "rural communities",
+        "intercultural groups"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-05-30 reports: Fire-season reports described pressure, invasion and disputes over Indigenous lands in Santa Cruz.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BOL-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BOL-SRC-103",
+          "locator": "Printed pp. 29–30, La Paz and El Alto drought impacts in 2016–2017"
+        }
+      ],
+      "geographies": [
+        "La Paz",
+        "El Alto",
+        "Pampahasi system"
+      ],
+      "affected_groups": [
+        "La Paz residents",
+        "El Alto residents",
+        "water users in rationed districts"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-07 reports: In 2016–2017, rainfall deficits reached 36% in La Paz–El Alto; 256,000 people in 100 La Paz neighborhoods and seven El Alto districts faced water rationing.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BOL-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BOL-SRC-103",
+          "locator": "Printed pp. 54–57, comparison of 2016–2017 and 2022–2023 drought outcomes"
+        }
+      ],
+      "geographies": [
+        "La Paz",
+        "El Alto",
+        "EPSAS service area"
+      ],
+      "affected_groups": [
+        "EPSAS customers",
+        "urban households"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-07 reports: The 2022–2023 drought was meteorologically longer and more intense than 2016–2017, yet EPSAS reported no service restrictions or cuts after its drought protocol and system measures.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BOL-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BOL-SRC-103",
+          "locator": "Printed pp. 9–10, crisis-management discussion"
+        }
+      ],
+      "geographies": [
+        "La Paz",
+        "El Alto",
+        "Bolivia"
+      ],
+      "affected_groups": [
+        "water users",
+        "urban residents",
+        "local authorities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "Conditional hypothetical; no Bolivian event or probability is reported.",
+      "compact_statement": "Source dated 2026-07 reports: The IDB note presents an illustrative pathway from drought emergency management to social and political conflict.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BOL-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BOL-SRC-103",
+          "locator": "Printed p. 27, national and subnational drought plans"
+        }
+      ],
+      "geographies": [
+        "Bolivia",
+        "156 municipalities",
+        "Tarija Chaco"
+      ],
+      "affected_groups": [
+        "municipal populations",
+        "rural households",
+        "farmers"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The IDB's 2026 note reports that Bolivia lacked an implemented national drought plan in the period reviewed, while a 2023-2024 response allocated over BOB 187 million across 156 municipalities. This is dated institutional and allocation information, not verified current delivery.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BOL-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BOL-SRC-104",
+          "locator": "Case study, problem statement and climate-action gaps"
+        }
+      ],
+      "geographies": [
+        "Chaco",
+        "Camiri municipality",
+        "Bolivia"
+      ],
+      "affected_groups": [
+        "Indigenous Peoples",
+        "Kaami Indigenous People",
+        "Chaco communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: UNDP identifies underrepresentation of Indigenous views in Lifesystems plans and no established pathway to integrate hyperlocal priorities into municipal PTDIs and national adaptation planning.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BOL-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BOL-SRC-104",
+          "locator": "Case study, Kaami adaptation prototype and participation results"
+        }
+      ],
+      "geographies": [
+        "Kaami Indigenous People",
+        "Camiri municipality",
+        "Chaco"
+      ],
+      "affected_groups": [
+        "Indigenous communities",
+        "Kaami representatives",
+        "municipal decision-makers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: Camiri allocated a budget to connect Kaami's plan with municipal planning; workshops engaged 16 of 19 Chaco Indigenous communities and produced a co-designed 3D map for the municipal planning process.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BOL-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BOL-SRC-105",
+          "locator": "Official evaluation synopsis, context and intervention description"
+        }
+      ],
+      "geographies": [
+        "Oruro",
+        "rural communities"
+      ],
+      "affected_groups": [
+        "smallholder subsistence producers",
+        "Indigenous peoples",
+        "climate-affected households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-17 reports: WFP's Oruro intervention addressed rural poverty and water scarcity affecting climate-vulnerable smallholder subsistence producers and Indigenous communities through cash transfers and water-related productive assets.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BOL-E-116",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BOL-SRC-105",
+          "locator": "Official evaluation synopsis, overall findings and recommendations"
+        }
+      ],
+      "geographies": [
+        "Oruro"
+      ],
+      "affected_groups": [
+        "cash-transfer recipients",
+        "smallholder farmers",
+        "Indigenous communities",
+        "women and youth"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-17 reports: WFP's synopsis says cash transfers protected consumption after climate shocks, while their contribution to longer-term resilience remained unclear; it describes Urus water-access results as significant but needing better tailoring.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "BOL-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "BOL-E-107"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "BOL-E-107"
+        ],
+        "impact": [
+          "BOL-E-107"
+        ],
+        "mediator": [
+          "BOL-E-107"
+        ],
+        "consequence": [
+          "BOL-E-107"
+        ]
+      },
+      "geographies": [
+        "Chaco dry forests",
+        "Ayoreo territory"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Wildfire habitat loss could force unwanted contact and heighten violence risk for isolated Ayoreo; REDESCA does not report that this occurred.",
+      "alternative_explanations": [
+        "Land-use pressures and deforestation also affect habitat independently of climate.",
+        "Extent of damage in uncontacted territory was unknown to the mission."
+      ],
+      "uncertainty": "Source-stated conditional protection mechanism, not a verified violence outcome, precise exposure map or anthropogenic attribution of the fires.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "BOL-E-107",
+  "source_access_review": {
+    "selected_record_id": "BOL-E-107",
+    "selected_source_id": "BOL-SRC-102",
+    "url": "https://www.oas.org/en/iachr/reports/pdfs/2025/redesca_bolivia_2024_eng.pdf",
+    "locator": "Printed p. 44, paragraph 162, Ayoreo people in voluntary isolation",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "metadata-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": null,
+    "declared_bytes": 7988055,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "source exceeds the in-memory size cap"
+  },
+  "checks": [
+    {
+      "record_id": "BOL-E-107",
+      "source_id": "BOL-SRC-102",
+      "locator": "Printed p. 44, paragraph 162, Ayoreo people in voluntary isolation",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "metadata-only",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "BOL-E-107: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "BOL-E-101",
+    "BOL-E-102",
+    "BOL-E-103",
+    "BOL-E-104",
+    "BOL-E-105",
+    "BOL-E-106",
+    "BOL-E-107",
+    "BOL-E-108",
+    "BOL-E-109",
+    "BOL-E-110",
+    "BOL-E-111",
+    "BOL-E-112",
+    "BOL-E-113",
+    "BOL-E-114",
+    "BOL-E-115",
+    "BOL-E-116",
+    "BOL-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

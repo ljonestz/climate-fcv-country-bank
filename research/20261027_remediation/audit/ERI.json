@@ -1,0 +1,1311 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "ERI",
+  "candidate_path": "countries/ERI/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 7,
+    "evidence_count": 19,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 19
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 7,
+      "verified": 1,
+      "access-only": 11
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "At least one known-gap statement appears inconsistent with the current pathway inventory.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "ERI-E-001",
+          "ERI-E-002",
+          "ERI-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "ERI-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "ERI-E-003",
+          "ERI-E-005",
+          "ERI-E-006",
+          "ERI-E-106",
+          "ERI-E-107",
+          "ERI-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "ERI-E-004",
+          "ERI-E-007",
+          "ERI-E-105",
+          "ERI-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "ERI-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "ERI-E-101",
+          "ERI-E-102",
+          "ERI-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "ERI-E-008"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "ERI-E-101",
+          "ERI-E-102",
+          "ERI-E-103",
+          "ERI-E-104",
+          "ERI-E-105",
+          "ERI-E-106",
+          "ERI-E-107",
+          "ERI-E-108",
+          "ERI-E-109",
+          "ERI-E-110"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "ERI-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [
+      {
+        "text": "The bank contains no completed mediated climate-FCV pathway; this is an evidence gap, not evidence of absence.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      }
+    ],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/ERI/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "ERI-SRC-001",
+      "title": "Eritrea NDC 3.0",
+      "organization": "Government of the State of Eritrea; submitted to the UNFCCC",
+      "publication_date": "2026-02-18",
+      "publication_date_basis": "submission",
+      "url": "https://unfccc.int/sites/default/files/2026-02/Eri-NDC3.0%2007112025.pdf",
+      "geographic_coverage": [
+        "Eritrea",
+        "Eritrean plateau",
+        "coastal Eritrea",
+        "six administrative regions"
+      ],
+      "temporal_coverage": "Historical climate observations through 2018, recent drought context and climate projections to 2100",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ERI-E-001",
+        "ERI-E-002",
+        "ERI-E-003",
+        "ERI-E-004",
+        "ERI-E-005"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ERI-SRC-002",
+      "title": "Inclusive and Sustainable Development",
+      "organization": "United Nations Development Programme, Eritrea Country Office",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.undp.org/eritrea/inclusive-and-sustainable-development",
+      "geographic_coverage": [
+        "Eritrea",
+        "rural communities"
+      ],
+      "temporal_coverage": "Undated page; land and agriculture figures attributed on-page to Ministry of Agriculture 2022",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ERI-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ERI-SRC-003",
+      "title": "Climate Change Adaptation Programme in Water and Agriculture in Anseba Region, Eritrea: Request for Project/Programme Funding",
+      "organization": "Adaptation Fund; implementing entity UNDP; executing entity Ministry of Agriculture, Anseba Region",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.adaptation-undp.org/sites/default/files/resources/final_proposal.pdf",
+      "geographic_coverage": [
+        "Anseba Region",
+        "Hamelmalo",
+        "Habero"
+      ],
+      "temporal_coverage": "Project proposal with undated receipt field; includes historical baselines and long-range climate projections",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ERI-E-007",
+        "ERI-E-008"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "ERI-E-008",
+        "selected_source_id": "ERI-SRC-003",
+        "url": "https://www.adaptation-undp.org/sites/default/files/resources/final_proposal.pdf",
+        "locator": "PDF p. 3, project background, climate impacts on livelihoods",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 3741131,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          3
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "ERI-E-008"
+      ],
+      "manual_verified_record_ids": [
+        "ERI-E-008"
+      ]
+    },
+    {
+      "source_id": "ERI-SRC-101",
+      "title": "Ex Post Evaluation #6: Climate Change Adaptation Programme in Water and Agriculture in Anseba Region, Eritrea",
+      "organization": "Adaptation Fund Technical Evaluation Reference Group; evaluation conducted by Universalia Management Group",
+      "publication_date": "2026-01-28",
+      "publication_date_basis": "document-version",
+      "url": "https://www.adaptation-fund.org/wp-content/uploads/2026/01/Ex-post-evaluation-report-Eritrea-3.pdf",
+      "geographic_coverage": [
+        "Anseba Region",
+        "Hamelmalo sub-Zoba",
+        "Habero sub-Zoba",
+        "eight project sites visited"
+      ],
+      "temporal_coverage": "AF-supported project outcomes seven years after its 2018 closure; fieldwork in August 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ERI-E-101",
+        "ERI-E-102",
+        "ERI-E-103",
+        "ERI-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 98-page evaluation; checked printed pp. 2–5 and the methods/site-visit summary.",
+          "notes": "PDF cover identifies AF-TERG commissioning, November 2025 finalization and January 2026 publication; report permits reproduction with attribution.",
+          "reuse_terms": "Report p. 2 permits reproduction with source acknowledgement; paraphrases used.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ERI-SRC-102",
+      "title": "Returning Thirsty: Water Supply, Livelihoods and Returnees in the Gash-Barka Region, Eritrea",
+      "organization": "Overseas Development Institute, South Bank University and Eritrean research collaborators",
+      "publication_date": "2002",
+      "publication_date_basis": "publication",
+      "url": "https://odi.org/documents/2619/3864.pdf",
+      "geographic_coverage": [
+        "Gash-Barka Region",
+        "Goluj",
+        "Gergef",
+        "Tebeldia",
+        "Sabonait",
+        "nine communities surveyed"
+      ],
+      "temporal_coverage": "Post-border-war return and resettlement period; field research around 2001 and report published in 2002.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "restricted",
+      "records_using_source": [
+        "ERI-E-105",
+        "ERI-E-106",
+        "ERI-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 43-page report; checked printed pp. 1–2, 20–21 and 24–25.",
+          "notes": "Read the executive summary, returnee impacts, fuelwood findings and Goluj conflict passage.",
+          "reuse_terms": "ODI site states CC BY-NC-ND 4.0; PDF permits quotation or reproduction with acknowledgement. Paraphrases used.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ERI-SRC-103",
+      "title": "Climate Change Adaptation Programme in Water and Agriculture in Anseba Region, Eritrea: Eritrea Case Study",
+      "organization": "United Nations Development Programme Adaptation Learning Mechanism",
+      "publication_date": "2012-11",
+      "publication_date_basis": "publication",
+      "url": "https://www.adaptation-undp.org/sites/default/files/resources/alm_case_study_eritrea_nov_2012.pdf",
+      "geographic_coverage": [
+        "Anseba Region",
+        "Habero",
+        "Hamelmalo",
+        "Northern Red Sea Zoba"
+      ],
+      "temporal_coverage": "Historical climate and livelihood conditions reported for a 2012 project case study, including 2002–2004 rainfall impacts.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ERI-E-108",
+        "ERI-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full five-page UNDP case study; checked printed pp. 2–3.",
+          "notes": "Read Anseba climate, drought and pastoral mobility passages; intended project activities were not treated as completed results.",
+          "reuse_terms": "No reuse license verified; paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "ERI-SRC-104",
+      "title": "Climate Risks and Adaptation Guidelines for Power Transmission and Solar Generation Systems in the Sahel Region: Country Chapter – Eritrea",
+      "organization": "Global Center on Adaptation",
+      "publication_date": "2024-03",
+      "publication_date_basis": "publication",
+      "url": "https://gca.org/wp-content/uploads/2024/03/Eritrea.pdf",
+      "geographic_coverage": [
+        "Eritrean Plateau",
+        "western lowlands",
+        "Anseba Region",
+        "Southern Red Sea Region",
+        "coastal Eritrea"
+      ],
+      "temporal_coverage": "Reference climatology 1961–1990, historical climate 1990–2020 and projections for 2030–2060.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "ERI-E-110",
+        "ERI-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 17-page country chapter; checked PDF pp. 3–5 and the caveat on high-level, site-specific risk assessment.",
+          "notes": "Read the regional climatology/hazard summary and 2030–2060 projections; retained its energy-asset scope.",
+          "reuse_terms": "No reuse license verified; paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "ERI-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ERI-SRC-001",
+          "locator": "PDF p. 40, section 4.2, observed rainfall and temperature changes"
+        }
+      ],
+      "geographies": [
+        "Eritrea",
+        "Eritrean plateau",
+        "coastal Eritrea"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC reports a 17-30% rainfall decline in 1900-2018, with different temperature trends on the plateau and coast.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "ERI-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ERI-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ERI-SRC-001",
+          "locator": "PDF p. 40, section 4.2 and Figures 7–10"
+        }
+      ],
+      "geographies": [
+        "Eritrea"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term",
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "RCP2.6 and RCP8.5",
+      "compact_statement": "NDC presents RCP2.6/RCP8.5 projections against 1986-2006, including 2030/2050 precipitation maps.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "ERI-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ERI-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ERI-SRC-001",
+          "locator": "PDF pp. 40–41, section 4.2, vulnerability ranking from survey and stakeholder consultation"
+        }
+      ],
+      "geographies": [
+        "Eritrea"
+      ],
+      "affected_groups": [
+        "subsistence farmers",
+        "pastoralists and nomads",
+        "rural dwellers",
+        "fishers",
+        "urban poor",
+        "women",
+        "children",
+        "older people",
+        "people with disabilities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Consultation ranks farmers, pastoralists, rural residents, fishers and urban poor among groups most vulnerable to climate impacts.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "ERI-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ERI-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ERI-SRC-001",
+          "locator": "PDF p. 42, section 4.2, water and agriculture vulnerability"
+        }
+      ],
+      "geographies": [
+        "Eritrea"
+      ],
+      "affected_groups": [
+        "population dependent on limited freshwater"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "NDC reports three major droughts in the prior 30 years and water constraints from low rainfall, few permanent rivers and insufficient storage.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "ERI-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ERI-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ERI-SRC-001",
+          "locator": "PDF p. 42, section 4.2, agriculture impacts and land-degradation hotspots"
+        }
+      ],
+      "geographies": [
+        "Eritrea",
+        "23 national land-degradation hotspots"
+      ],
+      "affected_groups": [
+        "farmers",
+        "livestock keepers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "NDC identifies 23 land-degradation hotspots (9.8% of Eritrea) and reports crop-variety loss, pests and livestock deaths among drought concerns.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "ERI-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ERI-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ERI-SRC-002",
+          "locator": "‘In depth’ section, paragraphs on agriculture and rural communities"
+        }
+      ],
+      "geographies": [
+        "Eritrea",
+        "rural communities"
+      ],
+      "affected_groups": [
+        "rural communities",
+        "smallholder farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "UNDP cites about 500,000 cultivated hectares, 93% rain-fed, and says low, erratic rainfall and land degradation expose rural communities to drought risks.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "ERI-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ERI-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ERI-SRC-003",
+          "locator": "PDF pp. 3–4, Anseba regional project context, Hamelmalo and Habero"
+        }
+      ],
+      "geographies": [
+        "Anseba Region",
+        "Hamelmalo",
+        "Habero"
+      ],
+      "affected_groups": [
+        "local residents",
+        "farmers",
+        "livestock keepers"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The proposal reports that seasonal Anseba River baseflow lasted only a few months and groundwater lay 2–3 m below the stream, constraining local water access.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "ERI-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ERI-E-008",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "ERI-SRC-003",
+          "locator": "PDF p. 3, project background, climate impacts on livelihoods"
+        }
+      ],
+      "geographies": [
+        "Eritrea",
+        "Anseba Region"
+      ],
+      "affected_groups": [
+        "rural households",
+        "people dependent on land and water"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "The inspected summary does not specify it.",
+      "compact_statement": "The proposal identifies possible increased social conflict over water and land as a secondary risk of climate-related livelihood stress.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "ERI-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "ERI-E-008",
+        "source_id": "ERI-SRC-003",
+        "url": "https://www.adaptation-undp.org/sites/default/files/resources/final_proposal.pdf",
+        "locator": "PDF p. 3, project background, climate impacts on livelihoods",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+      },
+      "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "ERI-SRC-003",
+        "source_url": "https://www.adaptation-undp.org/sites/default/files/resources/final_proposal.pdf",
+        "locator": "PDF p. 3, project background, climate impacts on livelihoods",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "ERI-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ERI-SRC-101",
+          "locator": "Printed p. 2, Outcome 1 findings"
+        }
+      ],
+      "geographies": [
+        "Anseba Region",
+        "Hamelmalo sub-Zoba",
+        "Habero sub-Zoba"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoralists",
+        "local households"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-01-28 reports: At five consulted project sites, dams, diversions and water-harvesting structures still supported irrigation, pastoralism and hygiene; siltation and maintenance problems limited sustainability.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ERI-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ERI-SRC-101",
+          "locator": "Printed p. 3, Outcome 2 findings and regional-authority data"
+        }
+      ],
+      "geographies": [
+        "Anseba Region",
+        "Hamelmalo",
+        "Habero"
+      ],
+      "affected_groups": [
+        "smallholder households",
+        "MIHAP participants"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-01-28 reports: Ministry-led MIHAP replication sustained agricultural diversification and livestock production; Anseba authorities reported 58 of 640 participating households became small or medium commercial enterprises.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ERI-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ERI-SRC-101",
+          "locator": "Printed p. 3, Outcome 3 findings"
+        }
+      ],
+      "geographies": [
+        "Anseba Region",
+        "Hamelmalo",
+        "Habero"
+      ],
+      "affected_groups": [
+        "farmers",
+        "extension agents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The ex-post evaluation observed three of six hydromet stations: all three generated data, but two had partial functionality. Data were not centrally automated and farm advice was uneven.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ERI-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ERI-SRC-101",
+          "locator": "Printed p. 5, contribution to local resilience"
+        }
+      ],
+      "geographies": [
+        "Anseba Region",
+        "project sub-Zobas"
+      ],
+      "affected_groups": [
+        "women",
+        "children"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-01-28 reports: The evaluation found women’s participation and leadership sustained after the project; women reported reduced water-fetching burdens, and children’s school attendance improved.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ERI-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ERI-SRC-102",
+          "locator": "Printed pp. 24–25, returnee impacts perceived by Goluj residents"
+        }
+      ],
+      "geographies": [
+        "Gash-Barka Region",
+        "Goluj",
+        "Gergef",
+        "Tebeldia",
+        "Sabonait",
+        "Tekezze-Setit basin"
+      ],
+      "affected_groups": [
+        "livestock owners",
+        "cultivators",
+        "returnees",
+        "host-community residents"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2002 reports: After the border war disrupted transhumance and Tekezze-Setit basin watering access, herds shifted to wells around Goluj and nearby return sites; the study reports emerging farmer–livestock-owner conflict.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ERI-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ERI-SRC-102",
+          "locator": "Printed pp. 1–2, executive-summary findings on returnee water provision and resource use"
+        }
+      ],
+      "geographies": [
+        "Gash-Barka Region",
+        "returnee resettlement communities"
+      ],
+      "affected_groups": [
+        "poor returnees",
+        "stayee households",
+        "livestock keepers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2002 reports: Rapid borehole development in Gash-Barka changed water use and encouraged larger livestock populations; the study cautioned that resource pressure could threaten poor returnee and stayee livelihoods.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ERI-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ERI-SRC-102",
+          "locator": "Printed pp. 20–21, fuelwood availability, access and household response"
+        }
+      ],
+      "geographies": [
+        "Gash-Barka Region",
+        "Goluj"
+      ],
+      "affected_groups": [
+        "poor returnee households",
+        "poor host-community households",
+        "households without animal transport"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2002 reports: Around Goluj, respondents linked scarcer fuelwood to population-related forest depletion; poor households lacking transport or money reduced use, while animal owners could access markets.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ERI-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ERI-SRC-103",
+          "locator": "PDF pp. 2–3 (one-based), Anseba climate and livelihood context"
+        }
+      ],
+      "geographies": [
+        "Anseba Region",
+        "Habero",
+        "Hamelmalo"
+      ],
+      "affected_groups": [
+        "herders",
+        "agro-pastoralists",
+        "rural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2012-11 reports: UNDP’s case study reports erratic below-average rain in 2002–2004, especially in parts of Habero, caused livestock losses and impaired livelihoods; annual rain ranged from 190 mm in Habero to about 367 mm in Hamelmalo.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ERI-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ERI-SRC-103",
+          "locator": "PDF p. 2 (one-based), Anseba pastoral movements and land-use context"
+        }
+      ],
+      "geographies": [
+        "Anseba Region",
+        "eastern escarpment",
+        "Northern Red Sea Zoba"
+      ],
+      "affected_groups": [
+        "herders",
+        "agro-pastoralists",
+        "mobile pastoralists"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2012-11 reports: Anseba herders moved west in July–September and toward the eastern escarpment or Northern Red Sea in November–March; land-use pressure, degradation and settlement policies disrupted this practice.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ERI-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ERI-SRC-104",
+          "locator": "PDF pp. 4–5 (one-based), regional climate-hazard summary"
+        }
+      ],
+      "geographies": [
+        "Eritrean highlands",
+        "lowlands and coastal regions",
+        "Anseba Region",
+        "Southern Red Sea Region"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-03 reports: For solar-asset planning, GCA describes lowland and coastal rainfall below 100 mm with dry spells over 200 days, versus wetter highlands; drought hazard is very high across most Eritrea and dust/wind risk is elevated in Anseba.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "ERI-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "ERI-SRC-104",
+          "locator": "PDF p. 5 (one-based), 2030–2060 precipitation projections"
+        }
+      ],
+      "geographies": [
+        "Eritrean Plateau",
+        "western lowlands",
+        "southern Eritrea"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "RCP4.5 and RCP8.5",
+      "compact_statement": "Source dated 2024-03 reports: For 2030–2060, mean annual rainfall is projected to fall by up to 100 mm on the Eritrean Plateau, with slight increases in western lowlands and southern areas; wet-day changes are small under RCP4.5 and RCP8.5.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "ERI-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "ERI-E-105",
+        "ERI-E-106"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "ERI-E-105",
+          "ERI-E-106"
+        ],
+        "impact": [
+          "ERI-E-105"
+        ],
+        "mediator": [
+          "ERI-E-105"
+        ],
+        "consequence": [
+          "ERI-E-105",
+          "ERI-E-106"
+        ]
+      },
+      "geographies": [
+        "Goluj",
+        "Gash-Barka",
+        "Tekezze–Setit basin"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "direct",
+      "compact_statement": "Near Goluj, border-war restrictions narrowed seasonal livestock water access and concentrated local resource pressures; findings are historical and exceptional.",
+      "alternative_explanations": [
+        "Borehole siting, herd numbers, settlement patterns and crop-residue management also shaped pressure."
+      ],
+      "uncertainty": "Historical dryland coping mechanism from 1999–2001 research, not measured climate-change impact, current violence or an evaluated adaptation project.",
+      "potentially_out_of_scope_support_ids": [
+        "ERI-E-106"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "ERI-E-008",
+  "source_access_review": {
+    "selected_record_id": "ERI-E-008",
+    "selected_source_id": "ERI-SRC-003",
+    "url": "https://www.adaptation-undp.org/sites/default/files/resources/final_proposal.pdf",
+    "locator": "PDF p. 3, project background, climate impacts on livelihoods",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 3741131,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      3
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+  },
+  "checks": [
+    {
+      "record_id": "ERI-E-008",
+      "source_id": "ERI-SRC-003",
+      "locator": "PDF p. 3, project background, climate impacts on livelihoods",
+      "verification_status": "verified",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "ERI-E-008: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "ERI-E-001",
+    "ERI-E-002",
+    "ERI-E-003",
+    "ERI-E-004",
+    "ERI-E-005",
+    "ERI-E-006",
+    "ERI-E-007",
+    "ERI-E-008",
+    "ERI-E-101",
+    "ERI-E-102",
+    "ERI-E-103",
+    "ERI-E-104",
+    "ERI-E-105",
+    "ERI-E-106",
+    "ERI-E-107",
+    "ERI-E-108",
+    "ERI-E-109",
+    "ERI-E-110",
+    "ERI-E-111",
+    "ERI-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

@@ -1,0 +1,1183 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "PHL",
+  "candidate_path": "countries/PHL/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 5,
+    "evidence_count": 18,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 18
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 17,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "PHL-E-101",
+          "PHL-E-102"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "PHL-E-105",
+          "PHL-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "PHL-E-103",
+          "PHL-E-104",
+          "PHL-E-106",
+          "PHL-E-118"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "PHL-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "PHL-E-116"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "PHL-E-111",
+          "PHL-E-114",
+          "PHL-E-117"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "PHL-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "PHL-E-108",
+          "PHL-E-109",
+          "PHL-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "PHL-E-115"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "PHL-E-104",
+          "PHL-E-105",
+          "PHL-E-106",
+          "PHL-E-107",
+          "PHL-E-108",
+          "PHL-E-109",
+          "PHL-E-110",
+          "PHL-E-114",
+          "PHL-E-115",
+          "PHL-E-117"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "PHL-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/PHL/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "PHL-SRC-101",
+      "title": "Climate Risk Country Profile: Philippines",
+      "organization": "World Bank Group; Asian Development Bank",
+      "publication_date": "2021",
+      "publication_date_basis": "publication",
+      "url": "https://www.adb.org/sites/default/files/publication/722241/climate-risk-country-profile-philippines.pdf",
+      "geographic_coverage": [
+        "Philippines",
+        "southeast Mindanao",
+        "central Luzon",
+        "Manila"
+      ],
+      "temporal_coverage": "Observed climatology through 2020; projections through 2080–2099; social vulnerability evidence includes earlier cited studies.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "PHL-E-101",
+        "PHL-E-102",
+        "PHL-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "32-page PDF; printed pp. 6, 12 and 23; copyright/rights page",
+          "notes": "Publisher-hosted PDF opened and cited passages read directly. The profile cites older third-party studies for some social vulnerability statements.",
+          "reuse_terms": "Printed rights page identifies CC BY-NC 3.0 IGO, excluding separately attributed third-party material; only short paraphrases used.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PHL-SRC-102",
+      "title": "DA, partners complete climate risk vulnerability assessment of BARMM provinces; recommend CRA options to guide investments, interventions",
+      "organization": "Philippines Department of Agriculture, Climate Resilient Agriculture Office",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://amia.da.gov.ph/da-partners-complete-climate-risk-vulnerability-assessment-of-barmm-provinces-recommend-cra-options-to-guide-investments-interventions/",
+      "geographic_coverage": [
+        "Bangsamoro Autonomous Region in Muslim Mindanao",
+        "Maguindanao del Norte",
+        "Maguindanao del Sur",
+        "Lanao del Sur",
+        "Basilan",
+        "Sulu",
+        "Tawi-Tawi"
+      ],
+      "temporal_coverage": "Six-province CRVA completed in March 2024; projected crop suitability under RCP8.5, with projection period not stated on the webpage.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PHL-E-104",
+        "PHL-E-105",
+        "PHL-E-106",
+        "PHL-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Results of the vulnerability assessment; Increasing climate resilience",
+          "notes": "Official DA page body read. It summarizes the six provincial CRVAs; underlying full provincial reports were not opened.",
+          "reuse_terms": "Not stated on page; license status left unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PHL-SRC-103",
+      "title": "Understanding Climate, Conflict, and Environmental Impacts in the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM): Workshop Report",
+      "organization": "Harvard Humanitarian Initiative; Mindanao State University–Iligan Institute of Technology",
+      "publication_date": "2023-11",
+      "publication_date_basis": "publication",
+      "url": "https://hhi.harvard.edu/sites/g/files/omnuum6866/files/humanitarianinitiative/files/barmm_workshop_report_2023.pdf",
+      "geographic_coverage": [
+        "Bangsamoro Autonomous Region in Muslim Mindanao",
+        "Tawi-Tawi",
+        "Tandubas",
+        "Marawi City",
+        "Lanao del Sur",
+        "Sulu",
+        "Basilan"
+      ],
+      "temporal_coverage": "Two-day workshop held 30–31 May 2023; case accounts describe historical and then-current conditions without consistent event dates.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PHL-E-108",
+        "PHL-E-109",
+        "PHL-E-110",
+        "PHL-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "49-page PDF; methodology and cited case summaries on one-based pp. 12, 15–16 and 38",
+          "notes": "Full PDF body opened; workshop method, case summaries and methodological caveat about absent local residents and Indigenous communities were read.",
+          "reuse_terms": "No reuse terms identified in inspected pages; only concise paraphrases used.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "PHL-E-108",
+        "selected_source_id": "PHL-SRC-103",
+        "url": "https://hhi.harvard.edu/sites/g/files/omnuum6866/files/humanitarianinitiative/files/barmm_workshop_report_2023.pdf",
+        "locator": "One-based PDF p. 15, section 3.2.3 Tawi-Tawi, Tandubas municipality",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "metadata-only",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": null,
+        "declared_bytes": 9508736,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "source exceeds the in-memory size cap"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "PHL-SRC-104",
+      "title": "Philippines 2026 Joint Workplan: Summary Document",
+      "organization": "United Nations in the Philippines",
+      "publication_date": "2026-04-15",
+      "publication_date_basis": "document-version",
+      "url": "https://philippines.un.org/sites/default/files/2026-04/UN-PHL-JWP%282026%29_Summary_Doc_20260415.pdf",
+      "geographic_coverage": [
+        "Philippines",
+        "Bangsamoro Autonomous Region in Muslim Mindanao",
+        "Maguindanao",
+        "Basilan",
+        "Tawi-Tawi",
+        "Sulu",
+        "Lanao del Sur",
+        "high-displacement-risk provinces"
+      ],
+      "temporal_coverage": "Reports selected 2025 context and sets out 2026 activities under the 2024–2028 cooperation framework.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PHL-E-112",
+        "PHL-E-113",
+        "PHL-E-114",
+        "PHL-E-115",
+        "PHL-E-116",
+        "PHL-E-117"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "59-page PDF; printed pp. 2, 9–10, 18 and one-based PDF p. 53",
+          "notes": "Publisher-hosted PDF opened; country context, planned outputs and programme-status table passages read directly.",
+          "reuse_terms": "No reuse terms identified in inspected pages; only concise paraphrases used.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "PHL-SRC-105",
+      "title": "Philippines Country Climate and Development Report",
+      "organization": "World Bank",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.worldbank.org/en/country/philippines/publication/philippines-country-climate-and-development-report",
+      "geographic_coverage": [
+        "Philippines",
+        "subnational regions"
+      ],
+      "temporal_coverage": "Official landing-page summary includes projection to 2040; report publication date not stated on the page.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "PHL-E-118"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Summary paragraphs on climate risks, distributional impacts and methods",
+          "notes": "The publisher landing-page summary was read and is used only as an official excerpt; no indexed search snippets or full-report findings are claimed.",
+          "reuse_terms": "Not stated on the inspected landing page; license status left unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "PHL-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PHL-SRC-101",
+          "locator": "Printed p. 6, Climatology: Climate Baseline—Overview"
+        }
+      ],
+      "geographies": [
+        "southeast Mindanao",
+        "central Luzon",
+        "Philippines"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2021 reports: The 1991–2020 rainfall baseline varied from about 960 mm in southeast Mindanao to over 4,050 mm in central Luzon; periodic drought is linked to ENSO.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PHL-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PHL-SRC-101",
+          "locator": "Printed p. 12, Climatology: Climate Future—Temperature"
+        }
+      ],
+      "geographies": [
+        "Luzon",
+        "Mindanao",
+        "Philippines"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "RCP8.5; downscaled KNMI Climate Explorer projection for 2080–2099",
+      "compact_statement": "Source dated 2021 reports: Under RCP8.5, the profile projects about 3.4°C warming over Luzon and Mindanao in 2080–2099 using downscaled data; smaller-island and rainfall estimates remain uncertain.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PHL-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PHL-SRC-101",
+          "locator": "Printed p. 23, Communities: Poverty, Inequality, and Disaster Vulnerability"
+        }
+      ],
+      "geographies": [
+        "Philippines"
+      ],
+      "affected_groups": [
+        "poorer farmers",
+        "low-income communities",
+        "manual laborers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2021 reports: The profile says poorer farmers and communities are less able to afford water storage, irrigation and adaptation technology, while poorer groups are often more exposed to floods and mudflows.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PHL-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PHL-SRC-102",
+          "locator": "Results of the vulnerability assessment, paragraphs on priority commodities and six provinces"
+        }
+      ],
+      "geographies": [
+        "Maguindanao del Norte",
+        "Maguindanao del Sur",
+        "Lanao del Sur",
+        "Basilan",
+        "Sulu",
+        "Tawi-Tawi"
+      ],
+      "affected_groups": [
+        "rice producers",
+        "coconut producers",
+        "banana producers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: DA rates most priority-crop areas across the six BARMM provinces as highly climate-vulnerable.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PHL-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PHL-SRC-102",
+          "locator": "Results of the vulnerability assessment, paragraph on hazard distribution"
+        }
+      ],
+      "geographies": [
+        "Maguindanao del Norte",
+        "Maguindanao del Sur",
+        "Lanao del Sur",
+        "Basilan",
+        "Sulu",
+        "Tawi-Tawi"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: Reported hazards vary: erosion/landslide across six provinces; flood in Lanao del Sur and Maguindanao provinces; surge in Basilan/Tawi-Tawi; drought in Sulu/Maguindanao del Norte.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PHL-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PHL-SRC-102",
+          "locator": "Results of the vulnerability assessment, paragraphs on future crop suitability"
+        }
+      ],
+      "geographies": [
+        "Tawi-Tawi",
+        "Sulu",
+        "Maguindanao del Norte",
+        "Maguindanao del Sur",
+        "Lanao del Sur",
+        "Basilan"
+      ],
+      "affected_groups": [
+        "rice producers",
+        "coconut producers",
+        "banana producers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "RCP8.5; projection period unstated",
+      "compact_statement": "Source dated not stated reports: Under RCP8.5, rice/coconut conditions worsen in five provinces, banana in Lanao del Sur, and coconut in Basilan; rice suitability improves in Basilan.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PHL-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PHL-SRC-102",
+          "locator": "Results of the vulnerability assessment and Increasing climate resilience"
+        }
+      ],
+      "geographies": [
+        "Maguindanao del Norte",
+        "Maguindanao del Sur",
+        "Lanao del Sur",
+        "Basilan",
+        "Sulu",
+        "Tawi-Tawi"
+      ],
+      "affected_groups": [
+        "municipal communities",
+        "farmers"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: Municipalities across six provinces have generally low adaptive capacity from limited human, physical and economic capital; DA recommends crop diversification and nature-based options.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PHL-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "PHL-SRC-103",
+          "locator": "One-based PDF p. 15, section 3.2.3 Tawi-Tawi, Tandubas municipality"
+        }
+      ],
+      "geographies": [
+        "Tandubas",
+        "Tawi-Tawi"
+      ],
+      "affected_groups": [
+        "fishing communities",
+        "coastal communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-11 reports: Tandubas case notes link sea-level-related salinity/freshwater loss and inland movement to ancestral-site disputes; fishing and seaweed livelihoods were affected.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "PHL-E-108",
+        "selected_source_id": "PHL-SRC-103",
+        "url": "https://hhi.harvard.edu/sites/g/files/omnuum6866/files/humanitarianinitiative/files/barmm_workshop_report_2023.pdf",
+        "locator": "One-based PDF p. 15, section 3.2.3 Tawi-Tawi, Tandubas municipality",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "metadata-only",
+        "claim_verification": "unresolved",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": null,
+        "declared_bytes": 9508736,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "source exceeds the in-memory size cap"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "PHL-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PHL-SRC-103",
+          "locator": "One-based PDF pp. 15–16, section 3.2.4 Lanao del Sur, Marawi City"
+        }
+      ],
+      "geographies": [
+        "Marawi City",
+        "Lanao del Sur"
+      ],
+      "affected_groups": [
+        "migrants",
+        "host communities",
+        "displaced populations"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-11 reports: In Marawi, participants perceived drought-linked scarcity as worsening rido and migration tensions and outstripping local capacity.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PHL-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PHL-SRC-103",
+          "locator": "One-based PDF p. 15, sections 3.2.1 Basilan and 3.2.2 Sulu"
+        }
+      ],
+      "geographies": [
+        "Sulu",
+        "Basilan"
+      ],
+      "affected_groups": [
+        "farmers",
+        "fisherfolk",
+        "former combatants"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-11 reports: The report links Sulu livelihood declines with harder former-combatant reintegration and reduced Basilan fishing livelihoods with recruitment.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PHL-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PHL-SRC-103",
+          "locator": "One-based PDF p. 38, participant outline on ongoing conflict and resilience-building"
+        }
+      ],
+      "geographies": [
+        "Bangsamoro Autonomous Region in Muslim Mindanao"
+      ],
+      "affected_groups": [
+        "communities in conflict-affected areas"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-11 reports: A workshop outline says BARMM conflict can divert adaptation resources to immediate conflict needs.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PHL-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PHL-SRC-104",
+          "locator": "Printed p. 2, Country Context"
+        }
+      ],
+      "geographies": [
+        "Philippines"
+      ],
+      "affected_groups": [
+        "local communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-15 reports: The UN reports 23 cyclones in 2025, water insecurity and uneven local preparedness.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PHL-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PHL-SRC-104",
+          "locator": "Printed p. 2, Country Context"
+        }
+      ],
+      "geographies": [
+        "Philippines"
+      ],
+      "affected_groups": [
+        "local communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-15 reports: The workplan reports passage of the Anticipatory Action Law and local climate-adaptation progress in 2025.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PHL-E-114",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PHL-SRC-104",
+          "locator": "Printed p. 2, Country Context, BARMM paragraph"
+        }
+      ],
+      "geographies": [
+        "Bangsamoro Autonomous Region in Muslim Mindanao"
+      ],
+      "affected_groups": [
+        "internally displaced persons",
+        "conflict-affected communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-15 reports: In BARMM, IDP/service advances coexist with political uncertainty, local violence, clan conflict, land disputes and service gaps.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PHL-E-115",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PHL-SRC-104",
+          "locator": "Printed pp. 9–10, Output 1.7 Peaceful, stable, and resilient societies"
+        }
+      ],
+      "geographies": [
+        "Bangsamoro Autonomous Region in Muslim Mindanao"
+      ],
+      "affected_groups": [
+        "internally displaced persons",
+        "displaced families"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-15 reports: The 2026 plan supports BARMM IDP ordinances and local councils for rights-based assistance and durable solutions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PHL-E-116",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PHL-SRC-104",
+          "locator": "Printed p. 18, Outcome 3, Output 3.1 climate and disaster resilience"
+        }
+      ],
+      "geographies": [
+        "Philippines",
+        "seven provincial local government units",
+        "high-displacement-risk provinces"
+      ],
+      "affected_groups": [
+        "people in high-displacement-risk provinces",
+        "local communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-15 reports: 2026 support includes early warning, climate-risk budgeting and resilience-investment capacity for seven unnamed provincial LGUs.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PHL-E-117",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PHL-SRC-104",
+          "locator": "One-based PDF p. 53, sub-output 3.1.27 BARMM WASH & Climate Action"
+        }
+      ],
+      "geographies": [
+        "Bangsamoro Autonomous Region in Muslim Mindanao",
+        "Maguindanao",
+        "Basilan",
+        "Tawi-Tawi",
+        "Sulu",
+        "Lanao del Sur"
+      ],
+      "affected_groups": [
+        "local communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-15 reports: The workplan lists BARMM WASH & Climate Action as under implementation in 2024–2028 across Maguindanao, Basilan, Tawi-Tawi, Sulu and Lanao del Sur.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "PHL-E-118",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "PHL-SRC-105",
+          "locator": "Official report landing page, summary paragraphs on economic and household impacts"
+        }
+      ],
+      "geographies": [
+        "Philippines",
+        "subnational regions"
+      ],
+      "affected_groups": [
+        "poorest households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "The landing-page summary says 'if nothing is done' but does not specify a model scenario.",
+      "compact_statement": "Source dated not stated reports: The World Bank summary says that without action climate change could cut GDP by up to 13.6% by 2040, with poorest households most affected; effects vary within and across regions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "PHL-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "PHL-E-108"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "PHL-E-108"
+        ],
+        "impact": [
+          "PHL-E-108"
+        ],
+        "mediator": [
+          "PHL-E-108"
+        ],
+        "consequence": [
+          "PHL-E-108"
+        ]
+      },
+      "geographies": [
+        "Tandubas",
+        "Tawi-Tawi"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "The 2023 Tandubas workshop account links coastal livelihood/water pressures and inland movement with ancestral-site disputes; it is a low-confidence, source-stated local mechanism, not a measured climate effect on violence.",
+      "alternative_explanations": [
+        "Pre-existing land rights, historical injustice, governance, livelihood change and settlement pressures independently shape conflict."
+      ],
+      "uncertainty": "A 2023 workshop case, not representative or independently causal evidence. Local/Indigenous/vulnerable residents were not adequately represented; no current violence map or attribution of individual events to anthropogenic change.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "PHL-E-108",
+  "source_access_review": {
+    "selected_record_id": "PHL-E-108",
+    "selected_source_id": "PHL-SRC-103",
+    "url": "https://hhi.harvard.edu/sites/g/files/omnuum6866/files/humanitarianinitiative/files/barmm_workshop_report_2023.pdf",
+    "locator": "One-based PDF p. 15, section 3.2.3 Tawi-Tawi, Tandubas municipality",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "metadata-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": null,
+    "declared_bytes": 9508736,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "source exceeds the in-memory size cap"
+  },
+  "checks": [
+    {
+      "record_id": "PHL-E-108",
+      "source_id": "PHL-SRC-103",
+      "locator": "One-based PDF p. 15, section 3.2.3 Tawi-Tawi, Tandubas municipality",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "metadata-only",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "PHL-E-108: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "PHL-E-101",
+    "PHL-E-102",
+    "PHL-E-103",
+    "PHL-E-104",
+    "PHL-E-105",
+    "PHL-E-106",
+    "PHL-E-107",
+    "PHL-E-108",
+    "PHL-E-109",
+    "PHL-E-110",
+    "PHL-E-111",
+    "PHL-E-112",
+    "PHL-E-113",
+    "PHL-E-114",
+    "PHL-E-115",
+    "PHL-E-116",
+    "PHL-E-117",
+    "PHL-E-118",
+    "PHL-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

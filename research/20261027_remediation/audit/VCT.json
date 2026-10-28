@@ -1,0 +1,1128 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "VCT",
+  "candidate_path": "countries/VCT/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 7,
+    "evidence_count": 17,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 17
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 6,
+      "access-only": 10,
+      "verified": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "VCT-E-001",
+          "VCT-E-101"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "VCT-E-003",
+          "VCT-E-102",
+          "VCT-E-103",
+          "VCT-E-105",
+          "VCT-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "VCT-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "VCT-E-005",
+          "VCT-E-107",
+          "VCT-E-108",
+          "VCT-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "VCT-E-004",
+          "VCT-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "VCT-E-002",
+          "VCT-E-006",
+          "VCT-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "VCT-E-101",
+          "VCT-E-102",
+          "VCT-E-105",
+          "VCT-E-108",
+          "VCT-E-109",
+          "VCT-E-111",
+          "VCT-E-112"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/VCT/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "VCT-SRC-001",
+      "title": "Building back better and stronger in Saint Vincent and the Grenadines",
+      "organization": "World Bank",
+      "publication_date": "2026-01-20",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/feature/2026/01/20/building-back-better-and-stronger-in-saint-vincent-and-the-grenadines",
+      "geographic_coverage": [
+        "Saint Vincent and the Grenadines",
+        "Southern Grenadines",
+        "Union Island"
+      ],
+      "temporal_coverage": "Beryl impacts in 2024 and recovery outputs through 2025.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "VCT-E-001",
+        "VCT-E-002"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "VCT-SRC-002",
+      "title": "St. Vincent and the Grenadines Secures $20 Million to Strengthen Disaster Resilience",
+      "organization": "World Bank",
+      "publication_date": "2025-04-10",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2025/04/10/st-vincent-and-the-grenadines-secures-20-million-to-strengthen-disaster-resilience",
+      "geographic_coverage": [
+        "Saint Vincent and the Grenadines"
+      ],
+      "temporal_coverage": "Risk diagnosis and policy financing announced inApril2025.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "VCT-E-003",
+        "VCT-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "VCT-SRC-003",
+      "title": "UNDP part of multi-agency response to Hurricane Beryl",
+      "organization": "UNDP",
+      "publication_date": "2024-12-02",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/barbados/news/undp-part-multi-agency-response-hurricane-beryl",
+      "geographic_coverage": [
+        "Saint Vincent and the Grenadines",
+        "Union Island"
+      ],
+      "temporal_coverage": "2024 emergency recovery and training.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "VCT-E-005",
+        "VCT-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "VCT-SRC-101",
+      "title": "Hurricane Beryl 2024: Global Rapid Post-Disaster Damage Estimation (GRADE) Report",
+      "organization": "World Bank Group and Global Facility for Disaster Reduction and Recovery",
+      "publication_date": "2024-07-26",
+      "publication_date_basis": "document-version",
+      "url": "https://documents1.worldbank.org/curated/en/099080524110036916/pdf/P1670571fd6e4804719e7e16ce8e9217304.pdf",
+      "geographic_coverage": [
+        "Saint Vincent",
+        "Southern Grenadines",
+        "Union Island",
+        "Mayreau",
+        "Canouan",
+        "Bequia",
+        "Mustique"
+      ],
+      "temporal_coverage": "Rapid direct-damage assessment following Hurricane Beryl on 1 July 2024; report as of 26 July 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "VCT-E-101",
+        "VCT-E-102",
+        "VCT-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 29-page GRADE report; printed pp. 10–11, 16 and 19–20.",
+          "notes": "Complete World Bank report was read directly. Figures are rapid, model-supported July 2024 damage estimates.",
+          "reuse_terms": "Report states noncommercial reproduction with full attribution; license status not classified as open.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "VCT-SRC-102",
+      "title": "National Climate Change Policy of Saint Vincent and the Grenadines",
+      "organization": "Government of Saint Vincent and the Grenadines; prepared with technical assistance from CANARI",
+      "publication_date": "2019-08-02",
+      "publication_date_basis": "publication",
+      "url": "https://finance.gov.vc/finance/images/Policies/SVG_National_Climate_Change_Policy.pdf",
+      "geographic_coverage": [
+        "Saint Vincent",
+        "Grenadines",
+        "Tobago Cays",
+        "rural agricultural areas"
+      ],
+      "temporal_coverage": "Policy priority period 2018–2030; vulnerability narrative draws on historical events and farmer observations through 2019.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "VCT-E-105",
+        "VCT-E-106",
+        "VCT-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 42-page policy; printed pp. 8, 18–19 and 31.",
+          "notes": "Government-hosted PDF directly read; policy objectives are distinguished from completed actions.",
+          "reuse_terms": "No separate reuse terms verified; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "VCT-SRC-103",
+      "title": "Saint Vincent and the Grenadines on the Path to Recovery with support from UNDP, Canada and CDEMA",
+      "organization": "United Nations Development Programme, Barbados and the Eastern Caribbean",
+      "publication_date": "2026-03-27",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/barbados/news/saint-vincent-and-grenadines-path-recovery-support-undp-canada-and-cdema-0",
+      "geographic_coverage": [
+        "Union Island",
+        "Mayreau",
+        "Paget Farm",
+        "Grenadines"
+      ],
+      "temporal_coverage": "Post-Beryl recovery activities, including workshops in November 2025 and March 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "VCT-E-108",
+        "VCT-E-109",
+        "VCT-E-110"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full article, paragraphs on Union Island/Mayreau school workshop, school equipment and March 2026 PDNA training.",
+          "notes": "Publisher page body was directly read; reported partner activities and outputs are attributed to UNDP.",
+          "reuse_terms": "No separate reuse terms verified; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "VCT-E-108",
+        "selected_source_id": "VCT-SRC-103",
+        "url": "https://www.undp.org/barbados/news/saint-vincent-and-grenadines-path-recovery-support-undp-canada-and-cdema-0",
+        "locator": "Article paragraphs on the November 2025 school-safety workshop in Union Island.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 112022,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "VCT-E-108"
+      ],
+      "manual_verified_record_ids": [
+        "VCT-E-108"
+      ]
+    },
+    {
+      "source_id": "VCT-SRC-104",
+      "title": "Building Resilience with Frontier Technology: Union Island’s 3D Printing and Design Capacity Building",
+      "organization": "United Nations Development Programme Accelerator Lab, Barbados and the Eastern Caribbean",
+      "publication_date": "2025-12-16",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/barbados/blog/building-resilience-frontier-technology",
+      "geographic_coverage": [
+        "Union Island",
+        "Union Island Secondary School",
+        "Clifton"
+      ],
+      "temporal_coverage": "Workshop and printer handover in November 2025; blog published 16 December 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "VCT-E-111",
+        "VCT-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full article, including the Union Island workshop, participant and equipment handover, and proposed local-use examples.",
+          "notes": "Publisher page body was directly read; described emergency uses are possibilities, not measured outcomes.",
+          "reuse_terms": "No separate reuse terms verified; license status unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "VCT-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VCT-SRC-001",
+          "locator": "Impact paragraphs on critical services and evacuation"
+        }
+      ],
+      "geographies": [
+        "Southern Grenadines",
+        "Union Island"
+      ],
+      "affected_groups": [
+        "disaster-affected households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "After Beryl, Southern Grenadines communities lost water and electricity services; residents were evacuated from Union Island.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "VCT-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VCT-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VCT-SRC-001",
+          "locator": "Income support and LITE recovery paragraphs"
+        }
+      ],
+      "geographies": [
+        "Southern Grenadines",
+        "Union Island"
+      ],
+      "affected_groups": [
+        "affected households",
+        "women-led businesses"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The BERRy project reported temporary income support, cleanup employment and grants to affected small businesses, many women-led.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "VCT-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VCT-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VCT-SRC-002",
+          "locator": "Paragraph beginning While St. Vincent"
+        }
+      ],
+      "geographies": [
+        "Saint Vincent and the Grenadines"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Storms, rainfall variability and drought pressure infrastructure and livelihoods; steep terrain and unregulated development amplify flash-flood and landslide risk.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "VCT-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VCT-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VCT-SRC-002",
+          "locator": "Policy reform paragraph beginning These include"
+        }
+      ],
+      "geographies": [
+        "Saint Vincent and the Grenadines"
+      ],
+      "affected_groups": [],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The2025 disaster-financing operation supported land-use rules, school safety, community preparedness and climate-finance tracking.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "VCT-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VCT-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VCT-SRC-003",
+          "locator": "September2024 Community Support"
+        }
+      ],
+      "geographies": [
+        "Union Island"
+      ],
+      "affected_groups": [
+        "affected communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNDP worked with Union Island's environmental alliance and local emergency committee on community recovery needs.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "VCT-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VCT-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VCT-SRC-003",
+          "locator": "November2024 Capacity Building"
+        }
+      ],
+      "geographies": [
+        "Saint Vincent and the Grenadines"
+      ],
+      "affected_groups": [],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Public building staff received hazard-resilient residential construction-code training after Hurricane Beryl.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "VCT-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VCT-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VCT-SRC-101",
+          "locator": "Printed p. 10, section 1.4 ‘Reported impacts’, and Table 3."
+        }
+      ],
+      "geographies": [
+        "Union Island",
+        "Mayreau",
+        "Canouan",
+        "Bequia",
+        "Mustique"
+      ],
+      "affected_groups": [
+        "island residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-07-26 reports: Beryl brought Category 3–4 winds to the Southern Grenadines; building damage was extreme on Union Island, extremely severe on Mayreau, severe on Canouan and much lower on Bequia and Mustique.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VCT-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VCT-SRC-101",
+          "locator": "Printed pp. 10–11, island impact descriptions."
+        }
+      ],
+      "geographies": [
+        "Union Island",
+        "Palm Island",
+        "Mayreau"
+      ],
+      "affected_groups": [
+        "island residents",
+        "patients",
+        "fishers",
+        "transport users"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-07-26 reports: On Union Island, Beryl damaged the hospital, water network, power plant, airport and nearly all berthing structures; on Palm Island it damaged a desalination plant, while Mayreau suffered major structural and communications damage.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VCT-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VCT-SRC-101",
+          "locator": "Printed pp. 18–20, sections 4.0 ‘Interpretation of results’ and damage summaries."
+        }
+      ],
+      "geographies": [
+        "Saint Vincent and the Grenadines",
+        "Southern Grenadines"
+      ],
+      "affected_groups": [
+        "residents",
+        "farmers",
+        "tourism workers",
+        "fishers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-07-26 reports: The assessment estimated US$230.6 million in direct physical damage, about 22% of 2023 GDP; the Southern Grenadines accounted for US$186.8 million, or 81% of the national total.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VCT-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VCT-SRC-102",
+          "locator": "Printed p. 8, section 2, paragraph on coastal and Grenadines vulnerability."
+        }
+      ],
+      "geographies": [
+        "Grenadines",
+        "Tobago Cays"
+      ],
+      "affected_groups": [
+        "island residents",
+        "fishers",
+        "tourism-dependent households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2019-08-02 reports: The 2019 policy identifies low-lying Grenadines coralline islets as exposed to sea-level rise and storm surge, with coral-bleaching risk to Tobago Cays; lower rainfall also contributes to drought and saltwater-intrusion pressure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VCT-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VCT-SRC-102",
+          "locator": "Printed p. 18, agriculture adaptation section, paragraphs on farm slopes and local farmer observations."
+        }
+      ],
+      "geographies": [
+        "Saint Vincent rural farming areas"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "rural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2019-08-02 reports: The policy describes small farms on slopes often above 30 degrees and reports that cultivation practices on these slopes contribute to landslides during heavy rain; local farmers also noted longer dry periods and more intense rainfall.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VCT-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VCT-SRC-102",
+          "locator": "Printed pp. 18–19, adaptation priorities and energy actions for the Grenadines."
+        }
+      ],
+      "geographies": [
+        "Saint Vincent and the Grenadines",
+        "Grenadines"
+      ],
+      "affected_groups": [
+        "vulnerable residents",
+        "remote-island communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2019-08-02 reports: The policy sets adaptation priorities for vulnerable populations and proposes stronger participatory planning, climate information and monitoring, and Grenadines microgrids using solar, wind and battery storage.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VCT-E-108",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "VCT-SRC-103",
+          "locator": "Article paragraphs on the November 2025 school-safety workshop in Union Island."
+        }
+      ],
+      "geographies": [
+        "Union Island",
+        "Mayreau",
+        "Tobago Cays Marine Park office"
+      ],
+      "affected_groups": [
+        "teachers",
+        "students",
+        "disaster committee members"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03-27 reports: UNDP reports a two-day disaster-management and school-safety workshop at the Tobago Cays Marine Park office for teachers and disaster-committee members from Union Island and Mayreau.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "VCT-E-108",
+        "source_id": "VCT-SRC-103",
+        "url": "https://www.undp.org/barbados/news/saint-vincent-and-grenadines-path-recovery-support-undp-canada-and-cdema-0",
+        "locator": "Article paragraphs on the November 2025 school-safety workshop in Union Island.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+      },
+      "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "VCT-SRC-103",
+        "source_url": "https://www.undp.org/barbados/news/saint-vincent-and-grenadines-path-recovery-support-undp-canada-and-cdema-0",
+        "locator": "Article paragraphs on the November 2025 school-safety workshop in Union Island.",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "VCT-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VCT-SRC-103",
+          "locator": "Article paragraph listing five recipient schools and the equipment handover."
+        }
+      ],
+      "geographies": [
+        "Paget Farm",
+        "Mayreau",
+        "Union Island"
+      ],
+      "affected_groups": [
+        "students",
+        "teachers",
+        "school staff"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03-27 reports: The programme reports EC$385,000 of equipment supplied to Paget Farm Primary, Mayreau Primary, Union Island Secondary, Stephanie Browne Primary and Mary Hutchinson Primary.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VCT-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VCT-SRC-103",
+          "locator": "Article paragraphs on the March 2026 Post-Disaster Needs Assessment training."
+        }
+      ],
+      "geographies": [
+        "Saint Vincent and the Grenadines",
+        "Frenches House"
+      ],
+      "affected_groups": [
+        "government and statutory staff",
+        "affected households"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03-27 reports: UNDP reports that 32 government and statutory-body staff were trained in post-disaster damage and needs assessment, with housing as the focus because it was the most damaged sector in Beryl.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VCT-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VCT-SRC-104",
+          "locator": "Article paragraphs on the November 2025 workshop, partners and handover."
+        }
+      ],
+      "geographies": [
+        "Union Island",
+        "Union Island Secondary School"
+      ],
+      "affected_groups": [
+        "students",
+        "educators",
+        "local entrepreneurs",
+        "community members"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12-16 reports: UNDP reports that 20 Union Island students, educators, community members and entrepreneurs took part in hands-on design and fabrication training; a 3D printer was handed to Union Island Secondary School.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "VCT-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "VCT-SRC-104",
+          "locator": "Article section ‘Why 3D Printing? A Tool for Resilience and Recovery’."
+        }
+      ],
+      "geographies": [
+        "Union Island"
+      ],
+      "affected_groups": [
+        "residents",
+        "fishers",
+        "water-service users"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12-16 reports: UNDP says Beryl-related isolation and disrupted supply chains can delay imported parts; the workshop presented local fabrication of water-pipe connectors and fishing-gear parts as possible emergency uses.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "VCT-E-108",
+  "source_access_review": {
+    "selected_record_id": "VCT-E-108",
+    "selected_source_id": "VCT-SRC-103",
+    "url": "https://www.undp.org/barbados/news/saint-vincent-and-grenadines-path-recovery-support-undp-canada-and-cdema-0",
+    "locator": "Article paragraphs on the November 2025 school-safety workshop in Union Island.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 112022,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+  },
+  "checks": [
+    {
+      "record_id": "VCT-E-108",
+      "source_id": "VCT-SRC-103",
+      "locator": "Article paragraphs on the November 2025 school-safety workshop in Union Island.",
+      "verification_status": "verified",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "VCT-E-108: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "VCT-E-001",
+    "VCT-E-002",
+    "VCT-E-003",
+    "VCT-E-004",
+    "VCT-E-005",
+    "VCT-E-006",
+    "VCT-E-101",
+    "VCT-E-102",
+    "VCT-E-103",
+    "VCT-E-105",
+    "VCT-E-106",
+    "VCT-E-107",
+    "VCT-E-108",
+    "VCT-E-109",
+    "VCT-E-110",
+    "VCT-E-111",
+    "VCT-E-112"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "iso3": "SEN",
+  "coordinator": "Codex source and analytical adjudication; not human approval",
+  "human_approval": false,
+  "extraction_sha256_utf8_lf": "e6d4771502c77470d5a6cd7676aa3b3aba70d724be22c2fd9a3a51eda6cb55f2",
+  "claim_decisions": [
+    {
+      "claim_id": "SEN-C-101",
+      "decision": "include",
+      "reason": "Retain a source-attributed bounded finding with its reported scope and limitations; no causal extrapolation.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "low"
+    },
+    {
+      "claim_id": "SEN-C-102",
+      "decision": "include",
+      "reason": "Retain a source-attributed bounded finding with its reported scope and limitations; no causal extrapolation.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "uncertainty": "Game behavior under artificial collective risk, not observed violence or a causal climate-event effect; the risk effect on out-group cooperation was not statistically significant."
+    },
+    {
+      "claim_id": "SEN-C-103",
+      "decision": "include",
+      "reason": "Retain a source-attributed bounded finding with its reported scope and limitations; no causal extrapolation.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "low"
+    },
+    {
+      "claim_id": "SEN-C-104",
+      "decision": "include",
+      "reason": "Retain a source-attributed bounded finding with its reported scope and limitations; no causal extrapolation.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "low"
+    },
+    {
+      "claim_id": "SEN-C-105",
+      "decision": "include",
+      "reason": "Retain a source-attributed bounded finding with its reported scope and limitations; no causal extrapolation.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "low",
+      "subnational_specificity": "generic-zone"
+    },
+    {
+      "claim_id": "SEN-C-106",
+      "decision": "include",
+      "reason": "Retain a source-attributed bounded finding with its reported scope and limitations; no causal extrapolation.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium"
+    },
+    {
+      "claim_id": "SEN-C-107",
+      "decision": "include",
+      "reason": "Retain a source-attributed bounded finding with its reported scope and limitations; no causal extrapolation.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium"
+    },
+    {
+      "claim_id": "SEN-C-108",
+      "decision": "include",
+      "reason": "Retain a source-attributed bounded finding with its reported scope and limitations; no causal extrapolation.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "In 13 Basse-Casamance communities, 234 agricultural interviewees reported environmental and rainfall change alongside widespread food-access difficulties; these are selected respondents' experiences, not national prevalence or climate attribution.",
+      "uncertainty": "Purposive, cross-sectional interviews; study field dates are unspecified. The published food-insecurity percentages have an unclear item denominator and are not reproduced."
+    },
+    {
+      "claim_id": "SEN-C-109",
+      "decision": "include",
+      "reason": "Retain a source-attributed bounded finding with its reported scope and limitations; no causal extrapolation.",
+      "refresh_tier": "structural",
+      "interaction_direction": "fcv-to-climate",
+      "confidence": "medium",
+      "statement": "Casamance participants reported conflict and displacement affecting food security; qualitative findings describe landmines, fear and displacement restricting cultivated land while environmental pressures affect food systems.",
+      "uncertainty": "Self-reported experiences in selected communities. The article's secondary80%landmine estimate has no survey measurement or clear present-day denominator and is not reproduced.",
+      "evidence_class": "coping-capacity",
+      "mediator_tags": [
+        "landmine contamination",
+        "displacement",
+        "restricted land access"
+      ]
+    },
+    {
+      "claim_id": "SEN-C-110",
+      "decision": "include",
+      "reason": "Retain a source-attributed bounded finding with its reported scope and limitations; no causal extrapolation.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium"
+    }
+  ],
+  "source_overrides": {
+    "SEN-SRC-101": {
+      "methodology": "Public-good experiment with 332 analyzed participants after five exclusions from 337;14 focus groups. Coordinator read the publisher DOI redirect.",
+      "limitations": "Artificial collective-risk treatment and game cooperation are not observed climate impacts or violence; study municipalities are unnamed."
+    }
+  },
+  "pathways": [
+    {
+      "pathway_id": "SEN-P-101",
+      "iso3": "SEN",
+      "climate_pressure": "Participants in selected Basse-Casamance communities described irregular rainfall and environmental degradation.",
+      "documented_impact": "The same participatory study reports food-access difficulties and disrupted agricultural livelihoods.",
+      "fcv_mediator": "Landmines, fear and displacement restrict access to farmland and production, narrowing livelihood options under environmental stress.",
+      "possible_consequence": "These constraints can leave climate-sensitive food systems less able to absorb further shocks; the interaction is conditional, not a measured joint causal effect.",
+      "geographies": [
+        "Basse-Casamance",
+        "Ziguinchor and selected surrounding communities"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "displaced households",
+        "women farmers"
+      ],
+      "sectors": [
+        "agriculture",
+        "food security"
+      ],
+      "systems_assets_resources": [
+        "farmland",
+        "local food systems"
+      ],
+      "institutions": [],
+      "supporting_evidence_ids": [
+        "SEN-E-108",
+        "SEN-E-109",
+        "SEN-E-110"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SEN-E-108"
+        ],
+        "impact": [
+          "SEN-E-108"
+        ],
+        "mediator": [
+          "SEN-E-109"
+        ],
+        "consequence": [
+          "SEN-E-109"
+        ]
+      },
+      "evidence_strength": "analytical-inference",
+      "alternative_explanations": [
+        "Poverty, markets, salinization, deforestation and labor constraints can affect food access independently of conflict-climate interaction."
+      ],
+      "uncertainty": "One purposive cross-sectional study combines respondent perceptions with historical context. It does not estimate a climate-conflict interaction, current mine prevalence or a national effect.",
+      "resilience_factors": [
+        "Participants propose reforestation, sustainable farming and stronger environmental governance; their effects were not evaluated."
+      ],
+      "compact_statement": "In selected Casamance communities, mines and displacement restrict farming under environmental stress; a conditional reverse-FCV vulnerability mechanism, not climate-caused violence.",
+      "interaction_direction": "fcv-to-climate",
+      "review_status": "draft",
+      "review_date": null
+    }
+  ],
+  "gaps": [
+    "The apparent332/337sample discrepancy in the farmer-herder article is resolved in Methods: five incomplete observations were excluded; no contradiction is asserted.",
+    "The coordinator accessed the farmer-herder article through its official DOI redirect after the collector's earlier access difficulty; raw extraction records preserve that earlier audit.",
+    "The Casamance pathway is conditional synthesis, not an observed climate-to-violence effect or a measured adaptation-delivery obstruction."
+  ],
+  "coordinator_source_checks": [
+    {
+      "source_id": "SEN-SRC-101",
+      "result": "Full publisher DOI redirect read",
+      "locators": [
+        "Abstract",
+        "Methods: Data collection",
+        "Results:Table4",
+        "Discussion"
+      ],
+      "notes": "Resolved 337 to 332 sample exclusion. Artificial risk/game cooperation kept distinct from real-world conflict."
+    },
+    {
+      "source_id": "SEN-SRC-102",
+      "result": "Publisher evaluation summary read",
+      "locators": [
+        "Project description",
+        "Efficiency",
+        "Impact & Innovation",
+        "Gender & Inclusion",
+        "Sustainability"
+      ],
+      "notes": "Reported438291reach distinct from effects; no effect sizes/counterfactual read."
+    },
+    {
+      "source_id": "SEN-SRC-104",
+      "result": "Full original article passages read",
+      "locators": [
+        "Methods",
+        "Results:Tables1-2",
+        "Introduction:Casamance background",
+        "Theme5"
+      ],
+      "notes": "Removed80%landmine contextual estimate and ambiguous food-insecurity percentage; retained bounded qualitative findings."
+    }
+  ],
+  "superseded_gap_notes": {
+    "The farmer-herder paper's publisher-indexed abstract and Methods section give different participant totals (332 and 337); claims avoid relying on the denominator.": "Coordinator full publisher text resolves the apparent discrepancy:337sampled, five incomplete observations excluded,332analyzed (Methods).",
+    "The bank contains no completed mediated climate-FCV pathway; this is an evidence gap, not evidence of absence.": "One explicitly conditional reverse-FCV pathway is now assembled from the local study; no climate-caused violence pathway is asserted.",
+    "The reviewed Senegal sources do not establish a country-specific climate-conflict pathway; none is asserted here.": "Replaced by scoped discussion of the experiment and conditional reverse-FCV capacity mechanism."
+  },
+  "executive_assessment": [
+    {
+      "text": "Studies in the Groundnut Basin, Ferlo/Louga and Casamance add local livelihood and institutional detail. An experiment documents group-biased cooperation under simulated risk; it is not evidence that a climate event caused violence.",
+      "evidence_ids": [
+        "SEN-E-101",
+        "SEN-E-102",
+        "SEN-E-108"
+      ],
+      "pathway_ids": []
+    },
+    {
+      "text": "Casamance interviews describe conflict-related restrictions on land and food production under environmental stress. The assembled reverse-FCV mechanism is explicitly conditional and not a national causal estimate.",
+      "evidence_ids": [
+        "SEN-E-108",
+        "SEN-E-109"
+      ],
+      "pathway_ids": [
+        "SEN-P-101"
+      ]
+    },
+    {
+      "text": "The R4 evaluation reports reach and resilience-related gains but also transfer, monitoring and inclusion weaknesses. The accessible publisher summary cannot establish effect sizes or independent attribution.",
+      "evidence_ids": [
+        "SEN-E-103",
+        "SEN-E-104",
+        "SEN-E-105"
+      ],
+      "pathway_ids": []
+    }
+  ]
+}

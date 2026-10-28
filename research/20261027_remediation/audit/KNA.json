@@ -1,0 +1,899 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "KNA",
+  "candidate_path": "countries/KNA/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 5,
+    "evidence_count": 12,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 12
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 11,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "KNA-E-102"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "KNA-E-104",
+          "KNA-E-105",
+          "KNA-E-107",
+          "KNA-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "KNA-E-110",
+          "KNA-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "KNA-E-103",
+          "KNA-E-106",
+          "KNA-E-108",
+          "KNA-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "KNA-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "KNA-E-102",
+          "KNA-E-103",
+          "KNA-E-104",
+          "KNA-E-105",
+          "KNA-E-106",
+          "KNA-E-107",
+          "KNA-E-108",
+          "KNA-E-109",
+          "KNA-E-110",
+          "KNA-E-112",
+          "KNA-E-113"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/KNA/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "KNA-SRC-101",
+      "title": "St. Kitts and Nevis Third National Communication to the UNFCCC",
+      "organization": "Government of St. Kitts and Nevis, Ministry of Sustainable Development, Environment, Climate Action and Constituency Empowerment",
+      "publication_date": "2024-11",
+      "publication_date_basis": "document-version",
+      "url": "https://unfccc.int/sites/default/files/resource/89547631_Saint%20Kitts%20and%20Nevis-NC3-1-SKN_Third%20National%20Communication.pdf",
+      "geographic_coverage": [
+        "St. Kitts",
+        "Nevis",
+        "Basseterre",
+        "Sandy Point",
+        "Charlestown",
+        "Newcastle"
+      ],
+      "temporal_coverage": "National climate vulnerability, sector impacts, adaptation readiness and observations reported through November 2024; includes climate projections.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "KNA-E-102",
+        "KNA-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly read the full UNFCCC-hosted 323-page PDF; cited printed pp. 182-183, 193-194 and 198-199 inspected.",
+          "notes": "Title page identifies the Government of St. Kitts and Nevis and November 2024; relevant vulnerability, impacts and adaptation-readiness passages were read.",
+          "reuse_terms": "No reuse license verified; paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "KNA-SRC-102",
+      "title": "CORVI Risk Profile: Basseterre, St. Kitts and Nevis",
+      "organization": "Stimson Center Environmental Security Program, with TaiwanICDF, Taiwan Ocean Affairs Council and Government of St. Kitts and Nevis",
+      "publication_date": "2022-11",
+      "publication_date_basis": "document-version",
+      "url": "https://www.stimson.org/wp-content/uploads/2022/11/Envirosec-2022-1728-CORVI-Bassaterre-NF-EDITS.pdf",
+      "geographic_coverage": [
+        "Basseterre",
+        "St. Kitts and Nevis"
+      ],
+      "temporal_coverage": "Basseterre climate and ocean risks and resilience planning as assessed in 2021-2022, with retrospective observations.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "KNA-E-104",
+        "KNA-E-105",
+        "KNA-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly read the 30-page report; cited summary pp. 2-3 and water/economics sections pp. 10 and 14 inspected.",
+          "notes": "Methodology, findings, and caveats on empirical data, surveys and interviews were read.",
+          "reuse_terms": "No reuse license verified; paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "KNA-SRC-103",
+      "title": "Report of the vulnerability and capacity assessments in coastal and fishing communities in Saint Kitts and Nevis",
+      "organization": "Caribbean Natural Resources Institute (CANARI), with the Department of Marine Resources, Government of Saint Kitts and Nevis",
+      "publication_date": "2022",
+      "publication_date_basis": "publication",
+      "url": "https://canari.org/wp-content/uploads/2022/08/CC4FISH-St-Kitts-Nevis-VCA-Report.pdf",
+      "geographic_coverage": [
+        "Dieppe Bay, Saint Kitts",
+        "Sandy Point, Saint Kitts",
+        "Newcastle, Nevis"
+      ],
+      "temporal_coverage": "Participatory assessments conducted in selected coastal and fishing communities mainly in 2020; report published in 2022.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "KNA-E-107",
+        "KNA-E-108",
+        "KNA-E-109",
+        "KNA-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly read the 77-page report; cited printed pp. 28-30, 41-42 and 51-53 inspected.",
+          "notes": "Community findings for Dieppe Bay, Sandy Point and Newcastle were read in the publisher-hosted PDF.",
+          "reuse_terms": "CC BY-NC-SA 3.0 IGO; paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "KNA-SRC-104",
+      "title": "Final Workshops Held for GCF Readiness 4 Project in St. Kitts and Nevis",
+      "organization": "St. Kitts and Nevis Information Service (SKNIS), Government of St. Kitts and Nevis",
+      "publication_date": "2025-02-05",
+      "publication_date_basis": "publication",
+      "url": "https://www.sknis.gov.kn/2025/02/05/final-workshops-held-for-gcf-readiness-4-project-in-st-kitts-and-nevis/",
+      "geographic_coverage": [
+        "St. Kitts",
+        "Nevis"
+      ],
+      "temporal_coverage": "Outputs reported at the conclusion of the three-year GCF Readiness 4 project in January-February 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "KNA-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Read the full government article, including project highlights and conclusion sections.",
+          "notes": "Article reports the January 2025 final workshops and project outputs.",
+          "reuse_terms": "No reuse license verified; paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "KNA-SRC-105",
+      "title": "WSD Advances Water Security and Reliability Initiatives Amid Climate Change Challenges",
+      "organization": "Ministry of Public Infrastructure, Energy, and Utilities, Government of St. Kitts and Nevis",
+      "publication_date": "2026-06-18",
+      "publication_date_basis": "publication",
+      "url": "https://mopieudt.gov.kn/wsd-achievements-2026/",
+      "geographic_coverage": [
+        "Basseterre",
+        "Saint Peters",
+        "Saddlers",
+        "Cayon",
+        "Saint Kitts"
+      ],
+      "temporal_coverage": "Water-service conditions and department initiatives reported in June 2026, with projected future well and pipeline capacity.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "KNA-E-112",
+        "KNA-E-113"
+      ],
+      "this_audit_verification": "access-only",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Read the full Ministry article; cited sections on the Basseterre plant, Saint Peters, Saddlers and Cayon inspected.",
+          "notes": "Article is dated June 18, 2026 and attributes its service and project update to the Water Services Department manager.",
+          "reuse_terms": "No reuse license verified; paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "KNA-E-112",
+        "selected_source_id": "KNA-SRC-105",
+        "url": "https://mopieudt.gov.kn/wsd-achievements-2026/",
+        "locator": "Article sections 'The Basseterre Desalination Plant' and 'Enhancements in St. Peters'.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 967712,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "KNA-E-112"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "KNA-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KNA-SRC-101",
+          "locator": "Printed pp. 182-183, 'Infrastructure & Settlements' subsection of Climate Impacts and Hotspots."
+        }
+      ],
+      "geographies": [
+        "Basseterre",
+        "Sandy Point",
+        "Charlestown",
+        "Newcastle"
+      ],
+      "affected_groups": [
+        "urban residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-11 reports: Most urban settlements are on low-lying coastal plains; TNC names Basseterre, Sandy Point, Charlestown and Newcastle.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KNA-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KNA-SRC-101",
+          "locator": "Printed pp. 198-199, 'Institutional Capacity & Human Resources' and 'Information, Technology and Data Systems'."
+        }
+      ],
+      "geographies": [
+        "Nevis",
+        "Sandy Point",
+        "Beach Allen",
+        "Bronte Welsh School"
+      ],
+      "affected_groups": [
+        "communities",
+        "health-sector populations"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-11 reports: Nevis data and downscaled-information gaps limit community-scale planning; Sandy Point and school warning systems exist, but health has none.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KNA-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KNA-SRC-102",
+          "locator": "Printed pp. 2-3, Summary Findings; p. 6, 'Geology/Water' and 'Climate' category discussion."
+        }
+      ],
+      "geographies": [
+        "Basseterre"
+      ],
+      "affected_groups": [
+        "Basseterre residents",
+        "fishers",
+        "informal workers and firms"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-11 reports: Basseterre, home to about 27% of the population, scores medium-high on fisheries, coastal ecosystems, water and economic risks; heat and hurricanes are prominent indicators.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KNA-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KNA-SRC-102",
+          "locator": "Printed p. 10, 'Water Resources' discussion."
+        }
+      ],
+      "geographies": [
+        "Basseterre",
+        "Basseterre Valley"
+      ],
+      "affected_groups": [
+        "households",
+        "water users"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-11 reports: The report states 51% of renewable freshwater was withdrawn, 31 wells supplied 70% of potable water, and 2017 drought brought severe rationing; Basseterre Valley holds the main aquifer.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KNA-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KNA-SRC-102",
+          "locator": "Printed p. 14, 'Economics' discussion of informal economy and resilience planning."
+        }
+      ],
+      "geographies": [
+        "Basseterre"
+      ],
+      "affected_groups": [
+        "informal workers",
+        "informal firms"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-11 reports: Basseterre interviews identify difficulty reaching informal workers with policy; their limited institutional integration impedes inclusion in resilience planning and recovery.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KNA-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KNA-SRC-103",
+          "locator": "Printed pp. 29-30, Dieppe Bay geography and climate-change impacts; pp. 17-18, fisheries infrastructure findings."
+        }
+      ],
+      "geographies": [
+        "Dieppe Bay",
+        "Saint John Capisterre Parish"
+      ],
+      "affected_groups": [
+        "fishers",
+        "fishing households",
+        "coastal residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022 reports: Dieppe Bay participants described homes, buildings, landing facilities and roads as exposed on a windward coast with little setback; erosion affects the settlement and coastal protection.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KNA-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KNA-SRC-103",
+          "locator": "Printed pp. 28-30, Dieppe Bay fisheries context and key climate impacts."
+        }
+      ],
+      "geographies": [
+        "Dieppe Bay"
+      ],
+      "affected_groups": [
+        "fishers",
+        "fishing households"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022 reports: Hurricane Irma destroyed the Capisterre cooperative in 2017; it remained unrepaired at the 2020 assessment, leaving fishers without storage or processing space.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KNA-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KNA-SRC-103",
+          "locator": "Printed pp. 41-42, Sandy Point photo-journaling findings."
+        }
+      ],
+      "geographies": [
+        "Sandy Point",
+        "Pump Bay"
+      ],
+      "affected_groups": [
+        "fishers",
+        "fishing households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022 reports: Sandy Point participants linked Pump Bay erosion and past storms that damaged the cooperative and pier with difficulty hauling and securing fishing boats.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KNA-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KNA-SRC-103",
+          "locator": "Printed pp. 51-53, Newcastle Bay findings; p. 59, Newcastle adaptation priorities table."
+        }
+      ],
+      "geographies": [
+        "Newcastle Bay",
+        "Newcastle",
+        "Nevis"
+      ],
+      "affected_groups": [
+        "fishers",
+        "fishing households",
+        "Spanish-speaking immigrant fishers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022 reports: Newcastle Bay fishers reported erosion and storm damage to the landing site and pier; the Foundation organized participation and UNDP/GEF grants supported lockers, but further facilities were requested.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KNA-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KNA-SRC-104",
+          "locator": "Government article sections 'Highlights of the Workshops' and 'Project Conclusion'."
+        }
+      ],
+      "geographies": [
+        "St. Kitts",
+        "Nevis"
+      ],
+      "affected_groups": [
+        "communities",
+        "public-sector agencies"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-02-05 reports: At the 2025 project close, the government reported updated emergency plans, an operational and training framework for NEMA and NDMD, an impact-based multi-hazard warning framework, a storm-surge atlas and climate-data tools.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check",
+        "programme_intent_and_outcome_terms_co-occur"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "KNA-E-112",
+      "record_review": "manual-passage-check-incomplete",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "KNA-SRC-105",
+          "locator": "Article sections 'The Basseterre Desalination Plant' and 'Enhancements in St. Peters'."
+        }
+      ],
+      "geographies": [
+        "Basseterre",
+        "Saint Peters",
+        "Saint Kitts"
+      ],
+      "affected_groups": [
+        "water customers",
+        "higher-elevation residents"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The June 2026 ministry update reports that Basseterre desalination began service in February, restoring round-the-clock supply for about 20,000 customers. The higher-elevation Saint Peters pipeline and pump were installed but still being tested at publication; operation there is not confirmed.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "KNA-E-112",
+        "source_id": "KNA-SRC-105",
+        "url": "https://mopieudt.gov.kn/wsd-achievements-2026/",
+        "locator": "Article sections 'The Basseterre Desalination Plant' and 'Enhancements in St. Peters'.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "access-only",
+        "claim_verification": "unresolved",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "manual_adjudication_completed": true,
+        "verification_note": "The window confirms Saint Peters installation/testing but omits the Basseterre20000-customer service claim."
+      },
+      "verification_note": "The window confirms Saint Peters installation/testing but omits the Basseterre20000-customer service claim.",
+      "manual_adjudication": {
+        "status": "unresolved",
+        "reviewed_on": "2026-10-27",
+        "source_id": "KNA-SRC-105",
+        "source_url": "https://mopieudt.gov.kn/wsd-achievements-2026/",
+        "locator": "Article sections 'The Basseterre Desalination Plant' and 'Enhancements in St. Peters'.",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The window confirms Saint Peters installation/testing but omits the Basseterre20000-customer service claim.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      }
+    },
+    {
+      "record_id": "KNA-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "KNA-SRC-105",
+          "locator": "Article sections 'Groundwater Drilling' and 'Construction of 500 000 Gallon Water Tank in Cayon'."
+        }
+      ],
+      "geographies": [
+        "Saddlers",
+        "Cayon",
+        "Saint Kitts"
+      ],
+      "affected_groups": [
+        "rural water users"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "The article projects aggregate candidate-site capacity through 2040; no climate scenario or model is stated.",
+      "compact_statement": "Source dated 2026-06-18 reports: The ministry projects ten candidate wells could yield up to four million gallons daily and meet demand through 2040; drilling at Saddlers began in January 2026.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "KNA-E-112",
+  "source_access_review": {
+    "selected_record_id": "KNA-E-112",
+    "selected_source_id": "KNA-SRC-105",
+    "url": "https://mopieudt.gov.kn/wsd-achievements-2026/",
+    "locator": "Article sections 'The Basseterre Desalination Plant' and 'Enhancements in St. Peters'.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "access-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 967712,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The window confirms Saint Peters installation/testing but omits the Basseterre20000-customer service claim."
+  },
+  "checks": [
+    {
+      "record_id": "KNA-E-112",
+      "source_id": "KNA-SRC-105",
+      "locator": "Article sections 'The Basseterre Desalination Plant' and 'Enhancements in St. Peters'.",
+      "verification_status": "unresolved",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "access-only",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": false,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "KNA-E-112: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "KNA-E-102",
+    "KNA-E-103",
+    "KNA-E-104",
+    "KNA-E-105",
+    "KNA-E-106",
+    "KNA-E-107",
+    "KNA-E-108",
+    "KNA-E-109",
+    "KNA-E-110",
+    "KNA-E-111",
+    "KNA-E-112",
+    "KNA-E-113"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

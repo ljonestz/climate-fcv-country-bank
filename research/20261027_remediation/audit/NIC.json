@@ -1,0 +1,951 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "NIC",
+  "candidate_path": "countries/NIC/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 7,
+    "evidence_count": 13,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 13
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 7,
+      "access-only": 6
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "NIC-E-005"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "NIC-E-001",
+          "NIC-E-006",
+          "NIC-E-101",
+          "NIC-E-102",
+          "NIC-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "NIC-E-002",
+          "NIC-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "NIC-E-004",
+          "NIC-E-103",
+          "NIC-E-104",
+          "NIC-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "NIC-E-003"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "NIC-E-101",
+          "NIC-E-102",
+          "NIC-E-104",
+          "NIC-E-105"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/NIC/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "NIC-SRC-001",
+      "title": "Nicaragua to receive emergency funding following devastation left by Eta and Iota",
+      "organization": "World Bank",
+      "publication_date": "2021-01-22",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2021/01/22/nicaragua-financiamiento-emergencia-eta-iota",
+      "geographic_coverage": [
+        "Nicaragua",
+        "Caribbean Coast Autonomous Regions"
+      ],
+      "temporal_coverage": "2020 hurricane impacts and 2021 response design.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "NIC-E-001",
+        "NIC-E-002"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "NIC-SRC-002",
+      "title": "Nicaragua, climate resilience of rural households in the Dry Corridor: final evaluation",
+      "organization": "World Food Programme",
+      "publication_date": "2025-01-13",
+      "publication_date_basis": "publication",
+      "url": "https://www.wfp.org/publications/nicaragua-climate-resilience-rural-households-dry-corridor-final-evaluation",
+      "geographic_coverage": [
+        "Nicaragua",
+        "Nueva Segovia",
+        "Madriz",
+        "Estelí"
+      ],
+      "temporal_coverage": "Evaluation summary for the 2020-2025 project.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "NIC-E-003",
+        "NIC-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "NIC-SRC-003",
+      "title": "Nicaragua country overview",
+      "organization": "World Food Programme",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://es.wfp.org/paises/nicaragua",
+      "geographic_coverage": [
+        "Nicaragua",
+        "Dry Corridor"
+      ],
+      "temporal_coverage": "Undated operational overview accessed26October 2026.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "NIC-E-005",
+        "NIC-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "NIC-SRC-101",
+      "title": "2025 Annual Report, Chapter IV.B: Nicaragua",
+      "organization": "Inter-American Commission on Human Rights (IACHR)",
+      "publication_date": "2026-04-23",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.oas.org/en/iachr/docs/annual/2025/Chapters/IA2025_4B_NIC_EN.pdf",
+      "geographic_coverage": [
+        "Nicaragua",
+        "Nicaragua Dry Corridor"
+      ],
+      "temporal_coverage": "Country conditions and cited events through 2025; climate impacts include El Niño conditions in 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "NIC-E-101",
+        "NIC-E-102",
+        "NIC-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Opened the original 34-page PDF; claims use PDF pp. 19–20 and 30.",
+          "notes": "Official IACHR release dates publication of the 2025 Annual Report to 23 April 2026; its chapter text was directly inspected.",
+          "reuse_terms": "Terms not reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "NIC-SRC-102",
+      "title": "Violencia contra pueblos indígenas y afrodescendientes de la Costa Caribe en Nicaragua",
+      "organization": "Inter-American Commission on Human Rights (IACHR)",
+      "publication_date": "2025-08-25",
+      "publication_date_basis": "publication",
+      "url": "https://www.oas.org/es/cidh/informes/pdfs/2025/informe_afro_%20ind%C3%ADgenas_nicaragua.pdf",
+      "geographic_coverage": [
+        "Nicaragua Caribbean Coast",
+        "North Caribbean Coast Autonomous Region",
+        "Bilwi",
+        "Waspam",
+        "Alal",
+        "Mayangna Sauni As",
+        "Bosawás Biosphere Reserve"
+      ],
+      "temporal_coverage": "Historical violence and institutional developments through 2024; report approved 25 August 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "NIC-E-104",
+        "NIC-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Opened original Spanish 133-page PDF; claims use PDF pp. 81 and 96.",
+          "notes": "Cover identifies report OEA/Ser.L/V/II Doc. 149/25, dated 25 August 2025.",
+          "reuse_terms": "Terms not reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "NIC-SRC-103",
+      "title": "Nicaragua realizó el lanzamiento del Sistema Nacional de Respuesta a Emergencia de Nicaragua (SINAREM)",
+      "organization": "Sistema Nacional para la Prevención, Mitigación y Atención de Desastres (SINAPRED)",
+      "publication_date": "2025-02-21",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.sinapred.gob.ni/index.php/noticias/nicaragua-realizo-el-lanzamiento-del-sistema-nacional-de-respuesta-a-emergencia-de-nicaragua-sinarem",
+      "geographic_coverage": [
+        "Nicaragua"
+      ],
+      "temporal_coverage": "SINAREM launch and design announcement, February 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "NIC-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Opened full official web announcement; claim paragraphs 25–35.",
+          "notes": "Page posted 21 February 2025 and dates launch event to 20 February 2025.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "NIC-SRC-104",
+      "title": "Nicaragua country strategic plan (2024–2029), Revision 02",
+      "organization": "World Food Programme (WFP)",
+      "publication_date": "2026-09",
+      "publication_date_basis": "document-version",
+      "url": "https://www.wfp.org/operations/ni03-nicaragua-country-strategic-plan-2024-2029",
+      "geographic_coverage": [
+        "Nicaragua"
+      ],
+      "temporal_coverage": "Strategic plan for 2024–2029; Revision 02 approved September 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "NIC-E-107"
+      ],
+      "this_audit_verification": "access-only",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Publisher page priorities and Outcomes 1–3; revision note at top.",
+          "notes": "Page states Revision 02 was approved in September 2026; linked full plan PDF was not used because it returned an anti-robot challenge.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "NIC-E-107",
+        "selected_source_id": "NIC-SRC-104",
+        "url": "https://www.wfp.org/operations/ni03-nicaragua-country-strategic-plan-2024-2029",
+        "locator": "WFP plan page, paragraphs on priorities and Outcomes 1–3.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 66807,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "NIC-E-107"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "NIC-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NIC-SRC-001",
+          "locator": "Body paragraph on Caribbean Coast Autonomous Regions"
+        }
+      ],
+      "geographies": [
+        "Caribbean Coast Autonomous Regions"
+      ],
+      "affected_groups": [
+        "Indigenous peoples",
+        "Afro-descendants"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Eta and Iota hit Nicaragua's Caribbean autonomous regions, where extreme poverty and Indigenous and Afro-descendant populations increased vulnerability to shocks.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "NIC-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NIC-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NIC-SRC-001",
+          "locator": "Body paragraphs on service interruption and recovery activities"
+        }
+      ],
+      "geographies": [
+        "Caribbean Coast Autonomous Regions"
+      ],
+      "affected_groups": [
+        "affected coastal communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2021 response prioritized restoring services, livelihoods and small-scale fisheries with affected communities involved in choosing activities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "NIC-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NIC-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NIC-SRC-002",
+          "locator": "Evaluation finding2"
+        }
+      ],
+      "geographies": [
+        "Nueva Segovia",
+        "Madriz",
+        "Estelí"
+      ],
+      "affected_groups": [
+        "women",
+        "producers",
+        "cooperatives"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "In Nueva Segovia, Madriz and Estelí, the evaluation found improved producer and cooperative capacity, with stronger early resilience gains among participating women.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "NIC-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NIC-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NIC-SRC-002",
+          "locator": "Evaluation findings3 and4"
+        }
+      ],
+      "geographies": [
+        "Nueva Segovia",
+        "Madriz",
+        "Estelí"
+      ],
+      "affected_groups": [],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Shared resilience systems were only partially institutionalized; sustained support was needed to consolidate achievements.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "NIC-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NIC-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NIC-SRC-003",
+          "locator": "Country introduction on extreme events"
+        }
+      ],
+      "geographies": [
+        "Nicaragua"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "WFP identifies droughts, hurricanes, storms and floods as threats to Nicaragua's food systems.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "NIC-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NIC-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NIC-SRC-003",
+          "locator": "Paragraph beginning Estos eventos"
+        }
+      ],
+      "geographies": [
+        "Dry Corridor"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "vulnerable households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Small farmers and vulnerable households in Nicaragua's Dry Corridor face heightened food-security risks from climate extremes.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "NIC-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NIC-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NIC-SRC-101",
+          "locator": "PDF pp. 19–20 (printed pp. 796–797), paras. 75–77."
+        }
+      ],
+      "geographies": [
+        "Nicaragua Dry Corridor (historical extent: 63 municipalities)"
+      ],
+      "affected_groups": [
+        "subsistence and small-scale farming households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-23 reports: IACHR identifies Nicaragua’s Dry Corridor as 63 municipalities (37% of territory), reliant partly on subsistence/small-scale farming; 2024 El Niño intensified drought and reduced rain, harming crop output and food security.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NIC-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NIC-SRC-101",
+          "locator": "PDF p. 20 (printed p. 797), para. 78."
+        }
+      ],
+      "geographies": [
+        "Nicaragua Dry Corridor"
+      ],
+      "affected_groups": [
+        "households dependent on agricultural minimum wages",
+        "vulnerable households",
+        "children"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-23 reports: In the Dry Corridor, below-average and erratic rain reduced production and deepened household food insecurity; vulnerable families reduced food quantity or quality and withdrew children from school.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NIC-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NIC-SRC-101",
+          "locator": "PDF p. 30 (printed p. 807), para. 124."
+        }
+      ],
+      "geographies": [
+        "Nicaragua"
+      ],
+      "affected_groups": [
+        "Indigenous peoples",
+        "Afro-descendant peoples"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-23 reports: IACHR reports Nicaragua’s 2025 legal changes weakened environmental safeguards and participation or consultation mechanisms in a context of high climate vulnerability.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NIC-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NIC-SRC-102",
+          "locator": "PDF p. 81, para. 134."
+        }
+      ],
+      "geographies": [
+        "Bilwi",
+        "Waspam",
+        "17 Mayangna and Miskitu Indigenous territories"
+      ],
+      "affected_groups": [
+        "Mayangna communities",
+        "Miskitu communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "IACHR's 2025 report documents the September 2023 closure of Bilwi/Waspam Indigenous radios serving 17 territories, including channels for reporting violence and climate/environment concerns.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NIC-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NIC-SRC-102",
+          "locator": "PDF p. 96, para. 156."
+        }
+      ],
+      "geographies": [
+        "Alal community",
+        "Mayangna Sauni As",
+        "Bonanza",
+        "Bosawás Biosphere Reserve"
+      ],
+      "affected_groups": [
+        "Mayangna community",
+        "79 displaced families"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-08-25 reports: IACHR reports an armed-settler attack on Mayangna Alal (Sauni As, 30 km from Bonanza, Bosawás) in January 2020: at least four killed, over 16 homes burned, survival goods looted and 79 families displaced.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NIC-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "NIC-SRC-103",
+          "locator": "Official announcement, paragraphs on launch and SINAREM functions (web page lines 25–35)."
+        }
+      ],
+      "geographies": [
+        "Nicaragua"
+      ],
+      "affected_groups": [
+        "Nicaraguan population"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-02-21 reports: SINAPRED announced SINAREM’s launch on 20 February 2025; the system is designed for real-time monitoring, early warning and response to disasters including floods.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "NIC-E-107",
+      "record_review": "manual-passage-check-incomplete",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "NIC-SRC-104",
+          "locator": "WFP plan page, paragraphs on priorities and Outcomes 1–3."
+        }
+      ],
+      "geographies": [
+        "Nicaragua"
+      ],
+      "affected_groups": [
+        "smallholder farmers",
+        "women",
+        "schoolchildren and families"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-09 reports: WFP’s 2024–2029 plan commits to integrated disaster-risk management, nutrition-sensitive social protection and school feeding linked to smallholder resilience, especially for women and climate-adaptive farming capacities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "NIC-E-107",
+        "source_id": "NIC-SRC-104",
+        "url": "https://www.wfp.org/operations/ni03-nicaragua-country-strategic-plan-2024-2029",
+        "locator": "WFP plan page, paragraphs on priorities and Outcomes 1–3.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "access-only",
+        "claim_verification": "unresolved",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "manual_adjudication_completed": true,
+        "verification_note": "The window confirms programme priorities but ends before the whole smallholder/women outcome statement."
+      },
+      "verification_note": "The window confirms programme priorities but ends before the whole smallholder/women outcome statement.",
+      "manual_adjudication": {
+        "status": "unresolved",
+        "reviewed_on": "2026-10-27",
+        "source_id": "NIC-SRC-104",
+        "source_url": "https://www.wfp.org/operations/ni03-nicaragua-country-strategic-plan-2024-2029",
+        "locator": "WFP plan page, paragraphs on priorities and Outcomes 1–3.",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The window confirms programme priorities but ends before the whole smallholder/women outcome statement.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      }
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "NIC-E-107",
+  "source_access_review": {
+    "selected_record_id": "NIC-E-107",
+    "selected_source_id": "NIC-SRC-104",
+    "url": "https://www.wfp.org/operations/ni03-nicaragua-country-strategic-plan-2024-2029",
+    "locator": "WFP plan page, paragraphs on priorities and Outcomes 1–3.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "access-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 66807,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The window confirms programme priorities but ends before the whole smallholder/women outcome statement."
+  },
+  "checks": [
+    {
+      "record_id": "NIC-E-107",
+      "source_id": "NIC-SRC-104",
+      "locator": "WFP plan page, paragraphs on priorities and Outcomes 1–3.",
+      "verification_status": "unresolved",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "access-only",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": false,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "NIC-E-107: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "NIC-E-001",
+    "NIC-E-002",
+    "NIC-E-003",
+    "NIC-E-004",
+    "NIC-E-005",
+    "NIC-E-006",
+    "NIC-E-101",
+    "NIC-E-102",
+    "NIC-E-103",
+    "NIC-E-104",
+    "NIC-E-105",
+    "NIC-E-106",
+    "NIC-E-107"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

@@ -1,0 +1,1143 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "GRD",
+  "candidate_path": "countries/GRD/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 7,
+    "evidence_count": 18,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 18
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 7,
+      "access-only": 11
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "GRD-E-001"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "GRD-E-004",
+          "GRD-E-005",
+          "GRD-E-101",
+          "GRD-E-102",
+          "GRD-E-103",
+          "GRD-E-105",
+          "GRD-E-106",
+          "GRD-E-107",
+          "GRD-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "GRD-E-002",
+          "GRD-E-110",
+          "GRD-E-111",
+          "GRD-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "GRD-E-003",
+          "GRD-E-104",
+          "GRD-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "GRD-E-006"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "GRD-E-101",
+          "GRD-E-106",
+          "GRD-E-108",
+          "GRD-E-110",
+          "GRD-E-111",
+          "GRD-E-112"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/GRD/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "GRD-SRC-001",
+      "title": "Grenada overview",
+      "organization": "World Bank",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.worldbank.org/ext/en/country/grenada",
+      "geographic_coverage": [
+        "Grenada"
+      ],
+      "temporal_coverage": "Undated overview describing2024 Beryl and 2025-2026 recovery.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GRD-E-001",
+        "GRD-E-002"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GRD-SRC-002",
+      "title": "Climate-resilient agriculture for integrated landscape management",
+      "organization": "UNDP",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.undp.org/barbados/projects/climate-resilient-agriculture-integrated-landscape-management",
+      "geographic_coverage": [
+        "Grenada"
+      ],
+      "temporal_coverage": "Project rationale and activities shown through 2026.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GRD-E-003",
+        "GRD-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GRD-SRC-003",
+      "title": "UNDP part of multi-agency response to Hurricane Beryl",
+      "organization": "UNDP",
+      "publication_date": "2024-12-02",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/barbados/news/undp-part-multi-agency-response-hurricane-beryl",
+      "geographic_coverage": [
+        "Grenada",
+        "Carriacou",
+        "Petite Martinique"
+      ],
+      "temporal_coverage": "July-November2024 response activities.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GRD-E-005",
+        "GRD-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GRD-SRC-101",
+      "title": "National Climate Change Policy for Grenada, Carriacou and Petite Martinique",
+      "organization": "Government of Grenada, Ministry of Climate Resilience, Environment and Renewable Energy",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://climateresilience.gov.gd/wp-content/uploads/2026/01/Draft_NCCP-2025-2030-December-version.pdf",
+      "geographic_coverage": [
+        "Grenada",
+        "St. Mark",
+        "St. Andrew",
+        "Carriacou",
+        "Petite Martinique"
+      ],
+      "temporal_coverage": "Draft sets policy priorities for an indicated 2025–2035 period; filename instead labels 2025–2030; historical indicators through 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GRD-E-101",
+        "GRD-E-102",
+        "GRD-E-103",
+        "GRD-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "PDF pp. 10–11, 24 and 26",
+          "notes": "Opened the public Government policy PDF and read the cited foreword, vulnerability profile and implementation passages; preserved its draft status.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GRD-SRC-102",
+      "title": "Grenada: National case study on drought vulnerability and impact assessment",
+      "organization": "Food and Agriculture Organization of the United Nations",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.fao.org/in-action/drought-portal/preparedness/vulnerability-and-impact-assessment/national-case-studies/grenada/en",
+      "geographic_coverage": [
+        "Grenada",
+        "Carriacou",
+        "Petite Martinique",
+        "St. Mark",
+        "St. John",
+        "St. Andrew",
+        "St. Patrick"
+      ],
+      "temporal_coverage": "Historical drought cases through 2024; socioeconomic and infrastructure indicators span different reference years.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GRD-E-105",
+        "GRD-E-106",
+        "GRD-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Historical Drought; Drought Impact Pathway; social, economic and institutional vulnerability sections",
+          "notes": "Opened and read the full FAO country profile; it combines indicators with different reference years.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GRD-SRC-103",
+      "title": "Water Availability",
+      "organization": "Government of Grenada, Ministry of Climate Resilience, Environment and Renewable Energy",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://climateresilience.gov.gd/water-availability/",
+      "geographic_coverage": [
+        "Grenada",
+        "Carriacou",
+        "Petite Martinique"
+      ],
+      "temporal_coverage": "Water supply, governance and climate-risk information; numerical indicators are undated on the page.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GRD-E-108",
+        "GRD-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Challenges and Opportunities; Water Governance; Water Resources",
+          "notes": "Opened and read the public Ministry portal page, including its supply estimates and governance summary.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GRD-SRC-104",
+      "title": "NAWASA highlights major water security investments in Carriacou as G-CREWS project concludes",
+      "organization": "National Water and Sewerage Authority (NAWASA), Grenada",
+      "publication_date": "2026-10-11",
+      "publication_date_basis": "publication",
+      "url": "https://www.nawasa.gd/nawasa-highlights-major-water-security-investments-in-carriacou-as-g-crews-project-concludes/",
+      "geographic_coverage": [
+        "Grenada",
+        "Carriacou",
+        "Petite Martinique",
+        "Belair",
+        "Mt. Royal",
+        "L'Esterre",
+        "Windward"
+      ],
+      "temporal_coverage": "G-CREWS delivery reported through October 2026, including post-Beryl investments and remaining operational works.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GRD-E-110",
+        "GRD-E-111",
+        "GRD-E-112"
+      ],
+      "this_audit_verification": "access-only",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Article paragraphs on project close-out, tanks, household and health facilities, agriculture, and remaining works",
+          "notes": "Opened and read NAWASA's 11 October 2026 project account; claims remain attributed to the utility.",
+          "reuse_terms": "Not inspected; license_status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "GRD-E-110",
+        "selected_source_id": "GRD-SRC-104",
+        "url": "https://www.nawasa.gd/nawasa-highlights-major-water-security-investments-in-carriacou-as-g-crews-project-concludes/",
+        "locator": "Article paragraphs on storage tanks, service continuity and remaining operational works",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 184506,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "GRD-E-110"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "GRD-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GRD-SRC-001",
+          "locator": "About and Development, Beryl paragraphs"
+        }
+      ],
+      "geographies": [
+        "Grenada"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Hurricane Beryl damaged Grenada's economy and infrastructure in 2024; recovery increased fiscal pressures.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "GRD-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GRD-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GRD-SRC-001",
+          "locator": "Development, climate and disaster resilience"
+        }
+      ],
+      "geographies": [
+        "Grenada"
+      ],
+      "affected_groups": [],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Grenada's2026 financing programme combined contingent disaster liquidity with water, infrastructure and social-safety-net reforms.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "GRD-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GRD-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GRD-SRC-002",
+          "locator": "Description, barriers a-c"
+        }
+      ],
+      "geographies": [
+        "Grenada"
+      ],
+      "affected_groups": [],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Grenada's climate-smart farming faces institutional planning gaps, limited finance and technical services, and limited knowledge of sustainable practices.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "GRD-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GRD-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GRD-SRC-002",
+          "locator": "Description, biodiversity and land degradation paragraphs"
+        }
+      ],
+      "geographies": [
+        "Grenada"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Unsustainable agriculture, settlement expansion, forest loss and climate change jointly pressure Grenada's productive landscapes.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "GRD-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GRD-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GRD-SRC-003",
+          "locator": "Opening impact paragraph"
+        }
+      ],
+      "geographies": [
+        "Carriacou",
+        "Petite Martinique"
+      ],
+      "affected_groups": [
+        "island communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Beryl damaged housing and livelihoods in Carriacou and Petite Martinique inJuly2024.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "GRD-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GRD-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GRD-SRC-003",
+          "locator": "November2024 Capacity Building section"
+        }
+      ],
+      "geographies": [
+        "Grenada"
+      ],
+      "affected_groups": [],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNDP and CDEMA supported residential construction-code training for Grenada's public technical officers after Beryl.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "GRD-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GRD-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GRD-SRC-101",
+          "locator": "PDF p. 24 (printed 24), Socio-Economic Factors"
+        }
+      ],
+      "geographies": [
+        "St. Mark",
+        "St. Andrew"
+      ],
+      "affected_groups": [
+        "poorer households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The undated draft reports a 2020 national poverty-or-poverty-risk figure of 54.8%, with the highest rates in St. Mark and St. Andrew; weak savings and housing security increase household vulnerability.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GRD-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GRD-SRC-101",
+          "locator": "PDF p. 26 (printed 26), Female Headed Households"
+        }
+      ],
+      "geographies": [
+        "Grenada",
+        "emergency shelters"
+      ],
+      "affected_groups": [
+        "female-headed households",
+        "women",
+        "children"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The draft says nearly half of households are female-headed and women and children face higher post-disaster gender-based-violence risk, particularly in emergency shelters.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GRD-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GRD-SRC-101",
+          "locator": "PDF p. 10 (printed 10), ministerial foreword"
+        }
+      ],
+      "geographies": [
+        "Grenada"
+      ],
+      "affected_groups": [
+        "communities exposed to climate risks",
+        "people displaced by hazards"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The draft policy identifies service disruption, community stability and climate-related mobility as security concerns; these are policy risk statements, not measured conflict or displacement effects.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GRD-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GRD-SRC-101",
+          "locator": "PDF p. 11 (printed 11), Executive Summary"
+        }
+      ],
+      "geographies": [
+        "Grenada"
+      ],
+      "affected_groups": [
+        "climate-vulnerable communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: Stakeholder consultations identify limited staff, slow procurement, coordination difficulties and overlapping agency mandates as implementation barriers.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GRD-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GRD-SRC-102",
+          "locator": "Historical Drought and Drought Impact Pathway sections"
+        }
+      ],
+      "geographies": [
+        "Carriacou",
+        "Petite Martinique",
+        "southern Grenada",
+        "southeastern Grenada",
+        "northern Grenada"
+      ],
+      "affected_groups": [
+        "tourism workers",
+        "agricultural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: FAO identifies Carriacou, Petite Martinique, southern and southeastern mainland Grenada, and the drier north as drought-affected areas, with water scarcity straining tourism, agriculture and local supplies.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GRD-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GRD-SRC-102",
+          "locator": "Drought Impact Pathway, livestock and banana impacts"
+        }
+      ],
+      "geographies": [
+        "Carriacou",
+        "Grenada"
+      ],
+      "affected_groups": [
+        "livestock producers",
+        "banana farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: FAO reports Carriacou livestock losses of 20% and 40% in the 1984 and 1992 droughts, and a 17% decline in national banana production during the 2009 drought.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GRD-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GRD-SRC-102",
+          "locator": "Drought Impact Pathway, gendered water-shortage impacts"
+        }
+      ],
+      "geographies": [
+        "Grenada"
+      ],
+      "affected_groups": [
+        "women",
+        "girls",
+        "caregivers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: FAO says water shortages disproportionately affect women and girls through missed work or school, compromised hygiene and added care for sick relatives.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GRD-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GRD-SRC-103",
+          "locator": "Water Availability, Challenges and Opportunities; Water Resources"
+        }
+      ],
+      "geographies": [
+        "mainland Grenada",
+        "Carriacou",
+        "Petite Martinique"
+      ],
+      "affected_groups": [
+        "water users",
+        "island households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The Ministry reports mainland dry-season daily yield of 31,800 m³ against demand of 54,600 m³; 91% of households in Carriacou and Petite Martinique use cisterns as main storage.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GRD-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GRD-SRC-103",
+          "locator": "Water Availability, Water Governance and Policy Framework"
+        }
+      ],
+      "geographies": [
+        "Grenada"
+      ],
+      "affected_groups": [
+        "water users"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The Ministry says water responsibilities are split among agencies without a single sector-wide oversight entity; the 2020 Water Policy proposed separate resource-management oversight.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GRD-E-110",
+      "record_review": "manual-passage-check-incomplete",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "GRD-SRC-104",
+          "locator": "Article paragraphs on storage tanks, service continuity and remaining operational works"
+        }
+      ],
+      "geographies": [
+        "Belair",
+        "Mt. Royal",
+        "Carriacou"
+      ],
+      "affected_groups": [
+        "Carriacou residents"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "NAWASA reported in October 2026 that two 100,000-imperial-gallon tanks had been constructed at Belair and Mt. Royal. The estimated three-to-six-day storage buffer still depended on remaining operational connections and commissioning.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "GRD-E-110",
+        "source_id": "GRD-SRC-104",
+        "url": "https://www.nawasa.gd/nawasa-highlights-major-water-security-investments-in-carriacou-as-g-crews-project-concludes/",
+        "locator": "Article paragraphs on storage tanks, service continuity and remaining operational works",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "access-only",
+        "claim_verification": "unresolved",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "manual_adjudication_completed": true,
+        "verification_note": "The window covers later storage/healthcare measures, not both named100000-gallon tanks and remaining-connection qualification."
+      },
+      "verification_note": "The window covers later storage/healthcare measures, not both named100000-gallon tanks and remaining-connection qualification.",
+      "manual_adjudication": {
+        "status": "unresolved",
+        "reviewed_on": "2026-10-27",
+        "source_id": "GRD-SRC-104",
+        "source_url": "https://www.nawasa.gd/nawasa-highlights-major-water-security-investments-in-carriacou-as-g-crews-project-concludes/",
+        "locator": "Article paragraphs on storage tanks, service continuity and remaining operational works",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The window covers later storage/healthcare measures, not both named100000-gallon tanks and remaining-connection qualification.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      }
+    },
+    {
+      "record_id": "GRD-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GRD-SRC-104",
+          "locator": "Article paragraphs on Mt. Royal rainwater harvesting and health facilities"
+        }
+      ],
+      "geographies": [
+        "Mt. Royal",
+        "Carriacou",
+        "Princess Royal Hospital",
+        "L'Esterre Medical Station",
+        "Windward Medical Station"
+      ],
+      "affected_groups": [
+        "Mt. Royal households",
+        "patients",
+        "health workers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-10-11 reports: NAWASA says the Mt. Royal communal rainwater retrofit serves about 56 households and 169 residents; storage was also added at Princess Royal Hospital and two medical stations.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GRD-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GRD-SRC-104",
+          "locator": "Article paragraphs on the G-CREWS Challenge Fund for Agriculture"
+        }
+      ],
+      "geographies": [
+        "Grenada",
+        "Carriacou",
+        "Petite Martinique"
+      ],
+      "affected_groups": [
+        "farmers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-10-11 reports: NAWASA reports over 300 farmers benefited across the tri-island state; on Carriacou, 18 received drip or micro-sprinkler support and 22 gained over 60,000 gallons of harvesting storage; 19 shade houses remain in phased installation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "GRD-E-110",
+  "source_access_review": {
+    "selected_record_id": "GRD-E-110",
+    "selected_source_id": "GRD-SRC-104",
+    "url": "https://www.nawasa.gd/nawasa-highlights-major-water-security-investments-in-carriacou-as-g-crews-project-concludes/",
+    "locator": "Article paragraphs on storage tanks, service continuity and remaining operational works",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "access-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 184506,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The window covers later storage/healthcare measures, not both named100000-gallon tanks and remaining-connection qualification."
+  },
+  "checks": [
+    {
+      "record_id": "GRD-E-110",
+      "source_id": "GRD-SRC-104",
+      "locator": "Article paragraphs on storage tanks, service continuity and remaining operational works",
+      "verification_status": "unresolved",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "access-only",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": false,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "GRD-E-110: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "GRD-E-001",
+    "GRD-E-002",
+    "GRD-E-003",
+    "GRD-E-004",
+    "GRD-E-005",
+    "GRD-E-006",
+    "GRD-E-101",
+    "GRD-E-102",
+    "GRD-E-103",
+    "GRD-E-104",
+    "GRD-E-105",
+    "GRD-E-106",
+    "GRD-E-107",
+    "GRD-E-108",
+    "GRD-E-109",
+    "GRD-E-110",
+    "GRD-E-111",
+    "GRD-E-112"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

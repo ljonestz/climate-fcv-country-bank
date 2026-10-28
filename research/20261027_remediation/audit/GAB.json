@@ -1,0 +1,735 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "GAB",
+  "candidate_path": "countries/GAB/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 4,
+    "evidence_count": 8,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 8
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 7,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "GAB-E-101"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "GAB-E-102",
+          "GAB-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "GAB-E-106",
+          "GAB-E-107",
+          "GAB-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "GAB-E-103",
+          "GAB-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "GAB-E-101",
+          "GAB-E-104",
+          "GAB-E-106",
+          "GAB-E-108"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "GAB-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/GAB/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "GAB-SRC-101",
+      "title": "Gabon Country Climate and Development Report: Annexes",
+      "organization": "World Bank Group",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099103125110522601/pdf/P500763-3c40e1c7-f48f-4563-871b-4437f238b2dd.pdf",
+      "geographic_coverage": [
+        "Gabon",
+        "Libreville",
+        "rural areas"
+      ],
+      "temporal_coverage": "2025 CCDR annex with 2021 urban exposure data and forward-looking climate-risk analysis.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "GAB-E-101",
+        "GAB-E-102",
+        "GAB-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Opened the original 70-page French CCDR annex; cited PDF pp.24 and 53–54.",
+          "notes": "The cover dates the annex 2025; the urban exposure figure refers to 2021.",
+          "reuse_terms": "World Bank permits attributed noncommercial reproduction; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "GAB-E-103",
+        "selected_source_id": "GAB-SRC-101",
+        "url": "https://documents1.worldbank.org/curated/en/099103125110522601/pdf/P500763-3c40e1c7-f48f-4563-871b-4437f238b2dd.pdf",
+        "locator": "One-based PDF pp. 54–55 (printed 54–55), gender and protection risks",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "GAB-SRC-102",
+      "title": "Troisième Contribution Déterminée au niveau National (CDN3.0) du Gabon",
+      "organization": "Government of Gabon, National Climate Council",
+      "publication_date": "2025-11",
+      "publication_date_basis": "document-version",
+      "url": "https://www.unfccc.int/sites/default/files/2025-12/NDC3.0_Gabon_5_11_2025-final%20version.pdf",
+      "geographic_coverage": [
+        "Gabon",
+        "Port-Gentil",
+        "Libreville",
+        "rural areas"
+      ],
+      "temporal_coverage": "NDC 3.0 dated November 2025, covering 2025–2035 and longer-term climate strategy.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GAB-E-104",
+        "GAB-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Opened the original 110-page NDC 3.0; cited PDF pp.19, 41 and 45.",
+          "notes": "Cover dates the NDC November 2025; risk links are conditional policy analysis, not measured outcomes.",
+          "reuse_terms": "Terms not reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GAB-SRC-103",
+      "title": "Lancement des missions de sensibilisation pour la préparation du Plan National d’Adaptation (NAP-II)",
+      "organization": "United Nations Development Programme, Gabon",
+      "publication_date": "2025-12-04",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/fr/gabon/communiques/lancement-des-missions-de-sensibilisation-pour-la-preparation-du-plan-national-dadaptation-nap-ii",
+      "geographic_coverage": [
+        "Libreville",
+        "Lambaréné",
+        "Mouila",
+        "Tchibanga",
+        "Mayumba",
+        "Port-Gentil",
+        "Omboué",
+        "Cocobeach"
+      ],
+      "temporal_coverage": "Reports NAP-II sensitization missions scheduled for 3–12 December 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GAB-E-106",
+        "GAB-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Opened the UNDP announcement published 4 December 2025.",
+          "notes": "Reports planned consultation meetings and a roadmap process, not completed adaptation.",
+          "reuse_terms": "Terms not reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GAB-SRC-104",
+      "title": "L’ANPN et la CDC en première ligne pour la mise en œuvre du Plan national d’adaptation côtière",
+      "organization": "Caisse des Dépôts et Consignations du Gabon",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.cdc-gabon.ga/news/61/carrieres/actualite/69/groupe/projets/communique/62/lib/img/evenement/71/foned-2026-la-cdc-gabon-place-lepargne-au-coeur-des-enjeux-de-financement-du-developpement",
+      "geographic_coverage": [
+        "Libreville",
+        "Port-Gentil"
+      ],
+      "temporal_coverage": "Page describes a coastal adaptation project; publication date is not stated.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GAB-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Opened the CDC project-description page, including pilot locations and station upgrades.",
+          "notes": "The page's publication date is not stated; project results were not asserted.",
+          "reuse_terms": "Terms not reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "GAB-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GAB-SRC-101",
+          "locator": "One-based PDF p. 25 (printed 25), urban flooding"
+        }
+      ],
+      "geographies": [
+        "Libreville"
+      ],
+      "affected_groups": [
+        "residents of flood-exposed settlements",
+        "urban poor"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: The CCDR estimates that 41% of Libreville's built-up area lay in flood-exposed zones in 2021; unplanned settlement and mangrove loss add to urban and coastal risk.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GAB-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GAB-SRC-101",
+          "locator": "One-based PDF p. 54 (printed 54), social inclusion"
+        }
+      ],
+      "geographies": [
+        "Gabon",
+        "urban areas"
+      ],
+      "affected_groups": [
+        "poor urban households",
+        "residents of informal settlements"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: The CCDR says poor urban households often occupy flood-prone, weakly planned areas and lack resources to adapt; Gabonese urban populations may face heat 7–8°C above rural areas.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GAB-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "GAB-SRC-101",
+          "locator": "One-based PDF pp. 54–55 (printed 54–55), gender and protection risks"
+        }
+      ],
+      "geographies": [
+        "rural Gabon"
+      ],
+      "affected_groups": [
+        "rural women",
+        "girls"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": "The CCDR does not specify a climate scenario for this risk pathway.",
+      "compact_statement": "Source dated 2025 reports: The CCDR says rural women and girls may walk farther for water and fuel during droughts and disasters, losing time and facing greater harassment and assault risks.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "GAB-E-103",
+        "selected_source_id": "GAB-SRC-101",
+        "url": "https://documents1.worldbank.org/curated/en/099103125110522601/pdf/P500763-3c40e1c7-f48f-4563-871b-4437f238b2dd.pdf",
+        "locator": "One-based PDF pp. 54–55 (printed 54–55), gender and protection risks",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "GAB-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GAB-SRC-102",
+          "locator": "One-based PDF pp. 20 and 42 (printed 6 and 28), coastal risk/adaptation"
+        }
+      ],
+      "geographies": [
+        "Port-Gentil",
+        "Libreville"
+      ],
+      "affected_groups": [
+        "coastal residents",
+        "urban residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "The NDC does not specify a climate scenario for these named-place risks.",
+      "compact_statement": "Source dated 2025-11 reports: The 2025 NDC identifies sea-level rise and erosion threats to Libreville and Port-Gentil, including port and oil infrastructure, and lists gradual relocation of exposed areas among planned measures.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GAB-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GAB-SRC-102",
+          "locator": "One-based PDF p. 46 (printed 32), Paix et sécurité"
+        }
+      ],
+      "geographies": [
+        "Gabon"
+      ],
+      "affected_groups": [
+        "communities",
+        "climate-displaced people"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": "The NDC does not specify a climate scenario for these conditional risks.",
+      "compact_statement": "Source dated 2025-11 reports: The NDC says growing climate-related pressure on farmland, forests and fishing areas may heighten tensions between communities, weaken social cohesion and make climate-linked displacement more harmful.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GAB-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GAB-SRC-103",
+          "locator": "UNDP announcement, 4 December 2025."
+        }
+      ],
+      "geographies": [
+        "Libreville",
+        "Lambaréné",
+        "Mouila",
+        "Tchibanga",
+        "Mayumba",
+        "Port-Gentil",
+        "Omboué",
+        "Cocobeach"
+      ],
+      "affected_groups": [
+        "local communities",
+        "coastal residents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12-04 reports: NAP-II consultations were planned in Libreville, Lambaréné, Mouila, Tchibanga, Mayumba, Port-Gentil, Omboué and Cocobeach; UNDP identifies Cocobeach as especially exposed to erosion and sea-level rise.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GAB-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GAB-SRC-103",
+          "locator": "UNDP announcement, NAP-II preparation description."
+        }
+      ],
+      "geographies": [
+        "Gabon",
+        "coastal localities"
+      ],
+      "affected_groups": [
+        "local residents",
+        "civil society",
+        "private sector"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12-04 reports: Government and UNDP described a participatory process to collect information from local authorities, businesses, civil society and residents for a national adaptation roadmap.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GAB-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GAB-SRC-104",
+          "locator": "Project description, pilot cities and weather stations."
+        }
+      ],
+      "geographies": [
+        "Libreville",
+        "Port-Gentil"
+      ],
+      "affected_groups": [
+        "coastal urban residents"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: CDC and the national parks agency co-manage a coastal adaptation project using Libreville and Port-Gentil as pilot cities to prioritize investments and upgrade weather stations.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "GAB-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "GAB-E-103"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "GAB-E-103"
+        ],
+        "impact": [
+          "GAB-E-103"
+        ],
+        "mediator": [
+          "GAB-E-103"
+        ],
+        "consequence": [
+          "GAB-E-103"
+        ]
+      },
+      "geographies": [
+        "rural Gabon (no locality specified)"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "The Gabon CCDR describes how drought/disaster-related collection burdens can expose rural women and girls to protection risks through gendered work and constrained safe alternatives; this is a conditional mechanism, not an incidence estimate.",
+      "alternative_explanations": [
+        "Pre-existing gender inequality, poverty, protection-service availability and violence independently affect safety."
+      ],
+      "uncertainty": "Conditional mechanism in 2025 CCDR synthesis, not event-level attribution, a village-specific finding or a measured rise in violence.",
+      "potentially_out_of_scope_support_ids": [
+        "GAB-E-103"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "GAB-E-103",
+  "source_access_review": {
+    "selected_record_id": "GAB-E-103",
+    "selected_source_id": "GAB-SRC-101",
+    "url": "https://documents1.worldbank.org/curated/en/099103125110522601/pdf/P500763-3c40e1c7-f48f-4563-871b-4437f238b2dd.pdf",
+    "locator": "One-based PDF pp. 54–55 (printed 54–55), gender and protection risks",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": null,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+  },
+  "checks": [
+    {
+      "record_id": "GAB-E-103",
+      "source_id": "GAB-SRC-101",
+      "locator": "One-based PDF pp. 54–55 (printed 54–55), gender and protection risks",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "GAB-E-103: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "GAB-E-101",
+    "GAB-E-102",
+    "GAB-E-103",
+    "GAB-E-104",
+    "GAB-E-105",
+    "GAB-E-106",
+    "GAB-E-107",
+    "GAB-E-108",
+    "GAB-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

@@ -1,0 +1,915 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "IND",
+  "candidate_path": "countries/IND/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 5,
+    "evidence_count": 10,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 10
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 9,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "IND-E-105",
+          "IND-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "IND-E-101",
+          "IND-E-102",
+          "IND-E-103",
+          "IND-E-104",
+          "IND-E-106",
+          "IND-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "IND-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "IND-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "IND-E-101",
+          "IND-E-102",
+          "IND-E-103",
+          "IND-E-104",
+          "IND-E-105",
+          "IND-E-106",
+          "IND-E-108",
+          "IND-E-109"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/IND/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "IND-SRC-101",
+      "title": "District-level Climate Risk Assessment for India: Mapping Flood and Drought Risks released",
+      "organization": "Press Information Bureau, Ministry of Science and Technology, Government of India",
+      "publication_date": "2024-12-17",
+      "publication_date_basis": "publication",
+      "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2085134&lang=2&reg=48",
+      "geographic_coverage": [
+        "India",
+        "Assam",
+        "Bihar",
+        "Uttar Pradesh",
+        "West Bengal",
+        "Gujarat",
+        "Odisha",
+        "Jammu and Kashmir",
+        "Jharkhand",
+        "Maharashtra",
+        "Karnataka",
+        "Tamil Nadu",
+        "Chhattisgarh",
+        "Kerala",
+        "Uttarakhand",
+        "Haryana",
+        "Patna",
+        "Alappuzha",
+        "Charaideo",
+        "Dibrugarh",
+        "Sibsagar",
+        "South Salmara-Mankachar",
+        "Golaghat",
+        "Kendrapara",
+        "Murshidabad",
+        "Nadia",
+        "Uttar Dinajpur"
+      ],
+      "temporal_coverage": "District risk analysis uses flood and drought hazard records from 1970–2019; summary released December 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "IND-E-101",
+        "IND-E-102",
+        "IND-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly opened government press release, lines 13–24.",
+          "notes": "Release summarizes the 698-district assessment; claims retain the underlying historical analysis period and relative risk classification.",
+          "reuse_terms": "Terms not separately reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "IND-SRC-102",
+      "title": "How Extreme Heat is Impacting India: Assessing District-level Heat Risk",
+      "organization": "Council on Energy, Environment and Water (CEEW)",
+      "publication_date": "2025-05-20",
+      "publication_date_basis": "publication",
+      "url": "https://www.ceew.in/publications/mapping-climate-risks-and-impacts-of-extreme-heatwave-disaster-in-indian-districts",
+      "geographic_coverage": [
+        "India",
+        "734 districts",
+        "Mumbai",
+        "Bengaluru",
+        "Bhopal",
+        "Jaipur",
+        "Delhi",
+        "Chennai",
+        "Andhra Pradesh",
+        "Maharashtra",
+        "Haryana",
+        "Punjab",
+        "Chhattisgarh",
+        "Bihar",
+        "Uttar Pradesh",
+        "Odisha",
+        "Indo-Gangetic Plain"
+      ],
+      "temporal_coverage": "District heat trends for 1982–2022; socio-economic and health indicators include Census 2011 and NFHS 2019–21.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "IND-E-104",
+        "IND-E-105",
+        "IND-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly opened publisher report page; claims use lines 75–96 and 122–175.",
+          "notes": "Full substantive publisher text was read; downloadable PDF exceeded browser text limit, so claim locators use the publisher page's continuous report text.",
+          "reuse_terms": "Terms not separately reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "IND-SRC-103",
+      "title": "Mitigating the Urban Heat Island Effect in Indian Cities",
+      "organization": "Press Information Bureau, Ministry of Housing and Urban Affairs, Government of India",
+      "publication_date": "2026-07-20",
+      "publication_date_basis": "publication",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2286772&lang=1&reg=48",
+      "geographic_coverage": [
+        "India",
+        "Delhi",
+        "South Delhi",
+        "New Delhi"
+      ],
+      "temporal_coverage": "HAP status reported July 2026; Delhi climate vulnerability assessment uses 1991–2020 observations and projections to mid-century.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "IND-E-107",
+        "IND-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly opened government release, lines 17–30.",
+          "notes": "Delhi climate figures are reported through ministry inputs and the Delhi SAPCC 2.0 assessment; plans are not treated as evaluated performance.",
+          "reuse_terms": "Terms not separately reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "IND-SRC-104",
+      "title": "NHRC calls for preventive measures by 11 States to protect vulnerable people from heat waves",
+      "organization": "National Human Rights Commission of India",
+      "publication_date": "2025-05-01",
+      "publication_date_basis": "publication",
+      "url": "https://nhrc.nic.in/media/press-release/nhrc-india-calls-for-preventive-measures-by-11-states-to-protect-the-lives-vulnerable-people-from-heat-waves-in-this-summer",
+      "geographic_coverage": [
+        "India",
+        "Punjab",
+        "Haryana",
+        "Uttar Pradesh",
+        "Bihar",
+        "Jharkhand",
+        "West Bengal",
+        "Odisha",
+        "Andhra Pradesh",
+        "Telangana",
+        "Maharashtra",
+        "Rajasthan"
+      ],
+      "temporal_coverage": "Heat risks and NCRB death data for 2018–2022; NHRC intervention issued May 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "IND-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly opened NHRC press release, lines 53–79.",
+          "notes": "The death count is expressly attributed by NHRC to NCRB; intervention requests are distinguished from delivery.",
+          "reuse_terms": "Terms not separately reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "IND-SRC-105",
+      "title": "Climate and Gender: Association Between Droughts and Intimate Partner Violence in India",
+      "organization": "American Journal of Epidemiology / National Library of Medicine PubMed Central",
+      "publication_date": "2023-11-15",
+      "publication_date_basis": "publication",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10999644/",
+      "geographic_coverage": [
+        "India",
+        "national survey sample",
+        "district-level drought classifications"
+      ],
+      "temporal_coverage": "National Family Health Survey rounds 2015–2016 and 2019–2021; article published November 2023.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "open",
+      "records_using_source": [
+        "IND-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly opened article full text; abstract lines 97–101, results lines 260–263, discussion lines 308–320.",
+          "notes": "Open-access article license shown as CC BY 4.0; causal and mechanism limitations are retained.",
+          "reuse_terms": "CC BY 4.0; source attribution required; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "IND-E-110",
+        "selected_source_id": "IND-SRC-105",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10999644/",
+        "locator": "Methods: Data and Analysis; Results Table 2; Discussion limitations",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 21368,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "IND-E-110"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "IND-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IND-SRC-101",
+          "locator": "Government release, lines 15–16 and 22."
+        }
+      ],
+      "geographies": [
+        "Assam",
+        "Bihar",
+        "Uttar Pradesh",
+        "West Bengal",
+        "Gujarat",
+        "Odisha",
+        "Jammu and Kashmir"
+      ],
+      "affected_groups": [
+        "residents of high-risk districts"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-12-17 reports: The district assessment placed 51 districts in very high and 118 in high flood-risk bands; about 85% of those districts are in Assam, Bihar, Uttar Pradesh, West Bengal, Gujarat, Odisha and Jammu and Kashmir.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IND-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IND-SRC-101",
+          "locator": "Government release, line 23."
+        }
+      ],
+      "geographies": [
+        "Bihar",
+        "Assam",
+        "Jharkhand",
+        "Odisha",
+        "Uttar Pradesh",
+        "Maharashtra",
+        "West Bengal",
+        "Karnataka",
+        "Tamil Nadu",
+        "Chhattisgarh",
+        "Kerala",
+        "Uttarakhand",
+        "Haryana"
+      ],
+      "affected_groups": [
+        "residents of high-risk districts",
+        "agricultural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-12-17 reports: The assessment placed 91 districts in very high and 188 in high drought-risk bands; more than 85% of these districts are in Bihar, Assam, Jharkhand, Odisha, Uttar Pradesh, Maharashtra, West Bengal, Karnataka, Tamil Nadu, Chhattisgarh, Kerala, Uttarakhand and Haryana.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IND-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IND-SRC-101",
+          "locator": "Government release, line 24."
+        }
+      ],
+      "geographies": [
+        "Patna",
+        "Alappuzha",
+        "Charaideo",
+        "Dibrugarh",
+        "Sibsagar",
+        "South Salmara-Mankachar",
+        "Golaghat",
+        "Kendrapara",
+        "Murshidabad",
+        "Nadia",
+        "Uttar Dinajpur"
+      ],
+      "affected_groups": [
+        "residents of dual-risk districts"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-12-17 reports: Among the 50 districts with highest flood risk and 50 with highest drought risk, 11 were very high risk for both, including Patna, Alappuzha, Charaideo, Dibrugarh, Sibsagar, South Salmara-Mankachar, Golaghat, Kendrapara, Murshidabad, Nadia and Uttar Dinajpur.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IND-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IND-SRC-102",
+          "locator": "Report page, lines 130–133."
+        }
+      ],
+      "geographies": [
+        "India",
+        "Delhi",
+        "Maharashtra",
+        "Goa",
+        "Kerala",
+        "Gujarat",
+        "Rajasthan",
+        "Tamil Nadu",
+        "Andhra Pradesh",
+        "Madhya Pradesh",
+        "Uttar Pradesh"
+      ],
+      "affected_groups": [
+        "district residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-05-20 reports: CEEW classed 417 of 734 districts (57%), home to 76% of residents, at high or very high heat risk; Delhi, Maharashtra, Goa, Kerala and Gujarat ranked among the highest-risk states.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IND-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IND-SRC-102",
+          "locator": "Report page, lines 138–146 and 149–152."
+        }
+      ],
+      "geographies": [
+        "Mumbai",
+        "Bengaluru",
+        "Bhopal",
+        "Jaipur",
+        "Delhi",
+        "Chennai"
+      ],
+      "affected_groups": [
+        "urban residents"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-05-20 reports: Comparing 2012–2022 with 1982–2011, CEEW found extra warm nights per summer in Mumbai (15), Bengaluru (11), Bhopal and Jaipur (7 each), Delhi (6) and Chennai (4); warm nights rose faster than hot days.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IND-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IND-SRC-102",
+          "locator": "Report page, lines 141 and 156–161."
+        }
+      ],
+      "geographies": [
+        "Andhra Pradesh",
+        "Maharashtra",
+        "Haryana",
+        "Punjab",
+        "Chhattisgarh",
+        "Bihar",
+        "Uttar Pradesh",
+        "Odisha"
+      ],
+      "affected_groups": [
+        "people with chronic illness",
+        "older people",
+        "children under five",
+        "socially marginalized people"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-05-20 reports: CEEW found high heat vulnerability in districts of seven named states, where heat combined with chronic illness, older people and under-fives; Odisha districts with green cover and blue infrastructure had lower vulnerability.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IND-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IND-SRC-103",
+          "locator": "Government release, lines 21–25."
+        }
+      ],
+      "geographies": [
+        "India",
+        "23 states",
+        "195 districts",
+        "64 cities"
+      ],
+      "affected_groups": [
+        "street vendors",
+        "outdoor workers"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-07-20 reports: By July 2026, heat action plans were reported for 23 states, 195 districts and 64 cities; national guidance recommends that plans protect street vendors and other outdoor workers through shade, hydration, cooling spaces, flexible hours and alerts.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IND-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IND-SRC-103",
+          "locator": "Government release, lines 26–30."
+        }
+      ],
+      "geographies": [
+        "Delhi",
+        "South Delhi",
+        "New Delhi"
+      ],
+      "affected_groups": [
+        "urban residents",
+        "people with heat-exposed livelihoods"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "The release reports about +1.5°C under SSP2-4.5 and up to +2.1°C under SSP5-8.5 by mid-century.",
+      "compact_statement": "Source dated 2026-07-20 reports: Delhi's SAPCC 2.0 assessment identifies South Delhi as most and New Delhi as least climate-vulnerable; it projects higher summer maximum temperatures and more very hot days by mid-century, with cool roofs, cooling corridors, green infrastructure, drainage and wetland measures envisaged.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IND-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IND-SRC-104",
+          "locator": "NHRC release, lines 63–79."
+        }
+      ],
+      "geographies": [
+        "Punjab",
+        "Haryana",
+        "Uttar Pradesh",
+        "Bihar",
+        "Jharkhand",
+        "West Bengal",
+        "Odisha",
+        "Andhra Pradesh",
+        "Telangana",
+        "Maharashtra",
+        "Rajasthan"
+      ],
+      "affected_groups": [
+        "economically weaker people",
+        "outdoor workers",
+        "older people",
+        "children",
+        "homeless people"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-05-01 reports: NHRC cited 3,798 NCRB-recorded heat and sun-stroke deaths in 2018–2022 and identified economically weaker people, outdoor workers, older people, children and homeless people as at risk from inadequate shelter and resources; it urged 11 states to provide protections.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IND-E-110",
+      "record_review": "manual-source-access-limited",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "IND-SRC-105",
+          "locator": "Methods: Data and Analysis; Results Table 2; Discussion limitations"
+        }
+      ],
+      "geographies": [
+        "India",
+        "district-level drought classifications"
+      ],
+      "affected_groups": [
+        "married women",
+        "women in drought-affected areas"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2023 study reports drought–IPV associations, not causation. Precipitation analysis used 122,696 married women across NFHS 2015–16 and 2019–21; government-declared socioeconomic drought analysis used 62,464 women in NFHS 2015–16 only. Adjusted odds ratios vary by drought definition and violence type.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "Keep the numerical and association summary provisional until the full article or publisher-authorized copy is accessible; do not claim this audit verified its estimates."
+      ],
+      "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+      "verification_attempt": {
+        "record_id": "IND-E-110",
+        "source_id": "IND-SRC-105",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10999644/",
+        "locator": "Methods: Data and Analysis; Results Table 2; Discussion limitations",
+        "accessed_on": "2026-10-27",
+        "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "manual_adjudication_completed": true,
+        "verification_note": "The article URL returned a reCAPTCHA interstitial rather than article text. Its methods, sample denominators and adjusted odds ratios were not checked against the source."
+      },
+      "verification_note": "The article URL returned a reCAPTCHA interstitial rather than article text. Its methods, sample denominators and adjusted odds ratios were not checked against the source.",
+      "manual_adjudication": {
+        "status": "unresolved",
+        "reviewed_on": "2026-10-27",
+        "source_id": "IND-SRC-105",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10999644/",
+        "locator": "Methods: Data and Analysis; Results Table 2; Discussion limitations",
+        "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+        "reason": "The article URL returned a reCAPTCHA interstitial rather than article text. Its methods, sample denominators and adjusted odds ratios were not checked against the source.",
+        "recommended_record_patch": "Keep the numerical and association summary provisional until the full article or publisher-authorized copy is accessible; do not claim this audit verified its estimates.",
+        "coordinator_decision_ref": null
+      }
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "IND-E-110",
+  "source_access_review": {
+    "selected_record_id": "IND-E-110",
+    "selected_source_id": "IND-SRC-105",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10999644/",
+    "locator": "Methods: Data and Analysis; Results Table 2; Discussion limitations",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 21368,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+    "verification_note": "The article URL returned a reCAPTCHA interstitial rather than article text. Its methods, sample denominators and adjusted odds ratios were not checked against the source."
+  },
+  "checks": [
+    {
+      "record_id": "IND-E-110",
+      "source_id": "IND-SRC-105",
+      "locator": "Methods: Data and Analysis; Results Table 2; Discussion limitations",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Keep the numerical and association summary provisional until the full article or publisher-authorized copy is accessible; do not claim this audit verified its estimates.",
+      "coordinator_decision_ref": null
+    }
+  ],
+  "limitations": [
+    "IND-E-110: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "IND-E-101",
+    "IND-E-102",
+    "IND-E-103",
+    "IND-E-104",
+    "IND-E-105",
+    "IND-E-106",
+    "IND-E-107",
+    "IND-E-108",
+    "IND-E-109",
+    "IND-E-110"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 1,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

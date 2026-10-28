@@ -1,0 +1,1383 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "BGD",
+  "candidate_path": "countries/BGD/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 7,
+    "evidence_count": 21,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 21
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 8,
+      "access-only": 12,
+      "verified": 1
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "At least one known-gap statement appears inconsistent with the current pathway inventory.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "BGD-E-001",
+          "BGD-E-002",
+          "BGD-E-005",
+          "BGD-E-101",
+          "BGD-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "BGD-E-004",
+          "BGD-E-007",
+          "BGD-E-008",
+          "BGD-E-102",
+          "BGD-E-104",
+          "BGD-E-109",
+          "BGD-E-110",
+          "BGD-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BGD-E-003"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "BGD-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "BGD-E-006",
+          "BGD-E-103",
+          "BGD-E-105",
+          "BGD-E-106",
+          "BGD-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "BGD-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "BGD-E-101",
+          "BGD-E-102",
+          "BGD-E-103",
+          "BGD-E-104",
+          "BGD-E-105",
+          "BGD-E-106",
+          "BGD-E-107",
+          "BGD-E-108",
+          "BGD-E-109",
+          "BGD-E-110",
+          "BGD-E-111",
+          "BGD-E-112",
+          "BGD-E-113"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "BGD-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [
+      {
+        "text": "No inspected Bangladesh source explicitly links climate hazards to conflict or violence; no climate-FCV pathway is asserted.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      },
+      {
+        "text": "The bank contains no completed mediated climate-FCV pathway; this is an evidence gap, not evidence of absence.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      }
+    ],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/BGD/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "BGD-SRC-001",
+      "title": "Environmental and Social Management Framework: Resilient Urban and Territorial Development Project (RUTDP), Volume 1: Main Report",
+      "organization": "Local Government Engineering Department, Government of Bangladesh",
+      "publication_date": "2024-01",
+      "publication_date_basis": "publication",
+      "url": "https://documents.worldbank.org/curated/en/099012524092040361/pdf/P178985162b4d207119ae61d0c47718a273.pdf",
+      "geographic_coverage": [
+        "Bangladesh",
+        "Northwest and southwest corridor areas",
+        "36 districts in five divisions"
+      ],
+      "temporal_coverage": "Project context in 2024; first project phase planned for 2024-2030.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BGD-E-001",
+        "BGD-E-002",
+        "BGD-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BGD-SRC-002",
+      "title": "Country Climate and Development Report: Bangladesh Background Note, Environment, Natural Resources and Blue Economy",
+      "organization": "World Bank Group",
+      "publication_date": "2022",
+      "publication_date_basis": "document-version",
+      "url": "https://documents1.worldbank.org/curated/en/099805010202236850/pdf/P176757030fdaf06109e470fb232654e7a7.pdf",
+      "geographic_coverage": [
+        "Bangladesh",
+        "Sundarbans in the southwest",
+        "Chittagong Hill Forests in the east",
+        "Haor wetlands in the northeast",
+        "low-lying coastal delta"
+      ],
+      "temporal_coverage": "Bangladesh CCDR 2022 background note drawing on studies published in different years.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BGD-E-004",
+        "BGD-E-005",
+        "BGD-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BGD-SRC-003",
+      "title": "Water and Health: Impact of Climate Change in Bangladesh",
+      "organization": "World Bank Group, Health, Nutrition, and Population Global Practice",
+      "publication_date": "2022-09",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099340310172227551/pdf/IDU0a4f63a3e0146404572084480901e738a9812.pdf",
+      "geographic_coverage": [
+        "Bangladesh",
+        "Barind and drought-prone zone",
+        "coastal zone",
+        "six Delta Plan ecological zones"
+      ],
+      "temporal_coverage": "Historical studies summarized in a September 2022 discussion paper.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "BGD-E-007",
+        "BGD-E-008"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BGD-SRC-101",
+      "title": "Strengthening Disaster Risk Management and Community Resilience in Cox's Bazar",
+      "organization": "United Nations Development Programme, Bangladesh",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.undp.org/bangladesh/projects/strengthening-disaster-risk-management-and-community-resilience-coxs-bazar",
+      "geographic_coverage": [
+        "Cox's Bazar district",
+        "Rohingya refugee camps",
+        "adjacent host communities",
+        "Chittagong Hill Tracts"
+      ],
+      "temporal_coverage": "Programme reported as implemented since October 2022 and completed in November 2025; page undated.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BGD-E-101",
+        "BGD-E-102",
+        "BGD-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Background, Area of Work, Significant Achievements and Objectives",
+          "notes": "Official UNDP project page inspected; page describes risk context, activities, selected achievements and completion status.",
+          "reuse_terms": "Unknown; public page, no specific reuse license verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BGD-SRC-102",
+      "title": "Safe Access to Fuel and Energy Plus, Phase 2 (SAFE+2): Annual Programme Narrative Progress Report, Reporting Period 1 January-31 December 2024",
+      "organization": "Food and Agriculture Organization, International Organization for Migration, United Nations High Commissioner for Refugees and World Food Programme",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://mptf.undp.org/sites/default/files/documents/2025-05/2024_jp_bangladesh_safe_ii_narrative_report.pdf",
+      "geographic_coverage": [
+        "Cox's Bazar district",
+        "Rohingya refugee camps",
+        "host communities",
+        "Sadar, Ramu, Ukhiya and Teknaf upazilas"
+      ],
+      "temporal_coverage": "Programme progress reported for 1 January-31 December 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BGD-E-104",
+        "BGD-E-105",
+        "BGD-E-106",
+        "BGD-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Annual report, Strategic Priorities 1-3 and results",
+          "notes": "Full 14-page PDF inspected; report distinguishes planned priorities from reported 2024 implementation and outcomes.",
+          "reuse_terms": "Unknown; no specific reuse license verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BGD-SRC-103",
+      "title": "Gender Alert: Bangladesh Monsoon Flood, Flash Flood and Landslide Risks (12 July 2026)",
+      "organization": "Gender in Humanitarian Action Bangladesh and UN Women",
+      "publication_date": "2026-07-12",
+      "publication_date_basis": "document-version",
+      "url": "https://bangladesh.un.org/en/download/212477/319268",
+      "geographic_coverage": [
+        "Cox's Bazar",
+        "Chattogram",
+        "Chattogram Hill Tracts",
+        "Sylhet",
+        "Sunamganj",
+        "Netrokona",
+        "Kurigram"
+      ],
+      "temporal_coverage": "Situation and risk update dated 12 July 2026; portal publication date 14 July 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BGD-E-108",
+        "BGD-E-109",
+        "BGD-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Seven-page Gender Alert, pp. 1-4 and recommendations",
+          "notes": "Full PDF inspected; draws on GiHA local chapter and inter-sector updates; findings are a dated emergency snapshot.",
+          "reuse_terms": "Unknown; UN page download, no specific reuse license verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "BGD-SRC-104",
+      "title": "2025-26 Joint Response Plan: Rohingya Humanitarian Crisis, Bangladesh",
+      "organization": "Government of Bangladesh, United Nations and humanitarian partners",
+      "publication_date": "2025-03",
+      "publication_date_basis": "portal-publication",
+      "url": "https://bangladesh.un.org/sites/default/files/2025-03/JRP-2025-26.pdf",
+      "geographic_coverage": [
+        "Cox's Bazar district",
+        "Ukhiya and Teknaf upazilas",
+        "Rohingya refugee camps",
+        "Bhasan Char",
+        "host communities"
+      ],
+      "temporal_coverage": "Two-year humanitarian response plan for January 2025-December 2026; needs and context include 2024 events.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "BGD-E-111",
+        "BGD-E-112",
+        "BGD-E-113"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "2025-26 Joint Response Plan, pp. 15, 28-31",
+          "notes": "Full 80-page plan inspected, including hazard context, tension analysis and planned response measures.",
+          "reuse_terms": "Unknown; no specific reuse license verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "BGD-E-111",
+        "selected_source_id": "BGD-SRC-104",
+        "url": "https://bangladesh.un.org/sites/default/files/2025-03/JRP-2025-26.pdf",
+        "locator": "One-based PDF p.16 (printed p.15), Overview of the Crisis.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 3247869,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          16
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "BGD-E-111"
+      ],
+      "manual_verified_record_ids": [
+        "BGD-E-111"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "BGD-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGD-SRC-001",
+          "locator": "Executive Summary, printed pp. iii-iv (PDF pp. 3-4)."
+        }
+      ],
+      "geographies": [
+        "Northwest urban clusters 1 and 2"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The project ESMF describes northwest urban clusters 1 and 2 as relatively drought-prone, with less rainfall and higher temperatures than other parts of Bangladesh.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BGD-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGD-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGD-SRC-001",
+          "locator": "Executive Summary, printed p. iv (PDF p. 4)."
+        }
+      ],
+      "geographies": [
+        "Southwest urban clusters 3 and 5",
+        "coastal districts"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Coastal districts in southwest clusters 3 and 5 are described as vulnerable to salinity intrusion, cyclones, and tidal water surges.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BGD-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGD-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGD-SRC-001",
+          "locator": "Executive Summary, printed pp. iii-iv (PDF pp. 3-4)."
+        }
+      ],
+      "geographies": [
+        "87 selected municipalities and city corporations",
+        "36 districts in five divisions"
+      ],
+      "affected_groups": [
+        "urban residents",
+        "women"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": null,
+      "compact_statement": "RUTDP plans climate-resilient urban services and stronger city management across 87 municipalities and city corporations in 36 districts, targeting about 21 million people, half of them women.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BGD-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGD-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGD-SRC-002",
+          "locator": "Section 1, Bangladesh Context and Problem Statement, printed p. 3 (PDF p. 2)."
+        }
+      ],
+      "geographies": [
+        "Bangladesh",
+        "rural areas"
+      ],
+      "affected_groups": [
+        "rural poor"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The note reports that climate change, pollution, resource overuse, and rapid urbanization are degrading ecosystems and increasing livelihood threats, especially for the rural poor.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "BGD-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGD-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGD-SRC-002",
+          "locator": "Section 1, coastal hazard discussion, printed p. 4 (PDF p. 3)."
+        }
+      ],
+      "geographies": [
+        "low-lying coastal delta",
+        "coastal areas"
+      ],
+      "affected_groups": [
+        "coastal residents"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The note describes low-lying delta populations as exposed to cyclones and storm surges, with coastal erosion and seawater intrusion affecting land and groundwater.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "BGD-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGD-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGD-SRC-002",
+          "locator": "Section 1, mangrove protection discussion, printed p. 4 (PDF p. 3)."
+        }
+      ],
+      "geographies": [
+        "Bangladesh coastal villages"
+      ],
+      "affected_groups": [
+        "coastal residents"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Studies cited by the note estimate mangroves protect 1.1-3.5 million people from cyclone flooding; villages with mangroves had about half the monetary losses of other villages during Cyclone Sidr.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BGD-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGD-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGD-SRC-003",
+          "locator": "Abstract, printed p. ii (PDF p. 4)."
+        }
+      ],
+      "geographies": [
+        "Bangladesh",
+        "64 districts",
+        "six Delta Plan ecological zones"
+      ],
+      "affected_groups": [],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The paper says Bangladesh's Delta Plan 2100 divides 64 districts into six ecological zones and identifies 58 districts as extremely vulnerable to climate change.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "BGD-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGD-E-008",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGD-SRC-003",
+          "locator": "Abstract, printed p. ii (PDF p. 4)."
+        }
+      ],
+      "geographies": [
+        "Barind and drought-prone areas",
+        "coastal regions"
+      ],
+      "affected_groups": [
+        "pregnant women",
+        "children"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The paper reports regional health differences: groundwater depletion in Barind and drought-prone areas, saline drinking water on the coast, and especially pronounced effects for pregnant women and children.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "BGD-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGD-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGD-SRC-101",
+          "locator": "Project page, Background"
+        }
+      ],
+      "geographies": [
+        "Cox's Bazar district"
+      ],
+      "affected_groups": [
+        "local communities",
+        "Rohingya refugees",
+        "host communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "UNDP identifies Cox's Bazar exposure to cyclones, heavy rain, landslides, flash floods, storm surges and extreme temperatures; poverty and weak coping capacity compound impacts.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGD-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGD-SRC-101",
+          "locator": "Project page, Background"
+        }
+      ],
+      "geographies": [
+        "Cox's Bazar Rohingya camps",
+        "adjacent host communities"
+      ],
+      "affected_groups": [
+        "Rohingya refugees",
+        "host communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "UNDP's project description links overcrowded temporary hillside shelters, environmental degradation and infrastructure pressure in Cox's Bazar camps and host areas with heightened weather exposure.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGD-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGD-SRC-101",
+          "locator": "Project page, Significant Achievements"
+        }
+      ],
+      "geographies": [
+        "Cox's Bazar camps and host communities",
+        "Chittagong Hill Tracts"
+      ],
+      "affected_groups": [
+        "Rohingya refugees",
+        "host communities",
+        "local responders"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNDP's project page reports forecasting, landslide warning and 10 gauges in camp/host areas; its 2,000-person training figure is treated as a target, not verified completion.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGD-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGD-SRC-102",
+          "locator": "PDF p. 7, Strategic Priority 1"
+        }
+      ],
+      "geographies": [
+        "Cox's Bazar Rohingya camps"
+      ],
+      "affected_groups": [
+        "Rohingya refugees"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2024 SAFE+2 report describes intense monsoon landslide risk in refugee camps and LPG reducing fuelwood pressure on slope-stabilizing forests.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGD-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGD-SRC-102",
+          "locator": "PDF pp. 7-8, Strategic Priority 1"
+        }
+      ],
+      "geographies": [
+        "Cox's Bazar Rohingya camps",
+        "surrounding host communities"
+      ],
+      "affected_groups": [
+        "Rohingya refugees",
+        "host communities",
+        "women and girls"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2024 SAFE+2 report records 1,777,331 LPG refills across UNHCR/IOM operations, including 989,011 funded by SAFE+2; it reports protection, forest and refugee-host benefits without detailed causal methods.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGD-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGD-SRC-102",
+          "locator": "PDF pp. 8-9, Strategic Priority 2"
+        }
+      ],
+      "geographies": [
+        "Cox's Bazar district",
+        "Rohingya camps",
+        "South Forest Division",
+        "Coastal Forest Division"
+      ],
+      "affected_groups": [
+        "Rohingya refugees",
+        "host communities",
+        "forest-dependent households"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "SAFE+2 reports restoring 578 hectares in 2024 and describes landslide and human-elephant-conflict benefits; neither avoided losses nor human social-conflict effects are established.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGD-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGD-SRC-102",
+          "locator": "PDF p. 5, Strategic Priority 3"
+        }
+      ],
+      "geographies": [
+        "Cox's Bazar district",
+        "Rohingya camps",
+        "host communities"
+      ],
+      "affected_groups": [
+        "Bangladeshi farmers",
+        "Rohingya beneficiaries"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "SAFE+2 reports support to 5,000 host farmers and 600 Rohingya and a resilience-index increase from 31 to 42; the inspected summary does not establish scale, comparison or attribution.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGD-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGD-SRC-103",
+          "locator": "PDF p. 2, Cox's Bazar situation update"
+        }
+      ],
+      "geographies": [
+        "Cox's Bazar Rohingya camps"
+      ],
+      "affected_groups": [
+        "Rohingya refugees",
+        "women and girls",
+        "persons with disabilities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 12 July 2026 Gender Alert reports 286 weather incidents in Cox's Bazar camps on 4-9 July, affecting 26,119 refugees, damaging 2,809 shelters and displacing 4,307 people.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGD-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGD-SRC-103",
+          "locator": "PDF pp. 2-4, Gendered Impact Analysis and Priority Gender Concerns"
+        }
+      ],
+      "geographies": [
+        "Cox's Bazar Rohingya camps",
+        "Chattogram",
+        "Chattogram Hill Tracts",
+        "Sylhet",
+        "Sunamganj",
+        "Netrokona",
+        "Kurigram"
+      ],
+      "affected_groups": [
+        "women and girls",
+        "female-headed households",
+        "persons with disabilities",
+        "older women",
+        "Rohingya refugees"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "No model scenario specified; near-term monsoon risk described in 12 July 2026 alert.",
+      "compact_statement": "Gender inequality shapes warning access and evacuation; women and girls face delayed movement, livelihood disruption and greater protection and GBV risks.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGD-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGD-SRC-103",
+          "locator": "PDF p. 2, Gendered Impact Analysis"
+        }
+      ],
+      "geographies": [
+        "Chattogram Hill Tracts"
+      ],
+      "affected_groups": [
+        "pregnant and lactating women",
+        "newborns",
+        "remote communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "No model scenario specified; near-term monsoon risk described in 12 July 2026 alert.",
+      "compact_statement": "In the Chattogram Hill Tracts, road disruption constrains obstetric care; floods and landslides may delay referrals and raise maternal/newborn risks.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGD-E-111",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "BGD-SRC-104",
+          "locator": "One-based PDF p.16 (printed p.15), Overview of the Crisis."
+        }
+      ],
+      "geographies": [
+        "Cox's Bazar Rohingya camps",
+        "Ukhiya and Teknaf upazilas"
+      ],
+      "affected_groups": [
+        "Rohingya refugees",
+        "children",
+        "camp residents"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The JRP reports 1,500+ rain-triggered camp landslides in Cox's Bazar in 2024, killing 12 refugees and damaging hundreds of shelters.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "Retain the dated event figures and Cox's Bazar camp scope; do not attribute the 2024 rain event to climate change without a separate source."
+      ],
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+      "verification_attempt": {
+        "record_id": "BGD-E-111",
+        "source_id": "BGD-SRC-104",
+        "url": "https://bangladesh.un.org/sites/default/files/2025-03/JRP-2025-26.pdf",
+        "locator": "One-based PDF p.16 (printed p.15), Overview of the Crisis.",
+        "accessed_on": "2026-10-27",
+        "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The 2025-26 JRP reports that heavy rains caused more than 1,500 landslides in Cox's Bazar camps in 2024, killing 12 Rohingya refugees/FDMNs and damaging hundreds of shelters. This is an event report, not an attribution study."
+      },
+      "verification_note": "The 2025-26 JRP reports that heavy rains caused more than 1,500 landslides in Cox's Bazar camps in 2024, killing 12 Rohingya refugees/FDMNs and damaging hundreds of shelters. This is an event report, not an attribution study.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "BGD-SRC-104",
+        "source_url": "https://bangladesh.un.org/sites/default/files/2025-03/JRP-2025-26.pdf",
+        "locator": "One-based PDF p.16 (printed p.15), Overview of the Crisis.",
+        "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+        "reason": "The 2025-26 JRP reports that heavy rains caused more than 1,500 landslides in Cox's Bazar camps in 2024, killing 12 Rohingya refugees/FDMNs and damaging hundreds of shelters. This is an event report, not an attribution study.",
+        "recommended_record_patch": "Retain the dated event figures and Cox's Bazar camp scope; do not attribute the 2024 rain event to climate change without a separate source.",
+        "coordinator_decision_ref": null
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "BGD-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGD-SRC-104",
+          "locator": "PDF p. 31, Mitigating Potential Tensions Between Communities"
+        }
+      ],
+      "geographies": [
+        "Cox's Bazar district",
+        "Rohingya camps",
+        "host communities"
+      ],
+      "affected_groups": [
+        "Rohingya refugees",
+        "Bangladeshi host communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2025-2026 JRP describes infrastructure, service and livelihood pressure in Cox's Bazar and links labor competition, environmental degradation and prices with tension risks; climate is not identified as the cause.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "BGD-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "BGD-SRC-104",
+          "locator": "PDF pp. 28-29, Strategic Objective Five"
+        }
+      ],
+      "geographies": [
+        "Cox's Bazar district",
+        "Rohingya camps",
+        "host communities"
+      ],
+      "affected_groups": [
+        "Rohingya refugees",
+        "Bangladeshi host communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2025-2026 JRP plans restoration, cleaner energy, inclusive warnings and climate/disaster training for refugees and hosts; these remain planned measures, not verified results.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "BGD-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "BGD-E-101",
+        "BGD-E-102",
+        "BGD-E-108",
+        "BGD-E-109"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "BGD-E-101",
+          "BGD-E-108"
+        ],
+        "impact": [
+          "BGD-E-108"
+        ],
+        "mediator": [
+          "BGD-E-102",
+          "BGD-E-109"
+        ],
+        "consequence": [
+          "BGD-E-102",
+          "BGD-E-108"
+        ]
+      },
+      "geographies": [
+        "Cox's Bazar camps and adjacent host communities"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Displacement-related settlement and mobility constraints in Cox's Bazar magnify vulnerability to heavy rain, landslides and flooding, without implying climate-driven violence.",
+      "alternative_explanations": [
+        "Site design, poverty, infrastructure and service gaps shape losses independently of the displacement history; individual contributions are not measured."
+      ],
+      "uncertainty": "Conditional reverse interaction grounded in camp context and dated July 2026 impacts, not a causal estimate or attribution of a weather event to climate change.",
+      "potentially_out_of_scope_support_ids": [
+        "BGD-E-101",
+        "BGD-E-102",
+        "BGD-E-108",
+        "BGD-E-109"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "BGD-E-111",
+  "source_access_review": {
+    "selected_record_id": "BGD-E-111",
+    "selected_source_id": "BGD-SRC-104",
+    "url": "https://bangladesh.un.org/sites/default/files/2025-03/JRP-2025-26.pdf",
+    "locator": "One-based PDF p.16 (printed p.15), Overview of the Crisis.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 3247869,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      16
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+    "verification_note": "The 2025-26 JRP reports that heavy rains caused more than 1,500 landslides in Cox's Bazar camps in 2024, killing 12 Rohingya refugees/FDMNs and damaging hundreds of shelters. This is an event report, not an attribution study."
+  },
+  "checks": [
+    {
+      "record_id": "BGD-E-111",
+      "source_id": "BGD-SRC-104",
+      "locator": "One-based PDF p.16 (printed p.15), Overview of the Crisis.",
+      "verification_status": "verified",
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Retain the dated event figures and Cox's Bazar camp scope; do not attribute the 2024 rain event to climate change without a separate source.",
+      "coordinator_decision_ref": null
+    }
+  ],
+  "limitations": [
+    "BGD-E-111: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "BGD-E-001",
+    "BGD-E-002",
+    "BGD-E-003",
+    "BGD-E-004",
+    "BGD-E-005",
+    "BGD-E-006",
+    "BGD-E-007",
+    "BGD-E-008",
+    "BGD-E-101",
+    "BGD-E-102",
+    "BGD-E-103",
+    "BGD-E-104",
+    "BGD-E-105",
+    "BGD-E-106",
+    "BGD-E-107",
+    "BGD-E-108",
+    "BGD-E-109",
+    "BGD-E-110",
+    "BGD-E-111",
+    "BGD-E-112",
+    "BGD-E-113",
+    "BGD-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 1,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

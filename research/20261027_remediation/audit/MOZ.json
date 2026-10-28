@@ -1,0 +1,2605 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "MOZ",
+  "candidate_path": "countries/MOZ/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 17,
+    "evidence_count": 36,
+    "pathway_count": 8,
+    "evidence_source_reference_count": 36
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 24,
+      "access-only": 12
+    },
+    "pathway_claims": {
+      "unresolved": 8
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "At least one known-gap statement appears inconsistent with the current pathway inventory.",
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "MOZ-E-001",
+          "MOZ-E-002"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "MOZ-E-003",
+          "MOZ-E-009",
+          "MOZ-E-011",
+          "MOZ-E-012",
+          "MOZ-E-103",
+          "MOZ-E-104",
+          "MOZ-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "MOZ-E-007",
+          "MOZ-E-008",
+          "MOZ-E-010",
+          "MOZ-E-013",
+          "MOZ-E-101"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MOZ-E-021"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MOZ-E-005",
+          "MOZ-E-107",
+          "MOZ-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MOZ-E-004",
+          "MOZ-E-006",
+          "MOZ-E-018",
+          "MOZ-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "MOZ-E-022",
+          "MOZ-E-023",
+          "MOZ-E-024",
+          "MOZ-E-025",
+          "MOZ-E-026",
+          "MOZ-E-105",
+          "MOZ-E-108",
+          "MOZ-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "MOZ-E-015",
+          "MOZ-E-016",
+          "MOZ-E-017",
+          "MOZ-E-102",
+          "MOZ-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "MOZ-E-014"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "MOZ-E-101",
+          "MOZ-E-102",
+          "MOZ-E-103",
+          "MOZ-E-104",
+          "MOZ-E-105",
+          "MOZ-E-106",
+          "MOZ-E-108",
+          "MOZ-E-109",
+          "MOZ-E-110",
+          "MOZ-E-111",
+          "MOZ-E-112"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "MOZ-P-001",
+          "MOZ-P-002",
+          "MOZ-P-003",
+          "MOZ-P-004",
+          "MOZ-P-005",
+          "MOZ-P-006",
+          "MOZ-P-007",
+          "MOZ-P-008"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [
+      {
+        "text": "Climate projections: The verified NDC projection uses seven GCMs and specifies horizons but does not identify the emissions scenario associated with the cited 1.5-3.0°C mid-century range. Newer, district- or basin-resolved projections for heat, rainfall extremes, drought, sea-level rise and cyclone-related hazards should be independently assembled.",
+        "recommendation": "Reconcile with the currently assembled pathway IDs or explain the narrower unresolved gap."
+      }
+    ],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/MOZ/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "MOZ-SRC-001",
+      "title": "Update of the First NDC of Mozambique (UNFCCC4)",
+      "organization": "Government of Mozambique / UNFCCC registry",
+      "publication_date": "2021",
+      "publication_date_basis": "submission",
+      "url": "https://unfccc.int/sites/default/files/NDC/2022-06/NDC_EN_Final.pdf",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "Historical climate 1960-2005; extreme events 1980-2019; projections 2046-2065 and 2080-2100; NDC actions mainly 2020-2025",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MOZ-E-001",
+        "MOZ-E-002",
+        "MOZ-E-003",
+        "MOZ-E-004",
+        "MOZ-E-005"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MOZ-SRC-002",
+      "title": "Mozambique's National Adaptation Plan (UNFCCC5)",
+      "organization": "Government of Mozambique / UNFCCC",
+      "publication_date": "2023",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/resource/National_Adaptation_Plan_Mozambique.pdf",
+      "geographic_coverage": [
+        "National with provincial/district examples"
+      ],
+      "temporal_coverage": "Current planning framework drawing on historical evidence and forward adaptation needs",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MOZ-E-006",
+        "MOZ-E-007"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MOZ-SRC-003",
+      "title": "Mozambique Country Climate and Development Report (CCDR) (World Bank6)",
+      "organization": "World Bank Group",
+      "publication_date": "2023",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/country/mozambique/publication/mozambique-afe-country-climate-and-development-report-ccdr",
+      "geographic_coverage": [
+        "National with provincial analysis"
+      ],
+      "temporal_coverage": "To 2050",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MOZ-E-008"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MOZ-SRC-004",
+      "title": "Localised Climate-Related Security Risk Assessment: Mozambique Case Study (GPPAC7)",
+      "organization": "Global Partnership for the Prevention of Armed Conflict (GPPAC)",
+      "publication_date": "2023",
+      "publication_date_basis": "publication",
+      "url": "https://gppac.net/files/2023-06/Case%20Study%20Localised%20Climate%20Related%20Security%20Risk%20Assessment%20Mozambique.pdf",
+      "geographic_coverage": [
+        "Mecufi District, Cabo Delgado"
+      ],
+      "temporal_coverage": "Data collection Dec 2022-Feb/Mar 2023",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MOZ-E-014",
+        "MOZ-E-015",
+        "MOZ-E-016",
+        "MOZ-E-017",
+        "MOZ-E-018"
+      ],
+      "this_audit_verification": "access-only",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "MOZ-E-016",
+        "selected_source_id": "MOZ-SRC-004",
+        "url": "https://gppac.net/files/2023-06/Case%20Study%20Localised%20Climate%20Related%20Security%20Risk%20Assessment%20Mozambique.pdf",
+        "locator": "PDF P5, “Armed insurgency ... competition over resources.”",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 5401170,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          5
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "MOZ-E-016"
+      ]
+    },
+    {
+      "source_id": "MOZ-SRC-005",
+      "title": "Conflict Analysis of Cabo Delgado Province in Mozambique",
+      "organization": "Agency for Peacebuilding",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://www.peaceagency.org/wp-content/uploads/2024/03/AP_Conflict-analysis_Coast-Mozambique_Feb-2024-1.pdf",
+      "geographic_coverage": [
+        "Ancuabe, Chiure, Mecufi and Pemba, Cabo Delgado"
+      ],
+      "temporal_coverage": "Conflict since 2017; primary study contemporary to report",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MOZ-SRC-006",
+      "title": "Mozambique: IPC Acute Food Insecurity Snapshot, Oct 2025-Mar 2026 (IPCinfo8)",
+      "organization": "IPC partners / SETSAN-linked IPC process",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/COMBINED_IPC_Mozambique_Acute_Food_Insecurity_Oct2025_Mar2026_Snapshot.pdf",
+      "geographic_coverage": [
+        "108 analysed districts"
+      ],
+      "temporal_coverage": "Oct 2025-Mar 2026, with linked analyses extending to Sep 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MOZ-E-009",
+        "MOZ-E-010"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MOZ-SRC-007",
+      "title": "Mozambique Humanitarian Situation Report No. 2, February 2026 (UNICEF9)",
+      "organization": "UNICEF",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/media/180381/file/Mozambique-Humanitarian-Situation-Report-No.2%2CFebruary-2026.pdf.pdf",
+      "geographic_coverage": [
+        "National with provincial detail"
+      ],
+      "temporal_coverage": "Through 28 Feb 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MOZ-E-011",
+        "MOZ-E-012"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MOZ-SRC-008",
+      "title": "Humanitarian Action for Children - Mozambique Appeal 2026 (UNICEF10)",
+      "organization": "UNICEF",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/appeals/mozambique",
+      "geographic_coverage": [
+        "National, with northern conflict focus"
+      ],
+      "temporal_coverage": "2026 planning horizon and 2024-25/2025 evidence",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MOZ-E-013"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MOZ-SRC-009",
+      "title": "Inter-Agency Humanitarian Evaluation of the Response to Cyclone Idai in Mozambique (World Food Programme11)",
+      "organization": "IASC/Inter-Agency evaluation, hosted by WFP",
+      "publication_date": "2020",
+      "publication_date_basis": "publication",
+      "url": "https://www.wfp.org/publications/inter-agency-humanitarian-evaluation-response-cyclone-idai-mozambique",
+      "geographic_coverage": [
+        "Cyclone Idai-affected Mozambique"
+      ],
+      "temporal_coverage": "2019 response",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MOZ-E-022",
+        "MOZ-E-023"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MOZ-SRC-010",
+      "title": "Seeds, Cash, and Preparedness: FAO's Anticipatory Actions (FAOHome12)",
+      "organization": "FAO Mozambique",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://www.fao.org/mozambique/news/details/seeds--cash--and-preparedness--fao-s-anticipatory-actions/en",
+      "geographic_coverage": [
+        "Machanga, Sofala; Maganja da Costa, Zambézia"
+      ],
+      "temporal_coverage": "2024/25 agricultural season",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MOZ-E-021"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MOZ-SRC-011",
+      "title": "Climate Change Adaptation Action and Mainstreaming in Mozambique - Final Evaluation (UNDP IEO Evaluation Resource Center13)",
+      "organization": "UNDP",
+      "publication_date": "2013",
+      "publication_date_basis": "publication",
+      "url": "https://erc.undp.org/evaluation/documents/download/7122",
+      "geographic_coverage": [
+        "National and selected subnational institutions"
+      ],
+      "temporal_coverage": "Project 2009-2012; evaluation Jan-Feb 2013",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MOZ-E-024",
+        "MOZ-E-025",
+        "MOZ-E-026"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MOZ-SRC-101",
+      "title": "Leaving No One Behind at Local Level: Cabo Delgado Province Report",
+      "organization": "United Nations Development Programme (UNDP), Mozambique; Government of Mozambique",
+      "publication_date": "2025-09-29",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2025-09/lnob_relatorio_c_delgado_ingles.pdf",
+      "geographic_coverage": [
+        "Cabo Delgado Province",
+        "Chiúre",
+        "Mecúfi",
+        "Pemba",
+        "Metuge"
+      ],
+      "temporal_coverage": "Local fieldwork May–June 2023; report published September 2025; climate-shock findings include Cyclone Kenneth (2019) and prior analysis through 2021.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MOZ-E-101",
+        "MOZ-E-102"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 92-page UNDP PDF; especially PDF pp.10–12, 27, 57–58 and 74.",
+          "notes": "Opened the original PDF from the UNDP publication page and read the named-district context, method and cited climate/conflict passages.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MOZ-SRC-102",
+      "title": "Mozambique Humanitarian Situation Report No. 12 (End of Year), 31 December 2025",
+      "organization": "United Nations Children's Fund (UNICEF), Mozambique",
+      "publication_date": "2026-02-09",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.unicef.org/media/178796/file/Mozambique-Humanitarian-Situation-Report-No.12-%28End-of-Year%29-31-December-2025.pdf.pdf",
+      "geographic_coverage": [
+        "Mozambique",
+        "Cabo Delgado",
+        "Nampula",
+        "Sofala",
+        "Manica",
+        "Zambézia",
+        "Memba",
+        "Mocímboa da Praia",
+        "Chiúre"
+      ],
+      "temporal_coverage": "Situation and UNICEF response reporting for January–December 2025; report published 9 February 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MOZ-E-103",
+        "MOZ-E-104",
+        "MOZ-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 12-page UNICEF PDF; especially PDF pp.1–2 and 4 for 2025 context, displacement, cyclone impacts and mobile services.",
+          "notes": "Opened the original 2025 end-year report; cover shows 9 February 2026 publication and 1 January–31 December 2025 reporting period.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MOZ-SRC-103",
+      "title": "United Nations Sustainable Development Cooperation Framework Evaluation: Mozambique (2025), Final Report",
+      "organization": "United Nations Sustainable Development Group; independent evaluation team",
+      "publication_date": "2025-11-21",
+      "publication_date_basis": "document-version",
+      "url": "https://mozambique.un.org/sites/default/files/2026-04/FINAL-UNSDCF%202025%20Final%20Evaluation%20Report%2021%20November%202025.pdf",
+      "geographic_coverage": [
+        "National",
+        "Cabo Delgado",
+        "Nampula",
+        "Niassa",
+        "Sofala",
+        "Manica",
+        "Zambézia",
+        "Gaza",
+        "Inhambane",
+        "Chókwè"
+      ],
+      "temporal_coverage": "Evaluation of 2022–2026 Cooperation Framework; findings mainly cover 2022–2025; field visits and interviews in August–September 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MOZ-E-106",
+        "MOZ-E-107",
+        "MOZ-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 133-page independent evaluation; especially PDF pp.61–68 for sustainability, coverage, access and government capacity findings.",
+          "notes": "Opened the original evaluation PDF; used the 21 November 2025 date printed on the cover, not the hosting path.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MOZ-SRC-104",
+      "title": "Comunidades de Cabo Delgado Validam Planos de Acção Espacial",
+      "organization": "United Nations in Mozambique; Cabo Delgado Provincial Government; UN-Habitat and partners",
+      "publication_date": "2026-08-26",
+      "publication_date_basis": "portal-publication",
+      "url": "https://mozambique.un.org/pt/321600-comunidades-de-cabo-delgado-validam-planos-de-ac%C3%A7%C3%A3o-espacial",
+      "geographic_coverage": [
+        "Cabo Delgado",
+        "Nankumi, Ancuabe District",
+        "Naminawe, Metuge District",
+        "Metula, Pemba City"
+      ],
+      "temporal_coverage": "Community planning release dated 26 August 2026; plans and near-term actions described at publication.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MOZ-E-109",
+        "MOZ-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full official UN release, paragraphs 1–6, on location selection, displacement, resource access, tensions and planned actions.",
+          "notes": "Opened the original Portuguese-language UN Mozambique release; no search-result snippet was used as evidence.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MOZ-SRC-105",
+      "title": "Dngrh Reúne Sectores-chave para fazer Balanço da época Chuvosa 2025/2026",
+      "organization": "Mozambique Ministry of Public Works, Housing and Water Resources (MOPHRH), National Directorate of Water Resources Management",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://mophrh.gov.mz/dngrh-reune-sectores-chave-para-fazer-balanco-da-epoca-chuvosa-2025-2026/",
+      "geographic_coverage": [
+        "Rovuma, Messalo, Montepuez and Megaruma basins",
+        "Zambeze, Búzi, Save, Limpopo, Incomáti and Umbelúzi basins",
+        "Chókwè, Guijá, Chibuto and Xai-Xai"
+      ],
+      "temporal_coverage": "Government review of the 2025–2026 rainy and cyclone season; review meeting held 14–15 May 2026; page date not stated.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MOZ-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full ministry web page, paragraphs 2–5, on seasonal review, affected basins, roads, crops and Massingir Dam operations.",
+          "notes": "Opened the original ministry page. It states the review dates but does not state the page publication date.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "MOZ-SRC-106",
+      "title": "Presidente do INGD destaca a importância da antecipação durante o balanço da época chuvosa 2025/2026 em Moçambique",
+      "organization": "National Institute for Disaster Risk Management and Reduction (INGD), Mozambique",
+      "publication_date": "2026-08-13",
+      "publication_date_basis": "portal-publication",
+      "url": "https://ingd.gov.mz/presidente-do-ingd-destaca-a-importancia-da-antecipacao-durante-o-balanco-da-epoca-chuvosa-2025-2026-em-mocambique/",
+      "geographic_coverage": [
+        "Six river basins",
+        "Govuro",
+        "Manhiça",
+        "Machanga",
+        "Búzi",
+        "Xai-Xai",
+        "Guijá",
+        "Chókwè"
+      ],
+      "temporal_coverage": "INGD review of the 2025–2026 rainy and cyclone season; anticipatory actions reported for December 2025–March 2026; page published 13 August 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "MOZ-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full INGD official page, paragraphs 1–5, including seasonal review results and anticipatory-action figures.",
+          "notes": "Opened the original government institute page, published 13 August 2026.",
+          "reuse_terms": "Terms not reviewed; concise paraphrase only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "MOZ-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-001",
+          "locator": "PDF P17, “Climate Scenarios,” lines describing methodology/stations."
+        }
+      ],
+      "geographies": [
+        "Mozambique"
+      ],
+      "affected_groups": [
+        "national population"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "National historical climate baseline uses 32 stations.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-001",
+          "locator": "PDF P17, “Temperature Standards.”"
+        }
+      ],
+      "geographies": [
+        "Mozambique"
+      ],
+      "affected_groups": [
+        "national population"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "2046-2065; 7 GCMs; emissions scenario not specified in cited passage",
+      "compact_statement": "Mid-century warming of 1.5-3.0°C in cited modelling.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-001",
+          "locator": "PDF P13, Figure 4 “Total number of extreme events from 1980-2019.”"
+        }
+      ],
+      "geographies": [
+        "Mozambique"
+      ],
+      "affected_groups": [
+        "exposed communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Repeated historical cyclone/flood/drought exposure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-001",
+          "locator": "PDF P8, NDC implementation/finance discussion."
+        }
+      ],
+      "geographies": [
+        "Mozambique"
+      ],
+      "affected_groups": [
+        "institutions and exposed populations"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Large financing requirement constrains implementation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-001",
+          "locator": "PDF P9, Local Adaptation Plans."
+        }
+      ],
+      "geographies": [
+        "123 districts"
+      ],
+      "affected_groups": [
+        "local populations"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Local adaptation planning had broad formal reach by 2021.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-002",
+          "locator": "PDF P73-P74, needs list and Figure 14 theory of change."
+        }
+      ],
+      "geographies": [
+        "Mozambique"
+      ],
+      "affected_groups": [
+        "institutions",
+        "exposed communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Formal adaptation system retains coordination/data/capacity gaps.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-002",
+          "locator": "PDF P128-P129, vulnerable-groups section."
+        }
+      ],
+      "geographies": [
+        "Mozambique"
+      ],
+      "affected_groups": [
+        "listed priority groups"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Vulnerability is differentiated by gender, age, disability, poverty and health.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-008",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-003",
+          "locator": "webpage, paragraph below four high-impact priorities. (World Bank14)"
+        }
+      ],
+      "geographies": [
+        "Mozambique"
+      ],
+      "affected_groups": [
+        "poor and near-poor households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "2050; World Bank “hot” scenario",
+      "compact_statement": "Climate-development modelling projects higher poverty in a hot scenario.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-009",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-006",
+          "locator": "single-page PDF, “Overview.”"
+        }
+      ],
+      "geographies": [
+        "108 analysed districts"
+      ],
+      "affected_groups": [
+        "food-insecure households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "historical",
+        "near-term"
+      ],
+      "scenario": "Oct 2025-Mar 2026",
+      "compact_statement": "Acute food insecurity remained extensive in 2025/26.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-010",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-006",
+          "locator": "single-page PDF, overview and “Key Drivers.”"
+        }
+      ],
+      "geographies": [
+        "Cabo Delgado",
+        "Nampula",
+        "Zambézia",
+        "Tete",
+        "Sofala and other analysed districts"
+      ],
+      "affected_groups": [
+        "poor rain-fed farmers",
+        "IDPs",
+        "returnees",
+        "cyclone-affected households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Food insecurity is explicitly multi-causal.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-011",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-007",
+          "locator": "PDF P1, displacement-dynamics paragraph. (UNICEF1)"
+        }
+      ],
+      "geographies": [
+        "Cabo Delgado",
+        "Sofala",
+        "national"
+      ],
+      "affected_groups": [
+        "IDPs",
+        "children"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Displacement drivers differ sharply by province.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-012",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-007",
+          "locator": "PDF P1, flood/storm update. (UNICEF1)"
+        }
+      ],
+      "geographies": [
+        "Gaza",
+        "Sofala",
+        "Inhambane and affected areas"
+      ],
+      "affected_groups": [
+        "children",
+        "patients",
+        "communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "2026 floods/storms disrupted major social infrastructure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-013",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-008",
+          "locator": "webpage “Humanitarian needs,” paragraphs on displacement/violence. (UNICEF10)"
+        }
+      ],
+      "geographies": [
+        "northern districts"
+      ],
+      "affected_groups": [
+        "IDPs",
+        "children"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Armed conflict directly constrains displacement recovery and services.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-014",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-004",
+          "locator": "PDF P3, “Risk Assessment Process.”"
+        }
+      ],
+      "geographies": [
+        "Mecufi"
+      ],
+      "affected_groups": [
+        "local communities",
+        "officials",
+        "traditional leaders"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Local multistakeholder climate-security analysis exists in Mecufi.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-015",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-004",
+          "locator": "PDF P5, “Floods, Cyclones & Drought - Food Insecurity & Competition...”"
+        }
+      ],
+      "geographies": [
+        "Mecufi"
+      ],
+      "affected_groups": [
+        "farmers",
+        "fishers",
+        "unemployed youth"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Climate-linked livelihood stress may amplify competition through socioeconomic mediators.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-016",
+      "record_review": "manual-passage-check-incomplete",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-004",
+          "locator": "PDF P5, “Armed insurgency ... competition over resources.”"
+        }
+      ],
+      "geographies": [
+        "Mecufi"
+      ],
+      "affected_groups": [
+        "IDPs",
+        "hosts",
+        "salt workers"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict/displacement can weaken ecosystem-based resilience locally.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-004"
+      ],
+      "recommendations": [
+        "Keep provisional and narrow only after the exact Mecufi passage is located; otherwise exclude the mangrove/resource-pressure clause."
+      ],
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+      "verification_attempt": {
+        "record_id": "MOZ-E-016",
+        "source_id": "MOZ-SRC-004",
+        "url": "https://gppac.net/files/2023-06/Case%20Study%20Localised%20Climate%20Related%20Security%20Risk%20Assessment%20Mozambique.pdf",
+        "locator": "PDF P5, “Armed insurgency ... competition over resources.”",
+        "accessed_on": "2026-10-27",
+        "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+        "source_access_status": "access-only",
+        "claim_verification": "unresolved",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "manual_adjudication_completed": true,
+        "verification_note": "The extracted cited-page window on physical PDF page 5 contains methodology and references but not the claim about Mecufi IDP pressure or mangrove cutting; the full claim was not matched."
+      },
+      "verification_note": "The extracted cited-page window on physical PDF page 5 contains methodology and references but not the claim about Mecufi IDP pressure or mangrove cutting; the full claim was not matched.",
+      "manual_adjudication": {
+        "status": "unresolved",
+        "reviewed_on": "2026-10-27",
+        "source_id": "MOZ-SRC-004",
+        "source_url": "https://gppac.net/files/2023-06/Case%20Study%20Localised%20Climate%20Related%20Security%20Risk%20Assessment%20Mozambique.pdf",
+        "locator": "PDF P5, “Armed insurgency ... competition over resources.”",
+        "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+        "reason": "The extracted cited-page window on physical PDF page 5 contains methodology and references but not the claim about Mecufi IDP pressure or mangrove cutting; the full claim was not matched.",
+        "recommended_record_patch": "Keep provisional and narrow only after the exact Mecufi passage is located; otherwise exclude the mangrove/resource-pressure clause.",
+        "coordinator_decision_ref": null
+      }
+    },
+    {
+      "record_id": "MOZ-E-017",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-004",
+          "locator": "PDF P5, “Limited availability of arable land leads to land disputes.”"
+        }
+      ],
+      "geographies": [
+        "Mecufi"
+      ],
+      "affected_groups": [
+        "farmers",
+        "IDPs",
+        "host groups"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Hazard impacts and conflict displacement can jointly tighten land access.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-018",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-004",
+          "locator": "PDF P6, item 20."
+        }
+      ],
+      "geographies": [
+        "Mecufi"
+      ],
+      "affected_groups": [
+        "local population"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Dedicated local technical adaptation capacity was weak in Mecufi.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-021",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-010",
+          "locator": "webpage, paragraphs under title and beneficiary breakdown. (FAOHome12)"
+        }
+      ],
+      "geographies": [
+        "Machanga",
+        "Maganja da Costa"
+      ],
+      "affected_groups": [
+        "smallholder farmers"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Anticipatory livelihood assistance was implemented before forecast flood risk.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-010"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-022",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-009",
+          "locator": "webpage evaluation findings, paras. 250-253. (World Food Programme2)"
+        }
+      ],
+      "geographies": [
+        "Idai-affected Mozambique"
+      ],
+      "affected_groups": [
+        "affected population"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Preparedness and coordination improved Idai emergency response.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-023",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-009",
+          "locator": "webpage, evaluation-improvement paragraph. (World Food Programme2)"
+        }
+      ],
+      "geographies": [
+        "Idai-affected Mozambique"
+      ],
+      "affected_groups": [
+        "affected communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Idai response had significant recovery and monitoring weaknesses.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-024",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-011",
+          "locator": "PDF P5, evaluation conclusion. (UNDP IEO Evaluation Resource Center3)"
+        }
+      ],
+      "geographies": [
+        "Mozambique"
+      ],
+      "affected_groups": [
+        "public institutions"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Adaptation-mainstreaming intervention showed partial rather than complete performance.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-011"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-025",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-011",
+          "locator": "PDF P19, section 2.2.4 “Results.” (UNDP IEO Evaluation Resource Center3)"
+        }
+      ],
+      "geographies": [
+        "Mozambique"
+      ],
+      "affected_groups": [
+        "institutions"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Evaluation could not cleanly attribute adaptation-mainstreaming outcomes.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-011"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-026",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-011",
+          "locator": "PDF P29, section 2.2.5 “Gender aspects.” (UNDP IEO Evaluation Resource Center3)"
+        }
+      ],
+      "geographies": [
+        "Mozambique"
+      ],
+      "affected_groups": [
+        "women and other intended beneficiaries"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Gender integration in the evaluated adaptation project was thin.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "MOZ-SRC-011"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-101",
+          "locator": "PDF pp.57–58 (printed pp.58–59), §2.1.5.2; pp.10–12, §§1.2–1.3.3."
+        }
+      ],
+      "geographies": [
+        "Chiúre District",
+        "Mecúfi District",
+        "Pemba City",
+        "Cabo Delgado Province"
+      ],
+      "affected_groups": [
+        "internally displaced people",
+        "children",
+        "households with precarious housing"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "UNDP's selected Chiúre–Mecúfi–Pemba sample reports Cyclone Kenneth impacts alongside weak housing/sanitation and displacement-related vulnerability.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-101",
+          "locator": "PDF p.27 (printed p.28), §2.1.2; p.57 (printed p.58), §2.1.5.1."
+        }
+      ],
+      "geographies": [
+        "Metuge",
+        "Ancuabe",
+        "Chiúre",
+        "Namuno",
+        "Balama",
+        "Pemba City",
+        "southern Cabo Delgado"
+      ],
+      "affected_groups": [
+        "displaced people",
+        "host households",
+        "fisher households"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-09-29 reports: UNDP's review cites earlier analysis that conflict-driven flight from homes and fields coincided with erratic-rainfall crop losses; displaced fishers also shifted to unfamiliar subsistence farming.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-102",
+          "locator": "PDF p.1 (printed p.1), Situation Overview; PDF p.2 (printed p.2), conflict and cyclone displacement details."
+        }
+      ],
+      "geographies": [
+        "Memba District, Nampula",
+        "Sofala Province",
+        "Cabo Delgado Province",
+        "northern Mozambique"
+      ],
+      "affected_groups": [
+        "children",
+        "internally displaced people",
+        "returnees"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02-09 reports: In 2025, conflict drove major displacement from Memba District, Nampula: over 112,000 people fled, 65% children. Separately, about 15% of IDPs were in Sofala, mainly after climate shocks.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-102",
+          "locator": "PDF p.1 (printed p.1), Situation Overview; p.2, Health and HIV/AIDS response."
+        }
+      ],
+      "geographies": [
+        "Nampula Province",
+        "northern Mozambique"
+      ],
+      "affected_groups": [
+        "students",
+        "children",
+        "teachers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02-09 reports: Dikeledi and Jude affected over 1.3 million people in Q1 2025, mostly in Nampula, damaged 131 health facilities and 3,128 classrooms, and disrupted learning for 365,000-plus students.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-102",
+          "locator": "PDF pp.1–2 (printed pp.1–2), Health and Nutrition response; p.4, WASH coordination."
+        }
+      ],
+      "geographies": [
+        "Sofala",
+        "Manica",
+        "Cabo Delgado",
+        "Nampula",
+        "Zambézia"
+      ],
+      "affected_groups": [
+        "children under five",
+        "displaced and crisis-affected communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02-09 reports: UNICEF deployed 3,924 mobile teams across 1,556 communities and resettlement sites; integrated brigades served hard-to-reach conflict- or climate-shock-affected areas in five named provinces.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-103",
+          "locator": "PDF pp.64–65 (printed pp.61–62), Finding 19; PDF pp.65–68 (printed pp.62–65), Findings 20–22."
+        }
+      ],
+      "geographies": [
+        "Cabo Delgado",
+        "Nampula",
+        "Niassa",
+        "northern Mozambique"
+      ],
+      "affected_groups": [
+        "internally displaced people",
+        "women",
+        "youth",
+        "people with disabilities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-11-21 reports: Evaluation finds humanitarian access in insecure northern districts constrained by conflict and instability; activity and staff training were interrupted in Cabo Delgado, while mobile brigades and boat clinics adapted delivery.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-103",
+          "locator": "PDF p.68 (printed p.65), Finding 22."
+        }
+      ],
+      "geographies": [
+        "Mozambique",
+        "districts (not individually named in passage)"
+      ],
+      "affected_groups": [
+        "local communities",
+        "district authorities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-11-21 reports: The evaluation reports 268 local disaster-risk committees trained, early-warning systems integrated into district plans, and LoCAL adaptation planning embedded in government systems with community participation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-103",
+          "locator": "PDF p.63 (printed p.60), §3.7 Sustainability; PDF pp.63–64 (printed pp.60–61), Finding 18."
+        }
+      ],
+      "geographies": [
+        "Chókwè District",
+        "local consultative councils (districts not named)"
+      ],
+      "affected_groups": [
+        "local communities",
+        "municipal residents"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-11-21 reports: Local consultative councils selected 86 climate-adaptive infrastructure projects; the evaluation also reports municipal upkeep of drainage machinery and Chókwè dike maintenance by local authorities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-104",
+          "locator": "Official UN release, paragraphs 1–4 (page lines 5–17)."
+        }
+      ],
+      "geographies": [
+        "Nankumi, Ancuabe District",
+        "Naminawe, Metuge District",
+        "Metula, Pemba City",
+        "Cabo Delgado Province"
+      ],
+      "affected_groups": [
+        "host communities",
+        "internally displaced people",
+        "returnees"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08-26 reports: Cabo Delgado's conflict, displacement, climate exposure and resource pressure overlap in Nankumi (Ancuabe), Naminawe (Metuge) and Metula (Pemba); site selection noted host–IDP tension risk.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-104",
+          "locator": "Official UN release, paragraphs 4–6 (page lines 19–29)."
+        }
+      ],
+      "geographies": [
+        "Nankumi, Ancuabe District",
+        "Naminawe, Metuge District",
+        "Metula, Pemba City"
+      ],
+      "affected_groups": [
+        "host communities",
+        "internally displaced people",
+        "returnees"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "Near-term community plans as described in the August 2026 release; implementation and outcomes not yet evaluated.",
+      "compact_statement": "Source dated 2026-08-26 reports: Community-approved plans propose fairer land access, dialogue with government, reforestation, resilient agriculture and small dams, with community-led implementation intended.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-105",
+          "locator": "Official ministry page, paragraphs 2–5."
+        }
+      ],
+      "geographies": [
+        "Rovuma, Messalo, Montepuez and Megaruma basins",
+        "Zambeze, Búzi, Save, Limpopo, Incomáti and Umbelúzi basins",
+        "Maputo, Gaza, Inhambane, Sofala and Manica provinces",
+        "Chókwè",
+        "Guijá",
+        "Chibuto",
+        "Xai-Xai"
+      ],
+      "affected_groups": [
+        "farming communities",
+        "road users"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: Normal-to-above-normal northern and above-normal central/southern rains caused floods, road disruption and over 100,000 hectares inundated; Massingir Dam reduced impacts in Chókwè, Guijá, Chibuto and Xai-Xai.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "MOZ-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "MOZ-SRC-106",
+          "locator": "Official INGD page, paragraphs 3–5."
+        }
+      ],
+      "geographies": [
+        "Six river basins",
+        "Govuro",
+        "Manhiça",
+        "Machanga",
+        "Búzi",
+        "Xai-Xai",
+        "Guijá",
+        "Chókwè"
+      ],
+      "affected_groups": [
+        "communities in risk areas",
+        "local volunteers"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08-13 reports: INGD reports eight anticipatory-action activations across six basins and for a cyclone (Dec 2025–Mar 2026), evacuating 7,214 people and warning about 1.5 million up to five days ahead; volunteers helped first when formal capacity was exceeded.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "MOZ-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MOZ-E-003",
+        "MOZ-E-009",
+        "MOZ-E-010",
+        "MOZ-E-012"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MOZ-E-003"
+        ],
+        "impact": [
+          "MOZ-E-012"
+        ],
+        "mediator": [
+          "MOZ-E-009",
+          "MOZ-E-010"
+        ],
+        "consequence": [
+          "MOZ-E-003"
+        ]
+      },
+      "geographies": [
+        "Northern/central cyclone-affected districts",
+        "current 2026 flood areas include Gaza/Sofala and storm-affected Inhambane"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Cyclone/flood losses can worsen food and service stress through livelihoods, markets and displacement, especially where non-climate fragilities are already severe.",
+      "alternative_explanations": [
+        "Food prices",
+        "poverty",
+        "armed conflict",
+        "infrastructure quality",
+        "market isolation and pre-existing service shortages"
+      ],
+      "uncertainty": "No identified national study estimates how much conflict or fragility risk changes because of cyclone exposure alone.",
+      "potentially_out_of_scope_support_ids": [
+        "MOZ-E-003",
+        "MOZ-E-009",
+        "MOZ-E-010",
+        "MOZ-E-012"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "MOZ-P-002",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MOZ-E-002",
+        "MOZ-E-015"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MOZ-E-002",
+          "MOZ-E-015"
+        ],
+        "impact": [
+          "MOZ-E-015"
+        ],
+        "mediator": [
+          "MOZ-E-015"
+        ],
+        "consequence": [
+          "MOZ-E-015"
+        ]
+      },
+      "geographies": [
+        "Mecufi District only for the complete pathway"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "In Mecufi, climate-related livelihood stress is plausibly linked to competition through food insecurity and socioeconomic inequality rather than directly to violence.",
+      "alternative_explanations": [
+        "Longstanding poverty",
+        "unemployment",
+        "political exclusion",
+        "criminal economies",
+        "insurgent mobilisation",
+        "land governance"
+      ],
+      "uncertainty": "Local participatory evidence only; the inaccessible four-location conflict study was removed.",
+      "potentially_out_of_scope_support_ids": [
+        "MOZ-E-002",
+        "MOZ-E-015"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "MOZ-P-003",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MOZ-E-017"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MOZ-E-017"
+        ],
+        "impact": [
+          "MOZ-E-017"
+        ],
+        "mediator": [
+          "MOZ-E-017"
+        ],
+        "consequence": [
+          "MOZ-E-017"
+        ]
+      },
+      "geographies": [
+        "Mecufi"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "In Mecufi, climate-related land pressure and conflict-driven displacement can interact through land access and governance.",
+      "alternative_explanations": [
+        "Pre-existing tenure problems",
+        "land acquisition",
+        "demographic change",
+        "elite capture",
+        "commercial projects"
+      ],
+      "uncertainty": "The Mecufi assessment identifies a possible land-dispute mechanism; the inaccessible broader study was removed.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability."
+      ]
+    },
+    {
+      "record_id": "MOZ-P-004",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MOZ-E-016"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MOZ-E-016"
+        ],
+        "impact": [
+          "MOZ-E-016"
+        ],
+        "mediator": [
+          "MOZ-E-016"
+        ],
+        "consequence": [
+          "MOZ-E-016"
+        ]
+      },
+      "geographies": [
+        "Mecufi"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "direct",
+      "compact_statement": "Conflict-related livelihood and displacement pressures can degrade natural assets that otherwise buffer climate hazards.",
+      "alternative_explanations": [
+        "Commercial extraction",
+        "weak environmental enforcement",
+        "pre-existing mangrove degradation and poverty"
+      ],
+      "uncertainty": "Magnitude of mangrove loss attributable specifically to conflict displacement is not quantified.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability."
+      ]
+    },
+    {
+      "record_id": "MOZ-P-005",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MOZ-E-003",
+        "MOZ-E-011",
+        "MOZ-E-013",
+        "MOZ-E-018"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MOZ-E-003"
+        ],
+        "impact": [
+          "MOZ-E-013"
+        ],
+        "mediator": [
+          "MOZ-E-013",
+          "MOZ-E-018"
+        ],
+        "consequence": [
+          "MOZ-E-013",
+          "MOZ-E-018"
+        ]
+      },
+      "geographies": [
+        "Cabo Delgado/northern Mozambique"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Conflict can make climate adaptation harder by disrupting the institutions, services and mobility on which preparedness and recovery depend.",
+      "alternative_explanations": [
+        "Poverty",
+        "national fiscal constraints",
+        "remoteness and pre-existing infrastructure deficits"
+      ],
+      "uncertainty": "Displacement, service impacts and local capacity constraints are documented; adaptation-delay effects are not quantified.",
+      "potentially_out_of_scope_support_ids": [
+        "MOZ-E-003",
+        "MOZ-E-011",
+        "MOZ-E-013",
+        "MOZ-E-018"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "MOZ-P-006",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MOZ-E-014"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MOZ-E-014"
+        ],
+        "impact": [
+          "MOZ-E-014"
+        ],
+        "mediator": [
+          "MOZ-E-014"
+        ],
+        "consequence": [
+          "MOZ-E-014"
+        ]
+      },
+      "geographies": [
+        "Mecufi/local Cabo Delgado context"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Climate-related disaster disruption may become politically salient through public-health failures and mistrust rather than through climate exposure alone.",
+      "alternative_explanations": [
+        "Pre-existing institutional mistrust",
+        "misinformation",
+        "disease dynamics unrelated to climate and political grievances"
+      ],
+      "uncertainty": "No incidence/risk effect size is provided.",
+      "potentially_out_of_scope_support_ids": [
+        "MOZ-E-014"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "MOZ-P-007",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MOZ-E-004",
+        "MOZ-E-005",
+        "MOZ-E-006",
+        "MOZ-E-018",
+        "MOZ-E-024",
+        "MOZ-E-025"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MOZ-E-004"
+        ],
+        "impact": [
+          "MOZ-E-004"
+        ],
+        "mediator": [
+          "MOZ-E-004"
+        ],
+        "consequence": [
+          "MOZ-E-004"
+        ]
+      },
+      "geographies": [
+        "National",
+        "with local variation"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Implementation capacity is a mediator of climate vulnerability, but its relationship to fragility requires further empirical testing.",
+      "alternative_explanations": [
+        "Broader public-finance constraints",
+        "governance choices",
+        "conflict",
+        "donor priorities and implementation quality"
+      ],
+      "uncertainty": "No evidence found demonstrating that adaptation funding gaps themselves cause instability.",
+      "potentially_out_of_scope_support_ids": [
+        "MOZ-E-004",
+        "MOZ-E-005",
+        "MOZ-E-006",
+        "MOZ-E-018",
+        "MOZ-E-024",
+        "MOZ-E-025"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "MOZ-P-008",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "MOZ-E-014",
+        "MOZ-E-015"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "MOZ-E-015"
+        ],
+        "impact": [
+          "MOZ-E-014"
+        ],
+        "mediator": [
+          "MOZ-E-014"
+        ],
+        "consequence": [
+          "MOZ-E-014"
+        ]
+      },
+      "geographies": [
+        "Mecufi"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "A participatory multistakeholder climate-security assessment process is documented in Mecufi; effects on trust, escalation or adaptation outcomes have not been demonstrated.",
+      "alternative_explanations": [
+        "Wider security conditions and state policy may overwhelm local peacebuilding capacities"
+      ],
+      "uncertainty": "The evidence establishes a participatory assessment process, not effects on trust, escalation or adaptation outcomes.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "MOZ-E-016",
+  "source_access_review": {
+    "selected_record_id": "MOZ-E-016",
+    "selected_source_id": "MOZ-SRC-004",
+    "url": "https://gppac.net/files/2023-06/Case%20Study%20Localised%20Climate%20Related%20Security%20Risk%20Assessment%20Mozambique.pdf",
+    "locator": "PDF P5, “Armed insurgency ... competition over resources.”",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "access-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 5401170,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      5
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+    "verification_note": "The extracted cited-page window on physical PDF page 5 contains methodology and references but not the claim about Mecufi IDP pressure or mangrove cutting; the full claim was not matched."
+  },
+  "checks": [
+    {
+      "record_id": "MOZ-E-016",
+      "source_id": "MOZ-SRC-004",
+      "locator": "PDF P5, “Armed insurgency ... competition over resources.”",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+      "access_date": "2026-10-27",
+      "source_access_status": "access-only",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": false,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Keep provisional and narrow only after the exact Mecufi passage is located; otherwise exclude the mangrove/resource-pressure clause.",
+      "coordinator_decision_ref": null
+    }
+  ],
+  "limitations": [
+    "MOZ-E-016: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "MOZ-E-001",
+    "MOZ-E-002",
+    "MOZ-E-003",
+    "MOZ-E-004",
+    "MOZ-E-005",
+    "MOZ-E-006",
+    "MOZ-E-007",
+    "MOZ-E-008",
+    "MOZ-E-009",
+    "MOZ-E-010",
+    "MOZ-E-011",
+    "MOZ-E-012",
+    "MOZ-E-013",
+    "MOZ-E-014",
+    "MOZ-E-015",
+    "MOZ-E-016",
+    "MOZ-E-017",
+    "MOZ-E-018",
+    "MOZ-E-021",
+    "MOZ-E-022",
+    "MOZ-E-023",
+    "MOZ-E-024",
+    "MOZ-E-025",
+    "MOZ-E-026",
+    "MOZ-E-101",
+    "MOZ-E-102",
+    "MOZ-E-103",
+    "MOZ-E-104",
+    "MOZ-E-105",
+    "MOZ-E-106",
+    "MOZ-E-107",
+    "MOZ-E-108",
+    "MOZ-E-109",
+    "MOZ-E-110",
+    "MOZ-E-111",
+    "MOZ-E-112",
+    "MOZ-P-001",
+    "MOZ-P-002",
+    "MOZ-P-003",
+    "MOZ-P-004",
+    "MOZ-P-005",
+    "MOZ-P-006",
+    "MOZ-P-007",
+    "MOZ-P-008"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 1,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

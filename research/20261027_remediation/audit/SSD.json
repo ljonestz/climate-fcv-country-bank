@@ -1,0 +1,2697 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "SSD",
+  "candidate_path": "countries/SSD/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 19,
+    "evidence_count": 37,
+    "pathway_count": 7,
+    "evidence_source_reference_count": 39
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 27,
+      "access-only": 10
+    },
+    "pathway_claims": {
+      "unresolved": 7
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "SSD-E-001",
+          "SSD-E-002",
+          "SSD-E-003",
+          "SSD-E-020",
+          "SSD-E-021",
+          "SSD-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "SSD-E-005",
+          "SSD-E-007",
+          "SSD-E-010",
+          "SSD-E-027",
+          "SSD-E-101",
+          "SSD-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "SSD-E-006",
+          "SSD-E-009",
+          "SSD-E-106",
+          "SSD-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SSD-E-004",
+          "SSD-E-008",
+          "SSD-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SSD-E-022",
+          "SSD-E-024",
+          "SSD-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SSD-E-011",
+          "SSD-E-012",
+          "SSD-E-023",
+          "SSD-E-026",
+          "SSD-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "SSD-E-018",
+          "SSD-E-025",
+          "SSD-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "SSD-E-013",
+          "SSD-E-014",
+          "SSD-E-015",
+          "SSD-E-016",
+          "SSD-E-017",
+          "SSD-E-102"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SSD-E-019"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "SSD-E-101",
+          "SSD-E-104"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "SSD-P-001",
+          "SSD-P-002",
+          "SSD-P-003",
+          "SSD-P-004",
+          "SSD-P-005",
+          "SSD-P-006",
+          "SSD-P-007"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/SSD/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "SSD-SRC-001",
+      "title": "Climate, Peace and Security Fact Sheet: South Sudan (2025)",
+      "organization": "Stockholm International Peace Research Institute (SIPRI)",
+      "publication_date": "2025-03",
+      "publication_date_basis": "document-version",
+      "url": "https://www.sipri.org/publications/2025/partner-publications/climate-peace-and-security-fact-sheet-south-sudan-2025",
+      "geographic_coverage": [
+        "South Sudan (national)"
+      ],
+      "temporal_coverage": "Climate, peace, and security conditions synthesized for the 2025 fact sheet.",
+      "accessed_on_in_source_record": "2026-07-30",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SSD-E-002",
+        "SSD-E-004",
+        "SSD-E-013",
+        "SSD-E-014",
+        "SSD-E-015",
+        "SSD-E-016"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SSD-SRC-002",
+      "title": "Climate Security Risks in South Sudan: An Information Brief (2025)",
+      "organization": "United Nations Climate Security Mechanism",
+      "publication_date": "2025-10-02",
+      "publication_date_basis": "publication",
+      "url": "https://www.un.org/climatesecuritymechanism/en/media/338",
+      "geographic_coverage": [
+        "South Sudan (national)"
+      ],
+      "temporal_coverage": "Current climate-security risks and response priorities as assessed in 2025.",
+      "accessed_on_in_source_record": "2026-07-30",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SSD-E-014",
+        "SSD-E-017"
+      ],
+      "this_audit_verification": "access-only",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "SSD-E-017",
+        "selected_source_id": "SSD-SRC-002",
+        "url": "https://www.un.org/climatesecuritymechanism/en/media/338",
+        "locator": "sections on climate-security pathways and strategic interventions, including livelihood disruption, mobility, recruitment, elite exploitation, early warning, and coordination",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 85602,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "SSD-E-017"
+      ]
+    },
+    {
+      "source_id": "SSD-SRC-003",
+      "title": "Joining Forces for a Conflict-Sensitive Flood Response in South Sudan (2025)",
+      "organization": "United Nations Climate Security Mechanism",
+      "publication_date": "2025-07-25",
+      "publication_date_basis": "publication",
+      "url": "https://www.un.org/climatesecuritymechanism/en/news/joining-forces-conflict-sensitive-flood-response-south-sudan",
+      "geographic_coverage": [
+        "South Sudan (national and selected flood-affected subnational locations)"
+      ],
+      "temporal_coverage": "Lessons from the 2024 flood response and preparedness priorities for the 2025 flood season.",
+      "accessed_on_in_source_record": "2026-07-30",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SSD-E-018",
+        "SSD-E-019"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SSD-SRC-004",
+      "title": "South Sudan Country Climate and Development Report (2026)",
+      "organization": "World Bank",
+      "publication_date": "2026-01-30",
+      "publication_date_basis": "publication",
+      "url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099013026015514714",
+      "geographic_coverage": [
+        "South Sudan (national)"
+      ],
+      "temporal_coverage": "Historical climate and development baselines with forward-looking climate and development analysis published in 2026.",
+      "accessed_on_in_source_record": "2026-07-30",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SSD-SRC-005",
+      "title": "First National Adaptation Plan for Climate Change Republic of South Sudan",
+      "organization": "Government of the Republic of South Sudan and United Nations Development Programme (UNDP)",
+      "publication_date": "2021-11-30",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/south-sudan/publications/first-national-adaptation-plan-climate-change-republic-south-sudan",
+      "geographic_coverage": [
+        "South Sudan (national)"
+      ],
+      "temporal_coverage": "National adaptation priorities for 2021-2025.",
+      "accessed_on_in_source_record": "2026-07-30",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SSD-E-011"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SSD-SRC-006",
+      "title": "South Sudan Second Nationally Determined Contribution",
+      "organization": "Government of the Republic of South Sudan and United Nations Framework Convention on Climate Change (UNFCCC)",
+      "publication_date": "2021-09-21",
+      "publication_date_basis": "submission",
+      "url": "https://unfccc.int/documents/497930",
+      "geographic_coverage": [
+        "South Sudan (national)"
+      ],
+      "temporal_coverage": "National climate commitments and priorities submitted in 2021, principally oriented to 2030.",
+      "accessed_on_in_source_record": "2026-07-30",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SSD-E-012"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SSD-SRC-007",
+      "title": "South Sudan Flood Damage and Needs Assessment Study (2021)",
+      "organization": "International Organization for Migration (IOM) Displacement Tracking Matrix (DTM)",
+      "publication_date": "2021",
+      "publication_date_basis": "publication",
+      "url": "https://dtm.iom.int/reports/south-sudan-flood-damage-and-needs-assessment-study-2021",
+      "geographic_coverage": [
+        "Three flood-affected payams in South Sudan"
+      ],
+      "temporal_coverage": "Impacts of the June-December 2020 floods, with fieldwork from 2021-08-31 to 2021-10-14.",
+      "accessed_on_in_source_record": "2026-07-30",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SSD-E-005",
+        "SSD-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SSD-SRC-008",
+      "title": "South Sudan UN Common Country Analysis (CCA)",
+      "organization": "United Nations Resident Coordinator's Office in South Sudan",
+      "publication_date": "2022-06-27",
+      "publication_date_basis": "portal-publication",
+      "url": "https://southsudan.un.org/en/187947-south-sudan-un-common-country-analysis-cca",
+      "geographic_coverage": [
+        "South Sudan (national)"
+      ],
+      "temporal_coverage": "Multisector country context through late 2021, published on the UN portal in 2022.",
+      "accessed_on_in_source_record": "2026-07-30",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SSD-E-007",
+        "SSD-E-016"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SSD-SRC-009",
+      "title": "INFORM South Sudan Country Risk Profile (2021)",
+      "organization": "European Commission Joint Research Centre (INFORM)",
+      "publication_date": "2021",
+      "publication_date_basis": "version",
+      "url": "https://drmkc.jrc.ec.europa.eu/Inform-Index/Portals/0/InfoRM/CountryProfiles/SSD.pdf",
+      "geographic_coverage": [
+        "South Sudan (national)"
+      ],
+      "temporal_coverage": "INFORM 2021 risk profile, including trend displays for 2017-2021.",
+      "accessed_on_in_source_record": "2026-07-30",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SSD-E-008"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SSD-SRC-010",
+      "title": "Climate change deepens gender inequality and violence in South Sudan: UNFPA study highlights urgent need for action",
+      "organization": "United Nations Population Fund (UNFPA), Sudd Institute, and South Sudan National Bureau of Statistics",
+      "publication_date": "2025-05-05",
+      "publication_date_basis": "publication",
+      "url": "https://southsudan.un.org/en/293784-climate-change-deepens-gender-inequality-and-violence-south-sudan-unfpa-study-highlights",
+      "geographic_coverage": [
+        "Malakal",
+        "Kapoeta South",
+        "Rubkona"
+      ],
+      "temporal_coverage": "Study findings released in 2025 on current climate-related gender and violence risks.",
+      "accessed_on_in_source_record": "2026-07-30",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SSD-E-009"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SSD-SRC-011",
+      "title": "South Sudan Event Tracking Report 73: Flood Displacements (1-31 December 2024)",
+      "organization": "International Organization for Migration (IOM) Displacement Tracking Matrix (DTM)",
+      "publication_date": "2025-02-10",
+      "publication_date_basis": "publication",
+      "url": "https://dtm.iom.int/reports/south-sudan-event-tracking-report-73-flood-displacements-1-31-december-2024",
+      "geographic_coverage": [
+        "Warrap State",
+        "Unity State"
+      ],
+      "temporal_coverage": "Flood-related displacement events recorded from 2024-12-01 to 2024-12-31.",
+      "accessed_on_in_source_record": "2026-07-30",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SSD-E-010"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SSD-SRC-012",
+      "title": "South Sudan Climatology (ERA5)",
+      "organization": "World Bank Climate Change Knowledge Portal",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://climateknowledgeportal.worldbank.org/country/south-sudan/era5-historical",
+      "geographic_coverage": [
+        "South Sudan (national)"
+      ],
+      "temporal_coverage": "ERA5 climatology for 1991-2020 and historical daily data for 1950-2023.",
+      "accessed_on_in_source_record": "2026-07-30",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SSD-E-001"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SSD-SRC-013",
+      "title": "South Sudan - Trends & Variability (CMIP6)",
+      "organization": "World Bank Climate Change Knowledge Portal",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://climateknowledgeportal.worldbank.org/country/south-sudan/trends-variability-projections",
+      "geographic_coverage": [
+        "South Sudan (national aggregation with mapped subnational detail)"
+      ],
+      "temporal_coverage": "CMIP6 reference period 1995-2014 and scenario projections through 2100.",
+      "accessed_on_in_source_record": "2026-08-01",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SSD-E-020",
+        "SSD-E-021"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SSD-SRC-014",
+      "title": "Uplifting Vulnerable South Sudanese Households through Safety Net Assistance",
+      "organization": "World Bank",
+      "publication_date": "2024-01-09",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/results/2024/01/09/uplifting-vulnerable-afe-south-sudanese-households-through-safety-net-assistance",
+      "geographic_coverage": [
+        "Ten project counties in South Sudan"
+      ],
+      "temporal_coverage": "South Sudan Safety Net Project implementation and reported results from 2020 to 2023.",
+      "accessed_on_in_source_record": "2026-08-01",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SSD-E-022",
+        "SSD-E-023"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SSD-SRC-015",
+      "title": "Building community resilience from the ground up in South Sudan",
+      "organization": "World Bank",
+      "publication_date": "2025-02-13",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/feature/2025/01/24/building-community-resilience-from-the-ground-up-in-south-sudan",
+      "geographic_coverage": [
+        "Twenty selected counties in South Sudan"
+      ],
+      "temporal_coverage": "ECRP implementation from 2020 to 2024 and functionality reporting as of 2024.",
+      "accessed_on_in_source_record": "2026-08-01",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SSD-E-024",
+        "SSD-E-025",
+        "SSD-E-026"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SSD-SRC-016",
+      "title": "Narrow Path to Recovery: Finding a Climate-Smart Pathway and Stabilizing South Sudan's Economy",
+      "organization": "World Bank",
+      "publication_date": "2026-02-05",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/02/05/narrow-path-to-recovery-finding-a-climate-smart-pathway-and-stabilizing-south-sudan-s-economy",
+      "geographic_coverage": [
+        "South Sudan (national)"
+      ],
+      "temporal_coverage": "Current flood and development conditions summarized from the 2026 CCDR and Public Finance Review.",
+      "accessed_on_in_source_record": "2026-08-01",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SSD-E-003",
+        "SSD-E-027"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SSD-SRC-101",
+      "title": "South Sudan Humanitarian Needs and Response Plan 2026",
+      "organization": "United Nations Office for the Coordination of Humanitarian Affairs (OCHA), on behalf of the Humanitarian Country Team and partners",
+      "publication_date": "2025-12",
+      "publication_date_basis": "document-version",
+      "url": "https://www.unocha.org/publications/report/south-sudan/south-sudan-humanitarian-needs-and-response-plan-2026-january-2026",
+      "geographic_coverage": [
+        "South Sudan",
+        "Greater Upper Nile",
+        "Unity",
+        "Jonglei",
+        "Upper Nile",
+        "Equatorias",
+        "northern and south-eastern regions",
+        "Renk",
+        "Maban"
+      ],
+      "temporal_coverage": "2025 humanitarian conditions and flood/drought observations; 2026 response and logistics planning.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SSD-E-101",
+        "SSD-E-102",
+        "SSD-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 44-page PDF; Part 1, section 1.1, and Part 3, section 3.6, including PDF pp. 6-7 and 29.",
+          "notes": "The full PDF copy was read. Its cover and 'About this HNRP' identify the document as OCHA-consolidated on behalf of the Humanitarian Country Team; this host is not the publisher.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        },
+        {
+          "access_method": "blocked",
+          "locator": "Official OCHA publication page for the 2026 South Sudan HNRP.",
+          "notes": "Direct opening returned 403 Forbidden; the substantive report was read from the full PDF mirror listed above.",
+          "reuse_terms": "Official page not accessed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SSD-SRC-102",
+      "title": "Special Report: 2025 FAO/WFP Crop and Food Security Assessment Mission (CFSAM) to the Republic of South Sudan",
+      "organization": "Food and Agriculture Organization of the United Nations and World Food Programme",
+      "publication_date": "2026-03-19",
+      "publication_date_basis": "publication",
+      "url": "https://climis-southsudan.org/uploads/publications/CFSAM_2025.pdf",
+      "geographic_coverage": [
+        "South Sudan",
+        "Jonglei",
+        "Lakes",
+        "Unity",
+        "Upper Nile",
+        "Western Bahr el Ghazal",
+        "Warrap",
+        "Northern Bahr el Ghazal",
+        "Abyei Administrative Area",
+        "80 counties"
+      ],
+      "temporal_coverage": "2025 crop season and food-security conditions; IPC outlooks through April-July 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SSD-E-104",
+        "SSD-E-105",
+        "SSD-E-106",
+        "SSD-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 81-page FAO/WFP report; methodology PDF p. 13, flood analysis p. 28, climate/food-security analysis PDF p. 53.",
+          "notes": "Full report was read from the CLIMIS South Sudan portal copy; its cover and citation identify the FAO/WFP CFSAM dated 19 March 2026.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        },
+        {
+          "access_method": "blocked",
+          "locator": "FAO publication DOI for the 2025 CFSAM report.",
+          "notes": "Direct DOI opening returned 403 Forbidden; no claims rely on inaccessible page content.",
+          "reuse_terms": "DOI landing page not accessed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SSD-SRC-103",
+      "title": "FAO GIEWS Country Brief: South Sudan",
+      "organization": "Food and Agriculture Organization of the United Nations, Global Information and Early Warning System on Food and Agriculture",
+      "publication_date": "2026-09-07",
+      "publication_date_basis": "document-version",
+      "url": "https://www.fao.org/giews/countrybrief/country.jsp?code=SSD",
+      "geographic_coverage": [
+        "South Sudan",
+        "southern agricultural areas",
+        "central and northern cropping areas",
+        "Jonglei",
+        "Upper Nile",
+        "Unity",
+        "Luakpiny/Nasir",
+        "Ulang",
+        "Nyirol",
+        "Akobo"
+      ],
+      "temporal_coverage": "GIEWS reference date 7 September 2026; 2026 crop performance and food-security conditions.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SSD-E-108",
+        "SSD-E-109",
+        "SSD-E-110"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full public country brief, reference date 7 September 2026; sections on 2026 cereal production.",
+          "notes": "The complete current GIEWS page was read. Its reference date is retained because forecasts and crop estimates are time-sensitive.",
+          "reuse_terms": "FAO website terms apply; no separate open license was verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "SSD-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-012",
+          "locator": "named webpage heading 'Climatology (ERA5)', methodology, trends, and 'Data Caveats' sections"
+        }
+      ],
+      "geographies": [
+        "South Sudan (national)",
+        "South Sudan (subnational selections available)"
+      ],
+      "affected_groups": [
+        "climate-sensitive livelihood groups"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Use ERA5 as light climate context, retaining its model and precipitation-trend caveats.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-012"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-001",
+          "locator": "page 2, section 'Climate exposure: Trends and projections' and section 'Socioecological vulnerabilities'"
+        }
+      ],
+      "geographies": [
+        "South Sudan (national)",
+        "White Nile tributary floodplains"
+      ],
+      "affected_groups": [
+        "floodplain communities",
+        "pastoralists",
+        "rainfed farmers"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Screen for changing flood persistence and dry-season water stress, not a single uniform hazard trend.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-016",
+          "locator": "press-release paragraph reporting an 8% sorghum-yield reduction by 2050"
+        }
+      ],
+      "geographies": [
+        "South Sudan (national)"
+      ],
+      "affected_groups": [
+        "rainfed farmers"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "CCDR hotter-climate projection through 2050",
+      "compact_statement": "Screen agrifood investments for projected heat-related sorghum yield risk through 2050.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-016"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-001",
+          "locator": "page 2, section 'Livelihood impacts', paragraphs on Rubkona livelihood change and coping mechanisms"
+        }
+      ],
+      "geographies": [
+        "Rubkona County",
+        "Unity State"
+      ],
+      "affected_groups": [
+        "pastoral households",
+        "rainfed farmers",
+        "women",
+        "men"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Assess whether assistance strengthens viable livelihoods and reciprocal coping rather than replacing them.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-007",
+          "locator": "official webpage numbered results bullet 3, infrastructure and facility-access sub-bullet"
+        }
+      ],
+      "geographies": [
+        "three assessed flood-affected payams"
+      ],
+      "affected_groups": [
+        "flood-affected communities",
+        "patients",
+        "students",
+        "aid recipients"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Map all-season access to facilities and aid routes, including the duration of flood disruption.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-007",
+          "locator": "official webpage numbered results bullet 3, livelihood and displacement sub-bullets"
+        }
+      ],
+      "geographies": [
+        "16 assessed bomas",
+        "Bor",
+        "three assessed flood-affected payams"
+      ],
+      "affected_groups": [
+        "farmers",
+        "cattle keepers",
+        "internally displaced people",
+        "host communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Screen livelihood recovery and host-community capacity together because flood displacement can reverse hosting roles.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-008",
+          "locator": "document pages 14-15, paragraphs under humanitarian access, nutrition, and 'Displacement and Population movements'"
+        }
+      ],
+      "geographies": [
+        "South Sudan (national)",
+        "Greater Upper Nile"
+      ],
+      "affected_groups": [
+        "rural communities",
+        "internally displaced people",
+        "women",
+        "children"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Treat violence, seasonal roads, service functionality, and secondary displacement as one access-risk screen.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-008",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-009",
+          "locator": "page 1, risk-components panel and detailed indicators for vulnerability and lack of coping capacity"
+        }
+      ],
+      "geographies": [
+        "South Sudan (national)"
+      ],
+      "affected_groups": [
+        "uprooted people",
+        "food-insecure households",
+        "people needing health care"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Use INFORM to flag compound vulnerability and coping constraints, not to rank individual project sites.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-009",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-010",
+          "locator": "named webpage headings 'Women and girls at risk: A Climate-Induced Crisis' and 'Call to Action: Gender-Responsive Climate Adaptation'"
+        }
+      ],
+      "geographies": [
+        "Malakal",
+        "Kapoeta South",
+        "Rubkona"
+      ],
+      "affected_groups": [
+        "women",
+        "girls",
+        "displaced women",
+        "displaced girls"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Integrate GBV, child-marriage, reproductive-health, and girls' education safeguards into climate response.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-010"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-010",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-011",
+          "locator": "official webpage summary paragraphs for the 1-31 December 2024 reporting period"
+        }
+      ],
+      "geographies": [
+        "Twic County",
+        "Rubkona County",
+        "Mayiendit County",
+        "Warrap State",
+        "Unity State"
+      ],
+      "affected_groups": [
+        "flood-displaced people"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Use current event tracking to size immediate health, shelter, and food needs without treating it as a displacement stock.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-011"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-011",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-005",
+          "locator": "document page 72, sections on NDC implementation gaps, five adaptation priorities, and 14 Second NDC sectors"
+        }
+      ],
+      "geographies": [
+        "South Sudan (national)",
+        "South Sudan (sectoral institutions)"
+      ],
+      "affected_groups": [
+        "communities dependent on priority sectors",
+        "sector officials"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Check whether projects close documented planning, coordination, capacity, budget, and early-warning gaps.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-012",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-006",
+          "locator": "official PDF adaptation section, sector priorities and numbered vulnerable-community actions"
+        }
+      ],
+      "geographies": [
+        "South Sudan (national)",
+        "South Sudan (national and subnational planning)"
+      ],
+      "affected_groups": [
+        "local communities",
+        "women",
+        "men",
+        "youth",
+        "smallholder farmers",
+        "pastoralists"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ],
+      "scenario": "National adaptation commitments principally oriented to 2030",
+      "compact_statement": "Align activities with NDC sector priorities while testing participation and implementation capacity locally.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-013",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-001",
+          "locator": "page 3, section 'Migration and mobility', paragraphs on 2024 flood displacement and Unity State high-ground pressures"
+        }
+      ],
+      "geographies": [
+        "Mayom County",
+        "Panyijiar County",
+        "Koch County",
+        "Unity State"
+      ],
+      "affected_groups": [
+        "flood-displaced people",
+        "host communities",
+        "internally displaced people"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Plan high-ground relocation with host-resource, land-use, food-security, and coexistence safeguards.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-014",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-001",
+          "locator": "pages 2-3, sections 'Livelihood impacts' and 'Migration and mobility', including UNMISS dialogue outcomes"
+        },
+        {
+          "source_id": "SSD-SRC-002",
+          "locator": "official information brief, context section and strategic-interventions bullet on livelihoods, mobility, early warning, and peacebuilding"
+        }
+      ],
+      "geographies": [
+        "Eastern Equatoria",
+        "Central Equatoria",
+        "Western Bahr el Ghazal",
+        "Lakes-Unity border",
+        "Jonglei-Upper Nile border"
+      ],
+      "affected_groups": [
+        "pastoralists",
+        "farmers",
+        "cattle-keeping groups",
+        "youth"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "historical",
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Support negotiated mobility and resource-sharing rules before changing water, pasture, or cropland access.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-001",
+        "SSD-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-015",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-001",
+          "locator": "page 4, section 'Armed actors and security', paragraphs on Pigi evacuation, land-grabbing, and temporary cooperation"
+        }
+      ],
+      "geographies": [
+        "Pigi County",
+        "Central Equatoria",
+        "Greater Equatoria"
+      ],
+      "affected_groups": [
+        "flood-affected communities",
+        "displaced people",
+        "returnees",
+        "civilians in mine-contaminated areas"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Assess mines, contested tenure, land-grabbing, and negotiated access before evacuation, return, or relocation.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-016",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-001",
+          "locator": "page 2, section 'Climate change and peace and security', paragraphs on governance, trust, infrastructure, and adaptive capacity"
+        },
+        {
+          "source_id": "SSD-SRC-008",
+          "locator": "pages 14-15, section on humanitarian access, public services, infrastructure, and conflict- and flood-related disruption"
+        }
+      ],
+      "geographies": [
+        "South Sudan"
+      ],
+      "affected_groups": [
+        "climate-exposed households",
+        "displaced people",
+        "rural communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Screen whether conflict and institutional weakness are constraining climate adaptation capacity.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-001",
+        "SSD-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-017",
+      "record_review": "manual-passage-check-incomplete",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-002",
+          "locator": "sections on climate-security pathways and strategic interventions, including livelihood disruption, mobility, recruitment, elite exploitation, early warning, and coordination"
+        }
+      ],
+      "geographies": [
+        "South Sudan"
+      ],
+      "affected_groups": [
+        "pastoralists",
+        "farmers",
+        "displaced people",
+        "youth"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Climate-security pathways can pass through livelihoods, mobility, recruitment, and elite exploitation",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-002"
+      ],
+      "recommendations": [
+        "Narrow to the mechanisms and responses actually stated in the page summary, or inspect the linked full brief before retaining recruitment and elite-exploitation pathways."
+      ],
+      "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+      "verification_attempt": {
+        "record_id": "SSD-E-017",
+        "source_id": "SSD-SRC-002",
+        "url": "https://www.un.org/climatesecuritymechanism/en/media/338",
+        "locator": "sections on climate-security pathways and strategic interventions, including livelihood disruption, mobility, recruitment, elite exploitation, early warning, and coordination",
+        "accessed_on": "2026-10-27",
+        "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+        "source_access_status": "access-only",
+        "claim_verification": "unresolved",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "manual_adjudication_completed": true,
+        "verification_note": "The retrieved UN Climate Security Mechanism page contains a short summary of livelihood disruption, migration, resource-based conflict and response priorities, but not the cited brief's specific recruitment-incentive or elite-exploitation mechanisms."
+      },
+      "verification_note": "The retrieved UN Climate Security Mechanism page contains a short summary of livelihood disruption, migration, resource-based conflict and response priorities, but not the cited brief's specific recruitment-incentive or elite-exploitation mechanisms.",
+      "manual_adjudication": {
+        "status": "unresolved",
+        "reviewed_on": "2026-10-27",
+        "source_id": "SSD-SRC-002",
+        "source_url": "https://www.un.org/climatesecuritymechanism/en/media/338",
+        "locator": "sections on climate-security pathways and strategic interventions, including livelihood disruption, mobility, recruitment, elite exploitation, early warning, and coordination",
+        "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+        "reason": "The retrieved UN Climate Security Mechanism page contains a short summary of livelihood disruption, migration, resource-based conflict and response priorities, but not the cited brief's specific recruitment-incentive or elite-exploitation mechanisms.",
+        "recommended_record_patch": "Narrow to the mechanisms and responses actually stated in the page summary, or inspect the linked full brief before retaining recruitment and elite-exploitation pathways.",
+        "coordinator_decision_ref": null
+      }
+    },
+    {
+      "record_id": "SSD-E-018",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-003",
+          "locator": "heading 'United for Resilience', paragraphs on the 2024 conflict-sensitive response plan, 243 high grounds, more than 30 campaigns and dialogues, and Yirol"
+        }
+      ],
+      "geographies": [
+        "South Sudan",
+        "Yirol"
+      ],
+      "affected_groups": [
+        "host communities",
+        "displaced people",
+        "cattle keepers",
+        "flood-exposed communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict-sensitive flood response combined high-ground preparation with community dialogue",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-019",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-003",
+          "locator": "headings 'From Crisis to Capacity' and 'Forecasting Fragility', paragraphs on warning and language gaps, financing and supplies, forecasts, local knowledge, youth, and localized planning"
+        }
+      ],
+      "geographies": [
+        "South Sudan"
+      ],
+      "affected_groups": [
+        "remote communities",
+        "youth",
+        "climate-exposed households"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Localized forecasting and dialogue face language, finance, supply, and trust constraints",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-020",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-013",
+          "locator": "section 'Projected Departure from Natural Variability of Average Mean Surface Air Temperature with Trends'; multi-model median time series from 2005-2100 across SSPs"
+        }
+      ],
+      "geographies": [
+        "South Sudan (national aggregation)"
+      ],
+      "affected_groups": [
+        "climate-sensitive livelihood groups",
+        "urban and rural populations"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "CMIP6 SSP pathways, including SSP5-8.5, relative to 1995-2014",
+      "compact_statement": "Treat future warming as a robust direction while retaining scenario and model-spread uncertainty.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-013"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-021",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-013",
+          "locator": "section 'Projected Departure from Natural Variability'; text contrasting the clearer temperature departure with the more complex precipitation signal"
+        }
+      ],
+      "geographies": [
+        "South Sudan (national aggregation)"
+      ],
+      "affected_groups": [
+        "rainfed farmers",
+        "pastoralists",
+        "floodplain communities"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "CMIP6 SSP pathways through 2100 relative to 1995-2014",
+      "compact_statement": "Do not treat future rainfall direction or magnitude as settled without scenario- and location-specific extraction.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-013"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-022",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-014",
+          "locator": "section 'Results', beneficiary outcome bullet on asset and service purchases and the 26 percentage-point savings increase"
+        }
+      ],
+      "geographies": [
+        "Ten South Sudan Safety Net Project counties"
+      ],
+      "affected_groups": [
+        "vulnerable households",
+        "women",
+        "public works participants"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Selected beneficiaries demonstrated asset and savings gains, but these cannot be generalized nationally or attributed specifically to climate adaptation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-014"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-023",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-014",
+          "locator": "section 'Results', bullet 'Bolstered safety net delivery tools' on biometric payments, digitized grievance resolution, and government handover"
+        }
+      ],
+      "geographies": [
+        "South Sudan (program system serving ten counties)"
+      ],
+      "affected_groups": [
+        "safety-net beneficiaries",
+        "women",
+        "vulnerable households"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "A selected program demonstrated functioning payment and grievance systems, while wider government delivery capacity remains uncertain.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-014"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-024",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-015",
+          "locator": "sections 'The ECRP: A Beacon of Hope' and 'Tangible Results, Real Impact', paragraphs on twenty counties and more than 450 boma and payam committees"
+        }
+      ],
+      "geographies": [
+        "Twenty selected ECRP counties",
+        "participating payams and bomas"
+      ],
+      "affected_groups": [
+        "participating communities",
+        "women and girls",
+        "users of local services"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Selected counties demonstrated functioning community institutions for planning and maintaining local resilience investments.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-015"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-025",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-015",
+          "locator": "section 'Tangible Results, Real Impact', paragraphs reporting 345 subprojects, 99 percent functionality in 2024, and emergency-dike protection"
+        }
+      ],
+      "geographies": [
+        "Twenty selected ECRP counties",
+        "flood-affected target areas"
+      ],
+      "affected_groups": [
+        "project-area residents",
+        "women and girls",
+        "flood-exposed communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Selected infrastructure and flood defenses show reported functionality and reach, pending independent outcome verification.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-015"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-026",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-015",
+          "locator": "section 'Tangible Results, Real Impact', paragraph on third-party implementation limitations and the need to strengthen government delivery and maintenance"
+        }
+      ],
+      "geographies": [
+        "South Sudan",
+        "twenty selected ECRP counties"
+      ],
+      "affected_groups": [
+        "users of public infrastructure and services",
+        "remote communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Treat third-party delivery dependence and weak government maintenance capacity as material implementation constraints.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-015"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-027",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-016",
+          "locator": "press-release paragraph summarizing the CCDR finding that severe-year flooding covers up to one-quarter of the country and disrupts services, livelihoods, and food security"
+        }
+      ],
+      "geographies": [
+        "South Sudan (national severe-year flood footprint)"
+      ],
+      "affected_groups": [
+        "flood-exposed communities",
+        "resource-dependent communities",
+        "pastoralists",
+        "women"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current",
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "Screen access, services, and livelihoods for severe-year flood exposure that can affect a large share of national territory.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SSD-SRC-016"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-101",
+          "locator": "PDF p. 6, Part 1, section 1.1, Climate Variability."
+        }
+      ],
+      "geographies": [
+        "Greater Upper Nile",
+        "Unity",
+        "Jonglei",
+        "northern regions",
+        "south-eastern regions"
+      ],
+      "affected_groups": [
+        "flood-displaced households",
+        "women and girls",
+        "pastoralists and farmers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12 reports: By November 2025, floods in Greater Upper Nile, Unity and Jonglei had affected over 1.3 million people and displaced over 375,000, while northern and south-eastern regions faced prolonged dry spells; women and girls faced increased workloads and GBV exposure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-101",
+          "locator": "PDF p. 7, Part 1, section 1.1, Conflict and Climate stress further acts as a conflict multiplier."
+        }
+      ],
+      "geographies": [
+        "flood-affected areas",
+        "drought-stricken regions",
+        "South Sudan"
+      ],
+      "affected_groups": [
+        "pastoralists",
+        "farmers",
+        "women and girls"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The December 2025 HNRP describes flood-displaced pastoralists moving into farming zones and renewed farmer-herder clashes, with drought increasing water/grazing competition.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-101",
+          "locator": "PDF p. 29, Part 3, section 3.6, Logistics, Summary of needs."
+        }
+      ],
+      "geographies": [
+        "South Sudan"
+      ],
+      "affected_groups": [
+        "humanitarian partners",
+        "crisis-affected communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12 reports: Erratic rainfall and flooding damaged humanitarian supply routes and prevented pre-positioning; violence and insecurity also disrupted commercial movements and aid access.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-102",
+          "locator": "PDF p. 53, section Climate-related shocks."
+        }
+      ],
+      "geographies": [
+        "Jonglei",
+        "Lakes",
+        "Unity",
+        "western Sudd",
+        "Tonj areas of Warrap",
+        "Greater Bahr el Ghazal"
+      ],
+      "affected_groups": [
+        "flood-affected households",
+        "farmers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2025 CFSAM reports Jonglei, Lakes and Unity accounted for88%of flood-affected people, while western Sudd, Tonj and Greater Bahr el Ghazal experienced less extensive flooding than prior years.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-102",
+          "locator": "One-based PDF p.28 (printed p.18), flooding and crop performance."
+        }
+      ],
+      "geographies": [
+        "flood-prone areas of South Sudan",
+        "Jonglei",
+        "Unity",
+        "Upper Nile",
+        "Lakes",
+        "Northern Bahr el Ghazal"
+      ],
+      "affected_groups": [
+        "farmers",
+        "smallholder households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2025 CFSAM describes farmers in flood-prone areas shifting plantings from low areas to high ground; mature crops and late flooding also limited losses.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-102",
+          "locator": "PDF p. 53, section Drivers of household food insecurity."
+        }
+      ],
+      "geographies": [
+        "South Sudan",
+        "Jonglei",
+        "Unity",
+        "Upper Nile"
+      ],
+      "affected_groups": [
+        "food-insecure households",
+        "displaced people"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-03-19 reports: Food insecurity reflected conflict, low production, economic shocks and depleted coping; 2025 floods added multi-sector needs amid reduced funding and insecurity-related access constraints.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-102",
+          "locator": "PDF p. 13, section Crop and food security assessment mission methodology."
+        }
+      ],
+      "geographies": [
+        "insecure areas of South Sudan"
+      ],
+      "affected_groups": [
+        "farmers in inaccessible locations"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "For the 2025 crop mission, insecurity prevented some field visits, requiring phone and crop-monitoring committee reports instead of direct observation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-103",
+          "locator": "GIEWS section Concerns for 2026 cereal production due to dry weather conditions, first paragraph."
+        }
+      ],
+      "geographies": [
+        "southern agricultural areas"
+      ],
+      "affected_groups": [
+        "maize and sorghum farmers",
+        "smallholder households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "FAO's7September 2026 brief estimates below-average southern first-season cereal output following prolonged dry spells; it does not provide local yield estimates.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-103",
+          "locator": "GIEWS section Concerns for 2026 cereal production due to dry weather conditions, forecast paragraphs."
+        }
+      ],
+      "geographies": [
+        "central cropping areas",
+        "northern cropping areas",
+        "southern agricultural areas"
+      ],
+      "affected_groups": [
+        "farmers",
+        "smallholder households"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "FAO's 2026 near-term weather forecast; no climate-model scenario is specified.",
+      "compact_statement": "Source dated 2026-09-07 reports: The 7 September brief forecast that rainfall deficits could constrain central and northern yields, while above-average October-December rains could support southern second-season crops.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SSD-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SSD-SRC-103",
+          "locator": "GIEWS section Concerns for 2026 cereal production due to dry weather conditions, closing paragraph."
+        }
+      ],
+      "geographies": [
+        "South Sudan",
+        "unspecified agricultural areas"
+      ],
+      "affected_groups": [
+        "farmers",
+        "smallholder households"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "current",
+        "near-term"
+      ],
+      "scenario": "Qualitative FAO assessment based on insecurity; affected locations and crop-loss estimates are unspecified.",
+      "compact_statement": "FAO's7September 2026 brief describes insecurity since late 2025 disrupting agriculture in unspecified areas and likely contributing to localized shortfalls.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "SSD-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SSD-E-002",
+        "SSD-E-006",
+        "SSD-E-010",
+        "SSD-E-013",
+        "SSD-E-018"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SSD-E-002",
+          "SSD-E-013"
+        ],
+        "impact": [
+          "SSD-E-006",
+          "SSD-E-010",
+          "SSD-E-013"
+        ],
+        "mediator": [
+          "SSD-E-006",
+          "SSD-E-013"
+        ],
+        "consequence": [
+          "SSD-E-013"
+        ]
+      },
+      "geographies": [
+        "Unity State",
+        "Rubkona County",
+        "Twic County",
+        "Mayiendit County",
+        "Yirol"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Repeated flooding may increase localized host-displaced tension when displacement concentrates people on scarce high ground with limited services and livelihood resources.",
+      "alternative_explanations": [
+        "Conflict, poverty, service deficits, and pre-existing land disputes can independently drive displacement and host-community tension."
+      ],
+      "uncertainty": "Localized pressure is documented; tension is neither universal nor primarily attributable to flooding.",
+      "potentially_out_of_scope_support_ids": [
+        "SSD-E-002",
+        "SSD-E-006"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SSD-P-002",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SSD-E-002",
+        "SSD-E-004",
+        "SSD-E-014",
+        "SSD-E-017"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SSD-E-002"
+        ],
+        "impact": [
+          "SSD-E-004",
+          "SSD-E-014",
+          "SSD-E-017"
+        ],
+        "mediator": [
+          "SSD-E-014",
+          "SSD-E-017"
+        ],
+        "consequence": [
+          "SSD-E-014",
+          "SSD-E-017"
+        ]
+      },
+      "geographies": [
+        "South Sudan",
+        "Eastern Equatoria",
+        "Greater Equatoria"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Climate-related livelihood and mobility changes may raise farmer-herder tension when customary route agreements and dispute-resolution arrangements are weak.",
+      "alternative_explanations": [
+        "Political mobilization, cattle-raiding economies, weapons availability, and unresolved land claims can drive violence without a climate shock."
+      ],
+      "uncertainty": "Mobility can support adaptation; tension depends on weak coordination and cannot be generalized.",
+      "potentially_out_of_scope_support_ids": [
+        "SSD-E-002",
+        "SSD-E-004"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SSD-P-003",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SSD-E-005",
+        "SSD-E-007"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SSD-E-005",
+          "SSD-E-007"
+        ],
+        "impact": [
+          "SSD-E-005",
+          "SSD-E-007"
+        ],
+        "mediator": [
+          "SSD-E-007"
+        ],
+        "consequence": [
+          "SSD-E-007"
+        ]
+      },
+      "geographies": [
+        "Rubkona County",
+        "South Sudan"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Flooded infrastructure and insecurity can jointly restrict service and humanitarian access, with possible implications for exclusion and grievance.",
+      "alternative_explanations": [
+        "Chronic underinvestment, poor maintenance, administrative exclusion, and active conflict can restrict services even without flooding."
+      ],
+      "uncertainty": "Joint access constraints are documented; grievance or violence effects are unmeasured.",
+      "potentially_out_of_scope_support_ids": [
+        "SSD-E-005",
+        "SSD-E-007"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SSD-P-004",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SSD-E-004",
+        "SSD-E-006",
+        "SSD-E-008",
+        "SSD-E-009",
+        "SSD-E-017"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SSD-E-004",
+          "SSD-E-006",
+          "SSD-E-009"
+        ],
+        "impact": [
+          "SSD-E-004",
+          "SSD-E-006",
+          "SSD-E-008",
+          "SSD-E-009"
+        ],
+        "mediator": [
+          "SSD-E-008",
+          "SSD-E-009",
+          "SSD-E-017"
+        ],
+        "consequence": [
+          "SSD-E-009",
+          "SSD-E-017"
+        ]
+      },
+      "geographies": [
+        "Rubkona County",
+        "South Sudan"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Repeated shocks may increase harmful coping and protection risks when conflict, poverty, displacement, and weak markets leave households few livelihood alternatives.",
+      "alternative_explanations": [
+        "Macroeconomic crisis, armed conflict, displacement, market failure, and aid shortfalls may independently produce food insecurity and harmful coping."
+      ],
+      "uncertainty": "Food and livelihood stress is documented; harmful coping and recruitment prevalence is unquantified.",
+      "potentially_out_of_scope_support_ids": [
+        "SSD-E-006",
+        "SSD-E-008",
+        "SSD-E-009"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SSD-P-005",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SSD-E-007",
+        "SSD-E-009"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SSD-E-009"
+        ],
+        "impact": [
+          "SSD-E-007",
+          "SSD-E-009"
+        ],
+        "mediator": [
+          "SSD-E-009"
+        ],
+        "consequence": [
+          "SSD-E-009"
+        ]
+      },
+      "geographies": [
+        "Malakal",
+        "Kapoeta South",
+        "Rubkona",
+        "South Sudan"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Climate-related displacement and service disruption may heighten gendered protection and health risks where conflict and inequality already restrict safety and services.",
+      "alternative_explanations": [
+        "Conflict, displacement, economic crisis, and entrenched gender inequality independently create severe protection and health risks."
+      ],
+      "uncertainty": "Protection risks are underreported; climate, conflict, poverty, and inequality effects remain inseparable.",
+      "potentially_out_of_scope_support_ids": [
+        "SSD-E-007"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SSD-P-006",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SSD-E-008",
+        "SSD-E-011",
+        "SSD-E-012",
+        "SSD-E-016",
+        "SSD-E-019"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SSD-E-008",
+          "SSD-E-011",
+          "SSD-E-012"
+        ],
+        "impact": [
+          "SSD-E-008",
+          "SSD-E-016",
+          "SSD-E-019"
+        ],
+        "mediator": [
+          "SSD-E-011",
+          "SSD-E-016",
+          "SSD-E-019"
+        ],
+        "consequence": [
+          "SSD-E-016",
+          "SSD-E-019"
+        ]
+      },
+      "geographies": [
+        "South Sudan"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Conflict and weak institutions can constrain adaptation capacity when instability, low trust, infrastructure deficits, and implementation gaps disrupt planning and delivery.",
+      "alternative_explanations": [
+        "Low income, sparse infrastructure, technical constraints, and donor fragmentation may impede adaptation independently of conflict and institutional fragility."
+      ],
+      "uncertainty": "Institutional constraints are documented; individual effects and implementation consistency are not compared.",
+      "potentially_out_of_scope_support_ids": [
+        "SSD-E-008",
+        "SSD-E-011",
+        "SSD-E-012"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SSD-P-007",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SSD-E-015"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SSD-E-015"
+        ],
+        "impact": [
+          "SSD-E-015"
+        ],
+        "mediator": [
+          "SSD-E-015"
+        ],
+        "consequence": [
+          "SSD-E-015"
+        ]
+      },
+      "geographies": [
+        "Pigi County",
+        "Central Equatoria",
+        "Greater Equatoria"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "direct",
+      "compact_statement": "Conflict legacies and contested land can restrict climate-related evacuation, return, or relocation where routes and destinations are unsafe or disputed.",
+      "alternative_explanations": [
+        "People may remain or move for livelihood, family, service-access, or security reasons unrelated to flooding."
+      ],
+      "uncertainty": "Examples are not nationally prevalent and include cooperation; local mine, land, and security arrangements determine outcomes.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "SSD-E-017",
+  "source_access_review": {
+    "selected_record_id": "SSD-E-017",
+    "selected_source_id": "SSD-SRC-002",
+    "url": "https://www.un.org/climatesecuritymechanism/en/media/338",
+    "locator": "sections on climate-security pathways and strategic interventions, including livelihood disruption, mobility, recruitment, elite exploitation, early warning, and coordination",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "access-only",
+    "claim_verification": "unresolved",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 85602,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+    "verification_note": "The retrieved UN Climate Security Mechanism page contains a short summary of livelihood disruption, migration, resource-based conflict and response priorities, but not the cited brief's specific recruitment-incentive or elite-exploitation mechanisms."
+  },
+  "checks": [
+    {
+      "record_id": "SSD-E-017",
+      "source_id": "SSD-SRC-002",
+      "locator": "sections on climate-security pathways and strategic interventions, including livelihood disruption, mobility, recruitment, elite exploitation, early warning, and coordination",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET; HTML visible-text extraction; human comparison of the candidate claim with the bounded locator excerpt",
+      "access_date": "2026-10-27",
+      "source_access_status": "access-only",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": false,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Narrow to the mechanisms and responses actually stated in the page summary, or inspect the linked full brief before retaining recruitment and elite-exploitation pathways.",
+      "coordinator_decision_ref": null
+    }
+  ],
+  "limitations": [
+    "SSD-E-017: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "SSD-E-001",
+    "SSD-E-002",
+    "SSD-E-003",
+    "SSD-E-004",
+    "SSD-E-005",
+    "SSD-E-006",
+    "SSD-E-007",
+    "SSD-E-008",
+    "SSD-E-009",
+    "SSD-E-010",
+    "SSD-E-011",
+    "SSD-E-012",
+    "SSD-E-013",
+    "SSD-E-014",
+    "SSD-E-015",
+    "SSD-E-016",
+    "SSD-E-017",
+    "SSD-E-018",
+    "SSD-E-019",
+    "SSD-E-020",
+    "SSD-E-021",
+    "SSD-E-022",
+    "SSD-E-023",
+    "SSD-E-024",
+    "SSD-E-025",
+    "SSD-E-026",
+    "SSD-E-027",
+    "SSD-E-101",
+    "SSD-E-102",
+    "SSD-E-103",
+    "SSD-E-104",
+    "SSD-E-105",
+    "SSD-E-106",
+    "SSD-E-107",
+    "SSD-E-108",
+    "SSD-E-109",
+    "SSD-E-110",
+    "SSD-P-001",
+    "SSD-P-002",
+    "SSD-P-003",
+    "SSD-P-004",
+    "SSD-P-005",
+    "SSD-P-006",
+    "SSD-P-007"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 1,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

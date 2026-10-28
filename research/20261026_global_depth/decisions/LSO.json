@@ -1,0 +1,146 @@
+{
+  "iso3": "LSO",
+  "coordinator": "Codex source and analytical adjudication; not human approval",
+  "human_approval": false,
+  "extraction_sha256_utf8_lf": "9e0c4f90ae8c15fee502e906a35b39b2a4036b4a69ba77d15af91355c41dea87",
+  "country_aliases": [],
+  "claim_decisions": [
+    {
+      "claim_id": "LSO-C-101",
+      "decision": "exclude",
+      "reason": "Original IPC PDF did not open; search-indexed passages alone are not eligible evidence."
+    },
+    {
+      "claim_id": "LSO-C-102",
+      "decision": "exclude",
+      "reason": "Indexed-only and expired projection; no verified realization."
+    },
+    {
+      "claim_id": "LSO-C-103",
+      "decision": "exclude",
+      "reason": "Indexed-only source; do not reproduce unverified drivers."
+    },
+    {
+      "claim_id": "LSO-C-104",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "climate-to-fcv",
+      "confidence": "medium",
+      "statement": "The July 2016 UN drought update reports water-point tensions associated with queues and queue-jumping, differentiated between men's livestock-water responsibilities and women's household-water collection.",
+      "time_horizons": [
+        "historical"
+      ],
+      "uncertainty": "Historical gender-analysis finding; no current conflict prevalence and no named locality-specific incident series."
+    },
+    {
+      "claim_id": "LSO-C-105",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "climate-to-fcv",
+      "confidence": "medium",
+      "statement": "Source dated 2016-07-25 reports: The report says children collecting water or food at community points, and children walking longer distances during drought, faced increased danger and injury risk.",
+      "time_horizons": [
+        "historical"
+      ],
+      "locator": "Original eight-page UN drought update, physical p.3, child-protection risk assessment; the gendered tensions discussion follows on p.4."
+    },
+    {
+      "claim_id": "LSO-C-106",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "Source dated not stated reports: The UN reported 2025 support for restoration in degraded areas of Mafeteng, Mohale's Hoek and Quthing, including agroforestry, 400 indigenous trees and a check dam; it also reported drought anticipatory-action protocols and improved early-warning procedures for the DMA.",
+      "time_horizons": [
+        "historical"
+      ],
+      "locator": "Original 42-page UNCT 2025 report, physical pp.20–21 (printed spread pp.38–41), environmental management and anticipatory-action outputs."
+    },
+    {
+      "claim_id": "LSO-C-107",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "Source dated 2026-03-02 reports: The UN identifies Mafeteng, Mohale's Hoek and Quthing in the Southern Lowlands as facing recurrent drought and land degradation that undermine farming; Thaba-Tseka in the Highlands faces drought, erosion and limited services alongside high poverty and chronic malnutrition.",
+      "time_horizons": [
+        "historical"
+      ]
+    },
+    {
+      "claim_id": "LSO-C-108",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "Source dated 2026-03-02 reports: The UN reports Phase I strengthened national climate-information systems, supported climate-smart agriculture and community risk knowledge; Phase II is funded for US$10 million, implemented by WFP and executed by two ministries.",
+      "time_horizons": [
+        "historical"
+      ]
+    },
+    {
+      "claim_id": "LSO-C-109",
+      "decision": "include",
+      "reason": "Retain bounded source-supported finding with vintage and causal limitations; no extrapolation to 2026 or evaluated impact.",
+      "refresh_tier": "structural",
+      "interaction_direction": "contextual",
+      "confidence": "medium",
+      "statement": "Source dated 2026-03-02 reports: Phase II plans better seasonal forecasts, gender-responsive last-mile climate services, anticipatory action, ecosystem rehabilitation, livelihood diversification and improved market links; it prioritizes women-headed households, youth, persons with disabilities and remote rural communities.",
+      "time_horizons": [
+        "near-term",
+        "medium-term"
+      ]
+    }
+  ],
+  "pathways": [],
+  "gaps": [
+    "IPC indexed excerpts excluded: the original PDF timed out. Remaining primary UN report and official launch article support named district exposure, historical water-point tensions and reported capacity outputs.",
+    "The launch article's district-targeting description is not a comparative local risk model. Historical tensions and proposed last-mile services do not establish a current climate-conflict trend."
+  ],
+  "executive_assessment": [
+    {
+      "text": "The 2016 drought report describes gendered water-point tensions and child-protection risks. These are historical mechanisms, not current conflict rates.",
+      "evidence_ids": [
+        "LSO-E-104",
+        "LSO-E-105"
+      ],
+      "pathway_ids": []
+    },
+    {
+      "text": "Named Southern Lowlands and Thaba-Tseka vulnerabilities, reported restoration outputs and planned IACoV II services deepen the institutional and local picture without claiming evaluated impact.",
+      "evidence_ids": [
+        "LSO-E-106",
+        "LSO-E-107",
+        "LSO-E-109"
+      ],
+      "pathway_ids": []
+    }
+  ],
+  "coordinator_source_checks": [
+    {
+      "source_id": "LSO-SRC-101",
+      "result": "Original government-hosted IPC PDF timed out; all indexed-only claims excluded.",
+      "url": "https://lvac.gov.ls/media/reports/IPC_Lesotho_Acute_Food_Insecurity_May2025_Mar2026_Report.pdf"
+    },
+    {
+      "source_id": "LSO-SRC-102",
+      "result": "Primary publisher passage inspected; scope retained in claim decisions.",
+      "url": "https://lesotho.un.org/en/download/3710/19742"
+    },
+    {
+      "source_id": "LSO-SRC-103",
+      "result": "Primary publisher passage inspected; scope retained in claim decisions.",
+      "url": "https://lesotho.un.org/sites/default/files/2026-04/UNCT%20Annual%20Report%202025%20FIN.pdf"
+    },
+    {
+      "source_id": "LSO-SRC-104",
+      "result": "Primary publisher passage inspected; scope retained in claim decisions.",
+      "url": "https://lesotho.un.org/en/310952-lesotho-launches-iacov-phase-ii-strengthen-climate-resilience-and-food-security"
+    }
+  ]
+}

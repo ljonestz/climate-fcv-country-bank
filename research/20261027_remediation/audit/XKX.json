@@ -1,0 +1,1239 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "XKX",
+  "candidate_path": "countries/XKX/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 7,
+    "evidence_count": 18,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 18
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 5,
+      "verified": 1,
+      "access-only": 12
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "XKX-E-001",
+          "XKX-E-002",
+          "XKX-E-103",
+          "XKX-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "XKX-E-003",
+          "XKX-E-004",
+          "XKX-E-005",
+          "XKX-E-101",
+          "XKX-E-102",
+          "XKX-E-104",
+          "XKX-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "XKX-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "XKX-E-107",
+          "XKX-E-108",
+          "XKX-E-109",
+          "XKX-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "XKX-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "XKX-E-006"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "XKX-E-101",
+          "XKX-E-102",
+          "XKX-E-103",
+          "XKX-E-104",
+          "XKX-E-107",
+          "XKX-E-108",
+          "XKX-E-109",
+          "XKX-E-110",
+          "XKX-E-111",
+          "XKX-E-112",
+          "XKX-E-113"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "XKX-P-001"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/XKX/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "XKX-SRC-001",
+      "title": "Country Climate and Development Report: Western Balkans 6, Kosovo Country Compendium",
+      "organization": "World Bank Group",
+      "publication_date": "2024-10",
+      "publication_date_basis": "document-version",
+      "url": "https://documents1.worldbank.org/curated/en/099100324121037634/pdf/P17920519a54a30bb1abe41c87eaa27d582.pdf",
+      "geographic_coverage": [
+        "Kosovo",
+        "Drini basin",
+        "Malishevë/Mališevo",
+        "Gllogovc/Glogovac"
+      ],
+      "temporal_coverage": "Country compendium dated October 2024; includes hazard history and climate projections.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "XKX-E-001",
+        "XKX-E-002"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "XKX-SRC-002",
+      "title": "Climate Change Strategy 2019-2028 and Action Plan on Climate Change 2019-2021",
+      "organization": "Ministry of Environment and Spatial Planning, Government of Kosovo",
+      "publication_date": "2018",
+      "publication_date_basis": "document-version",
+      "url": "https://konsultimet.rks-gov.net/Storage/Consultations/14-13-59-04102018/Climate%20Change%20Strategy%20and%20Action%20Plan_5%20oct_2018_FINAL%5B1%5D.pdf",
+      "geographic_coverage": [
+        "Kosovo",
+        "local and municipal areas"
+      ],
+      "temporal_coverage": "Government strategy document dated 2018; action-plan period 2019-2021.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "XKX-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "XKX-SRC-003",
+      "title": "Kosovo's First and Voluntary Nationally Determined Contribution",
+      "organization": "Ministry of Environment, Spatial Planning and Infrastructure, Government of Kosovo",
+      "publication_date": "2025",
+      "publication_date_basis": "document-version",
+      "url": "https://ammk-rks.net/assets/cms/uploads/files/DECISION%20GRK%20NO.%2020_253%20The%20Nationally%20Determined%20Contribution%20%28NDC%29%20of%20Kosovo.pdf",
+      "geographic_coverage": [
+        "Kosovo",
+        "Drin basin",
+        "north-eastern Kosovo",
+        "rural settlements"
+      ],
+      "temporal_coverage": "Voluntary NDC adopted in 2025; mitigation targets extend to 2030 and adaptation sections describe current and prospective risks.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "XKX-E-004",
+        "XKX-E-005",
+        "XKX-E-006"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "XKX-E-006",
+        "selected_source_id": "XKX-SRC-003",
+        "url": "https://ammk-rks.net/assets/cms/uploads/files/DECISION%20GRK%20NO.%2020_253%20The%20Nationally%20Determined%20Contribution%20%28NDC%29%20of%20Kosovo.pdf",
+        "locator": "Section 4.3.2.1, rural livelihood and resource-risk discussion (PDF p. 72).",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 1278119,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          72
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "XKX-E-006"
+      ],
+      "manual_verified_record_ids": [
+        "XKX-E-006"
+      ]
+    },
+    {
+      "source_id": "XKX-SRC-101",
+      "title": "A Climate Landscape Analysis for Children: Policy Brief",
+      "organization": "UNICEF Kosovo Programme",
+      "publication_date": "2024",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/kosovoprogramme/media/6551/file/Policy%20Brief_CLAC-Long.pdf.pdf",
+      "geographic_coverage": [
+        "Kosovo",
+        "Ferizaj",
+        "Prizren",
+        "Pristina",
+        "Mitrovica",
+        "Skenderaj"
+      ],
+      "temporal_coverage": "Child climate and environmental vulnerability synthesis, including observed events and health reports through 2023.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "XKX-E-101",
+        "XKX-E-102",
+        "XKX-E-103",
+        "XKX-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete four-page policy brief, especially pp. 1–2.",
+          "notes": "Publisher PDF was opened and cited passages read directly; this is a brief summarizing a larger assessment.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "XKX-SRC-102",
+      "title": "Mine Action and the Resilience of Communities to Climate Change",
+      "organization": "Geneva International Centre for Humanitarian Demining (GICHD)",
+      "publication_date": "2023",
+      "publication_date_basis": "publication",
+      "url": "https://www.gichd.org/fileadmin/user_upload/GICHD__Mine_Action_and_the_Resilience_of_Communities_to_Climate_Change.pdf",
+      "geographic_coverage": [
+        "Kosovo",
+        "Peja Municipality",
+        "Bjeshkët e Nemuna National Park",
+        "Mitrovica Municipality",
+        "Barë",
+        "Bajgora"
+      ],
+      "temporal_coverage": "Mine-action policy and community case studies, including clearance activity through 2023 and status statements made in the report.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "XKX-E-105",
+        "XKX-E-107",
+        "XKX-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 79-page report; Kosovo overview and case studies, printed pp. 38–42.",
+          "notes": "Full publisher PDF read directly. Local cases are qualitative accounts and the institutional status is vintage-bound.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "XKX-SRC-103",
+      "title": "Intervention Plan for Rural Development to Mitigate and Adapt to Climate Change, 2023–2028",
+      "organization": "Municipality of Prizren, with support from UNDP Kosovo",
+      "publication_date": "2022-11",
+      "publication_date_basis": "document-version",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2023-05/Development%20to%20Mitigate%20and%20Adapt%20to%20Climate%20Change%20of%20Municipality%20of%20Prizren.pdf",
+      "geographic_coverage": [
+        "Prizren Municipality",
+        "Prizren rural settlements",
+        "Manastrica"
+      ],
+      "temporal_coverage": "Municipal rural-development plan for 2023–2028, dated November 2022.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "XKX-E-109",
+        "XKX-E-110",
+        "XKX-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 32-page municipal plan; printed pp. 5–6, 11 and 15–16.",
+          "notes": "Full plan read directly; interventions are proposed actions, not verified results.",
+          "reuse_terms": "No explicit reuse license confirmed.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "XKX-SRC-104",
+      "title": "Community Flood Vulnerability and Adaptive Capacity in the Municipality of Podujeva: Results of the CLIPP Household Survey",
+      "organization": "University of Prishtina and Municipality of Podujeva",
+      "publication_date": "2026-08-05",
+      "publication_date_basis": "portal-publication",
+      "url": "https://zenodo.org/records/21807320",
+      "geographic_coverage": [
+        "Podujeva Municipality",
+        "35 participating settlements"
+      ],
+      "temporal_coverage": "Household survey conducted 1 June–31 July 2026; record version published 5 August 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "XKX-E-112",
+        "XKX-E-113"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Publisher record ‘Description’ and ‘Methods (English)’ sections; linked report file not read.",
+          "notes": "Zenodo record provides the author/municipal description and survey-method summary. Direct report download returned HTTP 429; no indexed snippets used.",
+          "reuse_terms": "Record does not state a license; unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "XKX-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "XKX-SRC-001",
+          "locator": "Adaptation risks, printed p. 9 (PDF p. 8) and section 2.1, printed p. 10 (PDF p. 21)."
+        }
+      ],
+      "geographies": [
+        "Kosovo"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current",
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The CCDR compendium reports frequent forest fires, floods, and landslides; 36.8 percent of Kosovo's area is at medium wildfire risk and 15.8 percent at high risk, with forests increasingly susceptible since 2000.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "XKX-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "XKX-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "XKX-SRC-001",
+          "locator": "Section 2.1, printed p. 10 (PDF p. 21)."
+        }
+      ],
+      "geographies": [
+        "Drini basin",
+        "mountainous areas"
+      ],
+      "affected_groups": [
+        "residents in mountainous areas"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The compendium says mountainous areas face flash floods, including in the Drini basin where floods occur every two to three years; severe floods in 2013, 2014, and 2016 caused more than €4 million in estimated damage.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "XKX-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "XKX-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "XKX-SRC-002",
+          "locator": "Executive summary, printed pp. 7-8 (PDF pp. 7-8)."
+        }
+      ],
+      "geographies": [
+        "Kosovo",
+        "municipal areas"
+      ],
+      "affected_groups": [
+        "poor households",
+        "communities in hazard zones"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The government strategy identifies poverty, limited health and social-welfare services, illegal construction in hazard zones, inadequate water and sewage infrastructure, and weak municipal land-use planning as factors that heighten climate-hazard impacts.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "XKX-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "XKX-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "XKX-SRC-003",
+          "locator": "Climate hazards and drought impacts, printed pp. 58-59 (PDF pp. 64-68)."
+        }
+      ],
+      "geographies": [
+        "Kosovo",
+        "rural areas"
+      ],
+      "affected_groups": [
+        "farm households",
+        "subsistence farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC reports drought losses above €50 million in 2009-2017, mainly crop failures; the 2022 drought affected agriculture across more than 10 percent of Kosovo's territory.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "XKX-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "XKX-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "XKX-SRC-003",
+          "locator": "Section 4.4 on women, children, and marginalised groups (PDF pp. 74-75)."
+        }
+      ],
+      "geographies": [
+        "Kosovo",
+        "Mitrovica",
+        "Roma Mahalla/Mahala",
+        "rural areas"
+      ],
+      "affected_groups": [
+        "women",
+        "children",
+        "marginalised groups",
+        "Roma families"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical",
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The NDC identifies disproportionate climate risks for women, children, and marginalised groups; women own 4.9 percent of farm land despite 49 percent of agricultural labor, while floods can disrupt children's education and services.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "XKX-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "XKX-E-006",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "XKX-SRC-003",
+          "locator": "Section 4.3.2.1, rural livelihood and resource-risk discussion (PDF p. 72)."
+        }
+      ],
+      "geographies": [
+        "Kosovo",
+        "rural communities"
+      ],
+      "affected_groups": [
+        "subsistence farming households",
+        "rural communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "The cited NDC passage does not specify a climate scenario or dated horizon for this conflict-risk statement.",
+      "compact_statement": "The NDC says drought, water stress, flooding, and weak farm adaptation could worsen livelihood threats and raise conflict or social-tension risks over natural-resource access.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "XKX-SRC-003"
+      ],
+      "recommendations": [
+        "Retain the conditional 'could' framing and distinguish the NDC's risk assessment from observed incidence."
+      ],
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+      "verification_attempt": {
+        "record_id": "XKX-E-006",
+        "source_id": "XKX-SRC-003",
+        "url": "https://ammk-rks.net/assets/cms/uploads/files/DECISION%20GRK%20NO.%2020_253%20The%20Nationally%20Determined%20Contribution%20%28NDC%29%20of%20Kosovo.pdf",
+        "locator": "Section 4.3.2.1, rural livelihood and resource-risk discussion (PDF p. 72).",
+        "accessed_on": "2026-10-27",
+        "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "Kosovo's NDC states that drought, water stress, flooding and weak agricultural adaptation could exacerbate livelihood threats and increase conflict/social-tension risk over natural-resource access. It is a conditional assessment, not an observed conflict count."
+      },
+      "verification_note": "Kosovo's NDC states that drought, water stress, flooding and weak agricultural adaptation could exacerbate livelihood threats and increase conflict/social-tension risk over natural-resource access. It is a conditional assessment, not an observed conflict count.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "XKX-SRC-003",
+        "source_url": "https://ammk-rks.net/assets/cms/uploads/files/DECISION%20GRK%20NO.%2020_253%20The%20Nationally%20Determined%20Contribution%20%28NDC%29%20of%20Kosovo.pdf",
+        "locator": "Section 4.3.2.1, rural livelihood and resource-risk discussion (PDF p. 72).",
+        "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+        "reason": "Kosovo's NDC states that drought, water stress, flooding and weak agricultural adaptation could exacerbate livelihood threats and increase conflict/social-tension risk over natural-resource access. It is a conditional assessment, not an observed conflict count.",
+        "recommended_record_patch": "Retain the conditional 'could' framing and distinguish the NDC's risk assessment from observed incidence.",
+        "coordinator_decision_ref": null
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "XKX-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "XKX-SRC-101",
+          "locator": "PDF p. 2, ‘Climate Hazards’ section."
+        }
+      ],
+      "geographies": [
+        "Ferizaj",
+        "Prizren",
+        "Kosovo districts"
+      ],
+      "affected_groups": [
+        "children",
+        "children in multidimensional poverty"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: The brief names Ferizaj and Prizren as most vulnerable; children facing both hazard exposure and multidimensional poverty face greatest risks.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "XKX-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "XKX-SRC-101",
+          "locator": "PDF p. 2, ‘Rising Temperatures’ section."
+        }
+      ],
+      "geographies": [
+        "Pristina",
+        "Mitrovica"
+      ],
+      "affected_groups": [
+        "children"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: After 2021 and 2023 were Kosovo's hottest years, family medicine centres in Pristina and Mitrovica reported more child admissions, especially above 30°C.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "XKX-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "XKX-SRC-101",
+          "locator": "PDF p. 2, ‘Heavy Rainfall and Flooding’ section."
+        }
+      ],
+      "geographies": [
+        "Skenderaj",
+        "Mitrovica",
+        "Kosovo"
+      ],
+      "affected_groups": [
+        "children",
+        "flood-affected households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: Early-2023 floods affected about 22,000 people, including 3,000 children, mostly in Skenderaj and Mitrovica. Average-year floods affect about 10,000 people, damaging homes/schools and interrupting water and power.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "XKX-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "XKX-SRC-101",
+          "locator": "PDF pp. 1–2, vulnerability summary and ‘Wildfires’ section."
+        }
+      ],
+      "geographies": [
+        "Mitrovica",
+        "Prizren",
+        "Kosovo"
+      ],
+      "affected_groups": [
+        "children with disabilities",
+        "children with pre-existing health conditions",
+        "Roma children",
+        "Ashkali children",
+        "Egyptian children"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024 reports: UNICEF flags disabled/health-condition and Roma, Ashkali and Egyptian children as facing added challenges; fires increased since 2007 in Mitrovica and Prizren, while human-caused fires removed 13% of Kosovo tree cover in 2001–2023.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "XKX-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "XKX-SRC-102",
+          "locator": "Printed p. 39, Kosovo mine-action priority-setting discussion."
+        }
+      ],
+      "geographies": [
+        "Kosovo"
+      ],
+      "affected_groups": [
+        "households",
+        "communities using farmland, grazing land and forests"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: KMAC weighs risk, environment/development and poverty in site priorities; hazards contributing to climate impacts receive top clearance priority. Operators lacked climate-specific procedures at report time.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "XKX-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "XKX-SRC-102",
+          "locator": "Printed p. 40, case study 1, Bjeshkët e Nemuna National Park."
+        }
+      ],
+      "geographies": [
+        "Peja Municipality",
+        "Bjeshkët e Nemuna National Park"
+      ],
+      "affected_groups": [
+        "farmers",
+        "livestock keepers",
+        "tourists",
+        "Peja residents"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: War ordnance contaminated wooded hills west of Peja, which faces flash floods, hotter summers and milder, less snowy winters. Clearance released 355,502 m², reopening park trails and resource access.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "XKX-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "XKX-SRC-102",
+          "locator": "Printed pp. 41–42, case study 2, Barë and Bajgora villages."
+        }
+      ],
+      "geographies": [
+        "Mitrovica Municipality",
+        "Barë",
+        "Bajgora"
+      ],
+      "affected_groups": [
+        "migrants",
+        "livestock keepers",
+        "rural households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: In Mitrovica, war/industrial-closure migration and weakened services coexist with hotter summers, less snow and possible July–August drought. Clearance restored Barë grazing/firewood access and Bajgora woodland/pipeline access; wind power was exported.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "XKX-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "XKX-SRC-103",
+          "locator": "Printed pp. 5–6, executive summary and intervention plan summary table."
+        }
+      ],
+      "geographies": [
+        "Prizren Municipality"
+      ],
+      "affected_groups": [
+        "rural residents",
+        "farmers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-11 reports: Prizren's 2023–2028 rural plan sets out 14 measures and 74 proposed actions with estimated costs of €22.4955 million across agriculture, biodiversity, forestry and rural tourism.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "XKX-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "XKX-SRC-103",
+          "locator": "Printed pp. 15–16, measure 1.3, actions 1.3.1–1.3.6."
+        }
+      ],
+      "geographies": [
+        "Prizren Municipality",
+        "Manastrica"
+      ],
+      "affected_groups": [
+        "farmers",
+        "municipal water users"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-11 reports: The plan proposed irrigation-system rehabilitation studies, water-storage studies, Manastrica Dam design/construction for drinking water and irrigation, drip-irrigation subsidies and ponds for irrigation/firefighting; dam construction was scheduled for 2025–2028.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "XKX-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "XKX-SRC-103",
+          "locator": "Printed p. 11, gender-consideration priorities."
+        }
+      ],
+      "geographies": [
+        "Prizren rural areas"
+      ],
+      "affected_groups": [
+        "women",
+        "women farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022-11 reports: The plan flags women in rural Prizren as potentially responsible for agricultural water management yet having limited water access; it calls for women's participation in planning, early warnings and drought-tolerant seed support.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "XKX-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "XKX-SRC-104",
+          "locator": "Zenodo publisher record, ‘Description’ and ‘Methods (English)’ sections."
+        }
+      ],
+      "geographies": [
+        "Podujeva Municipality",
+        "35 participating settlements"
+      ],
+      "affected_groups": [
+        "surveyed households",
+        "farmers"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-08-05 reports: A June–July 2026 Podujeva survey of 101 respondents across 35 settlements found recurrent, materially damaging floods among participating households, with impacts concentrated on agricultural land and crops.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "XKX-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "XKX-SRC-104",
+          "locator": "Zenodo publisher record, ‘Description’ and ‘Methods (English)’ sections."
+        }
+      ],
+      "geographies": [
+        "Podujeva Municipality",
+        "35 participating settlements"
+      ],
+      "affected_groups": [
+        "survey respondents",
+        "households"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The non-representative Podujeva survey summary reports drinking-water interruptions, drainage/maintenance gaps and uneven warning access among respondents.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "XKX-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "XKX-E-006"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "XKX-E-006"
+        ],
+        "impact": [
+          "XKX-E-006"
+        ],
+        "mediator": [
+          "XKX-E-006"
+        ],
+        "consequence": [
+          "XKX-E-006"
+        ]
+      },
+      "geographies": [
+        "Kosovo"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Climate livelihood threats may compound resource-access tensions.",
+      "alternative_explanations": [
+        "Resource access can reflect non-climatic inequalities."
+      ],
+      "uncertainty": "Government-stated prospective risk, not event attribution or FCV classification.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [],
+      "recommendations": [
+        "No structural linkage issue identified; review each cited passage for its specific causal link, alternatives and uncertainty before treating the pathway as verified."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "XKX-E-006",
+  "source_access_review": {
+    "selected_record_id": "XKX-E-006",
+    "selected_source_id": "XKX-SRC-003",
+    "url": "https://ammk-rks.net/assets/cms/uploads/files/DECISION%20GRK%20NO.%2020_253%20The%20Nationally%20Determined%20Contribution%20%28NDC%29%20of%20Kosovo.pdf",
+    "locator": "Section 4.3.2.1, rural livelihood and resource-risk discussion (PDF p. 72).",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 1278119,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      72
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+    "verification_note": "Kosovo's NDC states that drought, water stress, flooding and weak agricultural adaptation could exacerbate livelihood threats and increase conflict/social-tension risk over natural-resource access. It is a conditional assessment, not an observed conflict count."
+  },
+  "checks": [
+    {
+      "record_id": "XKX-E-006",
+      "source_id": "XKX-SRC-003",
+      "locator": "Section 4.3.2.1, rural livelihood and resource-risk discussion (PDF p. 72).",
+      "verification_status": "verified",
+      "verification_method": "HTTPS GET; in-memory PDF page extraction with pypdf; human comparison of the candidate claim with the bounded locator excerpt",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": "Retain the conditional 'could' framing and distinguish the NDC's risk assessment from observed incidence.",
+      "coordinator_decision_ref": null
+    }
+  ],
+  "limitations": [
+    "XKX-E-006: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "XKX-E-001",
+    "XKX-E-002",
+    "XKX-E-003",
+    "XKX-E-004",
+    "XKX-E-005",
+    "XKX-E-006",
+    "XKX-E-101",
+    "XKX-E-102",
+    "XKX-E-103",
+    "XKX-E-104",
+    "XKX-E-105",
+    "XKX-E-107",
+    "XKX-E-108",
+    "XKX-E-109",
+    "XKX-E-110",
+    "XKX-E-111",
+    "XKX-E-112",
+    "XKX-E-113",
+    "XKX-P-001"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 1,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

@@ -1,0 +1,2650 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "SDN",
+  "candidate_path": "countries/SDN/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 18,
+    "evidence_count": 36,
+    "pathway_count": 9,
+    "evidence_source_reference_count": 36
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 28,
+      "verified": 1,
+      "access-only": 7
+    },
+    "pathway_claims": {
+      "unresolved": 9
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "SDN-E-001",
+          "SDN-E-002",
+          "SDN-E-003",
+          "SDN-E-004",
+          "SDN-E-016"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "SDN-E-005",
+          "SDN-E-019",
+          "SDN-E-021",
+          "SDN-E-101",
+          "SDN-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "SDN-E-006",
+          "SDN-E-017",
+          "SDN-E-020",
+          "SDN-E-022",
+          "SDN-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SDN-E-007",
+          "SDN-E-018",
+          "SDN-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SDN-E-009",
+          "SDN-E-027",
+          "SDN-E-030",
+          "SDN-E-103",
+          "SDN-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SDN-E-008",
+          "SDN-E-024"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "SDN-E-025",
+          "SDN-E-026"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "SDN-E-011",
+          "SDN-E-012",
+          "SDN-E-013",
+          "SDN-E-014",
+          "SDN-E-015",
+          "SDN-E-023",
+          "SDN-E-102"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SDN-E-028",
+          "SDN-E-029"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "SDN-E-101",
+          "SDN-E-102",
+          "SDN-E-103",
+          "SDN-E-104",
+          "SDN-E-105",
+          "SDN-E-107",
+          "SDN-E-108"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "SDN-P-001",
+          "SDN-P-002",
+          "SDN-P-003",
+          "SDN-P-004",
+          "SDN-P-005",
+          "SDN-P-006",
+          "SDN-P-007",
+          "SDN-P-008",
+          "SDN-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/SDN/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "SDN-SRC-001",
+      "title": "*Sudan's National Adaptation Plan*",
+      "organization": "Government of Sudan / HCENR, hosted by UNFCCC",
+      "publication_date": "2016",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/resource/NAP-Sudan-2016.pdf",
+      "geographic_coverage": [
+        "National; state components for all 18 states"
+      ],
+      "temporal_coverage": "Observations 1961-2010; projections to 2100",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SDN-E-001",
+        "SDN-E-002",
+        "SDN-E-003",
+        "SDN-E-004"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SDN-SRC-002",
+      "title": "*Sudan Updated First NDC*",
+      "organization": "Government of Sudan / UNFCCC",
+      "publication_date": "2021",
+      "publication_date_basis": "submission",
+      "url": "https://unfccc.int/sites/default/files/NDC/2022-10/Sudan%20Updated%20First%20NDC-12102021.pdf",
+      "geographic_coverage": [
+        "National / 18 states"
+      ],
+      "temporal_coverage": "Historical assessment plus 2030-2060 sector modelling",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SDN-E-005",
+        "SDN-E-006",
+        "SDN-E-007",
+        "SDN-E-008",
+        "SDN-E-009"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SDN-SRC-003",
+      "title": "*Sudan's NAP: Key adaptation priorities & financial needs*",
+      "organization": "HCENR / UNFCCC Climate Week",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/sites/default/files/resource/Sudan%20NAP%20Summary%20.pdf",
+      "geographic_coverage": [
+        "National"
+      ],
+      "temporal_coverage": "2016 NAP status discussed in 2025",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SDN-SRC-004",
+      "title": "*Climate-Fragility Risk Brief: Sudan*",
+      "organization": "adelphi / Climate Security Expert Network",
+      "publication_date": "2020",
+      "publication_date_basis": "publication",
+      "url": "https://climate-diplomacy.org/sites/default/files/2021-01/CSEN%20Climate%20Fragility%20Risk%20Brief%20Sudan.pdf",
+      "geographic_coverage": [
+        "National with subnational examples"
+      ],
+      "temporal_coverage": "Mainly pre-2020 evidence",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SDN-E-011",
+        "SDN-E-012",
+        "SDN-E-028"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SDN-SRC-005",
+      "title": "*Climate, Peace and Security Fact Sheet: Sudan*",
+      "organization": "NUPI / SIPRI",
+      "publication_date": "2022",
+      "publication_date_basis": "publication",
+      "url": "https://www.nupi.no/content/pdf_preview/24833/file/20220511_NUPIFactSheetSudanMay2022LR3%5B19%5D%20%281%29.pdf",
+      "geographic_coverage": [
+        "National / selected conflict settings"
+      ],
+      "temporal_coverage": "Mainly pre-2022",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SDN-E-013",
+        "SDN-E-029"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "SDN-E-029",
+        "selected_source_id": "SDN-SRC-005",
+        "url": "https://www.nupi.no/content/pdf_preview/24833/file/20220511_NUPIFactSheetSudanMay2022LR3%5B19%5D%20%281%29.pdf",
+        "locator": "PDF p.1, “Recommended Actions”. (NUPI8)",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes_read": 1921448,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [
+          1
+        ],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "SDN-E-029"
+      ],
+      "manual_verified_record_ids": [
+        "SDN-E-029"
+      ]
+    },
+    {
+      "source_id": "SDN-SRC-006",
+      "title": "*How does climate exacerbate root causes of conflict in Sudan? Climate Security Pathway Analysis*",
+      "organization": "CGIAR ClimBER / IGAD",
+      "publication_date": "2023",
+      "publication_date_basis": "publication",
+      "url": "https://cgspace.cgiar.org/server/api/core/bitstreams/12f43867-fb02-4f3a-ae4e-1599ef6d713b/content",
+      "geographic_coverage": [
+        "Sudan; emphasis on Darfur, Kordofan, Blue Nile, Kassala"
+      ],
+      "temporal_coverage": "Literature through early 2023; workshop Mar 2023",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SDN-E-014",
+        "SDN-E-015"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SDN-SRC-007",
+      "title": "*Climate Change, Conflicts and Food Security in North Darfur State, Sudan: Risks and Implications*",
+      "organization": "Chr. Michelsen Institute",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://www.cmi.no/publications/9623-climate-change-conflicts-and-food-security-in-north-darfur-state-sudan-risks-and-implications",
+      "geographic_coverage": [
+        "North Darfur only"
+      ],
+      "temporal_coverage": "Climate/crop series 2000-2024; household survey 2025",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SDN-E-016",
+        "SDN-E-017",
+        "SDN-E-018"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SDN-SRC-008",
+      "title": "*Famine Review Committee: Sudan, October 2025 - Conclusions and Recommendations*",
+      "organization": "IPC Global Initiative",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Famine_Review_Committee_Report_Sudan_Oct_2025.pdf",
+      "geographic_coverage": [
+        "El Fasher, Kadugli, Dilling, Western Nuba Mountains and wider risk areas"
+      ],
+      "temporal_coverage": "Sep 2025; projection Oct 2025-Jan 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SDN-E-022",
+        "SDN-E-023"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SDN-SRC-009",
+      "title": "*Three years on, war-weary Sudanese remain on the move*",
+      "organization": "UNHCR",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.unhcr.org/news/briefing-notes/three-years-war-weary-sudanese-remain-move",
+      "geographic_coverage": [
+        "National and neighbouring countries"
+      ],
+      "temporal_coverage": "Apr 2023-Apr 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SDN-E-019"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SDN-SRC-010",
+      "title": "*Terminal Evaluation Report: Climate Risk Finance for Sustainable and Climate Resilient Rainfed Farming and Pastoral Systems, Sudan*",
+      "organization": "UNDP / GEF",
+      "publication_date": "2021",
+      "publication_date_basis": "publication",
+      "url": "https://erc.undp.org/evaluation/documents/download/18910",
+      "geographic_coverage": [
+        "Six states: River Nile, North Kordofan, Gedarif, South Darfur, Kassala, White Nile"
+      ],
+      "temporal_coverage": "Programme 2014-2020",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SDN-E-026",
+        "SDN-E-027"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SDN-SRC-011",
+      "title": "*Environmental degradation and conflict in Darfur: implications for peace and recovery*",
+      "organization": "Humanitarian Practice Network / ODI; author Brendan Bromwich, UNEP",
+      "publication_date": "2008",
+      "publication_date_basis": "publication",
+      "url": "https://odihpn.org/en/publication/environmental-degradation-and-conflict-in-darfur-implications-for-peace-and-recovery/",
+      "geographic_coverage": [
+        "Darfur"
+      ],
+      "temporal_coverage": "Mainly 2000s Darfur conflict",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SDN-E-030"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SDN-SRC-012",
+      "title": "*Sudan - Enhancing Community Resilience Project (P181490), Additional Financing 3 Project Paper*",
+      "organization": "World Bank",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://documents.worldbank.org/curated/en/099042426142024130/pdf/P181490-9170e4c3-34ba-43c1-89ff-e548ad7e43a4.pdf",
+      "geographic_coverage": [
+        "Kassala, Northern, River Nile and other project locations"
+      ],
+      "temporal_coverage": "2024-2028; ISR through 20 Jan 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "permission-required",
+      "records_using_source": [
+        "SDN-E-024",
+        "SDN-E-025"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SDN-SRC-013",
+      "title": "*New FAO-WFP report warns worsening hunger puts 13 hotspots at significant risk*",
+      "organization": "FAO / WFP",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.wfp.org/news/new-fao-wfp-report-warns-worsening-hunger-puts-13-hotspots-significant-risk",
+      "geographic_coverage": [
+        "National with North/South Darfur and South Kordofan hotspots"
+      ],
+      "temporal_coverage": "Jun-Nov 2026; some Sudan projections to Jan 2027",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SDN-E-021"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SDN-SRC-014",
+      "title": "*Risk of Famine persists as nearly 19.5 million people face acute food insecurity in Sudan*",
+      "organization": "WFP / FAO / UNICEF",
+      "publication_date": "2026",
+      "publication_date_basis": "publication",
+      "url": "https://www.wfp.org/news/joint-news-release-wfpfaounicef-risk-famine-persists-nearly-195-million-people-face-acute-food",
+      "geographic_coverage": [
+        "National with subnational hotspots"
+      ],
+      "temporal_coverage": "Current to May 2026",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SDN-E-020"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SDN-SRC-101",
+      "title": "Climate, Peace and Security Fact Sheet: Sudan",
+      "organization": "Norwegian Institute of International Affairs; Stockholm International Peace Research Institute",
+      "publication_date": "2022-05-10",
+      "publication_date_basis": "publication",
+      "url": "https://www.nupi.no/en/news/climate-peace-and-security-fact-sheet-sudan",
+      "geographic_coverage": [
+        "Sudan",
+        "West Darfur",
+        "North Darfur",
+        "Khartoum",
+        "Blue Nile",
+        "Sennar",
+        "Kordofan",
+        "Abyei"
+      ],
+      "temporal_coverage": "Fact sheet published May 2022; reports historical climate, displacement, and resource-conflict evidence.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SDN-E-101",
+        "SDN-E-102"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full substantive fact-sheet page, especially 'Climate Exposure: Trends and Projections', 'Climate-related Peace and Security Risks', 'Livelihood Deterioration', and 'Migration and Mobility'.",
+          "notes": "Full text and stated caveat against direct climate-conflict causality were inspected; claims retain the fact sheet's multi-driver framing.",
+          "reuse_terms": "No reuse terms verified; status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SDN-SRC-102",
+      "title": "Building resilience in the face of climate change within traditional rain-fed agricultural and pastoral systems in Sudan",
+      "organization": "United Nations Development Programme; Higher Council for Environment and Natural Resources",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.undp.org/sudan/projects/building-resilience-face-climate-change-within-traditional-rain-fed-agricultural-and-pastoral-systems-sudan",
+      "geographic_coverage": [
+        "Kassala State",
+        "Northern State",
+        "Red Sea State",
+        "138 dryland villages across nine states"
+      ],
+      "temporal_coverage": "Green Climate Fund project listed as 2020-2027; page has no publication/update date.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SDN-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full project page, background, project details, 'What we do', and expected results.",
+          "notes": "Project mechanisms and targets were inspected; page's three-state project-details section conflicts with its nine-state expected-results text, so no delivery or coverage beyond named details is inferred.",
+          "reuse_terms": "No reuse terms verified; status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SDN-SRC-103",
+      "title": "FAO GIEWS Country Brief on Sudan",
+      "organization": "Food and Agriculture Organization of the United Nations",
+      "publication_date": "2026-09-24",
+      "publication_date_basis": "publication",
+      "url": "https://www.fao.org/giews/countrybrief/country.jsp?code=SDN&lang=en",
+      "geographic_coverage": [
+        "Sudan",
+        "Sennar State",
+        "Gedaref State",
+        "North Darfur",
+        "South Darfur",
+        "South Kordofan",
+        "Greater Darfur",
+        "Greater Kordofan",
+        "Blue Nile State"
+      ],
+      "temporal_coverage": "Reference date September 24, 2026; includes 2025 harvest and 2026 rainy-season/lean-season assessments.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SDN-E-104",
+        "SDN-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full GIEWS country brief, reference date 2026-09-24; food-security, 2026 production, and 2025 harvest sections.",
+          "notes": "The brief was read in full; FAO's data-gap caveat and distinction between current assessments and scenario-based famine risk are retained.",
+          "reuse_terms": "No reuse terms verified; status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SDN-SRC-104",
+      "title": "Restoring Trade and Livelihoods: Sudan's Agri-food and Market Resilience Analysis (SAMRA)",
+      "organization": "United Nations Development Programme; International Trade Centre",
+      "publication_date": "2026-08-04",
+      "publication_date_basis": "publication",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-07/undp_sudan_samra.pdf",
+      "geographic_coverage": [
+        "Sudan",
+        "Darfur states",
+        "Kordofan states",
+        "Gedaref",
+        "Kassala",
+        "Al Gezira",
+        "White Nile",
+        "Blue Nile",
+        "Red Sea"
+      ],
+      "temporal_coverage": "Report published August 2026; combines conflict-era consultations and 2024-2026 agriculture, production, and market information.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SDN-E-107",
+        "SDN-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 106-page PDF, especially methodology pp. 5-7, executive summary pp. xiii-xiv, and livestock analysis p. 72.",
+          "notes": "Full report read; primary consultation findings are identified as consultation evidence and constrained by remote access in conflict-affected states.",
+          "reuse_terms": "No reuse terms verified; status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "SDN-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-001",
+          "locator": "PDF p.49, §5.2.3, lines describing six-station record. (UNFCCC1)"
+        }
+      ],
+      "geographies": [
+        "Six stations across Sudan"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Historical warming at 5/6 NAP stations.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-001",
+          "locator": "PDF p.49, §5.2.3. (UNFCCC1)"
+        }
+      ],
+      "geographies": [
+        "Six stations"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "No common long-term rainfall trend in NAP station sample.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-001",
+          "locator": "PDF pp.49-50, §5.2.3. (UNFCCC1)"
+        }
+      ],
+      "geographies": [
+        "Sudan and upstream Nile region"
+      ],
+      "affected_groups": [],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": "to 2100",
+      "compact_statement": "NAP projection basis: CMIP5, 22 GCMs, four RCPs.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-001",
+          "locator": "PDF p.51, Figure 5-3 discussion. (UNFCCC1)"
+        }
+      ],
+      "geographies": [
+        "Port Sudan plus five stations"
+      ],
+      "affected_groups": [
+        "urban/coastal/rural populations"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "to 2100; RCP ensemble",
+      "compact_statement": "Warming robust; rainfall direction uncertain.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-002",
+          "locator": "PDF p.17, §4.2. (UNFCCC2)"
+        }
+      ],
+      "geographies": [
+        "18 states"
+      ],
+      "affected_groups": [
+        "farmers/pastoralists"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "NDC reports broad climate pressures nationwide.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-002",
+          "locator": "PDF p.17, §4.2. (UNFCCC2)"
+        }
+      ],
+      "geographies": [
+        "Multiple states",
+        "Kordofan example"
+      ],
+      "affected_groups": [
+        "farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term"
+      ],
+      "scenario": "2030-2060",
+      "compact_statement": "Rainfed crop sensitivity is a national adaptation concern.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-002",
+          "locator": "PDF p.17, livestock-impact bullet. (UNFCCC2)"
+        }
+      ],
+      "geographies": [
+        "Kordofan",
+        "Darfur",
+        "Gedarif"
+      ],
+      "affected_groups": [
+        "pastoralists/livestock keepers"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Night grazing is a documented livestock coping practice.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-008",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-002",
+          "locator": "PDF pp.16-17, §4.1. (UNFCCC2)"
+        }
+      ],
+      "geographies": [
+        "National"
+      ],
+      "affected_groups": [
+        "population-wide"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "National adaptation architecture and priorities exist.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-009",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-002",
+          "locator": "PDF pp.27-28, planning/financing, enabling environment and M&E subsections. (UNFCCC2)"
+        }
+      ],
+      "geographies": [
+        "National / states"
+      ],
+      "affected_groups": [
+        "vulnerable communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Major adaptation implementation and M&E gaps existed before the war.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-011",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-004",
+          "locator": "PDF p.16, “Climate-Fragility Risks”. (Climate-Diplomacy4)"
+        }
+      ],
+      "geographies": [
+        "Sudan"
+      ],
+      "affected_groups": [
+        "livelihood groups"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Direct “climate war” causality is unsupported.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-012",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-004",
+          "locator": "PDF p.16, numbered mechanism list. (Climate-Diplomacy4)"
+        }
+      ],
+      "geographies": [
+        "Sudan"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoralists",
+        "displaced communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Three mediated Climate-FCV mechanisms.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-013",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-005",
+          "locator": "PDF p.1, principal findings. (NUPI8)"
+        }
+      ],
+      "geographies": [
+        "Selected Sudan settings"
+      ],
+      "affected_groups": [
+        "displaced people",
+        "hosts",
+        "mobile groups"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Displacement and mobility can mediate climate-security risk.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-014",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-006",
+          "locator": "PDF pp.4-5, §2. (CGSpace9)"
+        }
+      ],
+      "geographies": [
+        "Sudan",
+        "examples in Darfur/Kordofan/Blue Nile/Kassala"
+      ],
+      "affected_groups": [
+        "farmers/pastoralists"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Climate-security pathways center on livelihoods and resources.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-015",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-006",
+          "locator": "PDF p.11, resource-access pathway. (CGSpace9)"
+        }
+      ],
+      "geographies": [
+        "Darfur",
+        "Kordofan",
+        "Blue Nile",
+        "Kassala examples"
+      ],
+      "affected_groups": [
+        "pastoralists",
+        "farmers"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Mobility timing can mediate farmer-herder risk.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-006"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-016",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-007",
+          "locator": "§3 results, Figures 7-8; paragraph reporting trends. (CMI - Chr. Michelsen Institute10)"
+        }
+      ],
+      "geographies": [
+        "Al Fashir",
+        "North Darfur"
+      ],
+      "affected_groups": [
+        "local population"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "North Darfur local record shows warming plus wetter/highly variable rainfall.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-017",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-007",
+          "locator": "§4 Conclusions. (CMI - Chr. Michelsen Institute10)"
+        }
+      ],
+      "geographies": [
+        "North Darfur"
+      ],
+      "affected_groups": [
+        "farmers/IDPs"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "In North Darfur, conflict effects on crop yield exceeded rainfall effects in study results.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-018",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-007",
+          "locator": "§3.7, Table 9. (CMI - Chr. Michelsen Institute10)"
+        }
+      ],
+      "geographies": [
+        "North Darfur"
+      ],
+      "affected_groups": [
+        "surveyed IDP households"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Households combine erosive coping and agronomic adaptation.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-007"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-019",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-009",
+          "locator": "webpage paragraph beginning “Since the war started in April 2023…”. (UNHCR3)"
+        }
+      ],
+      "geographies": [
+        "Sudan and neighbouring states"
+      ],
+      "affected_groups": [
+        "IDPs/refugees"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "By April 2026, UNHCR reported about 9 million people displaced within Sudan and 4.4 million across borders.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-009"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-020",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-014",
+          "locator": "webpage paragraph beginning “The destruction of civilian infrastructure…”. (World Food Programme15)"
+        }
+      ],
+      "geographies": [
+        "Sudan"
+      ],
+      "affected_groups": [
+        "general population",
+        "displaced people"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "War-era service collapse raises climate sensitivity.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-014"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-021",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-013",
+          "locator": "webpage heading “Hotspots of highest concern”, Sudan paragraphs. (World Food Programme14)"
+        }
+      ],
+      "geographies": [
+        "Sudan",
+        "hotspot states"
+      ],
+      "affected_groups": [
+        "food-insecure households/IDPs"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "historical",
+        "near-term"
+      ],
+      "scenario": "Jun-Sep 2026, some risk through Jan 2027",
+      "compact_statement": "FAO/WFP projected 14 areas at risk of Famine through September 2026 and reported about 19.5 million people in IPC Phase 3+ through May 2026.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-013"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-022",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-008",
+          "locator": "PDF p.3, Executive Summary, El Fasher subsection. (IPCinfo5)"
+        }
+      ],
+      "geographies": [
+        "El Fasher",
+        "North Darfur"
+      ],
+      "affected_groups": [
+        "besieged civilians/IDPs"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "El Fasher famine pathway was conflict/access-driven.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-023",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-008",
+          "locator": "PDF p.4, Kadugli subsection. (IPCinfo5)"
+        }
+      ],
+      "geographies": [
+        "Kadugli",
+        "South Kordofan"
+      ],
+      "affected_groups": [
+        "farmers/civilians"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "In Kadugli during 2025, conflict disrupted planting and supply access despite generally adequate but delayed rainfall.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-008"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-024",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-012",
+          "locator": "PDF p.16, §III Key Risks, ¶21. (World Bank13)"
+        }
+      ],
+      "geographies": [
+        "Project localities"
+      ],
+      "affected_groups": [
+        "IDPs/hosts/farmers"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "War shifts delivery toward local/third-party structures.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-012"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-025",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-012",
+          "locator": "PDF p.6, “Key Information from Last ISR”. (World Bank13)"
+        }
+      ],
+      "geographies": [
+        "selected project locations"
+      ],
+      "affected_groups": [
+        "IDPs/hosts"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Current project administration reports continued implementation under high risk.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-012"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-026",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-010",
+          "locator": "PDF pp.3-4, Table 1 Evaluation Rating. (UNDP IEO Evaluation Resource Center11)"
+        }
+      ],
+      "geographies": [
+        "six project states"
+      ],
+      "affected_groups": [
+        "farmers/pastoralists"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Pre-war evaluated adaptation showed results but financing vulnerability.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-010"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-027",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-010",
+          "locator": "PDF pp.34-35. (UNDP IEO Evaluation Resource Center11)"
+        }
+      ],
+      "geographies": [
+        "selected states"
+      ],
+      "affected_groups": [
+        "pastoralists/farmers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Adaptation delivery had institutional and inclusion weaknesses.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-010"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-028",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-004",
+          "locator": "PDF p.20, “Water management”. (Climate-Diplomacy4)"
+        }
+      ],
+      "geographies": [
+        "locally variable"
+      ],
+      "affected_groups": [
+        "farmers/pastoralists/communities"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Cooperative water governance is a potential peace-supporting capacity.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-004"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-029",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-005",
+          "locator": "PDF p.1, “Recommended Actions”. (NUPI8)"
+        }
+      ],
+      "geographies": [
+        "Sudan"
+      ],
+      "affected_groups": [
+        "women/youth/displaced/livelihood groups"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "bidirectional",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Local ownership and inclusive governance are identified peace-support capacities.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-005"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "SDN-E-029",
+        "source_id": "SDN-SRC-005",
+        "url": "https://www.nupi.no/content/pdf_preview/24833/file/20220511_NUPIFactSheetSudanMay2022LR3%5B19%5D%20%281%29.pdf",
+        "locator": "PDF p.1, “Recommended Actions”. (NUPI8)",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+      },
+      "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "SDN-SRC-005",
+        "source_url": "https://www.nupi.no/content/pdf_preview/24833/file/20220511_NUPIFactSheetSudanMay2022LR3%5B19%5D%20%281%29.pdf",
+        "locator": "PDF p.1, “Recommended Actions”. (NUPI8)",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "SDN-E-030",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-011",
+          "locator": "article paragraphs beginning “The conflict in Darfur…” and “The debate…”. (Humanitarian Practice Network12)"
+        }
+      ],
+      "geographies": [
+        "Darfur"
+      ],
+      "affected_groups": [
+        "rural livelihood groups"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "inferred",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict can erode ecological/resource-management resilience.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SDN-SRC-011"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-101",
+          "locator": "Heading 'Climate-related Peace and Security Risks', subsection 'Livelihood Deterioration', flood-impact paragraph."
+        }
+      ],
+      "geographies": [
+        "North Darfur",
+        "Khartoum",
+        "Blue Nile",
+        "West Darfur",
+        "Sennar"
+      ],
+      "affected_groups": [
+        "farming communities",
+        "households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The fact sheet reports that 2020 floods and landslides affected about 830,000 people and destroyed homes and crops; farmland was inundated in North Darfur, Khartoum, Blue Nile, West Darfur, and Sennar.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-101",
+          "locator": "Subsection 'Livelihood Deterioration', farmer-herder competition paragraph, and opening caveat under 'Climate-related Peace and Security Risks'."
+        }
+      ],
+      "geographies": [
+        "West Darfur",
+        "southern and western Sudan"
+      ],
+      "affected_groups": [
+        "farmers",
+        "herders",
+        "rural communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "NUPI's May 2022 synthesis describes resource competition and intercommunal tensions in West Darfur, mediated by political interests, exclusion, land use and regional conflict; it does not offer a direct climate-conflict causal estimate.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-102",
+          "locator": "Project page, 'What we do', paragraphs on water infrastructure and community/institutional support; project details and expected results."
+        }
+      ],
+      "geographies": [
+        "Kassala State",
+        "Northern State",
+        "Red Sea State"
+      ],
+      "affected_groups": [
+        "farmers",
+        "pastoralists",
+        "women",
+        "dryland communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "near-term"
+      ],
+      "scenario": null,
+      "compact_statement": "UNDP's 2020-2027 project page proposes water yards, sand dams and hafirs and describes reduced resource competition as an intended benefit, not an independently evaluated peace effect.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check",
+        "programme_intent_and_outcome_terms_co-occur"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-103",
+          "locator": "Reference date 24 September 2026, section 'Concerns for 2026 cereal production', state rainfall and Agricultural Stress Index paragraph."
+        }
+      ],
+      "geographies": [
+        "Sennar State",
+        "Gedaref State"
+      ],
+      "affected_groups": [
+        "sorghum farmers",
+        "rural households"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "FAO's 24 September 2026 brief reports seasonal rainfall roughly 20% below average in Sennar and 30% in Gedaref, with agricultural-stress monitoring indicating severe drought on up to 55% and 70% of cropland, respectively.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-103",
+          "locator": "Reference date 24 September 2026, section 'Concerns for 2026 cereal production', paragraph on insecurity and field access."
+        }
+      ],
+      "geographies": [
+        "Greater Darfur",
+        "Greater Kordofan",
+        "Blue Nile State"
+      ],
+      "affected_groups": [
+        "farmers",
+        "rural households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "Conflict restricted field access especially in Greater Darfur, Greater Kordofan, and Blue Nile; input shortages, high prices, and reduced credit also hindered farming.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-104",
+          "locator": "Printed p.xiv (one-based PDF p.16), Analysis Highlights."
+        }
+      ],
+      "geographies": [
+        "Darfur states",
+        "Kordofan states",
+        "relatively stable states"
+      ],
+      "affected_groups": [
+        "farmers",
+        "producer associations",
+        "rural households"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2026 UNDP-ITC consultation report describes large productivity losses and unsafe harvesting in conflict-affected Darfur/Kordofan, with climate variability adding yield pressure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SDN-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SDN-SRC-104",
+          "locator": "Printed p.71 (one-based PDF p.90), livestock constraints."
+        }
+      ],
+      "geographies": [
+        "Darfur states",
+        "Kordofan states"
+      ],
+      "affected_groups": [
+        "pastoralists",
+        "farmers",
+        "displaced people"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "current"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2026 UNDP-ITC report describes conflict and displacement restricting pastoral routes and water points, pushing livestock onto cropland and aggravating farmer-pastoralist tensions in Darfur/Kordofan.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "SDN-P-001",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SDN-E-001",
+        "SDN-E-005",
+        "SDN-E-006",
+        "SDN-E-007",
+        "SDN-E-012",
+        "SDN-E-014",
+        "SDN-E-018"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SDN-E-001",
+          "SDN-E-005"
+        ],
+        "impact": [
+          "SDN-E-006",
+          "SDN-E-007"
+        ],
+        "mediator": [
+          "SDN-E-018"
+        ],
+        "consequence": [
+          "SDN-E-012",
+          "SDN-E-014"
+        ]
+      },
+      "geographies": [
+        "Rainfed/pastoral areas",
+        "evidence includes Kordofan",
+        "Darfur and Gedarif"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Climate stress can worsen livelihood insecurity, but any FCV effect is mediated by markets, assets, governance and conflict conditions rather than being automatic. (UNFCCC2)",
+      "alternative_explanations": [
+        "Armed conflict",
+        "inflation",
+        "input prices",
+        "market closure",
+        "displacement",
+        "land governance and poverty"
+      ],
+      "uncertainty": "Complete climate -> violence chain is not demonstrated.",
+      "potentially_out_of_scope_support_ids": [
+        "SDN-E-001",
+        "SDN-E-005",
+        "SDN-E-006",
+        "SDN-E-007",
+        "SDN-E-012",
+        "SDN-E-014",
+        "SDN-E-018"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SDN-P-002",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SDN-E-001",
+        "SDN-E-005",
+        "SDN-E-007",
+        "SDN-E-011",
+        "SDN-E-015",
+        "SDN-E-028"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SDN-E-001",
+          "SDN-E-005"
+        ],
+        "impact": [
+          "SDN-E-007"
+        ],
+        "mediator": [
+          "SDN-E-001"
+        ],
+        "consequence": [
+          "SDN-E-015"
+        ]
+      },
+      "geographies": [
+        "Evidence strongest in Darfur",
+        "Kordofan",
+        "Blue Nile and Kassala examples"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Climate variability may modify pastoral mobility and resource contact, but governance and political-security conditions determine whether such contact becomes conflictual. (CGSpace9)",
+      "alternative_explanations": [
+        "Tenure arrangements",
+        "political mobilization",
+        "armed groups",
+        "weapons",
+        "livestock-route encroachment",
+        "demographic pressures and historical disputes"
+      ],
+      "uncertainty": "Climate-specific contribution relative to these drivers is poorly quantified.",
+      "potentially_out_of_scope_support_ids": [
+        "SDN-E-001",
+        "SDN-E-005",
+        "SDN-E-011",
+        "SDN-E-028"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SDN-P-003",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SDN-E-012",
+        "SDN-E-013",
+        "SDN-E-019"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SDN-E-012"
+        ],
+        "impact": [
+          "SDN-E-012"
+        ],
+        "mediator": [
+          "SDN-E-013"
+        ],
+        "consequence": [
+          "SDN-E-012"
+        ]
+      },
+      "geographies": [
+        "Potentially multiple livelihood zones",
+        "no robust current national attribution"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Climate-sensitive livelihood mobility is plausible, but Sudan's current mass displacement must not be attributed to climate without direct evidence. (NUPI8)",
+      "alternative_explanations": [
+        "The current displacement crisis is primarily a direct consequence of war and violence"
+      ],
+      "uncertainty": "Very high for any attempt to allocate current displacement quantitatively to climate.",
+      "potentially_out_of_scope_support_ids": [
+        "SDN-E-012",
+        "SDN-E-013",
+        "SDN-E-019"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SDN-P-004",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SDN-E-017",
+        "SDN-E-021",
+        "SDN-E-022",
+        "SDN-E-023"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SDN-E-017"
+        ],
+        "impact": [
+          "SDN-E-017",
+          "SDN-E-023"
+        ],
+        "mediator": [
+          "SDN-E-017"
+        ],
+        "consequence": [
+          "SDN-E-021"
+        ]
+      },
+      "geographies": [
+        "El Fasher",
+        "Kadugli",
+        "related conflict-affected areas"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "direct",
+      "compact_statement": "In current conflict zones, armed violence and access constraints are demonstrably undermining the production, food and service systems on which climate resilience depends. (IPCinfo5)",
+      "alternative_explanations": [
+        "Macroeconomic collapse and pre-existing poverty interact strongly"
+      ],
+      "uncertainty": "Future climate consequences of depleted coping capacity are inferred.",
+      "potentially_out_of_scope_support_ids": [
+        "SDN-E-017",
+        "SDN-E-021"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SDN-P-005",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SDN-E-009",
+        "SDN-E-020",
+        "SDN-E-024",
+        "SDN-E-025"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SDN-E-009"
+        ],
+        "impact": [
+          "SDN-E-009"
+        ],
+        "mediator": [
+          "SDN-E-009"
+        ],
+        "consequence": [
+          "SDN-E-009"
+        ]
+      },
+      "geographies": [
+        "National institutional context",
+        "project evidence from selected states"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "triangulated",
+      "compact_statement": "War compounds pre-existing adaptation-capacity gaps and shifts delivery toward decentralized and humanitarian structures. (UNFCCC2)",
+      "alternative_explanations": [
+        "Pre-war underinvestment and capacity deficiencies already existed"
+      ],
+      "uncertainty": "Project evidence cannot establish equal levels of impairment in every state.",
+      "potentially_out_of_scope_support_ids": [
+        "SDN-E-009",
+        "SDN-E-020",
+        "SDN-E-024",
+        "SDN-E-025"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SDN-P-006",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SDN-E-011",
+        "SDN-E-030"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SDN-E-011"
+        ],
+        "impact": [
+          "SDN-E-011"
+        ],
+        "mediator": [
+          "SDN-E-011"
+        ],
+        "consequence": [
+          "SDN-E-011"
+        ]
+      },
+      "geographies": [
+        "Darfur evidence",
+        "not national"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "triangulated",
+      "compact_statement": "Conflict can undermine the ecological and governance assets needed for later adaptation, but the evidence is Darfur-specific and partly historical. (Humanitarian Practice Network12)",
+      "alternative_explanations": [
+        "Long-term land-use change",
+        "population pressure",
+        "agricultural policy and natural aridity"
+      ],
+      "uncertainty": "Foundational source is old; environmental degradation cannot automatically be attributed to climate.",
+      "potentially_out_of_scope_support_ids": [
+        "SDN-E-011",
+        "SDN-E-030"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SDN-P-007",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SDN-E-005",
+        "SDN-E-028",
+        "SDN-E-029"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SDN-E-005"
+        ],
+        "impact": [
+          "SDN-E-005"
+        ],
+        "mediator": [
+          "SDN-E-005"
+        ],
+        "consequence": [
+          "SDN-E-005"
+        ]
+      },
+      "geographies": [
+        "Local and livelihood-specific"
+      ],
+      "interaction_direction": "bidirectional",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "Water projects are potentially peace-supporting only when their governance and distribution are conflict-sensitive; infrastructure alone is not evidence of peace impact. (Climate-Diplomacy4)",
+      "alternative_explanations": [
+        "New water infrastructure can itself generate distributional disputes if siting",
+        "ownership or recharge is poorly managed"
+      ],
+      "uncertainty": "No identified evaluation demonstrates a peace outcome in the current war context.",
+      "potentially_out_of_scope_support_ids": [
+        "SDN-E-005",
+        "SDN-E-028",
+        "SDN-E-029"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SDN-P-008",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SDN-E-018",
+        "SDN-E-026",
+        "SDN-E-027"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SDN-E-018"
+        ],
+        "impact": [
+          "SDN-E-018"
+        ],
+        "mediator": [
+          "SDN-E-018"
+        ],
+        "consequence": [
+          "SDN-E-018"
+        ]
+      },
+      "geographies": [
+        "Six programme states"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "Climate-information and risk-finance programmes show adaptation potential, but no verified evidence establishes that they reduced conflict or survived current-war disruption. (UNDP IEO Evaluation Resource Center11)",
+      "alternative_explanations": [
+        "Credit conditions",
+        "conflict",
+        "markets and household wealth"
+      ],
+      "uncertainty": "No peace/conflict outcome was evaluated; programme predates April 2023.",
+      "potentially_out_of_scope_support_ids": [
+        "SDN-E-018",
+        "SDN-E-026",
+        "SDN-E-027"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    },
+    {
+      "record_id": "SDN-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "SDN-E-107",
+        "SDN-E-108"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "SDN-E-107"
+        ],
+        "impact": [
+          "SDN-E-107"
+        ],
+        "mediator": [
+          "SDN-E-107",
+          "SDN-E-108"
+        ],
+        "consequence": [
+          "SDN-E-107",
+          "SDN-E-108"
+        ]
+      },
+      "geographies": [
+        "Darfur states",
+        "Kordofan states"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "analytical-inference",
+      "compact_statement": "In Darfur/Kordofan, insecurity and restricted land/water access narrow weather-shock coping options and can aggravate resource tensions.",
+      "alternative_explanations": [
+        "Input prices, finance, markets, land governance and conflict itself can reduce production and intensify tensions independently of weather."
+      ],
+      "uncertainty": "Conditional reverse interaction from a consultation-based 2026 report; separate effects and named climate-adaptation delivery impacts are not measured.",
+      "potentially_out_of_scope_support_ids": [],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "SDN-E-029",
+  "source_access_review": {
+    "selected_record_id": "SDN-E-029",
+    "selected_source_id": "SDN-SRC-005",
+    "url": "https://www.nupi.no/content/pdf_preview/24833/file/20220511_NUPIFactSheetSudanMay2022LR3%5B19%5D%20%281%29.pdf",
+    "locator": "PDF p.1, “Recommended Actions”. (NUPI8)",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; in-memory PDF page extraction with pypdf",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "application/pdf",
+    "bytes_read": 1921448,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [
+      1
+    ],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+  },
+  "checks": [
+    {
+      "record_id": "SDN-E-029",
+      "source_id": "SDN-SRC-005",
+      "locator": "PDF p.1, “Recommended Actions”. (NUPI8)",
+      "verification_status": "verified",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "SDN-E-029: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "SDN-E-001",
+    "SDN-E-002",
+    "SDN-E-003",
+    "SDN-E-004",
+    "SDN-E-005",
+    "SDN-E-006",
+    "SDN-E-007",
+    "SDN-E-008",
+    "SDN-E-009",
+    "SDN-E-011",
+    "SDN-E-012",
+    "SDN-E-013",
+    "SDN-E-014",
+    "SDN-E-015",
+    "SDN-E-016",
+    "SDN-E-017",
+    "SDN-E-018",
+    "SDN-E-019",
+    "SDN-E-020",
+    "SDN-E-021",
+    "SDN-E-022",
+    "SDN-E-023",
+    "SDN-E-024",
+    "SDN-E-025",
+    "SDN-E-026",
+    "SDN-E-027",
+    "SDN-E-028",
+    "SDN-E-029",
+    "SDN-E-030",
+    "SDN-E-101",
+    "SDN-E-102",
+    "SDN-E-103",
+    "SDN-E-104",
+    "SDN-E-105",
+    "SDN-E-107",
+    "SDN-E-108",
+    "SDN-P-001",
+    "SDN-P-002",
+    "SDN-P-003",
+    "SDN-P-004",
+    "SDN-P-005",
+    "SDN-P-006",
+    "SDN-P-007",
+    "SDN-P-008",
+    "SDN-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

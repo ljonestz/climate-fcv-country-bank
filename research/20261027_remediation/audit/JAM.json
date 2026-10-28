@@ -1,0 +1,1099 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "JAM",
+  "candidate_path": "countries/JAM/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 7,
+    "evidence_count": 13,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 13
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 12,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "JAM-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "JAM-E-101",
+          "JAM-E-104",
+          "JAM-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "JAM-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "JAM-E-102",
+          "JAM-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "JAM-E-110",
+          "JAM-E-112"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "JAM-E-109",
+          "JAM-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "JAM-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "JAM-E-113"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "JAM-E-101",
+          "JAM-E-102",
+          "JAM-E-103",
+          "JAM-E-104",
+          "JAM-E-105",
+          "JAM-E-109",
+          "JAM-E-112"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "JAM-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/JAM/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "JAM-SRC-101",
+      "title": "Climate Change Risk and Vulnerability Assessment: Trelawny",
+      "organization": "UN Capital Development Fund (UNCDF) and UNDP Jamaica, with the Green Climate Fund and Trelawny Municipal Corporation",
+      "publication_date": "2025-08-10",
+      "publication_date_basis": "document-version",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-03/06-uncdf_jam_crva_parish_report_trelawny_august.pdf",
+      "geographic_coverage": [
+        "Jamaica",
+        "Trelawny Parish",
+        "Salt Marsh",
+        "Falmouth",
+        "Duncans",
+        "Troy",
+        "Wakefield",
+        "Bunkers Hill",
+        "Stettin",
+        "Wait-a-Bit",
+        "Ulster Spring",
+        "St. Vincent"
+      ],
+      "temporal_coverage": "Report dated 10 August 2025; community risk and adaptive-capacity assessment with historical hazard records and projections through 2059.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "JAM-E-101",
+        "JAM-E-102"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly opened 75-page PDF; read executive summary and cited adaptation passages, PDF pp. 6–8.",
+          "notes": "Cover dates the assessment 10 August 2025; URL directory date is not used as its publication date. PDF text includes named communities and index limitations.",
+          "reuse_terms": "Terms not separately reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "JAM-SRC-102",
+      "title": "Climate Change Risk and Vulnerability Assessment: Westmoreland",
+      "organization": "UN Capital Development Fund (UNCDF) and UNDP Jamaica, with the Green Climate Fund and Westmoreland Municipal Corporation",
+      "publication_date": "2025-08-10",
+      "publication_date_basis": "document-version",
+      "url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-03/14-uncdf_jam_crva_parish_report_westmoreland_august.pdf",
+      "geographic_coverage": [
+        "Jamaica",
+        "Westmoreland Parish",
+        "Negril",
+        "Savanna-la-Mar",
+        "Darliston",
+        "Petersville",
+        "Broughton",
+        "Enfield",
+        "Whithorn",
+        "Belmont",
+        "Whitehouse",
+        "Grange Hill"
+      ],
+      "temporal_coverage": "Report dated 10 August 2025; historical hazard records and downscaled projections for 2030–2039, 2040–2049 and 2050–2059.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "JAM-E-103",
+        "JAM-E-104",
+        "JAM-E-105"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly opened 82-page PDF; read executive summary, methodology and cited adaptation passages, PDF pp. 6–12.",
+          "notes": "Cover dates the assessment 10 August 2025; methodology names RCP 4.5/8.5 and projection decades; report notes local data gaps.",
+          "reuse_terms": "Terms not separately reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "JAM-SRC-103",
+      "title": "Jamaica Systematic Country Diagnostic: Boosting Recovery and Sustainable Economic Growth",
+      "organization": "World Bank",
+      "publication_date": "2022",
+      "publication_date_basis": "document-version",
+      "url": "https://documents1.worldbank.org/curated/en/099602312072238168/pdf/IDU032735ce3086cf049c80bfd00d2010304efe0.pdf",
+      "geographic_coverage": [
+        "Jamaica",
+        "low-income coastal settlements",
+        "inner-city areas",
+        "rural communities"
+      ],
+      "temporal_coverage": "Country diagnostic published in 2022, drawing on historical disaster, household, labor-market and social evidence available to the assessment.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "JAM-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly opened 103-page PDF; read section 2.4, PDF p. 3, and climate-vulnerability discussion, PDF pp. 70–71.",
+          "notes": "Full World Bank Systematic Country Diagnostic inspected; claims preserve its 2022 scope and stated non-causal limitation.",
+          "reuse_terms": "Terms not separately reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "JAM-SRC-104",
+      "title": "Jamaica's Progress Towards Implementation of Key Climate Change Adaptation Actions and Plans",
+      "organization": "Auditor General's Department of Jamaica",
+      "publication_date": "2026-02",
+      "publication_date_basis": "document-version",
+      "url": "https://auditorgeneral.gov.jm/wp-content/uploads/2026/02/CCAA-Final-Report-Website-Version.pdf",
+      "geographic_coverage": [
+        "Jamaica",
+        "municipal corporations",
+        "parish-level institutions"
+      ],
+      "temporal_coverage": "Performance audit of climate-adaptation planning and implementation during 2018/19–2024/25; selected project statuses are dated October 2025 or January 2026.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "JAM-E-109",
+        "JAM-E-110",
+        "JAM-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly opened 69-page performance audit; read executive findings, coordination and project-status passages, PDF pp. 6–13, 36–37 and 42.",
+          "notes": "Audit's stated record cut-offs are retained; no claim treats planned measures or recommendations as delivered outcomes.",
+          "reuse_terms": "Terms not separately reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "JAM-SRC-105",
+      "title": "LG-ACT Project Brief",
+      "organization": "Ministry of Local Government and Community Development, Government of Jamaica",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://localauthorities.gov.jm/local-government-adaptation-climate-change/lg-act-project-brief",
+      "geographic_coverage": [
+        "Jamaica",
+        "Westmoreland Parish",
+        "rural communities",
+        "urban communities served by municipal water systems"
+      ],
+      "temporal_coverage": "Undated government project brief; describes planned activities over a stated 27-month project period.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "JAM-E-112"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly opened government project brief, lines 32–45.",
+          "notes": "Page describes project objective, components and expected outcomes; publication date and present implementation status are not stated.",
+          "reuse_terms": "Terms not separately reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "JAM-SRC-106",
+      "title": "Parish Safety and Security Mechanism",
+      "organization": "Ministry of Local Government and Community Development, Government of Jamaica",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://localauthorities.gov.jm/parish-safety-security-mechanism",
+      "geographic_coverage": [
+        "Jamaica",
+        "parishes",
+        "local communities"
+      ],
+      "temporal_coverage": "Undated government description of the parish-level safety and security mechanism.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "JAM-E-113"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly opened government mechanism page, lines 35–49 and 63–89.",
+          "notes": "Page supplies institutional mandate and listed risk factors, not implementation evidence or a climate-specific causal link.",
+          "reuse_terms": "Terms not separately reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "JAM-SRC-107",
+      "title": "Approach Paper: Jamaica Country Program Evaluation, Fiscal Years 2014–25",
+      "organization": "World Bank Group, Independent Evaluation Group",
+      "publication_date": "2025-12-19",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099821301122613389/pdf/SECBOS-fd511c5a-c3e5-472d-88a9-6da3de97254e.pdf",
+      "geographic_coverage": [
+        "Jamaica",
+        "low-income coastal settlements",
+        "inner-city areas",
+        "rural communities"
+      ],
+      "temporal_coverage": "December 2025 evaluation approach-paper context; not completed evaluation results.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "JAM-E-106",
+        "JAM-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "One-based PDF p. 3 (printed 3), paragraph 2.4",
+          "notes": "Collector and coordinator independently inspected original approach paper. Source originally misbound to 2022 SCD; corrected before bank assembly.",
+          "reuse_terms": "Concise attributed paraphrases only; no long passages retained.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "JAM-E-107",
+        "selected_source_id": "JAM-SRC-107",
+        "url": "https://documents1.worldbank.org/curated/en/099821301122613389/pdf/SECBOS-fd511c5a-c3e5-472d-88a9-6da3de97254e.pdf",
+        "locator": "One-based PDF p. 3 (printed 3), paragraph 2.4, IEG 2025 approach paper",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "audit_accessed_on": "2026-10-27"
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "JAM-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "JAM-SRC-101",
+          "locator": "Executive summary, PDF pp. 6–7."
+        }
+      ],
+      "geographies": [
+        "Salt Marsh",
+        "Falmouth",
+        "Duncans",
+        "Troy",
+        "Wakefield",
+        "Bunkers Hill",
+        "Stettin",
+        "Wait-a-Bit",
+        "Ulster Spring",
+        "St. Vincent"
+      ],
+      "affected_groups": [
+        "older people",
+        "people in high-dependency households",
+        "farmers",
+        "rural residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-08-10 reports: Salt Marsh, Falmouth, Duncans, Troy, Wakefield, Bunkers Hill, Stettin, Wait-a-Bit, Ulster Spring and St. Vincent fall in Trelawny's highest composite-risk tier (moderate): very high sensitivity and low adaptive capacity elevate risk despite generally low hazard exposure.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "JAM-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "JAM-SRC-101",
+          "locator": "Executive summary, PDF p. 7; adaptation priorities, PDF pp. 7–8."
+        }
+      ],
+      "geographies": [
+        "Troy",
+        "Wakefield",
+        "Bunkers Hill",
+        "Stettin",
+        "Wait-a-Bit",
+        "Ulster Spring",
+        "St. Vincent",
+        "Falmouth",
+        "Duncans",
+        "Salt Marsh"
+      ],
+      "affected_groups": [
+        "rural households",
+        "farmers",
+        "older people",
+        "isolated residents"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-08-10 reports: The assessment identifies poor roads, limited health/education access, climate-sensitive farming and weak rural institutional presence as vulnerabilities; it recommends road, drainage, water, crop, mobile-health and preparedness measures for hotspot communities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "JAM-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "JAM-SRC-102",
+          "locator": "Executive summary, PDF pp. 6–7; methodology, PDF pp. 11–12."
+        }
+      ],
+      "geographies": [
+        "Westmoreland Parish",
+        "Negril",
+        "Savanna-la-Mar",
+        "interior farming areas"
+      ],
+      "affected_groups": [
+        "farmers",
+        "coastal residents",
+        "tourism workers",
+        "water users"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "The CRVA methodology uses downscaled RCP 4.5 and RCP 8.5 for 2030–2039, 2040–2049 and 2050–2059; the executive-summary warming range is not assigned to one pathway.",
+      "compact_statement": "Source dated 2025-08-10 reports: Westmoreland's assessment projects warming, more erratic rainfall, drought, flooding and coastal surge risks; low-lying Negril and Savanna-la-Mar are named, while interior farming areas face water stress.",
+      "concerns": [
+        "projection_not_obvious_in_compact_or_full_text"
+      ],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "JAM-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "JAM-SRC-102",
+          "locator": "Executive summary, PDF pp. 6–7."
+        }
+      ],
+      "geographies": [
+        "Darliston",
+        "Enfield",
+        "Petersville",
+        "Belmont",
+        "Savanna-la-Mar"
+      ],
+      "affected_groups": [
+        "older people",
+        "low-income households",
+        "rural residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-08-10 reports: Darliston, Enfield, Petersville and Belmont are identified as interior vulnerability hotspots with older populations, low incomes and poor service access; the report rates adaptive capacity as generally low, including in Savanna-la-Mar.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "JAM-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "JAM-SRC-102",
+          "locator": "Executive summary, PDF p. 7."
+        }
+      ],
+      "geographies": [
+        "Darliston",
+        "Petersville",
+        "Broughton",
+        "Enfield",
+        "Whithorn",
+        "Savanna-la-Mar",
+        "Whitehouse",
+        "Negril",
+        "Orange Hill"
+      ],
+      "affected_groups": [
+        "farmers",
+        "women",
+        "socially vulnerable communities",
+        "coastal residents"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-08-10 reports: The CRVA proposes water harvesting and irrigation support in Darliston, Petersville and Broughton; gender-sensitive community training in Enfield and Whithorn; and drainage, resilient housing and mangrove protection in coastal towns.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "JAM-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "JAM-SRC-107",
+          "locator": "One-based PDF p. 3 (printed 3), paragraph 2.4, IEG 2025 approach paper"
+        }
+      ],
+      "geographies": [
+        "Jamaica",
+        "low-income coastal settlements"
+      ],
+      "affected_groups": [
+        "women",
+        "youth",
+        "people with disabilities",
+        "fisherfolk",
+        "farmers",
+        "other marginalized groups"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12-19 reports: The diagnostic reports overlapping climate/disaster risk, service and built-environment deficits, crime/violence, and social/economic exclusion in low-income often informal coastal settlements; women, youth, people with disabilities, fisherfolk and farmers are disproportionately affected.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "JAM-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "JAM-SRC-107",
+          "locator": "One-based PDF p. 3 (printed 3), paragraph 2.4, IEG 2025 approach paper"
+        }
+      ],
+      "geographies": [
+        "Jamaica",
+        "inner-city areas"
+      ],
+      "affected_groups": [
+        "residents of underserved inner-city areas",
+        "poor households"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "fcv-to-climate",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-12-19 reports: It reports that weak land-use planning and limited services/jobs deepen spatial inequality and inner-city decay, raise crime and violence, and hamper economic activity; this increases vulnerability to climate shocks.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "JAM-E-107",
+        "selected_source_id": "JAM-SRC-107",
+        "url": "https://documents1.worldbank.org/curated/en/099821301122613389/pdf/SECBOS-fd511c5a-c3e5-472d-88a9-6da3de97254e.pdf",
+        "locator": "One-based PDF p. 3 (printed 3), paragraph 2.4, IEG 2025 approach paper",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "JAM-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "JAM-SRC-103",
+          "locator": "One-based PDF p. 70 (printed 55), adapting to climate change"
+        }
+      ],
+      "geographies": [
+        "Jamaica",
+        "rural communities"
+      ],
+      "affected_groups": [
+        "female-headed households",
+        "women",
+        "children",
+        "rural poor"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2022 reports: Female-headed households and children face disproportionate climate-shock impacts; rural poverty is more exposed where infrastructure is weaker and livelihoods depend on nature-based agriculture, while costly insurance and poor social-protection targeting constrain recovery.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "JAM-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "JAM-SRC-104",
+          "locator": "Performance audit, PDF pp. 12 and 42."
+        }
+      ],
+      "geographies": [
+        "Jamaica",
+        "municipal corporations"
+      ],
+      "affected_groups": [
+        "parish communities",
+        "local governments"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02 reports: The audit's January 2026 status table still lists the Local Climate Adaptive Living Facility pilot as not started; its narrative says implementation had not begun by October 2025 while UNCDF–GCF grant-agreement clearance was pending.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "JAM-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "JAM-SRC-104",
+          "locator": "Performance audit, PDF p. 12."
+        }
+      ],
+      "geographies": [
+        "Jamaica",
+        "municipal corporations"
+      ],
+      "affected_groups": [
+        "local authorities",
+        "parish communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02 reports: For 2017–July 2024, the Climate Change Focal Point Network had no documented stand-alone meetings and one joint session; the Advisory Board met 14 of 32 expected times, weakening information exchange and coordination.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "JAM-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "JAM-SRC-104",
+          "locator": "Performance audit, PDF pp. 12 and 36."
+        }
+      ],
+      "geographies": [
+        "Jamaica",
+        "six islandwide workshop locations"
+      ],
+      "affected_groups": [
+        "youth",
+        "persons with disabilities",
+        "vulnerable groups",
+        "local communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-02 reports: The audit says engagement with youth and vulnerable groups was largely event-based; it also records a 2024 youth workshop with about 100 participants and six-location adaptation workshops with 137 participants.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "JAM-E-112",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "JAM-SRC-105",
+          "locator": "LG-ACT Project Brief, lines 34–45."
+        }
+      ],
+      "geographies": [
+        "Westmoreland Parish",
+        "rural communities",
+        "urban communities"
+      ],
+      "affected_groups": [
+        "rural water users",
+        "urban residents",
+        "community water-system users"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The government brief proposes Westmoreland water governance: reliable rural potable water and urban drainage, rainwater storage and treatment, drought-period monitoring, community operator training, and participatory parish/community development committees.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "JAM-E-113",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "JAM-SRC-106",
+          "locator": "Parish Safety and Security Mechanism, lines 44–49 and 75–86."
+        }
+      ],
+      "geographies": [
+        "Jamaica",
+        "parishes",
+        "local communities"
+      ],
+      "affected_groups": [
+        "young people",
+        "older people",
+        "people with disabilities",
+        "vulnerable groups"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The ministry describes mayor-chaired Parish Safety and Security Committees as local coordination and citizen-participation channels; the mandate lists natural disasters, exclusion of vulnerable groups and environmental risks among security and sustainability concerns.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "JAM-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "JAM-E-106",
+        "JAM-E-107",
+        "JAM-E-108"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "JAM-E-106"
+        ],
+        "impact": [
+          "JAM-E-106",
+          "JAM-E-108"
+        ],
+        "mediator": [
+          "JAM-E-107"
+        ],
+        "consequence": [
+          "JAM-E-107"
+        ]
+      },
+      "geographies": [
+        "Jamaica (generic inner-city/low-income settlement context)"
+      ],
+      "interaction_direction": "fcv-to-climate",
+      "evidence_strength": "direct",
+      "compact_statement": "The IEG Jamaica context diagnosis links crime/violence and constrained economic activity to weaker climate-shock resilience in excluded settlements; this reverse mechanism is generic and unquantified, not a claim that climate causes crime.",
+      "alternative_explanations": [
+        "Poverty, land-use planning, public services, employment and broader economic shocks independently affect vulnerability and crime."
+      ],
+      "uncertainty": "Source-stated reverse mechanism in a December 2025 evaluation approach paper. Not a causal estimate, completed evaluation result, current crime map or evidence that climate shocks cause crime.",
+      "potentially_out_of_scope_support_ids": [
+        "JAM-E-106",
+        "JAM-E-107",
+        "JAM-E-108"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "reverse_or_bidirectional_mechanism_requires_support_review",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Keep the reverse mechanism bounded to the named institution, population and place supported by its cited evidence; do not infer violence from climate vulnerability.",
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "JAM-E-107",
+  "source_access_review": {
+    "selected_record_id": "JAM-E-107",
+    "selected_source_id": "JAM-SRC-107",
+    "url": "https://documents1.worldbank.org/curated/en/099821301122613389/pdf/SECBOS-fd511c5a-c3e5-472d-88a9-6da3de97254e.pdf",
+    "locator": "One-based PDF p. 3 (printed 3), paragraph 2.4, IEG 2025 approach paper",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": null,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+  },
+  "checks": [
+    {
+      "record_id": "JAM-E-107",
+      "source_id": "JAM-SRC-107",
+      "locator": "One-based PDF p. 3 (printed 3), paragraph 2.4, IEG 2025 approach paper",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "JAM-E-107: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "JAM-E-101",
+    "JAM-E-102",
+    "JAM-E-103",
+    "JAM-E-104",
+    "JAM-E-105",
+    "JAM-E-106",
+    "JAM-E-107",
+    "JAM-E-108",
+    "JAM-E-109",
+    "JAM-E-110",
+    "JAM-E-111",
+    "JAM-E-112",
+    "JAM-E-113",
+    "JAM-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

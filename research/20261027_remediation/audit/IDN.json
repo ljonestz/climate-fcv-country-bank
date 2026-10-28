@@ -1,0 +1,740 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "IDN",
+  "candidate_path": "countries/IDN/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 4,
+    "evidence_count": 8,
+    "pathway_count": 1,
+    "evidence_source_reference_count": 8
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "access-only": 7,
+      "unresolved": 1
+    },
+    "pathway_claims": {
+      "unresolved": 1
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "Structural record flags require targeted adjudication; they do not establish that a claim is false.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "IDN-E-101",
+          "IDN-E-102",
+          "IDN-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "IDN-E-104",
+          "IDN-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "IDN-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "partial",
+        "record_ids": [
+          "IDN-E-103"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "IDN-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "IDN-E-101",
+          "IDN-E-103",
+          "IDN-E-104",
+          "IDN-E-105",
+          "IDN-E-106",
+          "IDN-E-107"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "partial",
+        "record_ids": [
+          "IDN-P-101"
+        ],
+        "gap_note": "Conditional mechanisms, not national causal estimates."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/IDN/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "IDN-SRC-101",
+      "title": "Climate Change and Its Impact on Peace and Security in Southeast Asia",
+      "organization": "Centre for Non-Traditional Security Studies, S. Rajaratnam School of International Studies, Nanyang Technological University",
+      "publication_date": "2023-11",
+      "publication_date_basis": "publication",
+      "url": "https://www.rsis.edu.sg/wp-content/uploads/2024/01/UN-Report-RSIS-Climate-Change-and-Its-Impact-on-Peace-and-Security-in-Southeast-Asia-Online-Version.pdf",
+      "geographic_coverage": [
+        "Indonesia",
+        "Papua province",
+        "Papua Highlands",
+        "Cyclops Mountains",
+        "Puncak Regency",
+        "Agandugume",
+        "Lambewi",
+        "Sorong City"
+      ],
+      "temporal_coverage": "Indonesia passages describe 2015 wildfire, 2019 floods, 2022 flooding, and 2023 extreme cold and drought; regional report published November 2023.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "IDN-E-101"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly opened 125-page PDF; cover p. 1; Papua discussion PDF p. 87, lines 3027–3044.",
+          "notes": "The report explicitly places Papua weather displacement in discussion of conflict-afflicted communities and does not claim that weather caused internal conflict.",
+          "reuse_terms": "Terms not separately reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "IDN-SRC-102",
+      "title": "Social Dimensions of Climate Change in Indonesia: Executive Summary",
+      "organization": "World Bank",
+      "publication_date": "2023-11-27",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099112723034534777/pdf/P156489076c2bb0d60b75e065316c860b4e.pdf",
+      "geographic_coverage": [
+        "Indonesia",
+        "East Kalimantan",
+        "South Sumatra"
+      ],
+      "temporal_coverage": "World Bank report disclosed in November 2023; discusses expected climate impacts and prospective coal-transition distributional risks.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "IDN-E-102",
+        "IDN-E-103",
+        "IDN-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly opened eight-page executive summary; pp. 1–2 and 5.",
+          "notes": "The file is the executive-summary extract, not the full report; prospective coal-transition consequences remain framed as risks.",
+          "reuse_terms": "Terms not separately reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "IDN-E-103",
+        "selected_source_id": "IDN-SRC-102",
+        "url": "https://documents1.worldbank.org/curated/en/099112723034534777/pdf/P156489076c2bb0d60b75e065316c860b4e.pdf",
+        "locator": "Executive summary, PDF p. 2, lines 26–33.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "audit_accessed_on": "2026-10-27"
+    },
+    {
+      "source_id": "IDN-SRC-103",
+      "title": "Climate Risk and Community Resilience in Indonesia",
+      "organization": "United Nations Development Programme Indonesia, UNDP Bangkok Regional Hub, and Coordinating Ministry for Human Development and Cultural Affairs",
+      "publication_date": "2025-10-17",
+      "publication_date_basis": "portal-publication",
+      "url": "https://www.undp.org/indonesia/publications/climate-risk-and-community-resilience-indonesia",
+      "geographic_coverage": [
+        "West Nusa Tenggara",
+        "East Nusa Tenggara"
+      ],
+      "temporal_coverage": "Mixed-methods study published October 2025; the publisher summary does not specify fieldwork dates.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "IDN-E-105",
+        "IDN-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Directly opened UNDP publication summary, lines 39–43.",
+          "notes": "The linked report PDF is 19.9 MB and the browser could not extract it; claims are restricted to the publisher summary.",
+          "reuse_terms": "Terms not separately reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "IDN-SRC-104",
+      "title": "Leveraging Community-Driven Development Platforms for Resilience: Lessons from a Global Knowledge Exchange in Jakarta",
+      "organization": "World Bank Group",
+      "publication_date": "2026-04-27",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/brief/2026/04/27/leveraging-community-driven-development-for-climate-resilience-lessons-from-a-global-knowledge-exchange-in-jakarta",
+      "geographic_coverage": [
+        "Indonesia",
+        "West Java",
+        "Margagiri"
+      ],
+      "temporal_coverage": "World Bank brief published April 2026; West Java restoration described as beginning about a decade earlier.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "IDN-E-107",
+        "IDN-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Directly opened World Bank brief, lines 76–80.",
+          "notes": "Site examples and village-fiscal figures are reported descriptively by the World Bank and are not treated as independent impact estimates.",
+          "reuse_terms": "Terms not separately reviewed; concise paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "IDN-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IDN-SRC-101",
+          "locator": "RSIS report, PDF p. 87, lines 3027–3036."
+        }
+      ],
+      "geographies": [
+        "Papua Highlands",
+        "Cyclops Mountains",
+        "Agandugume",
+        "Lambewi",
+        "Puncak Regency"
+      ],
+      "affected_groups": [
+        "conflict-afflicted Papuan communities",
+        "Papuan highland residents"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-11 reports: The study places weather-related displacement among the human-security concerns of conflict-afflicted Papuans: extreme rain and flash floods near the Cyclops Mountains killed at least 50 people and displaced thousands in 2019; prolonged drought and extreme cold displaced 6,000 people from Agandugume and Lambewi in 2023.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IDN-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IDN-SRC-102",
+          "locator": "Executive summary, PDF p. 1, lines 8–12."
+        }
+      ],
+      "geographies": [
+        "Indonesia"
+      ],
+      "affected_groups": [
+        "poor households",
+        "economically insecure people",
+        "women",
+        "marginalized groups"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "Not specified by source.",
+      "compact_statement": "Source dated 2023-11-27 reports: The World Bank expects climate risks to weigh disproportionately on poor and economically insecure people reliant on agriculture and natural resources; women and marginalized groups may face greater livelihood, food- and water-security, migration, and cultural-identity impacts.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IDN-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "IDN-SRC-102",
+          "locator": "Executive summary, PDF p. 2, lines 26–33."
+        }
+      ],
+      "geographies": [
+        "East Kalimantan",
+        "South Sumatra"
+      ],
+      "affected_groups": [
+        "coal workers",
+        "workers’ families",
+        "coal-dependent communities"
+      ],
+      "evidence_class": "direct-climate-fcv",
+      "analytical_role": "direct-climate-fcv",
+      "interaction_direction": "climate-to-fcv",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "medium-term",
+        "long-term"
+      ],
+      "scenario": "Not specified by source.",
+      "compact_statement": "Source dated 2023-11-27 reports: The World Bank identifies East Kalimantan and South Sumatra as coal-dependent regions where a transition could bring job losses, worker-family dislocation, inequality, and reduced service access; without mitigation, these effects could heighten mistrust, insecurity, and social instability.",
+      "concerns": [],
+      "screening_cues": [
+        "direct_climate_fcv_role_requires_causal_scope_review",
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "IDN-E-103",
+        "selected_source_id": "IDN-SRC-102",
+        "url": "https://documents1.worldbank.org/curated/en/099112723034534777/pdf/P156489076c2bb0d60b75e065316c860b4e.pdf",
+        "locator": "Executive summary, PDF p. 2, lines 26–33.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": null,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    },
+    {
+      "record_id": "IDN-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IDN-SRC-102",
+          "locator": "Executive summary, PDF p. 2, lines 43–55 and p. 5, lines 127–142."
+        }
+      ],
+      "geographies": [
+        "Indonesia",
+        "village governments"
+      ],
+      "affected_groups": [
+        "local communities",
+        "marginalized groups",
+        "village residents"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-11-27 reports: The report identifies local knowledge and governance as resilience assets, but says village budgets are not yet optimized for climate-smart development.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IDN-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IDN-SRC-103",
+          "locator": "UNDP publication-page summary, lines 39–43."
+        }
+      ],
+      "geographies": [
+        "West Nusa Tenggara",
+        "East Nusa Tenggara"
+      ],
+      "affected_groups": [
+        "local communities",
+        "community members dependent on climate-sensitive livelihoods"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-10-17 reports: The UNDP-led mixed-method study focuses on West and East Nusa Tenggara and identifies climate change as a direct threat to local livelihoods, water resources, food security, and community resilience.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IDN-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IDN-SRC-103",
+          "locator": "UNDP publication-page summary, lines 41–43."
+        }
+      ],
+      "geographies": [
+        "West Nusa Tenggara",
+        "East Nusa Tenggara"
+      ],
+      "affected_groups": [
+        "local communities"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-10-17 reports: The publisher says local knowledge can help mitigate and resolve human conflicts that may emerge from climate impacts in the two Nusa Tenggara provinces.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IDN-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IDN-SRC-104",
+          "locator": "World Bank brief, lines 76–80."
+        }
+      ],
+      "geographies": [
+        "West Java",
+        "Margagiri"
+      ],
+      "affected_groups": [
+        "village communities",
+        "farmers",
+        "water users"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-27 reports: A World Bank brief describes restored West Java slopes and springs managed through a village-owned water enterprise; in Margagiri, village micro-dams, drainage, and agroforestry reportedly reduced heavy-rain damage and improved farm output.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "IDN-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "IDN-SRC-104",
+          "locator": "World Bank brief, lines 78–80."
+        }
+      ],
+      "geographies": [
+        "Indonesia",
+        "village governments"
+      ],
+      "affected_groups": [
+        "vulnerable village communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2026-04-27 reports: The brief reports that over 75,000 Indonesian villages receive direct fiscal transfers for climate-resilience investment, averaging USD 3.8 billion annually, and that a village climate-risk index steers added allocations to the most vulnerable communities.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "record_id": "IDN-P-101",
+      "record_review": "automated-linkage-and-geography-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "supporting_evidence_ids": [
+        "IDN-E-103",
+        "IDN-E-104"
+      ],
+      "link_evidence": {
+        "pressure": [
+          "IDN-E-103"
+        ],
+        "impact": [
+          "IDN-E-103"
+        ],
+        "mediator": [
+          "IDN-E-103"
+        ],
+        "consequence": [
+          "IDN-E-103"
+        ]
+      },
+      "geographies": [
+        "East Kalimantan",
+        "South Sumatra"
+      ],
+      "interaction_direction": "climate-to-fcv",
+      "evidence_strength": "direct",
+      "compact_statement": "In coal-dependent East Kalimantan and South Sumatra, a poorly managed mitigation transition could transmit job/service losses through unequal adjustment into mistrust and instability; the World Bank frames this as prospective risk, not observed conflict.",
+      "alternative_explanations": [
+        "Wider economic change, labour conditions, service provision and governance can independently affect trust and insecurity."
+      ],
+      "uncertainty": "Prospective 2023 executive-summary mechanism. No measured transition-related violence, causal effect or emissions scenario; this is distinct from physical-hazard risks.",
+      "potentially_out_of_scope_support_ids": [
+        "IDN-E-104"
+      ],
+      "missing_support_ids": [],
+      "concerns": [
+        "supporting_and_link_evidence_sets_differ",
+        "potential_geographic_scope_mismatch"
+      ],
+      "recommendations": [
+        "Retain only evidence whose documented geography supports the pathway location; otherwise narrow the pathway or keep the evidence standalone."
+      ]
+    }
+  ],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "IDN-E-103",
+  "source_access_review": {
+    "selected_record_id": "IDN-E-103",
+    "selected_source_id": "IDN-SRC-102",
+    "url": "https://documents1.worldbank.org/curated/en/099112723034534777/pdf/P156489076c2bb0d60b75e065316c860b4e.pdf",
+    "locator": "Executive summary, PDF p. 2, lines 26–33.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": null,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+  },
+  "checks": [
+    {
+      "record_id": "IDN-E-103",
+      "source_id": "IDN-SRC-102",
+      "locator": "Executive summary, PDF p. 2, lines 26–33.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "IDN-E-103: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "IDN-E-101",
+    "IDN-E-102",
+    "IDN-E-103",
+    "IDN-E-104",
+    "IDN-E-105",
+    "IDN-E-106",
+    "IDN-E-107",
+    "IDN-E-108",
+    "IDN-P-101"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

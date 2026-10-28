@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/profile.schema.json",
+  "title": "Reviewed country profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "iso3", "profile_version", "executive_assessment", "coverage",
+    "geographic_notes", "sector_notes", "known_gaps", "selection_aliases",
+    "review_status", "review_date"
+  ],
+  "properties": {
+    "iso3": {"type": "string", "pattern": "^[A-Z]{3}$"},
+    "profile_version": {"$ref": "#/$defs/nonEmptyString"},
+    "executive_assessment": {
+      "type": "array", "items": {"$ref": "#/$defs/executiveRow"}
+    },
+    "coverage": {
+      "type": "array", "items": {"$ref": "#/$defs/coverageRow"}
+    },
+    "geographic_notes": {"$ref": "#/$defs/noteRows"},
+    "sector_notes": {"$ref": "#/$defs/noteRows"},
+    "known_gaps": {"$ref": "#/$defs/noteRows"},
+    "selection_aliases": {"$ref": "#/$defs/selectionAliases"},
+    "review_status": {
+      "enum": ["draft", "reviewed", "approved", "stale", "rejected"]
+    },
+    "review_date": {
+      "oneOf": [
+        {"type": "null"},
+        {"type": "string", "format": "date"}
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "review_status": {"enum": ["reviewed", "approved"]}
+        },
+        "required": ["review_status"]
+      },
+      "then": {
+        "properties": {
+          "review_date": {"type": "string", "format": "date"}
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "nonEmptyString": {"type": "string", "pattern": "\\S"},
+    "evidenceIds": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^[A-Z]{3}-E-[0-9]{3}$"},
+      "uniqueItems": true
+    },
+    "pathwayIds": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^[A-Z]{3}-P-[0-9]{3}$"},
+      "uniqueItems": true
+    },
+    "noteRow": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "evidence_ids", "pathway_ids"],
+      "properties": {
+        "text": {"$ref": "#/$defs/nonEmptyString"},
+        "evidence_ids": {"$ref": "#/$defs/evidenceIds"},
+        "pathway_ids": {"$ref": "#/$defs/pathwayIds"}
+      }
+    },
+    "executiveRow": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "evidence_ids", "pathway_ids"],
+      "properties": {
+        "text": {"$ref": "#/$defs/nonEmptyString"},
+        "evidence_ids": {"$ref": "#/$defs/evidenceIds"},
+        "pathway_ids": {"$ref": "#/$defs/pathwayIds"}
+      },
+      "anyOf": [
+        {"properties": {"evidence_ids": {"minItems": 1}}},
+        {"properties": {"pathway_ids": {"minItems": 1}}}
+      ]
+    },
+    "noteRows": {
+      "type": "array", "items": {"$ref": "#/$defs/noteRow"}
+    },
+    "recordIds": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {"type": "string", "pattern": "^[A-Z]{3}-E-[0-9]{3}$"},
+          {"type": "string", "pattern": "^[A-Z]{3}-P-[0-9]{3}$"}
+        ]
+      },
+      "uniqueItems": true
+    },
+    "coverageRow": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["dimension", "value", "status", "record_ids", "gap_note"],
+      "properties": {
+        "dimension": {"$ref": "#/$defs/nonEmptyString"},
+        "value": {"$ref": "#/$defs/nonEmptyString"},
+        "status": {"enum": ["covered", "partial", "gap"]},
+        "record_ids": {"$ref": "#/$defs/recordIds"},
+        "gap_note": {
+          "oneOf": [
+            {"type": "null"},
+            {"$ref": "#/$defs/nonEmptyString"}
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {"status": {"enum": ["covered", "partial"]}},
+            "required": ["status"]
+          },
+          "then": {"properties": {"record_ids": {"minItems": 1}}}
+        },
+        {
+          "if": {
+            "properties": {"status": {"const": "gap"}},
+            "required": ["status"]
+          },
+          "then": {
+            "properties": {
+              "gap_note": {"$ref": "#/$defs/nonEmptyString"}
+            }
+          }
+        }
+      ]
+    },
+    "aliasMap": {
+      "type": "object",
+      "patternProperties": {
+        "\\S": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"$ref": "#/$defs/nonEmptyString"},
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "selectionAliases": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "geographies", "sectors", "affected_groups", "institutions",
+        "systems_assets", "hazards"
+      ],
+      "properties": {
+        "geographies": {"$ref": "#/$defs/aliasMap"},
+        "sectors": {"$ref": "#/$defs/aliasMap"},
+        "affected_groups": {"$ref": "#/$defs/aliasMap"},
+        "institutions": {"$ref": "#/$defs/aliasMap"},
+        "systems_assets": {"$ref": "#/$defs/aliasMap"},
+        "hazards": {"$ref": "#/$defs/aliasMap"}
+      }
+    }
+  }
+}

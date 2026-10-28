@@ -1,0 +1,1057 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "TON",
+  "candidate_path": "countries/TON/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 8,
+    "evidence_count": 15,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 15
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 5,
+      "verified": 1,
+      "access-only": 9
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "TON-E-003",
+          "TON-E-101",
+          "TON-E-102",
+          "TON-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "TON-E-104"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "TON-E-001"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "TON-E-002",
+          "TON-E-004",
+          "TON-E-103",
+          "TON-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "TON-E-005",
+          "TON-E-006",
+          "TON-E-106",
+          "TON-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "partial",
+        "record_ids": [
+          "TON-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "TON-E-101",
+          "TON-E-102",
+          "TON-E-103",
+          "TON-E-104",
+          "TON-E-105",
+          "TON-E-108"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/TON/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "TON-SRC-001",
+      "title": "New World Bank Support to Help Build a More Resilient, Sustainable Future for Tonga",
+      "organization": "World Bank",
+      "publication_date": "2025-05-16",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2025/05/16/new-world-bank-support-to-help-build-a-more-resilient-sustainable-future-for-tonga",
+      "geographic_coverage": [
+        "Tonga"
+      ],
+      "temporal_coverage": "May 2025 reforms",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TON-E-001",
+        "TON-E-002"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TON-SRC-002",
+      "title": "World Bank and Asian Development Bank Partner with Tonga to Strengthen Jobs, Connectivity, and Resilience",
+      "organization": "World Bank",
+      "publication_date": "2026-05-01",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/05/01/world-bank-and-asian-development-bank-partner-with-tonga-to-strengthen-jobs-connectivity-and-resilience",
+      "geographic_coverage": [
+        "Tonga"
+      ],
+      "temporal_coverage": "May 2026 approval",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TON-E-003",
+        "TON-E-004"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "TON-E-003",
+        "selected_source_id": "TON-SRC-002",
+        "url": "https://www.worldbank.org/en/news/press-release/2026/05/01/world-bank-and-asian-development-bank-partner-with-tonga-to-strengthen-jobs-connectivity-and-resilience",
+        "locator": "Tongatapu transport and flood exposure",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 28790,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "TON-E-003"
+      ],
+      "manual_verified_record_ids": [
+        "TON-E-003"
+      ]
+    },
+    {
+      "source_id": "TON-SRC-003",
+      "title": "World Bank Boosts Support for Tonga to Build Resilience, Strengthen Disaster Preparedness",
+      "organization": "World Bank",
+      "publication_date": "2024-01-19",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2024/01/19/world-bank-boosts-support-for-tonga-to-build-resilience-strengthen-disaster-preparedness",
+      "geographic_coverage": [
+        "Tonga"
+      ],
+      "temporal_coverage": "January 2024 financing and policy announcement",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TON-E-005",
+        "TON-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TON-SRC-101",
+      "title": "Tonga Second Nationally Determined Contributions Review Report",
+      "organization": "Government of Tonga, Department of Climate Change (MEIDECC)",
+      "publication_date": "2025",
+      "publication_date_basis": "publication",
+      "url": "https://www.unfccc.int/sites/default/files/2025-09/Tongas%20Second%20Nationally%20Determined%20Contribution%20Review%20Report.pdf",
+      "geographic_coverage": [
+        "Tonga",
+        "Nuku'alofa",
+        "Tongatapu",
+        "Popua",
+        "Sopu"
+      ],
+      "temporal_coverage": "Government review of NDC 2.0 implementation; includes 2020-2023 measures and earlier studies with projections to about 2090 and 2100.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TON-E-101",
+        "TON-E-102",
+        "TON-E-103"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 98-page government review; coastal protection and NDC implementation sections, printed pp. 55-57.",
+          "notes": "Local risk passages include Popua and Sopu; the Nuku'alofa 2090 estimate is attributed to ADB (2019).",
+          "reuse_terms": "No separate open licence verified; concise attributed paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TON-SRC-102",
+      "title": "Kingdom of Tonga Technology Needs Assessment Adaptation Report",
+      "organization": "Department of Energy, Government of Tonga; GEF-funded UNEP Technology Needs Assessment with UNEP-CCC and University of the South Pacific support",
+      "publication_date": "2023-12",
+      "publication_date_basis": "publication",
+      "url": "https://unfccc.int/ttclear/TNA/TON-TNA-adaptation-2024.pdf",
+      "geographic_coverage": [
+        "Tonga",
+        "Tongatapu",
+        "Ha'apai",
+        "Vava'u",
+        "rural and outer islands"
+      ],
+      "temporal_coverage": "Adaptation technology-needs assessment prepared in December 2023; includes water-risk data and citations from 2019-2021.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TON-E-104",
+        "TON-E-105",
+        "TON-E-106"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Complete 53-page adaptation report; printed pp. 19, 26 and 45-46.",
+          "notes": "Water and drought evidence cites older partner or government materials; recommendations are distinguished from delivered outcomes.",
+          "reuse_terms": "Report permits educational and nonprofit reproduction with attribution; concise attributed paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TON-SRC-103",
+      "title": "Innovative Approaches to Water Resilience in Tonga",
+      "organization": "United Nations Office for Disaster Risk Reduction and Coalition for Disaster Resilient Infrastructure",
+      "publication_date": "2024-05-13",
+      "publication_date_basis": "publication",
+      "url": "https://www.undrr.org/news/innovative-approaches-water-resilience-tonga",
+      "geographic_coverage": [
+        "Tonga",
+        "Nuku'alofa"
+      ],
+      "temporal_coverage": "Reports on water-sector workshops in November 2023 and a stakeholder roundtable on 10 May 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TON-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full article, dated 13 May 2024, on water-sector consultations and initial actions.",
+          "notes": "Recommendations are attributed to consultation participants.",
+          "reuse_terms": "No separate open licence verified; concise attributed paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TON-SRC-104",
+      "title": "Climate Resilient Islands",
+      "organization": "Live & Learn Tonga",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.livelearntonga.org/about-us/current-project/website-projects",
+      "geographic_coverage": [
+        "Ha'apai",
+        "Vava'u",
+        "'Eua",
+        "15 Tonga communities"
+      ],
+      "temporal_coverage": "The project page describes a six-year 2021-2026 programme.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TON-E-108"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full programme page, including project locations, stated 2021-2026 duration and target activities.",
+          "notes": "The 15-community distribution and participation figures are programme descriptions/targets, not independently verified outcomes.",
+          "reuse_terms": "No separate open licence verified; concise attributed paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "TON-SRC-105",
+      "title": "Two Years on, the Tonga Tsunami Shows Effective Risk Communication Saves Lives",
+      "organization": "United Nations Office for Disaster Risk Reduction",
+      "publication_date": "2024-01-15",
+      "publication_date_basis": "publication",
+      "url": "https://www.undrr.org/news/two-years-tonga-tsunami-shows-effective-risk-communication-saves-lives",
+      "geographic_coverage": [
+        "Tonga",
+        "western coastal communities",
+        "outer islands"
+      ],
+      "temporal_coverage": "Retrospective account of preparedness and response to the 15 January 2022 volcanic eruption and tsunami; follow-up reported in January 2024.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "TON-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full UNDRR retrospective, 15 January 2024, sections on public awareness and evacuation response.",
+          "notes": "The cited 2022 event is volcanic/tsunami-related rather than climate-attributed.",
+          "reuse_terms": "No separate open licence verified; concise attributed paraphrases only.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "TON-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TON-SRC-001",
+          "locator": "Fiscal vulnerability diagnosis"
+        }
+      ],
+      "geographies": [
+        "Tonga"
+      ],
+      "affected_groups": [],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The announcement describes cyclone disruption alongside high fuel costs and a narrow tax base as pressures on public and household finances.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "TON-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TON-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TON-SRC-001",
+          "locator": "Mobile alerts and remote communities"
+        }
+      ],
+      "geographies": [
+        "outer islands"
+      ],
+      "affected_groups": [
+        "women",
+        "children",
+        "remote communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Reforms enable mobile-phone disaster alerts, including for remote outer islands, with intended benefits for women, children and isolated communities.",
+      "concerns": [],
+      "screening_cues": [
+        "programme_intent_and_outcome_terms_co-occur"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "TON-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TON-E-003",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "TON-SRC-002",
+          "locator": "Tongatapu transport and flood exposure"
+        }
+      ],
+      "geographies": [
+        "Tongatapu"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The project targets flood-related disruption to roads, bridges, markets and essential services on Tongatapu.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "TON-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "TON-E-003",
+        "source_id": "TON-SRC-002",
+        "url": "https://www.worldbank.org/en/news/press-release/2026/05/01/world-bank-and-asian-development-bank-partner-with-tonga-to-strengthen-jobs-connectivity-and-resilience",
+        "locator": "Tongatapu transport and flood exposure",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+      },
+      "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "TON-SRC-002",
+        "source_url": "https://www.worldbank.org/en/news/press-release/2026/05/01/world-bank-and-asian-development-bank-partner-with-tonga-to-strengthen-jobs-connectivity-and-resilience",
+        "locator": "Tongatapu transport and flood exposure",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "TON-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TON-SRC-002",
+          "locator": "Planned bridge and urban drainage"
+        }
+      ],
+      "geographies": [
+        "Tongatapu"
+      ],
+      "affected_groups": [],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Planned resilient transport links and drainage aim to maintain connectivity and evacuation access; benefits depend on delivery.",
+      "concerns": [],
+      "screening_cues": [
+        "programme_intent_and_outcome_terms_co-occur"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "TON-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TON-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TON-SRC-003",
+          "locator": "Cat DDO design"
+        }
+      ],
+      "geographies": [
+        "Tonga"
+      ],
+      "affected_groups": [],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The operation provides contingent crisis financing for weather and other emergencies; financial availability is not evidence of effective household assistance.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "TON-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TON-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TON-SRC-003",
+          "locator": "National Social Protection policy"
+        }
+      ],
+      "geographies": [
+        "Tonga"
+      ],
+      "affected_groups": [
+        "vulnerable households"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The announcement records Cabinet approval of a national social protection policy intended to improve disaster assistance to vulnerable citizens.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "TON-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TON-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TON-SRC-101",
+          "locator": "Printed p. 56, section 4.2.1, coastal-protection implementation status."
+        }
+      ],
+      "geographies": [
+        "Popua, Nuku'alofa",
+        "Sopu, Nuku'alofa"
+      ],
+      "affected_groups": [
+        "residents of low-lying neighborhoods"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: The government review reports current coastal flooding in low-lying Popua and Sopu; Sopu wetlands buffer high tides by about 30 cm, but the protection is weakening as seas rise.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TON-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TON-SRC-101",
+          "locator": "Printed p. 56, section 4.2.1, Nuku'alofa high-tide inundation paragraph citing ADB (2019)."
+        }
+      ],
+      "geographies": [
+        "low-lying parts of Nuku'alofa"
+      ],
+      "affected_groups": [
+        "residents of low-lying areas"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "projected",
+      "time_horizons": [
+        "long-term"
+      ],
+      "scenario": "Scenario is unspecified in the ADB (2019) summary.",
+      "compact_statement": "Source dated 2025 reports: A 2025 review summarizes an ADB (2019) projection that by about 2090 high tides may inundate low-lying Nuku'alofa, possibly forcing residential-area abandonment.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TON-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TON-SRC-101",
+          "locator": "Printed pp. 55-57, coastal-planting and monitoring discussion, including Sopu."
+        }
+      ],
+      "geographies": [
+        "Tonga",
+        "Sopu, Nuku'alofa"
+      ],
+      "affected_groups": [
+        "coastal communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025 reports: Tonga's 2020-2023 One Million Trees initiative planted mostly mangroves; the review says it may have strengthened coastal resilience, but land saved is unquantified and Sopu's wetland buffer may be shrinking.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TON-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TON-SRC-102",
+          "locator": "Printed p. 26, section 4.1, outer-island water vulnerability discussion citing DFAT (2021) and Tonga government data (2019)."
+        }
+      ],
+      "geographies": [
+        "low-lying Ha'apai islands",
+        "small remote islands in Ha'apai and Vava'u"
+      ],
+      "affected_groups": [
+        "residents of low-lying and remote islands"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-12 reports: The assessment identifies drought and possible groundwater salinization on low-lying Ha'apai islands; some remote Ha'apai and Vava'u islands rely solely on rainwater and face rainfall variation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TON-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TON-SRC-102",
+          "locator": "Printed p. 19, section 3.1, agriculture vulnerability discussion citing Government of Tonga (2019)."
+        }
+      ],
+      "geographies": [
+        "Tonga",
+        "Tongatapu",
+        "Vava'u"
+      ],
+      "affected_groups": [
+        "agricultural land users"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The TNA cites 2019 government information identifying drought vulnerability nationally, with higher proportions in Tongatapu and Vava'u.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TON-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TON-SRC-102",
+          "locator": "Printed pp. 45-46, community water-supply support factsheet, `Endorsement by experts', `Adequacy for current climate' and `Status'."
+        }
+      ],
+      "geographies": [
+        "rural villages and remote outer islands in Tonga"
+      ],
+      "affected_groups": [
+        "rural and outer-island water users"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-12 reports: Village water committees manage rural and outer-island supplies; the assessment says community systems are more weather-exposed than utility systems and need support to prepare for drought.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TON-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TON-SRC-103",
+          "locator": "Article paragraphs on the 10 May 2024 water roundtable and proposed initial actions."
+        }
+      ],
+      "geographies": [
+        "Tonga"
+      ],
+      "affected_groups": [
+        "rural water users",
+        "village water committees"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-05-13 reports: Stakeholders identified Tonga's water sector as highly vulnerable and proposed better groundwater monitoring, village water-committee training and wider use of spatial data in planning and vulnerability assessment.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TON-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TON-SRC-104",
+          "locator": "Project page, `Project Background' and `Our Work' paragraphs."
+        }
+      ],
+      "geographies": [
+        "Ha'apai",
+        "Vava'u",
+        "'Eua",
+        "15 Tonga communities"
+      ],
+      "affected_groups": [
+        "rural community representatives",
+        "beneficiary households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: Live & Learn describes a 2021-2026 programme across 15 communities in Ha'apai (4), Vava'u (8) and 'Eua (3), targeting community plans, nature-based actions, training for 20 representatives and direct actions for 20 households per site.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "TON-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "TON-SRC-105",
+          "locator": "Article paragraphs describing evacuation warnings, traditional knowledge and the 2022 response."
+        }
+      ],
+      "geographies": [
+        "Tonga",
+        "outer islands",
+        "western coastal communities"
+      ],
+      "affected_groups": [
+        "coastal communities"
+      ],
+      "evidence_class": "response-performance",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2024-01-15 reports: During the 2022 volcanic tsunami, communities used radio, word-of-mouth and inherited hazard knowledge to move people inland or to high ground; UNDRR reports four deaths despite widespread impact.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "TON-E-003",
+  "source_access_review": {
+    "selected_record_id": "TON-E-003",
+    "selected_source_id": "TON-SRC-002",
+    "url": "https://www.worldbank.org/en/news/press-release/2026/05/01/world-bank-and-asian-development-bank-partner-with-tonga-to-strengthen-jobs-connectivity-and-resilience",
+    "locator": "Tongatapu transport and flood exposure",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 28790,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+  },
+  "checks": [
+    {
+      "record_id": "TON-E-003",
+      "source_id": "TON-SRC-002",
+      "locator": "Tongatapu transport and flood exposure",
+      "verification_status": "verified",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "TON-E-003: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "TON-E-001",
+    "TON-E-002",
+    "TON-E-003",
+    "TON-E-004",
+    "TON-E-005",
+    "TON-E-006",
+    "TON-E-101",
+    "TON-E-102",
+    "TON-E-103",
+    "TON-E-104",
+    "TON-E-105",
+    "TON-E-106",
+    "TON-E-107",
+    "TON-E-108",
+    "TON-E-109"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

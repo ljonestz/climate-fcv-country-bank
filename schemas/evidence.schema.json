@@ -1,6 +1,60 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/evidence.schema.json",
   "title": "Atomic evidence records",
   "type": "array",
-  "items": {"type": "object"}
+  "items": {"$ref": "#/$defs/evidence"},
+  "$defs": {
+    "nonEmptyString": {"type": "string", "pattern": "\\S"},
+    "stringArray": {"type": "array", "items": {"$ref": "#/$defs/nonEmptyString"}, "uniqueItems": true},
+    "sourceRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_id", "locator"],
+      "properties": {
+        "source_id": {"type": "string", "pattern": "^[A-Z]{3}-SRC-[0-9]{3}$", "not": {"const": "general-knowledge"}},
+        "locator": {"$ref": "#/$defs/nonEmptyString"}
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "evidence_id", "iso3", "statement", "compact_statement", "evidence_status",
+        "analytical_role", "hazard_tags", "impact_tags", "geographies",
+        "affected_groups", "sectors", "systems_assets_resources", "institutions",
+        "mediator_tags", "interaction_direction", "time_horizons", "scenario",
+        "source_refs", "confidence", "uncertainty", "review_status", "review_date"
+      ],
+      "properties": {
+        "evidence_id": {"type": "string", "pattern": "^[A-Z]{3}-E-[0-9]{3}$"},
+        "iso3": {"type": "string", "pattern": "^[A-Z]{3}$"},
+        "statement": {"$ref": "#/$defs/nonEmptyString"},
+        "compact_statement": {"$ref": "#/$defs/nonEmptyString"},
+        "evidence_status": {"enum": ["observed", "projected", "inferred"]},
+        "analytical_role": {"enum": ["direct-climate-fcv", "vulnerability-capacity", "physical-baseline"]},
+        "evidence_class": {"enum": ["climate-pressure", "exposure", "sensitivity", "coping-capacity", "adaptive-capacity", "institutional-capacity", "response-performance", "direct-climate-fcv", "resilience-peace-capacity"]},
+        "administrative_level": {"enum": ["national", "state", "administrative-area", "county", "payam", "boma", "site", "cross-border", "not-applicable"]},
+        "ecological_level": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/nonEmptyString"}]},
+        "refresh_tier": {"enum": ["structural", "current"]},
+        "review_due": {"oneOf": [{"type": "null"}, {"type": "string", "format": "date"}]},
+        "hazard_tags": {"$ref": "#/$defs/stringArray"},
+        "impact_tags": {"$ref": "#/$defs/stringArray"},
+        "geographies": {"$ref": "#/$defs/stringArray"},
+        "affected_groups": {"$ref": "#/$defs/stringArray"},
+        "sectors": {"$ref": "#/$defs/stringArray"},
+        "systems_assets_resources": {"$ref": "#/$defs/stringArray"},
+        "institutions": {"$ref": "#/$defs/stringArray"},
+        "mediator_tags": {"$ref": "#/$defs/stringArray"},
+        "interaction_direction": {"enum": ["climate-to-fcv", "fcv-to-climate", "bidirectional", "contextual"]},
+        "time_horizons": {"type": "array", "items": {"enum": ["historical", "current", "near-term", "medium-term", "long-term"]}, "minItems": 1, "uniqueItems": true},
+        "scenario": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/nonEmptyString"}]},
+        "source_refs": {"type": "array", "items": {"$ref": "#/$defs/sourceRef"}, "minItems": 1, "uniqueItems": true},
+        "confidence": {"enum": ["low", "medium", "high"]},
+        "uncertainty": {"$ref": "#/$defs/nonEmptyString"},
+        "review_status": {"enum": ["draft", "reviewed", "approved", "stale", "rejected"]},
+        "review_date": {"oneOf": [{"type": "null"}, {"type": "string", "format": "date"}]}
+      }
+    }
+  }
 }

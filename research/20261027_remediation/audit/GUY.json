@@ -1,0 +1,1007 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "GUY",
+  "candidate_path": "countries/GUY/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 6,
+    "evidence_count": 16,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 16
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 8,
+      "access-only": 8
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 0,
+    "source_claims_verified_by_this_audit": 0,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims.",
+    "No evidence claim was manually matched to a readable cited passage in this country audit; source access alone does not verify claims."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "partial",
+        "record_ids": [
+          "GUY-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "GUY-E-002",
+          "GUY-E-004"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "GUY-E-101",
+          "GUY-E-104",
+          "GUY-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "GUY-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "GUY-E-003",
+          "GUY-E-005",
+          "GUY-E-007"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "GUY-E-001",
+          "GUY-E-006",
+          "GUY-E-102",
+          "GUY-E-103",
+          "GUY-E-108"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "GUY-E-109"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "GUY-E-101",
+          "GUY-E-104",
+          "GUY-E-105",
+          "GUY-E-107",
+          "GUY-E-108",
+          "GUY-E-109"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/GUY/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "GUY-SRC-001",
+      "title": "Resilience in action: Strengthening local capacity in Guyana",
+      "organization": "UNDRR and Civil Defence Commission",
+      "publication_date": "2026-05-22",
+      "publication_date_basis": "publication",
+      "url": "https://www.undrr.org/news/resilience-action-strengthening-local-capacity-guyana",
+      "geographic_coverage": [
+        "Guyana",
+        "Georgetown",
+        "Lethem",
+        "Rupununi"
+      ],
+      "temporal_coverage": "Local resilience engagement initiated in 2025 and described inMay 2026.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GUY-E-001",
+        "GUY-E-002",
+        "GUY-E-003"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GUY-SRC-002",
+      "title": "Case study on sea level rise: Guyana",
+      "organization": "Commonwealth Secretariat",
+      "publication_date": "2026-10-21",
+      "publication_date_basis": "publication",
+      "url": "https://thecommonwealth.org/publications/case-study-sea-level-rise-guyana",
+      "geographic_coverage": [
+        "Guyana",
+        "Low Coastal Plain"
+      ],
+      "temporal_coverage": "Structural coastal exposure and adaptation priorities assessed in 2026.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GUY-E-004",
+        "GUY-E-005"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GUY-SRC-003",
+      "title": "Guyana to strengthen coastal resilience and adaptation",
+      "organization": "World Bank",
+      "publication_date": "2024-06-10",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2024/06/10/guyana-to-strengthen-coastal-resilience-and-adaptation",
+      "geographic_coverage": [
+        "Guyana"
+      ],
+      "temporal_coverage": "Coastal drainage constraints and project design described inJune 2024.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GUY-E-006",
+        "GUY-E-007"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GUY-SRC-101",
+      "title": "Sectoral Recovery Capacity Assessment Report for Guyana's Agriculture Sector",
+      "organization": "World Bank and GFDRR",
+      "publication_date": "2023",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099755311302237754/pdf/P17125615a10af0211a39a117235f892b6d.pdf",
+      "geographic_coverage": [
+        "Guyana",
+        "Pomeroon",
+        "Demerara",
+        "Berbice"
+      ],
+      "temporal_coverage": "Historical and institutional evidence; retain dates stated in individual claims.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GUY-E-101",
+        "GUY-E-102",
+        "GUY-E-103",
+        "GUY-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Printed pp.4, 8–13, 19, 27–29; corresponding physical PDF pages 18, 22–27, 33, 41–43.",
+          "notes": "Main coordinator inspected cited passages; full PDF access limitation retained where applicable.",
+          "reuse_terms": "Concise paraphrases only; no reuse licence asserted.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GUY-SRC-102",
+      "title": "Drought portal: Guyana national case study",
+      "organization": "Food and Agriculture Organization",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.fao.org/in-action/drought-portal/preparedness/vulnerability-and-impact-assessment/national-case-studies/guyana/en",
+      "geographic_coverage": [
+        "Guyana",
+        "East Demerara Water Conservancy",
+        "Regions 1, 7, 8 and 9"
+      ],
+      "temporal_coverage": "Historical and institutional evidence; retain dates stated in individual claims.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GUY-E-105",
+        "GUY-E-106",
+        "GUY-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Historical drought, impact pathway and social vulnerability sections.",
+          "notes": "Main coordinator inspected cited passages; full PDF access limitation retained where applicable.",
+          "reuse_terms": "Concise paraphrases only; no reuse licence asserted.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "GUY-SRC-103",
+      "title": "Our Land, Our Life: A Participatory Assessment of Land Tenure",
+      "organization": "Forest Peoples Programme and Amerindian Peoples Association",
+      "publication_date": "2018-05-03",
+      "publication_date_basis": "publication",
+      "url": "https://www.forestpeoples.org/publications-resources/reports/article/our-land-our-life-a-participatory-assessment-of-land-tenure/",
+      "geographic_coverage": [
+        "Potaro-Siparuni (Region 8)"
+      ],
+      "temporal_coverage": "Historical and institutional evidence; retain dates stated in individual claims.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "GUY-E-108",
+        "GUY-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "official-excerpt",
+          "locator": "Publisher substantive synopsis and publication date.",
+          "notes": "Main coordinator inspected cited passages; full PDF access limitation retained where applicable.",
+          "reuse_terms": "Concise paraphrases only; no reuse licence asserted.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "GUY-E-109",
+        "selected_source_id": "GUY-SRC-103",
+        "url": "https://www.forestpeoples.org/publications-resources/reports/article/our-land-our-life-a-participatory-assessment-of-land-tenure/",
+        "locator": "Publisher synopsis, community recommendations.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": 403,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "HTTP 403"
+      },
+      "audit_accessed_on": "2026-10-27"
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "GUY-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GUY-SRC-001",
+          "locator": "Georgetown discussion, paragraphs beginning In Georgetown and What has become clear"
+        }
+      ],
+      "geographies": [
+        "Georgetown"
+      ],
+      "affected_groups": [],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "In Georgetown, heavy rain combines with blocked drains or pump failures; limited interagency coordination complicates flood management.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "GUY-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GUY-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GUY-SRC-001",
+          "locator": "Lethem discussion, rainy-season and dry-season paragraphs"
+        }
+      ],
+      "geographies": [
+        "Lethem",
+        "Rupununi"
+      ],
+      "affected_groups": [
+        "local communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Around Lethem in the Rupununi, river flooding disrupts services and livelihoods, while prolonged dry periods heighten wildfire risk.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "GUY-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GUY-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GUY-SRC-001",
+          "locator": "Lethem actions paragraph beginning The discussions helped surface"
+        }
+      ],
+      "geographies": [
+        "Lethem"
+      ],
+      "affected_groups": [
+        "Indigenous communities",
+        "women"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Lethem consultations identified Indigenous knowledge, women's preparedness training and accessible infrastructure as priorities.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "GUY-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GUY-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GUY-SRC-002",
+          "locator": "Publication summary, paragraph beginning Guyana's Low Coastal Plain"
+        }
+      ],
+      "geographies": [
+        "Low Coastal Plain"
+      ],
+      "affected_groups": [],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Guyana's low coastal plain concentrates population and economic activity on land at or below high-tide level.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "GUY-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GUY-E-005",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GUY-SRC-002",
+          "locator": "Summary paragraph beginning This case study identifies"
+        }
+      ],
+      "geographies": [
+        "Low Coastal Plain"
+      ],
+      "affected_groups": [],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The case study prioritizes sea defences, drainage, mangroves, disaster coordination and community organization for coastal adaptation.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "GUY-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GUY-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GUY-SRC-003",
+          "locator": "Body paragraph beginning Guyana's coastal drainage system"
+        }
+      ],
+      "geographies": [
+        "Guyana"
+      ],
+      "affected_groups": [],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Insufficient maintenance investment, urbanization and rising flood risk have reduced the operational capacity of Guyana's coastal drainage network.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "GUY-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GUY-E-007",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GUY-SRC-003",
+          "locator": "Body paragraphs beginning The new Coastal and The project will work"
+        }
+      ],
+      "geographies": [
+        "Guyana"
+      ],
+      "affected_groups": [],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2024 coastal project planned drainage-asset rehabilitation and technical capacity support for the National Drainage and Irrigation Authority.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "GUY-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GUY-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GUY-SRC-101",
+          "locator": "Printed p.8 (physical PDF p.22)."
+        }
+      ],
+      "geographies": [
+        "Pomeroon",
+        "Demerara",
+        "Berbice"
+      ],
+      "affected_groups": [
+        "rice farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: Rice-growing irrigation zones around Pomeroon, Demerara and Berbice depend on drainage and seawater control along the low coastal plain.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GUY-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GUY-SRC-101",
+          "locator": "Printed p.19 (physical PDF p.33)."
+        }
+      ],
+      "geographies": [
+        "Guyana"
+      ],
+      "affected_groups": [
+        "farmers"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: The 2023 assessment identifies basic agricultural recovery governance, limited sector–CDC coordination and missing actionable recovery mandates despite an enabling policy framework.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GUY-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GUY-SRC-101",
+          "locator": "Printed pp.27–29 (physical PDF pp.41–43)."
+        }
+      ],
+      "geographies": [
+        "Guyana"
+      ],
+      "affected_groups": [
+        "women",
+        "persons with disabilities",
+        "Indigenous communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: Gender/disability inclusion lacked permanent expertise and operational actions, budgets and monitoring in agricultural recovery; policy recognition alone did not ensure implementation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GUY-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GUY-SRC-101",
+          "locator": "Printed p.10 (physical PDF p.24)."
+        }
+      ],
+      "geographies": [
+        "Guyana",
+        "Region 1"
+      ],
+      "affected_groups": [
+        "Amerindian communities",
+        "hinterland residents",
+        "migrants"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023 reports: Hinterland Amerindian communities face differentiated flood/drought vulnerability linked to poverty and location; the report separately describes mining/logging-related migration and Venezuelan arrivals in Region 1.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GUY-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GUY-SRC-102",
+          "locator": "Historical drought paragraph on 2009–2010."
+        }
+      ],
+      "geographies": [
+        "East Demerara Water Conservancy"
+      ],
+      "affected_groups": [
+        "irrigators"
+      ],
+      "evidence_class": "climate-pressure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: During the 2009–2010 drought, East Demerara Water Conservancy fell below the designated safe irrigation level, illustrating reservoir dependence during dry conditions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GUY-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GUY-SRC-102",
+          "locator": "Drought impact pathway section."
+        }
+      ],
+      "geographies": [
+        "Guyana"
+      ],
+      "affected_groups": [
+        "children",
+        "women",
+        "Indigenous peoples",
+        "rural farmers"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: FAO identifies children’s water-fetching burdens and missed schooling, with women, Indigenous peoples and rural farming households among drought-vulnerable groups.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GUY-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GUY-SRC-102",
+          "locator": "Social vulnerability dimensions."
+        }
+      ],
+      "geographies": [
+        "Regions 1, 7, 8 and 9"
+      ],
+      "affected_groups": [
+        "Indigenous children",
+        "female-headed farming households"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: FAO lists elevated interior child-labour vulnerability in Regions 1, 7, 8 and 9 using 2019/2020 information and describes land-title barriers limiting female-headed farms’ credit access.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GUY-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "GUY-SRC-103",
+          "locator": "Publisher synopsis, land demarcation and 22-community study paragraphs."
+        }
+      ],
+      "geographies": [
+        "Potaro-Siparuni (Region 8)"
+      ],
+      "affected_groups": [
+        "Indigenous communities"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2018-05-03 reports: The Region 8 tenure synopsis reports customary land excluded during titling/demarcation and resulting boundary disputes; 14 of 15 titled study villages reported no consultation or consent to granted areas.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "GUY-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "GUY-SRC-103",
+          "locator": "Publisher synopsis, community recommendations."
+        }
+      ],
+      "geographies": [
+        "Potaro-Siparuni (Region 8)"
+      ],
+      "affected_groups": [
+        "Patamona communities",
+        "Indigenous landholders"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2018-05-03 reports: Participating Region 8 communities called for resolving third-party land conflicts, respecting prior informed consent and dialogue on collective Patamona territory.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "verification_attempt": {
+        "selected_record_id": "GUY-E-109",
+        "selected_source_id": "GUY-SRC-103",
+        "url": "https://www.forestpeoples.org/publications-resources/reports/article/our-land-our-life-a-participatory-assessment-of-land-tenure/",
+        "locator": "Publisher synopsis, community recommendations.",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET with normal TLS verification",
+        "source_access_status": "unresolved",
+        "claim_verification": "unresolved",
+        "http_status": 403,
+        "content_type": null,
+        "bytes_read": null,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": false,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": "HTTP 403"
+      },
+      "verification_note": "The selected source URL and cited page were accessed/extracted when available; the extracted passage was not yet semantically matched to the claim. This is not source verification."
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "GUY-E-109",
+  "source_access_review": {
+    "selected_record_id": "GUY-E-109",
+    "selected_source_id": "GUY-SRC-103",
+    "url": "https://www.forestpeoples.org/publications-resources/reports/article/our-land-our-life-a-participatory-assessment-of-land-tenure/",
+    "locator": "Publisher synopsis, community recommendations.",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET with normal TLS verification",
+    "source_access_status": "unresolved",
+    "claim_verification": "unresolved",
+    "http_status": 403,
+    "content_type": null,
+    "bytes_read": null,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": false,
+    "semantic_claim_match_completed": false,
+    "error_or_limit": "HTTP 403"
+  },
+  "checks": [
+    {
+      "record_id": "GUY-E-109",
+      "source_id": "GUY-SRC-103",
+      "locator": "Publisher synopsis, community recommendations.",
+      "verification_status": "unresolved",
+      "verification_method": "HTTPS GET with normal TLS verification",
+      "access_date": "2026-10-27",
+      "source_access_status": "unresolved",
+      "cited_passage_text_extracted": false,
+      "semantic_claim_match_completed": false
+    }
+  ],
+  "limitations": [
+    "GUY-E-109: selected passage status is unresolved; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "GUY-E-001",
+    "GUY-E-002",
+    "GUY-E-003",
+    "GUY-E-004",
+    "GUY-E-005",
+    "GUY-E-006",
+    "GUY-E-007",
+    "GUY-E-101",
+    "GUY-E-102",
+    "GUY-E-103",
+    "GUY-E-104",
+    "GUY-E-105",
+    "GUY-E-106",
+    "GUY-E-107",
+    "GUY-E-108",
+    "GUY-E-109"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 0,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "iso3": "PSE",
+  "country_name": "State of Palestine",
+  "sources": [
+    {
+      "source_id": "PSE-SRC-101",
+      "title": "Crop Mapping in Palestine for Winter and Spring Seasons 2023–24",
+      "organization": "Applied Research Institute–Jerusalem, Food and Agriculture Organization, Palestinian Ministry of Agriculture, and Palestinian Water Authority",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.fao.org/in-action/remote-sensing-for-water-productivity/country-activities/palestine/crop-mapping-2023-24/",
+      "repository_file": null,
+      "source_type": "web-page",
+      "analytical_roles": ["direct-climate-fcv", "physical-baseline", "vulnerability-capacity"],
+      "country_codes": ["PSE"],
+      "geographic_coverage": ["Jericho Governorate", "Jordan Valley", "West Bank"],
+      "temporal_coverage": "Jericho winter 2023–2024 and spring 2024 crop mapping and field surveys.",
+      "accessed_on": "2026-10-27",
+      "methodology": "ARIJ, FAO, the agriculture ministry and water authority used Sentinel-2 imagery, field surveys and 366 ground-truth points.",
+      "limitations": "The page intro refers to 2025 mapping, unlike its title and detailed 2023–2024 survey dates; findings are Jericho-specific.",
+      "license_status": "unknown",
+      "checksum": null
+    },
+    {
+      "source_id": "PSE-SRC-102",
+      "title": "Humanitarian Situation Update #314: West Bank",
+      "organization": "United Nations Office for the Coordination of Humanitarian Affairs, occupied Palestinian territory",
+      "publication_date": "2025-08-14",
+      "publication_date_basis": "publication",
+      "url": "https://www.ochaopt.org/content/humanitarian-situation-update-314-west-bank",
+      "repository_file": null,
+      "source_type": "un-report",
+      "analytical_roles": ["direct-climate-fcv", "vulnerability-capacity"],
+      "country_codes": ["PSE"],
+      "geographic_coverage": ["West Bank", "Hebron Governorate", "northern Jordan Valley", "Umm al Kheir"],
+      "temporal_coverage": "Humanitarian and water-access conditions reported through 14 August 2025, with some water analysis from early 2025.",
+      "accessed_on": "2026-10-27",
+      "methodology": "OCHA situation update drawing on WASH Cluster analysis, partner reporting and documented incidents.",
+      "limitations": "Operational reporting is time-bounded; water-shortage drivers and access varied by community.",
+      "license_status": "unknown",
+      "checksum": null
+    },
+    {
+      "source_id": "PSE-SRC-103",
+      "title": "Enhancing Adaptation Planning and Adoption of Climate Resilient Agriculture in Palestine",
+      "organization": "Food and Agriculture Organization of the United Nations",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://www.fao.org/gcf/projects-map/project-detail/enhancing-adaptation-planning-and-adoption-of-climate-resilient-agriculture-in-palestine/en",
+      "repository_file": null,
+      "source_type": "web-page",
+      "analytical_roles": ["vulnerability-capacity"],
+      "country_codes": ["PSE"],
+      "geographic_coverage": ["West Bank", "Palestine"],
+      "temporal_coverage": "Project page lists a period from 25 August 2020 through 24 August 2025.",
+      "accessed_on": "2026-10-27",
+      "methodology": "FAO project summary describing the proposal's objective, partners, budget and stated dates.",
+      "limitations": "Page states planned objectives but does not document implementation or outcomes.",
+      "license_status": "unknown",
+      "checksum": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "PSE-C-101",
+      "source_id": "PSE-SRC-101",
+      "locator": "Main findings, climate and environmental challenges; page lines 145–151.",
+      "paraphrase": "For Jericho, FAO reports January–July 2024 temperatures 1.5–3°C above historical averages, shortening crop growth periods; 2023 evaporation was 371.3 mm above average.",
+      "kind": "climate-pressure",
+      "basis": "observed",
+      "time_horizons": ["historical"],
+      "scenario": null,
+      "geographies": ["Jericho Governorate"],
+      "administrative_level": "administrative-area",
+      "hazards": ["high temperature", "high evaporation", "water scarcity"],
+      "sectors": ["agriculture", "water"],
+      "affected_groups": ["farmers"],
+      "systems": ["crop growth periods", "agricultural water"],
+      "institutions": ["Applied Research Institute–Jerusalem", "FAO", "Palestinian Ministry of Agriculture"],
+      "limitations": "These are reported local observations, not a forward projection or national average.",
+      "access_method": "full-text",
+      "subnational_specificity": "named-admin",
+      "source_stated_fcv_link": null
+    },
+    {
+      "claim_id": "PSE-C-102",
+      "source_id": "PSE-SRC-101",
+      "locator": "Main findings, 'Who farms where'; page lines 131–144.",
+      "paraphrase": "The Jericho mapping says Palestinian farmers had limited water access constraining crop choices, while Israeli settlers had greater water and technology access.",
+      "kind": "sensitivity",
+      "basis": "observed",
+      "time_horizons": ["historical"],
+      "scenario": null,
+      "geographies": ["Jericho Governorate", "Jordan Valley"],
+      "administrative_level": "administrative-area",
+      "hazards": ["water scarcity"],
+      "sectors": ["agriculture", "water"],
+      "affected_groups": ["Palestinian farmers", "Israeli settlers cultivating land"],
+      "systems": ["irrigation", "crop choices", "agricultural technology"],
+      "institutions": ["Palestinian farmers", "Israeli settlers", "Palestinian Water Authority"],
+      "limitations": "The reported access contrast is for the mapped Jericho area, not all farmers or all settlements.",
+      "access_method": "full-text",
+      "subnational_specificity": "named-admin",
+      "source_stated_fcv_link": "FAO identifies occupation-related land and water restrictions as a major farming constraint."
+    },
+    {
+      "claim_id": "PSE-C-103",
+      "source_id": "PSE-SRC-101",
+      "locator": "Introduction and study objectives; page lines 24–32.",
+      "paraphrase": "Movement and transport restrictions linked to the security situation constrained field access and sampling; ARIJ adapted sampling and used satellite analysis to validate and extend observations.",
+      "kind": "sensitivity",
+      "basis": "observed",
+      "time_horizons": ["historical"],
+      "scenario": null,
+      "geographies": ["Jericho Governorate"],
+      "administrative_level": "administrative-area",
+      "hazards": ["movement and access restrictions"],
+      "sectors": ["agriculture", "remote sensing", "field research"],
+      "affected_groups": ["Palestinian farmers", "field survey teams"],
+      "systems": ["crop monitoring", "field sampling", "agricultural planning"],
+      "institutions": ["Applied Research Institute–Jerusalem", "Palestinian Ministry of Agriculture", "Palestinian Water Authority"],
+      "limitations": "This is an access constraint on the crop-mapping exercise, not a measured limit on farm adaptation.",
+      "access_method": "full-text",
+      "subnational_specificity": "named-admin",
+      "source_stated_fcv_link": "The study explicitly attributes survey-access limits to movement restrictions and the security situation."
+    },
+    {
+      "claim_id": "PSE-C-104",
+      "source_id": "PSE-SRC-102",
+      "locator": "Key highlights and Water Sanitation and Hygiene Cluster analysis; webpage paragraphs dated 14 August 2025.",
+      "paraphrase": "OCHA reports heatwaves and low rainfall alongside pipeline reductions, permit limits, infrastructure demolitions and settler violence in West Bank water shortages; 52 communities faced access obstacles and 73 relied on trucking without official networks.",
+      "kind": "direct-climate-fcv",
+      "basis": "observed",
+      "time_horizons": ["historical"],
+      "scenario": null,
+      "geographies": ["West Bank", "Hebron Governorate", "northern Jordan Valley", "Area C"],
+      "administrative_level": "administrative-area",
+      "hazards": ["heatwaves", "low rainfall", "water-supply disruption", "settler violence", "infrastructure demolition"],
+      "sectors": ["water", "WASH", "agriculture"],
+      "affected_groups": ["Palestinian communities", "water-trucking-dependent households"],
+      "systems": ["water networks", "water resources", "water trucking"],
+      "institutions": ["OCHA", "WASH Cluster", "Israeli authorities", "Palestinian communities"],
+      "limitations": "Community counts are from WASH Cluster analysis at the beginning of 2025, not a current 2026 estimate.",
+      "access_method": "full-text",
+      "subnational_specificity": "named-admin",
+      "source_stated_fcv_link": "OCHA attributes shortages to weather as well as restrictions, demolition and settler violence."
+    },
+    {
+      "claim_id": "PSE-C-105",
+      "source_id": "PSE-SRC-102",
+      "locator": "Umm al Kheir incident; webpage paragraph dated 5 August 2025.",
+      "paraphrase": "After settlers repeatedly disconnected Umm al Kheir's main water line, 200 residents, including 108 children, lacked running water and relied on water trucking.",
+      "kind": "sensitivity",
+      "basis": "observed",
+      "time_horizons": ["historical"],
+      "scenario": null,
+      "geographies": ["Umm al Kheir", "Hebron Governorate"],
+      "administrative_level": "site",
+      "hazards": ["water-line disruption", "settler violence"],
+      "sectors": ["water", "WASH", "health"],
+      "affected_groups": ["200 residents", "108 children", "Bedouin community"],
+      "systems": ["main water connection", "water trucking"],
+      "institutions": ["OCHA", "WASH Cluster", "Palestinian Water Authority"],
+      "limitations": "The situation update describes a dated incident; it does not report later restoration status.",
+      "access_method": "full-text",
+      "subnational_specificity": "named-site",
+      "source_stated_fcv_link": "Settler attacks interrupted the community's local water connection."
+    },
+    {
+      "claim_id": "PSE-C-106",
+      "source_id": "PSE-SRC-102",
+      "locator": "Water response in Umm al Kheir and other communities; webpage paragraph dated 14 August 2025.",
+      "paraphrase": "The WASH Cluster and Palestinian Water Authority used water trucking, mobile tanks and maintenance kits, which partly alleviated shortages, while communities continued requesting water.",
+      "kind": "response-performance",
+      "basis": "observed",
+      "time_horizons": ["historical"],
+      "scenario": null,
+      "geographies": ["West Bank", "Hebron Governorate", "Umm al Kheir"],
+      "administrative_level": "administrative-area",
+      "hazards": ["water shortages", "access constraints"],
+      "sectors": ["WASH", "emergency response"],
+      "affected_groups": ["water-insecure communities"],
+      "systems": ["water trucking", "mobile water tanks", "repair kits"],
+      "institutions": ["WASH Cluster", "Palestinian Water Authority", "WASH partners"],
+      "limitations": "OCHA reports partial relief and continued unmet requests, not an evaluated resilience outcome.",
+      "access_method": "full-text",
+      "subnational_specificity": "named-admin",
+      "source_stated_fcv_link": null
+    },
+    {
+      "claim_id": "PSE-C-107",
+      "source_id": "PSE-SRC-103",
+      "locator": "Project objective and stated period; webpage lines 21–34.",
+      "paraphrase": "FAO's 2020–2025 project proposed stronger climate-resilient agriculture coordination, real-time agro-weather information for smallholders and two test plots with farmer associations.",
+      "kind": "institutional-capacity",
+      "basis": "observed",
+      "time_horizons": ["historical"],
+      "scenario": null,
+      "geographies": ["West Bank", "Palestine"],
+      "administrative_level": "national",
+      "hazards": ["climate change", "weather variability"],
+      "sectors": ["agriculture", "meteorological services", "climate adaptation"],
+      "affected_groups": ["smallholder farmers", "farmer associations"],
+      "systems": ["inter-institutional cooperation", "agro-meteorology", "weather information", "test plots"],
+      "institutions": ["FAO", "Palestinian institutions", "Green Climate Fund"],
+      "limitations": "These are proposal objectives for a period ending in 2025; the page does not establish implementation or completion.",
+      "access_method": "official-excerpt",
+      "subnational_specificity": "national",
+      "source_stated_fcv_link": null
+    }
+  ],
+  "access_audit": [
+    {
+      "source_id": "PSE-SRC-101",
+      "url": "https://www.fao.org/in-action/remote-sensing-for-water-productivity/country-activities/palestine/crop-mapping-2023-24/",
+      "access_method": "full-text",
+      "locator": "Opened the full crop-mapping webpage, including methodology, local findings, caveats and recommendations.",
+      "notes": "The introduction mentions 2025, but the page title and field survey/image dates specify winter 2023–2024 and spring 2024; inconsistent climatic values elsewhere were not combined.",
+      "reuse_terms": "Terms not reviewed; concise paraphrases only."
+    },
+    {
+      "source_id": "PSE-SRC-102",
+      "url": "https://www.ochaopt.org/content/humanitarian-situation-update-314-west-bank",
+      "access_method": "full-text",
+      "locator": "Opened the complete OCHA situation-update webpage; claims use water analysis and the Umm al Kheir incident.",
+      "notes": "Published 14 August 2025; retained as a dated operational record, not a current 2026 estimate.",
+      "reuse_terms": "Terms not reviewed; concise paraphrases only."
+    },
+    {
+      "source_id": "PSE-SRC-103",
+      "url": "https://www.fao.org/gcf/projects-map/project-detail/enhancing-adaptation-planning-and-adoption-of-climate-resilient-agriculture-in-palestine/en",
+      "access_method": "official-excerpt",
+      "locator": "Opened FAO's project page showing objectives, partners and 2020–2025 dates.",
+      "notes": "Only stated objectives were extracted; no completed result is claimed.",
+      "reuse_terms": "Terms not reviewed; concise paraphrases only."
+    },
+    {
+      "source_id": null,
+      "url": "https://www.greenclimate.fund/document/2024-annual-performance-report-fp119-water-banking-and-adaptation-agriculture-climate",
+      "access_method": "blocked",
+      "locator": "Direct GCF page request returned HTTP 403.",
+      "notes": "The 2024 performance report for Northern Gaza's water-banking project was not inspected; no results were taken from search text.",
+      "reuse_terms": "Not reviewed; no claims derived."
+    },
+    {
+      "source_id": null,
+      "url": "https://www.un.org/unispal/wp-content/uploads/2026/04/UNCT-Results-Report-2023-2024-compressed.pdf",
+      "access_method": "blocked",
+      "locator": "Direct UNISPAL PDF request returned HTTP 403.",
+      "notes": "Search-result text was excluded; no country-results-report claims are used.",
+      "reuse_terms": "Not reviewed; no claims derived."
+    }
+  ],
+  "search_audit": [
+    {
+      "query": "State of Palestine climate vulnerability 2024 2025 named locality Area C agriculture water official UN report",
+      "purpose": "subnational-vulnerability",
+      "outcome": "Opened FAO's Jericho crop mapping and OCHA's West Bank situation update; both contain directly read named-area climate/water findings.",
+      "urls": [
+        "https://www.fao.org/in-action/remote-sensing-for-water-productivity/country-activities/palestine/crop-mapping-2023-24/",
+        "https://www.ochaopt.org/content/humanitarian-situation-update-314-west-bank"
+      ]
+    },
+    {
+      "query": "Palestine climate conflict access restrictions water adaptation West Bank Gaza 2024 2025 primary report UN",
+      "purpose": "fcv-mediators",
+      "outcome": "OCHA explicitly reports heat and low rainfall together with restrictions, demolitions and settler violence as drivers of water shortages; FAO reports occupation-related resource constraints on Jericho farmers.",
+      "urls": [
+        "https://www.ochaopt.org/content/humanitarian-situation-update-314-west-bank",
+        "https://www.fao.org/in-action/remote-sensing-for-water-productivity/country-activities/palestine/crop-mapping-2023-24/"
+      ]
+    },
+    {
+      "query": "West Bank climate adaptation constraints conflict violence water infrastructure Palestinian communities 2025 UN report",
+      "purpose": "reverse-fcv",
+      "outcome": "The OCHA page directly documents settler attacks severing Umm al Kheir's water connection; the FAO crop-mapping team reports movement/security constraints on field access.",
+      "urls": [
+        "https://www.ochaopt.org/content/humanitarian-situation-update-314-west-bank",
+        "https://www.fao.org/in-action/remote-sensing-for-water-productivity/country-activities/palestine/crop-mapping-2023-24/"
+      ]
+    },
+    {
+      "query": "Palestine local climate resilience capacity adaptation water districts 2024 2025 official UNDP government report",
+      "purpose": "resilience-capacity",
+      "outcome": "FAO's project page states planned agro-weather and climate-resilient agriculture capacity objectives; OCHA reports the actual but partial emergency water response in named communities.",
+      "urls": [
+        "https://www.fao.org/gcf/projects-map/project-detail/enhancing-adaptation-planning-and-adoption-of-climate-resilient-agriculture-in-palestine/en",
+        "https://www.ochaopt.org/content/humanitarian-situation-update-314-west-bank"
+      ]
+    }
+  ],
+  "gaps": [
+    "The inspected OCHA report provides a direct joint climate/access pathway for West Bank water stress but does not establish climate-caused violence.",
+    "FAO crop-mapping findings are limited to Jericho and 2023–2024; its page contains inconsistent survey-year and temperature statements, which are noted and not reconciled.",
+    "The GCF 2024 performance report and UN Country Results Report PDF returned HTTP 403; claims from their search-result text were excluded.",
+    "FAO's agriculture adaptation project page states objectives and dates but not evaluated delivery; no implementation outcomes are inferred."
+  ]
+}

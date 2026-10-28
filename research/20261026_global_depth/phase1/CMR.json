@@ -1,0 +1,209 @@
+{
+  "iso3": "CMR",
+  "country_name": "Cameroon",
+  "sources": [
+    {
+      "source_id": "CMR-SRC-101",
+      "title": "Cameroon Humanitarian Situation Report No. 4 (End of Year), 31 December 2025",
+      "organization": "UNICEF Cameroon",
+      "publication_date": "2026-02-05",
+      "publication_date_basis": "publication",
+      "url": "https://www.unicef.org/media/178661/file/Cameroon-Humanitarian-Situation-Report-No.4-%28End-of-Year%29-31-December-2025.pdf.pdf",
+      "repository_file": null,
+      "source_type": "un-report",
+      "analytical_roles": ["vulnerability-capacity", "physical-baseline"],
+      "country_codes": ["CMR"],
+      "geographic_coverage": ["Cameroon", "Far North", "North-West", "South-West", "East"],
+      "temporal_coverage": "Humanitarian events and UNICEF/partner response during 1 January-31 December 2025.",
+      "accessed_on": "2026-10-27",
+      "methodology": "UNICEF annual situation monitoring and partner-reported humanitarian results.",
+      "limitations": "Operational report, not an independent causal evaluation or representative coverage estimate.",
+      "license_status": "unknown",
+      "checksum": null
+    },
+    {
+      "source_id": "CMR-SRC-102",
+      "title": "The situation in Central Africa and the activities of the United Nations Regional Office for Central Africa: Report of the Secretary-General (S/2026/445)",
+      "organization": "United Nations Secretary-General",
+      "publication_date": "2026-05-29",
+      "publication_date_basis": "document-version",
+      "url": "https://unoca.unmissions.org/sites/default/files/2026-06/sg_report_on_unoca_s_2026.445_e.pdf.pdf",
+      "repository_file": null,
+      "source_type": "un-report",
+      "analytical_roles": ["physical-baseline", "vulnerability-capacity", "direct-climate-fcv"],
+      "country_codes": ["CMR"],
+      "geographic_coverage": ["Central Africa", "Cameroon", "Far North Region", "Logone-et-Chari"],
+      "temporal_coverage": "Regional conditions and events from December 2025 through 15 March 2026; report dated 29 May 2026.",
+      "accessed_on": "2026-10-27",
+      "methodology": "Secretary-General regional reporting drawing on UN and cited partner sources, including ACLED and the regional climate centre.",
+      "limitations": "Climate conditions are described at subregional scale; the report does not attribute the Cameroon clash to climate.",
+      "license_status": "unknown",
+      "checksum": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CMR-C-101",
+      "source_id": "CMR-SRC-101",
+      "locator": "PDF p. 2, humanitarian situation overview",
+      "paraphrase": "UNICEF says rainy-season flooding, particularly in Far North, damaged homes, schools, health and WASH facilities, isolated communities and heightened disease risk; conflict, displacement and recurrent floods converged nationally in 2025.",
+      "kind": "direct-climate-fcv",
+      "basis": "observed",
+      "time_horizons": ["historical"],
+      "scenario": null,
+      "geographies": ["Far North", "Cameroon"],
+      "administrative_level": "administrative-area",
+      "subnational_specificity": "named-admin",
+      "hazards": ["seasonal flooding"],
+      "sectors": ["housing", "education", "health", "water and sanitation", "public health"],
+      "affected_groups": ["children", "displaced people", "flood-affected communities"],
+      "systems": ["homes", "schools", "health facilities", "WASH services", "community access"],
+      "institutions": ["UNICEF", "humanitarian partners"],
+      "limitations": "The report gives no flood-attributable share of displacement or damage and does not identify all affected localities.",
+      "access_method": "full-text",
+      "source_stated_fcv_link": "UNICEF describes recurrent flooding alongside conflict and displacement as converging humanitarian pressures, not as a quantified causal link."
+    },
+    {
+      "claim_id": "CMR-C-102",
+      "source_id": "CMR-SRC-101",
+      "locator": "PDF p. 2, security and access update",
+      "paraphrase": "In North-West and South-West, UNICEF records 269 access constraints in 2025; insecurity, lockdowns and administrative impediments restricted humanitarian operations, while a five-week lockdown disrupted livelihoods and market access.",
+      "kind": "institutional-capacity",
+      "basis": "observed",
+      "time_horizons": ["historical"],
+      "scenario": null,
+      "geographies": ["North-West", "South-West"],
+      "administrative_level": "administrative-area",
+      "subnational_specificity": "named-admin",
+      "hazards": [],
+      "sectors": ["humanitarian access", "livelihoods", "markets"],
+      "affected_groups": ["civilians", "displaced people", "humanitarian personnel"],
+      "systems": ["humanitarian operations", "markets", "livelihoods"],
+      "institutions": ["UNICEF", "humanitarian agencies"],
+      "limitations": "The report does not quantify effects on climate-adaptation delivery.",
+      "access_method": "full-text",
+      "source_stated_fcv_link": "UNICEF states that insecurity and lockdowns constrained access and disrupted livelihoods."
+    },
+    {
+      "claim_id": "CMR-C-103",
+      "source_id": "CMR-SRC-101",
+      "locator": "PDF pp. 1-2, response highlights and funding overview",
+      "paraphrase": "Despite access and funding constraints, UNICEF reports community-based delivery and youth engagement, 80,000 feedback records, and anticipatory cash transfers to 2,800 households.",
+      "kind": "response-performance",
+      "basis": "observed",
+      "time_horizons": ["historical"],
+      "scenario": null,
+      "geographies": ["Cameroon", "crisis-affected areas"],
+      "administrative_level": "national",
+      "subnational_specificity": "national",
+      "hazards": ["flooding", "conflict-related emergencies"],
+      "sectors": ["humanitarian response", "social protection", "community engagement"],
+      "affected_groups": ["crisis-affected households", "children", "young people"],
+      "systems": ["community-based delivery", "feedback mechanisms", "anticipatory cash transfers"],
+      "institutions": ["UNICEF", "humanitarian partners"],
+      "limitations": "Reported outputs do not establish durable resilience, equitable coverage or impact.",
+      "access_method": "full-text",
+      "source_stated_fcv_link": null
+    },
+    {
+      "claim_id": "CMR-C-104",
+      "source_id": "CMR-SRC-102",
+      "locator": "PDF p. 7, paras. 30-31",
+      "paraphrase": "The report describes Central African inland areas with below-normal rainfall, increasing pressure on water and pasture and affecting rain-fed and pastoral livelihoods; it separately records regional farmer-herder clashes.",
+      "kind": "climate-pressure",
+      "basis": "observed",
+      "time_horizons": ["historical"],
+      "scenario": null,
+      "geographies": ["Central Africa inland areas"],
+      "administrative_level": "cross-border",
+      "subnational_specificity": "generic-zone",
+      "hazards": ["below-normal rainfall", "above-average temperature", "uneven rainfall"],
+      "sectors": ["water", "pastoralism", "rain-fed agriculture", "rural livelihoods"],
+      "affected_groups": ["pastoralists", "farmers", "rural communities"],
+      "systems": ["water resources", "pasture", "rain-fed agriculture"],
+      "institutions": ["United Nations Regional Office for Central Africa", "Climate Application and Forecasting Centre of Central Africa", "ACLED"],
+      "limitations": "Regional climate conditions are not disaggregated to Cameroon; report does not attribute the listed clashes to climate.",
+      "access_method": "full-text",
+      "source_stated_fcv_link": "The report frames climate and ecological pressures in its regional-stability discussion of farmer-herder dynamics, but makes no event-specific climate attribution."
+    },
+    {
+      "claim_id": "CMR-C-105",
+      "source_id": "CMR-SRC-102",
+      "locator": "PDF p. 7, para. 31",
+      "paraphrase": "The Secretary-General reports that January 2026 violence in Logone-et-Chari, Far North, following livestock crop damage left nine people dead; the report does not attribute this clash to climate.",
+      "kind": "sensitivity",
+      "basis": "observed",
+      "time_horizons": ["historical"],
+      "scenario": null,
+      "geographies": ["Logone-et-Chari", "Far North Region"],
+      "administrative_level": "administrative-area",
+      "subnational_specificity": "named-admin",
+      "hazards": [],
+      "sectors": ["livestock", "agriculture", "human security"],
+      "affected_groups": ["farmers", "herders", "local communities"],
+      "systems": ["crops", "livestock", "farmer-herder relations"],
+      "institutions": ["United Nations Secretary-General", "ACLED"],
+      "limitations": "The report identifies crop damage by livestock as preceding the violence, not climate as its cause.",
+      "access_method": "full-text",
+      "source_stated_fcv_link": "The report links the local violence to livestock-related crop damage, while leaving any climate connection unstated."
+    }
+  ],
+  "access_audit": [
+    {
+      "source_id": "CMR-SRC-101",
+      "url": "https://www.unicef.org/media/178661/file/Cameroon-Humanitarian-Situation-Report-No.4-%28End-of-Year%29-31-December-2025.pdf.pdf",
+      "access_method": "full-text",
+      "locator": "PDF pp. 1-5 reviewed",
+      "notes": "Downloaded and read the complete 17-page end-year report; claims use the situation overview, security/access update and response highlights.",
+      "reuse_terms": "Unknown; no reuse license verified."
+    },
+    {
+      "source_id": "CMR-SRC-102",
+      "url": "https://unoca.unmissions.org/sites/default/files/2026-06/sg_report_on_unoca_s_2026.445_e.pdf.pdf",
+      "access_method": "full-text",
+      "locator": "PDF pp. 5, 7 and 12 reviewed",
+      "notes": "Downloaded and read the 15-page Secretary-General report; climate and farmer-herder discussion is regional and does not establish climate causation for the Cameroon incident.",
+      "reuse_terms": "Unknown; no reuse license verified."
+    },
+    {
+      "source_id": null,
+      "url": "https://climateknowledgeportal.worldbank.org/sites/default/files/country-profiles/17253-WB_Cameroon%20Country%20Profile-WEB.pdf",
+      "access_method": "blocked",
+      "locator": "Full PDF open/download attempt",
+      "notes": "World Bank Climate Risk Country Profile (2025) direct PDF returned HTTP 403; PreventionWeb metadata was checked but no claim uses the profile.",
+      "reuse_terms": "Unknown."
+    }
+  ],
+  "search_audit": [
+    {
+      "query": "Cameroon 2025 flood impact Far North named regions climate humanitarian vulnerability report",
+      "purpose": "subnational-vulnerability",
+      "outcome": "UNICEF's full 2025 report identifies flood damage particularly in Far North and separately reports multi-region conflict emergencies; it does not disaggregate every affected flood locality.",
+      "urls": ["https://www.unicef.org/media/178661/file/Cameroon-Humanitarian-Situation-Report-No.4-%28End-of-Year%29-31-December-2025.pdf.pdf"]
+    },
+    {
+      "query": "Cameroon climate rainfall water pasture farmer herder conflict mediator official report",
+      "purpose": "fcv-mediators",
+      "outcome": "The UN regional report states below-normal rainfall increased pressure on water and pasture and affected rural livelihoods; it discusses farmer-herder clashes in the same regional-stability section but does not attribute the Cameroon clash to climate.",
+      "urls": ["https://unoca.unmissions.org/sites/default/files/2026-06/sg_report_on_unoca_s_2026.445_e.pdf.pdf"]
+    },
+    {
+      "query": "Cameroon conflict lockdown insecurity effect humanitarian access service delivery 2025 UNICEF",
+      "purpose": "reverse-fcv",
+      "outcome": "UNICEF documents access constraints, lockdowns and insecurity restricting humanitarian operations and livelihoods in North-West and South-West; it does not quantify effects on climate-adaptation delivery.",
+      "urls": ["https://www.unicef.org/media/178661/file/Cameroon-Humanitarian-Situation-Report-No.4-%28End-of-Year%29-31-December-2025.pdf.pdf"]
+    },
+    {
+      "query": "Cameroon anticipatory cash community-based humanitarian resilience response outputs 2025",
+      "purpose": "resilience-capacity",
+      "outcome": "UNICEF reports community-based delivery, youth engagement, feedback records and anticipatory cash transfers; these operational outputs are not evaluated for durability or resilience impact.",
+      "urls": ["https://www.unicef.org/media/178661/file/Cameroon-Humanitarian-Situation-Report-No.4-%28End-of-Year%29-31-December-2025.pdf.pdf"]
+    }
+  ],
+  "gaps": [
+    "The UNICEF report does not disaggregate all flood damage and displacement by named locality or estimate climate-attributable shares.",
+    "The Secretary-General's climate summary is regional; its Logone-et-Chari account links violence to livestock crop damage, not to climate conditions.",
+    "The World Bank 2025 Climate Risk Country Profile PDF returned HTTP 403 and was not used to support claims.",
+    "UNICEF operational delivery figures are not independent measures of coverage, durable resilience or causal impact."
+  ]
+}

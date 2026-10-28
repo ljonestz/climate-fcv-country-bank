@@ -1,0 +1,1121 @@
+{
+  "audit_version": "2026-10-27.record-audit.v1",
+  "iso3": "SUR",
+  "candidate_path": "countries/SUR/candidates/2026.10.26.deep",
+  "audited_on": "2026-10-27",
+  "disposition": "unresolved-limited",
+  "human_approval": "pending",
+  "scope": {
+    "includes_inherited_and_new_records": true,
+    "exact_input_manifest": "research/20261026_global_depth/TEST_INPUTS.json",
+    "source_count": 7,
+    "evidence_count": 17,
+    "pathway_count": 0,
+    "evidence_source_reference_count": 17
+  },
+  "method": [
+    "Automated inventory read every source, evidence, pathway, profile and review record in the exact manifest candidate for this ISO.",
+    "Automated screening compared source references, locators, geography fields, evidence class, direction, status, horizon and scenario; it checked pathway support IDs, link-evidence sets, geography fields, alternatives and uncertainty for follow-up.",
+    "Raw extraction access rows are recorded only as inherited access observations. This generated screen does not treat snippets, HTTP success, prior access, or metadata as claim verification and does not replace semantic source review."
+  ],
+  "verification_summary": {
+    "evidence_claims": {
+      "unresolved": 5,
+      "verified": 1,
+      "access-only": 11
+    },
+    "pathway_claims": {
+      "unresolved": 0
+    },
+    "source_passages_reopened_by_this_audit": 1,
+    "source_claims_verified_by_this_audit": 1,
+    "limitation": "Selected source access and manually adjudicated record-level passages are listed separately. Verification applies only to individually listed claims; all remaining evidence/pathways and the country bank as a whole remain unresolved-limited."
+  },
+  "findings": [
+    "No structured pathway is assembled; interpret as a coverage limit, not evidence of no FCV mechanism.",
+    "Automated numeric, programme-language and causal-role screening cues are follow-up prompts only; they are not findings of claim error.",
+    "Record-level passage review was completed for 1 listed evidence claims only; other claims, pathways and the country bank remain unresolved-limited."
+  ],
+  "profile_review": {
+    "coverage": [
+      {
+        "dimension": "evidence-class",
+        "value": "climate-pressure",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "exposure",
+        "status": "partial",
+        "record_ids": [
+          "SUR-E-004",
+          "SUR-E-105"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "sensitivity",
+        "status": "partial",
+        "record_ids": [
+          "SUR-E-003",
+          "SUR-E-110"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "coping-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SUR-E-102",
+          "SUR-E-106"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "adaptive-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SUR-E-002",
+          "SUR-E-006",
+          "SUR-E-103",
+          "SUR-E-104",
+          "SUR-E-108",
+          "SUR-E-109",
+          "SUR-E-111"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "institutional-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SUR-E-001",
+          "SUR-E-101",
+          "SUR-E-107"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "response-performance",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "direct-climate-fcv",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No dedicated record assembled; absence of evidence is not absence of risk."
+      },
+      {
+        "dimension": "evidence-class",
+        "value": "resilience-peace-capacity",
+        "status": "partial",
+        "record_ids": [
+          "SUR-E-005"
+        ],
+        "gap_note": "Selected source-supported evidence only; not comprehensive."
+      },
+      {
+        "dimension": "geography",
+        "value": "new named subnational examples",
+        "status": "partial",
+        "record_ids": [
+          "SUR-E-102",
+          "SUR-E-103",
+          "SUR-E-105"
+        ],
+        "gap_note": "Named places only; generic rural/coastal zones excluded. No complete local risk ranking."
+      },
+      {
+        "dimension": "pathway",
+        "value": "mediated climate-FCV links",
+        "status": "gap",
+        "record_ids": [],
+        "gap_note": "No complete supported chain assembled; do not infer one from co-occurrence."
+      }
+    ],
+    "known_gaps_requiring_reconciliation": [],
+    "review_status": "draft",
+    "review_date": null
+  },
+  "dossier_review": {
+    "path": "countries/SUR/candidates/2026.10.26.deep/dossier.md",
+    "automated_inventory_review": true,
+    "limitation": "Dossier prose is checked against the candidate inventory, not independently certified source-by-source."
+  },
+  "missing_source_metadata_ids": [],
+  "sources": [
+    {
+      "source_id": "SUR-SRC-001",
+      "title": "Suriname signs novel project to strengthen resilience against environmental shocks",
+      "organization": "World Bank",
+      "publication_date": "2025-02-28",
+      "publication_date_basis": "publication",
+      "url": "https://www.worldbank.org/en/news/press-release/2025/02/28/suriname-signs-novel-project-to-strengthen-resilience-against-environmental-shocks",
+      "geographic_coverage": [
+        "Suriname",
+        "Greater Paramaribo",
+        "Saramacca",
+        "Wanica"
+      ],
+      "temporal_coverage": "Flood vulnerabilities and proposed investments described inFebruary 2025.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SUR-E-001",
+        "SUR-E-002"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SUR-SRC-002",
+      "title": "El Niño in the Amazon: Building resilience to crises in Suriname",
+      "organization": "World Food Programme",
+      "publication_date": "2026-09-30",
+      "publication_date_basis": "publication",
+      "url": "https://caribbean.un.org/en/323591-el-ni%C3%B1o-amazon-building-resilience-crises-suriname",
+      "geographic_coverage": [
+        "Suriname",
+        "Kwamalasamutu",
+        "Upper Suriname river"
+      ],
+      "temporal_coverage": "Interior consultations and anticipatory-action planning reported inSeptember 2026.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SUR-E-003",
+        "SUR-E-004",
+        "SUR-E-005"
+      ],
+      "this_audit_verification": "verified-for-listed-claims",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim.",
+      "audit_access_attempt": {
+        "selected_record_id": "SUR-E-005",
+        "selected_source_id": "SUR-SRC-002",
+        "url": "https://caribbean.un.org/en/323591-el-ni%C3%B1o-amazon-building-resilience-crises-suriname",
+        "locator": "Value of Trio Indigenous Knowledge",
+        "accessed_on": "2026-10-27",
+        "access_method": "HTTPS GET; HTML visible-text extraction",
+        "source_access_status": "access-only",
+        "claim_verification": "access-only",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes_read": 57493,
+        "declared_bytes": null,
+        "pdf_pages_extracted": [],
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": false,
+        "error_or_limit": null
+      },
+      "audit_accessed_on": "2026-10-27",
+      "manual_reviewed_record_ids": [
+        "SUR-E-005"
+      ],
+      "manual_verified_record_ids": [
+        "SUR-E-005"
+      ]
+    },
+    {
+      "source_id": "SUR-SRC-003",
+      "title": "Climate change adaptation investments for the resilience of Paramaribo",
+      "organization": "European Commission",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://international-partnerships.ec.europa.eu/policies/programming/projects/climate-change-adaptation-investments-resilience-paramaribo_en",
+      "geographic_coverage": [
+        "Suriname",
+        "Paramaribo historical centre"
+      ],
+      "temporal_coverage": "Project period 2024-2026 shown on publisher page.",
+      "accessed_on_in_source_record": "2026-10-26",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SUR-E-006"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "unresolved",
+      "prior_access_rows": [],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SUR-SRC-101",
+      "title": "The Republic of Suriname’s First National Adaptation Plan Progress Report",
+      "organization": "Ministry of Spatial Planning and Environment, Republic of Suriname",
+      "publication_date": "2025-04",
+      "publication_date_basis": "document-version",
+      "url": "https://napglobalnetwork.org/wp-content/uploads/2025/07/Suriname-NAP-Progress-Report.pdf",
+      "geographic_coverage": [
+        "Suriname",
+        "Brokopondo District",
+        "Sipaliwini District",
+        "Para District",
+        "Marowijne District",
+        "Boven-Suriname",
+        "Klaaskreek",
+        "Matta",
+        "Singri Lanti",
+        "Tamarin"
+      ],
+      "temporal_coverage": "Reviews national adaptation progress for 2020-2024; report published 1 April 2025.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SUR-E-101",
+        "SUR-E-102",
+        "SUR-E-103",
+        "SUR-E-104"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 95-page progress report; implementation methodology, water, education and participation sections.",
+          "notes": "Full report was read. Ministry is identified as publisher; NAP Global Network page states the report date and assessment method.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SUR-SRC-102",
+      "title": "Suriname Systematic Country Diagnostic",
+      "organization": "World Bank",
+      "publication_date": "2023-06",
+      "publication_date_basis": "publication",
+      "url": "https://documents1.worldbank.org/curated/en/099062923162588381/pdf/BOSIB1913074e817f3914e6f18d7313e018d2993a1.pdf",
+      "geographic_coverage": [
+        "Suriname",
+        "Brokopondo District",
+        "interior districts",
+        "southern areas",
+        "Indigenous and Maroon communities"
+      ],
+      "temporal_coverage": "Diagnostic drafted mainly in 2023; includes 2022 flood observations and a 2023 household phone survey.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SUR-E-105",
+        "SUR-E-106",
+        "SUR-E-107"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full 104-page SCD; section 6.1 land rights/forest management and section 6.2 flood and disaster-risk discussion, PDF pp. 75-77.",
+          "notes": "Full World Bank diagnostic was read; it states that the core was drafted in Q1 2023 and some conditions may have changed.",
+          "reuse_terms": "World Bank attribution terms apply; no separate open license was verified.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SUR-SRC-103",
+      "title": "Climate Resilience for Food Security in Suriname",
+      "organization": "Inter-American Institute for Cooperation on Agriculture (IICA), Water and Agriculture platform",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://aguayagricultura.iica.int/en/proyectos-destacados/p25",
+      "geographic_coverage": [
+        "Suriname interior",
+        "Maroon farming communities"
+      ],
+      "temporal_coverage": "Project listing states implementation from 2023 to 2024 and finalized status.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SUR-E-108",
+        "SUR-E-109"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full IICA project page; project status, field lessons and descriptions of irrigation, crop nursery and recovered planting material.",
+          "notes": "The page reports project status as finalized and dates it 2023-2024; findings are implementer-reported.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    },
+    {
+      "source_id": "SUR-SRC-104",
+      "title": "Building Indigenous Maroon Farmers’ Resilience to Climate Change Guaranteeing Food Security in Suriname",
+      "organization": "Inter-American Institute for Cooperation on Agriculture (IICA)",
+      "publication_date": null,
+      "publication_date_basis": "not-stated",
+      "url": "https://apps.iica.int/dashboardproyectos/programas/Detalle?CRON=5517&SCRON=00",
+      "geographic_coverage": [
+        "Suriname",
+        "remote rural Maroon villages"
+      ],
+      "temporal_coverage": "Project listing states dates 8 May 2025 to 30 June 2026; current implementation status is not stated.",
+      "accessed_on_in_source_record": "2026-10-27",
+      "license_status": "unknown",
+      "records_using_source": [
+        "SUR-E-110",
+        "SUR-E-111"
+      ],
+      "this_audit_verification": "unresolved",
+      "prior_intake_access": "access-only",
+      "prior_access_rows": [
+        {
+          "access_method": "full-text",
+          "locator": "Full project listing; problem description, dates, objectives and expected results.",
+          "notes": "The listing gives a 30 June 2026 end date but no completion status or outcome report; it was accessed after that date.",
+          "reuse_terms": "No separate reuse terms verified; license status remains unknown.",
+          "recorded_in_intake": true
+        }
+      ],
+      "reopened_on": null,
+      "recommendation": "Check publisher/author, publication/version date, locator, geographic and temporal scope, actual cited passage and reuse terms before verifying any dependent claim."
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "SUR-E-001",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SUR-SRC-001",
+          "locator": "Flood vulnerability paragraph beginning Suriname is vulnerable"
+        }
+      ],
+      "geographies": [
+        "Greater Paramaribo"
+      ],
+      "affected_groups": [],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Recurrent coastal and rainfall flooding threatens livelihoods and services; Greater Paramaribo faces insufficient drainage capacity and maintenance.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SUR-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SUR-E-002",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SUR-SRC-001",
+          "locator": "Body paragraphs describing35 communities and project interventions"
+        }
+      ],
+      "geographies": [
+        "Paramaribo",
+        "Saramacca",
+        "Wanica"
+      ],
+      "affected_groups": [
+        "women"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "The 2025 project planned community-led resilience activities in Paramaribo, Saramacca and Wanica, including women-led initiatives.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [
+        "SUR-SRC-001"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SUR-E-003",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SUR-SRC-002",
+          "locator": "Opening paragraphs on changing rainfall and low river levels"
+        }
+      ],
+      "geographies": [
+        "Suriname interior"
+      ],
+      "affected_groups": [
+        "Indigenous communities",
+        "Maroon communities"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Low river levels during drought restrict boat access to remote Indigenous and Maroon villages, raising transport costs and disrupting essential supplies.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SUR-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SUR-E-004",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SUR-SRC-002",
+          "locator": "Learning from Communities in the Interior"
+        }
+      ],
+      "geographies": [
+        "Kwamalasamutu",
+        "Upper Suriname river"
+      ],
+      "affected_groups": [
+        "Trio Indigenous communities",
+        "Saamaka Maroon communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "physical-baseline",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "WFP consulted Trio communities around Kwamalasamutu and Saamaka communities along the Upper Suriname river on livelihood and supply-chain risks.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SUR-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SUR-E-005",
+      "record_review": "manual-source-passage-review",
+      "claim_verification": "verified",
+      "reopened_on": "2026-10-27",
+      "source_refs": [
+        {
+          "source_id": "SUR-SRC-002",
+          "locator": "Value of Trio Indigenous Knowledge"
+        }
+      ],
+      "geographies": [
+        "Kwamalasamutu"
+      ],
+      "affected_groups": [
+        "Trio Indigenous communities"
+      ],
+      "evidence_class": "resilience-peace-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Trio knowledge and local governance practices support environmental stewardship, adaptation and social cohesion.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SUR-SRC-002"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ],
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "verification_attempt": {
+        "record_id": "SUR-E-005",
+        "source_id": "SUR-SRC-002",
+        "url": "https://caribbean.un.org/en/323591-el-ni%C3%B1o-amazon-building-resilience-crises-suriname",
+        "locator": "Value of Trio Indigenous Knowledge",
+        "accessed_on": "2026-10-27",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "source_access_status": "passage-reviewed",
+        "claim_verification": "verified",
+        "cited_passage_text_extracted": true,
+        "semantic_claim_match_completed": true,
+        "manual_adjudication_completed": true,
+        "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+      },
+      "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+      "manual_adjudication": {
+        "status": "verified",
+        "reviewed_on": "2026-10-27",
+        "source_id": "SUR-SRC-002",
+        "source_url": "https://caribbean.un.org/en/323591-el-ni%C3%B1o-amazon-building-resilience-crises-suriname",
+        "locator": "Value of Trio Indigenous Knowledge",
+        "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+        "reason": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank.",
+        "recommended_record_patch": null,
+        "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+      },
+      "screening_cues_cleared_by_review": []
+    },
+    {
+      "record_id": "SUR-E-006",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "unresolved",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SUR-SRC-003",
+          "locator": "Introduction and Objectives"
+        }
+      ],
+      "geographies": [
+        "Paramaribo historical centre"
+      ],
+      "affected_groups": [],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Paramaribo's waterfront adaptation project links flood protection with heritage, transport access and livelihoods around the Central Market.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [
+        "SUR-SRC-003"
+      ],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SUR-E-101",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SUR-SRC-101",
+          "locator": "Executive summary, PDF p. 2; section 3, table on progress and stakeholder participation, PDF pp. 20-22."
+        }
+      ],
+      "geographies": [
+        "Suriname"
+      ],
+      "affected_groups": [
+        "Indigenous communities",
+        "Maroon communities",
+        "vulnerable groups"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-04-01 reports: The review reports no formal NAP coordinator, low awareness and financial, staffing and technical constraints; Indigenous and Maroon groups were not consistently included in decisions.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SUR-E-102",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SUR-SRC-101",
+          "locator": "Water-sector progress table, PDF p. 31, item on 2022 EnGenDER project."
+        }
+      ],
+      "geographies": [
+        "Brokopondo District",
+        "Sipaliwini District",
+        "Klaaskreek"
+      ],
+      "affected_groups": [
+        "Indigenous communities",
+        "tribal communities"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-04-01 reports: In 2022, EnGenDER provided 95 water tanks to three Indigenous and 34 tribal communities in Brokopondo and Sipaliwini districts; Klaaskreek also received water-system rehabilitation.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SUR-E-103",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SUR-SRC-101",
+          "locator": "Water-sector progress table, PDF p. 30, IICA project completed October 2024."
+        }
+      ],
+      "geographies": [
+        "Matta",
+        "Singri Lanti",
+        "Para District",
+        "Tamarin",
+        "Marowijne District"
+      ],
+      "affected_groups": [
+        "Indigenous households",
+        "Maroon households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-04-01 reports: An IICA project installed low-cost rainwater systems at selected households in Matta and Singri Lanti (Para District) and Tamarin (Marowijne District) to expand potable-water storage.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SUR-E-104",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SUR-SRC-101",
+          "locator": "Education-sector progress table, PDF p. 58, paragraph on schools in the interior."
+        }
+      ],
+      "geographies": [
+        "Boven-Suriname",
+        "Marowijne",
+        "Suriname interior"
+      ],
+      "affected_groups": [
+        "schoolchildren",
+        "teachers",
+        "interior communities"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2025-04-01 reports: The report says schools near riverbeds in Boven-Suriname and Marowijne are considered for relocation from flood-prone sites, but greater distance may impede pupil and teacher access.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SUR-E-105",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SUR-SRC-102",
+          "locator": "Section 6.2, PDF p. 76, paragraphs on the 2022 floods and southern transport routes."
+        }
+      ],
+      "geographies": [
+        "Brokopondo District",
+        "interior districts",
+        "southern areas"
+      ],
+      "affected_groups": [
+        "flood-displaced households",
+        "interior communities"
+      ],
+      "evidence_class": "exposure",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-06 reports: Heavy rains in March 2022 flooded Brokopondo and other interior districts; reported effects included crop losses, hunger and nearly 1,500 displaced people, while flooded southern roads challenged relief access.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SUR-E-106",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SUR-SRC-102",
+          "locator": "Section 6.2 and figure 16, PDF pp. 76-77, World Bank 2023 phone-survey findings."
+        }
+      ],
+      "geographies": [
+        "Suriname"
+      ],
+      "affected_groups": [
+        "female-headed households",
+        "male-headed households"
+      ],
+      "evidence_class": "coping-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-06 reports: In the 2023 phone survey, 61% of households reported extreme rainfall as a threat, 41% reported flood threat, and 57% were unprepared for disasters; unpreparedness was 64% for female-headed versus 59% for male-headed households.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SUR-E-107",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SUR-SRC-102",
+          "locator": "Section 6.1, PDF p. 75, paragraphs on Indigenous and Maroon land rights and forest management."
+        }
+      ],
+      "geographies": [
+        "Suriname interior",
+        "Indigenous and Maroon community lands"
+      ],
+      "affected_groups": [
+        "Indigenous communities",
+        "Maroon communities",
+        "state institutions"
+      ],
+      "evidence_class": "institutional-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated 2023-06 reports: The SCD describes long-standing contention and conflicting state-community land claims in the interior involving Indigenous and Maroon communities; natural-resource wealth complicates the rights debate.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SUR-E-108",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SUR-SRC-103",
+          "locator": "Project lessons, paragraphs on shifting cultivation, demonstration plots and results, webpage paragraphs 2-4."
+        }
+      ],
+      "geographies": [
+        "Suriname interior",
+        "Maroon farming communities"
+      ],
+      "affected_groups": [
+        "Maroon farmers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: IICA reports that micro-sprinkler plots improved farmers’ use and scheduling of irrigation water, reducing water loss in its interior farming project.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SUR-E-109",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SUR-SRC-103",
+          "locator": "Project lessons, paragraphs on the crop nursery and recovered planting material, webpage paragraph 4."
+        }
+      ],
+      "geographies": [
+        "Suriname interior"
+      ],
+      "affected_groups": [
+        "Maroon farmers",
+        "interior households"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: IICA says a crop nursery contributed to recovering bitter cassava and brown upland-rice varieties that had been lost following drought and flooding.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SUR-E-110",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SUR-SRC-104",
+          "locator": "Description and project objective, paragraphs 1-2."
+        }
+      ],
+      "geographies": [
+        "remote rural Maroon villages",
+        "Suriname interior"
+      ],
+      "affected_groups": [
+        "Maroon farmers",
+        "rural households"
+      ],
+      "evidence_class": "sensitivity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: IICA’s 2025 project listing says remote Maroon farms face crop-production losses from increasingly frequent extreme rainfall and drought, alongside constrained tools, resources and technical knowledge.",
+      "concerns": [],
+      "screening_cues": [
+        "numeric_expression_detected_for_human_check"
+      ],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    },
+    {
+      "record_id": "SUR-E-111",
+      "record_review": "automated-field-and-reference-screen",
+      "claim_verification": "access-only",
+      "reopened_on": null,
+      "source_refs": [
+        {
+          "source_id": "SUR-SRC-104",
+          "locator": "Specific objectives and expected results, project listing paragraphs 3-5."
+        }
+      ],
+      "geographies": [
+        "remote rural Maroon villages",
+        "Suriname interior"
+      ],
+      "affected_groups": [
+        "Maroon farmers"
+      ],
+      "evidence_class": "adaptive-capacity",
+      "analytical_role": "vulnerability-capacity",
+      "interaction_direction": "contextual",
+      "evidence_status": "observed",
+      "time_horizons": [
+        "historical"
+      ],
+      "scenario": null,
+      "compact_statement": "Source dated not stated reports: The project planned farmer training and two micro-irrigated multi-crop plots plus a nursery to strengthen Maroon farmers’ climate-smart production skills.",
+      "concerns": [],
+      "screening_cues": [],
+      "source_refs_without_inherited_access_rows": [],
+      "recommendations": [
+        "No wording change is indicated by the record-only check; keep the claim provisional until its cited passage is independently reopened."
+      ]
+    }
+  ],
+  "pathways": [],
+  "review_state": {
+    "candidate_status": "draft",
+    "reviewer": null,
+    "reviewed_on": null,
+    "review_due": null
+  },
+  "selected_record_id": "SUR-E-005",
+  "source_access_review": {
+    "selected_record_id": "SUR-E-005",
+    "selected_source_id": "SUR-SRC-002",
+    "url": "https://caribbean.un.org/en/323591-el-ni%C3%B1o-amazon-building-resilience-crises-suriname",
+    "locator": "Value of Trio Indigenous Knowledge",
+    "accessed_on": "2026-10-27",
+    "access_method": "HTTPS GET; HTML visible-text extraction",
+    "source_access_status": "passage-reviewed",
+    "claim_verification": "verified",
+    "http_status": 200,
+    "content_type": "text/html",
+    "bytes_read": 57493,
+    "declared_bytes": null,
+    "pdf_pages_extracted": [],
+    "cited_passage_text_extracted": true,
+    "semantic_claim_match_completed": true,
+    "error_or_limit": null,
+    "manual_adjudication_completed": true,
+    "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+    "verification_note": "The scoped source-reported claim matches the inspected passage; retain its existing geography, source period, intent/outcome and causal qualifications. This does not verify all claims in this country bank."
+  },
+  "checks": [
+    {
+      "record_id": "SUR-E-005",
+      "source_id": "SUR-SRC-002",
+      "locator": "Value of Trio Indigenous Knowledge",
+      "verification_status": "verified",
+      "verification_method": "Coordinator manually compared the exact candidate claim with the reopened official/publisher locator excerpt (up to350words), extracted by Luna using HTTPS/PDF or HTML text. This is a passage-level check only.",
+      "access_date": "2026-10-27",
+      "source_access_status": "passage-reviewed",
+      "cited_passage_text_extracted": true,
+      "semantic_claim_match_completed": true,
+      "manual_adjudication_completed": true,
+      "recommended_record_patch": null,
+      "coordinator_decision_ref": "research/20261027_remediation/overrides.json"
+    }
+  ],
+  "limitations": [
+    "SUR-E-005: selected passage status is access-only; semantic claim match remains outstanding."
+  ],
+  "record_ids": [
+    "SUR-E-001",
+    "SUR-E-002",
+    "SUR-E-003",
+    "SUR-E-004",
+    "SUR-E-005",
+    "SUR-E-006",
+    "SUR-E-101",
+    "SUR-E-102",
+    "SUR-E-103",
+    "SUR-E-104",
+    "SUR-E-105",
+    "SUR-E-106",
+    "SUR-E-107",
+    "SUR-E-108",
+    "SUR-E-109",
+    "SUR-E-110",
+    "SUR-E-111"
+  ],
+  "coordinator_review_summary": {
+    "source_file": "research/20261027_remediation/overrides.json",
+    "coordinator_decisions_integrated": 1,
+    "auditor_manual_reviews_integrated": 0,
+    "coverage_limit": "Record-level only; does not certify all claims, source identity across all records, any pathway as a whole, or the country bank overall."
+  }
+}
